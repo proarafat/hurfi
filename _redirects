@@ -1,0 +1,4 @@
+# Clean URLs / aliases (backup if not using netlify.toml redirects)
+/home    /    301
+/appointment    /book-consultation/    301
+/book    /book-consultation/    301

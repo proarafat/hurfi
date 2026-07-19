@@ -3,156 +3,184 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hurfi</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #080808;
-      --text: #f4f1ea;
-      --muted: #9a958c;
-      --accent: #d4ff4a;
-      --line: rgba(244, 241, 234, 0.12);
-    }
+  <title>Hurfi | B2B Growth & Digital Presence Partner</title>
+  <meta name="description" content="Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management.">
+  <link rel="canonical" href="https://hurfi.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0076F7">
+  <meta name="author" content="Hurfi">
+  <meta name="geo.region" content="CN">
+  <meta name="keywords" content="Hurfi, Chinese manufacturers, Chinese suppliers, B2B digital marketing, SEO for manufacturers, website development China">
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <meta property="og:site_name" content="Hurfi">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hurfi | B2B Growth & Digital Presence Partner">
+  <meta property="og:description" content="Helping Chinese manufacturers, suppliers, and B2B companies become more visible, trusted, and scalable globally.">
+  <meta property="og:url" content="https://hurfi.com/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://hurfi.com/assets/img/og-default.svg">
 
-    body {
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: "DM Sans", sans-serif;
-      color: var(--text);
-      background:
-        linear-gradient(180deg, transparent 60%, rgba(212, 255, 74, 0.04)),
-        radial-gradient(ellipse 80% 50% at 50% -10%, #222 0%, transparent 55%),
-        radial-gradient(circle at 85% 75%, #151515 0%, transparent 35%),
-        var(--bg);
-      padding: 2rem;
-      text-align: center;
-      overflow: hidden;
-    }
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hurfi | B2B Growth & Digital Presence Partner">
+  <meta name="twitter:description" content="Digital presence partner for Chinese manufacturers, suppliers, and B2B companies.">
+  <meta name="twitter:image" content="https://hurfi.com/assets/img/og-default.svg">
 
-    main {
-      position: relative;
-      max-width: 40rem;
-      animation: rise 0.9s ease-out both;
-    }
-
-    .brand {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: clamp(4.5rem, 16vw, 8rem);
-      font-weight: 400;
-      letter-spacing: -0.05em;
-      line-height: 0.9;
-      margin-bottom: 1.25rem;
-      animation: fade-in 1s ease 0.15s both;
-    }
-
-    .brand em {
-      font-style: italic;
-      color: var(--accent);
-    }
-
-    .tagline {
-      font-size: clamp(1rem, 2.4vw, 1.2rem);
-      font-weight: 400;
-      color: var(--muted);
-      line-height: 1.55;
-      max-width: 26rem;
-      margin: 0 auto 2rem;
-      animation: fade-in 1s ease 0.35s both;
-    }
-
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      justify-content: center;
-      animation: fade-in 1s ease 0.55s both;
-    }
-
-    .btn {
-      display: inline-block;
-      font-size: 0.92rem;
-      font-weight: 600;
-      text-decoration: none;
-      padding: 0.9rem 1.45rem;
-      transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
-    }
-
-    .btn-primary {
-      color: #080808;
-      background: var(--accent);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-3px);
-      background: #e8ff70;
-    }
-
-    .btn-ghost {
-      color: var(--text);
-      background: transparent;
-      border: 1px solid var(--line);
-    }
-
-    .btn-ghost:hover {
-      transform: translateY(-3px);
-      border-color: rgba(244, 241, 234, 0.35);
-    }
-
-    .glow {
-      position: fixed;
-      width: 28rem;
-      height: 28rem;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(212, 255, 74, 0.08), transparent 70%);
-      pointer-events: none;
-      top: 50%;
-      left: 50%;
-      translate: -50% -40%;
-      animation: pulse 6s ease-in-out infinite;
-      z-index: -1;
-    }
-
-    @keyframes rise {
-      from { transform: translateY(18px); }
-      to { transform: translateY(0); }
-    }
-
-    @keyframes fade-in {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 0.55; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.08); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation: none !important;
-        transition: none !important;
-      }
-    }
-  </style>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- SEO:JSONLD:START -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Hurfi","legalName":"Hurfi","url":"https://hurfi.com","email":"yasir@hurfi.com","description":"Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.","slogan":"B2B Growth & Digital Presence Partner","logo":"https://hurfi.com/favicon.svg","areaServed":[{"@type":"Country","name":"China"},{"@type":"Place","name":"Global"}],"knowsAbout":["Chinese manufacturers digital marketing","B2B website development","SEO for Chinese suppliers","Social media management for B2B"],"sameAs":["https://hurfi.com"],"contactPoint":{"@type":"ContactPoint","email":"yasir@hurfi.com","contactType":"sales","availableLanguage":["English","Chinese"]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Hurfi","url":"https://hurfi.com","description":"Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.","inLanguage":"en","publisher":{"@type":"Organization","name":"Hurfi","url":"https://hurfi.com"},"potentialAction":{"@type":"ReserveAction","target":"https://hurfi.com/book-consultation/","name":"Book a Consultation"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why do Chinese B2B companies need a digital presence?","acceptedAnswer":{"@type":"Answer","text":"Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted by international partners."}},{"@type":"Question","name":"How can Hurfi help Chinese manufacturers grow online?","acceptedAnswer":{"@type":"Answer","text":"Hurfi combines websites, SEO, digital marketing, and social media management to build visibility, credibility, and scalable growth for Chinese manufacturing companies."}},{"@type":"Question","name":"Does Hurfi work with Chinese suppliers and exporters?","acceptedAnswer":{"@type":"Answer","text":"Yes. Hurfi specializes in helping Chinese suppliers, exporters, and B2B companies create trusted online identities for global markets."}},{"@type":"Question","name":"What makes Hurfi different from a typical digital agency?","acceptedAnswer":{"@type":"Answer","text":"Hurfi positions as a B2B Growth & Digital Presence Partner — focused on Chinese manufacturers and suppliers, long-term strategy, and global market visibility rather than one-off creative work."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Hurfi","url":"https://hurfi.com","description":"Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.","areaServed":{"@type":"Country","name":"China"},"serviceType":["Website Development","SEO","Digital Marketing","Social Media Management"],"audience":{"@type":"BusinessAudience","audienceType":"Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies"}}</script>
+  <!-- SEO:JSONLD:END -->
 </head>
-<body>
-  <div class="glow" aria-hidden="true"></div>
-  <main>
-    <h1 class="brand">Hur<em>fi</em></h1>
-    <p class="tagline">Design, brand, and build — creative projects that move from idea to launch.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="https://hurfi.com">Explore Hurfi</a>
-      <a class="btn btn-ghost" href="mailto:yasir@hurfi.com">Get in touch</a>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">Hur<span>fi</span></a>
+      <nav aria-label="Main" data-site-nav>
+        <ul class="nav">
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="about/">About</a></li>
+          <li class="has-dropdown">
+            <a href="services/">Services</a>
+            <ul class="dropdown">
+              <li><a href="services/website-development/">Website Development</a></li>
+              <li><a href="services/seo/">SEO</a></li>
+              <li><a href="services/digital-marketing/">Digital Marketing</a></li>
+              <li><a href="services/social-media-management/">Social Media Management</a></li>
+            </ul>
+          </li>
+          <li><a href="projects/">Projects</a></li>
+          <li><a href="case-studies/">Case Studies</a></li>
+          <li><a href="industries/">Industries</a></li>
+          <li><a href="locations/">Locations</a></li>
+          <li><a href="contact/">Contact Us</a></li>
+          <li><a class="btn" href="book-consultation/">Book a Consultation</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Build a Powerful Digital Presence for Your Chinese B2B Business</h1>
+        <p class="lead">Hurfi helps Chinese manufacturers, suppliers, and B2B companies grow globally through strategic websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable worldwide.</p>
+        <div class="cta-row">
+          <a class="btn" href="book-consultation/">Book a Consultation</a>
+          <a class="btn btn-outline" href="projects/">Explore Our Work</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-hurfi">
+      <div class="container">
+        <h2>Why Hurfi</h2>
+        <p>Many Chinese manufacturers and suppliers have great products and strong production capability — but a weak online presence.</p>
+        <p>Hurfi helps Chinese B2B companies build credibility, attract global buyers, improve online visibility, and create lasting brand trust.</p>
+      </div>
+    </section>
+
+    <section class="section" id="services-preview">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3><a href="services/website-development/">Website Development</a></h3>
+            <p>Professional B2B websites that showcase products, capabilities, and build trust for Chinese manufacturers and suppliers.</p>
+          </article>
+          <article class="card">
+            <h3><a href="services/seo/">SEO</a></h3>
+            <p>Improving search visibility so Chinese companies can reach more global buyers and partners.</p>
+          </article>
+          <article class="card">
+            <h3><a href="services/digital-marketing/">Digital Marketing</a></h3>
+            <p>Campaigns that generate awareness and business opportunities for Chinese B2B brands.</p>
+          </article>
+          <article class="card">
+            <h3><a href="services/social-media-management/">Social Media Management</a></h3>
+            <p>Consistent brand presence through strategic content and professional communication.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="industries-preview">
+      <div class="container">
+        <h2>Industries We Serve</h2>
+        <ul class="list-plain">
+          <li>Chinese Manufacturing Companies</li>
+          <li>Chinese Industrial Suppliers</li>
+          <li>Chinese Export Businesses</li>
+          <li>Technology Companies</li>
+          <li>Product-Based B2B Businesses</li>
+        </ul>
+        <p class="note"><a href="industries/">View all industries →</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <h2>Our Process</h2>
+        <ol class="list-plain">
+          <li>Discover</li>
+          <li>Strategize</li>
+          <li>Build</li>
+          <li>Optimize</li>
+          <li>Grow</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="featured-projects">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <p>Selected work for Chinese manufacturers, suppliers, and B2B companies. Full portfolio coming soon.</p>
+        <p class="note"><a href="projects/">View All Projects →</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="case-studies-preview">
+      <div class="container">
+        <h2>Case Studies</h2>
+        <p>Before → Strategy → Result stories showing how Hurfi helps Chinese companies grow online.</p>
+        <p class="note"><a href="case-studies/">View Case Studies →</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <p class="note">Answers auto-update from <code>data/site.config.json</code> (AEO-ready).</p>
+        <div class="grid" id="faq-dynamic">
+          <article class="card">
+            <h3>Why do Chinese B2B companies need a digital presence?</h3>
+            <p>Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted.</p>
+          </article>
+          <article class="card">
+            <h3>How can Hurfi help Chinese manufacturers grow online?</h3>
+            <p>Hurfi combines websites, SEO, digital marketing, and social media management to build visibility, credibility, and scalable growth for Chinese B2B businesses.</p>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Hurfi — B2B Growth & Digital Presence Partner for Chinese companies.</p>
+      <ul class="footer-links">
+        <li><a href="contact/">Contact</a></li>
+        <li><a href="book-consultation/">Book a Consultation</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+        <li><a href="llms.txt">llms.txt</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/assets/js/site-data.js"></script>
+  <script src="/assets/js/schema-data.js"></script>
+  <script src="/assets/js/site.js"></script>
 </body>
 </html>

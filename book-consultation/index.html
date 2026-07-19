@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Consultation | Hurfi</title>
+  <meta name="description" content="Book a consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="theme-color" content="#0076F7">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-page="conversion">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">Hur<span>fi</span></a>
+      <nav aria-label="Main" data-site-nav>
+        <ul class="nav">
+          <li><a href="../">Home</a></li>
+          <li><a href="../about/">About</a></li>
+          <li class="has-dropdown">
+            <a href="../services/">Services</a>
+            <ul class="dropdown">
+              <li><a href="../services/website-development/">Website Development</a></li>
+              <li><a href="../services/seo/">SEO</a></li>
+              <li><a href="../services/digital-marketing/">Digital Marketing</a></li>
+              <li><a href="../services/social-media-management/">Social Media Management</a></li>
+            </ul>
+          </li>
+          <li><a href="../projects/">Projects</a></li>
+          <li><a href="../case-studies/">Case Studies</a></li>
+          <li><a href="../industries/">Industries</a></li>
+          <li><a href="../contact/">Contact Us</a></li>
+          <li><a class="btn" href="./" aria-current="page">Book a Consultation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Book a Consultation</h1>
+        <p class="lead">Tell us about your Chinese manufacturing, supplier, or B2B business — we’ll help you plan a stronger digital presence.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form action="/thank-you/" class="form" name="book-consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="book-consultation">
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field"></label>
+          </p>
+          <label>Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Company Name
+            <input type="text" name="company" required>
+          </label>
+          <label>Industry
+            <select name="industry" required>
+              <option value="">Select industry</option>
+              <option>Chinese Manufacturing</option>
+              <option>Chinese Industrial Suppliers</option>
+              <option>Chinese Export Business</option>
+              <option>Electronics</option>
+              <option>Machinery</option>
+              <option>Textile</option>
+              <option>Other B2B</option>
+            </select>
+          </label>
+          <label>Website
+            <input type="url" name="website" placeholder="https://">
+          </label>
+          <label>Business Goal
+            <textarea name="goal" placeholder="e.g. Reach global buyers, improve SEO, rebuild website"></textarea>
+          </label>
+          <label>Budget Range
+            <select name="budget">
+              <option value="">Select range</option>
+              <option>Under $1,000</option>
+              <option>$1,000 – $5,000</option>
+              <option>$5,000 – $15,000</option>
+              <option>$15,000+</option>
+            </select>
+          </label>
+          <label>Preferred Meeting Time
+            <input type="text" name="meeting_time" placeholder="e.g. Weekday mornings (CST)">
+          </label>
+          <button class="btn" type="submit">Request Consultation</button>
+        </form>
+        <p class="note">Uses Netlify Forms — submissions appear in your Netlify dashboard after deploy.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Hurfi</p>
+      <ul class="footer-links">
+        <li><a href="../contact/">Contact</a></li>
+        <li><a href="./">Book a Consultation</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/assets/js/site-data.js"></script>
+  <script src="/assets/js/schema-data.js"></script>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>

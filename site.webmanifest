@@ -1,0 +1,17 @@
+{
+  "name": "Hurfi",
+  "short_name": "Hurfi",
+  "description": "B2B Growth & Digital Presence Partner for Chinese manufacturers and suppliers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0076F7",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

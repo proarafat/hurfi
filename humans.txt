@@ -1,0 +1,10 @@
+/* TEAM */
+Organization: Hurfi
+Contact: yasir@hurfi.com
+Focus: Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies
+
+/* SITE */
+Standards: HTML5, CSS3
+Hosting: Netlify
+Source: GitHub
+Last update: 2026-07-19

@@ -1,0 +1,6 @@
+# AI / answer engines
+Site: https://hurfi.com
+llms: https://hurfi.com/llms.txt
+sitemap: https://hurfi.com/sitemap.xml
+contact: yasir@hurfi.com
+audience: Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies

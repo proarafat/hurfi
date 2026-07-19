@@ -1,0 +1,22 @@
+# Dependencies & local tooling
+node_modules/
+.npm/
+.cache/
+
+# Netlify
+.netlify/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Optional local build output
+dist/

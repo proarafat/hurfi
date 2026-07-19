@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Hurfi</title>
+  <meta name="description" content="Contact Hurfi — B2B growth partner for Chinese manufacturers, suppliers, and exporters.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="theme-color" content="#0076F7">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">Hur<span>fi</span></a>
+      <nav aria-label="Main" data-site-nav>
+        <ul class="nav">
+          <li><a href="../">Home</a></li>
+          <li><a href="../about/">About</a></li>
+          <li class="has-dropdown">
+            <a href="../services/">Services</a>
+            <ul class="dropdown">
+              <li><a href="../services/website-development/">Website Development</a></li>
+              <li><a href="../services/seo/">SEO</a></li>
+              <li><a href="../services/digital-marketing/">Digital Marketing</a></li>
+              <li><a href="../services/social-media-management/">Social Media Management</a></li>
+            </ul>
+          </li>
+          <li><a href="../projects/">Projects</a></li>
+          <li><a href="../case-studies/">Case Studies</a></li>
+          <li><a href="../industries/">Industries</a></li>
+          <li><a href="./" aria-current="page">Contact Us</a></li>
+          <li><a class="btn" href="../book-consultation/">Book a Consultation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead">Talk to Hurfi about growing your Chinese manufacturing, supplier, or B2B brand online.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2>Business Inquiry</h2>
+        <p>Email: <a href="mailto:yasir@hurfi.com">yasir@hurfi.com</a></p>
+        <p class="note">WhatsApp number can be added here later.</p>
+
+        <form action="/thank-you/" class="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field"></label>
+          </p>
+          <label>Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Company Name
+            <input type="text" name="company" required>
+          </label>
+          <label>Industry
+            <input type="text" name="industry" placeholder="e.g. Chinese manufacturing">
+          </label>
+          <label>Message
+            <textarea name="message" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send Inquiry</button>
+        </form>
+
+        <div class="cta-row">
+          <a class="btn btn-outline" href="../book-consultation/">Book a Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Hurfi</p>
+      <ul class="footer-links">
+        <li><a href="./">Contact</a></li>
+        <li><a href="../book-consultation/">Book a Consultation</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/assets/js/site-data.js"></script>
+  <script src="/assets/js/schema-data.js"></script>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>

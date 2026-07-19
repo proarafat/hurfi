@@ -1,0 +1,204 @@
+{
+  "siteUrl": "https://hurfi.com",
+  "name": "Hurfi",
+  "legalName": "Hurfi",
+  "tagline": "B2B Growth & Digital Presence Partner",
+  "description": "Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.",
+  "email": "yasir@hurfi.com",
+  "phone": "",
+  "brandColor": "#0076F7",
+  "locale": "en",
+  "ogImage": "/assets/img/og-default.svg",
+  "twitterHandle": "",
+  "sameAs": [
+    "https://hurfi.com"
+  ],
+  "targetMarket": "Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies",
+  "primaryCTA": {
+    "label": "Book a Consultation",
+    "url": "/book-consultation/"
+  },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about/" },
+    {
+      "label": "Services",
+      "path": "/services/",
+      "children": [
+        { "label": "Website Development", "path": "/services/website-development/" },
+        { "label": "SEO", "path": "/services/seo/" },
+        { "label": "Digital Marketing", "path": "/services/digital-marketing/" },
+        { "label": "Social Media Management", "path": "/services/social-media-management/" }
+      ]
+    },
+    { "label": "Projects", "path": "/projects/" },
+    { "label": "Case Studies", "path": "/case-studies/" },
+    { "label": "Industries", "path": "/industries/" },
+    { "label": "Locations", "path": "/locations/" },
+    { "label": "Contact Us", "path": "/contact/" },
+    { "label": "Book a Consultation", "path": "/book-consultation/", "cta": true }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Hurfi | B2B Growth & Digital Presence Partner",
+      "description": "Hurfi helps Chinese manufacturers, suppliers, and B2B companies grow globally through websites, SEO, digital marketing, and social media management.",
+      "changefreq": "weekly",
+      "priority": 1.0,
+      "type": "home"
+    },
+    {
+      "path": "/about/",
+      "title": "About Hurfi | B2B Growth Partner for Chinese Companies",
+      "description": "Hurfi is a digital growth partner helping Chinese manufacturers, suppliers, exporters, and B2B companies create strong online identities.",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "type": "about"
+    },
+    {
+      "path": "/services/",
+      "title": "Services | Hurfi — Digital Growth for Chinese B2B Companies",
+      "description": "Website development, SEO, digital marketing, and social media management for Chinese manufacturers, suppliers, and B2B companies.",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "type": "services"
+    },
+    {
+      "path": "/services/website-development/",
+      "title": "Website Development | Hurfi",
+      "description": "B2B website design and development for Chinese manufacturers, suppliers, and corporate brands.",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "type": "service"
+    },
+    {
+      "path": "/services/seo/",
+      "title": "SEO | Hurfi",
+      "description": "SEO services for Chinese manufacturers and suppliers — technical, on-page, local, and international SEO.",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "type": "service"
+    },
+    {
+      "path": "/services/digital-marketing/",
+      "title": "Digital Marketing | Hurfi",
+      "description": "Digital marketing and lead generation for Chinese manufacturers, suppliers, and B2B companies.",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "type": "service"
+    },
+    {
+      "path": "/services/social-media-management/",
+      "title": "Social Media Management | Hurfi",
+      "description": "Social media management for Chinese manufacturers and suppliers — content, LinkedIn, and brand storytelling.",
+      "changefreq": "monthly",
+      "priority": 0.85,
+      "type": "service"
+    },
+    {
+      "path": "/projects/",
+      "title": "Projects | Hurfi",
+      "description": "Selected digital projects for Chinese manufacturers, suppliers, and B2B companies.",
+      "changefreq": "weekly",
+      "priority": 0.7,
+      "type": "projects"
+    },
+    {
+      "path": "/case-studies/",
+      "title": "Case Studies | Hurfi",
+      "description": "Case studies showing how Hurfi helps Chinese manufacturers and suppliers grow through digital presence.",
+      "changefreq": "weekly",
+      "priority": 0.8,
+      "type": "case-studies"
+    },
+    {
+      "path": "/industries/",
+      "title": "Industries | Hurfi",
+      "description": "Digital growth for Chinese manufacturers, industrial suppliers, electronics, machinery, textile, and export businesses.",
+      "changefreq": "weekly",
+      "priority": 0.85,
+      "type": "industries"
+    },
+    {
+      "path": "/locations/",
+      "title": "Locations | Hurfi — Digital Marketing for Chinese Markets",
+      "description": "Location-focused digital growth pages for Chinese manufacturers and suppliers in China and key global markets.",
+      "changefreq": "monthly",
+      "priority": 0.7,
+      "type": "locations"
+    },
+    {
+      "path": "/locations/china/",
+      "title": "Digital Marketing for Chinese Manufacturers | Hurfi China",
+      "description": "Hurfi helps Chinese manufacturers and suppliers in China build global digital presence with websites, SEO, marketing, and social media.",
+      "changefreq": "monthly",
+      "priority": 0.85,
+      "type": "location",
+      "geo": {
+        "name": "China",
+        "countryCode": "CN"
+      }
+    },
+    {
+      "path": "/contact/",
+      "title": "Contact Us | Hurfi",
+      "description": "Contact Hurfi — B2B growth partner for Chinese manufacturers, suppliers, and exporters.",
+      "changefreq": "yearly",
+      "priority": 0.6,
+      "type": "contact"
+    },
+    {
+      "path": "/book-consultation/",
+      "title": "Book a Consultation | Hurfi",
+      "description": "Book a consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.",
+      "changefreq": "yearly",
+      "priority": 0.9,
+      "type": "conversion"
+    },
+    {
+      "path": "/thank-you/",
+      "title": "Thank You | Hurfi",
+      "description": "Thanks for contacting Hurfi. We’ll get back to you soon.",
+      "changefreq": "yearly",
+      "priority": 0.2,
+      "type": "utility",
+      "noindex": true
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why do Chinese B2B companies need a digital presence?",
+      "answer": "Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted by international partners."
+    },
+    {
+      "question": "How can Hurfi help Chinese manufacturers grow online?",
+      "answer": "Hurfi combines websites, SEO, digital marketing, and social media management to build visibility, credibility, and scalable growth for Chinese manufacturing companies."
+    },
+    {
+      "question": "Does Hurfi work with Chinese suppliers and exporters?",
+      "answer": "Yes. Hurfi specializes in helping Chinese suppliers, exporters, and B2B companies create trusted online identities for global markets."
+    },
+    {
+      "question": "What makes Hurfi different from a typical digital agency?",
+      "answer": "Hurfi positions as a B2B Growth & Digital Presence Partner — focused on Chinese manufacturers and suppliers, long-term strategy, and global market visibility rather than one-off creative work."
+    }
+  ],
+  "services": [
+    {
+      "name": "Website Development",
+      "path": "/services/website-development/"
+    },
+    {
+      "name": "SEO",
+      "path": "/services/seo/"
+    },
+    {
+      "name": "Digital Marketing",
+      "path": "/services/digital-marketing/"
+    },
+    {
+      "name": "Social Media Management",
+      "path": "/services/social-media-management/"
+    }
+  ]
+}
