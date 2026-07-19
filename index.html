@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hurfi</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --text: #f5f5f5;
+      --muted: #a3a3a3;
+      --accent: #e8ff47;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse at 20% 20%, #1a1a1a 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, #141414 0%, transparent 45%),
+        var(--bg);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 12vw, 6rem);
+      letter-spacing: -0.04em;
+      line-height: 0.95;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 28rem;
+      margin: 0 auto 1.75rem;
+      line-height: 1.5;
+    }
+
+    a {
+      display: inline-block;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #0a0a0a;
+      background: var(--accent);
+      text-decoration: none;
+      padding: 0.85rem 1.4rem;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    a:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hurfi</h1>
+    <p>Creative work, started simply. This site is live and ready to grow.</p>
+    <a href="https://hurfi.com">Visit hurfi.com</a>
+  </main>
+</body>
+</html>
