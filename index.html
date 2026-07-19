@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hurfi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0a0a0a;
-      --text: #f5f5f5;
-      --muted: #a3a3a3;
-      --accent: #e8ff47;
+      --bg: #080808;
+      --text: #f4f1ea;
+      --muted: #9a958c;
+      --accent: #d4ff4a;
+      --line: rgba(244, 241, 234, 0.12);
     }
 
     * {
@@ -22,55 +26,133 @@
       min-height: 100vh;
       display: grid;
       place-items: center;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: "DM Sans", sans-serif;
       color: var(--text);
       background:
-        radial-gradient(ellipse at 20% 20%, #1a1a1a 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 80%, #141414 0%, transparent 45%),
+        linear-gradient(180deg, transparent 60%, rgba(212, 255, 74, 0.04)),
+        radial-gradient(ellipse 80% 50% at 50% -10%, #222 0%, transparent 55%),
+        radial-gradient(circle at 85% 75%, #151515 0%, transparent 35%),
         var(--bg);
       padding: 2rem;
       text-align: center;
+      overflow: hidden;
     }
 
-    h1 {
-      font-size: clamp(3rem, 12vw, 6rem);
-      letter-spacing: -0.04em;
-      line-height: 0.95;
-      margin-bottom: 0.75rem;
+    main {
+      position: relative;
+      max-width: 40rem;
+      animation: rise 0.9s ease-out both;
     }
 
-    p {
-      font-family: "Segoe UI", Tahoma, sans-serif;
-      font-size: 1.05rem;
+    .brand {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: clamp(4.5rem, 16vw, 8rem);
+      font-weight: 400;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      margin-bottom: 1.25rem;
+      animation: fade-in 1s ease 0.15s both;
+    }
+
+    .brand em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .tagline {
+      font-size: clamp(1rem, 2.4vw, 1.2rem);
+      font-weight: 400;
       color: var(--muted);
-      max-width: 28rem;
-      margin: 0 auto 1.75rem;
-      line-height: 1.5;
+      line-height: 1.55;
+      max-width: 26rem;
+      margin: 0 auto 2rem;
+      animation: fade-in 1s ease 0.35s both;
     }
 
-    a {
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      animation: fade-in 1s ease 0.55s both;
+    }
+
+    .btn {
       display: inline-block;
-      font-family: "Segoe UI", Tahoma, sans-serif;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       font-weight: 600;
-      color: #0a0a0a;
-      background: var(--accent);
       text-decoration: none;
-      padding: 0.85rem 1.4rem;
-      transition: transform 0.2s ease, opacity 0.2s ease;
+      padding: 0.9rem 1.45rem;
+      transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
     }
 
-    a:hover {
-      transform: translateY(-2px);
-      opacity: 0.92;
+    .btn-primary {
+      color: #080808;
+      background: var(--accent);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      background: #e8ff70;
+    }
+
+    .btn-ghost {
+      color: var(--text);
+      background: transparent;
+      border: 1px solid var(--line);
+    }
+
+    .btn-ghost:hover {
+      transform: translateY(-3px);
+      border-color: rgba(244, 241, 234, 0.35);
+    }
+
+    .glow {
+      position: fixed;
+      width: 28rem;
+      height: 28rem;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212, 255, 74, 0.08), transparent 70%);
+      pointer-events: none;
+      top: 50%;
+      left: 50%;
+      translate: -50% -40%;
+      animation: pulse 6s ease-in-out infinite;
+      z-index: -1;
+    }
+
+    @keyframes rise {
+      from { transform: translateY(18px); }
+      to { transform: translateY(0); }
+    }
+
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.55; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.08); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="glow" aria-hidden="true"></div>
   <main>
-    <h1>Hurfi</h1>
-    <p>Creative work, started simply. This site is live and ready to grow.</p>
-    <a href="https://hurfi.com">Visit hurfi.com</a>
+    <h1 class="brand">Hur<em>fi</em></h1>
+    <p class="tagline">Design, brand, and build — creative projects that move from idea to launch.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="https://hurfi.com">Explore Hurfi</a>
+      <a class="btn btn-ghost" href="mailto:yasir@hurfi.com">Get in touch</a>
+    </div>
   </main>
 </body>
 </html>
