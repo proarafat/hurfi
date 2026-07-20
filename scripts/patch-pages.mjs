@@ -27,6 +27,8 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
+const ASSET_V = "20260720b";
+
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">
       <a class="logo" href="/" aria-label="Hurfi home"></a>
@@ -34,9 +36,9 @@ const HEADER_BLOCK = `  <header class="site-header">
     </div>
   </header>`;
 
-const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js"></script>
-  <script src="/assets/js/schema-data.js"></script>
-  <script src="/assets/js/site.js"></script>
+const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js?v=${ASSET_V}"></script>
+  <script src="/assets/js/schema-data.js?v=${ASSET_V}"></script>
+  <script src="/assets/js/site.js?v=${ASSET_V}"></script>
 </body>`;
 
 function walk(dir, out = []) {
@@ -62,8 +64,8 @@ for (const file of walk(root)) {
   let changed = false;
 
   html = html.replace(
-    /href="(?:\.\.\/)*(?:assets\/css\/style\.css)"/g,
-    'href="/assets/css/style.css"'
+    /href="(?:\.\.\/)*(?:assets\/css\/style\.css)(?:\?[^"]*)?"/g,
+    `href="/assets/css/style.css?v=${ASSET_V}"`
   );
 
   if (!html.includes('rel="icon"')) {
@@ -107,7 +109,7 @@ for (const file of walk(root)) {
     ""
   );
   html = html.replace(
-    /\s*<script src="[^"]*assets\/js\/(?:site-data|schema-data|site)\.js"><\/script>/g,
+    /\s*<script src="[^"]*assets\/js\/(?:site-data|schema-data|site)\.js(?:\?[^"]*)?"><\/script>/g,
     ""
   );
   html = html.replace(/<\/body>/i, SCRIPT_BLOCK);
