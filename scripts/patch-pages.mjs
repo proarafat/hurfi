@@ -1,11 +1,6 @@
 #!/usr/bin/env node
 /**
- * Normalizes all HTML pages:
- * - absolute /assets paths
- * - favicon + theme-color
- * - SEO script trio
- * - Netlify form thank-you action
- * - data-page on body when missing
+ * Normalizes all HTML pages for consistent header + assets + forms.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -32,6 +27,18 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
+const HEADER_BLOCK = `  <header class="site-header">
+    <div class="container container-nav header-inner">
+      <a class="logo" href="/" aria-label="Hurfi home"></a>
+      <nav id="site-nav" class="site-nav" aria-label="Main" data-site-nav></nav>
+    </div>
+  </header>`;
+
+const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js"></script>
+  <script src="/assets/js/schema-data.js"></script>
+  <script src="/assets/js/site.js"></script>
+</body>`;
+
 function walk(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.name === ".git" || entry.name === "node_modules") continue;
@@ -49,47 +56,52 @@ function pathFromFile(file) {
   return "/" + rel.replace(/\/index\.html$/, "/");
 }
 
-const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js"></script>
-  <script src="/assets/js/schema-data.js"></script>
-  <script src="/assets/js/site.js"></script>
-</body>`;
-
 for (const file of walk(root)) {
   let html = fs.readFileSync(file, "utf8");
   const pagePath = pathFromFile(file);
   let changed = false;
 
-  // Absolute CSS
-  const cssFixed = html.replace(
+  html = html.replace(
     /href="(?:\.\.\/)*(?:assets\/css\/style\.css)"/g,
     'href="/assets/css/style.css"'
   );
-  if (cssFixed !== html) {
-    html = cssFixed;
-    changed = true;
-  }
 
-  // Favicon + theme-color
   if (!html.includes('rel="icon"')) {
     html = html.replace(
       "</head>",
-      `  <meta name="theme-color" content="#0076F7">\n  <link rel="icon" href="/favicon.svg" type="image/svg+xml">\n</head>`
+      `  <meta name="theme-color" content="#0076F7">\n  <link rel="icon" href="/assets/img/hurfi-icon.svg" type="image/svg+xml">\n</head>`
     );
-    changed = true;
+  } else {
+    html = html.replace(/href="\/favicon\.svg"/g, 'href="/assets/img/hurfi-icon.svg"');
   }
 
-  // data-page
-  if (pagePath && PAGE_TYPES[pagePath] && !/data-page=/.test(html)) {
+  // Canonical header on every page that has one
+  if (/<header\b[^>]*class="[^"]*site-header/.test(html)) {
+    const next = html.replace(
+      /<header\b[^>]*class="[^"]*site-header[^"]*"[^>]*>[\s\S]*?<\/header>/,
+      HEADER_BLOCK
+    );
+    if (next !== html) {
+      html = next;
+      changed = true;
+    }
+  }
+
+  if (pagePath && PAGE_TYPES[pagePath]) {
     const type = PAGE_TYPES[pagePath];
-    const geo =
-      pagePath === "/locations/china/" ? ' data-geo="China"' : "";
-    html = html.replace(/<body([^>]*)>/, `<body$1 data-page="${type}"${geo}>`);
-    // clean double spaces in body tag
-    html = html.replace(/<body\s+/, "<body ");
+    const geo = pagePath === "/locations/china/" ? ' data-geo="China"' : "";
+    if (!/data-page=/.test(html)) {
+      html = html.replace(/<body([^>]*)>/, `<body$1 data-page="${type}"${geo}>`);
+      html = html.replace(/<body\s+/, "<body ");
+      changed = true;
+    }
+  }
+
+  if (/data-netlify="true"/.test(html) && !/action="\/thank-you\/"/.test(html)) {
+    html = html.replace(/<form\b/, '<form action="/thank-you/"');
     changed = true;
   }
 
-  // Normalize footer scripts (always)
   html = html.replace(
     /\s*<script>document\.getElementById\("year"\)[\s\S]*?<\/script>/g,
     ""
@@ -98,38 +110,10 @@ for (const file of walk(root)) {
     /\s*<script src="[^"]*assets\/js\/(?:site-data|schema-data|site)\.js"><\/script>/g,
     ""
   );
-  if (!/<\/body>/i.test(html)) {
-    console.warn("No </body> in", file);
-  } else {
-    html = html.replace(/<\/body>/i, SCRIPT_BLOCK);
-    changed = true;
-  }
+  html = html.replace(/<\/body>/i, SCRIPT_BLOCK);
 
-  // Form thank-you (Netlify)
-  if (/data-netlify="true"/.test(html)) {
-    if (!/action="\/thank-you\/"/.test(html)) {
-      html = html.replace(/<form\b/, '<form action="/thank-you/"');
-      changed = true;
-    }
-  }
-
-  // Logo to absolute home
-  html = html.replace(/<a class="logo" href="(?:\.\.\/)+">/g, '<a class="logo" href="/">');
-  html = html.replace(/<a class="logo" href="\.\/">/g, '<a class="logo" href="/">');
-
-  // Mark nav for dynamic rebuild
-  if (!html.includes("data-site-nav") && /aria-label="Main"/.test(html)) {
-    html = html.replace(
-      /<nav aria-label="Main">/,
-      '<nav aria-label="Main" data-site-nav>'
-    );
-    changed = true;
-  }
-
-  if (changed || html.includes("/assets/js/site.js")) {
-    fs.writeFileSync(file, html);
-    console.log("✓ patched", path.relative(root, file));
-  }
+  fs.writeFileSync(file, html);
+  console.log("✓", path.relative(root, file));
 }
 
-console.log("HTML patch complete.");
+console.log("HTML normalize complete.");

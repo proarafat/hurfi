@@ -9,7 +9,7 @@ window.HURFI_SCHEMA = {
   "email": "yasir@hurfi.com",
   "description": "Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.",
   "slogan": "B2B Growth & Digital Presence Partner",
-  "logo": "https://hurfi.com/favicon.svg",
+  "logo": "https://hurfi.com/assets/img/hurfi-icon.svg",
   "areaServed": [
     {
       "@type": "Country",

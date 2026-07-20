@@ -178,7 +178,7 @@ const orgSchema = {
   email: config.email,
   description: config.description,
   slogan: config.tagline,
-  logo: `${siteUrl}/favicon.svg`,
+  logo: `${siteUrl}/assets/img/hurfi-icon.svg`,
   areaServed: [
     { "@type": "Country", name: "China" },
     { "@type": "Place", name: "Global" },

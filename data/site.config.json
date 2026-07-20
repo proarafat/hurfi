@@ -28,7 +28,7 @@
         { "label": "Website Development", "path": "/services/website-development/" },
         { "label": "SEO", "path": "/services/seo/" },
         { "label": "Digital Marketing", "path": "/services/digital-marketing/" },
-        { "label": "Social Media Management", "path": "/services/social-media-management/" }
+        { "label": "Social Media Management", "path": "/services/social-media-management/", "badge": "Hot" }
       ]
     },
     { "label": "Projects", "path": "/projects/" },
@@ -198,7 +198,8 @@
     },
     {
       "name": "Social Media Management",
-      "path": "/services/social-media-management/"
+      "path": "/services/social-media-management/",
+      "badge": "Hot"
     }
   ]
 }
