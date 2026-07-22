@@ -422,16 +422,23 @@
   }
 
   function getOfferEndsAt(hours) {
+    var windowMs = Math.max(1, hours || 48) * 60 * 60 * 1000;
     try {
       var raw = localStorage.getItem(OFFER_ENDS_KEY);
       var ends = raw ? parseInt(raw, 10) : 0;
       if (!ends || isNaN(ends)) {
-        ends = Date.now() + Math.max(1, hours || 48) * 60 * 60 * 1000;
+        ends = Date.now() + windowMs;
         localStorage.setItem(OFFER_ENDS_KEY, String(ends));
+        return ends;
       }
+      // Loop: when a window expires, start a fresh 48h cycle
+      while (ends <= Date.now()) {
+        ends += windowMs;
+      }
+      localStorage.setItem(OFFER_ENDS_KEY, String(ends));
       return ends;
     } catch (e) {
-      return Date.now() + Math.max(1, hours || 48) * 60 * 60 * 1000;
+      return Date.now() + windowMs;
     }
   }
 
@@ -464,11 +471,9 @@
     }
   }
 
-  function shouldShowOfferBar(cta) {
+  function shouldShowOfferBar() {
     if (isOfferDismissed()) return false;
-    if (!isFirstViewPage()) return false;
-    var ends = getOfferEndsAt(cta.offerHours);
-    return ends > Date.now();
+    return isFirstViewPage();
   }
 
   function injectOfferBar() {
@@ -476,9 +481,10 @@
     var header = document.querySelector(".site-header");
     if (!header) return;
     var cta = getCtaMeta();
-    if (!shouldShowOfferBar(cta)) return;
+    if (!shouldShowOfferBar()) return;
 
-    var endsAt = getOfferEndsAt(cta.offerHours);
+    var hours = cta.offerHours || 48;
+    var endsAt = getOfferEndsAt(hours);
     var bar = document.createElement("div");
     bar.className = "site-offer-bar";
     bar.setAttribute("role", "region");
@@ -505,14 +511,14 @@
 
     function tick() {
       var left = endsAt - Date.now();
+      if (left <= 0) {
+        endsAt = getOfferEndsAt(hours);
+        left = endsAt - Date.now();
+      }
       var parts = formatCountdown(left);
       if (timeEl) {
         timeEl.textContent = parts.text;
         timeEl.setAttribute("datetime", new Date(endsAt).toISOString());
-      }
-      if (parts.expired) {
-        if (timerId) clearInterval(timerId);
-        bar.remove();
       }
     }
 
