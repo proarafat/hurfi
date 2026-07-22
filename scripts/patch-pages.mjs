@@ -27,7 +27,7 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
-const ASSET_V = "20260723c";
+const ASSET_V = "20260723d";
 
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">

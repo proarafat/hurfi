@@ -19,7 +19,8 @@
     "url": "/book-consultation/",
     "free": true,
     "freeLabel": "Always free",
-    "offerBar": "Free consultation — always $0 · Limited booking slots this week",
+    "offerBar": "Limited-time priority booking for free consultation",
+    "offerHours": 48,
     "timeline": [
       { "label": "Book", "hint": "Free" },
       { "label": "Meet", "hint": "30 min" },

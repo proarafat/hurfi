@@ -363,7 +363,8 @@
       (window.HURFI_SITE && window.HURFI_SITE.primaryCTA) || {
         url: "/book-consultation/",
         freeLabel: "Always free",
-        offerBar: "Free consultation — always $0 · Limited booking slots this week",
+        offerBar: "Limited-time priority booking for free consultation",
+        offerHours: 48,
         timeline: [
           { label: "Book", hint: "Free" },
           { label: "Meet", hint: "30 min" },
@@ -393,28 +394,139 @@
     return list;
   }
 
+  var OFFER_DISMISS_KEY = "hurfi_offer_dismissed";
+  var OFFER_ENDS_KEY = "hurfi_offer_ends_at";
+  var OFFER_ENTRY_KEY = "hurfi_offer_entry_path";
+
+  function pad2(n) {
+    return n < 10 ? "0" + n : String(n);
+  }
+
+  function formatCountdown(ms) {
+    if (ms <= 0) return { expired: true, text: "00:00:00" };
+    var totalSec = Math.floor(ms / 1000);
+    var days = Math.floor(totalSec / 86400);
+    var hours = Math.floor((totalSec % 86400) / 3600);
+    var mins = Math.floor((totalSec % 3600) / 60);
+    var secs = totalSec % 60;
+    if (days > 0) {
+      return {
+        expired: false,
+        text: days + "d " + pad2(hours) + "h " + pad2(mins) + "m " + pad2(secs) + "s",
+      };
+    }
+    return {
+      expired: false,
+      text: pad2(hours) + "h " + pad2(mins) + "m " + pad2(secs) + "s",
+    };
+  }
+
+  function getOfferEndsAt(hours) {
+    try {
+      var raw = localStorage.getItem(OFFER_ENDS_KEY);
+      var ends = raw ? parseInt(raw, 10) : 0;
+      if (!ends || isNaN(ends)) {
+        ends = Date.now() + Math.max(1, hours || 48) * 60 * 60 * 1000;
+        localStorage.setItem(OFFER_ENDS_KEY, String(ends));
+      }
+      return ends;
+    } catch (e) {
+      return Date.now() + Math.max(1, hours || 48) * 60 * 60 * 1000;
+    }
+  }
+
+  function isOfferDismissed() {
+    try {
+      return localStorage.getItem(OFFER_DISMISS_KEY) === "1";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function dismissOffer() {
+    try {
+      localStorage.setItem(OFFER_DISMISS_KEY, "1");
+    } catch (e) {}
+  }
+
+  function isFirstViewPage() {
+    var here = currentPath();
+    try {
+      var entry = sessionStorage.getItem(OFFER_ENTRY_KEY);
+      if (!entry) {
+        sessionStorage.setItem(OFFER_ENTRY_KEY, here);
+        entry = here;
+      }
+      // Only the first page opened in this browser tab/session
+      return here === entry;
+    } catch (e) {
+      return here === "/";
+    }
+  }
+
+  function shouldShowOfferBar(cta) {
+    if (isOfferDismissed()) return false;
+    if (!isFirstViewPage()) return false;
+    var ends = getOfferEndsAt(cta.offerHours);
+    return ends > Date.now();
+  }
+
   function injectOfferBar() {
     if (document.querySelector(".site-offer-bar")) return;
     var header = document.querySelector(".site-header");
     if (!header) return;
     var cta = getCtaMeta();
+    if (!shouldShowOfferBar(cta)) return;
+
+    var endsAt = getOfferEndsAt(cta.offerHours);
     var bar = document.createElement("div");
     bar.className = "site-offer-bar";
     bar.setAttribute("role", "region");
-    bar.setAttribute("aria-label", "Free consultation offer");
+    bar.setAttribute("aria-label", "Limited-time consultation offer");
     bar.innerHTML =
       '<div class="container offer-bar-inner">' +
-      '<span class="offer-bar-badge">Free</span>' +
-      '<p class="offer-bar-text"><strong>Always free consultation</strong> — ' +
-      escapeHtml(
-        (cta.offerBar || "").replace(/^Free consultation\s*[—–-]\s*/i, "") ||
-          "always $0 · Limited booking slots this week"
-      ) +
+      '<span class="offer-bar-badge">Limited</span>' +
+      '<p class="offer-bar-text">' +
+      escapeHtml(cta.offerBar || "Limited-time priority booking for free consultation") +
       "</p>" +
+      '<div class="offer-countdown" aria-live="polite">' +
+      '<span class="offer-countdown-label">Ends in</span>' +
+      '<time class="offer-countdown-time" datetime="">--</time>' +
+      "</div>" +
       '<a class="offer-bar-link" href="' +
       escapeHtml(cta.url || "/book-consultation/") +
-      '">Book now →</a></div>';
+      '">Book now →</a>' +
+      '<button type="button" class="offer-bar-close" aria-label="Dismiss offer">×</button>' +
+      "</div>";
     header.insertAdjacentElement("afterend", bar);
+
+    var timeEl = bar.querySelector(".offer-countdown-time");
+    var timerId = null;
+
+    function tick() {
+      var left = endsAt - Date.now();
+      var parts = formatCountdown(left);
+      if (timeEl) {
+        timeEl.textContent = parts.text;
+        timeEl.setAttribute("datetime", new Date(endsAt).toISOString());
+      }
+      if (parts.expired) {
+        if (timerId) clearInterval(timerId);
+        bar.remove();
+      }
+    }
+
+    tick();
+    timerId = setInterval(tick, 1000);
+
+    var closeBtn = bar.querySelector(".offer-bar-close");
+    if (closeBtn) {
+      closeBtn.addEventListener("click", function () {
+        if (timerId) clearInterval(timerId);
+        dismissOffer();
+        bar.remove();
+      });
+    }
   }
 
   function enhanceBookCtas() {
