@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 /**
  * Normalizes all HTML pages for consistent header + assets + forms.
  */
@@ -27,7 +27,7 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
-const ASSET_V = "20260723j";
+const ASSET_V = "20260723k";
 
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">
@@ -127,7 +127,8 @@ for (const file of walk(root)) {
   html = html.replace(/<\/body>/i, SCRIPT_BLOCK);
 
   fs.writeFileSync(file, html);
-  console.log("✓", path.relative(root, file));
+  console.log("âœ“", path.relative(root, file));
 }
 
 console.log("HTML normalize complete.");
+
