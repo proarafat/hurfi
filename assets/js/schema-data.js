@@ -63,10 +63,10 @@ window.HURFI_SCHEMA = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Is the consultation really free?",
+      "name": "Is the consultation free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Hurfi consultations are always free — no charge, no hidden fee. You book a call, we review your digital presence, and you leave with clear next steps."
+        "text": "Yes — for a limited time. Hurfi is offering free growth strategy consultations (looping priority windows). Book while the offer is open; you get a clear review of your digital presence and next steps."
       }
     },
     {

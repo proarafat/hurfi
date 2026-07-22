@@ -122,7 +122,7 @@
         (isActive(item.path, here) ? ' aria-current="page"' : "") +
         ">" +
         escapeHtml(item.label) +
-        (item.cta ? '<span class="cta-free-tag">Free</span>' : "") +
+        (item.cta ? '<span class="cta-free-tag">Limited</span>' : "") +
         "</a></li>";
     });
     html += "</ul>";
@@ -362,8 +362,8 @@
     var cta =
       (window.HURFI_SITE && window.HURFI_SITE.primaryCTA) || {
         url: "/book-consultation/",
-        freeLabel: "Always free",
-        offerBar: "Free consultation — priority slots open now",
+        freeLabel: "Limited-time free",
+        offerBar: "Limited-time free consultation — priority slots open now",
         offerHours: 48,
         timeline: [
           { label: "Book", hint: "Free" },
@@ -501,7 +501,7 @@
       "</div>" +
       '<a class="offer-bar-cta" href="' +
       escapeHtml(cta.url || "/book-consultation/") +
-      '"><span class="offer-bar-cta-free">Free</span> Book Now</a>' +
+      '"><span class="offer-bar-cta-free">Limited</span> Book Free</a>' +
       '<button type="button" class="offer-bar-close" aria-label="Dismiss offer">×</button>' +
       "</div>";
     header.insertAdjacentElement("afterend", bar);
@@ -538,10 +538,15 @@
   function enhanceBookCtas() {
     var cta = getCtaMeta();
     var steps = cta.timeline || [];
-    var freeLabel = cta.freeLabel || "Always free";
+    var freeLabel = cta.freeLabel || "Limited-time free";
 
     document.querySelectorAll('a.btn[href*="book-consultation"]').forEach(function (btn) {
-      if (btn.closest(".site-nav") || btn.closest(".cta-stack") || btn.classList.contains("btn-outline")) {
+      if (
+        btn.closest(".site-nav") ||
+        btn.closest(".home-hero") ||
+        btn.closest(".cta-stack") ||
+        btn.classList.contains("btn-outline")
+      ) {
         return;
       }
       var stack = document.createElement("div");
@@ -555,12 +560,12 @@
       stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
     });
 
-    // Nav CTA free tag
+    // Nav CTA limited tag
     document.querySelectorAll('.site-nav a.btn[href*="book-consultation"]').forEach(function (btn) {
       if (btn.querySelector(".cta-free-tag")) return;
       var tag = document.createElement("span");
       tag.className = "cta-free-tag";
-      tag.textContent = "Free";
+      tag.textContent = "Limited";
       btn.appendChild(tag);
     });
 
@@ -569,11 +574,11 @@
     if (formBtn && !formBtn.closest(".cta-stack")) {
       var stack = document.createElement("div");
       stack.className = "cta-stack";
-      formBtn.parentNode.insertBefore(stack, formBtn);
+      formBtn.parentNode.replaceChild(stack, formBtn);
       stack.appendChild(formBtn);
       var chip = document.createElement("p");
       chip.className = "cta-free-chip";
-      chip.textContent = freeLabel + " — no charge";
+      chip.textContent = freeLabel;
       stack.appendChild(chip);
       stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
     }
