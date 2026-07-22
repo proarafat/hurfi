@@ -8,7 +8,7 @@ window.HURFI_SCHEMA = {
   "url": "https://hurfi.com",
   "email": "yasir@hurfi.com",
   "description": "Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.",
-  "slogan": "B2B Growth & Digital Presence Partner",
+  "slogan": "Global Growth Partner for Chinese Manufacturers",
   "logo": "https://hurfi.com/assets/img/hurfi-icon.svg",
   "areaServed": [
     {
@@ -54,7 +54,7 @@ window.HURFI_SCHEMA = {
   "potentialAction": {
     "@type": "ReserveAction",
     "target": "https://hurfi.com/book-consultation/",
-    "name": "Book a Consultation"
+    "name": "Book Your Free Growth Strategy"
   }
 },
   faqPage: {

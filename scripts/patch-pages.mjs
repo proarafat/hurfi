@@ -27,7 +27,7 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
-const ASSET_V = "20260723e";
+const ASSET_V = "20260723f";
 
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">
@@ -35,6 +35,10 @@ const HEADER_BLOCK = `  <header class="site-header">
       <nav id="site-nav" class="site-nav" aria-label="Main" data-site-nav></nav>
     </div>
   </header>`;
+
+const FONT_LINKS = `  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">`;
 
 const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js?v=${ASSET_V}"></script>
   <script src="/assets/js/schema-data.js?v=${ASSET_V}"></script>
@@ -68,6 +72,13 @@ for (const file of walk(root)) {
     /href="[^"]*assets\/css\/style\.css(?:\?[^"]*)?"/g,
     `href="/assets/css/style.css?v=${ASSET_V}"`
   );
+
+  if (!html.includes("fonts.googleapis.com")) {
+    html = html.replace(
+      /(<link rel="stylesheet" href="\/assets\/css\/style\.css[^"]*">)/,
+      `${FONT_LINKS}\n  $1`
+    );
+  }
 
   if (!html.includes('rel="icon"')) {
     html = html.replace(

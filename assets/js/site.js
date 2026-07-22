@@ -152,7 +152,7 @@
       { label: "Industries", path: "/industries/" },
       { label: "Locations", path: "/locations/" },
       { label: "Contact Us", path: "/contact/" },
-      { label: "Book a Consultation", path: "/book-consultation/", cta: true },
+      { label: "Free Growth Strategy", path: "/book-consultation/", cta: true },
     ];
   }
 
