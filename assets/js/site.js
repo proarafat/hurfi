@@ -122,6 +122,7 @@
         (isActive(item.path, here) ? ' aria-current="page"' : "") +
         ">" +
         escapeHtml(item.label) +
+        (item.cta ? '<span class="cta-free-tag">Free</span>' : "") +
         "</a></li>";
     });
     html += "</ul>";
@@ -357,10 +358,115 @@
     if (yearEl) yearEl.textContent = String(new Date().getFullYear());
   }
 
+  function getCtaMeta() {
+    var cta =
+      (window.HURFI_SITE && window.HURFI_SITE.primaryCTA) || {
+        url: "/book-consultation/",
+        freeLabel: "Always free",
+        offerBar: "Free consultation — always $0 · Limited booking slots this week",
+        timeline: [
+          { label: "Book", hint: "Free" },
+          { label: "Meet", hint: "30 min" },
+          { label: "Plan", hint: "Next steps" },
+        ],
+      };
+    return cta;
+  }
+
+  function timelineHtml(steps, modifier) {
+    var list =
+      '<ol class="consult-timeline' +
+      (modifier ? " " + modifier : "") +
+      '" aria-label="Free consultation steps">';
+    (steps || []).forEach(function (step) {
+      list +=
+        '<li class="consult-timeline__step">' +
+        '<span class="consult-timeline__dot" aria-hidden="true"></span>' +
+        '<span class="consult-timeline__label">' +
+        escapeHtml(step.label) +
+        "</span>" +
+        '<span class="consult-timeline__hint">' +
+        escapeHtml(step.hint || "") +
+        "</span></li>";
+    });
+    list += "</ol>";
+    return list;
+  }
+
+  function injectOfferBar() {
+    if (document.querySelector(".site-offer-bar")) return;
+    var header = document.querySelector(".site-header");
+    if (!header) return;
+    var cta = getCtaMeta();
+    var bar = document.createElement("div");
+    bar.className = "site-offer-bar";
+    bar.setAttribute("role", "region");
+    bar.setAttribute("aria-label", "Free consultation offer");
+    bar.innerHTML =
+      '<div class="container offer-bar-inner">' +
+      '<span class="offer-bar-badge">Free</span>' +
+      '<p class="offer-bar-text"><strong>Always free consultation</strong> — ' +
+      escapeHtml(
+        (cta.offerBar || "").replace(/^Free consultation\s*[—–-]\s*/i, "") ||
+          "always $0 · Limited booking slots this week"
+      ) +
+      "</p>" +
+      '<a class="offer-bar-link" href="' +
+      escapeHtml(cta.url || "/book-consultation/") +
+      '">Book now →</a></div>';
+    header.insertAdjacentElement("afterend", bar);
+  }
+
+  function enhanceBookCtas() {
+    var cta = getCtaMeta();
+    var steps = cta.timeline || [];
+    var freeLabel = cta.freeLabel || "Always free";
+
+    document.querySelectorAll('a.btn[href*="book-consultation"]').forEach(function (btn) {
+      if (btn.closest(".site-nav") || btn.closest(".cta-stack") || btn.classList.contains("btn-outline")) {
+        return;
+      }
+      var stack = document.createElement("div");
+      stack.className = "cta-stack";
+      btn.parentNode.insertBefore(stack, btn);
+      stack.appendChild(btn);
+      var chip = document.createElement("p");
+      chip.className = "cta-free-chip";
+      chip.textContent = freeLabel;
+      stack.appendChild(chip);
+      stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
+    });
+
+    // Nav CTA free tag
+    document.querySelectorAll('.site-nav a.btn[href*="book-consultation"]').forEach(function (btn) {
+      if (btn.querySelector(".cta-free-tag")) return;
+      var tag = document.createElement("span");
+      tag.className = "cta-free-tag";
+      tag.textContent = "Free";
+      btn.appendChild(tag);
+    });
+
+    // Book page form submit area
+    var formBtn = document.querySelector('form[name="book-consultation"] button.btn[type="submit"]');
+    if (formBtn && !formBtn.closest(".cta-stack")) {
+      var stack = document.createElement("div");
+      stack.className = "cta-stack";
+      formBtn.parentNode.insertBefore(stack, formBtn);
+      stack.appendChild(formBtn);
+      var chip = document.createElement("p");
+      chip.className = "cta-free-chip";
+      chip.textContent = freeLabel + " — no charge";
+      stack.appendChild(chip);
+      stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
+    }
+  }
+
   function boot() {
     ensureSkipLink();
     ensureMainId();
     initHeader();
+    injectOfferBar();
+    enhanceBookCtas();
     bindHeaderScroll();
     renderFaqs();
     bootSchemas();

@@ -16,7 +16,15 @@
   "targetMarket": "Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies",
   "primaryCTA": {
     "label": "Book a Consultation",
-    "url": "/book-consultation/"
+    "url": "/book-consultation/",
+    "free": true,
+    "freeLabel": "Always free",
+    "offerBar": "Free consultation — always $0 · Limited booking slots this week",
+    "timeline": [
+      { "label": "Book", "hint": "Free" },
+      { "label": "Meet", "hint": "30 min" },
+      { "label": "Plan", "hint": "Next steps" }
+    ]
   },
   "nav": [
     { "label": "Home", "path": "/" },
@@ -150,7 +158,7 @@
     {
       "path": "/book-consultation/",
       "title": "Book a Consultation | Hurfi",
-      "description": "Book a consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.",
+      "description": "Book a free consultation with Hurfi — always free strategy call for Chinese manufacturers, suppliers, and B2B companies.",
       "changefreq": "yearly",
       "priority": 0.9,
       "type": "conversion"
@@ -166,6 +174,10 @@
     }
   ],
   "faqs": [
+    {
+      "question": "Is the consultation really free?",
+      "answer": "Yes. Hurfi consultations are always free — no charge, no hidden fee. You book a call, we review your digital presence, and you leave with clear next steps."
+    },
     {
       "question": "Why do Chinese B2B companies need a digital presence?",
       "answer": "Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted by international partners."

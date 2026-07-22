@@ -63,6 +63,14 @@ window.HURFI_SCHEMA = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Is the consultation really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hurfi consultations are always free — no charge, no hidden fee. You book a call, we review your digital presence, and you leave with clear next steps."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why do Chinese B2B companies need a digital presence?",
       "acceptedAnswer": {
         "@type": "Answer",
