@@ -1,92 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" fill="none" role="img" aria-labelledby="growthTitle growthDesc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 540" fill="none" class="hero-ecosystem-svg" role="img" aria-labelledby="growthTitle">
   <title id="growthTitle">Hurfi connects manufacturers to global buyers</title>
-  <desc id="growthDesc">A globe surrounded by Website, SEO, LinkedIn, Google, Alibaba, Made in China, Email Marketing, and Analytics, with a flow from Manufacturer through Hurfi to Global Buyers.</desc>
   <defs>
-    <radialGradient id="glow" cx="50%" cy="45%" r="45%">
-      <stop offset="0%" stop-color="#0076F7" stop-opacity="0.18"/>
+    <radialGradient id="heroGlow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#0076F7" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#0076F7" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="orbit" x1="80" y1="80" x2="480" y2="480">
-      <stop offset="0%" stop-color="#0076F7" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#0a2a55" stop-opacity="0.15"/>
-    </linearGradient>
+    <filter id="heroSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0076F7" flood-opacity="0.18"/>
+    </filter>
   </defs>
 
-  <circle cx="280" cy="250" r="210" fill="url(#glow)"/>
-  <circle cx="280" cy="250" r="118" stroke="url(#orbit)" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.7"/>
-  <circle cx="280" cy="250" r="168" stroke="#0076F7" stroke-width="1" opacity="0.2"/>
+  <circle class="hero-glow" cx="280" cy="236" r="200" fill="url(#heroGlow)"/>
+  <circle class="hero-orbit hero-orbit-a" cx="280" cy="236" r="118" stroke="#0076F7" stroke-width="1.4" stroke-dasharray="5 9" opacity="0.45"/>
+  <circle class="hero-orbit hero-orbit-b" cx="280" cy="236" r="168" stroke="#0076F7" stroke-width="1" opacity="0.18"/>
 
-  <!-- Connection lines from center to nodes -->
-  <g stroke="#0076F7" stroke-opacity="0.28" stroke-width="1.5">
-    <line x1="280" y1="250" x2="280" y2="78"/>
-    <line x1="280" y1="250" x2="430" y2="110"/>
-    <line x1="280" y1="250" x2="478" y2="220"/>
-    <line x1="280" y1="250" x2="450" y2="340"/>
-    <line x1="280" y1="250" x2="280" y2="420"/>
-    <line x1="280" y1="250" x2="110" y2="340"/>
-    <line x1="280" y1="250" x2="82" y2="220"/>
-    <line x1="280" y1="250" x2="130" y2="110"/>
+  <g class="hero-links" stroke="#0076F7" stroke-opacity="0.32" stroke-width="1.6" stroke-dasharray="4 6">
+    <line x1="280" y1="236" x2="280" y2="70"/>
+    <line x1="280" y1="236" x2="428" y2="102"/>
+    <line x1="280" y1="236" x2="476" y2="210"/>
+    <line x1="280" y1="236" x2="448" y2="328"/>
+    <line x1="280" y1="236" x2="280" y2="404"/>
+    <line x1="280" y1="236" x2="112" y2="328"/>
+    <line x1="280" y1="236" x2="84" y2="210"/>
+    <line x1="280" y1="236" x2="132" y2="102"/>
   </g>
 
-  <!-- Globe -->
-  <circle cx="280" cy="250" r="64" fill="#041428"/>
-  <circle cx="280" cy="250" r="64" stroke="#0076F7" stroke-width="2.5"/>
-  <ellipse cx="280" cy="250" rx="28" ry="64" stroke="#5aa4ff" stroke-width="1.2" opacity="0.7"/>
-  <path d="M216 250h128M230 210h100M230 290h100" stroke="#5aa4ff" stroke-width="1.2" opacity="0.65"/>
-  <path d="M248 198c18 22 46 22 64 0M248 302c18-22 46-22 64 0" stroke="#7eb6ff" stroke-width="1.1" opacity="0.55"/>
-  <text x="280" y="256" text-anchor="middle" fill="#fff" font-family="Sora, system-ui, sans-serif" font-size="13" font-weight="700">Hurfi</text>
+  <g class="hero-globe" filter="url(#heroSoft)">
+    <circle cx="280" cy="236" r="66" fill="#041428"/>
+    <circle cx="280" cy="236" r="66" stroke="#0076F7" stroke-width="2.5"/>
+    <ellipse cx="280" cy="236" rx="29" ry="66" stroke="#6eb0ff" stroke-width="1.2" opacity="0.75"/>
+    <path d="M214 236h132M228 196h104M228 276h104" stroke="#6eb0ff" stroke-width="1.2" opacity="0.7"/>
+    <path d="M246 184c18 22 50 22 68 0M246 288c18-22 50-22 68 0" stroke="#9ec5ff" stroke-width="1.1" opacity="0.55"/>
+    <text x="280" y="242" text-anchor="middle" fill="#fff" font-family="Sora, system-ui, sans-serif" font-size="14" font-weight="700">Hurfi</text>
+  </g>
 
-  <!-- Nodes -->
-  <g font-family="Sora, system-ui, sans-serif" font-size="11" font-weight="600">
-    <g transform="translate(280 78)">
-      <rect x="-46" y="-16" width="92" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Website</text>
+  <g class="hero-nodes" font-family="Sora, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#0a2a55">
+    <g class="hero-node" style="--i:0" transform="translate(280 70)">
+      <rect x="-48" y="-17" width="96" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Website</text>
     </g>
-    <g transform="translate(430 110)">
-      <rect x="-32" y="-16" width="64" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">SEO</text>
+    <g class="hero-node" style="--i:1" transform="translate(428 102)">
+      <rect x="-34" y="-17" width="68" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">SEO</text>
     </g>
-    <g transform="translate(478 220)">
-      <rect x="-42" y="-16" width="84" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">LinkedIn</text>
+    <g class="hero-node" style="--i:2" transform="translate(476 210)">
+      <rect x="-44" y="-17" width="88" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">LinkedIn</text>
     </g>
-    <g transform="translate(450 340)">
-      <rect x="-40" y="-16" width="80" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Google</text>
+    <g class="hero-node" style="--i:3" transform="translate(448 328)">
+      <rect x="-42" y="-17" width="84" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Google</text>
     </g>
-    <g transform="translate(280 420)">
-      <rect x="-42" y="-16" width="84" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Alibaba</text>
+    <g class="hero-node" style="--i:4" transform="translate(280 404)">
+      <rect x="-44" y="-17" width="88" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Alibaba</text>
     </g>
-    <g transform="translate(110 340)">
-      <rect x="-58" y="-16" width="116" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Made in China</text>
+    <g class="hero-node" style="--i:5" transform="translate(112 328)">
+      <rect x="-60" y="-17" width="120" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Made in China</text>
     </g>
-    <g transform="translate(82 220)">
-      <rect x="-58" y="-16" width="116" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Email Marketing</text>
+    <g class="hero-node" style="--i:6" transform="translate(84 210)">
+      <rect x="-60" y="-17" width="120" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Email Marketing</text>
     </g>
-    <g transform="translate(130 110)">
-      <rect x="-46" y="-16" width="92" height="32" rx="16" fill="#fff" stroke="#0076F7" stroke-width="1.5"/>
-      <text x="0" y="4" text-anchor="middle" fill="#0a2a55">Analytics</text>
+    <g class="hero-node" style="--i:7" transform="translate(132 102)">
+      <rect x="-48" y="-17" width="96" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/>
+      <text x="0" y="5" text-anchor="middle">Analytics</text>
     </g>
   </g>
 
-  <!-- Flow: Manufacturer ’ Hurfi ’ Global Buyers -->
-  <g font-family="Sora, system-ui, sans-serif">
-    <rect x="48" y="488" width="120" height="36" rx="8" fill="#0a2a55"/>
-    <text x="108" y="511" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">Manufacturer</text>
-
-    <path d="M178 506h48" stroke="#0076F7" stroke-width="2.5" marker-end="url(#arrow)"/>
-    <polygon points="226,501 236,506 226,511" fill="#0076F7"/>
-
-    <rect x="240" y="488" width="80" height="36" rx="8" fill="#0076F7"/>
-    <text x="280" y="511" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Hurfi</text>
-
-    <path d="M330 506h48" stroke="#0076F7" stroke-width="2.5"/>
-    <polygon points="378,501 388,506 378,511" fill="#0076F7"/>
-
-    <rect x="392" y="488" width="120" height="36" rx="8" fill="#041428"/>
-    <text x="452" y="511" text-anchor="middle" fill="#fff" font-size="12" font-weight="600">Global Buyers</text>
+  <g class="hero-flow" font-family="Sora, system-ui, sans-serif">
+    <rect class="hero-flow-box" x="40" y="470" width="124" height="38" rx="10" fill="#0a2a55"/>
+    <text x="102" y="494" text-anchor="middle" fill="#fff" font-size="12.5" font-weight="600">Manufacturer</text>
+    <path class="hero-flow-arrow" d="M174 489h42" stroke="#0076F7" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="216,483 228,489 216,495" fill="#0076F7"/>
+    <rect class="hero-flow-box hero-flow-core" x="234" y="470" width="92" height="38" rx="10" fill="#0076F7"/>
+    <text x="280" y="494" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Hurfi</text>
+    <path class="hero-flow-arrow" d="M336 489h42" stroke="#0076F7" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="378,483 390,489 378,495" fill="#0076F7"/>
+    <rect class="hero-flow-box" x="396" y="470" width="124" height="38" rx="10" fill="#041428"/>
+    <text x="458" y="494" text-anchor="middle" fill="#fff" font-size="12.5" font-weight="600">Global Buyers</text>
   </g>
 </svg>

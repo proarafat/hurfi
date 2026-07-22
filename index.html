@@ -31,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260723g">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260723h">
   <!-- SEO:JSONLD:START -->
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Hurfi","legalName":"Hurfi","url":"https://hurfi.com","email":"yasir@hurfi.com","description":"Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.","slogan":"Global Growth Partner for Chinese Manufacturers","logo":"https://hurfi.com/assets/img/hurfi-icon.svg","areaServed":[{"@type":"Country","name":"China"},{"@type":"Place","name":"Global"}],"knowsAbout":["Chinese manufacturers digital marketing","B2B website development","SEO for Chinese suppliers","Social media management for B2B"],"sameAs":["https://hurfi.com"],"contactPoint":{"@type":"ContactPoint","email":"yasir@hurfi.com","contactType":"sales","availableLanguage":["English","Chinese"]}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Hurfi","url":"https://hurfi.com","description":"Hurfi helps Chinese manufacturers, suppliers, and B2B companies build a strong digital presence through websites, SEO, digital marketing, and social media management — helping them become more visible, trusted, and scalable globally.","inLanguage":"en","publisher":{"@type":"Organization","name":"Hurfi","url":"https://hurfi.com"},"potentialAction":{"@type":"ReserveAction","target":"https://hurfi.com/book-consultation/","name":"Book Your Free Growth Strategy"}}</script>
@@ -40,7 +40,7 @@
   <!-- SEO:JSONLD:END -->
 </head>
 <body data-page="home">
-                                <header class="site-header">
+                                    <header class="site-header">
     <div class="container container-nav header-inner">
       <a class="logo" href="/" aria-label="Hurfi home"></a>
       <nav id="site-nav" class="site-nav" aria-label="Main" data-site-nav></nav>
@@ -52,14 +52,13 @@
       <div class="home-hero-bg" aria-hidden="true"></div>
       <div class="container home-hero-grid">
         <div class="home-hero-copy">
-          <p class="hero-brand">Hurfi</p>
-          <p class="hero-eyebrow">Global Growth Partner for Chinese Manufacturers</p>
-          <h1 id="home-hero-title">
+          <p class="hero-eyebrow hero-reveal" style="--d:0">Global Growth Partner for Chinese Manufacturers</p>
+          <h1 id="home-hero-title" class="hero-reveal" style="--d:1">
             <span class="hero-line">Your Factory Builds Great Products.</span>
             <span class="hero-line hero-line-accent">We Build the Global Brand That Sells Them.</span>
           </h1>
-          <p class="hero-lead">Hurfi partners with Chinese manufacturers and B2B exporters to create high-performing websites, strengthen brand credibility, improve search visibility, and attract more international buyers—so your business becomes easier to find, easier to trust, and easier to choose.</p>
-          <div class="cta-row hero-cta">
+          <p class="hero-lead hero-reveal" style="--d:2">Hurfi partners with Chinese manufacturers and B2B exporters to create high-performing websites, strengthen brand credibility, improve search visibility, and attract more international buyers—so your business becomes easier to find, easier to trust, and easier to choose.</p>
+          <div class="cta-row hero-cta hero-reveal" style="--d:3">
             <div class="cta-stack">
               <a class="btn" href="book-consultation/">Book Your Free Growth Strategy</a>
               <p class="cta-free-chip">Always free</p>
@@ -83,22 +82,71 @@
             </div>
             <a class="btn btn-outline" href="case-studies/">See Client Success Stories</a>
           </div>
-          <ul class="hero-trust" aria-label="Why manufacturers trust Hurfi">
+          <ul class="hero-trust hero-reveal" style="--d:4" aria-label="Why manufacturers trust Hurfi">
             <li>Built for B2B manufacturers</li>
             <li>International market focus</li>
             <li>Long-term growth strategy</li>
             <li>Website · SEO · Marketing · Social</li>
           </ul>
         </div>
-        <div class="home-hero-visual">
-          <img
-            class="hero-ecosystem"
-            src="/assets/img/growth-ecosystem.svg"
-            width="560"
-            height="560"
-            alt="Hurfi connects Chinese manufacturers to global buyers through website, SEO, LinkedIn, Google, Alibaba, and more."
-            decoding="async"
-          >
+        <div class="home-hero-visual hero-reveal" style="--d:2">
+          <div class="hero-visual-frame">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 540" fill="none" class="hero-ecosystem-svg" role="img" aria-labelledby="growthTitle">
+              <title id="growthTitle">Hurfi connects manufacturers to global buyers</title>
+              <defs>
+                <radialGradient id="heroGlow" cx="50%" cy="42%" r="48%">
+                  <stop offset="0%" stop-color="#0076F7" stop-opacity="0.22"/>
+                  <stop offset="100%" stop-color="#0076F7" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="heroSoft" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0076F7" flood-opacity="0.18"/>
+                </filter>
+              </defs>
+              <circle class="hero-glow" cx="280" cy="236" r="200" fill="url(#heroGlow)"/>
+              <circle class="hero-orbit hero-orbit-a" cx="280" cy="236" r="118" stroke="#0076F7" stroke-width="1.4" stroke-dasharray="5 9" opacity="0.45"/>
+              <circle class="hero-orbit hero-orbit-b" cx="280" cy="236" r="168" stroke="#0076F7" stroke-width="1" opacity="0.18"/>
+              <g class="hero-links" stroke="#0076F7" stroke-opacity="0.35" stroke-width="1.6" stroke-dasharray="5 7">
+                <line x1="280" y1="236" x2="280" y2="70"/>
+                <line x1="280" y1="236" x2="428" y2="102"/>
+                <line x1="280" y1="236" x2="476" y2="210"/>
+                <line x1="280" y1="236" x2="448" y2="328"/>
+                <line x1="280" y1="236" x2="280" y2="404"/>
+                <line x1="280" y1="236" x2="112" y2="328"/>
+                <line x1="280" y1="236" x2="84" y2="210"/>
+                <line x1="280" y1="236" x2="132" y2="102"/>
+              </g>
+              <g class="hero-globe" filter="url(#heroSoft)">
+                <circle cx="280" cy="236" r="66" fill="#041428"/>
+                <circle cx="280" cy="236" r="66" stroke="#0076F7" stroke-width="2.5"/>
+                <ellipse cx="280" cy="236" rx="29" ry="66" stroke="#6eb0ff" stroke-width="1.2" opacity="0.75"/>
+                <path d="M214 236h132M228 196h104M228 276h104" stroke="#6eb0ff" stroke-width="1.2" opacity="0.7"/>
+                <path d="M246 184c18 22 50 22 68 0M246 288c18-22 50-22 68 0" stroke="#9ec5ff" stroke-width="1.1" opacity="0.55"/>
+                <text x="280" y="242" text-anchor="middle" fill="#fff" font-family="Sora, system-ui, sans-serif" font-size="14" font-weight="700">Hurfi</text>
+              </g>
+              <g class="hero-nodes" font-family="Sora, system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#0a2a55">
+                <g transform="translate(280 70)"><g class="hero-node" style="--i:0"><rect x="-48" y="-17" width="96" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Website</text></g></g>
+                <g transform="translate(428 102)"><g class="hero-node" style="--i:1"><rect x="-34" y="-17" width="68" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">SEO</text></g></g>
+                <g transform="translate(476 210)"><g class="hero-node" style="--i:2"><rect x="-44" y="-17" width="88" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">LinkedIn</text></g></g>
+                <g transform="translate(448 328)"><g class="hero-node" style="--i:3"><rect x="-42" y="-17" width="84" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Google</text></g></g>
+                <g transform="translate(280 404)"><g class="hero-node" style="--i:4"><rect x="-44" y="-17" width="88" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Alibaba</text></g></g>
+                <g transform="translate(112 328)"><g class="hero-node" style="--i:5"><rect x="-60" y="-17" width="120" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Made in China</text></g></g>
+                <g transform="translate(84 210)"><g class="hero-node" style="--i:6"><rect x="-60" y="-17" width="120" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Email Marketing</text></g></g>
+                <g transform="translate(132 102)"><g class="hero-node" style="--i:7"><rect x="-48" y="-17" width="96" height="34" rx="17" fill="#fff" stroke="#0076F7" stroke-width="1.6"/><text x="0" y="5" text-anchor="middle">Analytics</text></g></g>
+              </g>
+              <g class="hero-flow" font-family="Sora, system-ui, sans-serif">
+                <rect class="hero-flow-box" x="40" y="470" width="124" height="38" rx="10" fill="#0a2a55"/>
+                <text x="102" y="494" text-anchor="middle" fill="#fff" font-size="12.5" font-weight="600">Manufacturer</text>
+                <path class="hero-flow-arrow" d="M174 489h42" stroke="#0076F7" stroke-width="3" stroke-linecap="round"/>
+                <polygon points="216,483 228,489 216,495" fill="#0076F7"/>
+                <rect class="hero-flow-box hero-flow-core" x="234" y="470" width="92" height="38" rx="10" fill="#0076F7"/>
+                <text x="280" y="494" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Hurfi</text>
+                <path class="hero-flow-arrow" d="M336 489h42" stroke="#0076F7" stroke-width="3" stroke-linecap="round"/>
+                <polygon points="378,483 390,489 378,495" fill="#0076F7"/>
+                <rect class="hero-flow-box" x="396" y="470" width="124" height="38" rx="10" fill="#041428"/>
+                <text x="458" y="494" text-anchor="middle" fill="#fff" font-size="12.5" font-weight="600">Global Buyers</text>
+              </g>
+            </svg>
+          </div>
         </div>
       </div>
     </section>
@@ -224,8 +272,8 @@
       </ul>
     </div>
   </footer>
-  <script src="/assets/js/site-data.js?v=20260723g"></script>
-  <script src="/assets/js/schema-data.js?v=20260723g"></script>
-  <script src="/assets/js/site.js?v=20260723g"></script>
+  <script src="/assets/js/site-data.js?v=20260723h"></script>
+  <script src="/assets/js/schema-data.js?v=20260723h"></script>
+  <script src="/assets/js/site.js?v=20260723h"></script>
 </body>
 </html>
