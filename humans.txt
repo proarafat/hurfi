@@ -7,4 +7,4 @@ Focus: Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese 
 Standards: HTML5, CSS3
 Hosting: Netlify
 Source: GitHub
-Last update: 2026-07-20
+Last update: 2026-07-22

@@ -193,8 +193,9 @@
     navEl.setAttribute("data-site-nav", "");
 
     var here = currentPath();
+    // Inline display:none so a stale CDN CSS cannot show the drawer logo on desktop
     navEl.innerHTML =
-      '<div class="nav-drawer-head">' +
+      '<div class="nav-drawer-head" style="display:none" hidden>' +
       '<a class="nav-drawer-brand" href="/" aria-label="Hurfi home">' +
       logoImg("nav-drawer-logo", 140, 32) +
       "</a></div>" +

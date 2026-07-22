@@ -27,7 +27,7 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
-const ASSET_V = "20260720b";
+const ASSET_V = "20260723a";
 
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">
@@ -63,8 +63,9 @@ for (const file of walk(root)) {
   const pagePath = pathFromFile(file);
   let changed = false;
 
+  // Match relative AND absolute CSS paths (bug: /assets/... was never versioned)
   html = html.replace(
-    /href="(?:\.\.\/)*(?:assets\/css\/style\.css)(?:\?[^"]*)?"/g,
+    /href="[^"]*assets\/css\/style\.css(?:\?[^"]*)?"/g,
     `href="/assets/css/style.css?v=${ASSET_V}"`
   );
 

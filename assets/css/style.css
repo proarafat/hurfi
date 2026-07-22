@@ -207,8 +207,9 @@ img {
 }
 
 .nav-backdrop,
-.nav-drawer-head {
-  display: none;
+.nav-drawer-head,
+.nav-drawer-head[hidden] {
+  display: none !important;
 }
 
 .nav {
@@ -679,8 +680,9 @@ img {
     transform: translateX(0);
   }
 
-  .nav-drawer-head {
-    display: flex;
+  .nav-drawer-head,
+  .nav-drawer-head[hidden] {
+    display: flex !important;
     align-items: center;
     padding: 0.85rem 0.9rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -819,10 +821,11 @@ img {
   }
 }
 
-/* Hide drawer chrome on desktop */
+/* Hide drawer chrome on desktop — win over any stale/inline rules */
 @media (min-width: 961px) {
   .nav-backdrop,
-  .nav-drawer-head {
+  .nav-drawer-head,
+  .nav-drawer-head[hidden] {
     display: none !important;
   }
 }
