@@ -19,7 +19,7 @@
     "url": "/book-consultation/",
     "free": true,
     "freeLabel": "Always free",
-    "offerBar": "Limited-time priority booking for free consultation",
+    "offerBar": "Free consultation — priority slots open now",
     "offerHours": 48,
     "timeline": [
       { "label": "Book", "hint": "Free" },

@@ -363,7 +363,7 @@
       (window.HURFI_SITE && window.HURFI_SITE.primaryCTA) || {
         url: "/book-consultation/",
         freeLabel: "Always free",
-        offerBar: "Limited-time priority booking for free consultation",
+        offerBar: "Free consultation — priority slots open now",
         offerHours: 48,
         timeline: [
           { label: "Book", hint: "Free" },
@@ -493,15 +493,15 @@
       '<div class="container offer-bar-inner">' +
       '<span class="offer-bar-badge">Limited</span>' +
       '<p class="offer-bar-text">' +
-      escapeHtml(cta.offerBar || "Limited-time priority booking for free consultation") +
+      escapeHtml(cta.offerBar || "Free consultation — priority slots open now") +
       "</p>" +
       '<div class="offer-countdown" aria-live="polite">' +
       '<span class="offer-countdown-label">Ends in</span>' +
       '<time class="offer-countdown-time" datetime="">--</time>' +
       "</div>" +
-      '<a class="offer-bar-link" href="' +
+      '<a class="offer-bar-cta" href="' +
       escapeHtml(cta.url || "/book-consultation/") +
-      '">Book now →</a>' +
+      '"><span class="offer-bar-cta-free">Free</span> Book Now</a>' +
       '<button type="button" class="offer-bar-close" aria-label="Dismiss offer">×</button>' +
       "</div>";
     header.insertAdjacentElement("afterend", bar);

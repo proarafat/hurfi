@@ -1224,93 +1224,119 @@ img {
   color: var(--muted);
 }
 
-/* —— Free consultation offer + timeline —— */
+/* —— Limited offer bar —— */
 .site-offer-bar {
-  background: linear-gradient(90deg, #041428 0%, #0a2a55 45%, #0076f7 100%);
+  background: linear-gradient(105deg, #041428 0%, #0a2a55 50%, #0056b8 100%);
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .offer-bar-inner {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto auto;
+  grid-template-areas: "badge text countdown cta close";
   align-items: center;
-  gap: 0.55rem 0.85rem;
-  padding-block: 0.55rem;
-  font-size: 0.9rem;
+  gap: 0.65rem 0.85rem;
+  padding-block: 0.7rem;
   line-height: 1.35;
 }
 
 .offer-bar-badge {
+  grid-area: badge;
   display: inline-flex;
   align-items: center;
-  padding: 0.18rem 0.55rem;
-  border-radius: 999px;
-  background: #fff;
-  color: #0076f7;
-  font-size: 0.72rem;
+  justify-content: center;
+  padding: 0.22rem 0.55rem;
+  border-radius: 6px;
+  background: #ffb020;
+  color: #1a1200;
+  font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   flex-shrink: 0;
 }
 
 .offer-bar-text {
+  grid-area: text;
   margin: 0;
-  flex: 1 1 12rem;
-  color: rgba(255, 255, 255, 0.95);
-  font-weight: 500;
-}
-
-.offer-bar-text strong {
-  font-weight: 700;
-  color: #fff;
-}
-
-.offer-bar-link {
-  color: #fff !important;
-  font-weight: 700;
-  text-decoration: none !important;
-  white-space: nowrap;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
-  padding-bottom: 1px;
-}
-
-.offer-bar-link:hover {
-  border-bottom-color: #fff;
+  min-width: 0;
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 0.92rem;
+  font-weight: 600;
 }
 
 .offer-countdown {
+  grid-area: countdown;
   display: inline-flex;
   align-items: baseline;
   gap: 0.4rem;
   flex-shrink: 0;
-  padding: 0.28rem 0.65rem;
+  padding: 0.35rem 0.7rem;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   font-variant-numeric: tabular-nums;
 }
 
 .offer-countdown-label {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 .offer-countdown-time {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 800;
   color: #fff;
   letter-spacing: 0.02em;
 }
 
+.offer-bar-cta {
+  grid-area: cta;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 8px;
+  background: #fff !important;
+  color: #0056b8 !important;
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.offer-bar-cta:hover {
+  background: #f0f7ff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+  text-decoration: none !important;
+}
+
+.offer-bar-cta-free {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.42rem;
+  border-radius: 4px;
+  background: #16a34a;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
 .offer-bar-close {
-  margin-left: auto;
-  width: 34px;
-  height: 34px;
+  grid-area: close;
+  width: 36px;
+  height: 36px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.08);
@@ -1328,6 +1354,54 @@ img {
 .offer-bar-close:hover {
   background: rgba(255, 255, 255, 0.18);
   border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 960px) {
+  .offer-bar-inner {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "badge close"
+      "text text"
+      "countdown countdown"
+      "cta cta";
+    gap: 0.55rem 0.65rem;
+    padding-block: 0.8rem;
+  }
+
+  .offer-bar-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .offer-countdown {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .offer-countdown-time {
+    font-size: 1.05rem;
+  }
+
+  .offer-bar-cta {
+    width: 100%;
+    min-height: 50px;
+    font-size: 1.05rem;
+    padding: 0.8rem 1rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  }
+
+  .offer-bar-cta-free {
+    font-size: 0.72rem;
+    padding: 0.18rem 0.48rem;
+  }
+
+  .nav a.btn {
+    justify-content: center;
+  }
+
+  .nav a.btn .cta-free-tag {
+    margin-left: 0.55rem;
+  }
 }
 
 .cta-stack {
@@ -1502,21 +1576,6 @@ img {
 }
 
 @media (max-width: 960px) {
-  .offer-bar-inner {
-    padding-block: 0.65rem;
-    gap: 0.45rem 0.65rem;
-  }
-
-  .offer-bar-close {
-    margin-left: 0;
-  }
-
-  .offer-countdown {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-  }
-
   .nav a.btn {
     justify-content: center;
   }
