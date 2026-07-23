@@ -493,7 +493,10 @@
       '<div class="container offer-bar-inner">' +
       '<span class="offer-bar-badge">Limited</span>' +
       '<p class="offer-bar-text">' +
+      '<span class="offer-bar-text-full">' +
       escapeHtml(cta.offerBar || "Free consultation — priority slots open now") +
+      "</span>" +
+      '<span class="offer-bar-text-short">Free consult open</span>' +
       "</p>" +
       '<div class="offer-countdown" aria-live="polite">' +
       '<span class="offer-countdown-label">Ends in</span>' +
@@ -501,7 +504,7 @@
       "</div>" +
       '<a class="offer-bar-cta" href="' +
       escapeHtml(cta.url || "/book-consultation/") +
-      '"><span class="offer-bar-cta-free">Limited</span> Book Free</a>' +
+      '"><span class="offer-bar-cta-free">Limited</span><span class="offer-bar-cta-label">Book Free</span></a>' +
       '<button type="button" class="offer-bar-close" aria-label="Dismiss offer">×</button>' +
       "</div>";
     header.insertAdjacentElement("afterend", bar);
@@ -584,6 +587,98 @@
     }
   }
 
+  function initHeroWords() {
+    var title = document.querySelector(".home-hero .hero-title");
+    if (!title) return;
+
+    var lines = title.querySelectorAll("[data-hero-words]");
+    if (!lines.length) return;
+
+    var reduce =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) return;
+
+    var index = 0;
+    lines.forEach(function (line) {
+      var text = line.textContent.trim();
+      if (!text) return;
+      var parts = text.split(/\s+/);
+      line.textContent = "";
+      parts.forEach(function (word) {
+        var span = document.createElement("span");
+        span.className = "hero-word";
+        span.style.setProperty("--i", String(index));
+        span.textContent = word;
+        line.appendChild(span);
+        index += 1;
+      });
+    });
+  }
+
+  function initClientsMarquee() {
+    var rows = document.querySelectorAll(".clients-marquee");
+    if (!rows.length) return;
+
+    var reduce =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function gapPx(el) {
+      var styles = window.getComputedStyle(el);
+      return parseFloat(styles.columnGap || styles.gap) || 0;
+    }
+
+    function layout() {
+      rows.forEach(function (marquee) {
+        var track = marquee.querySelector(".clients-track");
+        var lists = marquee.querySelectorAll(".clients-logos");
+        if (!track || !lists.length) return;
+
+        var primary = lists[0];
+        var logos = primary.querySelectorAll(".clients-logo");
+        var count = logos.length;
+        if (!count) return;
+
+        var viewW = marquee.clientWidth;
+        if (viewW < 80) return;
+
+        var gap = gapPx(primary);
+        // Keep logos readable — don't squeeze the full set into one viewport
+        var tileW = 168;
+        if (viewW < 900) tileW = 150;
+        if (viewW < 560) tileW = 136;
+
+        lists.forEach(function (list) {
+          list.querySelectorAll(".clients-logo").forEach(function (logo) {
+            logo.style.width = tileW + "px";
+          });
+        });
+
+        var setWidth = tileW * count + gap * Math.max(count - 1, 0);
+        var trackGap = gapPx(track);
+        var shift = setWidth + trackGap;
+        track.style.setProperty("--clients-shift", shift + "px");
+        track.style.setProperty("--clients-gap", gap + "px");
+
+        if (reduce) {
+          track.style.transform = "none";
+          track.style.animation = "none";
+        }
+      });
+    }
+
+    layout();
+    window.addEventListener("resize", function () {
+      window.clearTimeout(window.__hurfiClientsResize);
+      window.__hurfiClientsResize = window.setTimeout(layout, 120);
+    });
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(layout).catch(function () {});
+    }
+  }
+
   function boot() {
     ensureSkipLink();
     ensureMainId();
@@ -594,6 +689,8 @@
     renderFaqs();
     bootSchemas();
     setYear();
+    initHeroWords();
+    initClientsMarquee();
   }
 
   if (document.readyState === "loading") {
