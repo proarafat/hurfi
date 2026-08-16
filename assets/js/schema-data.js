@@ -71,6 +71,30 @@ window.HURFI_SCHEMA = {
     },
     {
       "@type": "Question",
+      "name": "What digital marketing services does Hurfi provide for Chinese manufacturers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hurfi provides B2B website development, international SEO, digital marketing, and social media marketing for Chinese manufacturers, OEM/ODM factories, suppliers, and exporters. These services work together to improve global visibility, communicate manufacturing capabilities, build buyer trust, and create clearer paths to international B2B inquiries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can Hurfi help a Chinese factory attract international buyers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hurfi helps Chinese factories improve how they appear online, how their products and capabilities are presented, how international buyers discover them through search and digital campaigns, and how website visitors are guided toward inquiries or RFQs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do strong Chinese manufacturers struggle to generate international leads online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because manufacturing capability alone does not create digital visibility. International buyers need to discover your company through search, quickly understand your products and capabilities, see credible proof, and have a clear path to submit an inquiry."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why do Chinese B2B companies need a digital presence?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -99,6 +123,14 @@ window.HURFI_SCHEMA = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hurfi positions as a B2B Growth & Digital Presence Partner — focused on Chinese manufacturers and suppliers, long-term strategy, and global market visibility rather than one-off creative work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Hurfi different from a general digital marketing agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hurfi is focused on the digital growth needs of Chinese manufacturers, OEM/ODM factories, industrial suppliers, and exporters. We combine manufacturer positioning, international search visibility, buyer-focused websites, trust-building content, and digital marketing around how global B2B buyers evaluate suppliers."
       }
     }
   ]

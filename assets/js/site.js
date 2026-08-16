@@ -547,6 +547,9 @@
       if (
         btn.closest(".site-nav") ||
         btn.closest(".home-hero") ||
+        btn.closest(".vg-cta") ||
+        btn.closest(".hs-cta") ||
+        btn.closest(".wh-cta") ||
         btn.closest(".cta-stack") ||
         btn.classList.contains("btn-outline")
       ) {
@@ -614,6 +617,52 @@
         index += 1;
       });
     });
+  }
+
+  function initSectionReveals(sectionSelector, itemSelector) {
+    var section = document.querySelector(sectionSelector);
+    if (!section) return;
+
+    var reduce =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    var targets = section.querySelectorAll(itemSelector);
+    if (reduce || !("IntersectionObserver" in window)) {
+      section.classList.add("is-inview");
+      targets.forEach(function (el) {
+        el.classList.add("is-inview");
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-inview");
+          observer.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.14, rootMargin: "0px 0px -6% 0px" }
+    );
+
+    observer.observe(section);
+    targets.forEach(function (el) {
+      observer.observe(el);
+    });
+  }
+
+  function initVisibilityGap() {
+    initSectionReveals(".visibility-gap-section", ".vg-reveal");
+  }
+
+  function initHurfiServices() {
+    initSectionReveals(".hurfi-services-section", ".hs-reveal");
+  }
+
+  function initWhyHurfi() {
+    initSectionReveals(".why-hurfi-section", ".wh-reveal");
   }
 
   function initClientsMarquee() {
@@ -691,6 +740,9 @@
     setYear();
     initHeroWords();
     initClientsMarquee();
+    initVisibilityGap();
+    initHurfiServices();
+    initWhyHurfi();
   }
 
   if (document.readyState === "loading") {
