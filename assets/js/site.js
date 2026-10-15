@@ -1807,6 +1807,23 @@
     });
   }
 
+  function initMediaPlaceholders() {
+    function arm(el, readyEvent) {
+      function ready() {
+        el.classList.remove("is-pending");
+      }
+      if (el.dataset.ph || el.classList.contains("rk-hero-figure")) return;
+      if (el.tagName === "IMG" && el.complete && el.naturalWidth) return;
+      if (el.tagName === "VIDEO" && el.readyState >= 2) return;
+      el.classList.add("is-pending");
+      el.addEventListener(readyEvent, ready);
+      el.addEventListener("error", ready);
+      if (el.tagName === "VIDEO") el.addEventListener("playing", ready);
+    }
+    document.querySelectorAll("img").forEach(function (img) { arm(img, "load"); });
+    document.querySelectorAll("video").forEach(function (video) { arm(video, "loadeddata"); });
+  }
+
   function boot() {
     ensureSkipLink();
     ensureMainId();
@@ -1836,6 +1853,7 @@
     initWhyHurfi();
     initProof();
     initRkConsult();
+    initMediaPlaceholders();
     if (window.HURFI_I18N) window.HURFI_I18N.apply(document.body);
   }
 

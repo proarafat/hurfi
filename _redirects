@@ -1,4 +1,9 @@
 # Clean URLs / aliases (backup if not using netlify.toml redirects)
+/scripts/*    /404.html    404!
+/data/*    /404.html    404!
+/package.json    /404.html    404!
+/package-lock.json    /404.html    404!
+/.github/*    /404.html    404!
 /home    /    301
 /appointment    /book-consultation/    301
 /book    /book-consultation/    301

@@ -62,33 +62,61 @@ ${sitemapPages
 </urlset>
 `;
 
-const robots = `# Hurfi — auto-generated from data/site.config.json
+const robots = `# Hurfi — pages are static HTML. Googlebot, Bingbot, and other unnamed crawlers use the * group.
 User-agent: *
 Allow: /
 Disallow: /thank-you/
 
+# ChatGPT search and training
 User-agent: GPTBot
 Allow: /
+Disallow: /thank-you/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /thank-you/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /thank-you/
 
-User-agent: Google-Extended
+# Claude search and training
+User-agent: ClaudeBot
 Allow: /
+Disallow: /thank-you/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /thank-you/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /thank-you/
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /thank-you/
 
-User-agent: ClaudeBot
-Allow: /
-
+# Perplexity search
 User-agent: PerplexityBot
 Allow: /
+Disallow: /thank-you/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /thank-you/
+
+# Gemini training. Google Search itself uses Googlebot, covered by *.
+User-agent: Google-Extended
+Allow: /
+Disallow: /thank-you/
 
 User-agent: Bytespider
 Allow: /
+Disallow: /thank-you/
 
 Sitemap: ${siteUrl}/sitemap.xml
+# Answer engines: ${siteUrl}/llms.txt
 `;
 
 const pageList = config.pages

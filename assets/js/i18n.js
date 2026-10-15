@@ -959,7 +959,12 @@
     "Nothing starts until the brief is clear.": "简报清楚之前，工作不会开始。",
     "Explore services": "看看服务",
     "We could not send this inquiry. Email yasirarafating@gmail.com and try again.": "咨询没能发出。请发邮件到 yasirarafating@gmail.com，或再试一次。",
-    "Scope, timing, and the way we talk are agreed before the work begins.": "工作开始前，会先说好范围、时间和沟通方式。"
+    "Scope, timing, and the way we talk are agreed before the work begins.": "工作开始前，会先说好范围、时间和沟通方式。",
+    "How Hurfi works with you": "Hurfi 如何与你合作",
+    "Flexible payment plans. Pay monthly, quarterly, or annually, with no commitment and the option to cancel anytime.": "灵活付款。可按月、按季或按年支付，没有绑定，也可以随时取消。",
+    "Unlimited revisions, with the team reviewing the work together.": "不限修改次数，团队一起审看作品。",
+    "Lifetime support: ongoing updates, priority response handling, and 24/7 expert assistance.": "长期支持：持续更新、优先回复，以及全天候专业协助。",
+    "Hand-picked Hurfi specialists across strategy, marketing, SEO, AI, design, development, and China client relations.": "Hurfi 精选团队，覆盖战略、营销、SEO、AI、设计、开发和中国客户联络。"
   };
 
   /* "Limited" is used both as a badge and was overwritten above by the score label. Restore the badge meaning for the short nav tag by keeping score phrases longer. The nav tag text is exactly "Limited", which now means 有限. Fix the badge to stay 限时 by using a dedicated pass is not possible if both strings are identical. The score "Limited" and the badge "Limited" are the same English word. Prefer the nav/offer meaning 限时 because it appears more often in chrome; comparison "Limited" is less visible (icon). Override back: */
@@ -1894,7 +1899,12 @@
     "Nothing starts until the brief is clear.": "Rien ne commence tant que le brief n’est pas clair.",
     "Explore services": "Voir les services",
     "We could not send this inquiry. Email yasirarafating@gmail.com and try again.": "L’envoi a échoué. Écrivez à yasirarafating@gmail.com, ou réessayez.",
-    "Scope, timing, and the way we talk are agreed before the work begins.": "Le périmètre, le calendrier et le mode de contact sont convenus avant que le travail commence."
+    "Scope, timing, and the way we talk are agreed before the work begins.": "Le périmètre, le calendrier et le mode de contact sont convenus avant que le travail commence.",
+    "How Hurfi works with you": "Comment Hurfi travaille avec vous",
+    "Flexible payment plans. Pay monthly, quarterly, or annually, with no commitment and the option to cancel anytime.": "Paiement flexible. Au mois, au trimestre ou à l’année, sans engagement, et annulable à tout moment.",
+    "Unlimited revisions, with the team reviewing the work together.": "Révisions illimitées, l’équipe revoit le travail ensemble.",
+    "Lifetime support: ongoing updates, priority response handling, and 24/7 expert assistance.": "Support continu : mises à jour, réponse prioritaire, et assistance d’experts à toute heure.",
+    "Hand-picked Hurfi specialists across strategy, marketing, SEO, AI, design, development, and China client relations.": "Spécialistes Hurfi choisis pour la stratégie, le marketing, le SEO, l’IA, le design, le développement et la relation client en Chine."
   };
 
   fr["Limited"] = "Limité";
