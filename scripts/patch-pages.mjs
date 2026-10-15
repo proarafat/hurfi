@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 /**
  * Normalizes all HTML pages for consistent header + assets + forms.
  */
@@ -18,7 +18,6 @@ const PAGE_TYPES = {
   "/services/digital-marketing/": "service",
   "/services/social-media-management/": "service",
   "/projects/": "projects",
-  "/case-studies/": "case-studies",
   "/industries/": "industries",
   "/locations/": "locations",
   "/locations/china/": "location",
@@ -27,7 +26,7 @@ const PAGE_TYPES = {
   "/thank-you/": "utility",
 };
 
-const ASSET_V = "20260815n";
+const ASSET_V = "20261013ze";
 
 const HEADER_BLOCK = `  <header class="site-header">
     <div class="container container-nav header-inner">
@@ -38,7 +37,7 @@ const HEADER_BLOCK = `  <header class="site-header">
 
 const FONT_LINKS = `  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">`;
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">`;
 
 const SCRIPT_BLOCK = `  <script src="/assets/js/site-data.js?v=${ASSET_V}"></script>
   <script src="/assets/js/schema-data.js?v=${ASSET_V}"></script>

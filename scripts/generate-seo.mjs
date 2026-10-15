@@ -190,12 +190,38 @@ const orgSchema = {
     "Social media management for B2B",
   ],
   sameAs: config.sameAs || [],
-  contactPoint: {
-    "@type": "ContactPoint",
-    email: config.email,
-    contactType: "sales",
-    availableLanguage: ["English", "Chinese"],
-  },
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "Colony Chokforid Road",
+      addressLocality: "Bogura",
+      addressCountry: "BD",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University",
+      addressLocality: "Xi'an",
+      addressRegion: "Shaanxi",
+      addressCountry: "CN",
+    },
+  ],
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      email: config.email,
+      telephone: "+8801925026696",
+      contactType: "sales",
+      areaServed: "BD",
+      availableLanguage: ["English", "Chinese", "French"],
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "+8617792239260",
+      contactType: "customer support",
+      areaServed: "CN",
+      availableLanguage: ["Chinese", "English"],
+    },
+  ],
 };
 
 const websiteSchema = {

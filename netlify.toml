@@ -1,10 +1,11 @@
-# Netlify — build regenerates SEO/AEO/GEO files from data/site.config.json
+# Static publish. Do not run npm run build: patch-pages rewrites the live pages.
 [build]
-  command = "npm run build"
+  command = "node -e \"console.log('Hurfi static publish')\""
   publish = "."
 
 [build.environment]
   NODE_VERSION = "20"
+  GIT_LFS_ENABLED = "true"
 
 [[redirects]]
   from = "/home"
@@ -22,6 +23,22 @@
   status = 301
 
 [[redirects]]
+  from = "/case-studies"
+  to = "/projects/"
+  status = 301
+
+[[redirects]]
+  from = "/case-studies/"
+  to = "/projects/"
+  status = 301
+
+[[redirects]]
+  from = "https://www.hurfi.com/*"
+  to = "https://hurfi.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
@@ -33,23 +50,59 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
-    # HTML should revalidate so nav/header updates appear
+    Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/assets/js/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+    CDN-Cache-Control = "public, max-age=120"
+    Cloudflare-CDN-Cache-Control = "public, max-age=120"
+    Netlify-CDN-Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/assets/css/*"
   [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+    Cache-Control = "public, max-age=31536000, immutable"
+    CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Cloudflare-CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Cloudflare-CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=31536000, immutable"
 
 [[headers]]
   for = "/assets/img/*"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=2592000"
+    CDN-Cache-Control = "public, max-age=2592000"
+    Cloudflare-CDN-Cache-Control = "public, max-age=2592000"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=2592000"
+
+[[headers]]
+  for = "/assets/videos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+    CDN-Cache-Control = "public, max-age=2592000"
+    Cloudflare-CDN-Cache-Control = "public, max-age=2592000"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=2592000"
+
+[[headers]]
+  for = "/assets/lottie/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Cloudflare-CDN-Cache-Control = "public, max-age=31536000, immutable"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/team/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+    CDN-Cache-Control = "public, max-age=2592000"
+    Cloudflare-CDN-Cache-Control = "public, max-age=2592000"
+    Netlify-CDN-Cache-Control = "public, durable, max-age=2592000"
 
 [[headers]]
   for = "/sitemap.xml"
@@ -63,5 +116,10 @@
 
 [[headers]]
   for = "/llms.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/ai.txt"
   [headers.values]
     Cache-Control = "public, max-age=3600"

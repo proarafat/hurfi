@@ -20,44 +20,81 @@ Primary audience: Chinese manufacturers, Chinese suppliers, Chinese exporters, a
 - [Digital Marketing | Hurfi](https://hurfi.com/services/digital-marketing/): Digital marketing and lead generation for Chinese manufacturers, suppliers, and B2B companies.
 - [Social Media Management | Hurfi](https://hurfi.com/services/social-media-management/): Social media management for Chinese manufacturers and suppliers — content, LinkedIn, and brand storytelling.
 - [Projects | Hurfi](https://hurfi.com/projects/): Selected digital projects for Chinese manufacturers, suppliers, and B2B companies.
-- [Case Studies | Hurfi](https://hurfi.com/case-studies/): Case studies showing how Hurfi helps Chinese manufacturers and suppliers grow through digital presence.
-- [Industries | Hurfi](https://hurfi.com/industries/): Digital growth for Chinese manufacturers, industrial suppliers, electronics, machinery, textile, and export businesses.
+- [Industries We Serve | Manufacturing & B2B Growth — Hurfi](https://hurfi.com/industries/): Digital growth for manufacturers and B2B suppliers — websites, search, positioning, and lead generation, with China-side coordination.
+- [Manufacturing | Hurfi](https://hurfi.com/industries/manufacturing/): Digital presence for factories that sell parts, materials, and finished goods to other businesses.
+- [Industrial Suppliers | Hurfi](https://hurfi.com/industries/industrial-suppliers/): A clear catalog for suppliers whose buyers compare more than one factory.
+- [Electronics | Hurfi](https://hurfi.com/industries/electronics/): Product discovery for electronics factories, from components to finished devices.
+- [Machinery | Hurfi](https://hurfi.com/industries/machinery/): Sites and search for machinery makers whose buyers need specs before they inquire.
+- [Textile | Hurfi](https://hurfi.com/industries/textile/): Presence for textile manufacturers selling to brands and wholesalers.
+- [Export Businesses | Hurfi](https://hurfi.com/industries/export/): Reach for exporters who need buyers outside the home market to find them.
+- [OEM and ODM | Hurfi](https://hurfi.com/industries/oem-odm/): Positioning for factories that build for other brands.
+- [Packaging | Hurfi](https://hurfi.com/industries/packaging/): Pages for packaging makers whose buyers search by material and use.
+- [Automotive Parts | Hurfi](https://hurfi.com/industries/automotive/): Search and sites for parts makers whose buyers look up a component.
+- [Building Materials | Hurfi](https://hurfi.com/industries/building-materials/): Discovery for factories that supply materials to projects and distributors.
+- [Furniture | Hurfi](https://hurfi.com/industries/furniture/): Catalog-led sites for furniture makers selling to importers and trade buyers.
+- [Lighting | Hurfi](https://hurfi.com/industries/lighting/): Ranges and search for lighting factories whose buyers compare specification and supply.
+- [Industrial Automation & Robotics | Hurfi](https://hurfi.com/industries/industrial-automation-robotics/): Digital growth for Industrial Automation & Robotics manufacturers and suppliers.
+- [Electronics & Semiconductor | Hurfi](https://hurfi.com/industries/electronics-semiconductor/): Digital growth for Electronics & Semiconductor manufacturers and suppliers.
+- [EV & E-Mobility | Hurfi](https://hurfi.com/industries/ev-e-mobility/): Digital growth for EV & E-Mobility manufacturers and suppliers.
+- [Battery & Energy Storage | Hurfi](https://hurfi.com/industries/battery-energy-storage/): Digital growth for Battery & Energy Storage manufacturers and suppliers.
+- [Power Grid & Electrical Equipment | Hurfi](https://hurfi.com/industries/power-grid-electrical-equipment/): Digital growth for Power Grid & Electrical Equipment manufacturers and suppliers.
+- [Medical Devices & Diagnostics | Hurfi](https://hurfi.com/industries/medical-devices-diagnostics/): Digital growth for Medical Devices & Diagnostics manufacturers and suppliers.
+- [Laboratory & Scientific Equipment | Hurfi](https://hurfi.com/industries/laboratory-scientific-equipment/): Digital growth for Laboratory & Scientific Equipment manufacturers and suppliers.
+- [Industrial Machinery & CNC | Hurfi](https://hurfi.com/industries/industrial-machinery-cnc/): Digital growth for Industrial Machinery & CNC manufacturers and suppliers.
+- [Industrial Software & Data | Hurfi](https://hurfi.com/industries/industrial-software-data/): Digital growth for Industrial Software & Data manufacturers and suppliers.
+- [Data Centers & Digital Infrastructure | Hurfi](https://hurfi.com/industries/data-centers-digital-infrastructure/): Digital growth for Data Centers & Digital Infrastructure manufacturers and suppliers.
+- [Optics & Photonics | Hurfi](https://hurfi.com/industries/optics-photonics/): Digital growth for Optics & Photonics manufacturers and suppliers.
+- [Pharma & Bioprocess Manufacturing | Hurfi](https://hurfi.com/industries/pharma-bioprocess-manufacturing/): Digital growth for Pharma & Bioprocess Manufacturing manufacturers and suppliers.
+- [Solar & Renewable Power | Hurfi](https://hurfi.com/industries/solar-renewable-power/): Digital growth for Solar & Renewable Power manufacturers and suppliers.
+- [Water & Wastewater Technology | Hurfi](https://hurfi.com/industries/water-wastewater-technology/): Digital growth for Water & Wastewater Technology manufacturers and suppliers.
+- [Environmental & Circular Economy | Hurfi](https://hurfi.com/industries/environmental-circular-economy/): Digital growth for Environmental & Circular Economy manufacturers and suppliers.
+- [Agritech & Agricultural Equipment | Hurfi](https://hurfi.com/industries/agritech-agricultural-equipment/): Digital growth for Agritech & Agricultural Equipment manufacturers and suppliers.
+- [Smart Buildings & Urban Infrastructure | Hurfi](https://hurfi.com/industries/smart-buildings-urban-infrastructure/): Digital growth for Smart Buildings & Urban Infrastructure manufacturers and suppliers.
+- [Precision Manufacturing & Components | Hurfi](https://hurfi.com/industries/precision-manufacturing-components/): Digital growth for Precision Manufacturing & Components manufacturers and suppliers.
+- [Automotive & Mobility Components | Hurfi](https://hurfi.com/industries/automotive-mobility-components/): Digital growth for Automotive & Mobility Components manufacturers and suppliers.
+- [Aerospace & Aviation Supply Chain | Hurfi](https://hurfi.com/industries/aerospace-aviation-supply-chain/): Digital growth for Aerospace & Aviation Supply Chain manufacturers and suppliers.
+- [Industrial HVAC & Building Systems | Hurfi](https://hurfi.com/industries/industrial-hvac-building-systems/): Digital growth for Industrial HVAC & Building Systems manufacturers and suppliers.
+- [Construction Materials & Systems | Hurfi](https://hurfi.com/industries/construction-materials-systems/): Digital growth for Construction Materials & Systems manufacturers and suppliers.
+- [Food Processing Equipment | Hurfi](https://hurfi.com/industries/food-processing-equipment/): Digital growth for Food Processing Equipment manufacturers and suppliers.
+- [Packaging & Printing Manufacturing | Hurfi](https://hurfi.com/industries/packaging-printing-manufacturing/): Digital growth for Packaging & Printing Manufacturing manufacturers and suppliers.
+- [Textiles & Technical Fabrics | Hurfi](https://hurfi.com/industries/textiles-technical-fabrics/): Digital growth for Textiles & Technical Fabrics manufacturers and suppliers.
+- [Furniture & Interior Manufacturing | Hurfi](https://hurfi.com/industries/furniture-interior-manufacturing/): Digital growth for Furniture & Interior Manufacturing manufacturers and suppliers.
+- [Logistics & Warehouse Technology | Hurfi](https://hurfi.com/industries/logistics-warehouse-technology/): Digital growth for Logistics & Warehouse Technology manufacturers and suppliers.
+- [Chemicals & Specialty Materials | Hurfi](https://hurfi.com/industries/chemicals-specialty-materials/): Digital growth for Chemicals & Specialty Materials manufacturers and suppliers.
+- [Mining & Mineral Processing Equipment | Hurfi](https://hurfi.com/industries/mining-mineral-processing-equipment/): Digital growth for Mining & Mineral Processing Equipment manufacturers and suppliers.
+- [Marine & Shipbuilding Supply Chain | Hurfi](https://hurfi.com/industries/marine-shipbuilding-supply-chain/): Digital growth for Marine & Shipbuilding Supply Chain manufacturers and suppliers.
+- [Industrial Safety & Testing | Hurfi](https://hurfi.com/industries/industrial-safety-testing/): Digital growth for Industrial Safety & Testing manufacturers and suppliers.
+- [Apparel & Footwear Production | Hurfi](https://hurfi.com/industries/apparel-footwear-production/): Digital growth for Apparel & Footwear Production manufacturers and suppliers.
+- [Commercial Cleaning & Hygiene Equipment | Hurfi](https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/): Digital growth for Commercial Cleaning & Hygiene Equipment manufacturers and suppliers.
 - [Locations | Hurfi — Digital Marketing for Chinese Markets](https://hurfi.com/locations/): Location-focused digital growth pages for Chinese manufacturers and suppliers in China and key global markets.
-- [Digital Marketing for Chinese Manufacturers | Hurfi China](https://hurfi.com/locations/china/): Hurfi helps Chinese manufacturers and suppliers in China build global digital presence with websites, SEO, marketing, and social media.
+- [Digital Growth Across China's Manufacturing Hubs | Hurfi](https://hurfi.com/locations/china/): Searchable directory of 34 provincial entries and 300 cities. City pages are not published until there is location-specific evidence. No city office is claimed unless one is published.
 - [Contact Us | Hurfi](https://hurfi.com/contact/): Contact Hurfi — B2B growth partner for Chinese manufacturers, suppliers, and exporters.
 - [Book a Consultation | Hurfi](https://hurfi.com/book-consultation/): Book a limited-time free consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.
 
 ## Contact
 - Email: yasir@hurfi.com
+- Bangladesh: Colony Chokforid Road, Bogura, Bangladesh. +8801925026696
+- China: Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi. +86 17792239260
+- LinkedIn: https://www.linkedin.com/company/hurfiglobal/
+- Instagram: https://www.instagram.com/hurfi_global/
+- Languages on the site: English, Simplified Chinese, and French. The HTML source is English. Chinese and French are applied in the browser.
 - Book a consultation: https://hurfi.com/book-consultation/
 
 ## FAQ
 ### Is the consultation free?
-Yes — for a limited time. Hurfi is offering free growth strategy consultations (looping priority windows). Book while the offer is open; you get a clear review of your digital presence and next steps.
+Yes, for a limited time. You get a clear review of your digital presence and the next steps.
 
-### What digital marketing services does Hurfi provide for Chinese manufacturers?
-Hurfi provides B2B website development, international SEO, digital marketing, and social media marketing for Chinese manufacturers, OEM/ODM factories, suppliers, and exporters. These services work together to improve global visibility, communicate manufacturing capabilities, build buyer trust, and create clearer paths to international B2B inquiries.
+### What does Hurfi actually do?
+Buyer-ready websites, international SEO, digital campaigns, and social for Chinese manufacturers, suppliers, and exporters.
 
-### How can Hurfi help a Chinese factory attract international buyers?
-Hurfi helps Chinese factories improve how they appear online, how their products and capabilities are presented, how international buyers discover them through search and digital campaigns, and how website visitors are guided toward inquiries or RFQs.
+### Why do strong factories still miss international leads?
+Capability does not create visibility. Buyers have to find you, understand the factory, and see a clear way to inquire.
 
-### Why do strong Chinese manufacturers struggle to generate international leads online?
-Because manufacturing capability alone does not create digital visibility. International buyers need to discover your company through search, quickly understand your products and capabilities, see credible proof, and have a clear path to submit an inquiry.
+### Do you work with suppliers and exporters?
+Yes. The work is built around how global B2B buyers evaluate a Chinese supplier, not a generic local shop.
 
-### Why do Chinese B2B companies need a digital presence?
-Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted by international partners.
-
-### How can Hurfi help Chinese manufacturers grow online?
-Hurfi combines websites, SEO, digital marketing, and social media management to build visibility, credibility, and scalable growth for Chinese manufacturing companies.
-
-### Does Hurfi work with Chinese suppliers and exporters?
-Yes. Hurfi specializes in helping Chinese suppliers, exporters, and B2B companies create trusted online identities for global markets.
-
-### What makes Hurfi different from a typical digital agency?
-Hurfi positions as a B2B Growth & Digital Presence Partner — focused on Chinese manufacturers and suppliers, long-term strategy, and global market visibility rather than one-off creative work.
-
-### Why is Hurfi different from a general digital marketing agency?
-Hurfi is focused on the digital growth needs of Chinese manufacturers, OEM/ODM factories, industrial suppliers, and exporters. We combine manufacturer positioning, international search visibility, buyer-focused websites, trust-building content, and digital marketing around how global B2B buyers evaluate suppliers.
+### How is this different from a general agency?
+Hurfi stays on manufacturer positioning, search, and the path from a visit to an inquiry. Not one-off creative.
 
 ## Optional
 - Sitemap: https://hurfi.com/sitemap.xml

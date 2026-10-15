@@ -4,3 +4,6 @@ llms: https://hurfi.com/llms.txt
 sitemap: https://hurfi.com/sitemap.xml
 contact: yasir@hurfi.com
 audience: Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies
+languages: English source. Simplified Chinese and French are applied in the browser, not as separate URLs.
+linkedin: https://www.linkedin.com/company/hurfiglobal/
+instagram: https://www.instagram.com/hurfi_global/

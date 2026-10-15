@@ -27,17 +27,41 @@ window.HURFI_SCHEMA = {
     "Social media management for B2B"
   ],
   "sameAs": [
-    "https://hurfi.com"
+    "https://www.linkedin.com/company/hurfiglobal/",
+    "https://www.instagram.com/hurfi_global/"
   ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "yasir@hurfi.com",
-    "contactType": "sales",
-    "availableLanguage": [
-      "English",
-      "Chinese"
-    ]
-  }
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Colony Chokforid Road",
+      "addressLocality": "Bogura",
+      "addressCountry": "BD"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University",
+      "addressLocality": "Xi'an",
+      "addressRegion": "Shaanxi",
+      "addressCountry": "CN"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "email": "yasir@hurfi.com",
+      "telephone": "+8801925026696",
+      "contactType": "sales",
+      "areaServed": "BD",
+      "availableLanguage": ["English", "Chinese", "French"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+8617792239260",
+      "contactType": "customer support",
+      "areaServed": "CN",
+      "availableLanguage": ["Chinese", "English"]
+    }
+  ]
 },
   website: {
   "@context": "https://schema.org",
@@ -66,71 +90,39 @@ window.HURFI_SCHEMA = {
       "name": "Is the consultation free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — for a limited time. Hurfi is offering free growth strategy consultations (looping priority windows). Book while the offer is open; you get a clear review of your digital presence and next steps."
+        "text": "Yes, for a limited time. You get a clear review of your digital presence and the next steps."
       }
     },
     {
       "@type": "Question",
-      "name": "What digital marketing services does Hurfi provide for Chinese manufacturers?",
+      "name": "What does Hurfi actually do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hurfi provides B2B website development, international SEO, digital marketing, and social media marketing for Chinese manufacturers, OEM/ODM factories, suppliers, and exporters. These services work together to improve global visibility, communicate manufacturing capabilities, build buyer trust, and create clearer paths to international B2B inquiries."
+        "text": "Buyer-ready websites, international SEO, digital campaigns, and social for Chinese manufacturers, suppliers, and exporters."
       }
     },
     {
       "@type": "Question",
-      "name": "How can Hurfi help a Chinese factory attract international buyers?",
+      "name": "Why do strong factories still miss international leads?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hurfi helps Chinese factories improve how they appear online, how their products and capabilities are presented, how international buyers discover them through search and digital campaigns, and how website visitors are guided toward inquiries or RFQs."
+        "text": "Capability does not create visibility. Buyers have to find you, understand the factory, and see a clear way to inquire."
       }
     },
     {
       "@type": "Question",
-      "name": "Why do strong Chinese manufacturers struggle to generate international leads online?",
+      "name": "Do you work with suppliers and exporters?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Because manufacturing capability alone does not create digital visibility. International buyers need to discover your company through search, quickly understand your products and capabilities, see credible proof, and have a clear path to submit an inquiry."
+        "text": "Yes. The work is built around how global B2B buyers evaluate a Chinese supplier, not a generic local shop."
       }
     },
     {
       "@type": "Question",
-      "name": "Why do Chinese B2B companies need a digital presence?",
+      "name": "How is this different from a general agency?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Global buyers research suppliers online first. A strong digital presence helps Chinese manufacturers and suppliers get found, trusted, and contacted by international partners."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can Hurfi help Chinese manufacturers grow online?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hurfi combines websites, SEO, digital marketing, and social media management to build visibility, credibility, and scalable growth for Chinese manufacturing companies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hurfi work with Chinese suppliers and exporters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hurfi specializes in helping Chinese suppliers, exporters, and B2B companies create trusted online identities for global markets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What makes Hurfi different from a typical digital agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hurfi positions as a B2B Growth & Digital Presence Partner — focused on Chinese manufacturers and suppliers, long-term strategy, and global market visibility rather than one-off creative work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is Hurfi different from a general digital marketing agency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hurfi is focused on the digital growth needs of Chinese manufacturers, OEM/ODM factories, industrial suppliers, and exporters. We combine manufacturer positioning, international search visibility, buyer-focused websites, trust-building content, and digital marketing around how global B2B buyers evaluate suppliers."
+        "text": "Hurfi stays on manufacturer positioning, search, and the path from a visit to an inquiry. Not one-off creative."
       }
     }
   ]

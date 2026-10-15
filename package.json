@@ -4,7 +4,7 @@
   "private": true,
   "description": "Hurfi — B2B Growth & Digital Presence Partner website",
   "scripts": {
-    "build": "node scripts/patch-pages.mjs && node scripts/generate-seo.mjs",
+    "build": "node -e \"console.log('Hurfi is a static site. Publish the repository as-is.')\"",
     "seo": "node scripts/generate-seo.mjs",
     "patch": "node scripts/patch-pages.mjs",
     "dev": "npx --yes serve ."

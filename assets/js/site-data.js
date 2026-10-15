@@ -68,16 +68,41 @@ window.HURFI_SITE = {
       "path": "/projects/"
     },
     {
-      "label": "Case Studies",
-      "path": "/case-studies/"
-    },
-    {
       "label": "Industries",
-      "path": "/industries/"
+      "path": "/industries/",
+      "children": [
+        { "label": "Industrial Automation & Robotics", "path": "/industries/industrial-automation-robotics/" },
+        { "label": "Electronics & Semiconductor", "path": "/industries/electronics-semiconductor/" },
+        { "label": "EV & E-Mobility", "path": "/industries/ev-e-mobility/" },
+        { "label": "Battery & Energy Storage", "path": "/industries/battery-energy-storage/" },
+        { "label": "Power Grid & Electrical Equipment", "path": "/industries/power-grid-electrical-equipment/" },
+        { "label": "Medical Devices & Diagnostics", "path": "/industries/medical-devices-diagnostics/" },
+        { "label": "Laboratory & Scientific Equipment", "path": "/industries/laboratory-scientific-equipment/" },
+        { "label": "Industrial Machinery & CNC", "path": "/industries/industrial-machinery-cnc/" },
+        { "label": "Industrial Software & Data", "path": "/industries/industrial-software-data/" },
+        { "label": "Data Centers & Digital Infrastructure", "path": "/industries/data-centers-digital-infrastructure/" },
+        { "label": "Optics & Photonics", "path": "/industries/optics-photonics/" },
+        { "label": "Pharma & Bioprocess Manufacturing", "path": "/industries/pharma-bioprocess-manufacturing/" }
+      ]
     },
     {
       "label": "Locations",
-      "path": "/locations/"
+      "path": "/locations/",
+      "children": [
+        { "label": "China", "path": "/locations/china/" },
+        { "label": "Shenzhen", "path": "/locations/china/#city-guangdong-shenzhen" },
+        { "label": "Guangzhou", "path": "/locations/china/#city-guangdong-guangzhou" },
+        { "label": "Dongguan", "path": "/locations/china/#city-guangdong-dongguan" },
+        { "label": "Foshan", "path": "/locations/china/#city-guangdong-foshan" },
+        { "label": "Shanghai", "path": "/locations/china/#city-shanghai-shanghai" },
+        { "label": "Suzhou", "path": "/locations/china/#city-jiangsu-suzhou" },
+        { "label": "Wuxi", "path": "/locations/china/#city-jiangsu-wuxi" },
+        { "label": "Hangzhou", "path": "/locations/china/#city-zhejiang-hangzhou" },
+        { "label": "Ningbo", "path": "/locations/china/#city-zhejiang-ningbo" },
+        { "label": "Qingdao", "path": "/locations/china/#city-shandong-qingdao" },
+        { "label": "Hefei", "path": "/locations/china/#city-anhui-hefei" },
+        { "label": "Wuhan", "path": "/locations/china/#city-hubei-wuhan" }
+      ]
     },
     {
       "label": "Contact Us",
@@ -155,18 +180,370 @@ window.HURFI_SITE = {
       "noindex": false
     },
     {
-      "path": "/case-studies/",
-      "title": "Case Studies | Hurfi",
-      "description": "Case studies showing how Hurfi helps Chinese manufacturers and suppliers grow through digital presence.",
-      "type": "case-studies",
+      "path": "/industries/",
+      "title": "Industries We Serve | Manufacturing & B2B Growth — Hurfi",
+      "description": "Digital growth for manufacturers and B2B suppliers — websites, search, positioning, and lead generation, with China-side coordination.",
+      "type": "industries",
       "geo": null,
       "noindex": false
     },
     {
-      "path": "/industries/",
-      "title": "Industries | Hurfi",
-      "description": "Digital growth for Chinese manufacturers, industrial suppliers, electronics, machinery, textile, and export businesses.",
-      "type": "industries",
+      "path": "/industries/industrial-automation-robotics/",
+      "title": "Industrial Automation & Robotics | Hurfi",
+      "description": "Digital growth for Industrial Automation & Robotics manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/electronics-semiconductor/",
+      "title": "Electronics & Semiconductor | Hurfi",
+      "description": "Digital growth for Electronics & Semiconductor manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/ev-e-mobility/",
+      "title": "EV & E-Mobility | Hurfi",
+      "description": "Digital growth for EV & E-Mobility manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/battery-energy-storage/",
+      "title": "Battery & Energy Storage | Hurfi",
+      "description": "Digital growth for Battery & Energy Storage manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/power-grid-electrical-equipment/",
+      "title": "Power Grid & Electrical Equipment | Hurfi",
+      "description": "Digital growth for Power Grid & Electrical Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/medical-devices-diagnostics/",
+      "title": "Medical Devices & Diagnostics | Hurfi",
+      "description": "Digital growth for Medical Devices & Diagnostics manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/laboratory-scientific-equipment/",
+      "title": "Laboratory & Scientific Equipment | Hurfi",
+      "description": "Digital growth for Laboratory & Scientific Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/industrial-machinery-cnc/",
+      "title": "Industrial Machinery & CNC | Hurfi",
+      "description": "Digital growth for Industrial Machinery & CNC manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/industrial-software-data/",
+      "title": "Industrial Software & Data | Hurfi",
+      "description": "Digital growth for Industrial Software & Data manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/data-centers-digital-infrastructure/",
+      "title": "Data Centers & Digital Infrastructure | Hurfi",
+      "description": "Digital growth for Data Centers & Digital Infrastructure manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/optics-photonics/",
+      "title": "Optics & Photonics | Hurfi",
+      "description": "Digital growth for Optics & Photonics manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/pharma-bioprocess-manufacturing/",
+      "title": "Pharma & Bioprocess Manufacturing | Hurfi",
+      "description": "Digital growth for Pharma & Bioprocess Manufacturing manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/solar-renewable-power/",
+      "title": "Solar & Renewable Power | Hurfi",
+      "description": "Digital growth for Solar & Renewable Power manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/water-wastewater-technology/",
+      "title": "Water & Wastewater Technology | Hurfi",
+      "description": "Digital growth for Water & Wastewater Technology manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/environmental-circular-economy/",
+      "title": "Environmental & Circular Economy | Hurfi",
+      "description": "Digital growth for Environmental & Circular Economy manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/agritech-agricultural-equipment/",
+      "title": "Agritech & Agricultural Equipment | Hurfi",
+      "description": "Digital growth for Agritech & Agricultural Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/smart-buildings-urban-infrastructure/",
+      "title": "Smart Buildings & Urban Infrastructure | Hurfi",
+      "description": "Digital growth for Smart Buildings & Urban Infrastructure manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/precision-manufacturing-components/",
+      "title": "Precision Manufacturing & Components | Hurfi",
+      "description": "Digital growth for Precision Manufacturing & Components manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/automotive-mobility-components/",
+      "title": "Automotive & Mobility Components | Hurfi",
+      "description": "Digital growth for Automotive & Mobility Components manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/aerospace-aviation-supply-chain/",
+      "title": "Aerospace & Aviation Supply Chain | Hurfi",
+      "description": "Digital growth for Aerospace & Aviation Supply Chain manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/industrial-hvac-building-systems/",
+      "title": "Industrial HVAC & Building Systems | Hurfi",
+      "description": "Digital growth for Industrial HVAC & Building Systems manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/construction-materials-systems/",
+      "title": "Construction Materials & Systems | Hurfi",
+      "description": "Digital growth for Construction Materials & Systems manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/food-processing-equipment/",
+      "title": "Food Processing Equipment | Hurfi",
+      "description": "Digital growth for Food Processing Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/packaging-printing-manufacturing/",
+      "title": "Packaging & Printing Manufacturing | Hurfi",
+      "description": "Digital growth for Packaging & Printing Manufacturing manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/textiles-technical-fabrics/",
+      "title": "Textiles & Technical Fabrics | Hurfi",
+      "description": "Digital growth for Textiles & Technical Fabrics manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/furniture-interior-manufacturing/",
+      "title": "Furniture & Interior Manufacturing | Hurfi",
+      "description": "Digital growth for Furniture & Interior Manufacturing manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/logistics-warehouse-technology/",
+      "title": "Logistics & Warehouse Technology | Hurfi",
+      "description": "Digital growth for Logistics & Warehouse Technology manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/chemicals-specialty-materials/",
+      "title": "Chemicals & Specialty Materials | Hurfi",
+      "description": "Digital growth for Chemicals & Specialty Materials manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/mining-mineral-processing-equipment/",
+      "title": "Mining & Mineral Processing Equipment | Hurfi",
+      "description": "Digital growth for Mining & Mineral Processing Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/marine-shipbuilding-supply-chain/",
+      "title": "Marine & Shipbuilding Supply Chain | Hurfi",
+      "description": "Digital growth for Marine & Shipbuilding Supply Chain manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/industrial-safety-testing/",
+      "title": "Industrial Safety & Testing | Hurfi",
+      "description": "Digital growth for Industrial Safety & Testing manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/apparel-footwear-production/",
+      "title": "Apparel & Footwear Production | Hurfi",
+      "description": "Digital growth for Apparel & Footwear Production manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/commercial-cleaning-hygiene-equipment/",
+      "title": "Commercial Cleaning & Hygiene Equipment | Hurfi",
+      "description": "Digital growth for Commercial Cleaning & Hygiene Equipment manufacturers and suppliers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/manufacturing/",
+      "title": "Manufacturing | Hurfi",
+      "description": "Digital presence for factories that sell parts, materials, and finished goods to other businesses.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/industrial-suppliers/",
+      "title": "Industrial Suppliers | Hurfi",
+      "description": "A clear catalog for suppliers whose buyers compare more than one factory.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/electronics/",
+      "title": "Electronics | Hurfi",
+      "description": "Product discovery for electronics factories, from components to finished devices.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/machinery/",
+      "title": "Machinery | Hurfi",
+      "description": "Sites and search for machinery makers whose buyers need specs before they inquire.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/textile/",
+      "title": "Textile | Hurfi",
+      "description": "Presence for textile manufacturers selling to brands and wholesalers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/export/",
+      "title": "Export Businesses | Hurfi",
+      "description": "Reach for exporters who need buyers outside the home market to find them.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/oem-odm/",
+      "title": "OEM and ODM | Hurfi",
+      "description": "Positioning for factories that build for other brands.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/packaging/",
+      "title": "Packaging | Hurfi",
+      "description": "Pages for packaging makers whose buyers search by material and use.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/automotive/",
+      "title": "Automotive Parts | Hurfi",
+      "description": "Search and sites for parts makers whose buyers look up a component.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/building-materials/",
+      "title": "Building Materials | Hurfi",
+      "description": "Discovery for factories that supply materials to projects and distributors.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/furniture/",
+      "title": "Furniture | Hurfi",
+      "description": "Catalog-led sites for furniture makers selling to importers and trade buyers.",
+      "type": "industry",
+      "geo": null,
+      "noindex": false
+    },
+    {
+      "path": "/industries/lighting/",
+      "title": "Lighting | Hurfi",
+      "description": "Ranges and search for lighting factories whose buyers compare specification and supply.",
+      "type": "industry",
       "geo": null,
       "noindex": false
     },
@@ -180,7 +557,7 @@ window.HURFI_SITE = {
     },
     {
       "path": "/locations/china/",
-      "title": "Digital Marketing for Chinese Manufacturers | Hurfi China",
+      "title": "Digital Growth Across China's Manufacturing Hubs | Hurfi",
       "description": "Hurfi helps Chinese manufacturers and suppliers in China build global digital presence with websites, SEO, marketing, and social media.",
       "type": "location",
       "geo": {

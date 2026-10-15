@@ -1,4 +1,4 @@
-name: Validate site config
+name: Check site scripts
 
 on:
   push:
@@ -6,12 +6,19 @@ on:
   pull_request:
 
 jobs:
-  validate:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Validate site.config.json + generate SEO
-        run: npm run build
+      - name: Syntax-check site scripts
+        run: |
+          node --check assets/js/site.js
+          node --check assets/js/i18n.js
+          node --check assets/js/schema-data.js
+          node --check assets/js/site-data.js
+          node --check assets/js/china-locations.js
+          node --check assets/js/industries-index.js
+          node --check scripts/generate-seo.mjs
