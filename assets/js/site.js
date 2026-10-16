@@ -1599,6 +1599,7 @@
     }).then(function (res) {
       return res.json().then(function (data) {
         if (!res.ok || String(data.success) !== "true") throw new Error("unconfirmed");
+        markLeadPending(form);
         window.location.assign("/thank-you/");
       });
     }).catch(function () {
@@ -1697,6 +1698,79 @@
     document.querySelectorAll("video").forEach(function (video) { arm(video, "loadeddata"); });
   }
 
+  // GA4 lead tracking. Never sends names, emails, phone numbers, WeChat IDs or message text.
+  // generate_lead fires once, on /thank-you/, only after FormSubmit confirmed success (see submitInquiry).
+  var LEAD_KEY = "hurfi_lead_pending";
+  var LEAD_MAX_AGE_MS = 30 * 60 * 1000;
+  function gaEvent(name, params) {
+    try {
+      if (typeof window.gtag === "function") { window.gtag("event", name, params); return; }
+      window.dataLayer = window.dataLayer || [];
+      (function () { window.dataLayer.push(arguments); })("event", name, params);
+    } catch (e) {}
+  }
+  function leadChoice(form, key) {
+    var el = form.querySelector('[name="' + key + '"]:checked') || form.querySelector('select[name="' + key + '"]');
+    return el && el.value ? String(el.value).slice(0, 100) : "";
+  }
+  function markLeadPending(form) {
+    try {
+      var p = {
+        form_id: form.getAttribute("name") || "consult-form",
+        form_location: document.body.getAttribute("data-page") || "",
+        lead_page_path: window.location.pathname,
+        service_interest: leadChoice(form, "service"),
+        budget_range: leadChoice(form, "budget"),
+        contact_method: leadChoice(form, "contact_method"),
+        lead_source: "website_form"
+      };
+      try {
+        window.sessionStorage.setItem(LEAD_KEY, JSON.stringify({ ts: Date.now(), params: p }));
+        return;
+      } catch (e) {}
+      // sessionStorage blocked: send now. gtag sends with a beacon, so the hit normally survives the redirect.
+      gaEvent("generate_lead", p);
+    } catch (e) {}
+  }
+  function trackLeadOnThanks() {
+    if (document.body.getAttribute("data-page") !== "thanks") return;
+    var raw = null;
+    try {
+      raw = window.sessionStorage.getItem(LEAD_KEY);
+      window.sessionStorage.removeItem(LEAD_KEY); // consume first: a reload or revisit sends nothing
+    } catch (e) { return; }
+    if (!raw) return;
+    try {
+      var pending = JSON.parse(raw);
+      if (!pending || !pending.params || !(Date.now() - pending.ts < LEAD_MAX_AGE_MS)) return;
+      gaEvent("generate_lead", pending.params);
+    } catch (e) {}
+  }
+  // contact_click: email, phone, WhatsApp and WeChat contact taps. Not a key event; the address or number is not sent.
+  function bindContactClicks() {
+    document.addEventListener("click", function (event) {
+      try {
+        var el = event.target && event.target.closest ? event.target.closest("a[href], [data-open-modal]") : null;
+        if (!el) return;
+        var method = "";
+        if (el.tagName === "A") {
+          var href = el.getAttribute("href") || "";
+          if (/^mailto:/i.test(href) || href.indexOf("/cdn-cgi/l/email-protection") === 0) method = "email";
+          else if (/^tel:/i.test(href)) method = "phone";
+          else if (/^https?:\/\/(wa\.me|api\.whatsapp\.com|chat\.whatsapp\.com)\//i.test(href)) method = "whatsapp";
+        } else if (/wechat/i.test(el.getAttribute("data-open-modal") || "")) {
+          method = "wechat";
+        }
+        if (!method) return;
+        var where = el.closest(".wx-dock") ? "wechat_dock"
+          : el.closest("footer, .site-footer") ? "footer"
+          : el.closest(".rk-consult") ? "consult_card"
+          : el.closest("header, .site-header") ? "header" : "content";
+        gaEvent("contact_click", { contact_method: method, link_location: where, form_location: document.body.getAttribute("data-page") || "" });
+      } catch (e) {}
+    }, true);
+  }
+
   function boot() {
     ensureSkipLink();
     ensureMainId();
@@ -1727,6 +1801,8 @@
     initProof();
     initRkConsult();
     initMediaPlaceholders();
+    trackLeadOnThanks();
+    bindContactClicks();
     if (window.HURFI_I18N) window.HURFI_I18N.apply(document.body);
   }
 
