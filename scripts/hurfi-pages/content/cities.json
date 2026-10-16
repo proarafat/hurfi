@@ -1,0 +1,366 @@
+{
+ "shenzhen": {
+  "slug": "shenzhen",
+  "city": "Shenzhen",
+  "province": "Guangdong",
+  "anchor": "city-guangdong-shenzhen",
+  "title": "Export Websites & Google SEO for Shenzhen Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Shenzhen",
+  "description": "How Hurfi helps Shenzhen electronics, robotics and equipment manufacturers reach overseas buyers with English B2B websites, Google SEO and LinkedIn — working remotely.",
+  "lead": "Shenzhen factories compete on engineering and speed. Overseas buyers still need to find them in search and understand them in English. Hurfi builds that presence for Shenzhen manufacturers, working remotely from our offices in Xi’an and Bogura.",
+  "remote": "Hurfi does not have an office or staff in Shenzhen. We work with Shenzhen manufacturers remotely — by WeChat, email and video call — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "context_intro": "Public statistics give a clear picture of what Shenzhen makes. We use them to decide which industry pages and search topics matter for a Shenzhen manufacturer — not as claims about any company.",
+  "facts": [
+   [
+    "Shenzhen’s 2025 statistical bulletin names computer, communications and other electronic equipment manufacturing first in its list of main industries, alongside automobile manufacturing, electrical machinery and equipment, and special-purpose and general-purpose equipment manufacturing.",
+    [
+     "sz-1"
+    ]
+   ],
+   [
+    "The same bulletin reports value added in computer, communications and electronic equipment manufacturing up 6.2% in 2025, and automobile manufacturing up 29.4%.",
+    [
+     "sz-1"
+    ]
+   ],
+   [
+    "The municipal Industry and Information Technology Bureau’s 2025 indicators show output growth of 43.1% for industrial robots, 40.1% for civilian drones and 45.1% for 3D printing equipment.",
+    [
+     "sz-2"
+    ]
+   ]
+  ],
+  "meaning": [
+   [
+    "Electronics and components",
+    "Most of Shenzhen’s industrial weight sits in electronics. For a component, module or PCBA maker, the website has to work like a parametric catalog — datasheets, compliance documents and an RFQ path that accepts a BOM.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Robotics and automation",
+    "With industrial-robot output growing fast, buyers abroad will compare several Shenzhen suppliers on the same day. Specification tables, protocol support and safety documentation decide who gets the inquiry.",
+    "/industries/industrial-automation-robotics/"
+   ],
+   [
+    "Vehicles and electrical equipment",
+    "Automobile and electrical-equipment manufacturing are also large in the official data. EV component and power-equipment makers need market-specific pages that state which standards and certificates apply where.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "Equipment and machinery",
+    "For general and special-purpose equipment makers, video of the machine working and a clear service answer abroad matter more than slogans.",
+    "/industries/industrial-machinery-cnc/"
+   ]
+  ],
+  "approach": [
+   "An English B2B website, or a rebuild of the one you have, structured around how your buyers search and compare.",
+   "Google SEO for the specification and application queries your overseas buyers use.",
+   "LinkedIn content that shows engineering and production, approved by your team.",
+   "Reporting from your own Search Console and analytics, not screenshots of someone else’s results."
+  ],
+  "faq": [
+   [
+    "Do you have an office in Shenzhen?",
+    "No. Hurfi’s offices are in Xi’an, China and Bogura, Bangladesh. We work with Shenzhen manufacturers remotely."
+   ],
+   [
+    "Can we meet in person?",
+    "Most work happens over WeChat and video calls. If an in-person meeting is needed, we agree it case by case."
+   ],
+   [
+    "Where do the facts on this page come from?",
+    "From the Shenzhen Statistics Bureau and the Shenzhen Industry and Information Technology Bureau. Sources are listed below with the date we checked them."
+   ]
+  ],
+  "sources": [
+   {
+    "id": "sz-1",
+    "publisher": "Shenzhen Statistics Bureau",
+    "label": "深圳市2025年国民经济和社会发展统计公报 (Shenzhen 2025 Statistical Bulletin)",
+    "url": "https://tjj.sz.gov.cn/szstjjwzgkml/szstjjwzgkml/sjfb/tjgb/content/post_12805132.html",
+    "checked": "16 October 2026"
+   },
+   {
+    "id": "sz-2",
+    "publisher": "Shenzhen Municipal People’s Government (data from the Industry and Information Technology Bureau)",
+    "label": "2025年1-12月深圳工业和信息化部分指标 (Selected industry and IT indicators, Jan–Dec 2025)",
+    "url": "https://www.sz.gov.cn/szzt2010/sjfb/sjkd/content/post_12652612.html",
+    "checked": "16 October 2026"
+   }
+  ],
+  "start": [
+   "Pages for each product family that a buyer would compare across Shenzhen suppliers, with specifications on the page rather than in a PDF.",
+   "A clear statement of which work happens in your own factory and which is done by partners in the Pearl River Delta supply chain.",
+   "Search work aimed at model numbers, interfaces and standards — the terms engineers use — before broad “Shenzhen manufacturer” phrases.",
+   "An English LinkedIn presence for the engineers and sales staff who answer overseas inquiries."
+  ]
+ },
+ "dongguan": {
+  "slug": "dongguan",
+  "city": "Dongguan",
+  "province": "Guangdong",
+  "anchor": "city-guangdong-dongguan",
+  "title": "Export Websites & Google SEO for Dongguan Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Dongguan",
+  "description": "English B2B websites, Google SEO and LinkedIn for Dongguan electronics, equipment and home-products manufacturers who want overseas buyers to find and trust them.",
+  "lead": "Many Dongguan factories already supply well-known brands, but their own websites rarely show it. Hurfi helps Dongguan manufacturers present their capability in English and reach overseas buyers through search — remotely, from Xi’an and Bogura.",
+  "remote": "Hurfi has no office or staff in Dongguan. We work with Dongguan manufacturers remotely over WeChat, email and video calls, from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "context_intro": "Dongguan’s own government documents describe a manufacturing base built on electronics, equipment and home products. That shapes where an export website should focus.",
+  "facts": [
+   [
+    "The municipal government describes new-generation electronic information as Dongguan’s largest pillar industry, with smart mobile terminals as its leading segment.",
+    [
+     "dg-1"
+    ]
+   ],
+   [
+    "Dongguan’s smart mobile terminal cluster was selected as a national advanced manufacturing cluster by the Ministry of Industry and Information Technology in 2019. The city reports producing 196 million smartphones in 2022 — about one in six made in China.",
+    [
+     "dg-1"
+    ]
+   ],
+   [
+    "In January 2024 the city reported around 210,000 manufacturing enterprises and three national advanced manufacturing clusters: smart mobile terminals, smart equipment, and pan-home furnishing.",
+    [
+     "dg-2"
+    ]
+   ]
+  ],
+  "meaning": [
+   [
+    "Electronics supply chain",
+    "For electronics and component suppliers, buyers want part data, compliance documents and traceability. A catalog that engineers can search beats a brochure.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "OEM and ODM work",
+    "Factories that build for other brands need a site that proves capability without exposing client names they are not allowed to share.",
+    "/industries/oem-odm/"
+   ],
+   [
+    "Smart equipment",
+    "Equipment makers need specification pages, video of machines working, and a straight answer on service abroad.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "Home and furniture products",
+    "Home-products manufacturers need range pages buyers can scan, with materials, finishes, MOQ and packaging information.",
+    "/industries/furniture-interior-manufacturing/"
+   ]
+  ],
+  "approach": [
+   "A website that separates OEM/ODM services from your own-brand products, so each buyer finds the right path.",
+   "Google SEO focused on capability and product-category searches from overseas buyers.",
+   "LinkedIn content showing production and quality steps you are comfortable making public.",
+   "Honest reporting from your own analytics and Search Console."
+  ],
+  "faq": [
+   [
+    "Do you have a team in Dongguan?",
+    "No. We work remotely from Xi’an and Bogura, mainly over WeChat and video calls."
+   ],
+   [
+    "We cannot name our brand clients. Can the website still show our capability?",
+    "Yes. Capability, process, equipment and quality evidence can be shown without naming clients."
+   ],
+   [
+    "Where do the facts on this page come from?",
+    "From Dongguan Municipal People’s Government publications, listed below with the date we checked them."
+   ]
+  ],
+  "sources": [
+   {
+    "id": "dg-1",
+    "publisher": "Dongguan Municipal People’s Government",
+    "label": "东莞智能移动终端先进制造业集群培育提升三年行动方案 (Three-year action plan for the smart mobile terminal cluster)",
+    "url": "https://www.dg.gov.cn/gkmlpt/content/4/4137/post_4137336.html",
+    "checked": "16 October 2026"
+   },
+   {
+    "id": "dg-2",
+    "publisher": "Dongguan Municipal People’s Government",
+    "label": "东莞召开新闻发布会解读市政府一号文“1+5”政策 (Press conference on the 2024 “1+5” policy)",
+    "url": "https://www.dg.gov.cn/zwgk/jdhy/spjd/content/post_4145387.html",
+    "checked": "16 October 2026"
+   }
+  ],
+  "start": [
+   "Capability pages that describe processes — moulding, machining, assembly, finishing — with the equipment and tolerances you can publish.",
+   "An OEM or ODM page that explains confidentiality, tooling ownership and how a project moves from sample to mass production.",
+   "Separate pages for product categories you sell under your own brand and work you do for other brands.",
+   "Search content aimed at brand owners looking for a manufacturing partner by product type and process."
+  ]
+ },
+ "wuxi": {
+  "slug": "wuxi",
+  "city": "Wuxi",
+  "province": "Jiangsu",
+  "anchor": "city-jiangsu-wuxi",
+  "title": "Export Websites & Google SEO for Wuxi Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Wuxi",
+  "description": "English B2B websites, Google SEO and LinkedIn for Wuxi equipment, IoT, semiconductor, automotive-parts and new-energy manufacturers selling abroad.",
+  "lead": "Wuxi’s manufacturers span equipment, semiconductors, IoT, automotive parts and new energy. Buyers abroad need to understand which of those you do, and how well. Hurfi helps Wuxi manufacturers say it clearly in English and get found in search.",
+  "remote": "Hurfi does not have an office or staff in Wuxi. We work with Wuxi manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "context_intro": "Wuxi organises its industry policy around a named set of clusters. The city’s own figures show which of them are largest, which helps decide where an export website and search plan should start.",
+  "facts": [
+   [
+    "The Wuxi Industry and Information Technology Bureau reports that its “465” modern industrial cluster system included 5,582 above-designated-size enterprises in January–November 2025, with combined revenue of about RMB 1.7 trillion.",
+    [
+     "wx-1"
+    ]
+   ],
+   [
+    "The bureau expected eight clusters to exceed RMB 200 billion in revenue in 2025: high-end equipment, new materials, Internet of Things, software, integrated circuits, automobiles and parts, high-end textiles and apparel, and new energy.",
+    [
+     "wx-1"
+    ]
+   ]
+  ],
+  "meaning": [
+   [
+    "High-end equipment",
+    "Equipment buyers want specifications, real machine video and a clear service answer. Those three things carry more weight than a long company history page.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "Integrated circuits and IoT",
+    "Semiconductor and IoT suppliers need datasheets, compliance documents and integration details in HTML — readable by engineers and by search engines.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Automobiles and parts",
+    "Automotive-parts makers need pages that state the quality system and the standards each part meets, and only claim the approvals they hold.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "New energy",
+    "For battery and storage suppliers, test conditions, certificates and shipping documents are the first questions a buyer asks.",
+    "/industries/battery-energy-storage/"
+   ]
+  ],
+  "approach": [
+   "A website structured by product line or cluster, so a buyer in one field is not lost in another.",
+   "Google SEO aimed at specification and application searches in your export markets.",
+   "LinkedIn content built from real production and test material.",
+   "Monthly reporting from your own search and analytics accounts."
+  ],
+  "faq": [
+   [
+    "Do you have an office in Wuxi?",
+    "No. Hurfi works with Wuxi manufacturers remotely from Xi’an and Bogura."
+   ],
+   [
+    "Our company is in several of these clusters. Do we need several websites?",
+    "Usually one site with clear sections is better than several thin ones. We decide this with you after reviewing your product lines."
+   ],
+   [
+    "Where do the facts on this page come from?",
+    "From the Wuxi Industry and Information Technology Bureau. The source is listed below with the date we checked it."
+   ]
+  ],
+  "sources": [
+   {
+    "id": "wx-1",
+    "publisher": "Wuxi Industry and Information Technology Bureau",
+    "label": "全市产业集群建设及特色优势产业发展情况 (Industrial cluster development, 2025)",
+    "url": "https://gxj.wuxi.gov.cn/doc/2026/01/05/4715882.shtml",
+    "checked": "16 October 2026"
+   }
+  ],
+  "start": [
+   "Equipment and component pages with technical data that integrators and OEM engineers can compare directly.",
+   "Pages for each export market that state which standards and certificates apply there.",
+   "Content that explains your role in the supply chain — tier, part type, customer industries — without naming clients you cannot share.",
+   "Search work around specification and application terms in the equipment, semiconductor, automotive-parts and new-energy sectors."
+  ]
+ },
+ "hefei": {
+  "slug": "hefei",
+  "city": "Hefei",
+  "province": "Anhui",
+  "anchor": "city-anhui-hefei",
+  "title": "Export Websites & Google SEO for Hefei Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Hefei",
+  "description": "English B2B websites, Google SEO and LinkedIn for Hefei EV, electronics, display and semiconductor supply-chain manufacturers who want overseas buyers to find them.",
+  "lead": "Hefei has grown into a major base for electric vehicles, electronics and displays. Suppliers in those chains increasingly sell abroad, and overseas buyers look them up online first. Hurfi helps Hefei manufacturers prepare for that, working remotely from Xi’an and Bogura.",
+  "remote": "Hurfi has no office or staff in Hefei. We work with Hefei manufacturers remotely over WeChat, email and video calls, from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "context_intro": "Recent figures released through the Hefei Statistics Bureau show which industries are driving the city’s growth. We use them to choose the industry pages and search topics that matter for a Hefei supplier.",
+  "facts": [
+   [
+    "Citing the Hefei Statistics Bureau, Anhui Economic News reported that Hefei’s above-designated-size industrial value added grew 17.6% in 2025, led by computer, communications and other electronic equipment manufacturing (up 60.6%) and automobile manufacturing (up 11.1%), described as the city’s two pillar industries.",
+    [
+     "hf-1"
+    ]
+   ],
+   [
+    "The same report gives Hefei’s 2025 output of new energy vehicles as 1.371 million, 8.3% of the national total, and microcomputer output as 27.72 million units.",
+    [
+     "hf-1"
+    ]
+   ],
+   [
+    "The report refers to the city’s “芯屏汽合” identity — chips, displays and automobiles — as its industrial landmark.",
+    [
+     "hf-1"
+    ]
+   ]
+  ],
+  "meaning": [
+   [
+    "EV supply chain",
+    "Suppliers to vehicle makers need clear statements of quality system, part specifications and the approvals actually held for each market.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "Electronics and semiconductors",
+    "Component and device makers need searchable datasheets and compliance documents, not only a PDF catalog.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Batteries and energy",
+    "Battery and storage suppliers face early questions on test data, certificates and dangerous-goods shipping. The website should answer them.",
+    "/industries/battery-energy-storage/"
+   ],
+   [
+    "Displays and optics",
+    "Display and optical component suppliers need specification pages with tolerances and test data engineers can compare.",
+    "/industries/optics-photonics/"
+   ]
+  ],
+  "approach": [
+   "An English website that presents your role in the supply chain clearly — what you make, for which applications, to which standards.",
+   "Google SEO aimed at specification-stage searches by overseas engineers and buyers.",
+   "LinkedIn content that shows production and quality evidence your customers allow you to share.",
+   "Reporting from your own analytics and Search Console accounts."
+  ],
+  "faq": [
+   [
+    "Do you have an office in Hefei?",
+    "No. Hurfi works with Hefei manufacturers remotely from Xi’an and Bogura."
+   ],
+   [
+    "Most of our customers are in China. Is an export website still useful?",
+    "If you plan to sell abroad, overseas buyers will look for you online before they reply to an email. A clear English site supports that first check."
+   ],
+   [
+    "Where do the facts on this page come from?",
+    "From an Anhui Economic News report citing the Hefei Statistics Bureau. The source is listed below with the date we checked it."
+   ]
+  ],
+  "sources": [
+   {
+    "id": "hf-1",
+    "publisher": "Anhui Economic News (安徽经济网), citing the Hefei Statistics Bureau",
+    "label": "同比增长6.1%！合肥2025年GDP达14210亿元 (Hefei 2025 GDP report)",
+    "url": "https://www.ahjjw.com.cn/html/shengnei/2026/0128/516405.html",
+    "checked": "16 October 2026"
+   }
+  ],
+  "start": [
+   "Product pages for EV, battery and display-related components with the ratings and test data buyers ask for first.",
+   "Certification and quality pages that answer automotive buyers’ questions about approval processes.",
+   "Content that explains how you support overseas customers after delivery: documents, samples, technical contact.",
+   "Search work aimed at component and specification terms in the vehicle, battery, display and semiconductor supply chains."
+  ]
+ }
+}

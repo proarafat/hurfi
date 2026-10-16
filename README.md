@@ -1,49 +1,44 @@
 # Hurfi Website
 
-B2B Growth & Digital Presence Partner for Chinese manufacturers, suppliers, and exporters.
+B2B growth partner for Chinese manufacturers, suppliers and exporters.
 
-**Live:** [hurfi.com](https://hurfi.com)  
-**Repo:** [github.com/proarafat/hurfi](https://github.com/proarafat/hurfi)  
-**Host:** Netlify (auto-deploy from `main`)
+**Live:** [hurfi.com](https://hurfi.com)
+**Host:** Netlify. The publish directory is the repository root (`publish = "."`). A push to `main` deploys production.
 
-## Quick update + push
+> This file is in the publish directory. `_redirects` returns 404 for it, so it is not served publicly.
 
-```powershell
-git add .
-git commit -m "your message"
-git push
-```
+## How the site is built
 
-Netlify rebuilds automatically. The build runs `npm run build`, which regenerates SEO files from `data/site.config.json`.
+- Every page is hand-maintained static HTML (`*/index.html`). The header, navigation and footer are written into each file.
+- Shared behaviour lives in `assets/js/site.js` (menus, consult block and inquiry form, JSON-LD fallback), `assets/js/i18n.js` (client-side EN/中文/FR switch) and `assets/css/style.css`.
+- New pages added in October 2026 (city guides, insights, `/zh/` pages, enriched sector pages) come from `scripts/hurfi-pages/build.py` and the JSON files in `scripts/hurfi-pages/content/`. See `scripts/hurfi-pages/README.md`.
 
-## Dynamic SEO / AEO / GEO
+## Do NOT run
 
-| File | Purpose |
-|------|---------|
-| `data/site.config.json` | **Single source of truth** — pages, nav, meta, FAQs, services |
-| `scripts/patch-pages.mjs` | Keeps HTML paths/scripts/forms consistent |
-| `scripts/generate-seo.mjs` | Validates pages + generates sitemap/robots/llms/schema |
-| `sitemap.xml` | Search engines (skips noindex pages) |
-| `robots.txt` | Crawler rules + AI bots |
-| `llms.txt` / `ai.txt` | AEO / GEO for answer engines |
-| `404.html` | Custom Netlify 404 |
-| `thank-you/` | Netlify Forms success page |
-| `favicon.svg` | Brand favicon (`#0076F7`) |
+| Command | Why |
+|---|---|
+| `npm run seo-DO-NOT-RUN` (`scripts/generate-seo.mjs`) | Cuts `sitemap.xml` to 13 URLs and overwrites `ai.txt`, `humans.txt` and JSON-LD |
+| `npm run patch-DO-NOT-RUN` (`scripts/patch-pages.mjs`) | Rewrites the static header and navigation on every page |
 
-### Add a new page (keeps SEO in sync)
+Both scripts now exit immediately unless `HURFI_ALLOW_LEGACY=1` is set. `data/site.config.json` is their old input and is no longer the source of truth.
 
-1. Create the HTML folder/page
-2. Add the page to `data/site.config.json` → `pages` (and `nav` if needed)
-3. `git push` — Netlify runs `npm run build`
-4. Sitemap, llms.txt, nav, and JSON-LD update automatically
-
-## Local commands
+## Local preview
 
 ```powershell
-npm run build
-npm run dev
+python -m http.server 8080
+# or: npx --yes serve .
 ```
+
+`_redirects` rules (legacy 301s, 404 blocks) only work on Netlify, not in a local static server.
+
+## Regenerate generated pages
+
+```powershell
+python scripts/hurfi-pages/build.py
+```
+
+It only rewrites the pages it owns, and only the marked `<!-- hurfi:gen:... -->` blocks inside existing pages. Update `sitemap.xml` `lastmod` for any page whose content changed.
 
 ## Forms
 
-Contact and consultation forms use **Netlify Forms** (`netlify` + `data-netlify="true"`). After deploy, enable form notifications in the Netlify dashboard.
+The inquiry form posts to FormSubmit (`https://formsubmit.co/ajax/yasir@hurfi.com`, copy to `support@hurfi.com` via `_cc`). FormSubmit sends a one-time activation email to `yasir@hurfi.com` on the first submission; click it, or no inquiries are delivered. Spam controls: FormSubmit `_honey` field, the site honeypot, a 2.5-second minimum fill time, and FormSubmit's captcha on the no-JavaScript fallback.

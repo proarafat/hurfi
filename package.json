@@ -5,8 +5,9 @@
   "description": "Hurfi — B2B Growth & Digital Presence Partner website",
   "scripts": {
     "build": "node -e \"console.log('Hurfi is a static site. Publish the repository as-is.')\"",
-    "seo": "node scripts/generate-seo.mjs",
-    "patch": "node scripts/patch-pages.mjs",
+    "seo-DO-NOT-RUN": "node -e \"console.error('Disabled: generate-seo.mjs cuts the sitemap and overwrites JSON-LD. See scripts/hurfi-pages/README.md');process.exit(1)\"",
+    "patch-DO-NOT-RUN": "node -e \"console.error('Disabled: patch-pages.mjs rewrites the static header/nav on every page.');process.exit(1)\"",
+    "pages": "python scripts/hurfi-pages/build.py",
     "dev": "npx --yes serve ."
   },
   "engines": {

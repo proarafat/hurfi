@@ -1,0 +1,225 @@
+{
+ "oem-odm": {
+  "path": "/industries/oem-odm/",
+  "title": "Marketing for OEM & ODM Manufacturers in China | Hurfi",
+  "h1": "Websites and search for Chinese OEM and ODM manufacturers",
+  "description": "How Chinese OEM and ODM factories can win brand-owner inquiries: capability pages, confidentiality-safe proof, Google SEO and LinkedIn. No client names required.",
+  "kicker": "OEM & ODM",
+  "lead": "A factory that builds for other brands sells a capability, not a catalogue. Brand owners abroad need to see what you can make, how you protect their designs and how a project runs — often without you naming a single client. Hurfi helps OEM and ODM manufacturers show that clearly in English.",
+  "sections": [
+   {
+    "h2": "OEM or ODM: say which one you are",
+    "p": [
+     "Brand owners search differently depending on what they need. An OEM buyer already has a design and wants a factory to build it to their drawings. An ODM buyer wants a factory that brings its own designs, platforms or engineering to the project. Many factories do both, but the website should say clearly which services you offer, for which product categories, and where the line sits between your intellectual property and the client’s."
+    ]
+   },
+   {
+    "h2": "What brand owners check before they send a brief",
+    "ul": [
+     "Product categories and processes you run in-house, and which steps you subcontract.",
+     "Minimum order quantities, sampling cost and lead time for a first run, and how those change at volume.",
+     "How you handle confidentiality: NDAs, restricted areas, file handling, and whether you will sign the client’s own agreement.",
+     "Who owns tooling, moulds and design files, and what happens to them if the relationship ends.",
+     "Quality system and audit history: the certificates you hold, and whether you accept third-party and client audits.",
+     "Packaging, labelling and private-label options, including compliance marks for the target market."
+    ]
+   },
+   {
+    "h2": "Proof without naming clients",
+    "p": [
+     "Most OEM contracts stop a factory from naming the brands it builds for. That does not leave you with nothing to show. The website can still carry:"
+    ],
+    "ul": [
+     "Process pages with real photos of the lines, equipment lists and capacity figures you are willing to publish.",
+     "Anonymised project write-ups: the product type, the market, what the client asked for and what you changed — with the client’s permission.",
+     "Audit and certification documents with scope and expiry dates.",
+     "A clear description of the development process, from brief and quote to sample, pilot run and mass production."
+    ],
+    "p2": [
+     "We never invent clients or results. If a project cannot be described, it stays off the site."
+    ]
+   },
+   {
+    "h2": "How Hurfi works with OEM and ODM factories",
+    "cards": [
+     [
+      "English B2B website",
+      "/services/website-development/",
+      "A capability-led site: processes, categories, development steps and a brief-submission form that asks the right questions."
+     ],
+     [
+      "Google SEO",
+      "/services/seo/",
+      "Search work aimed at brand owners looking for a manufacturing partner by product type and process, not only at broad “OEM factory” terms."
+     ],
+     [
+      "LinkedIn and social media",
+      "/services/social-media-management/",
+      "Posts about processes, equipment and the team — the things you can show without breaking an NDA."
+     ],
+     [
+      "B2B digital marketing",
+      "/services/digital-marketing/",
+      "Campaigns aimed at qualified project briefs, with reporting on what each channel actually produced."
+     ]
+    ]
+   },
+   {
+    "h2": "Related reading",
+    "p": [
+     "[Factory website trust signals overseas buyers look for](/insights/factory-website-trust-signals/) and the [manufacturer website RFQ checklist](/insights/manufacturer-website-rfq-checklist/). Factories in [Dongguan](/locations/china/dongguan/) and across the Pearl River Delta often combine OEM and ODM work."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Do we need to name our clients on the website?",
+    "No. Most OEM agreements forbid it. We build proof around processes, certificates, capacity and anonymised projects instead."
+   ],
+   [
+    "Should OEM and ODM be on separate pages?",
+    "If you offer both, yes: the buyer, the questions and the proof are different. One page each keeps the message clear."
+   ],
+   [
+    "Do you guarantee project inquiries?",
+    "No. We make sure brand owners can find and understand your capability, and we report what search and inquiries show."
+   ],
+   [
+    "Can you write in our technical language?",
+    "We write in plain English for buyers and ask your engineers to review every technical claim before it is published."
+   ]
+  ]
+ },
+ "services": {
+  "seo": {
+   "title": "Google SEO for Chinese Manufacturers & Exporters | Hurfi",
+   "h1": "Google SEO for Chinese manufacturers",
+   "description": "Google SEO for Chinese manufacturers and exporters: technical SEO, on-page and international SEO aimed at the specification searches overseas buyers use.",
+   "sections": [
+    {
+     "h2": "International SEO for factories that export",
+     "p": [
+      "Most of the buyers a Chinese factory wants are outside China, and they search in their own language, in Google, with their own words for the product. International SEO is the work of making sure the right pages show up for them."
+     ],
+     "ul": [
+      "Choosing target markets first, then the language and the wording buyers in those markets actually use.",
+      "A clear site structure for each market or language, with correct hreflang and canonical tags when there is more than one version.",
+      "Server, hosting and speed checks, because a site that loads slowly from Europe or North America loses visitors before they read anything.",
+      "Product and application pages written around specification-stage searches: materials, standards, tolerances, capacities and model numbers.",
+      "Search Console set up for your own domain, so you can see impressions and clicks by country."
+     ]
+    },
+    {
+     "h2": "What we will not do",
+     "ul": [
+      "Promise rankings, traffic or a number of inquiries.",
+      "Buy links or use tactics that put your domain at risk.",
+      "Offer Baidu SEO — our work is aimed at overseas buyers searching in Google."
+     ]
+    },
+    {
+     "h2": "Where SEO fits with the rest",
+     "p": [
+      "SEO brings buyers to the site; the site has to answer them. If your product pages are thin, we will tell you, and the [website development](/services/website-development/) work may come first. For sector-specific search topics see the [industry pages](/industries/), and for a practical starting point read [how Chinese manufacturers can win more overseas buyer inquiries](/insights/overseas-buyer-inquiries/)."
+     ]
+    }
+   ]
+  },
+  "website-development": {
+   "title": "English B2B Websites for Chinese Manufacturers | Hurfi",
+   "h1": "English B2B websites for Chinese manufacturers",
+   "description": "English B2B websites for Chinese manufacturers: product pages with real specifications, factory proof, certificates and RFQ paths that overseas buyers trust.",
+   "sections": [
+    {
+     "h2": "What an export-ready factory website needs",
+     "ul": [
+      "One page per main product family, with the specification table on the page and the datasheet as a download.",
+      "A factory and quality page: real photos of lines and testing, equipment lists, and certificates with scope and expiry dates.",
+      "Commercial basics stated plainly: minimum order quantity, sample policy, lead time, Incoterms you work with.",
+      "An RFQ path that asks for the right details — drawings, quantities, target market — and says who replies and how soon.",
+      "English written for buyers, not machine-translated from the Chinese site."
+     ]
+    },
+    {
+     "h2": "Rebuild or improve?",
+     "p": [
+      "Not every factory needs a new site. We start by reviewing the one you have: what buyers can find, what they cannot, and how the site performs from outside China. Sometimes restructuring the product pages and the contact path is enough; sometimes a rebuild is cheaper in the long run. We tell you which, and why."
+     ]
+    },
+    {
+     "h2": "Further reading",
+     "p": [
+      "Use our [manufacturer website RFQ checklist](/insights/manufacturer-website-rfq-checklist/) and the list of [factory website trust signals](/insights/factory-website-trust-signals/) to check your current site before we talk."
+     ]
+    }
+   ]
+  },
+  "digital-marketing": {
+   "title": "B2B Digital Marketing for Chinese Manufacturers | Hurfi",
+   "h1": "B2B digital marketing that brings overseas inquiries",
+   "description": "B2B digital marketing for Chinese manufacturers: search, content and paid campaigns aimed at qualified overseas inquiries, reported from your own accounts.",
+   "sections": [
+    {
+     "h2": "Lead generation without inflated numbers",
+     "p": [
+      "For a manufacturer, one qualified inquiry from the right buyer is worth more than thousands of impressions. We plan campaigns backwards from that: which buyers, in which markets, looking for which products — and which page on your site will answer them."
+     ],
+     "ul": [
+      "Search campaigns for buyers who are already looking for the product type or process you offer.",
+      "Content that answers the questions engineers and buyers ask before they write: specifications, standards, applications.",
+      "Paid campaigns where the numbers justify them, with spend and results shown from your own ad accounts.",
+      "Inquiry tracking by source, so you can see which channel produced which conversation."
+     ]
+    },
+    {
+     "h2": "What we report",
+     "p": [
+      "Inquiries, calls and profile actions by channel, alongside spend. We do not report vanity reach as success, and we do not promise a number of leads. If a channel is not working after a fair test, we say so and move the budget."
+     ]
+    },
+    {
+     "h2": "Further reading",
+     "p": [
+      "[How Chinese manufacturers can win more overseas buyer inquiries](/insights/overseas-buyer-inquiries/)."
+     ]
+    }
+   ]
+  },
+  "social-media-management": {
+   "title": "LinkedIn & Social Media for Chinese Manufacturers | Hurfi",
+   "h1": "LinkedIn and social media for Chinese manufacturers",
+   "description": "LinkedIn and social media management for Chinese manufacturers: planned posts showing real production, engineering and people, approved by your team.",
+   "sections": [
+    {
+     "h2": "Why LinkedIn matters for a factory",
+     "p": [
+      "Before an overseas buyer replies to your email, they often look up the company page and the person who wrote to them. A company page with no posts, or a sales profile with no photo, raises doubts that a good price cannot fix. LinkedIn is where B2B buyers check whether a supplier is real, active and professional."
+     ],
+     "ul": [
+      "A company page that matches the website: same products, same certificates, same contact details.",
+      "Profiles for the people buyers will talk to, in clear English.",
+      "A posting plan built around real material: production, testing, trade shows, new products, team.",
+      "Every post approved by your team before it goes out; nothing is published without permission."
+     ]
+    },
+    {
+     "h2": "What we do not do",
+     "ul": [
+      "Buy followers or engagement.",
+      "Send mass connection requests or automated messages that damage your account and reputation.",
+      "Use stock photos in place of your own factory."
+     ]
+    }
+   ]
+  }
+ },
+ "home": {
+  "title": "Export Marketing for Chinese Manufacturers | Hurfi",
+  "eyebrow": "Export marketing for Chinese manufacturers",
+  "description": "Hurfi helps Chinese manufacturers and B2B exporters reach overseas buyers with English B2B websites, Google SEO, digital marketing and LinkedIn."
+ },
+ "locations": {
+  "title": "China Manufacturing Regions We Serve | Hurfi",
+  "description": "Hurfi works remotely with manufacturers across China’s main manufacturing regions, from our offices in Xi’an and Bogura. Browse the China city directory."
+ }
+}

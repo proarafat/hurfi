@@ -9,3 +9,22 @@
 /book    /book-consultation/    301
 /case-studies    /projects/    301
 /case-studies/    /projects/    301
+# Repo files that are not pages (publish dir is the repo root)
+/README.md    /404.html    404!
+/.env.example    /404.html    404!
+/.gitattributes    /404.html    404!
+/.gitignore    /404.html    404!
+/netlify.toml    /404.html    404!
+/_headers    /404.html    404!
+# Legacy industry pages (2026-10-16). Source HTML files were deleted, so no force flag is needed.
+/industries/electronics/    /industries/electronics-semiconductor/    301
+/industries/machinery/    /industries/industrial-machinery-cnc/    301
+/industries/textile/    /industries/textiles-technical-fabrics/    301
+/industries/packaging/    /industries/packaging-printing-manufacturing/    301
+/industries/furniture/    /industries/furniture-interior-manufacturing/    301
+/industries/automotive/    /industries/automotive-mobility-components/    301
+/industries/building-materials/    /industries/construction-materials-systems/    301
+/industries/manufacturing/    /industries/    301
+/industries/industrial-suppliers/    /industries/    301
+/industries/export/    /services/    301
+/industries/lighting/    /industries/    301

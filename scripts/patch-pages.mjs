@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+// QUARANTINED 2026-10-16: do not run — it rewrites the static header and navigation on every page.
+// Kept for reference only. Use scripts/hurfi-pages/build.py for generated pages.
+if (!process.env.HURFI_ALLOW_LEGACY) {
+  console.error("Disabled: scripts/patch-pages.mjs. Set HURFI_ALLOW_LEGACY=1 only if you know what this overwrites.");
+  process.exit(1);
+}
 /**
  * Normalizes all HTML pages for consistent header + assets + forms.
  */

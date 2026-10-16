@@ -20,3 +20,6 @@ Thumbs.db
 
 # Optional local build output
 dist/
+scripts/_chrome-brand*/
+scripts/_cd_brand-*/
+scripts/_brand-*.png

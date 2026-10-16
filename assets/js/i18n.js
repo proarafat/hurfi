@@ -4,7 +4,11 @@
 
   var STORAGE = "hurfi-lang";
 
+  // Static language pages (e.g. /zh/) declare their language in <html data-static-lang>.
+  var STATIC = document.documentElement.getAttribute("data-static-lang");
+
   function current() {
+    if (STATIC === "zh") return "zh";
     try {
       var value = localStorage.getItem(STORAGE);
       if (value === "zh" || value === "fr") return value;
@@ -958,7 +962,7 @@
     "The reply comes from Yasir, or from Shahruk when the work is on the China side.": "回复由 Yasir 发出；如果是中国侧的事，则由 Shahruk 联系。",
     "Nothing starts until the brief is clear.": "简报清楚之前，工作不会开始。",
     "Explore services": "看看服务",
-    "We could not send this inquiry. Email yasirarafating@gmail.com and try again.": "咨询没能发出。请发邮件到 yasirarafating@gmail.com，或再试一次。",
+    "We could not send this inquiry. Email yasir@hurfi.com and try again.": "咨询没能发出。请发邮件到 yasir@hurfi.com，或再试一次。",
     "Scope, timing, and the way we talk are agreed before the work begins.": "工作开始前，会先说好范围、时间和沟通方式。",
     "How Hurfi works with you": "Hurfi 如何与你合作",
     "Flexible payment plans. Pay monthly, quarterly, or annually, with no commitment and the option to cancel anytime.": "灵活付款。可按月、按季或按年支付，没有绑定，也可以随时取消。",
@@ -969,6 +973,74 @@
 
   /* "Limited" is used both as a badge and was overwritten above by the score label. Restore the badge meaning for the short nav tag by keeping score phrases longer. The nav tag text is exactly "Limited", which now means 有限. Fix the badge to stay 限时 by using a dedicated pass is not possible if both strings are identical. The score "Limited" and the badge "Limited" are the same English word. Prefer the nav/offer meaning 限时 because it appears more often in chrome; comparison "Limited" is less visible (icon). Override back: */
   zh["Limited"] = "限时";
+  zh["Brand system"] = "品牌系统";
+  zh["Brand Guidelines"] = "品牌规范";
+  zh["Download the logo files, copy a color, and see which typeface to use."] = "下载标志文件，复制颜色，并查看该用哪种字体。";
+  zh["Download all logos"] = "下载全部标志";
+  zh["View on Behance"] = "在 Behance 上查看";
+  zh["Logos"] = "标志";
+  zh["Each file is separate. The zip contains every logo on this page."] = "每个文件分开下载。压缩包里包含本页的全部标志。";
+  zh["App icon"] = "应用图标";
+  zh["The blue tile with the white mark. Use it for favicons, app icons, and avatars."] = "蓝色圆角方块配白色标志。用于网站图标、应用图标和头像。";
+  zh["Logo on light backgrounds"] = "浅色背景用标志";
+  zh["Black wordmark on a transparent background. Use this on white and light surfaces."] = "透明背景上的黑色字标。用在白色和浅色表面上。";
+  zh["Logo on dark backgrounds"] = "深色背景用标志";
+  zh["White wordmark on a transparent background. Use this on dark and colorful surfaces."] = "透明背景上的白色字标。用在深色和彩色表面上。";
+  zh["White lockup"] = "白色组合标志";
+  zh["Large white wordmark for print and dark layouts."] = "用于印刷和深色版式的大号白色字标。";
+  zh["How to use the logo"] = "如何使用标志";
+  zh["The name"] = "名称";
+  zh["Write the name as Hurfi, with a capital H."] = "名称写作 Hurfi，H 大写。";
+  zh["Leave it whole"] = "保持完整";
+  zh["Do not stretch, rotate, recolor, outline, or add a shadow to the mark."] = "不要拉伸、旋转、改色、加描边，或给标志加阴影。";
+  zh["Match the ground"] = "配好底色";
+  zh["Do not place the black wordmark on a dark photo, or the white wordmark on a white page."] = "不要把黑色字标放在深色照片上，也不要把白色字标放在白底页面上。";
+  zh["Clear space"] = "留白";
+  zh["Leave clear space around the logo so it does not touch other text or the edge of a picture."] = "标志周围留出空白，不要贴到其他文字或图片边缘。";
+  zh["Colors"] = "颜色";
+  zh["Click a swatch to copy the hex."] = "点击色块即可复制色值。";
+  zh["Hurfi Blue"] = "Hurfi 蓝";
+  zh["The blue used on hurfi.com for links, buttons, and the header."] = "hurfi.com 上链接、按钮和页眉使用的蓝色。";
+  zh["Icon Blue"] = "图标蓝";
+  zh["The flat blue in the app icon PNG. The SVG file uses #007AFE."] = "应用图标 PNG 里的纯色蓝。SVG 文件使用 #007AFE。";
+  zh["Palette Blue"] = "色板蓝";
+  zh["The first blue in the identity palette."] = "视觉识别色板里的第一块蓝色。";
+  zh["Growth Green"] = "成长绿";
+  zh["The green beside blue in the identity palette."] = "视觉识别色板里，蓝色旁边的绿色。";
+  zh["Sky"] = "天空蓝";
+  zh["Light blue from the brand palette."] = "品牌色板中的浅蓝色。";
+  zh["Mint"] = "薄荷色";
+  zh["Light green from the brand palette."] = "品牌色板中的浅绿色。";
+  zh["Black"] = "黑色";
+  zh["The wordmark on light backgrounds."] = "浅色背景上的字标颜色。";
+  zh["White"] = "白色";
+  zh["The wordmark on dark backgrounds."] = "深色背景上的字标颜色。";
+  zh["Copy"] = "复制";
+  zh["Typefaces"] = "字体";
+  zh["PolySans Neutral is the brand typeface. The website uses two Google Fonts."] = "PolySans Neutral 是品牌字体。网站使用两款 Google Fonts。";
+  zh["Brand typeface"] = "品牌字体";
+  zh["Used in the Hurfi identity. It is not on Google Fonts. This page does not include a font file."] = "用于 Hurfi 的视觉识别。Google Fonts 上没有这款字体。本页不提供字体文件。";
+  zh["View at Gradient"] = "在 Gradient 查看";
+  zh["Website text"] = "网站正文";
+  zh["The typeface used for text on hurfi.com."] = "hurfi.com 正文使用的字体。";
+  zh["Open on Google Fonts"] = "在 Google Fonts 打开";
+  zh["Copy CSS"] = "复制 CSS";
+  zh["Headlines"] = "标题";
+  zh["The italic typeface used for large headlines on hurfi.com."] = "hurfi.com 大标题使用的斜体字体。";
+  zh["Identity"] = "视觉识别";
+  zh["The full identity system is on Behance."] = "完整的视觉识别系统在 Behance 上。";
+  zh["Hurfi is a forward-driven digital agency built on speed, innovation, and strategic growth. Its identity merges bold design with functional clarity. Hurfi stands for momentum: measurable, scalable, and precise."] = "Hurfi 是一家以速度、创新和战略增长为导向的数字机构。其识别系统把大胆的设计与功能上的清晰结合在一起。Hurfi 代表的是势头：可衡量、可扩展、而且精确。";
+  zh["Open the Hurfi identity on Behance"] = "在 Behance 打开 Hurfi 视觉识别";
+  zh["Where can I download the Hurfi logo?"] = "在哪里可以下载 Hurfi 标志？";
+  zh["On this page. Each logo has its own download, and Download all logos saves every file in one zip."] = "就在这一页。每个标志可以单独下载，下载全部标志会把所有文件放进一个压缩包。";
+  zh["Which file should I use on a dark background?"] = "深色背景该用哪个文件？";
+  zh["Use the white wordmark, Logo on dark backgrounds, or the white lockup."] = "使用白色字标，也就是深色背景用标志，或白色组合标志。";
+  zh["What color is Hurfi blue?"] = "Hurfi 蓝是什么颜色？";
+  zh["The website uses #0076F7. The app icon file uses #007AFF."] = "网站使用 #0076F7。应用图标文件使用 #007AFF。";
+  zh["What font does Hurfi use?"] = "Hurfi 用什么字体？";
+  zh["The brand typeface is PolySans Neutral. The website uses Plus Jakarta Sans and Instrument Serif, both on Google Fonts."] = "品牌字体是 PolySans Neutral。网站使用 Plus Jakarta Sans 和 Instrument Serif，这两款都在 Google Fonts 上。";
+  zh["Can I change the logo?"] = "可以改标志吗？";
+  zh["No. Use the files on this page as they are."] = "不可以。请按本页提供的文件原样使用。";
 
   var fr = {
     "Skip to content": "Aller au contenu",
@@ -1898,7 +1970,7 @@
     "The reply comes from Yasir, or from Shahruk when the work is on the China side.": "La réponse vient de Yasir, ou de Shahruk si le travail est côté Chine.",
     "Nothing starts until the brief is clear.": "Rien ne commence tant que le brief n’est pas clair.",
     "Explore services": "Voir les services",
-    "We could not send this inquiry. Email yasirarafating@gmail.com and try again.": "L’envoi a échoué. Écrivez à yasirarafating@gmail.com, ou réessayez.",
+    "We could not send this inquiry. Email yasir@hurfi.com and try again.": "L’envoi a échoué. Écrivez à yasir@hurfi.com, ou réessayez.",
     "Scope, timing, and the way we talk are agreed before the work begins.": "Le périmètre, le calendrier et le mode de contact sont convenus avant que le travail commence.",
     "How Hurfi works with you": "Comment Hurfi travaille avec vous",
     "Flexible payment plans. Pay monthly, quarterly, or annually, with no commitment and the option to cancel anytime.": "Paiement flexible. Au mois, au trimestre ou à l’année, sans engagement, et annulable à tout moment.",
@@ -1908,6 +1980,74 @@
   };
 
   fr["Limited"] = "Limité";
+  fr["Brand system"] = "Système de marque";
+  fr["Brand Guidelines"] = "Charte de marque";
+  fr["Download the logo files, copy a color, and see which typeface to use."] = "Téléchargez les logos, copiez une couleur, et voyez quelle police utiliser.";
+  fr["Download all logos"] = "Télécharger tous les logos";
+  fr["View on Behance"] = "Voir sur Behance";
+  fr["Logos"] = "Logos";
+  fr["Each file is separate. The zip contains every logo on this page."] = "Chaque fichier se télécharge seul. L’archive contient tous les logos de cette page.";
+  fr["App icon"] = "Icône d’application";
+  fr["The blue tile with the white mark. Use it for favicons, app icons, and avatars."] = "Le carré bleu avec le signe blanc. À utiliser pour le favicon, l’icône d’application et les avatars.";
+  fr["Logo on light backgrounds"] = "Logo sur fond clair";
+  fr["Black wordmark on a transparent background. Use this on white and light surfaces."] = "Nom en noir sur fond transparent. À utiliser sur le blanc et les surfaces claires.";
+  fr["Logo on dark backgrounds"] = "Logo sur fond sombre";
+  fr["White wordmark on a transparent background. Use this on dark and colorful surfaces."] = "Nom en blanc sur fond transparent. À utiliser sur les surfaces sombres ou colorées.";
+  fr["White lockup"] = "Version blanche";
+  fr["Large white wordmark for print and dark layouts."] = "Grand nom en blanc, pour l’impression et les mises en page sombres.";
+  fr["How to use the logo"] = "Comment utiliser le logo";
+  fr["The name"] = "Le nom";
+  fr["Write the name as Hurfi, with a capital H."] = "Écrivez le nom Hurfi, avec un H majuscule.";
+  fr["Leave it whole"] = "Le laisser entier";
+  fr["Do not stretch, rotate, recolor, outline, or add a shadow to the mark."] = "Ne pas étirer, tourner, recolorer, contourer, ni ajouter d’ombre au signe.";
+  fr["Match the ground"] = "Adapter au fond";
+  fr["Do not place the black wordmark on a dark photo, or the white wordmark on a white page."] = "Ne placez pas le nom noir sur une photo sombre, ni le nom blanc sur une page blanche.";
+  fr["Clear space"] = "Espace libre";
+  fr["Leave clear space around the logo so it does not touch other text or the edge of a picture."] = "Laissez de l’espace autour du logo, pour qu’il ne touche ni le texte ni le bord d’une image.";
+  fr["Colors"] = "Couleurs";
+  fr["Click a swatch to copy the hex."] = "Cliquez sur une pastille pour copier le code hex.";
+  fr["Hurfi Blue"] = "Bleu Hurfi";
+  fr["The blue used on hurfi.com for links, buttons, and the header."] = "Le bleu utilisé sur hurfi.com pour les liens, les boutons et l’en-tête.";
+  fr["Icon Blue"] = "Bleu de l’icône";
+  fr["The flat blue in the app icon PNG. The SVG file uses #007AFE."] = "Le bleu plat du PNG de l’icône. Le fichier SVG utilise #007AFE.";
+  fr["Palette Blue"] = "Bleu de la palette";
+  fr["The first blue in the identity palette."] = "Le premier bleu de la palette d’identité.";
+  fr["Growth Green"] = "Vert croissance";
+  fr["The green beside blue in the identity palette."] = "Le vert à côté du bleu dans la palette d’identité.";
+  fr["Sky"] = "Ciel";
+  fr["Light blue from the brand palette."] = "Bleu clair de la palette.";
+  fr["Mint"] = "Menthe";
+  fr["Light green from the brand palette."] = "Vert clair de la palette.";
+  fr["Black"] = "Noir";
+  fr["The wordmark on light backgrounds."] = "La couleur du nom sur fond clair.";
+  fr["White"] = "Blanc";
+  fr["The wordmark on dark backgrounds."] = "La couleur du nom sur fond sombre.";
+  fr["Copy"] = "Copier";
+  fr["Typefaces"] = "Polices";
+  fr["PolySans Neutral is the brand typeface. The website uses two Google Fonts."] = "PolySans Neutral est la police de la marque. Le site utilise deux Google Fonts.";
+  fr["Brand typeface"] = "Police de la marque";
+  fr["Used in the Hurfi identity. It is not on Google Fonts. This page does not include a font file."] = "Utilisée dans l’identité Hurfi. Elle n’est pas sur Google Fonts. Cette page ne contient pas de fichier de police.";
+  fr["View at Gradient"] = "Voir chez Gradient";
+  fr["Website text"] = "Texte du site";
+  fr["The typeface used for text on hurfi.com."] = "La police du texte sur hurfi.com.";
+  fr["Open on Google Fonts"] = "Ouvrir sur Google Fonts";
+  fr["Copy CSS"] = "Copier le CSS";
+  fr["Headlines"] = "Titres";
+  fr["The italic typeface used for large headlines on hurfi.com."] = "La police italique des grands titres sur hurfi.com.";
+  fr["Identity"] = "Identité";
+  fr["The full identity system is on Behance."] = "Le système d’identité complet est sur Behance.";
+  fr["Hurfi is a forward-driven digital agency built on speed, innovation, and strategic growth. Its identity merges bold design with functional clarity. Hurfi stands for momentum: measurable, scalable, and precise."] = "Hurfi est une agence digitale tournée vers la vitesse, l’innovation et la croissance. Son identité mêle un dessin affirmé et une clarté fonctionnelle. Hurfi signifie l’élan : mesurable, extensible et précis.";
+  fr["Open the Hurfi identity on Behance"] = "Ouvrir l’identité Hurfi sur Behance";
+  fr["Where can I download the Hurfi logo?"] = "Où télécharger le logo Hurfi ?";
+  fr["On this page. Each logo has its own download, and Download all logos saves every file in one zip."] = "Sur cette page. Chaque logo a son téléchargement, et Télécharger tous les logos enregistre chaque fichier dans une archive.";
+  fr["Which file should I use on a dark background?"] = "Quel fichier utiliser sur un fond sombre ?";
+  fr["Use the white wordmark, Logo on dark backgrounds, or the white lockup."] = "Utilisez le nom en blanc : Logo sur fond sombre, ou la version blanche.";
+  fr["What color is Hurfi blue?"] = "Quelle est la couleur du bleu Hurfi ?";
+  fr["The website uses #0076F7. The app icon file uses #007AFF."] = "Le site utilise #0076F7. Le fichier de l’icône utilise #007AFF.";
+  fr["What font does Hurfi use?"] = "Quelle police Hurfi utilise-t-il ?";
+  fr["The brand typeface is PolySans Neutral. The website uses Plus Jakarta Sans and Instrument Serif, both on Google Fonts."] = "La police de la marque est PolySans Neutral. Le site utilise Plus Jakarta Sans et Instrument Serif, toutes deux sur Google Fonts.";
+  fr["Can I change the logo?"] = "Puis-je modifier le logo ?";
+  fr["No. Use the files on this page as they are."] = "Non. Utilisez les fichiers de cette page tels quels.";
 
   function map() {
     if (current() === "zh") return zh;
@@ -1916,6 +2056,7 @@
   }
 
   function htmlLang() {
+    if (STATIC) return document.documentElement.getAttribute("lang") || "zh-Hans";
     if (current() === "zh") return "zh-CN";
     if (current() === "fr") return "fr";
     return "en";
@@ -1961,7 +2102,17 @@
       if (button.dataset.bound === "1") return;
       button.dataset.bound = "1";
       button.addEventListener("click", function () {
-        try { localStorage.setItem(STORAGE, button.getAttribute("data-lang")); } catch (e) {}
+        var want = button.getAttribute("data-lang");
+        try { localStorage.setItem(STORAGE, want); } catch (e) {}
+        // Prefer a real translated URL when the page declares one (hreflang).
+        var target = null;
+        if (want === "zh") target = document.querySelector('link[rel="alternate"][hreflang^="zh"]');
+        else if (STATIC) target = document.querySelector('link[rel="alternate"][hreflang="en"]');
+        if (target && target.href) {
+          // Use the path only, so previews and local servers stay on their own host.
+          var path = target.getAttribute("href").replace(/^https?:\/\/[^\/]+/, "");
+          if (path && path !== window.location.pathname) { window.location.assign(path); return; }
+        }
         window.location.reload();
       });
     });

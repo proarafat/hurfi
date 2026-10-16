@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+// QUARANTINED 2026-10-16: do not run — it cuts sitemap.xml to 13 URLs and overwrites ai.txt, humans.txt and JSON-LD.
+// Kept for reference only. Use scripts/hurfi-pages/build.py for generated pages.
+if (!process.env.HURFI_ALLOW_LEGACY) {
+  console.error("Disabled: scripts/generate-seo.mjs. Set HURFI_ALLOW_LEGACY=1 only if you know what this overwrites.");
+  process.exit(1);
+}
 /**
  * Generates SEO / AEO / GEO artifacts from data/site.config.json
  * Also validates that each page has a matching HTML file.

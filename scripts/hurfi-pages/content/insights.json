@@ -1,0 +1,287 @@
+{
+ "_hub": {
+  "title": "Insights for Chinese Manufacturers Selling Abroad | Hurfi",
+  "h1": "Insights",
+  "description": "Practical guides for Chinese manufacturers on overseas buyer inquiries, factory website trust and RFQ-ready websites.",
+  "lead": "Practical notes for Chinese manufacturers and exporters who want overseas buyers to find them, trust them and send a real inquiry. No growth hacks, no invented numbers."
+ },
+ "overseas-buyer-inquiries": {
+  "slug": "overseas-buyer-inquiries",
+  "published": "2026-10-16",
+  "title": "How Chinese Manufacturers Can Win Overseas Buyer Inquiries | Hurfi",
+  "h1": "How Chinese manufacturers can win more overseas buyer inquiries",
+  "description": "A practical guide for Chinese factories: why marketplaces are not enough, what overseas buyers check, and how a website, search and LinkedIn work together to produce inquiries.",
+  "lead": "Marketplaces and trade shows still matter. But many overseas buyers now start with a search, a LinkedIn profile or a recommendation — and then check the factory’s own website before they write. This guide explains how to be ready for that check.",
+  "sections": [
+   {
+    "h2": "Why a marketplace listing is not enough on its own",
+    "p": [
+     "B2B marketplaces are useful: they bring traffic and a familiar way to request quotes. The problem is that every supplier on the platform looks similar. Your listing sits next to dozens of others, often with the same photos, the same claims and prices that invite a race to the bottom.",
+     "A buyer who is serious about a long-term supplier usually wants to know more than a listing can show: who you are, what you make yourself, what you outsource, which standards you work to and who they will deal with after the first order. That information belongs on a website you control."
+    ]
+   },
+   {
+    "h2": "What an overseas buyer checks before writing to you",
+    "p": [
+     "Before an engineer or purchasing manager sends a first message, they are trying to answer a few simple questions:"
+    ],
+    "ul": [
+     "Is this a real manufacturer, and where is the factory?",
+     "Do they make the product I need, to the specification and standard I need?",
+     "Can they handle my volumes, and what is the minimum order?",
+     "Who will answer me, in which language, and how quickly?",
+     "What happens after I send an inquiry?"
+    ],
+    "p2": [
+     "If your website answers these questions in plain English, the buyer arrives at the first conversation already half-convinced. If it does not, many buyers simply move on without telling you why."
+    ]
+   },
+   {
+    "h2": "Build the website around those questions",
+    "p": [
+     "A factory website that produces inquiries is usually less about design and more about structure:"
+    ],
+    "ul": [
+     "Product or capability pages with specifications in HTML, not only in a PDF.",
+     "A factory and quality page with real photos, equipment, certificates and their scope.",
+     "Application or industry pages that speak to the buyer’s problem.",
+     "A clear inquiry path: what to send (drawings, quantities, target date) and what you will send back."
+    ],
+    "p2": [
+     "We go through the practical checklist in [what a manufacturer website needs for RFQs](/insights/manufacturer-website-rfq-checklist/)."
+    ]
+   },
+   {
+    "h2": "Let search bring the right buyers",
+    "p": [
+     "Google search works best for manufacturers when it targets the specific questions buyers ask at the specification stage — product types, materials, standards, tolerances, compatibility — rather than broad phrases such as “China manufacturer”, which mostly attract price shoppers.",
+     "This is slower than buying ads, and nobody can honestly promise a ranking. But pages that answer real technical questions keep working for years, and the buyers who arrive through them tend to be better qualified. Our [SEO service](/services/seo/) is built around this approach."
+    ]
+   },
+   {
+    "h2": "Use LinkedIn to show the people and the process",
+    "p": [
+     "Buyers want to know who they will deal with. A company page with no posts, or posts made only of stock images, does not help. Short posts that show real production steps, inspection, packing and the engineers behind the product are more convincing — as long as you only share what your customers allow you to share.",
+     "LinkedIn is also where many buyers will check the person who replies to their inquiry. Make sure that person’s profile is complete and consistent with the website. See [social media management](/services/social-media-management/) for how we approach this."
+    ]
+   },
+   {
+    "h2": "Answer quickly and consistently",
+    "p": [
+     "All of this is wasted if an inquiry waits three days for a reply, or if the reply ignores the buyer’s question. Decide who answers inquiries, in which language, and within what time. Use the same company name, address and contact details on the website, LinkedIn and every marketplace profile, so a buyer who checks finds one consistent picture."
+    ]
+   },
+   {
+    "h2": "Measure what matters",
+    "p": [
+     "Track qualified inquiries, not only traffic. Connect Google Search Console and a privacy-respecting analytics tool, note where each inquiry came from, and review it monthly. That tells you which pages and channels are worth more effort — and which are not."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Should we stop using B2B marketplaces?",
+    "Not necessarily. Many factories use both. Your own website gives buyers a place to verify you and gives you inquiries that do not depend on one platform."
+   ],
+   [
+    "How long does it take for search to bring inquiries?",
+    "It depends on your market, competition and the state of your current site. Nobody can honestly promise a timeline; regular reporting shows whether it is working."
+   ],
+   [
+    "Can Hurfi help with this?",
+    "Yes — with [websites](/services/website-development/), [SEO](/services/seo/), [digital marketing](/services/digital-marketing/) and [LinkedIn](/services/social-media-management/). A [consultation](/book-consultation/) is the place to start."
+   ]
+  ]
+ },
+ "factory-website-trust-signals": {
+  "slug": "factory-website-trust-signals",
+  "published": "2026-10-16",
+  "title": "Factory Website Trust Signals Overseas Buyers Look For | Hurfi",
+  "h1": "Why overseas buyers hesitate on factory websites — and what to fix",
+  "description": "The trust signals overseas buyers look for on a Chinese factory website, the mistakes that make a real factory look unreliable, and how to fix them.",
+  "lead": "Overseas buyers have learned to be careful. Many have met trading companies presented as factories, copied photos and certificates that did not check out. A real factory can lose an inquiry simply because its website looks like those. Here is what buyers look for, written from the factory’s side.",
+  "sections": [
+   {
+    "h2": "Start with who you are",
+    "p": [
+     "The first signal is a clear, consistent identity:"
+    ],
+    "ul": [
+     "Your registered company name in English, the same on every page, profile and document.",
+     "A real factory address, ideally with a map, and photos that match it.",
+     "Named people a buyer can contact, with roles — not only a generic form.",
+     "The year the company was founded and what you actually manufacture in-house."
+    ],
+    "p2": [
+     "If you are a trading company or work with partner factories, say so plainly. Buyers accept that much more easily than discovering it later."
+    ]
+   },
+   {
+    "h2": "Show the factory, not stock images",
+    "p": [
+     "Stock photos of generic factories are recognised immediately. A few honest photos and short videos of your own production lines, inspection area and warehouse are worth more than a polished render. Name the equipment where it matters to the buyer — for example the machine types or test instruments you use."
+    ]
+   },
+   {
+    "h2": "Make certificates checkable",
+    "p": [
+     "Certificates are only useful if a buyer can verify them. For each one, show:"
+    ],
+    "ul": [
+     "The certificate itself, readable, not just a logo.",
+     "The certificate holder name, which should match your company name.",
+     "The scope — which products or sites it covers.",
+     "The issuing body and the validity date."
+    ],
+    "p2": [
+     "Do not show logos for certifications you do not hold, or imply that one model’s approval covers a whole range. Experienced buyers check, and a single mismatch can end the conversation."
+    ]
+   },
+   {
+    "h2": "Put the technical detail on the page",
+    "p": [
+     "Specifications hidden in a downloadable catalog, or published as images, make a site feel thin. Put the key data in HTML tables on each product or capability page, with units and test conditions. This helps buyers compare you, and it helps search engines understand what you make."
+    ]
+   },
+   {
+    "h2": "Remove the warning signs",
+    "p": [
+     "Some details make a real factory look unreliable. Check your site for:"
+    ],
+    "ul": [
+     "Broken links, empty pages or “coming soon” sections.",
+     "Machine-translated text and inconsistent product names.",
+     "Claims with no evidence: “No.1 in China”, “world-leading”, unexplained star ratings.",
+     "Contact details that differ between the website, LinkedIn and marketplace profiles.",
+     "A free email address as the only contact, instead of an address on your own domain."
+    ]
+   },
+   {
+    "h2": "Explain what happens after an inquiry",
+    "p": [
+     "A buyer is more likely to write if they know what comes next: who replies, within what time, whether you sign an NDA for drawings, how samples work and what information you need for a quotation. One short paragraph near the inquiry form removes much of the hesitation."
+    ]
+   },
+   {
+    "h2": "Keep it current",
+    "p": [
+     "Out-of-date certificates, old product lines and copyright years from several years ago suggest a company that is not paying attention. Set a simple review cycle — for example every quarter — to check certificates, contact details and key product pages."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Do we need to show client names?",
+    "No. Many factories cannot. Capability, process, equipment and quality evidence can build trust without naming clients."
+   ],
+   [
+    "Are reviews and ratings important?",
+    "Only if they are real and verifiable. An unexplained rating is a warning sign, not a trust signal."
+   ],
+   [
+    "Can Hurfi review our website for these issues?",
+    "Yes. A [website review](/book-consultation/) covers these points. See also [website development](/services/website-development/)."
+   ]
+  ]
+ },
+ "manufacturer-website-rfq-checklist": {
+  "slug": "manufacturer-website-rfq-checklist",
+  "published": "2026-10-16",
+  "title": "Manufacturer Website RFQ Checklist: Pages That Get Quotes | Hurfi",
+  "h1": "What a manufacturer website needs before buyers send an RFQ",
+  "description": "A practical checklist of the pages, specifications and inquiry details a Chinese manufacturer website needs so overseas buyers can send a complete RFQ.",
+  "lead": "A request for quotation is a buyer telling you they are ready to compare prices. Your website can make that easy — or it can make the buyer give up halfway. This checklist covers the pages and details that help an overseas buyer send a complete RFQ.",
+  "sections": [
+   {
+    "h2": "1. Product or capability pages a buyer can compare",
+    "p": [
+     "Every main product family or manufacturing capability should have its own page with:"
+    ],
+    "ul": [
+     "A clear name in the terms buyers use, not only your internal model codes.",
+     "A specification table in HTML, with units and tolerances.",
+     "Materials, finishes and options.",
+     "Downloadable datasheets, drawings or CAD files where relevant.",
+     "A request-a-quote link on the page itself."
+    ]
+   },
+   {
+    "h2": "2. A factory and quality page",
+    "p": [
+     "Buyers want to know they are dealing with the manufacturer. Show production equipment, inspection and testing, the quality system and certificates with their scope and validity. Real photos matter more than design."
+    ]
+   },
+   {
+    "h2": "3. Commercial basics, stated plainly",
+    "p": [
+     "Many RFQs stall on simple questions. Answer them on the site:"
+    ],
+    "ul": [
+     "Minimum order quantity, or how MOQ is decided.",
+     "Typical lead time for samples and for production.",
+     "Sample policy and cost.",
+     "Incoterms you usually quote and the ports you ship from.",
+     "Payment terms you normally accept."
+    ]
+   },
+   {
+    "h2": "4. An inquiry form that asks for the right things",
+    "p": [
+     "A good RFQ form is short but specific. Useful fields include:"
+    ],
+    "ul": [
+     "Product or part, and quantity.",
+     "Target date.",
+     "Drawing or file upload, with an NDA option if you offer one.",
+     "Application or end use.",
+     "Contact details and the preferred way to reply — email, WeChat or WhatsApp."
+    ],
+    "p2": [
+     "After submission, show a confirmation that says who will reply and when, and send an automatic acknowledgment. Then make sure someone actually replies."
+    ]
+   },
+   {
+    "h2": "5. Application and industry pages",
+    "p": [
+     "Engineers often search by problem or application, not by product name. Pages that explain how your product is used in a specific industry — with the relevant standards and examples you are allowed to share — bring better-qualified visitors and give them confidence you understand their field. Our [industry pages](/industries/) show the sectors we work with."
+    ]
+   },
+   {
+    "h2": "6. Technical basics for search",
+    "p": [
+     "None of this helps if search engines cannot read it:"
+    ],
+    "ul": [
+     "Each page has a unique, descriptive title and one clear heading.",
+     "Specifications are text, not images.",
+     "Pages load quickly on mobile, with compressed images.",
+     "The site has a sitemap, and important pages are linked from the navigation.",
+     "Google Search Console is connected so you can see how buyers find you."
+    ],
+    "p2": [
+     "Our [SEO service](/services/seo/) covers this technical layer."
+    ]
+   },
+   {
+    "h2": "7. One consistent contact path",
+    "p": [
+     "Use one company name, one set of contact details and one inquiry process across the website, LinkedIn and marketplaces. Route different requests — quotes, support, partnerships — to the right person, so none of them waits."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Do we need prices on the website?",
+    "Not usually for custom or industrial products. But clear MOQ, lead-time and sample information helps buyers decide to send an RFQ."
+   ],
+   [
+    "Should the RFQ form allow file uploads?",
+    "For drawing-based work, yes. State what file types you accept and how you protect them."
+   ],
+   [
+    "Can Hurfi build this for us?",
+    "Yes — see [website development](/services/website-development/) or [book a consultation](/book-consultation/)."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,633 @@
+{
+ "industrial-automation-robotics": {
+  "slug": "industrial-automation-robotics",
+  "name": "Industrial Automation & Robotics",
+  "short": "automation and robotics",
+  "title": "Export Marketing for Chinese Automation & Robotics Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese automation and robotics manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese robot, motion-control and factory-automation manufacturers selling to integrators and OEMs abroad.",
+  "lead": "Integrators and machine builders abroad shortlist automation suppliers on specifications and support. Hurfi helps Chinese manufacturers in this sector publish those details in English, get found in search, and turn visits into qualified inquiries.",
+  "checks": [
+   "Payload, reach, repeatability and cycle-time figures, with the test conditions behind them.",
+   "Which controllers, fieldbuses and protocols the product supports — for example EtherCAT, PROFINET, EtherNet/IP or Modbus — and whether drivers or libraries are available.",
+   "Safety information: the standards the product is designed and tested to (such as ISO 10218 for industrial robots or ISO/TS 15066 for collaborative applications) and the certificates you actually hold.",
+   "CAD models, manuals and integration guides that an engineer can download before speaking to sales.",
+   "Who supports the installation abroad: your own engineers, a distributor, or remote commissioning."
+  ],
+  "site": [
+   "A product page per robot or drive family, with a specification table in HTML rather than only in a PDF.",
+   "Application pages written for the buyer’s task — palletizing, machine tending, welding, inspection — that link to the products used.",
+   "An integrator or distributor page that says what partners get: pricing structure, training, demo units, technical support hours.",
+   "Search work aimed at specification-stage queries (model comparisons, protocol compatibility, payload classes) rather than broad “robot manufacturer” terms.",
+   "LinkedIn posts that show real cells running, with the application named, so engineers can judge the product before they ask."
+  ],
+  "gaps": [
+   "Specifications only inside a downloadable catalog, so search engines and buyers cannot read them on the page.",
+   "Safety and certification claims with no certificate number, issuing body or scope.",
+   "One contact form for every request, so a quote, a support ticket and a partnership inquiry all land in the same inbox."
+  ],
+  "faq": [
+   [
+    "Which buyers does this work target?",
+    "System integrators, machine builders, distributors and end-user engineering teams outside China who compare automation suppliers before a project."
+   ],
+   [
+    "Do you guarantee leads or rankings?",
+    "No. We set up the site, search and content so qualified buyers can find and understand you, and we report what happens in search and inquiries."
+   ],
+   [
+    "We sell mostly through distributors. Is a website still worth it?",
+    "Yes. Distributors and their customers still check the manufacturer’s own site for specifications, documentation and proof that the factory is real."
+   ]
+  ],
+  "cities": [
+   "shenzhen",
+   "wuxi"
+  ],
+  "topics": [
+   "Model and payload-class pages, such as six-axis robots by payload range, so an integrator searching for a specific class lands on the right product.",
+   "Protocol and controller compatibility pages: which PLCs, fieldbuses and software your robots or drives work with, written as plain answers.",
+   "Application pages for the cell the buyer is building — palletizing, welding, machine tending, inspection — with cycle-time figures and the products used.",
+   "Comparison content that explains when a SCARA, delta, six-axis or collaborative robot fits, in neutral language engineers trust.",
+   "Service and spare-parts pages that say how long parts are supported and how remote diagnosis works.",
+   "Downloadable CAD and manual libraries that are indexed by product, so engineers can find files by model number."
+  ]
+ },
+ "electronics-semiconductor": {
+  "slug": "electronics-semiconductor",
+  "name": "Electronics & Semiconductor",
+  "short": "electronics and semiconductor",
+  "title": "Export Marketing for Chinese Electronics & Semiconductor Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese electronics and semiconductor manufacturers",
+  "description": "English B2B websites, Google SEO and LinkedIn for Chinese component, PCB/PCBA, module and semiconductor manufacturers selling to engineers and buyers abroad.",
+  "lead": "Engineers and component buyers abroad check datasheets, compliance and supply terms before they send an RFQ. Hurfi helps Chinese electronics and semiconductor manufacturers make that information easy to find, read and act on.",
+  "checks": [
+   "Datasheets with part numbers, electrical characteristics, package options and revision history.",
+   "Compliance documents such as RoHS and REACH declarations; for automotive-grade parts, the AEC-Q qualification only where it has been completed.",
+   "For PCB and PCBA work: layer counts, materials, minimum trace/space, assembly capability and the workmanship standard you build to (for example IPC-A-610 class).",
+   "MOQ, sample policy, typical lead times and how long a part stays in production.",
+   "Traceability: lot tracking, test records and what a buyer receives with each shipment."
+  ],
+  "site": [
+   "A parametric product catalog in HTML, with filters that match how engineers search (package, voltage, interface).",
+   "Capability pages for contract manufacturing services, separate from component product pages, so each answers one kind of buyer.",
+   "A clear RFQ path that accepts BOMs or Gerber files and states what happens after upload.",
+   "Search work on part-level and specification queries, plus pages that answer cross-reference and replacement questions you can genuinely support.",
+   "LinkedIn content that shows test, inspection and production steps rather than generic factory photos."
+  ],
+  "gaps": [
+   "Datasheets uploaded as image scans, so the numbers cannot be searched or copied.",
+   "Certificates mentioned in text but not shown, or shown without the scope and validity date.",
+   "Distributor and direct-buyer information mixed together, so neither knows how to order."
+  ],
+  "faq": [
+   [
+    "We make both components and contract assembly. Do we need two websites?",
+    "Usually not. One site with separate sections for products and for manufacturing services keeps each buyer on the right path."
+   ],
+   [
+    "Can you write technical copy for our parts?",
+    "We write from your datasheets and your engineers’ input, and we ask for review before anything technical is published."
+   ],
+   [
+    "Do you guarantee leads or rankings?",
+    "No. Search results depend on competition and on how buyers search. We report visibility, traffic and inquiries as they happen."
+   ]
+  ],
+  "cities": [
+   "shenzhen",
+   "dongguan",
+   "wuxi",
+   "hefei"
+  ],
+  "topics": [
+   "Part-number and series pages with parametric tables, so searches for a specific package, rating or interface land on a real product.",
+   "Cross-reference content that shows which of your parts replace common alternatives — only where the equivalence is verified by your engineers.",
+   "Compliance pages that list RoHS, REACH and other declarations per product family, with downloadable documents.",
+   "PCBA and EMS capability pages that state layer counts, component sizes, inspection methods and the files you need for a quote.",
+   "Application notes for the end market — automotive, industrial, consumer, medical — with the qualifications that apply to each.",
+   "Lifecycle and supply information: lead times, long-term availability and how you notify customers of changes."
+  ]
+ },
+ "ev-e-mobility": {
+  "slug": "ev-e-mobility",
+  "name": "EV & E-Mobility",
+  "short": "EV and e-mobility",
+  "title": "Export Marketing for Chinese EV & E-Mobility Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese EV and e-mobility manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese EV charger, e-mobility and EV component manufacturers selling to distributors, installers and fleet buyers abroad.",
+  "lead": "Distributors, installers and fleet operators abroad compare EV equipment suppliers on standards, software and after-sales support. Hurfi helps Chinese manufacturers present those answers clearly in English and get found by the right buyers.",
+  "checks": [
+   "Power ratings, connector standards (such as CCS, CHAdeMO, Type 2, GB/T or NACS) and which markets each model is built for.",
+   "Charge-point software: the OCPP version supported, back-end compatibility and how firmware updates are delivered.",
+   "Certifications held for each target market, with the certificate holder and the model numbers covered.",
+   "Installation manuals, wiring diagrams and the documents an electrician or installer needs.",
+   "Warranty terms, spare parts and who handles service in the buyer’s country."
+  ],
+  "site": [
+   "Model pages organised by use case — home, workplace, fleet depot, public fast charging — with a comparison table.",
+   "A documentation library that installers can use without emailing sales.",
+   "A partner page for distributors and installers that explains margins, training and stock support in plain terms.",
+   "Search work focused on model, standard and compatibility questions in each export market.",
+   "LinkedIn and video content from real installations, with permission from the site owner."
+  ],
+  "gaps": [
+   "One global product page with no indication of which plug standard or certification applies where.",
+   "Software and back-end questions left unanswered, although they decide many fleet purchases.",
+   "No clear statement of after-sales support outside China."
+  ],
+  "faq": [
+   [
+    "Our buyers are mostly distributors. What should the website do for them?",
+    "Give them the documents, specifications and partner terms they need to choose you and to sell your product to their own customers."
+   ],
+   [
+    "Can the site serve several markets with different standards?",
+    "Yes. Market-specific pages or filters can show which models and certificates apply in each region."
+   ],
+   [
+    "Will you promise a number of inquiries?",
+    "No. We can promise clear work and honest reporting, not a number of inquiries."
+   ]
+  ],
+  "cities": [
+   "shenzhen",
+   "hefei",
+   "wuxi"
+  ],
+  "topics": [
+   "Component pages by vehicle system — motors, controllers, chargers, harnesses, thermal parts — with the voltages and power ranges you build.",
+   "Market pages that state which standards and type approvals apply in Europe, North America or other regions, and which you already meet.",
+   "Charging-equipment pages with connector types, power levels and communication protocols spelled out.",
+   "Light electric vehicle content for e-bike, scooter and motorcycle makers, which is a different buyer from passenger-car OEMs.",
+   "PPAP, sample and validation process pages for automotive buyers who need to know how a part gets approved.",
+   "Plain-English explanations of your testing: durability, environmental and safety tests, and who carries them out."
+  ]
+ },
+ "battery-energy-storage": {
+  "slug": "battery-energy-storage",
+  "name": "Battery & Energy Storage",
+  "short": "battery and energy storage",
+  "title": "Export Marketing for Chinese Battery & Energy Storage Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese battery and energy storage manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese battery pack, cell, BMS and energy storage system manufacturers selling to integrators and distributors abroad.",
+  "lead": "Battery and storage buyers abroad check chemistry, test data, certification and shipping documents before they trust a new supplier. Hurfi helps Chinese manufacturers publish that information clearly and reach buyers through search and LinkedIn.",
+  "checks": [
+   "Cell chemistry (for example LFP or NMC), capacity, voltage and the conditions behind any cycle-life figure.",
+   "The battery management system: protections, communication interfaces and compatibility with common inverters.",
+   "Transport and safety documents: UN38.3 test summaries, safety data sheets, and certificates such as IEC 62619 or UL 9540 only where you hold them.",
+   "How packs and containers ship as dangerous goods, and what documentation travels with them.",
+   "Warranty terms in years or cycles, and how warranty claims are handled abroad."
+  ],
+  "site": [
+   "Product pages by application — residential, commercial and industrial, telecom, UPS — with specification tables in HTML.",
+   "A document centre with test summaries and certificates, each with its scope and date.",
+   "Clear pages for OEM and private-label work, separate from your own-brand products.",
+   "Search work on specification and compatibility questions, such as inverter pairing or rack formats.",
+   "LinkedIn content showing production, testing and real project deliveries you are allowed to share."
+  ],
+  "gaps": [
+   "Cycle-life and efficiency numbers with no test conditions, which experienced buyers discount immediately.",
+   "Certificates shown as logos only, without the certificate holder, model coverage or validity.",
+   "No information on shipping and dangerous-goods handling, which is one of the first practical questions."
+  ],
+  "faq": [
+   [
+    "Do you write the technical specifications?",
+    "We structure and edit them from your engineering data and send everything back for technical review before publishing."
+   ],
+   [
+    "Can the site handle OEM and own-brand business together?",
+    "Yes, with separate sections so each buyer type sees the right offer."
+   ],
+   [
+    "Is there a guaranteed result?",
+    "No. We report search visibility and inquiries honestly, including when something is not working."
+   ]
+  ],
+  "cities": [
+   "wuxi"
+  ],
+  "topics": [
+   "Chemistry and format pages — LFP, NMC, sodium-ion; prismatic, cylindrical, pouch — with the specifications buyers filter by.",
+   "Certification pages that list UN 38.3, IEC 62619, UL 9540 or other marks per product, with certificate numbers where you hold them.",
+   "Application pages for residential storage, commercial and industrial storage, telecom backup and mobility, each with typical system sizes.",
+   "BMS and integration content: communication protocols, inverter compatibility and how monitoring works.",
+   "Shipping and logistics information for dangerous goods, which overseas buyers ask about before they order samples.",
+   "Warranty and cycle-life pages that state the test conditions behind the numbers."
+  ]
+ },
+ "power-grid-electrical-equipment": {
+  "slug": "power-grid-electrical-equipment",
+  "name": "Power Grid & Electrical Equipment",
+  "short": "power and electrical equipment",
+  "title": "Export Marketing for Chinese Electrical Equipment Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese power grid and electrical equipment manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese switchgear, transformer, cable and power-equipment manufacturers selling to EPC contractors, utilities and distributors abroad.",
+  "lead": "EPC contractors, utilities and distributors abroad check type tests, standards and project references before they add a supplier to a tender. Hurfi helps Chinese electrical equipment manufacturers make that evidence clear online.",
+  "checks": [
+   "Voltage classes, ratings and the product standards each range is built to, such as IEC 62271 for switchgear or IEC 60076 for power transformers.",
+   "Type-test reports: which laboratory issued them, for which models, and when.",
+   "Project references the buyer can verify, with the client’s permission to name them.",
+   "Tender documents: technical data sheets, drawings, factory acceptance test procedures and quality plans.",
+   "Delivery, packaging and on-site support for installation and commissioning."
+  ],
+  "site": [
+   "Range pages organised by voltage class and application, with data in HTML tables.",
+   "A references page that lists only projects you can document and are allowed to publish.",
+   "A downloadable tender pack per range, with version dates.",
+   "Search work on standard-specific and specification queries used by engineers preparing tenders.",
+   "LinkedIn content around factory acceptance tests and deliveries, with client permission."
+  ],
+  "gaps": [
+   "Type-test claims without the issuing laboratory or the models covered.",
+   "Reference lists that name projects without any detail a buyer could check.",
+   "Product ranges described only in Chinese-market terms that do not match the standards used in the buyer’s country."
+  ],
+  "faq": [
+   [
+    "We mostly win business through tenders. Can a website help?",
+    "Yes. Evaluators often check the manufacturer’s site to confirm type tests, references and capacity before they shortlist."
+   ],
+   [
+    "Can you list our project references?",
+    "Only those you can document and have permission to publish."
+   ],
+   [
+    "Can you guarantee tender wins or rankings?",
+    "No. A clearer website supports a tender; it does not decide it."
+   ]
+  ],
+  "cities": [
+   "shenzhen"
+  ],
+  "topics": [
+   "Product pages by voltage class and rating — transformers, switchgear, breakers, cables — so utility and EPC engineers can filter quickly.",
+   "Standards pages that map products to IEC, IEEE, ANSI or local utility specifications, and show type-test reports.",
+   "Project-reference pages written with the client’s permission, stating the application and the scope you supplied.",
+   "Tender-support content: the documents you can provide for prequalification and how quickly.",
+   "Factory-acceptance and inspection pages that explain how buyers or third parties can witness tests.",
+   "After-sales pages covering spare parts, field service and how long you support a product."
+  ]
+ },
+ "medical-devices-diagnostics": {
+  "slug": "medical-devices-diagnostics",
+  "name": "Medical Devices & Diagnostics",
+  "short": "medical device and diagnostics",
+  "title": "Export Marketing for Chinese Medical Device Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese medical device and diagnostics manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese medical device, IVD and diagnostics manufacturers selling to distributors and OEM partners abroad — with careful, compliant wording.",
+  "lead": "Distributors and OEM partners abroad check quality systems and regulatory status before anything else. Hurfi helps Chinese medical device manufacturers present that information accurately in English, without overstating approvals.",
+  "checks": [
+   "The quality management system certificate (for example ISO 13485), its certification body and its scope.",
+   "Regulatory status per market, stated exactly: CE marking under the EU MDR or IVDR, FDA registration or clearance, or other approvals — and only for the models they cover.",
+   "Instructions for use, labelling and UDI information where applicable.",
+   "What the manufacturer supports for distributors: registration documents, technical files, training and complaint handling.",
+   "OEM and private-label options, if you offer them, with the responsibilities on each side."
+  ],
+  "site": [
+   "Product pages that separate approved markets from markets where a product is not yet registered.",
+   "A regulatory and quality page with certificates, scope and validity dates.",
+   "A distributor page that explains the support package without promising approvals you do not control.",
+   "Search work on product-category and distributor-focused queries, avoiding medical claims.",
+   "Wording reviewed by your regulatory team before publication; Hurfi does not give regulatory advice."
+  ],
+  "gaps": [
+   "“FDA approved” or “CE certified” used loosely for a whole range when it applies to specific models or registrations.",
+   "Clinical or performance claims without the study or data behind them.",
+   "No information about vigilance and complaint handling, which serious distributors ask about."
+  ],
+  "faq": [
+   [
+    "Can you help with regulatory content?",
+    "We help structure and present it. The wording of regulatory and clinical claims must come from, and be approved by, your regulatory team."
+   ],
+   [
+    "Will the site make medical claims?",
+    "No claims beyond what your approved documents support."
+   ],
+   [
+    "Do you guarantee leads or rankings?",
+    "No. In a regulated sector especially, we avoid promises the work cannot keep."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Product pages that state the intended use and the regulatory status in each target market, without claims your clearance does not cover.",
+   "Quality-system pages showing ISO 13485 scope and the markets where your devices are registered or CE-marked.",
+   "OEM and private-label pages for distributors who want to sell under their own brand, with the documentation you can supply.",
+   "Content for clinical buyers that explains workflow, training and maintenance in plain terms.",
+   "Distributor pages listing what partners receive: registration support, training, demo units and service.",
+   "Clear separation between professional and consumer products, so each audience finds the right information."
+  ]
+ },
+ "laboratory-scientific-equipment": {
+  "slug": "laboratory-scientific-equipment",
+  "name": "Laboratory & Scientific Equipment",
+  "short": "laboratory equipment",
+  "title": "Export Marketing for Chinese Laboratory Equipment Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese laboratory and scientific equipment manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese laboratory instrument and scientific equipment manufacturers selling to distributors, labs and procurement teams abroad.",
+  "lead": "Lab managers and distributors abroad compare instruments on specifications, calibration and service. Hurfi helps Chinese laboratory equipment manufacturers publish that information in a form buyers can check and compare.",
+  "checks": [
+   "Performance specifications — range, accuracy, resolution, repeatability — with the method used to measure them.",
+   "Calibration: whether instruments ship with calibration certificates and whether these are traceable, for example through an ISO/IEC 17025 accredited laboratory.",
+   "Software features and, for regulated customers, whether the software supports audit trails and electronic records requirements.",
+   "Consumables, spare parts and how long they will be available.",
+   "Installation, training and service arrangements in the buyer’s country."
+  ],
+  "site": [
+   "Instrument pages with specification tables, application notes and downloadable manuals.",
+   "Application pages by test method or sample type, written for the lab user.",
+   "A distributor page covering demo units, training and service support.",
+   "Search work on instrument-type and method-specific queries.",
+   "LinkedIn content built around application notes and real test results you can share."
+  ],
+  "gaps": [
+   "Accuracy figures without the measurement conditions.",
+   "No information on calibration, consumables or service life.",
+   "Software described only in screenshots, with no feature list."
+  ],
+  "faq": [
+   [
+    "Do our application notes need to be original?",
+    "Yes. They should come from your own testing. We help turn them into clear pages."
+   ],
+   [
+    "Can you target several countries?",
+    "Yes, with pages that reflect each market’s standards and distributor structure."
+   ],
+   [
+    "How do you report results?",
+    "With search and inquiry data from your own accounts. No invented numbers."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Instrument pages with measuring ranges, accuracy, sample capacity and the methods or standards each instrument supports.",
+   "Consumables and accessories pages, which lab buyers search for separately and reorder often.",
+   "Installation, calibration and service content: what is done remotely, what needs a visit and who does it abroad.",
+   "Application notes for the industries you serve — food testing, pharma QC, environmental, education — written with real method details.",
+   "Software and data-export pages: file formats, LIMS connectivity and data-integrity features.",
+   "Quotation guidance for institutional buyers, including the documents they need for procurement."
+  ]
+ },
+ "industrial-machinery-cnc": {
+  "slug": "industrial-machinery-cnc",
+  "name": "Industrial Machinery & CNC",
+  "short": "machinery and CNC",
+  "title": "Export Marketing for Chinese Machinery & CNC Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese industrial machinery and CNC manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese CNC machine tool and industrial machinery manufacturers selling to dealers and factories abroad.",
+  "lead": "Machinery buyers abroad want to see the machine working, read the specification and know who will install and service it. Hurfi helps Chinese machinery and CNC manufacturers show all three clearly.",
+  "checks": [
+   "Machine specifications: travels, spindle speed and power, positioning accuracy and repeatability, table load, and the measurement standard used.",
+   "The CNC controller and key components (for example the brand of controller, spindle, guideways), stated accurately.",
+   "Safety and conformity: CE marking or other market requirements, with the declaration of conformity available.",
+   "Video of the machine cutting real parts, with the material and cycle time shown.",
+   "Installation, training, spare parts and remote service options abroad."
+  ],
+  "site": [
+   "Machine pages with specification tables in HTML and a short video for each model.",
+   "Pages by application or industry — for example mould making or automotive parts — linking to suitable machines.",
+   "A dealer page that explains territory, stock, training and support.",
+   "Search work on machine-type and specification queries, plus questions buyers ask about service and parts.",
+   "LinkedIn content from factory acceptance tests and customer installations, with permission."
+  ],
+  "gaps": [
+   "Specifications in a catalog PDF only.",
+   "Stock photos or renderings instead of real machines.",
+   "No clear answer about who installs and services the machine outside China."
+  ],
+  "faq": [
+   [
+    "Is video necessary?",
+    "For machinery it is one of the strongest proofs. Short clips of real cutting are better than polished advertising."
+   ],
+   [
+    "We sell through dealers. Will the site compete with them?",
+    "No. The site can route inquiries to the right dealer and support their sales."
+   ],
+   [
+    "How long before search brings inquiries?",
+    "It varies by market and competition, and we do not promise a date. We report progress monthly."
+   ]
+  ],
+  "cities": [
+   "wuxi",
+   "shenzhen"
+  ],
+  "topics": [
+   "Machine pages with working envelope, spindle, axis, tolerance and controller details in HTML tables.",
+   "Video pages that show the machine cutting real parts, with the material and cycle time named.",
+   "Pages for the industries and parts you machine for, so buyers searching by application find a relevant machine.",
+   "Installation, training and service pages that answer the main worry of buying a machine from abroad.",
+   "Spare-parts and consumables pages that make reordering easy after the sale.",
+   "Retrofit, automation and option pages: loaders, probes, tool changers and what they add."
+  ]
+ },
+ "industrial-software-data": {
+  "slug": "industrial-software-data",
+  "name": "Industrial Software & Data",
+  "short": "industrial software",
+  "title": "Export Marketing for Chinese Industrial Software Companies | Hurfi",
+  "h1": "Export marketing for Chinese industrial software and data companies",
+  "description": "Websites, Google SEO and LinkedIn for Chinese industrial software, IIoT and manufacturing data companies selling to factories and integrators abroad.",
+  "lead": "Factory IT and operations teams abroad assess industrial software on integration, security and support before they agree to a pilot. Hurfi helps Chinese industrial software companies explain those points clearly in English.",
+  "checks": [
+   "Integration: supported protocols and systems, for example OPC UA, MQTT, common PLCs and ERP/MES connectors.",
+   "Deployment options — on-premises, private cloud or public cloud — and where data is stored.",
+   "Security documentation: access control, encryption and any independent assessments you have completed.",
+   "How a pilot works: scope, duration, what the customer must provide and how success is measured.",
+   "Language support, documentation and support hours in the buyer’s time zone."
+  ],
+  "site": [
+   "Product pages built around the problem solved (downtime, quality, energy, traceability), not only the feature list.",
+   "Integration pages that say exactly what is supported today.",
+   "A pilot or proof-of-concept page that sets expectations honestly.",
+   "Search work on problem-led and integration-specific queries.",
+   "LinkedIn content explaining real use cases you are permitted to describe."
+  ],
+  "gaps": [
+   "Claims of “seamless integration” without naming the systems.",
+   "No information about data location or security, which often ends the conversation.",
+   "Demo requests with no explanation of what happens next."
+  ],
+  "faq": [
+   [
+    "Our buyers are software buyers, not hardware buyers. Does Hurfi fit?",
+    "Yes, where you sell into manufacturing. The work focuses on how factory teams evaluate software."
+   ],
+   [
+    "Can you describe our security features?",
+    "Only as documented by your team. We do not make security claims on your behalf."
+   ],
+   [
+    "Do you guarantee demo requests?",
+    "No. We make the evaluation path clear and report what happens."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Feature pages built around the buyer’s problem — downtime, traceability, energy use, quality — rather than a list of modules.",
+   "Integration pages that list supported PLCs, protocols such as OPC UA or MQTT, and the ERP or MES systems you connect to.",
+   "Deployment options explained clearly: on-premise, private cloud or SaaS, and where data is stored.",
+   "Security and data-handling pages that answer IT reviews before they are asked.",
+   "Documentation and API references that engineers can read before a sales call.",
+   "Pricing-model explanations, even without prices: per site, per device or per user."
+  ]
+ },
+ "data-centers-digital-infrastructure": {
+  "slug": "data-centers-digital-infrastructure",
+  "name": "Data Centers & Digital Infrastructure",
+  "short": "data centre equipment",
+  "title": "Export Marketing for Chinese Data Centre Equipment Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese data centre and digital infrastructure manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese manufacturers of racks, PDUs, cooling, power and network equipment for data centres, selling to integrators and contractors abroad.",
+  "lead": "Data centre contractors and integrators abroad buy on compatibility, certification and delivery reliability. Hurfi helps Chinese manufacturers of data centre equipment show those details clearly and reach the right specifiers.",
+  "checks": [
+   "Dimensions and compatibility: rack standards (such as the 19-inch EIA-310 format), load ratings and accessory fit.",
+   "Electrical data for PDUs, UPS and power distribution, with certifications for each target market.",
+   "For cooling products: capacity, efficiency figures and the test conditions behind them.",
+   "Lead times, project capacity and how large orders are scheduled and shipped.",
+   "Customisation options and drawings that a contractor can use in design."
+  ],
+  "site": [
+   "Product pages with drawings, dimensions and electrical data in HTML.",
+   "Configuration or customisation pages that explain what can change and what cannot.",
+   "A projects page limited to deliveries you can document and publish.",
+   "Search work on specification and compatibility queries used by contractors and integrators.",
+   "LinkedIn content showing production, testing and delivery for real projects, with permission."
+  ],
+  "gaps": [
+   "Efficiency figures with no test conditions.",
+   "No drawings or CAD files for designers.",
+   "Lead times left vague, although they decide many data centre projects."
+  ],
+  "faq": [
+   [
+    "Our customers are contractors, not data centre owners. Who should the site speak to?",
+    "Mainly the contractors and integrators who specify and buy your equipment, with clear information they can pass to their clients."
+   ],
+   [
+    "Can you publish our project list?",
+    "Only projects you can document and have permission to name."
+   ],
+   [
+    "Do you guarantee leads or rankings?",
+    "No. We report what the work produces, from your own analytics and search data."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Product pages for racks, power distribution, UPS, cooling and cabling with ratings and dimensions in tables.",
+   "Standards and certification pages for the markets you sell into, with test reports available on request.",
+   "Application content for edge sites, colocation and enterprise rooms, each with typical configurations.",
+   "Energy-efficiency pages that state the conditions behind efficiency or PUE-related figures.",
+   "Customisation pages explaining what can be built to order and the lead time for it.",
+   "Logistics and installation information for large or heavy equipment shipped abroad."
+  ]
+ },
+ "optics-photonics": {
+  "slug": "optics-photonics",
+  "name": "Optics & Photonics",
+  "short": "optics and photonics",
+  "title": "Export Marketing for Chinese Optics & Photonics Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese optics and photonics manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese optical component, laser and photonics manufacturers selling to engineers and OEMs abroad.",
+  "lead": "Optical engineers abroad judge a supplier on tolerances, coatings and test data. Hurfi helps Chinese optics and photonics manufacturers publish that detail in a form engineers can search and compare.",
+  "checks": [
+   "Catalog and custom capability: materials, size ranges, surface quality, flatness and centration tolerances.",
+   "Coatings: wavelength ranges, reflectance or transmission curves, and laser damage threshold data with test conditions.",
+   "Metrology: which inspection equipment is used (for example interferometers) and what test reports ship with the parts.",
+   "For laser products: output specifications and the laser safety classification under IEC 60825-1.",
+   "Prototype and volume lead times, and how drawings and specifications are exchanged."
+  ],
+  "site": [
+   "Separate sections for catalog parts and custom manufacturing.",
+   "Coating and capability pages with real curves and data.",
+   "An RFQ path that accepts drawings and states the tolerances you can meet.",
+   "Search work on component-type, wavelength and tolerance queries.",
+   "LinkedIn content showing metrology and production steps."
+  ],
+  "gaps": [
+   "Capability tables with no tolerances or test conditions.",
+   "Coating curves shown as small images without data.",
+   "Custom and catalog products mixed together, which confuses both buyer types."
+  ],
+  "faq": [
+   [
+    "Can you write about optical specifications accurately?",
+    "We work from your engineering data and send technical pages back for review."
+   ],
+   [
+    "Do custom shops need product pages?",
+    "Yes — capability pages that work like product pages: what you can make, to what tolerance, and how to request a quote."
+   ],
+   [
+    "Will this replace trade shows?",
+    "Not necessarily. A clear website and search presence help buyers who met you at a show — or never did — check your capability afterwards."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Component pages — lenses, filters, fibres, lasers, modules — with wavelength, tolerance and coating data in tables.",
+   "Custom-optics pages that explain what drawings and specifications you need and how prototypes are made.",
+   "Metrology pages that show how you measure and report quality, with sample test reports.",
+   "Application pages for imaging, sensing, telecom, medical and industrial lasers, each with relevant parts.",
+   "Export-control and compliance information where it applies to your products.",
+   "Packaging and handling information for delicate optics shipped long distances."
+  ]
+ },
+ "pharma-bioprocess-manufacturing": {
+  "slug": "pharma-bioprocess-manufacturing",
+  "name": "Pharma & Bioprocess Manufacturing",
+  "short": "pharma and bioprocess equipment",
+  "title": "Export Marketing for Chinese Pharma & Bioprocess Equipment Manufacturers | Hurfi",
+  "h1": "Export marketing for Chinese pharma and bioprocess equipment manufacturers",
+  "description": "Websites, Google SEO and LinkedIn for Chinese pharmaceutical machinery, bioprocess and single-use equipment manufacturers selling to manufacturers and integrators abroad — with careful wording.",
+  "lead": "Pharmaceutical and biotech buyers abroad check documentation and validation support before they consider a new equipment supplier. Hurfi helps Chinese manufacturers present that support accurately in English.",
+  "checks": [
+   "Materials and finish: for example 316L stainless steel, surface roughness values and material certificates.",
+   "Documentation packages: design documents, factory and site acceptance test procedures (FAT/SAT), and support for the customer’s qualification (IQ/OQ).",
+   "Design for cleaning and sterilisation, stated as engineering facts rather than compliance promises.",
+   "Control system and software features relevant to data integrity, where your team has documented them.",
+   "Installation, training, spare parts and service outside China."
+  ],
+  "site": [
+   "Equipment pages with specifications, P&ID-style overviews and documentation lists.",
+   "A validation-support page that says exactly which documents you supply.",
+   "Separate pages for standard equipment and custom projects.",
+   "Search work on equipment-type and process-step queries.",
+   "All regulatory wording reviewed by your quality team before publication."
+  ],
+  "gaps": [
+   "“GMP certified equipment” used as a blanket claim; GMP compliance belongs to the user’s facility and process.",
+   "No list of the documentation actually supplied.",
+   "No information on after-sales service abroad."
+  ],
+  "faq": [
+   [
+    "Can you say our equipment is GMP compliant?",
+    "We describe the design features and documents you provide. Compliance claims must be worded by your quality team."
+   ],
+   [
+    "Do you help with technical documentation?",
+    "We help present it on the website. The documents themselves come from your engineering and quality teams."
+   ],
+   [
+    "Do you guarantee leads or rankings?",
+    "No. Long evaluation cycles make honest reporting more important, not less."
+   ]
+  ],
+  "cities": [],
+  "topics": [
+   "Equipment pages that state materials of construction, surface finish, capacity and the cleaning methods supported.",
+   "Documentation pages listing what you supply for qualification — design documents, FAT and SAT protocols, material certificates.",
+   "Compliance content that explains which GMP expectations your equipment is designed to support, without claiming certification you do not hold.",
+   "Process pages for fermentation, filtration, filling or packaging lines, with the products used at each step.",
+   "Service and validation-support pages: who helps with installation and qualification abroad.",
+   "Spare-parts and consumables pages, including single-use components where relevant."
+  ]
+ }
+}
