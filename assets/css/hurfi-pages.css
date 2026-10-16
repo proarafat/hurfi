@@ -165,3 +165,21 @@ html[lang^="zh"] body .about-hero.hx-hero h1 { font-family: var(--font-sans); fo
 .hx-cta-band .btn.btn-outline { background: transparent !important; color: #cfe5ff !important; border: 1px solid #7dbaff !important; box-shadow: none !important; animation: none !important; width: auto; height: auto; aspect-ratio: auto; }
 .hx-cta-row .btn.btn-outline:hover,
 .hx-cta-band .btn.btn-outline:hover { background: rgba(125, 186, 255, 0.12) !important; }
+
+/* Hurfi's own social posts strip */
+.hx-post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.hx-post { margin: 0; border-radius: 14px; overflow: hidden; border: 1px solid rgba(125, 186, 255, 0.25); background: #0b1630; }
+.hx-post img { display: block; width: 100%; height: auto; }
+.hx-post-note { font-size: 0.95rem; }
+@media (max-width: 520px) { .hx-post-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; } }
+.hx-subcity { margin: 1.4rem 0; padding: 1rem 1.2rem; border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; background: rgba(255,255,255,0.03); }
+.hx-subcity h3 { margin: 0 0 0.5rem; font-size: 1.1rem; color: #fff; }
+.hx-cols { columns: 2; column-gap: 2rem; }
+@media (min-width: 900px) { .hx-cols { columns: 3; } }
+.hx-provguide { margin: 0.6rem 0; }
+.hx-prose p a, .hx-prose li a { text-decoration: underline; text-underline-offset: 2px; }
+.hx-post-note a { text-decoration: underline; text-underline-offset: 2px; }
+/* single Hurfi post beside its explanation (industry pages) */
+.hx-post-single { display: grid; grid-template-columns: minmax(0, 240px) 1fr; gap: 1.5rem; align-items: center; margin: 1rem auto; max-width: 760px; }
+.hx-post-single p { margin: 0 0 0.8rem; }
+@media (max-width: 620px) { .hx-post-single { grid-template-columns: 1fr; } .hx-post-single .hx-post { max-width: 280px; margin: 0 auto; } }

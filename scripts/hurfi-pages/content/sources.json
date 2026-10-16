@@ -172,7 +172,7 @@
  "xa-1": {
   "publisher": "Xi’an Municipal People’s Government (Xi’an Statistics Bureau figures)",
   "label": "2025年西安市经济运行情况 (Xi’an economic performance in 2025, Xi’an Statistics Bureau, 2 February 2026)",
-  "url": "http://www.xa.gov.cn/gk/ghjh/gmjjhshfzjhjqzhqk/2018511615350665218.html",
+  "url": "https://www.xa.gov.cn/gk/ghjh/gmjjhshfzjhjqzhqk/2018511615350665218.html",
   "lang": "zh-Hans",
   "grade": "Official source",
   "method": "Box fetch timed out; page read via web fetch service and text checked",
@@ -432,7 +432,7 @@
  "ovc": {
   "publisher": "Wuhan East Lake High-tech Development Zone (Optics Valley of China, official English site)",
   "label": "Profile of Optics Valley of China (updated 23 March 2021)",
-  "url": "http://www.chinaopticsvalley.com/2021-03/23/c_631197.htm",
+  "url": "https://www.chinaopticsvalley.com/2021-03/23/c_631197.htm",
   "lang": "en",
   "grade": "Official source",
   "method": "Box fetch timed out; page read via web fetch service and text checked",
@@ -507,6 +507,1026 @@
   "grade": "Official source",
   "method": "Box fetch timed out; page read via web fetch service and text checked",
   "id": "xaz",
+  "checked": "16 October 2026"
+ },
+ "nj-1": {
+  "publisher": "Nanjing Statistics Bureau",
+  "label": "2025年南京经济运行情况 (Nanjing economic performance in 2025, 4 February 2026)",
+  "url": "https://tjj.nanjing.gov.cn/njstjj/202602/t20260204_5786810.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "nj-1",
+  "checked": "16 October 2026"
+ },
+ "nj-2": {
+  "publisher": "Nanjing Statistics Bureau and NBS Nanjing Survey Team (bulletin text as reproduced by tjgb.hongheiku.com; the official page offers it as a .docx)",
+  "label": "南京市2025年国民经济和社会发展统计公报 (Nanjing 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/73718.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "nj-2",
+  "checked": "16 October 2026"
+ },
+ "wz-1": {
+  "publisher": "Wenzhou Statistics Bureau and NBS Wenzhou Survey Team (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年温州市国民经济和社会发展统计公报 (Wenzhou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69549.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "wz-1",
+  "checked": "16 October 2026"
+ },
+ "wz-2": {
+  "publisher": "Zhejiang Provincial Government English portal (ezhejiang.gov.cn)",
+  "label": "Wenzhou — Economy (updated 9 April 2024)",
+  "url": "https://www.ezhejiang.gov.cn/wenzhou/2024-04/09/c_654373.htm",
+  "lang": "en",
+  "grade": "Official government page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "wz-2",
+  "checked": "16 October 2026"
+ },
+ "cs-1": {
+  "publisher": "Hunan Provincial Bureau of Statistics",
+  "label": "长沙市2025年国民经济和社会发展统计公报 (Changsha 2025 Statistical Bulletin, 21 April 2026)",
+  "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/szgb/zss_1/202605/t20260512_33975356.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cs-1",
+  "checked": "16 October 2026"
+ },
+ "cs-2": {
+  "publisher": "Hunan Provincial People’s Government (enghunan.gov.cn)",
+  "label": "Fourth China-Africa Economic and Trade Expo (19 March 2025)",
+  "url": "https://www.enghunan.gov.cn/hneng/Business/EventsExhibitions/202503/t20250319_33616820.html",
+  "lang": "en",
+  "grade": "Official government page",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "cs-2",
+  "checked": "16 October 2026"
+ },
+ "zz-1": {
+  "publisher": "Zhengzhou Statistics Bureau",
+  "label": "2025年郑州市国民经济和社会发展统计公报 (Zhengzhou 2025 Statistical Bulletin)",
+  "url": "https://tjj.zhengzhou.gov.cn/tjgb/10017864.jhtml",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "zz-1",
+  "checked": "16 October 2026"
+ },
+ "zz-2": {
+  "publisher": "Central People’s Government of the PRC (gov.cn), notice from the National Development and Reform Commission",
+  "label": "国家发展改革委关于印发郑州航空港经济综合实验区发展规划（2013—2025年）的通知 (Development plan for the Zhengzhou Airport Economy Zone, 23 April 2013)",
+  "url": "https://www.gov.cn/zwgk/2013-04/23/content_2387118.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "zz-2",
+  "checked": "16 October 2026"
+ },
+ "cq-1": {
+  "publisher": "Chongqing Municipal Bureau of Statistics",
+  "label": "2025年重庆市国民经济和社会发展统计公报 (Chongqing 2025 Statistical Bulletin)",
+  "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cq-1",
+  "checked": "16 October 2026"
+ },
+ "cq-2": {
+  "publisher": "Chongqing Liangjiang New Area (english.liangjiang.gov.cn, Xinhua report)",
+  "label": "Chongqing Liangjiang New Area inaugurated as administrative entity (26 January 2026)",
+  "url": "https://english.liangjiang.gov.cn/2026-01/26/c_1157104.htm",
+  "lang": "en",
+  "grade": "Official government page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cq-2",
+  "checked": "16 October 2026"
+ },
+ "bj-1": {
+  "publisher": "Beijing Municipal Bureau of Statistics and NBS Beijing Survey Team",
+  "label": "北京市2025年国民经济和社会发展统计公报 (Beijing 2025 Statistical Bulletin, 25 March 2026)",
+  "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/ndgb_31446/202603/t20260326_4566469.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "bj-1",
+  "checked": "16 October 2026"
+ },
+ "dl-1": {
+  "publisher": "Dalian Statistics Bureau and NBS Dalian Survey Team (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "大连市2025年国民经济和社会发展统计公报 (Dalian 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69004.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "dl-1",
+  "checked": "16 October 2026"
+ },
+ "dl-2": {
+  "publisher": "State Council of the PRC (gov.cn)",
+  "label": "国务院关于同意设立大连金普新区的批复 (State Council approval of Dalian Jinpu New Area, 2014)",
+  "url": "https://www.gov.cn/zhengce/zhengceku/2014-07/02/content_8916.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "dl-2",
+  "checked": "16 October 2026"
+ },
+ "jn-1": {
+  "publisher": "Jinan Statistics Bureau and NBS Jinan Survey Team",
+  "label": "2025年济南市国民经济和社会发展统计公报 (Jinan 2025 Statistical Bulletin, 30 March 2026)",
+  "url": "https://jntj.jinan.gov.cn/col/col18254/art/2026/art_7dc3135bb2209f961b3c65baa8ab3d2d.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "jn-1",
+  "checked": "16 October 2026"
+ },
+ "fs-1": {
+  "publisher": "Foshan Statistics Bureau (bulletin figures as published by Southern Plus / Nanfang Daily, 15 June 2026)",
+  "label": "2025年佛山市国民经济和社会发展统计公报 (Foshan 2025 Statistical Bulletin)",
+  "url": "https://static.nfnews.com/content/202606/15/c12528822.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (published by provincial media)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "fs-1",
+  "checked": "16 October 2026"
+ },
+ "qd-1": {
+  "publisher": "Qingdao Statistics Bureau and NBS Qingdao Survey Team (bulletin published in Qingdao Daily, 8 April 2026)",
+  "label": "2025年青岛市国民经济和社会发展统计公报 (Qingdao 2025 Statistical Bulletin)",
+  "url": "https://epaper.qingdaonews.com/qdrb/h5/html5/2026-04/08/content_144596_3316066.htm",
+  "lang": "zh-Hans",
+  "grade": "Official text (published by city newspaper)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "qd-1",
+  "checked": "16 October 2026"
+ },
+ "qd-2": {
+  "publisher": "State Council of the PRC (gov.cn)",
+  "label": "国务院关于同意设立青岛西海岸新区的批复 (State Council approval of Qingdao West Coast New Area, 2014)",
+  "url": "https://www.gov.cn/zhengce/content/2014-06/09/content_8870.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "qd-2",
+  "checked": "16 October 2026"
+ },
+ "cd-1": {
+  "publisher": "Chengdu Statistics Bureau and NBS Chengdu Survey Team (bulletin text as republished by Sina Finance, 15 April 2026)",
+  "label": "2025年成都市国民经济和社会发展统计公报 (Chengdu 2025 Statistical Bulletin)",
+  "url": "https://finance.sina.com.cn/jjxw/2026-04-15/doc-inhupeis3814625.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official text (republished)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cd-1",
+  "checked": "16 October 2026"
+ },
+ "cd-2": {
+  "publisher": "Chengdu Development and Reform Commission",
+  "label": "关于成都市2025年国民经济和社会发展计划执行情况及2026年计划草案的报告 (Report on Chengdu’s 2025 plan implementation, PDF)",
+  "url": "https://cddrc.chengdu.gov.cn/cdsfzggw/jhbg/2026-02/09/213038e751094865af4a87ff4936ffd6/files/dc006e5240654cad89b961035957330f.pdf",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cd-2",
+  "checked": "16 October 2026"
+ },
+ "yt-1": {
+  "publisher": "Yantai Statistics Bureau and NBS Yantai Survey Team",
+  "label": "2025年烟台市国民经济和社会发展统计公报 (Yantai 2025 Statistical Bulletin, 31 March 2026)",
+  "url": "https://tjj.yantai.gov.cn/col/col117/art/2026/art_61a619eacfd44e5bbf80e45bf2cdd6d0.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "yt-1",
+  "checked": "16 October 2026"
+ },
+ "sy-1": {
+  "publisher": "Shenyang Statistics Bureau and NBS Shenyang Survey Team (on the Shenyang government portal)",
+  "label": "2025年沈阳市国民经济和社会发展统计公报 (Shenyang 2025 Statistical Bulletin, 19 May 2026)",
+  "url": "https://www.shenyang.gov.cn/zwgk/fdzdgknr/tjxx/tjgb/202605/t20260519_5027959.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "sy-1",
+  "checked": "16 October 2026"
+ },
+ "zh-1": {
+  "publisher": "Zhuhai Statistics Bureau and NBS Zhuhai Survey Team (PDF on the Zhuhai government portal)",
+  "label": "2025年珠海市国民经济和社会发展统计公报 (Zhuhai 2025 Statistical Bulletin, 30 June 2026)",
+  "url": "https://www.zhuhai.gov.cn/attachment/0/437/437427/3920264.pdf",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "zh-1",
+  "checked": "16 October 2026"
+ },
+ "jh-1": {
+  "publisher": "Jinhua Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年金华市国民经济和社会发展统计公报 (Jinhua 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69707.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "jh-1",
+  "checked": "16 October 2026"
+ },
+ "jh-2": {
+  "publisher": "Zhejiang Provincial Government English portal (ezhejiang.gov.cn, Yiwu)",
+  "label": "Yiwu — Small Commodities Markets",
+  "url": "https://www.ezhejiang.gov.cn/eyiwu/smallcommoditiesmarkets_7.html",
+  "lang": "en",
+  "grade": "Official government page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "jh-2",
+  "checked": "16 October 2026"
+ },
+ "p-gd": {
+  "publisher": "Guangdong Provincial Bureau of Statistics (bulletin text as reproduced by tjgb.hongheiku.com; official page stats.gd.gov.cn/tjgb/content/post_4876564.html)",
+  "label": "2025年广东省国民经济和社会发展统计公报 (Guangdong 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/72064.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "p-gd",
+  "checked": "16 October 2026"
+ },
+ "p-zj": {
+  "publisher": "Zhejiang Provincial Bureau of Statistics (bulletin text as republished by Sina Finance, 3 March 2026)",
+  "label": "2025年浙江省国民经济和社会发展统计公报 (Zhejiang 2025 Statistical Bulletin)",
+  "url": "https://finance.sina.com.cn/wm/2026-03-03/doc-inhpspmu4698695.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official text (republished)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-zj",
+  "checked": "16 October 2026"
+ },
+ "p-js": {
+  "publisher": "Jiangsu Provincial Bureau of Statistics and NBS Jiangsu Survey Team",
+  "label": "2025年江苏省国民经济和社会发展统计公报 (Jiangsu 2025 Statistical Bulletin, 19 March 2026)",
+  "url": "https://tj.jiangsu.gov.cn/art/2026/3/19/art_85764_11744302.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "p-js",
+  "checked": "16 October 2026"
+ },
+ "p-sd": {
+  "publisher": "Shandong Provincial Bureau of Statistics and NBS Shandong Survey Team",
+  "label": "2025年山东省国民经济和社会发展统计公报 (Shandong 2025 Statistical Bulletin, 3 March 2026)",
+  "url": "http://tjj.shandong.gov.cn/art/2026/3/3/art_104039_10322510.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "p-sd",
+  "checked": "16 October 2026"
+ },
+ "p-ln": {
+  "publisher": "Liaoning Provincial Bureau of Statistics (bulletin text as republished by Sina Finance, 31 March 2026)",
+  "label": "辽宁省2025年国民经济和社会发展统计公报 (Liaoning 2025 Statistical Bulletin)",
+  "url": "https://finance.sina.com.cn/wm/2026-03-31/doc-inhswicu3364274.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official text (republished)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-ln",
+  "checked": "16 October 2026"
+ },
+ "g-video": {
+  "publisher": "Google Search Central",
+  "label": "Video SEO best practices",
+  "url": "https://developers.google.com/search/docs/appearance/video",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-video",
+  "checked": "16 October 2026"
+ },
+ "c-hz": {
+  "publisher": "Huizhou Statistics Bureau and NBS Huizhou Survey Team (bulletin published in Huizhou Daily, 12 May 2026)",
+  "label": "2025年惠州国民经济和社会发展统计公报 (Huizhou 2025 Statistical Bulletin)",
+  "url": "http://e.hznews.com/hzrb/pad/content/202605/12/content_1126096.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (published by city newspaper)",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "c-hz",
+  "checked": "16 October 2026"
+ },
+ "c-jm": {
+  "publisher": "Jiangmen Statistics Bureau and NBS Jiangmen Survey Team (Jiangmen government portal)",
+  "label": "2025年江门市国民经济和社会发展统计公报 (Jiangmen 2025 Statistical Bulletin, 22 May 2026)",
+  "url": "https://www.jiangmen.gov.cn/zzzq/tzgg/content/post_3494861.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "c-jm",
+  "checked": "16 October 2026"
+ },
+ "c-sx": {
+  "publisher": "Shaoxing Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年绍兴市国民经济和社会发展统计公报 (Shaoxing 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/70144.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-sx",
+  "checked": "16 October 2026"
+ },
+ "c-tz": {
+  "publisher": "Taizhou (Zhejiang) Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "台州市2025年国民经济和社会发展统计公报 (Taizhou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/70470.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-tz",
+  "checked": "16 October 2026"
+ },
+ "c-jx": {
+  "publisher": "Jiaxing Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年嘉兴市国民经济和社会发展统计公报 (Jiaxing 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69637.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-jx",
+  "checked": "16 October 2026"
+ },
+ "c-nt": {
+  "publisher": "Nantong Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年南通市国民经济和社会发展统计公报 (Nantong 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/70478.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-nt",
+  "checked": "16 October 2026"
+ },
+ "c-xz": {
+  "publisher": "Xuzhou Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年徐州市国民经济和社会发展统计公报 (Xuzhou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/74173.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-xz",
+  "checked": "16 October 2026"
+ },
+ "c-wf": {
+  "publisher": "Weifang Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年潍坊市国民经济和社会发展统计公报 (Weifang 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/72447.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-wf",
+  "checked": "16 October 2026"
+ },
+ "c-yk": {
+  "publisher": "Yingkou Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年营口市国民经济和社会发展统计公报 (Yingkou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69488.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-yk",
+  "checked": "16 October 2026"
+ },
+ "c-as": {
+  "publisher": "Anshan Statistics Bureau (bulletin text as reproduced by Maptable; the official PDF on files.anshan.gov.cn did not load)",
+  "label": "鞍山市2025年国民经济和社会发展统计公报 (Anshan 2025 Statistical Bulletin)",
+  "url": "https://maptable.com/tjgb/2025/%E8%BE%BD%E5%AE%81%E7%9C%81/%E9%9E%8D%E5%B1%B1%E5%B8%82/report/liao-ning-sheng-an-shan-shi-2025-nian-guo-min-jing-ji-he-she-hui-fa-zhan-tong-ji-gong-bao",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Official page not reachable from the box or the web fetch service; full bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200)",
+  "id": "c-as",
+  "checked": "16 October 2026"
+ },
+ "c-hz3": {
+  "publisher": "Huizhou Daily (huizhou.cn), citing customs statistics",
+  "label": "惠州年外贸进出口额首次突破4000亿元 (Huizhou foreign trade passes 400 billion yuan, 30 January 2026)",
+  "url": "http://www.huizhou.cn/news/newsc_counties/newsc_hz/202601/t20260130_1634607.htm",
+  "lang": "zh-Hans",
+  "grade": "News report citing customs statistics",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "c-hz3",
+  "checked": "16 October 2026"
+ },
+ "c-fz": {
+  "publisher": "Fuzhou Statistics Bureau and NBS Fuzhou Survey Team",
+  "label": "2025年福州市国民经济和社会发展统计公报 (Fuzhou 2025 Statistical Bulletin, dated 31 March 2026)",
+  "url": "https://tjj.fuzhou.gov.cn/zwgk/tjzl/ndbg/202604/t20260414_5308173.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "c-fz",
+  "checked": "16 October 2026"
+ },
+ "c-wh": {
+  "publisher": "Wuhu Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "芜湖市2025年国民经济和社会发展统计公报 (Wuhu 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/74727.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-wh",
+  "checked": "16 October 2026"
+ },
+ "c-nd": {
+  "publisher": "Ningde Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年宁德市国民经济和社会发展统计公报 (Ningde 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/70415.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-nd",
+  "checked": "16 October 2026"
+ },
+ "c-cz": {
+  "publisher": "Chuzhou Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "滁州市2025年国民经济和社会发展统计公报 (Chuzhou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/75890.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-cz",
+  "checked": "16 October 2026"
+ },
+ "c-xy": {
+  "publisher": "Xiangyang Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "襄阳市2025年国民经济和社会发展统计公报 (Xiangyang 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/74464.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-xy",
+  "checked": "16 October 2026"
+ },
+ "c-sy2": {
+  "publisher": "Shiyan Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "十堰市2025年国民经济和社会发展统计公报 (Shiyan 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/71265.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-sy2",
+  "checked": "16 October 2026"
+ },
+ "c-zzh": {
+  "publisher": "Zhuzhou Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "株洲市2025年国民经济和社会发展统计公报 (Zhuzhou 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/71074.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-zzh",
+  "checked": "16 October 2026"
+ },
+ "c-ly": {
+  "publisher": "Luoyang Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年洛阳市国民经济和社会发展统计公报 (Luoyang 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/69917.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-ly",
+  "checked": "16 October 2026"
+ },
+ "c-xc": {
+  "publisher": "Xuchang Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年许昌市国民经济和社会发展统计公报 (Xuchang 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/djs/70401.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-xc",
+  "checked": "16 October 2026"
+ },
+ "c-dy": {
+  "publisher": "Deyang Statistics Bureau (bulletin text as reproduced by tjgb.hongheiku.com)",
+  "label": "2025年德阳市国民经济和社会发展统计公报 (Deyang 2025 Statistical Bulletin)",
+  "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/77129.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (reproduction)",
+  "method": "Bulletin text checked in the reproduction linked here (fetched from the box, HTTP 200); the city’s own page was not checked",
+  "id": "c-dy",
+  "checked": "16 October 2026"
+ },
+ "p-fj": {
+  "publisher": "Fujian Provincial Bureau of Statistics and NBS Fujian Survey Team",
+  "label": "2025年福建省国民经济和社会发展统计公报 (Fujian 2025 Statistical Bulletin)",
+  "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202603/t20260313_7109476.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-fj",
+  "checked": "16 October 2026"
+ },
+ "p-ah": {
+  "publisher": "Anhui Provincial Bureau of Statistics and NBS Anhui Survey Team (bulletin as published by Anhui Economic News, 19 March 2026)",
+  "label": "安徽省2025年国民经济和社会发展统计公报 (Anhui 2025 Statistical Bulletin)",
+  "url": "https://www.ahjjw.com.cn/html/shengnei/2026/0319/525968.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (published by provincial media)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-ah",
+  "checked": "16 October 2026"
+ },
+ "p-hb": {
+  "publisher": "Hubei Provincial Bureau of Statistics (bulletin as republished on the Qianjiang government portal; official page tjj.hubei.gov.cn did not load from the box)",
+  "label": "湖北省2025年国民经济和社会发展统计公报 (Hubei 2025 Statistical Bulletin)",
+  "url": "https://www.hbqj.gov.cn/xxgk/xxgkml/szfbmxxgkml/stjj/xwzx/gzdt/202603/t20260320_5896006.html",
+  "lang": "zh-Hans",
+  "grade": "Official text (republished by a government portal)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-hb",
+  "checked": "16 October 2026"
+ },
+ "p-hn": {
+  "publisher": "Hunan Provincial Bureau of Statistics and NBS Hunan Survey Team",
+  "label": "湖南省2025年国民经济和社会发展统计公报 (Hunan 2025 Statistical Bulletin, 25 March 2026)",
+  "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/jjfzgb/202603/t20260325_33940711.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-hn",
+  "checked": "16 October 2026"
+ },
+ "p-ha": {
+  "publisher": "Henan Provincial Bureau of Statistics and NBS Henan Survey Team (bulletin dated 16 April 2026, as republished by ifeng.com)",
+  "label": "2025年河南省国民经济和社会发展统计公报 (Henan 2025 Statistical Bulletin)",
+  "url": "https://hn.ifeng.com/c/8sMVhzDbnaC",
+  "lang": "zh-Hans",
+  "grade": "Official text (republished)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-ha",
+  "checked": "16 October 2026"
+ },
+ "p-sc": {
+  "publisher": "Sichuan Provincial Bureau of Statistics and NBS Sichuan Survey Team (bulletin as published by Sichuan Daily’s Chuanguan News)",
+  "label": "2025年四川省国民经济和社会发展统计公报 (Sichuan 2025 Statistical Bulletin)",
+  "url": "https://cbgc.scol.com.cn/news/7387717",
+  "lang": "zh-Hans",
+  "grade": "Official text (published by provincial media)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "p-sc",
+  "checked": "16 October 2026"
+ },
+ "icc": {
+  "publisher": "International Chamber of Commerce (ICC)",
+  "label": "Incoterms® rules",
+  "url": "https://iccwbo.org/business-solutions/incoterms-rules/",
+  "lang": "en",
+  "grade": "Official rule-maker page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "icc",
+  "checked": "16 October 2026"
+ },
+ "g-ft": {
+  "publisher": "Google Search Central",
+  "label": "File types indexable by Google",
+  "url": "https://developers.google.com/search/docs/crawling-indexing/indexable-file-types",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-ft",
+  "checked": "16 October 2026"
+ },
+ "nbs": {
+  "publisher": "National Bureau of Statistics of China",
+  "label": "中华人民共和国2025年国民经济和社会发展统计公报 (Statistical Communiqué of the PRC on 2025 National Economic and Social Development, 28 February 2026)",
+  "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html",
+  "lang": "zh-Hans",
+  "grade": "Official statistics",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "nbs",
+  "checked": "16 October 2026"
+ },
+ "cansi": {
+  "publisher": "China Association of the National Shipbuilding Industry (CANSI)",
+  "label": "2025年船舶工业经济运行分析 (Analysis of the shipbuilding industry’s 2025 performance, 12 March 2026)",
+  "url": "https://www.cansi.org.cn/cms/document/19815.html",
+  "lang": "zh-Hans",
+  "grade": "Industry association",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "cansi",
+  "checked": "16 October 2026"
+ },
+ "miit-ship": {
+  "publisher": "MIIT Equipment Industry Development Center (citing MIIT Department of Equipment Industry II)",
+  "label": "2025年我国造船国际市场份额继续保持全球领先 (China’s shipbuilding market share stayed first in the world in 2025, 2 February 2026)",
+  "url": "https://www.miit-eidc.org.cn/art/2026/2/2/art_1618_12122.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "miit-ship",
+  "checked": "16 October 2026"
+ },
+ "cccme-pv": {
+  "publisher": "China Chamber of Commerce for Import and Export of Machinery and Electronic Products (CCCME)",
+  "label": "2025年我国光伏产业对外贸易形势分析 (China’s photovoltaic foreign trade in 2025, citing customs statistics)",
+  "url": "https://www.cccme.org.cn/news/details.aspx?id=B31FE14D32F9104E20D30B61AB70D332",
+  "lang": "zh-Hans",
+  "grade": "Industry chamber",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cccme-pv",
+  "checked": "16 October 2026"
+ },
+ "cnfa": {
+  "publisher": "China National Furniture Association (CNFA)",
+  "label": "2025年中国家具行业经济运行简报 (Furniture industry economic bulletin for 2025, 12 February 2026)",
+  "url": "https://www.cnfa.com.cn/messdetail1s58.html",
+  "lang": "zh-Hans",
+  "grade": "Industry association",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cnfa",
+  "checked": "16 October 2026"
+ },
+ "cpcif": {
+  "publisher": "China Petroleum and Chemical Industry Federation (CPCIF), as reproduced by the China Calcium Carbide Industry Association",
+  "label": "“十四五”石化行业经济运行稳中有进 (Petrochemical industry performance in the 14th Five-Year Plan period, 10 February 2026)",
+  "url": "https://www.cciac.org.cn/html/article/2026-2/29397.html",
+  "lang": "zh-Hans",
+  "grade": "Industry association (reproduction)",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "cpcif",
+  "checked": "16 October 2026"
+ },
+ "ccma": {
+  "publisher": "China Construction Machinery Association (CCMA) sales bulletin, as reported by Jiemian News",
+  "label": "中国工程机械工业协会：2025年挖掘机销量同比增长17% (CCMA: excavator sales up 17% in 2025, 8 January 2026)",
+  "url": "https://www.jiemian.com/article/13861716.html",
+  "lang": "zh-Hans",
+  "grade": "Industry association data (media report)",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "ccma",
+  "checked": "16 October 2026"
+ },
+ "cflp": {
+  "publisher": "China Federation of Logistics and Purchasing (CFLP) and China Logistics Information Center, as reported by China Economic Net",
+  "label": "2025年全国社会物流总额同比增长5.1% (Total social logistics value up 5.1% in 2025, 11 February 2026)",
+  "url": "https://www.ce.cn/macro/more/202602/t20260211_2768281.shtml",
+  "lang": "zh-Hans",
+  "grade": "Industry federation data (media report)",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "cflp",
+  "checked": "16 October 2026"
+ },
+ "eu-mach": {
+  "publisher": "European Commission",
+  "label": "Machinery (Machinery Directive 2006/42/EC and Machinery Regulation (EU) 2023/1230)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-mach",
+  "checked": "16 October 2026"
+ },
+ "eu-ppe": {
+  "publisher": "European Commission",
+  "label": "Personal protective equipment (PPE Regulation (EU) 2016/425)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/personal-protective-equipment_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-ppe",
+  "checked": "16 October 2026"
+ },
+ "eu-atex": {
+  "publisher": "European Commission",
+  "label": "Equipment for potentially explosive atmospheres (ATEX Directive 2014/34/EU)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/equipment-potentially-explosive-atmospheres-atex_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-atex",
+  "checked": "16 October 2026"
+ },
+ "eu-fgas": {
+  "publisher": "European Commission",
+  "label": "Fluorinated greenhouse gases (page last updated 25 November 2025)",
+  "url": "https://climate.ec.europa.eu/eu-action/fluorinated-greenhouse-gases_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-fgas",
+  "checked": "16 October 2026"
+ },
+ "eu-fcm": {
+  "publisher": "European Commission",
+  "label": "Food Contact Materials",
+  "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-fcm",
+  "checked": "16 October 2026"
+ },
+ "eu-ppwr": {
+  "publisher": "European Commission",
+  "label": "Packaging waste (Packaging and Packaging Waste Regulation (EU) 2025/40)",
+  "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-ppwr",
+  "checked": "16 October 2026"
+ },
+ "eu-eudr": {
+  "publisher": "European Commission",
+  "label": "Regulation on Deforestation-free products (EUDR, Regulation (EU) 2023/1115)",
+  "url": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-eudr",
+  "checked": "16 October 2026"
+ },
+ "eu-epbd": {
+  "publisher": "European Commission",
+  "label": "Energy Performance of Buildings Directive (EU/2024/1275)",
+  "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-epbd",
+  "checked": "16 October 2026"
+ },
+ "eu-dwd": {
+  "publisher": "European Commission",
+  "label": "Drinking water (recast Drinking Water Directive (EU) 2020/2184)",
+  "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-dwd",
+  "checked": "16 October 2026"
+ },
+ "eu-uwwtd": {
+  "publisher": "European Commission",
+  "label": "Urban wastewater (revised Urban Wastewater Treatment Directive)",
+  "url": "https://environment.ec.europa.eu/topics/water/urban-wastewater_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-uwwtd",
+  "checked": "16 October 2026"
+ },
+ "eu-weee": {
+  "publisher": "European Commission",
+  "label": "Waste from Electrical and Electronic Equipment (WEEE)",
+  "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/waste-electrical-and-electronic-equipment-weee_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-weee",
+  "checked": "16 October 2026"
+ },
+ "eu-lvd": {
+  "publisher": "European Commission",
+  "label": "Low Voltage Directive (LVD)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/low-voltage-directive-lvd_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-lvd",
+  "checked": "16 October 2026"
+ },
+ "eu-reach": {
+  "publisher": "European Commission",
+  "label": "REACH Regulation (EC 1907/2006)",
+  "url": "https://environment.ec.europa.eu/topics/chemicals/reach-regulation_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-reach",
+  "checked": "16 October 2026"
+ },
+ "eu-cpr": {
+  "publisher": "European Commission",
+  "label": "Construction Products Regulation (CPR)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-cpr",
+  "checked": "16 October 2026"
+ },
+ "eu-tex": {
+  "publisher": "European Commission",
+  "label": "Textiles, leather, fur (Textile Labelling Regulation (EU) 1007/2011)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/textiles-ecosystem/textiles-leather-fur_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-tex",
+  "checked": "16 October 2026"
+ },
+ "eu-dpp": {
+  "publisher": "European Commission",
+  "label": "Digital Product Passport (under the Ecodesign for Sustainable Products Regulation (EU) 2024/1781)",
+  "url": "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-dpp",
+  "checked": "16 October 2026"
+ },
+ "eu-tractor": {
+  "publisher": "European Commission",
+  "label": "Wheeled agricultural or forestry tractors (Regulation (EU) No 167/2013 and related acts)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/automotive-industry/legislation/wheeled-agricultural-or-forestry-tractors_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-tractor",
+  "checked": "16 October 2026"
+ },
+ "eu-emc": {
+  "publisher": "European Commission",
+  "label": "Electromagnetic Compatibility (EMC) Directive",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/electromagnetic-compatibility-emc-directive_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-emc",
+  "checked": "16 October 2026"
+ },
+ "easa-poa": {
+  "publisher": "European Union Aviation Safety Agency (EASA)",
+  "label": "Production Organisations Approvals",
+  "url": "https://www.easa.europa.eu/en/domains/aircraft-products/production-organisations-approvals",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "easa-poa",
+  "checked": "16 October 2026"
+ },
+ "iaqg": {
+  "publisher": "International Aerospace Quality Group (IAQG)",
+  "label": "Published Standards (9100 series)",
+  "url": "https://iaqg.org/standards/",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iaqg",
+  "checked": "16 October 2026"
+ },
+ "iso-17025": {
+  "publisher": "International Organization for Standardization (ISO)",
+  "label": "ISO/IEC 17025 — Testing and calibration laboratories",
+  "url": "https://www.iso.org/ISO-IEC-17025-testing-and-calibration-laboratories.html",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "iso-17025",
+  "checked": "16 October 2026"
+ },
+ "iso-3691": {
+  "publisher": "International Organization for Standardization (ISO)",
+  "label": "ISO 3691-4:2023 Industrial trucks — Safety requirements and verification — Part 4: Driverless industrial trucks and their systems",
+  "url": "https://www.iso.org/standard/83545.html",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Box and web fetch service blocked (HTTP 403); text checked in the search-engine extract of the publisher page",
+  "id": "iso-3691",
+  "checked": "16 October 2026"
+ },
+ "iso-2768": {
+  "publisher": "International Organization for Standardization (ISO)",
+  "label": "ISO 2768-1:1989 General tolerances — Part 1: Tolerances for linear and angular dimensions without individual tolerance indications",
+  "url": "https://www.iso.org/standard/7748.html",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "iso-2768",
+  "checked": "16 October 2026"
+ },
+ "iec-61215": {
+  "publisher": "International Electrotechnical Commission (IEC) Webstore",
+  "label": "IEC 61215-1:2021 Terrestrial photovoltaic (PV) modules — Design qualification and type approval — Part 1: Test requirements",
+  "url": "https://webstore.iec.ch/en/publication/61345",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iec-61215",
+  "checked": "16 October 2026"
+ },
+ "iec-60335": {
+  "publisher": "International Electrotechnical Commission (IEC) Webstore",
+  "label": "IEC 60335-2-72:2021 Particular requirements for floor treatment machines with or without traction drive, for commercial use",
+  "url": "https://webstore.iec.ch/en/publication/64778",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iec-60335",
+  "checked": "16 October 2026"
+ },
+ "nsf-61": {
+  "publisher": "NSF",
+  "label": "NSF/ANSI 61: Drinking Water System Components – Health Effects (18 February 2024)",
+  "url": "https://www.nsf.org/knowledge-library/nsf-ansi-standard-61-drinking-water-system-components-health-effects",
+  "lang": "en",
+  "grade": "Standards and certification body page",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "nsf-61",
+  "checked": "16 October 2026"
+ },
+ "oeko": {
+  "publisher": "OEKO-TEX",
+  "label": "OEKO-TEX® STANDARD 100",
+  "url": "https://www.oeko-tex.com/en/our-standards/oeko-tex-standard-100",
+  "lang": "en",
+  "grade": "Certification scheme owner page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "oeko",
+  "checked": "16 October 2026"
+ },
+ "emsa-med": {
+  "publisher": "European Maritime Safety Agency (EMSA)",
+  "label": "Marine Equipment (Marine Equipment Directive 2014/90/EU and the MED Portal)",
+  "url": "https://www.emsa.europa.eu/we-do/safety/marine-equipment.html",
+  "lang": "en",
+  "grade": "Official agency page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "emsa-med",
+  "checked": "16 October 2026"
+ },
+ "imo-solas": {
+  "publisher": "International Maritime Organization (IMO)",
+  "label": "International Convention for the Safety of Life at Sea (SOLAS), 1974",
+  "url": "https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx",
+  "lang": "en",
+  "grade": "Official treaty-body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "imo-solas",
+  "checked": "16 October 2026"
+ },
+ "fsc-coc": {
+  "publisher": "Forest Stewardship Council (FSC)",
+  "label": "Chain of Custody Certification",
+  "url": "https://fsc.org/en/chain-of-custody-certification",
+  "lang": "en",
+  "grade": "Certification scheme owner page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "fsc-coc",
+  "checked": "16 October 2026"
+ },
+ "miit-auto": {
+  "publisher": "Ministry of Industry and Information Technology (MIIT), Department of Equipment Industry I (data from the China Association of Automobile Manufacturers)",
+  "label": "2025年12月汽车工业经济运行情况 (Automotive industry performance, December 2025, 14 January 2026)",
+  "url": "https://www.miit.gov.cn/jgsj/zbys/qcgy/art/2026/art_4c5ed7009d21485da32b2a01abcf2819.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch blocked or timed out; page read via web fetch service and text checked",
+  "id": "miit-auto",
+  "checked": "16 October 2026"
+ },
+ "eu-ta": {
+  "publisher": "European Commission",
+  "label": "Automotive industry legislation: motor vehicles, their trailers, systems and components (Regulation (EU) 2018/858)",
+  "url": "https://single-market-economy.ec.europa.eu/sectors/automotive-industry/legislation_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-ta",
+  "checked": "16 October 2026"
+ },
+ "eu-elv": {
+  "publisher": "European Commission",
+  "label": "New rules for a more circular European automotive sector (End-of-Life Vehicles Regulation, news, 12 August 2026)",
+  "url": "https://environment.ec.europa.eu/news/new-rules-more-circular-european-automotive-sector-2026-08-12_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-elv",
+  "checked": "16 October 2026"
+ },
+ "eu-batt": {
+  "publisher": "European Commission",
+  "label": "Batteries (Regulation (EU) 2023/1542 concerning batteries and waste batteries)",
+  "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en",
+  "lang": "en",
+  "grade": "Official regulator page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "eu-batt",
+  "checked": "16 October 2026"
+ },
+ "iatf": {
+  "publisher": "International Automotive Task Force (IATF)",
+  "label": "IATF 16949:2016 — About",
+  "url": "https://www.iatfglobaloversight.org/iatf-169492016/about/",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iatf",
   "checked": "16 October 2026"
  }
 }

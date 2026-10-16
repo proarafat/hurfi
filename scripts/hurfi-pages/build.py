@@ -56,6 +56,8 @@ def wr(rel, text):
         # the last original line may have had no newline at all
         if ol and not ol[-1].endswith('\n') and parts and on[-1] == nl[-1] and last_eol is False:
             pass
+    # every Book a Consultation link lands on the form heading (#book-form)
+    out = out.replace('href="/book-consultation/"', 'href="/book-consultation/#book-form"')
     with open(p, 'w', encoding='utf-8', newline='') as f:
         f.write(out)
     print('wrote', rel)
@@ -84,7 +86,8 @@ TPL = rd('services/seo/index.html')
 HEADER = TPL[TPL.index('  <header class="site-header">'):TPL.index('  <main>')]
 TAIL = TPL[TPL.index('  <footer class="site-footer">'):]
 CSS_LINK = re.search(r'<link rel="stylesheet" href="/assets/css/style\.css\?v=[^"]+">', TPL).group(0)
-HX_LINK = '<link rel="stylesheet" href="/assets/css/hurfi-pages.css?v=20261020a">'
+from navdata import VER as _VER
+HX_LINK = '<link rel="stylesheet" href="/assets/css/hurfi-pages.css?v=%s">' % _VER
 
 ORG = {"@type": "Organization", "@id": SITE + "/#organization", "name": "Hurfi", "url": SITE + "/",
        "logo": SITE + "/assets/img/hurfi-logo-for-whitebg.png", "email": "yasir@hurfi.com",
@@ -188,7 +191,7 @@ def crumbs_nav(items, label='Breadcrumb'):
             li.append('<li><a href="%s">%s</a></li>' % (u, E(n)))
     return '    <nav class="hx-crumbs" aria-label="%s"><ol>%s</ol></nav>\n' % (E(label), ''.join(li))
 
-def hero(kicker, h1, lead, cta=('Book a Consultation', '/book-consultation/'), note=None, meta=None, cta2=None):
+def hero(kicker, h1, lead, cta=('Book a Consultation', '/book-consultation/#book-form'), note=None, meta=None, cta2=None):
     n = '\n        <p class="hx-hero-note">%s</p>' % md(note) if note else ''
     m = '\n        <p class="hx-meta">%s</p>' % meta if meta else ''
     if cta2:
@@ -275,7 +278,7 @@ def build_cities(cities, ins=None):
             continue
         reset_ids()
         path = '/locations/china/%s/' % c['slug']
-        bc = [('Home', '/'), ('Locations', '/locations/'), ('China', '/locations/china/'), (c['city'], path)]
+        bc = city_crumbs(c, path)
         refs = {s['id']: n + 1 for n, s in enumerate(c['sources'])}
         facts = ''
         for text, ids in c['facts']:
@@ -304,10 +307,13 @@ def build_cities(cities, ins=None):
         main += faq_block(c['faq'], title='Questions from %s manufacturers' % c['city'])
         if c['slug'] in V1_LINKS:
             sib, gds = V1_LINKS[c['slug']]
+            gds = list(dict.fromkeys(gds + c.get('insights', []) + ins_linking(ins, path)))
+            pk = prov_of(c)
+            pvl = [('%s province guide' % provinces()[pk]['name'], '/locations/china/%s/' % pk)] if pk else []
             main += f'''    <section class="brief hx-related-block" aria-labelledby="related-title">
       <h2 id="related-title">Related city guides and insights</h2>
       <div class="hx-related-cols">
-        <div><h3>Other city guides</h3>{link_list([(cities[x]['city'], '/locations/china/%s/' % x) for x in sib if x in cities] + [('All city guides', '/locations/#city-guides')])}</div>
+        <div><h3>Province and city guides</h3>{link_list(pvl + [(cities[x]['city'], '/locations/china/%s/' % x) for x in sib if x in cities] + [('All city guides', '/locations/#city-guides')])}</div>
         <div><h3>Guides</h3>{link_list([(ins[x]['h1'], '/insights/%s/' % x) for x in gds if x in ins] + [('All insights', '/insights/')])}</div>
       </div>
     </section>
@@ -351,7 +357,7 @@ def build_insights(ins, cities=None):
         bc = [('Home', '/'), ('Insights', '/insights/'), (a['h1'], path)]
         secs = ''.join(section(s, 'hx-article-sec') for s in a['sections'])
         toc = ''.join('<li><a href="#%s">%s</a></li>' % (sid_peek(s), E(plain(s['h2']))) for s in a['sections'])
-        others = [ins[x] for x in V1_RELATED.get(a['slug'], []) if x in ins] or [o for o in arts if o is not a][:5]
+        others = [ins[x] for x in dict.fromkeys(V1_RELATED.get(a['slug'], []) + ins_linking(ins, '/insights/%s/' % a['slug'])) if x in ins] or [o for o in arts if o is not a][:5]
         rel = ''.join('<li><a href="/insights/%s/">%s</a></li>' % (o['slug'], E(o['h1'])) for o in others) + '<li><a href="/insights/">All insights</a></li>'
         v1s, v1c = V1_INSIGHT_LINKS.get(a['slug'], ([], []))
         rel_more = ''
@@ -368,7 +374,7 @@ def build_insights(ins, cities=None):
       <aside class="hx-related" aria-label="Related">
         <p class="hx-toc-title">Related guides</p>
         <ul>{rel}</ul>{rel_more}
-        <p><a class="svc-cta" href="/book-consultation/">Book a Consultation <span aria-hidden="true">→</span></a></p>
+        <p><a class="svc-cta" href="/book-consultation/#book-form">Book a Consultation <span aria-hidden="true">→</span></a></p>
       </aside>
     </div>
 '''
@@ -399,7 +405,7 @@ def build_zh(zh):
         bc = [('首页', '/zh/')] + ([] if key == 'home' else [(ZH_SVC[key], z['path'])])
         if key == 'home':
             bc = [('首页', '/zh/')]
-        main = hero(z['kicker'], z['h1'], z['lead'], cta=('预约免费咨询', '/book-consultation/'),
+        main = hero(z['kicker'], z['h1'], z['lead'], cta=('预约免费咨询', '/book-consultation/#book-form'),
                     note='本页为简体中文版。[查看英文版](%s)' % z['en']) + (crumbs_nav(bc, '面包屑导航') if key != 'home' else '')
         for s in z['sections']:
             main += section(s, 'brief hx-prose' if not s.get('cards') else 'brief')
@@ -554,10 +560,11 @@ def build_home(pg):
     s = add_hx_css(s)
     wr('index.html', s)
 
-REGIONS = [('Pearl River Delta (Guangdong)', ['shenzhen', 'guangzhou', 'dongguan', 'zhongshan']),
-           ('Yangtze River Delta and Anhui', ['shanghai', 'suzhou', 'wuxi', 'changzhou', 'hangzhou', 'ningbo', 'hefei']),
-           ('Fujian', ['xiamen', 'quanzhou']),
-           ('North, central and western China', ['tianjin', 'wuhan', 'xian'])]
+REGIONS = [('Pearl River Delta (Guangdong)', ['shenzhen', 'guangzhou', 'dongguan', 'foshan', 'zhongshan', 'zhuhai', 'huizhou']),
+           ('Yangtze River Delta and Anhui', ['shanghai', 'suzhou', 'nanjing', 'wuxi', 'changzhou', 'nantong', 'hangzhou', 'ningbo', 'wenzhou', 'jinhua', 'shaoxing', 'taizhou-zhejiang', 'jiaxing', 'hefei', 'wuhu']),
+           ('Fujian', ['xiamen', 'quanzhou', 'fuzhou']),
+           ('Bohai Rim and northeast China', ['beijing', 'tianjin', 'qingdao', 'jinan', 'yantai', 'weifang', 'dalian', 'shenyang']),
+           ('Central and western China', ['wuhan', 'changsha', 'zhengzhou', 'chongqing', 'chengdu', 'xian'])]
 
 def build_locations(pg, cities):
     l = pg['locations']
@@ -572,6 +579,9 @@ def build_locations(pg, cities):
         seen.update(c['slug'] for c in cs)
         body += '      <h3 class="hx-region">%s</h3>\n      <div class="ind-grid">\n' % E(name) + ''.join('        <a class="ind-card" href="/locations/china/%s/"><h3>%s</h3><p>%s · city guide</p><span class="ind-go" aria-hidden="true">→</span></a>\n' % (c['slug'], E(c['city']), E(c['province'])) for c in cs) + '      </div>\n'
     assert seen == set(cities), set(cities) - seen
+    provs = provinces()
+    if provs:
+        body += '      <h3 class="hx-region" id="province-guides">Province guides</h3>\n      <p>Province guides summarise official figures, link to the city guides and profile smaller manufacturing cities from their own statistical bulletins.</p>\n      <div class="ind-grid">\n' + ''.join('        <a class="ind-card" href="/locations/china/%s/"><h3>%s</h3><p>Province guide · %d city guides</p><span class="ind-go" aria-hidden="true">→</span></a>\n' % (k, E(p['name']), len(p['guides'])) for k, p in provs.items()) + '      </div>\n'
     body += '      <p><a class="desk-link" href="/locations/china/">Full China directory</a> · <a class="desk-link" href="/insights/">Insights for exporters</a></p>\n    </section>\n'
     s = set_block(s, 'city-guides', body, before='  </main>')
     s = add_hx_css(s)
@@ -594,8 +604,21 @@ def build_china(cities):
         else:
             a = '<li id="%s">' % c['anchor']
             i = s.index(a); j = s.index('</li>', i)
+            # a city that now has its own guide drops the earlier link to its province-hub profile
+            li = re.sub(r'<p class="hx-cityguide"><a href="/locations/china/[a-z-]+/#hub-[a-z-]+">.*?</a></p>', '', s[i:j])
+            s = s[:i] + li + s[j:]; j = i + len(li)
             if 'hx-cityguide' not in s[i:j]:
                 s = s[:j] + '<p class="hx-cityguide"><a href="/locations/china/%s/">%s city guide <span aria-hidden="true">→</span></a></p>' % (c['slug'], E(c['city'])) + s[j:]
+    for k, p in provinces().items():
+        a = '<details class="cn-prov" id="%s">' % p['anchor']
+        i = s.index(a); j = s.index('</summary>', i) + len('</summary>')
+        if 'hx-provguide' not in s[j:j + 300]:
+            s = s[:j] + '\n          <p class="hx-cityguide hx-provguide"><a href="/locations/china/%s/">%s province guide <span aria-hidden="true">→</span></a></p>' % (k, E(p['name'])) + s[j:]
+        for c in p['smaller']:
+            a = '<li id="%s">' % c['anchor']
+            i = s.index(a); j = s.index('</li>', i)
+            if 'hx-cityguide' not in s[i:j]:
+                s = s[:j] + '<p class="hx-cityguide"><a href="/locations/china/%s/#hub-%s">%s in the %s guide <span aria-hidden="true">→</span></a></p>' % (k, c['city'].lower().replace(' ', '-'), E(c['city']), E(p['name'])) + s[j:]
     s = add_hx_css(s)
     wr('locations/china/index.html', s)
 
@@ -648,7 +671,7 @@ def cta_band(title, text, ident):
     return f'''    <section class="brief hx-cta-band" aria-labelledby="{ident}">
       <h2 id="{ident}">{E(title)}</h2>
       <p>{md(text)}</p>
-      <div class="cta-row hx-cta-row"><a class="btn" href="/book-consultation/">Book a Consultation</a><a class="btn btn-outline" href="/contact/">Contact us</a></div>
+      <div class="cta-row hx-cta-row"><a class="btn" href="/book-consultation/#book-form">Book a Consultation</a><a class="btn btn-outline" href="/contact/">Contact us</a></div>
     </section>
 '''
 
@@ -692,6 +715,38 @@ def sources_block(ids, intro, refs, back=None):
 def link_list(items):
     return '<ul class="hx-linklist">%s</ul>' % ''.join('<li><a href="%s">%s</a></li>' % (u, E(n)) for n, u in items)
 
+
+# ---------------------------------------------------------------- Hurfi's own social posts (brand work, not client results)
+_POSTS = None
+def posts():
+    global _POSTS
+    if _POSTS is None:
+        _POSTS = load('posts.json')
+    return _POSTS
+
+def pick_posts(key, tags, n=3):
+    import hashlib
+    P = posts()
+    pool = sorted(k for k, v in P.items() if v['tag'] in tags)
+    h = int(hashlib.md5(key.encode()).hexdigest(), 16)
+    out = []
+    while len(out) < n and pool:
+        out.append(pool.pop(h % len(pool))); h //= 7
+    return out
+
+def posts_strip(slugs, title='Hurfi on social media', lead=None, ident='posts-title'):
+    P = posts()
+    lead = lead or 'A few of Hurfi’s own social media posts for manufacturers. They show our brand work and how we talk to factories; they are not client results.'
+    figs = ''.join('        <figure class="hx-post"><img src="/assets/img/hurfi-post/web/%s.webp" alt="%s" width="%d" height="%d" loading="lazy" decoding="async"></figure>\n' % (k, E(P[k]['alt']), P[k]['w'], P[k]['h']) for k in slugs)
+    return f'''    <section class="brief hx-posts" aria-labelledby="{ident}">
+      <h2 id="{ident}">{E(title)}</h2>
+      <p>{md(lead)}</p>
+      <div class="hx-post-grid">
+{figs}      </div>
+      <p class="hx-post-note">Want posts like these for your factory? See <a href="/services/social-media-management/">social media management</a>.</p>
+    </section>
+'''
+
 CITY_ALL = None
 def city_guides(cities):
     return [(c['city'], '/locations/china/%s/' % c['slug']) for c in cities.values()]
@@ -701,7 +756,7 @@ def build_city2(c, cities, ins):
     reset_ids()
     S = sources()
     path = '/locations/china/%s/' % c['slug']
-    bc = [('Home', '/'), ('Locations', '/locations/'), ('China', '/locations/china/'), (c['city'], path)]
+    bc = city_crumbs(c, path)
     refs = {sid: n + 1 for n, sid in enumerate(c['sources'])}
     facts = ''
     for text, ids in c['facts']:
@@ -714,10 +769,11 @@ def build_city2(c, cities, ins):
             sup = ''.join('<sup><a href="#src-%s" aria-label="Source %d">[%d]</a></sup>' % (x, refs[x], refs[x]) for x in ids)
             out += '        <li>%s%s</li>\n' % (md(text), sup)
         return out
-    deep = 'zones' in c
+    deep = 'exports' in c
     toc = [('ctx-title', 'Official figures'), ('clusters-title', 'Industries')]
     if deep:
-        toc += [('zones-title', 'Zones and districts'), ('logi-title', 'Ports, logistics and fairs'), ('exp-title', 'Export markets'), ('chal-title', 'Online challenges')]
+        toc += [x for x, ok in ((('zones-title', 'Zones and districts'), bool(c.get('zones'))), (('logi-title', 'Ports, logistics and fairs'), bool(c.get('logistics'))),
+                                (('exp-title', 'Export markets'), True), (('chal-title', 'Online challenges'), True)) if ok]
     toc += [('buyerq-title', 'Buyer questions'), ('play-title', 'Playbook'),
            ('svc-title', 'How Hurfi helps'), ('rk-faq-title', 'FAQ'), ('related-title', 'Related pages'), ('src-title', 'Sources')]
     main = hero('China · ' + c['province'] if c['province'] != c['city'] else 'China · ' + c['city'], c['h1'], c['lead'], note=c['remote'],
@@ -741,20 +797,24 @@ def build_city2(c, cities, ins):
 {cl}      </div>
     </section>
 '''
-    if deep:
+    if deep and c.get('zones'):
         main += f'''    <section class="brief hx-prose" aria-labelledby="zones-title">
       <h2 id="zones-title">Industrial zones and districts in {city}</h2>
       <ul class="hx-list">
 {flist(c['zones'])}      </ul>
       <p>{md(c['zones_note'])}</p>
     </section>
-    <section class="brief hx-prose" aria-labelledby="logi-title">
+'''
+    if deep and c.get('logistics'):
+        main += f'''    <section class="brief hx-prose" aria-labelledby="logi-title">
       <h2 id="logi-title">Ports, logistics and trade fairs</h2>
       <ul class="hx-list">
 {flist(c['logistics'])}      </ul>
       <p>Buyers comparing suppliers ask how goods will reach them, how long it takes and on what trade terms. Shipping ports, typical lead times and Incoterms on your website answer that before it is asked.</p>
     </section>
-    <section class="brief hx-prose" aria-labelledby="exp-title">
+'''
+    if deep:
+        main += f'''    <section class="brief hx-prose" aria-labelledby="exp-title">
       <h2 id="exp-title">Export profile, typical products and buyer markets</h2>
       <ul class="hx-list">
 {flist(c['exports'])}      </ul>
@@ -784,17 +844,21 @@ def build_city2(c, cities, ins):
 '''
     main += cta_band('Want this mapped to your factory?', 'Book a free consultation and we will look at your current site, products and markets, and suggest which of these steps to take first. Prefer to write first? Use the contact form.', 'midcta-title')
     main += services_block('How Hurfi helps %s manufacturers' % c['city'], c['svc'], extra=c['help'])
+    main += posts_strip(pick_posts(c['slug'], ('mfg', 'seo', 'web')))
     main += process_block()
     main += faq_block(c['faq'], title='Questions from %s manufacturers' % c['city'])
     sn = sector_names()
     sect = [(sn[x], '/industries/%s/' % x) for x in c['sectors']]
     sib = [(cities[x]['city'], '/locations/china/%s/' % x) for x in c['siblings'] if x in cities]
-    gd = [(ins[x]['h1'], '/insights/%s/' % x) for x in c['insights'] if x in ins]
+    gd = [(ins[x]['h1'], '/insights/%s/' % x) for x in dict.fromkeys(c['insights'] + ins_linking(ins, path)) if x in ins]
+    pk = prov_of(c)
+    if pk:
+        sib = [('%s province guide' % provinces()[pk]['name'], '/locations/china/%s/' % pk)] + sib
     main += f'''    <section class="brief hx-related-block" aria-labelledby="related-title">
       <h2 id="related-title">Related industries, cities and guides</h2>
       <div class="hx-related-cols">
         <div><h3>Industries</h3>{link_list(sect)}</div>
-        <div><h3>Other city guides</h3>{link_list(sib + [('All city guides', '/locations/#city-guides')])}</div>
+        <div><h3>{'Province and city guides' if pk else 'Other city guides'}</h3>{link_list(sib + [('All city guides', '/locations/#city-guides')])}</div>
         <div><h3>Guides</h3>{link_list(gd + [('All insights', '/insights/')])}</div>
       </div>
       <p><a class="desk-link" href="/locations/china/#{c['anchor']}">{city} in the China directory</a></p>
@@ -829,9 +893,12 @@ def build_insight2(a, ins, cities):
     toc_items = [(sid_peek(s), plain(s['h2'])) for s in a['sections']] + [('svc-title', 'How Hurfi helps'), ('rk-faq-title', 'Common questions'), ('src-title', 'Sources')]
     toc = ''.join('<li><a href="#%s">%s</a></li>' % (i, E(t)) for i, t in toc_items)
     sn = sector_names()
-    rel = ''.join('<li><a href="/insights/%s/">%s</a></li>' % (x, E(ins[x]['h1'])) for x in a['related'] if x in ins)
+    rel = ''.join('<li><a href="/insights/%s/">%s</a></li>' % (x, E(ins[x]['h1'])) for x in dict.fromkeys(a['related'] + ins_linking(ins, path)) if x in ins)
     sect = ''.join('<li><a href="/industries/%s/">%s</a></li>' % (x, E(sn[x])) for x in a['sectors'])
-    cty = ''.join('<li><a href="/locations/china/%s/">%s</a></li>' % (x, E(cities[x]['city'])) for x in a['cities'] if x in cities)
+    mpv, mcs = mentioned_places(a)
+    cty = ''.join('<li><a href="/locations/china/%s/">%s</a></li>' % (x, E(cities[x]['city'])) for x in dict.fromkeys(a['cities'] + mcs) if x in cities)
+    pvs = provinces()
+    pvl = ''.join('<li><a href="/locations/china/%s/">%s</a></li>' % (x, E(pvs[x]['name'])) for x in mpv)
     date_h = human_date(a['published'])
     main = hero('Insights', a['h1'], a['lead'], meta='By the Hurfi team · <time datetime="%s">%s</time>' % (a['published'], date_h), cta2=('Contact us', '/contact/')) + crumbs_nav(bc)
     main += f'''    <div class="hx-article">
@@ -845,11 +912,12 @@ def build_insight2(a, ins, cities):
         <ul>{sect}</ul>
         <p class="hx-toc-title">City guides</p>
         <ul>{cty}<li><a href="/locations/#city-guides">All city guides</a></li></ul>
-        <p><a class="svc-cta" href="/book-consultation/">Book a Consultation <span aria-hidden="true">→</span></a></p>
+{('        <p class="hx-toc-title">Province guides</p>\n        <ul>' + pvl + '</ul>\n') if pvl else ''}        <p><a class="svc-cta" href="/book-consultation/#book-form">Book a Consultation <span aria-hidden="true">→</span></a></p>
       </aside>
     </div>
 '''
     main += services_block('How Hurfi helps with this', a['svc'], lead='Hurfi offers four services for manufacturers selling abroad. Here is how each one relates to this guide.')
+    main += posts_strip(pick_posts(a['slug'], INS_POST_TAGS.get(a['slug'], ('seo', 'web'))))
     main += faq_block(a['faq'], title='Common questions')
     main += sources_block(a['sources'], 'External guidance quoted in this article, checked on the date shown. Links open the publisher’s own page.', refs)
     main += cta_band('Put this guide to work', 'A first consultation is free. We will look at your site and tell you which parts of this guide matter most for you.', 'endcta-title')
@@ -864,7 +932,211 @@ def build_insight2(a, ins, cities):
     import images
     images.steps(os.path.join(ROOT, img.lstrip('/')), a['h1'], a['steps'])
 
+# ---------------------------------------------------------------- chunk 3: deepened sector pages (v2)
+def sectors2():
+    try:
+        return load('sectors2.json')
+    except FileNotFoundError:
+        return {}
+
+def build_sector2(x, cities, provs, ins):
+    reset_ids()
+    sl = x['slug']
+    path = '/industries/%s/' % sl
+    bc = [('Home', '/'), ('Industries', '/industries/'), (x['name'], path)]
+    refs = {s: n + 1 for n, s in enumerate(x['sources'])}
+    def sup(ids):
+        return ''.join('<sup><a href="#src-%s" aria-label="Source %d">[%d]</a></sup>' % (i, refs[i], refs[i]) for i in ids)
+    def flist(items):
+        return ''.join('        <li>%s%s</li>\n' % (md(t), sup(ids)) for t, ids in items)
+    short = E(x['short'])
+    toc = [('figs-title', 'Sector figures'), ('groups-title', 'What buyers compare'), ('std-title', 'Standards and documents'),
+           ('buyerq-title', 'Buyer questions'), ('play-title', 'Playbook'), ('where-title', 'Where it is made'),
+           ('svc-title', 'How Hurfi helps'), ('niche-title', 'Niches'), ('rk-faq-title', 'FAQ'), ('related-title', 'Related pages'), ('src-title', 'Sources')]
+    main = hero('Industries', x['h1'], x['lead'], note=x.get('note'), cta2=('Contact us', '/contact/')) + crumbs_nav(bc)
+    main += '    <nav class="brief hx-onpage" aria-label="On this page"><p class="hx-toc-title">On this page</p><ul>%s</ul></nav>\n' % ''.join('<li><a href="#%s">%s</a></li>' % (i, E(t)) for i, t in toc)
+    img = '/assets/img/guides/sector-%s.webp' % sl
+    tiles = '; '.join('%s %s' % (b, l) for b, l in x['tiles'])
+    main += f'''    <section class="brief hx-prose" aria-labelledby="figs-title">
+      <h2 id="figs-title">{E(x['figs_h2'])}</h2>
+      <p>{md(x['figs_intro'])}</p>
+      <ul class="hx-list">
+{flist(x['facts'])}      </ul>
+      <p>{md(x['figs_after'])}</p>
+{figure(img, 'Infographic of four figures for %s: %s.' % (x['name'], tiles), 'Infographic by Hurfi, drawn from the sources listed below (%s). Figures describe the sector, not any Hurfi client.' % x['srcline'])}    </section>
+'''
+    gr = ''.join('        <article class="brief-card"><h3>%s</h3><p>%s</p></article>\n' % (E(t), md(b)) for t, b in x['groups'])
+    main += f'''    <section class="brief" aria-labelledby="groups-title">
+      <h2 id="groups-title">What overseas buyers compare in {short}</h2>
+      <p>{md(x['groups_intro'])}</p>
+      <div class="brief-grid">
+{gr}      </div>
+    </section>
+'''
+    main += f'''    <section class="brief hx-prose" aria-labelledby="std-title">
+      <h2 id="std-title">Standards, rules and documents buyers ask about</h2>
+      <p>{md(x['std_intro'])}</p>
+      <ul class="hx-list">
+{flist(x['standards'])}      </ul>
+      <p>{md(x['std_note'])}</p>
+    </section>
+'''
+    bq = ''.join('        <article class="brief-card"><h3>%s</h3><p>%s</p></article>\n' % (E(q), md(a)) for q, a in x['buyer_q'])
+    main += f'''    <section class="brief" aria-labelledby="buyerq-title">
+      <h2 id="buyerq-title">Questions overseas buyers ask {short} suppliers</h2>
+      <p>What buyers ask first, and what your website can show so the answer is already there.</p>
+      <div class="brief-grid">
+{bq}      </div>
+    </section>
+'''
+    pb = ''.join('        <li>%s</li>\n' % md(s) for s in x['playbook'])
+    main += f'''    <section class="brief hx-prose" aria-labelledby="play-title">
+      <h2 id="play-title">A website, SEO and RFQ playbook for {short} manufacturers</h2>
+      <p>{md(x['play_intro'])}</p>
+      <ol class="hx-list">
+{pb}      </ol>
+    </section>
+'''
+    main += cta_band('Want this playbook applied to your products?', 'Book a free consultation and we will look at your current site, product range and target markets, and tell you which steps to take first. Prefer to write first? Use the contact form.', 'midcta-title')
+    cl = ''.join('        <li><a href="/locations/china/%s/">%s</a>: %s%s</li>\n' % (c, E(cities[c]['city']), md(t), sup(ids)) for c, t, ids in x['where'] if c in cities)
+    pv = [(provs[p]['name'], '/locations/china/%s/' % p) for p in x['provinces'] if p in provs]
+    main += f'''    <section class="brief hx-prose" aria-labelledby="where-title">
+      <h2 id="where-title">Where in China {short} is made</h2>
+      <p>{md(x['where_intro'])}</p>
+      <ul class="hx-list">
+{cl}      </ul>
+      <p>Province guides: {', '.join('<a href="%s">%s</a>' % (u, E(n)) for n, u in pv)}. These pages describe the places, not Hurfi offices; Hurfi works remotely from Xi’an and Bogura.</p>
+    </section>
+'''
+    main += services_block('How Hurfi helps %s manufacturers' % x['short'], x['svc'], lead='Four services, each set up for how buyers in this sector search and compare.')
+    if x.get('post'):
+        P = posts(); k = x['post'][0]
+        main += f'''    <section class="brief hx-posts" aria-labelledby="posts-title">
+      <h2 id="posts-title">From Hurfi’s own social media</h2>
+      <div class="hx-post-single">
+        <figure class="hx-post"><img src="/assets/img/hurfi-post/web/{k}.webp" alt="{E(P[k]['alt'])}" width="{P[k]['w']}" height="{P[k]['h']}" loading="lazy" decoding="async"></figure>
+        <div>
+          <p>{md(x['post'][1])} It is Hurfi’s own brand work, not a client result.</p>
+          <p class="hx-post-note">Want posts like this for your factory? See <a href="/services/social-media-management/">social media management</a>.</p>
+        </div>
+      </div>
+    </section>
+'''
+    nl = ''.join('          <li id="%s">%s</li>\n' % (i, E(n)) for i, n in x['niches'])
+    main += f'''    <section class="brief" aria-labelledby="niche-title">
+      <h2 id="niche-title">Niches in this sector</h2>
+      <p>Specialist product areas this page covers:</p>
+      <ul class="ind-niches">
+{nl}      </ul>
+    </section>
+'''
+    main += process_block()
+    main += faq_block(x['faq'], title='Questions from %s manufacturers' % x['short'])
+    sn = sector_names()
+    sect = [(sn[s], '/industries/%s/' % s) for s in x['related'] if s in sn]
+    cg = [(cities[c]['city'], '/locations/china/%s/' % c) for c in dict.fromkeys([c for c, _, _ in x['where']] + CSM.get(sl, [])) if c in cities]
+    gd = [(ins[k]['h1'], '/insights/%s/' % k) for k in dict.fromkeys(x['insights'] + ISM.get(sl, [])) if k in ins]
+    main += f'''    <section class="brief hx-related-block" aria-labelledby="related-title">
+      <h2 id="related-title">Related industries, places and guides</h2>
+      <div class="hx-related-cols">
+        <div><h3>Industries</h3>{link_list(sect + [('All industries', '/industries/')])}</div>
+        <div><h3>City and province guides</h3>{link_list(cg + pv + [('China directory', '/locations/china/')])}</div>
+        <div><h3>Guides</h3>{link_list(gd + [('All insights', '/insights/')])}</div>
+      </div>
+    </section>
+'''
+    main += sources_block(x['sources'], 'Figures and rules are quoted from the sources below and were checked on the date shown. Industry figures describe the sector, not any Hurfi client; check the current text of any regulation or standard before relying on it.', refs)
+    main += cta_band('Talk to us about your %s products' % x['short'], 'A first consultation is free and there is no obligation. Tell us what you make, who buys it and where you want to sell.', 'endcta-title')
+    ld = [org_ld(), crumbs_ld(bc),
+          {"@context": "https://schema.org", "@type": "WebPage", "name": x['h1'], "url": SITE + path, "description": x['description'], "inLanguage": "en",
+           "isPartOf": {"@type": "WebSite", "name": "Hurfi", "url": SITE + "/"}, "about": {"@type": "Thing", "name": x['name']},
+           "primaryImageOfPage": {"@type": "ImageObject", "url": SITE + img, "width": 1200, "height": 675},
+           "provider": {"@id": SITE + "/#organization"}, "dateModified": TODAY},
+          faq_ld(x['faq'])]
+    wr(path.strip('/') + '/index.html', page(dict(title=x['title'], description=x['description'], path=path, data_page='industry', ld=ld), main))
+    import images
+    images.city(os.path.join(ROOT, img.lstrip('/')), x['name'], x['name'], x['tiles'], x['srcline'], kicker='Industry guide · official and industry figures')
+
+def build_sectors2(cities, ins):
+    S2 = sectors2()
+    provs = provinces()
+    CSM.update(city_sector_map(cities)); INS.update(ins or {}); ISM.update(insight_sector_map(ins or {}))
+    for x in S2.values():
+        build_sector2(x, cities, provs, ins)
+
+INS_POST_TAGS = {
+ 'google-ads-for-exporters': ('ads', 'seo'), 'linkedin-for-factory-export-sales': ('smm', 'brand'), 'trade-show-follow-up-for-manufacturers': ('mfg', 'brand'),
+ 'choosing-an-export-marketing-agency': ('svc', 'brand'), 'ai-search-for-manufacturers': ('seo', 'ins'), 'export-website-speed-for-overseas-buyers': ('web',),
+ 'industrial-product-page-seo': ('seo', 'web'), 'international-seo-checklist-for-exporters': ('seo', 'ins'),
+}
+
+def build_smm_posts():
+    rel = 'services/social-media-management/index.html'
+    s = rd(rel)
+    reset_ids()
+    P = posts()
+    car = sorted(k for k in P if P[k]['tag'] == 'carousel')
+    single = ['normal-people-vs-digital-marketer', 'attract-the-right-global-buyers', 'global-buyers-dont-just-search-they-verify', 'brand-not-built-by-one-thread', 'make-your-brand-stand-tall-globally', 'your-factory-builds-what-the-world-needs']
+    body = posts_strip(single, title='Examples of Hurfi’s own posts', lead='These are posts from Hurfi’s own social media, shown as examples of the visual style and messages we write for manufacturers. They are our brand work, not client results.', ident='posts-title')
+    body += posts_strip(car, title='A five-slide carousel from Hurfi’s feed', lead='Carousels let a factory explain who it is, what it does and how it works in one swipeable post. This is one of ours.', ident='carousel-title').replace('      <p class="hx-post-note">Want posts like these for your factory? See <a href="/services/social-media-management/">social media management</a>.</p>\n', '')
+    s = set_block(s, 'smm-posts', body, before='    <section class="brief" aria-labelledby="other-title">')
+    wr(rel, s)
+
 # reverse maps used by hubs, sectors and services
+_IO = {}
+def ins_out(ins):
+    """Internal targets each insight links to (body links, related lists, sector and city lists)."""
+    if _IO or not ins:
+        return _IO
+    for k, a in ins.items():
+        if k == '_hub':
+            continue
+        t = json.dumps(a, ensure_ascii=False)
+        o = set(re.findall(r'\]\((/(?:insights|industries|locations/china)/[a-z0-9-]+/)\)', t))
+        o |= {'/insights/%s/' % x for x in a.get('related', []) + V1_RELATED.get(k, [])}
+        o |= {'/industries/%s/' % x for x in a.get('sectors', []) + V1_INSIGHT_LINKS.get(k, ([], []))[0]}
+        o |= {'/locations/china/%s/' % x for x in a.get('cities', []) + V1_INSIGHT_LINKS.get(k, ([], []))[1]}
+        o |= {'/locations/china/%s/' % x for x in mentioned_places(a)[0] + mentioned_places(a)[1]}
+        o.discard('/insights/%s/' % k)
+        _IO[k] = o
+    return _IO
+
+def mentioned_places(a):
+    """Province hubs and city guides named in an insight's own text (not its sources), so the
+    aside can link them now that the guides exist. Xi'an is skipped: it is named as Hurfi's office."""
+    body = json.dumps([a.get('lead'), a.get('sections'), a.get('faq')], ensure_ascii=False).replace('\u2019', "'")
+    pv = [k for k, p in provinces().items() if re.search(r'\b%s\b' % re.escape(p['name']), body)]
+    cs = []
+    for k, c in load('cities.json').items():
+        if k == 'xian':
+            continue
+        n = c['city'].replace('\u2019', "'")
+        if k == 'taizhou-zhejiang':
+            if re.search(r'Taizhou \(Zhejiang\)|Taizhou in Zhejiang', body):
+                cs.append(k)
+        elif re.search(r'\b%s\b' % re.escape(n), body):
+            cs.append(k)
+    return pv, cs
+
+def ins_linking(ins, path):
+    """Insights that link to path, so the page can link back."""
+    return [k for k, o in ins_out(ins).items() if path in o]
+
+def prov_of(c):
+    """Province hub slug for a city, if a hub exists."""
+    pv = provinces()
+    for k, p in pv.items():
+        if p['name'].lower() == (c.get('province') or '').lower() and p['name'] != c.get('city'):
+            return k
+    return None
+
+def city_crumbs(c, path):
+    bc = [('Home', '/'), ('Locations', '/locations/'), ('China', '/locations/china/')]
+    k = prov_of(c)
+    if k:
+        bc.append((provinces()[k]['name'], '/locations/china/%s/' % k))
+    return bc + [(c['city'], path)]
+
 def city_sector_map(cities):
     m = {}
     for c in cities.values():
@@ -879,6 +1151,12 @@ def insight_sector_map(ins):
             continue
         for x in a.get('sectors', []):
             m.setdefault(x, []).append(k)
+    for k, o in ins_out(ins).items():
+        for u in sorted(o):
+            if u.startswith('/industries/'):
+                x = u.split('/')[2]
+                if k not in m.get(x, []):
+                    m.setdefault(x, []).append(k)
     return m
 
 def build_sector_links(sectors, cities, ins):
@@ -888,7 +1166,7 @@ def build_sector_links(sectors, cities, ins):
         if x.get('v') != 2:
             for sl in x.get('_sectors_v1', []):
                 pass
-    for sl in sorted(set(sector_names()) - set(sectors)):
+    for sl in sorted(set(sector_names()) - set(sectors) - set(sectors2())):
         rel = 'industries/%s/index.html' % sl
         if not os.path.exists(os.path.join(ROOT, rel)):
             continue
@@ -944,14 +1222,127 @@ V1_RELATED = {
  'manufacturer-website-rfq-checklist': ['factory-website-trust-signals', 'industrial-product-page-seo', 'overseas-buyer-inquiries', 'international-seo-checklist-for-exporters'],
 }
 
+# ---------------------------------------------------------------- locations-all: province hubs
+def provinces():
+    try:
+        return load('provinces.json')
+    except FileNotFoundError:
+        return {}
+
+def build_province(p, provs, cities, ins):
+    reset_ids()
+    S = sources()
+    path = '/locations/china/%s/' % p['slug']
+    name = E(p['name'])
+    bc = [('Home', '/'), ('Locations', '/locations/'), ('China', '/locations/china/'), (p['name'], path)]
+    refs = {sid: n + 1 for n, sid in enumerate(p['sources'])}
+    def flist(items):
+        out = ''
+        for text, ids in items:
+            sup = ''.join('<sup><a href="#src-%s" aria-label="Source %d">[%d]</a></sup>' % (x, refs[x], refs[x]) for x in ids)
+            out += '        <li>%s%s</li>\n' % (md(text), sup)
+        return out
+    toc = [('ctx-title', 'Official figures'), ('guides-title', 'City guides')] + ([('more-title', 'More manufacturing cities')] if p['smaller'] else []) + [
+           ('dir-title', 'Other cities'), ('play-title', 'Priorities'), ('svc-title', 'How Hurfi helps'), ('rk-faq-title', 'FAQ'), ('related-title', 'Related pages'), ('src-title', 'Sources')]
+    main = hero('China · Province guide', p['h1'], p['lead'], note='Hurfi’s offices are in Xi’an (Shaanxi) and Bogura (Bangladesh). We do not have an office or staff in %s; we work with manufacturers there remotely.' % p['name'], cta2=('Contact us', '/contact/')) + crumbs_nav(bc)
+    main += '    <nav class="brief hx-onpage" aria-label="On this page"><p class="hx-toc-title">On this page</p><ul>%s</ul></nav>\n' % ''.join('<li><a href="#%s">%s</a></li>' % (i, E(t)) for i, t in toc)
+    img = '/assets/img/guides/province-%s.webp' % p['slug']
+    tiles = '; '.join('%s %s' % (b, l) for b, l in p['tiles'])
+    main += f'''    <section class="brief hx-prose" aria-labelledby="ctx-title">
+      <h2 id="ctx-title">{name}’s manufacturing economy in official figures</h2>
+      <p>{md(p['intro'])}</p>
+      <ul class="hx-list">
+{flist(p['facts'])}      </ul>
+      <p>{md(p['after'])}</p>
+{figure(img, 'Infographic of four 2025 official figures for %s: %s.' % (p['name'], tiles), 'Infographic by Hurfi, drawn from the official sources listed below (%s). Figures describe the province, not any Hurfi client.' % p['srcline'])}    </section>
+'''
+    gl = ''.join('        <a class="ind-card" href="/locations/china/%s/"><h3>%s</h3><p>%s</p><span class="ind-go" aria-hidden="true">→</span></a>\n' % (sl, E(cities[sl]['city']), md(b)) for sl, b in p['guides'] if sl in cities)
+    main += f'''    <section class="brief" aria-labelledby="guides-title">
+      <h2 id="guides-title">City guides in {name}</h2>
+      <p>Each guide covers the city’s official industry figures, what overseas buyers compare and a website, SEO and RFQ playbook.</p>
+      <div class="ind-grid">
+{gl}      </div>
+    </section>
+'''
+    sm = ''
+    for c in p['smaller']:
+        cid = 'hub-' + c['city'].lower().replace(' ', '-')
+        sm += f'''      <article class="hx-subcity" id="{cid}" aria-labelledby="{cid}-t">
+        <h3 id="{cid}-t">{E(c['city'])}</h3>
+        <ul class="hx-list">
+{flist(c['facts'])}        </ul>
+        <p>{md(c['note'])} Related: <a href="/industries/{c['sector'][0]}/">{E(c['sector'][1])}</a> · <a href="/locations/china/#{c['anchor']}">{E(c['city'])} in the China directory</a>.</p>
+      </article>
+'''
+    if sm:
+        main += f'''    <section class="brief hx-prose" aria-labelledby="more-title">
+      <h2 id="more-title">More {name} manufacturing cities, from their 2025 bulletins</h2>
+      <p>These cities do not have a full guide yet. The figures come from each city’s 2025 statistical bulletin, listed in the sources below.</p>
+{sm}    </section>
+'''
+    others = [x for x in p['others'] if x[0] not in [c['city'] for c in p['smaller']]]
+    ol = ''.join('<li><a href="/locations/china/#%s">%s</a></li>' % (a, E(n)) for n, a in others)
+    main += f'''    <section class="brief hx-prose" aria-labelledby="dir-title">
+      <h2 id="dir-title">Other {name} cities we work with</h2>
+      <p>We work with manufacturers in every {name} city, remotely. We have not yet checked official figures for the cities below, so we do not quote any; each links to its entry in the China directory.</p>
+      <ul class="hx-linklist hx-cols">{ol}</ul>
+    </section>
+'''
+    pb = ''.join('        <li>%s</li>\n' % md(x) for x in p['playbook'])
+    main += f'''    <section class="brief hx-prose" aria-labelledby="play-title">
+      <h2 id="play-title">Website and search priorities for {name} exporters</h2>
+      <ol class="hx-list">
+{pb}      </ol>
+    </section>
+'''
+    main += cta_band('Want this mapped to your factory?', 'Book a free consultation and we will look at your current site, products and markets, and suggest which of these steps to take first.', 'midcta-title')
+    main += services_block('How Hurfi helps %s manufacturers' % p['name'], p['svc'])
+    main += process_block()
+    main += faq_block(p['faq'], title='Questions from %s manufacturers' % p['name'])
+    sn = sector_names()
+    sect = [(sn[x], '/industries/%s/' % x) for x in p['sectors']]
+    gd = [(ins[x]['h1'], '/insights/%s/' % x) for x in dict.fromkeys(p['insights'] + ins_linking(ins, '/locations/china/%s/' % p['slug'])) if x in ins]
+    op = [(q['name'], '/locations/china/%s/' % k) for k, q in provs.items() if k != p['slug']]
+    main += f'''    <section class="brief hx-related-block" aria-labelledby="related-title">
+      <h2 id="related-title">Related industries, provinces and guides</h2>
+      <div class="hx-related-cols">
+        <div><h3>Industries</h3>{link_list(sect)}</div>
+        <div><h3>Other province guides</h3>{link_list(op + [('All city guides', '/locations/#city-guides')])}</div>
+        <div><h3>Guides</h3>{link_list(gd + [('All insights', '/insights/')])}</div>
+      </div>
+      <p><a class="desk-link" href="/locations/china/#{p['anchor']}">{name} in the China directory</a></p>
+    </section>
+'''
+    main += sources_block(p['sources'], 'Figures are quoted from the official sources below and were checked on the date shown. They describe the province or city, not any Hurfi client.', refs)
+    main += cta_band('Talk to us about %s' % p['name'], 'A first consultation is free and there is no obligation. Tell us what you make and where you want to sell.', 'endcta-title')
+    items = [{"@type": "ListItem", "position": n + 1, "name": cities[sl]['city'], "url": SITE + '/locations/china/%s/' % sl} for n, (sl, _) in enumerate(x for x in p['guides'] if x[0] in cities)]
+    ld = [org_ld(), crumbs_ld(bc),
+          {"@context": "https://schema.org", "@type": "CollectionPage", "name": p['h1'], "url": SITE + path, "description": p['description'], "inLanguage": "en",
+           "isPartOf": {"@type": "WebSite", "name": "Hurfi", "url": SITE + "/"}, "about": {"@type": "AdministrativeArea", "name": p['name'] + ", China"},
+           "primaryImageOfPage": {"@type": "ImageObject", "url": SITE + img, "width": 1200, "height": 675},
+           "mainEntity": {"@type": "ItemList", "name": "City guides in " + p['name'], "itemListElement": items},
+           "provider": {"@id": SITE + "/#organization"}, "dateModified": TODAY},
+          faq_ld(p['faq'])]
+    wr(path.strip('/') + '/index.html', page(dict(title=p['title'], description=p['description'], path=path, data_page='location', ld=ld), main))
+    import images
+    images.city(os.path.join(ROOT, img.lstrip('/')), p['name'], 'China', p['tiles'], p['srcline'], kicker='Province guide · 2025 official figures')
+
+def build_provinces(cities, ins):
+    provs = provinces()
+    for p in provs.values():
+        build_province(p, provs, cities, ins)
+
 def main():
     sectors, cities, ins, zh, pg = load('sectors.json'), load('cities.json'), load('insights.json'), load('zh.json'), load('pages.json')
     build_cities(cities, ins)
+    build_provinces(cities, ins)
     build_sectors(sectors, cities, ins)
     build_oem(pg)
     build_sector_links(sectors, cities, ins)
+    build_sectors2(cities, ins)
     build_services(pg)
     build_service_links(ins, cities)
+    build_smm_posts()
     build_home(pg)
     build_locations(pg, cities)
     build_china(cities)

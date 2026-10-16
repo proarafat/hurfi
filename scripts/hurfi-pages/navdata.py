@@ -1,5 +1,5 @@
 """Single source for the main navigation (static header HTML and site-data.js)."""
-VER = '20261020a'
+VER = '20261017a'
 
 SERVICES = [('Website Development', '/services/website-development/'), ('SEO', '/services/seo/'),
             ('Digital Marketing', '/services/digital-marketing/'), ('Social Media Management', '/services/social-media-management/', 'Hot')]
@@ -13,7 +13,12 @@ INDUSTRIES = [(n, '/industries/%s/' % s) for n, s in INDUSTRIES] + [('All indust
 CITY_NAV = [('Changzhou', 'changzhou'), ('Dongguan', 'dongguan'), ('Guangzhou', 'guangzhou'), ('Hangzhou', 'hangzhou'), ('Hefei', 'hefei'),
             ('Ningbo', 'ningbo'), ('Quanzhou', 'quanzhou'), ('Shanghai', 'shanghai'), ('Shenzhen', 'shenzhen'), ('Suzhou', 'suzhou'),
             ('Tianjin', 'tianjin'), ('Wuhan', 'wuhan'), ('Wuxi', 'wuxi'), ('Xiamen', 'xiamen'), ('Xi\'an', 'xian'), ('Zhongshan', 'zhongshan')]
-LOCATIONS = [('China directory', '/locations/china/')] + [(n, '/locations/china/%s/' % s) for n, s in CITY_NAV] + [('All city guides', '/locations/#city-guides')]
+PROV_NAV = [('Guangdong', 'guangdong'), ('Zhejiang', 'zhejiang'), ('Jiangsu', 'jiangsu'), ('Shandong', 'shandong'), ('Fujian', 'fujian'), ('Anhui', 'anhui'),
+            ('Hubei', 'hubei'), ('Hunan', 'hunan'), ('Henan', 'henan'), ('Sichuan', 'sichuan'), ('Liaoning', 'liaoning')]
+MAJOR_NAV = [('Shenzhen', 'shenzhen'), ('Guangzhou', 'guangzhou'), ('Shanghai', 'shanghai'), ('Suzhou', 'suzhou'), ('Hangzhou', 'hangzhou'),
+             ('Chengdu', 'chengdu'), ("Xi'an", 'xian')]
+LOCATIONS = ([('China directory', '/locations/china/')] + [('%s province' % n, '/locations/china/%s/' % s) for n, s in PROV_NAV]
+             + [(n, '/locations/china/%s/' % s) for n, s in MAJOR_NAV] + [('All city guides', '/locations/#city-guides')])
 INSIGHTS = [('All insights', '/insights/'),
             ('Overseas buyer inquiries', '/insights/overseas-buyer-inquiries/'),
             ('Factory website trust signals', '/insights/factory-website-trust-signals/'),
@@ -25,6 +30,12 @@ INSIGHTS = [('All insights', '/insights/'),
             ('LinkedIn for export sales', '/insights/linkedin-for-factory-export-sales/'),
             ('Trade show follow-up', '/insights/trade-show-follow-up-for-manufacturers/'),
             ('Export website speed', '/insights/export-website-speed-for-overseas-buyers/'),
+            ('2025 export markets', '/insights/china-export-markets-2025/'),
+            ('ASEAN, Middle East & Africa pages', '/insights/market-pages-for-asean-middle-east-africa/'),
+            ('Certifications page', '/insights/certifications-page-for-export-websites/'),
+            ('Shipping & logistics page', '/insights/shipping-logistics-page-for-exporters/'),
+            ('Standing out in a cluster', '/insights/standing-out-in-an-industrial-cluster/'),
+            ('PDF catalogue to product pages', '/insights/pdf-catalogue-to-product-pages/'),
             ('Choosing an export agency', '/insights/choosing-an-export-marketing-agency/')]
 
 NAV = [('Home', '/'), ('About', '/about/'), ('Services', '/services/', SERVICES), ('Projects', '/projects/'),
@@ -49,7 +60,7 @@ def nav_ul():
             cls = 'dropdown dropdown-cols' if item[0] == 'Locations' else 'dropdown'
             out += '<li class="has-dropdown"><a href="%s" aria-haspopup="true" aria-expanded="false">%s<span class="nav-caret" aria-hidden="true"></span></a><ul class="%s" role="list">%s</ul></li>' % (
                 item[1], item[0], cls, ''.join(_child(c) for c in item[2]))
-    out += '<li><a class="btn" href="/book-consultation/">Free Growth Strategy<span class="cta-free-tag">Limited</span></a></li></ul>'
+    out += '<li><a class="btn" href="/book-consultation/#book-form">Free Growth Strategy<span class="cta-free-tag">Limited</span></a></li></ul>'
     return out
 
 def nav_json():

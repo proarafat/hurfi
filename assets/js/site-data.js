@@ -11,25 +11,8 @@ window.HURFI_SITE = {
   "targetMarket": "Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chinese B2B companies",
   "primaryCTA": {
     "label": "Book Your Free Growth Strategy",
-    "url": "/book-consultation/",
-    "free": true,
-    "freeLabel": "Limited-time free",
-    "offerBar": "Limited-time free consultation — priority slots open now",
-    "offerHours": 48,
-    "timeline": [
-      {
-        "label": "Book",
-        "hint": "Free"
-      },
-      {
-        "label": "Meet",
-        "hint": "30 min"
-      },
-      {
-        "label": "Plan",
-        "hint": "Next steps"
-      }
-    ]
+    "url": "/book-consultation/#book-form",
+    "free": true
   },
   "nav": [
     {
@@ -725,7 +708,7 @@ window.HURFI_SITE = {
     {
       "path": "/book-consultation/",
       "title": "Book a Consultation | Hurfi",
-      "description": "Book a limited-time free consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.",
+      "description": "Book a free consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.",
       "type": "conversion",
       "geo": null,
       "noindex": false
@@ -742,7 +725,7 @@ window.HURFI_SITE = {
   "faqs": [
     {
       "question": "Is the consultation free?",
-      "answer": "Yes — for a limited time. Hurfi is offering free growth strategy consultations (looping priority windows). Book while the offer is open; you get a clear review of your digital presence and next steps."
+      "answer": "Yes. Hurfi offers free growth strategy consultations; you get a clear review of your digital presence and next steps."
     },
     {
       "question": "What digital marketing services does Hurfi provide for Chinese manufacturers?",

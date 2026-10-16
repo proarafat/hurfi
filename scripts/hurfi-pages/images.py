@@ -43,8 +43,8 @@ def footer(d, src):
     d.text((60, H - 50), lines[0], font=f, fill=MUTED)
     d.text((W - 60, H - 50), 'hurfi.com', font=font(17, 'SemiBold'), fill=SOFT, anchor='ra')
 
-def city(path, cityname, province, tiles, src):
-    im, d = base('City guide · 2025 official figures', '%s, %s' % (cityname, province) if province != cityname else cityname)
+def city(path, cityname, province, tiles, src, kicker='City guide · 2025 official figures'):
+    im, d = base(kicker, '%s, %s' % (cityname, province) if province != cityname else cityname)
     x0, y0, gw, gh, gap = 60, 170, (W - 120 - 24) // 2, 196, 24
     for i, (big, label) in enumerate(tiles[:4]):
         x = x0 + (i % 2) * (gw + gap); y = y0 + (i // 2) * (gh + gap)

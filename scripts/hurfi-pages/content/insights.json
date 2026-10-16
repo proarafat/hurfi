@@ -89,7 +89,7 @@
    ],
    [
     "Can Hurfi help with this?",
-    "Yes — with [websites](/services/website-development/), [SEO](/services/seo/), [digital marketing](/services/digital-marketing/) and [LinkedIn](/services/social-media-management/). A [consultation](/book-consultation/) is the place to start."
+    "Yes — with [websites](/services/website-development/), [SEO](/services/seo/), [digital marketing](/services/digital-marketing/) and [LinkedIn](/services/social-media-management/). A [consultation](/book-consultation/#book-form) is the place to start."
    ]
   ]
  },
@@ -180,7 +180,7 @@
    ],
    [
     "Can Hurfi review our website for these issues?",
-    "Yes. A [website review](/book-consultation/) covers these points. See also [website development](/services/website-development/)."
+    "Yes. A [website review](/book-consultation/#book-form) covers these points. See also [website development](/services/website-development/)."
    ]
   ]
  },
@@ -280,7 +280,7 @@
    ],
    [
     "Can Hurfi build this for us?",
-    "Yes — see [website development](/services/website-development/) or [book a consultation](/book-consultation/)."
+    "Yes — see [website development](/services/website-development/) or [book a consultation](/book-consultation/#book-form)."
    ]
   ]
  },
@@ -1757,6 +1757,1165 @@
    [
     "Chrome Lighthouse helps identify page-experience improvements.",
     "g-pe"
+   ]
+  ],
+  "v": 2
+ },
+ "china-export-markets-2025": {
+  "slug": "china-export-markets-2025",
+  "published": "2026-10-16",
+  "title": "Where Chinese Exports Grew and Fell in 2025 | Hurfi",
+  "h1": "Where Chinese manufacturing exports grew and fell in 2025 — and what it means for your website",
+  "description": "What 2025 provincial and city statistical bulletins show about export growth and decline by market, and how exporters can plan market pages from it.",
+  "lead": "Official 2025 statistical bulletins tell a clear story: exports to the United States fell in many places, while sales to the EU, ASEAN and Africa grew in several provinces and cities. This guide pulls together the figures we checked for our location guides and explains what they mean for an export website.",
+  "steps": [
+   "Read the official figures",
+   "See which markets grew",
+   "Check your own data",
+   "Pick two or three markets",
+   "Prepare rules and terms",
+   "Build market pages"
+  ],
+  "sections": [
+   {
+    "h2": "What the bulletins measure",
+    "p": [
+     "Each Chinese province and city publishes an annual statistical bulletin (统计公报) with goods trade, exports and, often, exports by market. We use them because they are official and comparable. They describe whole regions, not your company: use them for context, then check your own orders and inquiries."
+    ]
+   },
+   {
+    "h2": "Inland provinces grew fastest",
+    "p": [
+     "Several inland provinces reported strong export growth in 2025:"
+    ],
+    "ul": [
+     "Hubei: exports up 19.6% to 581.86 billion yuan, with trade with the EU up 40.2%.",
+     "Henan: exports up 18.0% to 616.818 billion yuan.",
+     "Anhui: exports up 17.8% to 682.31 billion yuan; trade with ASEAN up 38.3% and with the EU 21.6%."
+    ],
+    "p2": [
+     "Much of this was driven by vehicles, batteries and electronics. Anhui’s bulletin, for example, reports vehicle exports of 1.228 million units and exports of electric vehicles, lithium-ion batteries and solar products up 107.8%."
+    ]
+   },
+   {
+    "h2": "Some coastal economies fell",
+    "p": [
+     "Other bulletins show declines:"
+    ],
+    "ul": [
+     "Fujian: exports down 6.7% to 1,155.362 billion yuan, with exports to the United States down 22.1% and to ASEAN 18.0% — but exports to the EU up 9.7%.",
+     "Fuzhou: exports down 32.0% to 174.73 billion yuan, falling in the US, EU and ASEAN.",
+     "Hunan: exports down 4.1%; exports to the United States down 29.2%, while exports to ASEAN rose 5.5%.",
+     "Sichuan: exports down 1.5% to 608.65 billion yuan."
+    ]
+   },
+   {
+    "h2": "The United States fell, other markets grew",
+    "p": [
+     "City bulletins that list markets show the same pattern again and again:"
+    ],
+    "ul": [
+     "Nantong: exports to the EU up 20.7%, ASEAN 20.9% and Africa 15.8%; to the United States down 19.3%.",
+     "Taizhou (Zhejiang): exports to the EU up 6.3%; to the United States down 14.4%.",
+     "Ningde: exports to the EU up 66.4%; to the United States down 13.5%."
+    ],
+    "p2": [
+     "For many exporters, the question in 2026 is not whether to look beyond the United States, but which markets to prepare for first."
+    ]
+   },
+   {
+    "h2": "Check your own data first",
+    "p": [
+     "Regional figures do not tell you where your products sell. Before you plan anything, look at your own last two years:"
+    ],
+    "ul": [
+     "Orders and revenue by country.",
+     "Website inquiries and RFQs by country.",
+     "Searches and clicks by country in Search Console.",
+     "Which countries ask for samples but do not order — and why."
+    ]
+   },
+   {
+    "h2": "Pick two or three markets you can really serve",
+    "p": [
+     "A market is worth a page only if you can meet its rules and serve its buyers. For each candidate, ask:"
+    ],
+    "ul": [
+     "Do we hold the certifications this market requires?",
+     "Can we quote the delivery terms buyers there expect?",
+     "Can we answer inquiries in time, in a language they use?",
+     "Do we have at least a few customers or references there?"
+    ]
+   },
+   {
+    "h2": "Prepare the rules before the page",
+    "p": [
+     "For the EU, for example, the European Commission explains that manufacturers must carry out the conformity assessment, prepare the technical file, issue the EU declaration of conformity and affix the CE marking where it applies ([CE marking](https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en)). A market page that promises compliance you do not have does more harm than no page at all."
+    ]
+   },
+   {
+    "h2": "Build market pages that help buyers",
+    "p": [
+     "Good market pages are specific: the products you sell there, the standards and certificates that apply, the delivery terms you offer, references in the region and who will answer. Google’s guidance on [managing multi-regional and multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) explains the URL and language options if you add translated versions."
+    ]
+   },
+   {
+    "h2": "Measure, then adjust",
+    "p": [
+     "Track inquiries by market from the first week. After three to six months you will know which markets respond and which need different products, prices or terms. Statistics point the way; your own data decides."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "Where do these figures come from?",
+    "From the 2025 statistical bulletins of each province or city, published by their statistics bureaus. Every figure is listed in the sources below."
+   ],
+   [
+    "Do these figures predict my sales?",
+    "No. They describe whole regions. Use them for context and check your own orders and inquiries."
+   ],
+   [
+    "Should we stop selling to the United States?",
+    "That is a business decision we cannot make for you. Many exporters are adding markets rather than leaving one."
+   ],
+   [
+    "Which markets should we target next?",
+    "The ones where you hold the right certifications, can quote the right terms and already have some customers or interest."
+   ],
+   [
+    "How many market pages should we build?",
+    "Start with two or three strong ones. Thin pages for every country rarely help buyers or search."
+   ],
+   [
+    "Do we need translated sites?",
+    "Only where buyers prefer another language and you can answer them in it."
+   ],
+   [
+    "Can Hurfi guarantee results in new markets?",
+    "No. Nobody can. We plan carefully and report honestly from your own data."
+   ]
+  ],
+  "sources": [
+   "p-hb",
+   "p-ha",
+   "p-ah",
+   "p-fj",
+   "c-fz",
+   "p-hn",
+   "p-sc",
+   "c-nt",
+   "c-tz",
+   "c-nd",
+   "ce",
+   "g-mr"
+  ],
+  "sectors": [
+   "automotive-mobility-components",
+   "battery-energy-storage",
+   "electronics-semiconductor"
+  ],
+  "cities": [
+   "fuzhou",
+   "nantong",
+   "taizhou-zhejiang",
+   "wuhu",
+   "shaoxing",
+   "hefei"
+  ],
+  "related": [
+   "market-pages-for-asean-middle-east-africa",
+   "certifications-page-for-export-websites",
+   "international-seo-checklist-for-exporters"
+  ],
+  "svc": [
+   "Market pages built around the products, rules and terms that apply in each market.",
+   "Search Console reports by country, so you see which markets respond.",
+   "Campaigns tested in a few chosen markets before larger budgets.",
+   "Social content planned for the platforms used in your target markets."
+  ],
+  "extra_claims": [
+   [
+    "Hubei exports rose 19.6% to 581.86 billion yuan; trade with the EU rose 40.2%.",
+    "p-hb"
+   ],
+   [
+    "Henan exports rose 18.0% to 616.818 billion yuan.",
+    "p-ha"
+   ],
+   [
+    "Anhui exports rose 17.8% to 682.31 billion yuan; trade with ASEAN +38.3%, EU +21.6%; vehicle exports 1.228 million; new-three exports +107.8%.",
+    "p-ah"
+   ],
+   [
+    "Fujian exports fell 6.7% to 1,155.362 billion yuan; US −22.1%, ASEAN −18.0%, EU +9.7%.",
+    "p-fj"
+   ],
+   [
+    "Fuzhou exports fell 32.0% to 174.73 billion yuan.",
+    "c-fz"
+   ],
+   [
+    "Hunan exports fell 4.1%; US −29.2%; ASEAN +5.5%.",
+    "p-hn"
+   ],
+   [
+    "Sichuan exports fell 1.5% to 608.65 billion yuan.",
+    "p-sc"
+   ],
+   [
+    "Nantong exports: EU +20.7%, ASEAN +20.9%, Africa +15.8%, US −19.3%.",
+    "c-nt"
+   ],
+   [
+    "Taizhou exports: EU +6.3%, US −14.4%.",
+    "c-tz"
+   ],
+   [
+    "Ningde exports: EU +66.4%, US −13.5%.",
+    "c-nd"
+   ],
+   [
+    "Manufacturers carry out the conformity assessment, prepare the technical file, issue the EU declaration of conformity and affix the CE marking.",
+    "ce"
+   ],
+   [
+    "Google documents options for multi-regional and multilingual sites.",
+    "g-mr"
+   ]
+  ],
+  "v": 2
+ },
+ "market-pages-for-asean-middle-east-africa": {
+  "slug": "market-pages-for-asean-middle-east-africa",
+  "published": "2026-10-16",
+  "title": "Market Pages for ASEAN, Middle East & Africa Buyers | Hurfi",
+  "h1": "Market pages for buyers in ASEAN, the Middle East and Africa",
+  "description": "How Chinese manufacturers can build useful market pages for ASEAN, Middle East and African buyers: content, languages, hreflang and what to avoid.",
+  "lead": "Many Chinese manufacturers now sell more to ASEAN, the Middle East and Africa than before. Buyers in these regions search and compare suppliers online too, but they have their own questions. This guide explains how to build market pages that answer them — and how to avoid pages that only exist for search engines.",
+  "steps": [
+   "Choose the market",
+   "List buyer questions",
+   "Write real content",
+   "Choose language and URL",
+   "Add hreflang",
+   "Measure inquiries"
+  ],
+  "sections": [
+   {
+    "h2": "Why these regions matter now",
+    "p": [
+     "Several 2025 bulletins show growth in these markets. Nantong’s exports to ASEAN rose 20.9% and to Africa 15.8%. Hunan’s exports to ASEAN rose 5.5% while its exports to the United States fell 29.2%. Weifang made 62% of its trade with Belt and Road countries, and Hubei 54.9%."
+    ]
+   },
+   {
+    "h2": "What buyers in these markets ask",
+    "p": [
+     "Questions vary by country and product, but some come up again and again:"
+    ],
+    "ul": [
+     "Can you deliver to my port or city, and on what terms?",
+     "Do you have distributors, service partners or spare parts nearby?",
+     "Which certifications or registrations does my country require, and do you hold them?",
+     "Can you supply in smaller quantities to start?",
+     "Can I talk to someone in my language or time zone?"
+    ]
+   },
+   {
+    "h2": "What a good market page contains",
+    "ul": [
+     "The products you actually sell in that market, with links to their pages.",
+     "Standards, certificates and registrations that apply there — only those you hold.",
+     "Delivery terms, ports and typical transit times.",
+     "Service, spare parts and support arrangements.",
+     "References or projects in the region you are allowed to show.",
+     "Who answers inquiries, in which languages and hours."
+    ]
+   },
+   {
+    "h2": "What to avoid: doorway pages",
+    "p": [
+     "Google’s [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) describe doorway abuse: pages created to rank for similar searches that lead users to less useful intermediate pages, including pages targeted at specific regions or cities that funnel users to one page. A page for every country with the same text and a new name is exactly that. One strong page for a market you serve is worth more than fifty thin ones."
+    ]
+   },
+   {
+    "h2": "Languages: English first, then where it helps",
+    "p": [
+     "English works for many B2B buyers in these regions, but Arabic, French, Spanish, Portuguese, Vietnamese, Thai or Indonesian pages can help where buyers prefer them. Translate only what you can support: if a buyer writes in Arabic, someone must be able to answer."
+    ]
+   },
+   {
+    "h2": "URLs and hreflang",
+    "p": [
+     "Google’s guidance on [multi-regional and multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) compares country domains, subdomains and subdirectories. For most manufacturers, subdirectories such as /ar/ or /fr/ on one domain are simplest to manage.",
+     "When you have language or regional versions, Google recommends using hreflang to [tell it about localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions) of a page, with an x-default for unmatched languages."
+    ]
+   },
+   {
+    "h2": "Proof that travels",
+    "p": [
+     "Buyers far away need more proof, not less. Show real factory photos, testing, packing and loading; dated references in the region; and certificates with scope and validity. Avoid stock photos and claims you cannot support."
+    ]
+   },
+   {
+    "h2": "Connect the market page to the rest of the site",
+    "ul": [
+     "Link from the market page to each relevant product page, and back.",
+     "Link to your certifications and shipping pages.",
+     "Put a short, clear RFQ form on the page, with the questions buyers in that market usually answer.",
+     "Add the page to your XML sitemap."
+    ]
+   },
+   {
+    "h2": "An outline for one market page",
+    "ul": [
+     "Heading: your product type and the market, written for buyers, not keywords.",
+     "Two or three sentences on what you supply there and to whom.",
+     "Products sold in the market, linked.",
+     "Rules and certificates that apply, linked to your certifications page.",
+     "Delivery terms and ports, linked to your shipping page.",
+     "References and photos from the region.",
+     "Contact and RFQ form."
+    ]
+   },
+   {
+    "h2": "Measure by market",
+    "p": [
+     "Track inquiries, sample requests and orders by country. Search Console shows queries and clicks by country. After a few months, keep improving the markets that respond and rethink the ones that do not."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "Should we build a page for every country?",
+    "No. Build strong pages for the markets you really serve. Thin, repeated country pages can count as doorway abuse under Google’s spam policies."
+   ],
+   [
+    "Is English enough for the Middle East and Africa?",
+    "Often for B2B, but Arabic or French pages can help in some markets — if you can answer inquiries in those languages."
+   ],
+   [
+    "What is hreflang?",
+    "An annotation that tells Google which pages are language or regional versions of each other, so it can show the right one."
+   ],
+   [
+    "Do we need local certifications?",
+    "Many markets have their own rules. Check with the authority in each market and list only certificates you hold."
+   ],
+   [
+    "Should we show prices for these markets?",
+    "Usually not exact prices, but MOQs, terms and lead times help buyers decide."
+   ],
+   [
+    "Can Hurfi translate our pages?",
+    "We plan and build language versions with proper translation and correct tags, and we review them with you."
+   ],
+   [
+    "Can you guarantee rankings in these markets?",
+    "No. Nobody can. We report honestly from your own Search Console."
+   ]
+  ],
+  "sources": [
+   "c-nt",
+   "p-hn",
+   "c-wf",
+   "p-hb",
+   "g-spam",
+   "g-mr",
+   "g-hl"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "power-grid-electrical-equipment",
+   "construction-materials-systems"
+  ],
+  "cities": [
+   "nantong",
+   "weifang",
+   "fuzhou",
+   "changsha",
+   "qingdao"
+  ],
+  "related": [
+   "china-export-markets-2025",
+   "international-seo-checklist-for-exporters",
+   "shipping-logistics-page-for-exporters"
+  ],
+  "svc": [
+   "Market pages with products, certifications, terms and references for each region.",
+   "Language versions with hreflang and country reporting in Search Console.",
+   "Campaigns tested in chosen countries, tracked to RFQs.",
+   "Social content for platforms used in each target market."
+  ],
+  "extra_claims": [
+   [
+    "Nantong exports to ASEAN +20.9% and Africa +15.8%.",
+    "c-nt"
+   ],
+   [
+    "Hunan exports to ASEAN +5.5%; to the US −29.2%.",
+    "p-hn"
+   ],
+   [
+    "Weifang: 62% of trade with Belt and Road countries.",
+    "c-wf"
+   ],
+   [
+    "Hubei: 54.9% of trade with Belt and Road countries.",
+    "p-hb"
+   ],
+   [
+    "Google’s spam policies describe doorway abuse, including pages targeted at specific regions or cities that funnel users to one page.",
+    "g-spam"
+   ],
+   [
+    "Google compares ccTLDs, subdomains and subdirectories for multi-regional sites.",
+    "g-mr"
+   ],
+   [
+    "Google recommends hreflang to tell it about localized versions, with x-default for unmatched languages.",
+    "g-hl"
+   ]
+  ],
+  "v": 2
+ },
+ "certifications-page-for-export-websites": {
+  "slug": "certifications-page-for-export-websites",
+  "published": "2026-10-16",
+  "title": "The Certifications Page Export Buyers Look For | Hurfi",
+  "h1": "The certifications page: how exporters should present certificates to overseas buyers",
+  "description": "How Chinese manufacturers can present certifications by market on their website — scope, models, validity and documents — without overclaiming.",
+  "lead": "For many overseas buyers, certifications are the first filter: no right certificate, no RFQ. Yet many factory websites show a wall of logos with no detail. This guide explains how to build a certifications page that buyers trust, and how to link it to your products.",
+  "steps": [
+   "List what you hold",
+   "Group by market",
+   "Add scope and models",
+   "Show validity",
+   "Offer documents",
+   "Link to products"
+  ],
+  "sections": [
+   {
+    "h2": "Why certifications decide the first call",
+    "p": [
+     "A buyer in Europe, North America or the Middle East usually has to prove that what they import meets local rules. Before contacting you, they want to know whether your products already comply. If your site does not say, the easiest decision is to move on to a supplier whose site does."
+    ]
+   },
+   {
+    "h2": "What the EU expects from manufacturers",
+    "p": [
+     "The European Commission’s [CE marking page](https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en) explains that manufacturers are responsible for carrying out the conformity assessment, setting up the technical file, issuing the EU declaration of conformity and affixing the CE marking. Importers and distributors must make sure the products they place on the market meet the rules.",
+     "This is why European buyers ask for your declaration of conformity and test reports: their own responsibility depends on yours."
+    ]
+   },
+   {
+    "h2": "Group certificates by market",
+    "p": [
+     "A list of logos is hard to use. Group your certificates by the market or buyer they matter to:"
+    ],
+    "ul": [
+     "European Union: CE-related declarations and test reports, and other EU requirements that apply to your products.",
+     "Other markets you sell to: the certificates or registrations each requires, as confirmed by the relevant authority.",
+     "Quality and management systems: ISO or industry-specific certificates.",
+     "China: compulsory certification (CCC) and other domestic approvals where relevant."
+    ]
+   },
+   {
+    "h2": "Give the details buyers check",
+    "ul": [
+     "Certificate name and number.",
+     "Issuing body or test laboratory.",
+     "Scope: which products and models it covers.",
+     "Issue and expiry dates.",
+     "A downloadable copy or the option to request one."
+    ]
+   },
+   {
+    "h2": "Never overclaim",
+    "p": [
+     "Only list certificates you hold, for the products they really cover. Do not imply that a quality-system certificate is a product certificate, or that a test report is a certification. A buyer who finds one overstatement will doubt everything else — and in regulated markets it can create legal problems for both of you."
+    ]
+   },
+   {
+    "h2": "Link certificates to products",
+    "p": [
+     "On every product page, say which certificates cover that product and link to the certifications page. On the certifications page, link back to the products. Buyers then see compliance in context, and search engines see clear relationships between pages.",
+     "Where it fits the page and the information is accurate, [Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) can describe your products to Google."
+    ]
+   },
+   {
+    "h2": "Keep it current",
+    "p": [
+     "Certificates expire, scopes change and new models need testing. Give one person the job of checking the page every quarter. An expired certificate on your website tells a buyer you are not paying attention."
+    ]
+   },
+   {
+    "h2": "Make documents easy to request",
+    "p": [
+     "Some documents you may not want to publish openly. Offer them on request with a short form: the buyer’s company, market and products of interest. That request is itself a strong sales lead."
+    ]
+   },
+   {
+    "h2": "A simple layout that works",
+    "p": [
+     "Most manufacturers can use the same structure: a short introduction, then one block per market, then quality-system certificates, then a “request documents” form. Inside each market block, a table works well:"
+    ],
+    "ul": [
+     "Column 1: certificate or document name.",
+     "Column 2: products and models covered.",
+     "Column 3: issuing body or laboratory.",
+     "Column 4: valid until.",
+     "Column 5: download or request link."
+    ],
+    "p2": [
+     "Keep the table in HTML, not as an image, so buyers can search it and read it on a phone."
+    ]
+   },
+   {
+    "h2": "Common mistakes to avoid",
+    "ul": [
+     "Logos of certification marks the company does not hold.",
+     "Certificates issued to a different company, such as a trading partner, without saying so.",
+     "Expired certificates still shown as current.",
+     "Test reports presented as certifications.",
+     "Scanned certificates so blurred that the number cannot be read."
+    ]
+   },
+   {
+    "h2": "Write it for people, not only for search",
+    "p": [
+     "Google’s guidance on [helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) applies here too. A clear page that answers a buyer’s compliance questions is more useful — and more convincing — than a page of keywords."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "Should we show certificate logos?",
+    "You can, but always with the details: number, issuer, scope and validity. Logos alone do not answer buyers’ questions."
+   ],
+   [
+    "Who is responsible for CE marking?",
+    "The European Commission explains that the manufacturer carries out the conformity assessment, prepares the technical file, issues the declaration of conformity and affixes the CE marking."
+   ],
+   [
+    "Can we publish test reports?",
+    "You can publish them or offer them on request. Make clear which products and models they cover."
+   ],
+   [
+    "We hold ISO 9001. Is that a product certificate?",
+    "No. It certifies a quality-management system. Present it as that, separately from product certifications."
+   ],
+   [
+    "Do we need a page per certificate?",
+    "Usually one certifications page grouped by market is enough, plus the relevant certificates on each product page."
+   ],
+   [
+    "How often should we update it?",
+    "At least every quarter, and whenever a certificate is issued, renewed or expires."
+   ],
+   [
+    "Can Hurfi tell us which certificates we need?",
+    "No. That is for your compliance team, test laboratories or authorities. We help you present what you hold clearly and accurately."
+   ]
+  ],
+  "sources": [
+   "ce",
+   "g-prod",
+   "g-hc",
+   "c-hz"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "medical-devices-diagnostics",
+   "power-grid-electrical-equipment"
+  ],
+  "cities": [
+   "huizhou",
+   "taizhou-zhejiang",
+   "wuhu",
+   "jiaxing",
+   "shenzhen",
+   "zhongshan"
+  ],
+  "related": [
+   "factory-website-trust-signals",
+   "industrial-product-page-seo",
+   "market-pages-for-asean-middle-east-africa"
+  ],
+  "svc": [
+   "A certifications page grouped by market and linked to every product page.",
+   "Clean structure and internal links so product and compliance pages support each other in search.",
+   "Campaign landing pages that show compliance for the market you target.",
+   "Posts that explain new certifications and tests, without overclaiming."
+  ],
+  "extra_claims": [
+   [
+    "Manufacturers carry out the conformity assessment, set up the technical file, issue the EU declaration of conformity and affix the CE marking; importers and distributors help ensure only compliant products are placed on the market.",
+    "ce"
+   ],
+   [
+    "Google documents Product structured data for product pages.",
+    "g-prod"
+   ],
+   [
+    "Google asks site owners to create helpful, reliable, people-first content.",
+    "g-hc"
+   ],
+   [
+    "954 Huizhou firms held China Compulsory Certification (CCC).",
+    "c-hz"
+   ]
+  ],
+  "v": 2
+ },
+ "shipping-logistics-page-for-exporters": {
+  "slug": "shipping-logistics-page-for-exporters",
+  "published": "2026-10-16",
+  "title": "The Shipping & Logistics Page for Exporters | Hurfi",
+  "h1": "The shipping and logistics page: answering buyers’ delivery questions before they ask",
+  "description": "What a Chinese manufacturer’s shipping page should cover — Incoterms, ports, packing, lead times and samples — so overseas buyers can plan and request a quote.",
+  "lead": "“Which port? Which terms? How long?” Almost every overseas buyer asks these questions, often before asking about price. A clear shipping and logistics page answers them once, builds confidence and saves your sales team many emails. This guide explains what to include.",
+  "steps": [
+   "Name your ports",
+   "State your terms",
+   "Explain packing",
+   "Give lead times",
+   "Cover samples",
+   "Link from products"
+  ],
+  "sections": [
+   {
+    "h2": "Why buyers care so much",
+    "p": [
+     "A buyer has to land your product at their door at a known cost and on a known date. If they cannot work that out, they cannot compare you with other suppliers. A shipping page turns an unknown into something they can plan."
+    ]
+   },
+   {
+    "h2": "Use Incoterms correctly",
+    "p": [
+     "The International Chamber of Commerce describes the [Incoterms® rules](https://iccwbo.org/business-solutions/incoterms-rules/) as eleven three-letter trade terms that clarify the tasks, costs and risks involved in delivering goods from sellers to buyers. Say which terms you usually offer and name the version you use, for example Incoterms® 2020.",
+     "Do not list every term if you only quote two or three. Be clear about what you will and will not arrange."
+    ]
+   },
+   {
+    "h2": "Name your ports and routes",
+    "p": [
+     "Tell buyers where goods leave China. Many manufacturers ship through large container ports — Jiaxing’s port, for example, handled 4.255 million TEU in 2025 and Fujian’s ports 18.4364 million TEU. Inland suppliers should explain how goods reach the coast or travel by rail."
+    ],
+    "ul": [
+     "Main port(s) of loading.",
+     "Rail or river routes if you use them.",
+     "Air freight for samples or urgent orders.",
+     "Typical transit times to your main markets, as ranges."
+    ]
+   },
+   {
+    "h2": "Explain packing",
+    "ul": [
+     "Standard export packing for each product family.",
+     "Pallet, crate or carton options and dimensions.",
+     "Container loading: how many units per 20′ or 40′ container, if useful.",
+     "Marking, labelling and documents that travel with the goods."
+    ]
+   },
+   {
+    "h2": "Give realistic lead times",
+    "p": [
+     "Give ranges for standard products, custom products and repeat orders, and say what affects them: materials, tooling, testing or season. Buyers trust realistic ranges more than promises that turn out to be wrong."
+    ]
+   },
+   {
+    "h2": "Samples and small orders",
+    "p": [
+     "Many relationships start with a sample. Explain how buyers can get one, what it costs, how it is shipped and how long it takes. If you accept small trial orders, say so and give the minimum."
+    ]
+   },
+   {
+    "h2": "Documents and special cargo",
+    "p": [
+     "List the export documents you routinely supply, and explain how you handle special cases such as oversized machinery or goods that need dangerous-goods handling. Do not claim capabilities you do not have; say instead which forwarders or partners you work with."
+    ]
+   },
+   {
+    "h2": "Link it from every product page",
+    "p": [
+     "Put a short “Shipping and lead times” line on each product page with a link to the full page. Add the shipping page to your main navigation or footer and to your XML sitemap. A buyer should never have to search for it."
+    ]
+   },
+   {
+    "h2": "A checklist for the page",
+    "ul": [
+     "Ports of loading and any inland routes.",
+     "Incoterms you usually quote, with the version.",
+     "Packing by product family, with photos.",
+     "Lead-time ranges for samples, standard and custom orders.",
+     "Documents you supply with each shipment.",
+     "Who to contact for a freight quote."
+    ],
+    "p2": [
+     "If you can tick every item, most buyers will have the information they need to compare you and ask for a quote."
+    ]
+   },
+   {
+    "h2": "Show it, do not just say it",
+    "p": [
+     "Photos and short videos of packing, loading and containers leaving your factory are some of the most convincing content an exporter can publish. They show care, capacity and that you really ship — things buyers cannot judge from text alone."
+    ]
+   },
+   {
+    "h2": "Keep it honest and current",
+    "p": [
+     "Freight rates and transit times change. Avoid quoting fixed prices; give the information that stays stable — ports, terms, packing and ranges — and invite buyers to request a current quote."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "What are Incoterms?",
+    "The ICC describes them as eleven three-letter trade terms that clarify the tasks, costs and risks in delivering goods from seller to buyer."
+   ],
+   [
+    "Should we publish freight prices?",
+    "Usually not. Rates change. Publish ports, terms, packing and lead-time ranges, and quote freight on request."
+   ],
+   [
+    "We are an inland supplier. What should we say?",
+    "Explain how goods reach the port or travel by rail, and give realistic transit times."
+   ],
+   [
+    "Should the shipping page list every Incoterm?",
+    "No. List the terms you usually offer and name the version."
+   ],
+   [
+    "Do buyers care about packing?",
+    "Yes, especially for machinery, fragile goods and long routes. Photos of real packing help."
+   ],
+   [
+    "Where should the page appear?",
+    "In the navigation or footer, linked from every product page, and in your sitemap."
+   ],
+   [
+    "Can Hurfi write this page for us?",
+    "Yes. We draft it from your team’s information and your logistics staff approve every detail."
+   ]
+  ],
+  "sources": [
+   "icc",
+   "c-jx",
+   "p-fj",
+   "g-sm"
+  ],
+  "sectors": [
+   "logistics-warehouse-technology",
+   "industrial-machinery-cnc",
+   "marine-shipbuilding-supply-chain"
+  ],
+  "cities": [
+   "jiaxing",
+   "nantong",
+   "wuhu",
+   "weifang",
+   "wuhan",
+   "chengdu",
+   "zhengzhou"
+  ],
+  "related": [
+   "manufacturer-website-rfq-checklist",
+   "market-pages-for-asean-middle-east-africa",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "A shipping and logistics page linked from every product page.",
+   "A clear site structure and sitemap so buyers and search engines find it.",
+   "Landing pages that answer delivery questions for each campaign market.",
+   "Posts that show packing, loading and shipments."
+  ],
+  "extra_claims": [
+   [
+    "The ICC describes Incoterms® rules as eleven three-letter trade terms that clarify tasks, costs and risks in delivering goods from sellers to buyers.",
+    "icc"
+   ],
+   [
+    "Jiaxing port handled 4.255 million TEU in 2025.",
+    "c-jx"
+   ],
+   [
+    "Fujian’s ports handled 18.4364 million TEU in 2025.",
+    "p-fj"
+   ],
+   [
+    "Google explains that search engines read a sitemap to crawl a site more efficiently.",
+    "g-sm"
+   ]
+  ],
+  "v": 2
+ },
+ "standing-out-in-an-industrial-cluster": {
+  "slug": "standing-out-in-an-industrial-cluster",
+  "published": "2026-10-16",
+  "title": "Standing Out Online in a Chinese Industrial Cluster | Hurfi",
+  "h1": "Standing out online when your whole city makes the same product",
+  "description": "How manufacturers in Chinese industrial clusters — pumps, fabrics, wigs, eyewear — can make their website stand out from hundreds of similar suppliers.",
+  "lead": "In many Chinese cities, hundreds of factories make the same kind of product. A buyer searching for pumps, printed fabric or wigs will find dozens of suppliers that look alike. This guide explains how to make your website the one they contact.",
+  "steps": [
+   "Know your difference",
+   "Show specific proof",
+   "Go deep on products",
+   "Be the factory",
+   "Answer before asked",
+   "Measure and refine"
+  ],
+  "sections": [
+   {
+    "h2": "The cluster problem",
+    "p": [
+     "Official bulletins show how concentrated some industries are. In 2025 Taizhou (Zhejiang) made 64.0521 million pumps and 202.2984 million pairs of eyeglasses, and had 9,418 exporting firms. Shaoxing made 26.349 billion metres of printed and dyed cloth. Xuchang exported 17.2 billion yuan of hair products. In places like these, “manufacturer of high-quality products” describes everyone."
+    ]
+   },
+   {
+    "h2": "Find your real difference",
+    "p": [
+     "Ask your sales team what buyers chose you for last year. The answers are usually specific:"
+    ],
+    "ul": [
+     "A product range or size others do not make.",
+     "A material, finish or performance level.",
+     "Certifications for a demanding market.",
+     "Speed on samples or small orders.",
+     "Engineering support or customisation."
+    ]
+   },
+   {
+    "h2": "Prove it with specifics",
+    "p": [
+     "Replace adjectives with facts: tolerances, test results, certificates, capacity, lead times, the number of models. Specific numbers that you can support are more convincing than any slogan."
+    ]
+   },
+   {
+    "h2": "Go deeper on products than anyone else",
+    "p": [
+     "Most cluster websites have thin product pages: a photo and a few lines. Give each product family a real page with specifications in text, applications, options and downloadable datasheets. Where it fits, [Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) can help describe products to Google."
+    ]
+   },
+   {
+    "h2": "Show that you are the factory",
+    "p": [
+     "Buyers in clusters often cannot tell factories from traders. Show your own production lines, testing, warehouse and team, with your own photos and captions. Give your address and say what you make in-house and what you buy in."
+    ]
+   },
+   {
+    "h2": "Answer questions before they are asked",
+    "ul": [
+     "MOQ and sample terms.",
+     "Lead times for standard and custom products.",
+     "Certifications by market.",
+     "Shipping ports and terms.",
+     "OEM and private-label options."
+    ]
+   },
+   {
+    "h2": "Write for buyers, not for keywords",
+    "p": [
+     "Google’s guidance on [helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) asks whether content provides original information and substantial value compared with other pages. In a cluster, original content means your own products, data and photos — not text copied from a neighbour’s site or a marketplace listing."
+    ]
+   },
+   {
+    "h2": "Use the cluster as context, not as your message",
+    "p": [
+     "Being in a well-known production city can reassure buyers about supply chains and experience. Mention it, but do not make it your main message: every competitor can say the same."
+    ]
+   },
+   {
+    "h2": "A quick self-test",
+    "p": [
+     "Open your home page and a competitor’s side by side. Cover the logos. If a buyer could not tell which is which, your site is not yet doing its job. Then ask:"
+    ],
+    "ul": [
+     "Does our first screen say what we make that is different?",
+     "Can a buyer find a specification table in two clicks?",
+     "Are the photos clearly from our factory?",
+     "Do we answer MOQ, lead time and certification questions without an email?"
+    ],
+    "p2": [
+     "Each “no” is a place to start."
+    ]
+   },
+   {
+    "h2": "Let specialisation lead",
+    "p": [
+     "In a cluster, specialists often win online: the supplier that makes one kind of pump, fabric or wig very well, and says so clearly. If you have a speciality, put it first. If you make a broad range, organise it so that each family has the depth a specialist would show."
+    ]
+   },
+   {
+    "h2": "Measure what makes buyers contact you",
+    "p": [
+     "Track which pages lead to inquiries. Over time you will see which differences buyers care about, and you can strengthen those pages first."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "Our products are similar to our neighbours’. How can we stand out?",
+    "With specifics: the products, materials, tests, certifications and services you offer that others do not, shown with your own data and photos."
+   ],
+   [
+    "Should we copy successful competitors’ websites?",
+    "No. Copied content does not help buyers or search. Learn from them, then show what is different about you."
+   ],
+   [
+    "Is it worth naming our city?",
+    "Yes, as context. But your differences, not your location, should lead."
+   ],
+   [
+    "How many products should we put online?",
+    "Start with the families that bring the best inquiries, and make those pages excellent."
+   ],
+   [
+    "Do we need our own photos?",
+    "Yes. Stock or supplier photos make you look like a trader."
+   ],
+   [
+    "Can marketplaces replace our website?",
+    "Marketplaces can bring inquiries, but your own site is where you can show everything that makes you different."
+   ],
+   [
+    "Can Hurfi guarantee we outrank competitors?",
+    "No. Nobody can. We build better pages and report honestly from your own data."
+   ]
+  ],
+  "sources": [
+   "c-tz",
+   "c-sx",
+   "c-xc",
+   "g-prod",
+   "g-hc"
+  ],
+  "sectors": [
+   "water-wastewater-technology",
+   "textiles-technical-fabrics",
+   "apparel-footwear-production"
+  ],
+  "cities": [
+   "taizhou-zhejiang",
+   "shaoxing",
+   "nantong",
+   "quanzhou",
+   "jinhua",
+   "wenzhou"
+  ],
+  "related": [
+   "factory-website-trust-signals",
+   "industrial-product-page-seo",
+   "pdf-catalogue-to-product-pages"
+  ],
+  "svc": [
+   "A site built around what makes you different, with deep product pages and your own photos.",
+   "Searches for exact products and specifications, where specific pages win.",
+   "Campaigns for the products where you have a real advantage.",
+   "Posts that show your factory, testing and products."
+  ],
+  "extra_claims": [
+   [
+    "Taizhou made 64.0521 million pumps and 202.2984 million pairs of eyeglasses in 2025, and had 9,418 exporting firms.",
+    "c-tz"
+   ],
+   [
+    "Shaoxing made 26.349 billion metres of printed and dyed cloth in 2025.",
+    "c-sx"
+   ],
+   [
+    "Xuchang exported 17.2 billion yuan of hair products in 2025.",
+    "c-xc"
+   ],
+   [
+    "Google documents Product structured data for product pages.",
+    "g-prod"
+   ],
+   [
+    "Google asks whether content provides original information and substantial value.",
+    "g-hc"
+   ]
+  ],
+  "v": 2
+ },
+ "pdf-catalogue-to-product-pages": {
+  "slug": "pdf-catalogue-to-product-pages",
+  "published": "2026-10-16",
+  "title": "Turn Your PDF Catalogue into Product Pages | Hurfi",
+  "h1": "From PDF catalogue to product pages: making your range searchable",
+  "description": "Why Chinese manufacturers should turn PDF catalogues into HTML product pages, how to structure them, and how to keep PDFs useful as downloads.",
+  "lead": "Many factories put their whole range in one big PDF catalogue and link to it from the website. Buyers then have to download it, scroll and guess. Search engines can read PDFs, but a catalogue is no substitute for product pages. This guide explains how to turn a catalogue into pages buyers can find and compare.",
+  "steps": [
+   "Audit the catalogue",
+   "Group into families",
+   "Build a template",
+   "Put specs in HTML",
+   "Keep PDFs as downloads",
+   "Link and measure"
+  ],
+  "sections": [
+   {
+    "h2": "Can Google read PDFs?",
+    "p": [
+     "Yes. Google’s list of [file types it can index](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types) includes Adobe Portable Document Format (.pdf). But one PDF for hundreds of products gives search engines and buyers one long document instead of one clear page per product family."
+    ]
+   },
+   {
+    "h2": "Why product pages work better",
+    "ul": [
+     "Each page can match the searches for that product type.",
+     "Buyers land directly on the product they need.",
+     "Specification tables in HTML are easy to read on phones and to copy into comparisons.",
+     "Each page can carry its own RFQ form, certificates and related products.",
+     "You can see which products attract inquiries."
+    ]
+   },
+   {
+    "h2": "Audit the catalogue first",
+    "p": [
+     "List every product family, model and specification in the catalogue. Note what is out of date, what is missing and which families bring the most valuable inquiries. Start with those."
+    ]
+   },
+   {
+    "h2": "Group into families, not hundreds of thin pages",
+    "p": [
+     "A page for every tiny variant often creates many near-duplicate pages. Usually one page per product family or series, with a model table, works better. Give a model its own page only when buyers search for it or it differs significantly."
+    ]
+   },
+   {
+    "h2": "Build one good template",
+    "ul": [
+     "A clear H1 with the product type and key specification.",
+     "A short introduction: what it is, what it is for, who uses it.",
+     "A specification table in HTML.",
+     "Applications and options.",
+     "Certificates that cover the product.",
+     "Downloads: datasheet, manual, drawings.",
+     "An RFQ form and related products."
+    ]
+   },
+   {
+    "h2": "Keep PDFs as downloads",
+    "p": [
+     "PDFs remain useful: buyers forward them, print them and file them. Offer a datasheet PDF beside each product page, keep the file names descriptive and make sure the PDF and the page say the same thing."
+    ]
+   },
+   {
+    "h2": "Write titles that match the product",
+    "p": [
+     "Google’s guidance on [title links](https://developers.google.com/search/docs/appearance/title-link) asks for descriptive and concise text in each page’s title element. Use the product type and its main specification, not just a model code."
+    ]
+   },
+   {
+    "h2": "Describe products for search",
+    "p": [
+     "Where it fits and the facts are accurate, [Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) can describe your products to Google. Google’s documentation describes product snippets for pages where people cannot directly purchase the product — the situation of most B2B product pages."
+    ]
+   },
+   {
+    "h2": "A worked example",
+    "p": [
+     "Imagine a 120-page pump catalogue with 15 series and 400 models. Instead of one PDF, the website gets 15 series pages, each with a model table, curves, materials, certificates and a datasheet download. Category pages group the series by application. The PDF stays available for buyers who want it.",
+     "The buyer searching for a specific type of pump now lands on the right series page, compares models in a table and sends an RFQ from that page — and you know which series it came from."
+    ]
+   },
+   {
+    "h2": "Keep pages and PDFs in step",
+    "ul": [
+     "Change specifications in one place first, then update the other.",
+     "Put a revision date on each datasheet.",
+     "Remove discontinued models from both, or mark them clearly.",
+     "Check every quarter that downloads still open."
+    ]
+   },
+   {
+    "h2": "Link, publish and measure",
+    "p": [
+     "Link families from your category pages and from each other, add them to your XML sitemap and track which pages lead to inquiries. Add the next batch of families based on what you learn."
+    ]
+   }
+  ],
+  "mid_after": 3,
+  "faq": [
+   [
+    "Can Google index our PDF catalogue?",
+    "Yes, Google can index PDFs. But product pages usually serve buyers and search better than one long catalogue."
+   ],
+   [
+    "Should we remove the PDF?",
+    "No. Keep it as a download, and keep it consistent with the product pages."
+   ],
+   [
+    "How many pages do we need?",
+    "Usually one per product family or series, with model tables. Start with the families that matter most."
+   ],
+   [
+    "Our catalogue is in Chinese. Can you help?",
+    "Yes. We work from Chinese documents and write English pages with your team."
+   ],
+   [
+    "How long does it take?",
+    "It depends on the range. We usually start with a template and the top families, then add the rest in batches."
+   ],
+   [
+    "Will this improve our rankings?",
+    "It usually helps buyers and search find the right product, but nobody can guarantee rankings."
+   ],
+   [
+    "What about prices?",
+    "Most B2B product pages do not show prices; MOQs, lead times and an RFQ form work better."
+   ]
+  ],
+  "sources": [
+   "g-ft",
+   "g-tl",
+   "g-prod",
+   "g-sm"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "precision-manufacturing-components",
+   "textiles-technical-fabrics"
+  ],
+  "cities": [
+   "shaoxing",
+   "huizhou",
+   "taizhou-zhejiang",
+   "zhongshan",
+   "foshan"
+  ],
+  "related": [
+   "industrial-product-page-seo",
+   "manufacturer-website-rfq-checklist",
+   "standing-out-in-an-industrial-cluster"
+  ],
+  "svc": [
+   "Product-family pages built from your catalogue, with HTML specification tables and PDF downloads.",
+   "Titles, internal links and sitemaps so each product family can be found.",
+   "Landing pages for chosen product families in campaigns.",
+   "Posts that link to new product pages as they go live."
+  ],
+  "extra_claims": [
+   [
+    "Google can index Adobe Portable Document Format (.pdf) files.",
+    "g-ft"
+   ],
+   [
+    "Google recommends descriptive, concise title links.",
+    "g-tl"
+   ],
+   [
+    "Google documents product snippets for product pages where people cannot directly purchase the product.",
+    "g-prod"
+   ],
+   [
+    "Google explains that search engines read a sitemap to crawl a site more efficiently.",
+    "g-sm"
    ]
   ],
   "v": 2

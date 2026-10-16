@@ -209,7 +209,7 @@
         ],
       },
       { label: "Contact Us", path: "/contact/" },
-      { label: "Free Growth Strategy", path: "/book-consultation/", cta: true },
+      { label: "Free Growth Strategy", path: "/book-consultation/#book-form", cta: true },
     ];
   }
 
@@ -493,7 +493,7 @@
       '<li><a href="/industries/">Industries</a></li>' +
       '<li><a href="/locations/">Locations</a></li>' +
       '<li><a href="/contact/">Contact</a></li>' +
-      '<li><a href="/book-consultation/">Book a Consultation</a></li>' +
+      '<li><a href="/book-consultation/#book-form">Book a Consultation</a></li>' +
       '<li><a href="/brand-guidelines/">Brand Guidelines</a></li>' +
       "</ul></nav>" +
       '<nav aria-label="Resources">' +
@@ -571,217 +571,8 @@
     }
   }
 
-  function getCtaMeta() {
-    var cta =
-      (window.HURFI_SITE && window.HURFI_SITE.primaryCTA) || {
-        url: "/book-consultation/",
-        freeLabel: "Limited-time free",
-        offerBar: "Limited-time free consultation — priority slots open now",
-        offerHours: 48,
-        timeline: [
-          { label: "Book", hint: "Free" },
-          { label: "Meet", hint: "30 min" },
-          { label: "Plan", hint: "Next steps" },
-        ],
-      };
-    return cta;
-  }
-
-  function timelineHtml(steps, modifier) {
-    var list =
-      '<ol class="consult-timeline' +
-      (modifier ? " " + modifier : "") +
-      '" aria-label="Free consultation steps">';
-    (steps || []).forEach(function (step) {
-      list +=
-        '<li class="consult-timeline__step">' +
-        '<span class="consult-timeline__dot" aria-hidden="true"></span>' +
-        '<span class="consult-timeline__label">' +
-        escapeHtml(step.label) +
-        "</span>" +
-        '<span class="consult-timeline__hint">' +
-        escapeHtml(step.hint || "") +
-        "</span></li>";
-    });
-    list += "</ol>";
-    return list;
-  }
-
-  var OFFER_DISMISS_KEY = "hurfi_offer_dismissed";
-  var OFFER_ENDS_KEY = "hurfi_offer_ends_at";
-  var OFFER_ENTRY_KEY = "hurfi_offer_entry_path";
-
-  function pad2(n) {
-    return n < 10 ? "0" + n : String(n);
-  }
-
-  function formatCountdown(ms) {
-    if (ms <= 0) return { expired: true, text: "00:00:00" };
-    var totalSec = Math.floor(ms / 1000);
-    var days = Math.floor(totalSec / 86400);
-    var hours = Math.floor((totalSec % 86400) / 3600);
-    var mins = Math.floor((totalSec % 3600) / 60);
-    var secs = totalSec % 60;
-    if (days > 0) {
-      return {
-        expired: false,
-        text: days + "d " + pad2(hours) + "h " + pad2(mins) + "m " + pad2(secs) + "s",
-      };
-    }
-    return {
-      expired: false,
-      text: pad2(hours) + "h " + pad2(mins) + "m " + pad2(secs) + "s",
-    };
-  }
-
-  function getOfferEndsAt(hours) {
-    var windowMs = Math.max(1, hours || 48) * 60 * 60 * 1000;
-    try {
-      var raw = localStorage.getItem(OFFER_ENDS_KEY);
-      var ends = raw ? parseInt(raw, 10) : 0;
-      if (!ends || isNaN(ends)) {
-        ends = Date.now() + windowMs;
-        localStorage.setItem(OFFER_ENDS_KEY, String(ends));
-        return ends;
-      }
-      // Loop: when a window expires, start a fresh 48h cycle
-      while (ends <= Date.now()) {
-        ends += windowMs;
-      }
-      localStorage.setItem(OFFER_ENDS_KEY, String(ends));
-      return ends;
-    } catch (e) {
-      return Date.now() + windowMs;
-    }
-  }
-
-  function isOfferDismissed() {
-    try {
-      return localStorage.getItem(OFFER_DISMISS_KEY) === "1";
-    } catch (e) {
-      return false;
-    }
-  }
-
-  function dismissOffer() {
-    try {
-      localStorage.setItem(OFFER_DISMISS_KEY, "1");
-    } catch (e) {}
-  }
-
-  function isFirstViewPage() {
-    var here = currentPath();
-    try {
-      var entry = sessionStorage.getItem(OFFER_ENTRY_KEY);
-      if (!entry) {
-        sessionStorage.setItem(OFFER_ENTRY_KEY, here);
-        entry = here;
-      }
-      // Only the first page opened in this browser tab/session
-      return here === entry;
-    } catch (e) {
-      return here === "/";
-    }
-  }
-
-  function shouldShowOfferBar() {
-    if (isOfferDismissed()) return false;
-    return isFirstViewPage();
-  }
-
-  function injectOfferBar() {
-    if (document.querySelector(".site-offer-bar")) return;
-    var header = document.querySelector(".site-header");
-    if (!header) return;
-    var cta = getCtaMeta();
-    if (!shouldShowOfferBar()) return;
-
-    var hours = cta.offerHours || 48;
-    var endsAt = getOfferEndsAt(hours);
-    var bar = document.createElement("div");
-    bar.className = "site-offer-bar";
-    bar.setAttribute("role", "region");
-    bar.setAttribute("aria-label", "Limited-time consultation offer");
-    bar.innerHTML =
-      '<div class="container offer-bar-inner">' +
-      '<span class="offer-bar-badge">Limited</span>' +
-      '<p class="offer-bar-text">' +
-      '<span class="offer-bar-text-full">' +
-      escapeHtml(cta.offerBar || "Free consultation — priority slots open now") +
-      "</span>" +
-      '<span class="offer-bar-text-short">Free consult open</span>' +
-      "</p>" +
-      '<div class="offer-countdown" aria-live="polite">' +
-      '<span class="offer-countdown-label">Ends in</span>' +
-      '<time class="offer-countdown-time" datetime="">--</time>' +
-      "</div>" +
-      '<a class="offer-bar-cta" href="' +
-      escapeHtml(cta.url || "/book-consultation/") +
-      '"><span class="offer-bar-cta-free">Limited</span><span class="offer-bar-cta-label">Book Free</span></a>' +
-      '<button type="button" class="offer-bar-close" aria-label="Dismiss offer">×</button>' +
-      "</div>";
-    header.insertAdjacentElement("afterend", bar);
-
-    var timeEl = bar.querySelector(".offer-countdown-time");
-    var timerId = null;
-
-    function tick() {
-      var left = endsAt - Date.now();
-      if (left <= 0) {
-        endsAt = getOfferEndsAt(hours);
-        left = endsAt - Date.now();
-      }
-      var parts = formatCountdown(left);
-      if (timeEl) {
-        timeEl.textContent = parts.text;
-        timeEl.setAttribute("datetime", new Date(endsAt).toISOString());
-      }
-    }
-
-    tick();
-    timerId = setInterval(tick, 1000);
-
-    var closeBtn = bar.querySelector(".offer-bar-close");
-    if (closeBtn) {
-      closeBtn.addEventListener("click", function () {
-        if (timerId) clearInterval(timerId);
-        dismissOffer();
-        bar.remove();
-      });
-    }
-  }
-
   function enhanceBookCtas() {
-    var cta = getCtaMeta();
-    var steps = cta.timeline || [];
-    var freeLabel = cta.freeLabel || "Limited-time free";
-
-    document.querySelectorAll('a.btn[href*="book-consultation"]').forEach(function (btn) {
-      if (
-        btn.closest(".site-nav") ||
-        btn.closest(".home-hero") ||
-        btn.closest(".hg-hero") ||
-        btn.closest(".rk-hero") ||
-        btn.closest(".vg-cta") ||
-        btn.closest(".hs-cta") ||
-        btn.closest(".wh-cta") ||
-        btn.closest(".cta-stack") ||
-        btn.classList.contains("btn-outline")
-      ) {
-        return;
-      }
-      var stack = document.createElement("div");
-      stack.className = "cta-stack";
-      btn.parentNode.insertBefore(stack, btn);
-      stack.appendChild(btn);
-      var chip = document.createElement("p");
-      chip.className = "cta-free-chip";
-      chip.textContent = freeLabel;
-      stack.appendChild(chip);
-      stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
-    });
-
-    // Nav CTA limited tag
+    // Nav CTA "Limited" tag on the header button (the free-consultation chip, offer bar and 3-step timeline were removed in Oct 2026)
     document.querySelectorAll('.site-nav a.btn[href*="book-consultation"]').forEach(function (btn) {
       if (btn.querySelector(".cta-free-tag")) return;
       var tag = document.createElement("span");
@@ -789,20 +580,6 @@
       tag.textContent = "Limited";
       btn.appendChild(tag);
     });
-
-    // Book page form submit area
-    var formBtn = document.querySelector('form[name="book-consultation"] button.btn[type="submit"]');
-    if (formBtn && !formBtn.closest(".cta-stack")) {
-      var stack = document.createElement("div");
-      stack.className = "cta-stack";
-      formBtn.parentNode.replaceChild(stack, formBtn);
-      stack.appendChild(formBtn);
-      var chip = document.createElement("p");
-      chip.className = "cta-free-chip";
-      chip.textContent = freeLabel;
-      stack.appendChild(chip);
-      stack.insertAdjacentHTML("beforeend", timelineHtml(steps, "consult-timeline--compact"));
-    }
   }
 
   function initHeroWords() {
@@ -1833,6 +1610,46 @@
     });
   }
 
+  // Land "Book a Consultation" links (/book-consultation/#book-form, legacy #book) on the form heading.
+  // The form is injected by JS, so the browser's own anchor jump happens before it exists.
+  function jumpToConsultHash() {
+    var el = document.getElementById("book-form");
+    if (!el) return;
+    var userMoved = false;
+    function markMoved() { userMoved = true; }
+    ["wheel", "touchmove", "keydown"].forEach(function (ev) {
+      window.addEventListener(ev, markMoved, { passive: true });
+    });
+    function go() {
+      if (userMoved) return;
+      var hd = document.querySelector(".site-header");
+      var off = hd ? Math.max(hd.offsetHeight, hd.getBoundingClientRect().bottom) : 0;
+      var y = el.getBoundingClientRect().top + window.pageYOffset - off - 16;
+      // instant: the html element has scroll-behavior: smooth
+      window.scrollTo({ top: Math.max(0, y), left: 0, behavior: "instant" });
+    }
+    // the header and offer bar shrink once the page scrolls, so correct a few times
+    function settle() {
+      userMoved = false;
+      go();
+      window.requestAnimationFrame(go);
+      [150, 400, 800, 1300].forEach(function (t) { window.setTimeout(go, t); });
+    }
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest ? e.target.closest("a[href]") : null;
+      if (!a || a.hash !== "#book-form" || a.pathname !== window.location.pathname) return;
+      e.preventDefault();
+      if (history.pushState) history.pushState(null, "", "#book-form");
+      settle();
+    });
+    var h = window.location.hash;
+    if (h !== "#book-form" && h !== "#book") return;
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    settle();
+    window.addEventListener("load", function () { if (!userMoved) settle(); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+  }
+
   function renderConsult() {
     var page = document.body.getAttribute("data-page");
     if (page === "404" || page === "thanks") return;
@@ -1840,7 +1657,7 @@
     var main = document.querySelector("main");
     if (!main) return;
     var slot = document.querySelector("[data-consult-slot]") || main;
-    slot.insertAdjacentHTML("beforeend", "<section class=\"rk-consult\" aria-labelledby=\"rk-consult-title\">\n      <div class=\"rk-consult-card\">\n        <div class=\"rk-consult-intro\">\n          <p class=\"rk-consult-badge\">Let's build something meaningful</p>\n          <h2 id=\"rk-consult-title\">\n            <span>Your Business Deserves</span>\n            <em>What's Next.</em>\n          </h2>\n          <p class=\"rk-consult-lead\">From digital visibility to meaningful B2B opportunities, let's explore how Hurfi can support your next stage of growth.</p>\n          <ul class=\"rk-consult-benefits\">\n            <li>Direct strategic consultation</li>\n            <li>Manufacturing-focused business insights</li>\n            <li>Practical direction for your next opportunity</li>\n          </ul>\n\n          <article class=\"rk-consult-person\">\n            <figure class=\"rk-consult-portrait\">\n              <img src=\"/assets/team/yasir.webp\" alt=\"Yasir Arafat, Head of Strategy and Consulting at Hurfi\" width=\"200\" height=\"200\">\n            </figure>\n            <div>\n              <h3>Yasir Arafat</h3>\n              <p class=\"rk-consult-role\">Head of Strategy &amp; Consulting, Hurfi</p>\n              <p class=\"rk-consult-note\">Let's discuss your goals and build a clear path forward.</p>\n              <button class=\"rk-consult-wechat\" type=\"button\" data-open-modal=\"yasir-wechat\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>Connect with Yasir on WeChat <span aria-hidden=\"true\">→</span></button>\n            </div>\n          </article>\n\n          <article class=\"rk-consult-mini\">\n            <img src=\"/assets/team/sharuk.webp\" alt=\"Shahruk Karim Simanto, China Client Relations Coordinator at Hurfi\" width=\"104\" height=\"104\">\n            <div>\n              <h3>Shahruk Karim Simanto</h3>\n              <p>China Client Relations Coordinator</p>\n              <p>China contact: <a href=\"tel:+8617792239260\">+86 17792239260</a></p>\n              <button class=\"rk-consult-mini-link\" type=\"button\" data-open-modal=\"shahruk-wechat\"><svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>Connect on WeChat <span aria-hidden=\"true\">↗</span></button>\n            </div>\n          </article>\n        </div>\n\n        <div class=\"rk-consult-form-wrap\">\n          <h3>Tell Us About Your Project</h3>\n          <p class=\"rk-consult-form-lead\">Share your requirements and let's explore the possibilities together.</p>\n          <form class=\"rk-consult-form\" name=\"project-inquiry\" method=\"POST\" action=\"https://formsubmit.co/yasir@hurfi.com\" novalidate>\n            <input type=\"hidden\" name=\"_subject\" value=\"Hurfi project inquiry\">\n            <input type=\"hidden\" name=\"_template\" value=\"table\">\n            <input type=\"hidden\" name=\"_captcha\" value=\"true\">\n            <input type=\"hidden\" name=\"_cc\" value=\"support@hurfi.com\">\n            <input type=\"hidden\" name=\"_next\" value=\"https://hurfi.com/thank-you/\">\n            <input type=\"hidden\" name=\"form-name\" value=\"project-inquiry\">\n            <p class=\"rk-consult-honey\">\n              <label>Don’t fill this out: <input name=\"bot-field\" tabindex=\"-1\" autocomplete=\"off\"></label> <input type=\"text\" name=\"_honey\" tabindex=\"-1\" autocomplete=\"off\" aria-hidden=\"true\">\n            </p>\n            <label class=\"rk-consult-field\">Full Name\n              <input type=\"text\" name=\"name\" required autocomplete=\"name\" placeholder=\"Your full name\" aria-describedby=\"consult-err-name\">\n              <span class=\"rk-consult-error\" id=\"consult-err-name\" hidden>Enter your full name.</span>\n            </label>\n            <label class=\"rk-consult-field\">Business Email\n              <input type=\"email\" name=\"email\" required autocomplete=\"email\" placeholder=\"you@company.com\" aria-describedby=\"consult-err-email\">\n              <span class=\"rk-consult-error\" id=\"consult-err-email\" hidden>Enter a valid business email.</span>\n            </label>\n            <label class=\"rk-consult-field\">WhatsApp Number\n              <input type=\"tel\" name=\"whatsapp\" autocomplete=\"tel\" inputmode=\"tel\" placeholder=\"+86 or +880\">\n            </label>\n            <label class=\"rk-consult-field\">WeChat ID\n              <input type=\"text\" name=\"wechat\" placeholder=\"Your WeChat ID\" autocomplete=\"off\">\n            </label>\n            <label class=\"rk-consult-field rk-consult-span\">Company / Brand Name\n              <input type=\"text\" name=\"company\" autocomplete=\"organization\" placeholder=\"Your company name\">\n            </label>\n            <label class=\"rk-consult-field\">Service Interested In\n              <select name=\"service\" required aria-describedby=\"consult-err-service\">\n                <option value=\"\">Select a service</option>\n                <option value=\"Business consulting\">Business consulting</option>\n                <option value=\"Website Development\">Website Development</option>\n                <option value=\"SEO\">SEO</option>\n                <option value=\"Digital Marketing\">Digital Marketing</option>\n                <option value=\"Social Media Management\">Social Media Management</option>\n                <option value=\"Other / Not sure\">Other / Not sure</option>\n              </select>\n              <span class=\"rk-consult-error\" id=\"consult-err-service\" hidden>Choose a service.</span>\n            </label>\n            <fieldset class=\"rk-consult-choice\">\n              <legend>Project Budget</legend>\n              <div class=\"rk-consult-pills\">\n                <label><input type=\"radio\" name=\"budget\" value=\"Under $1,000\"><span>Under $1,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$1,000 – $3,000\"><span>$1,000 – $3,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$3,000 – $5,000\"><span>$3,000 – $5,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$5,000 – $10,000\"><span>$5,000 – $10,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"Above $10,000\"><span>Above $10,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"Not Sure Yet\"><span>Not Sure Yet</span></label>\n              </div>\n            </fieldset>\n            <label class=\"rk-consult-field\">Project Details\n              <textarea name=\"details\" required rows=\"4\" placeholder=\"Tell us about your business, your goals, and what you need help with...\" aria-describedby=\"consult-err-details\"></textarea>\n              <span class=\"rk-consult-error\" id=\"consult-err-details\" hidden>Tell us about the project.</span>\n            </label>\n            <fieldset class=\"rk-consult-choice\">\n              <legend>Preferred Contact Method</legend>\n              <div class=\"rk-consult-pills\">\n                <label><input type=\"radio\" name=\"contact_method\" value=\"WeChat\" checked><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>WeChat</span></label>\n                <label><input type=\"radio\" name=\"contact_method\" value=\"WhatsApp\"><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3zm0 1.6a7.4 7.4 0 0 1 6.3 11.3l-.2.4.7 2.6-2.7-.7-.4.2A7.4 7.4 0 1 1 12 4.6zm4.1 9.3c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1l-.6.7c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.5l.4-.5.2-.3c.1-.2 0-.3 0-.5l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.8 1.6.6 1.9.5 2.3.5.3 0 1.1-.4 1.3-.9.2-.4.2-.8.1-.9 0-.1-.2-.1-.4-.2z\"/></svg>WhatsApp</span></label>\n                <label><input type=\"radio\" name=\"contact_method\" value=\"Email\"><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.2 7h15.6L12 12.2zM4 16.8l5.2-3.5L4 8.6v8.2zm16 0V8.6l-5.2 4.7L20 16.8z\"/></svg>Email</span></label>\n              </div>\n            </fieldset>\n            <p class=\"rk-consult-fail\" hidden role=\"alert\">We could not send this inquiry. Email yasir@hurfi.com and try again.</p>\n            <button class=\"rk-consult-submit\" type=\"submit\">\n              <span class=\"rk-consult-send-label\">Send Your Inquiry</span>\n              <span class=\"rk-consult-send-wait\" hidden>Sending…</span>\n              <span aria-hidden=\"true\">→</span>\n            </button>\n          </form>\n          <div class=\"rk-consult-done\" hidden>\n            <h3>Inquiry received</h3>\n            <p>Hurfi has your project details and will follow up.</p>\n          </div>\n        </div>\n      </div>\n\n      <dialog class=\"rk-consult-modal\" id=\"yasir-wechat\" aria-labelledby=\"yasir-wechat-title\">\n        <div class=\"rk-consult-modal-card\">\n          <button class=\"rk-consult-close\" type=\"button\" data-close-modal aria-label=\"Close\">×</button>\n          <h3 id=\"yasir-wechat-title\">Yasir Arafat</h3>\n          <p>Head of Strategy &amp; Consulting, Hurfi</p>\n          <img src=\"/assets/yasirarafating-wechat.jpeg\" alt=\"WeChat QR code for Yasir Arafat\" width=\"720\" height=\"960\">\n          <p>Scan using WeChat to connect directly.</p>\n        </div>\n      </dialog>\n      <dialog class=\"rk-consult-modal\" id=\"shahruk-wechat\" aria-labelledby=\"shahruk-wechat-title\">\n        <div class=\"rk-consult-modal-card\">\n          <button class=\"rk-consult-close\" type=\"button\" data-close-modal aria-label=\"Close\">×</button>\n          <h3 id=\"shahruk-wechat-title\">Connect with Shahruk Karim Simanto</h3>\n          <p>China Client Relations</p>\n          <img src=\"/assets/Shahruk_Karim_Simanto_wechat.jpg\" alt=\"WeChat QR code for Shahruk Karim Simanto\" width=\"720\" height=\"960\">\n          <p>Scan this QR code using WeChat.</p>\n        </div>\n      </dialog>\n    </section>");
+    slot.insertAdjacentHTML("beforeend", "<section class=\"rk-consult\" aria-labelledby=\"rk-consult-title\">\n      <div class=\"rk-consult-card\">\n        <div class=\"rk-consult-intro\">\n          <p class=\"rk-consult-badge\">Let's build something meaningful</p>\n          <h2 id=\"rk-consult-title\">\n            <span>Your Business Deserves</span>\n            <em>What's Next.</em>\n          </h2>\n          <p class=\"rk-consult-lead\">From digital visibility to meaningful B2B opportunities, let's explore how Hurfi can support your next stage of growth.</p>\n          <ul class=\"rk-consult-benefits\">\n            <li>Direct strategic consultation</li>\n            <li>Manufacturing-focused business insights</li>\n            <li>Practical direction for your next opportunity</li>\n          </ul>\n\n          <article class=\"rk-consult-person\">\n            <figure class=\"rk-consult-portrait\">\n              <img src=\"/assets/team/yasir.webp\" alt=\"Yasir Arafat, Head of Strategy and Consulting at Hurfi\" width=\"200\" height=\"200\">\n            </figure>\n            <div>\n              <h3>Yasir Arafat</h3>\n              <p class=\"rk-consult-role\">Head of Strategy &amp; Consulting, Hurfi</p>\n              <p class=\"rk-consult-note\">Let's discuss your goals and build a clear path forward.</p>\n              <button class=\"rk-consult-wechat\" type=\"button\" data-open-modal=\"yasir-wechat\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>Connect with Yasir on WeChat <span aria-hidden=\"true\">→</span></button>\n            </div>\n          </article>\n\n          <article class=\"rk-consult-mini\">\n            <img src=\"/assets/team/sharuk.webp\" alt=\"Shahruk Karim Simanto, China Client Relations Coordinator at Hurfi\" width=\"104\" height=\"104\">\n            <div>\n              <h3>Shahruk Karim Simanto</h3>\n              <p>China Client Relations Coordinator</p>\n              <p>China contact: <a href=\"tel:+8617792239260\">+86 17792239260</a></p>\n              <button class=\"rk-consult-mini-link\" type=\"button\" data-open-modal=\"shahruk-wechat\"><svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>Connect on WeChat <span aria-hidden=\"true\">↗</span></button>\n            </div>\n          </article>\n        </div>\n\n        <div class=\"rk-consult-form-wrap\" id=\"book-form\">\n          <h3>Tell Us About Your Project</h3>\n          <p class=\"rk-consult-form-lead\">Share your requirements and let's explore the possibilities together.</p>\n          <form class=\"rk-consult-form\" name=\"project-inquiry\" method=\"POST\" action=\"https://formsubmit.co/yasir@hurfi.com\" novalidate>\n            <input type=\"hidden\" name=\"_subject\" value=\"Hurfi project inquiry\">\n            <input type=\"hidden\" name=\"_template\" value=\"table\">\n            <input type=\"hidden\" name=\"_captcha\" value=\"true\">\n            <input type=\"hidden\" name=\"_cc\" value=\"support@hurfi.com\">\n            <input type=\"hidden\" name=\"_next\" value=\"https://hurfi.com/thank-you/\">\n            <input type=\"hidden\" name=\"form-name\" value=\"project-inquiry\">\n            <p class=\"rk-consult-honey\">\n              <label>Don’t fill this out: <input name=\"bot-field\" tabindex=\"-1\" autocomplete=\"off\"></label> <input type=\"text\" name=\"_honey\" tabindex=\"-1\" autocomplete=\"off\" aria-hidden=\"true\">\n            </p>\n            <label class=\"rk-consult-field\">Full Name\n              <input type=\"text\" name=\"name\" required autocomplete=\"name\" placeholder=\"Your full name\" aria-describedby=\"consult-err-name\">\n              <span class=\"rk-consult-error\" id=\"consult-err-name\" hidden>Enter your full name.</span>\n            </label>\n            <label class=\"rk-consult-field\">Business Email\n              <input type=\"email\" name=\"email\" required autocomplete=\"email\" placeholder=\"you@company.com\" aria-describedby=\"consult-err-email\">\n              <span class=\"rk-consult-error\" id=\"consult-err-email\" hidden>Enter a valid business email.</span>\n            </label>\n            <label class=\"rk-consult-field\">WhatsApp Number\n              <input type=\"tel\" name=\"whatsapp\" autocomplete=\"tel\" inputmode=\"tel\" placeholder=\"+86 or +880\">\n            </label>\n            <label class=\"rk-consult-field\">WeChat ID\n              <input type=\"text\" name=\"wechat\" placeholder=\"Your WeChat ID\" autocomplete=\"off\">\n            </label>\n            <label class=\"rk-consult-field rk-consult-span\">Company / Brand Name\n              <input type=\"text\" name=\"company\" autocomplete=\"organization\" placeholder=\"Your company name\">\n            </label>\n            <label class=\"rk-consult-field\">Service Interested In\n              <select name=\"service\" required aria-describedby=\"consult-err-service\">\n                <option value=\"\">Select a service</option>\n                <option value=\"Business consulting\">Business consulting</option>\n                <option value=\"Website Development\">Website Development</option>\n                <option value=\"SEO\">SEO</option>\n                <option value=\"Digital Marketing\">Digital Marketing</option>\n                <option value=\"Social Media Management\">Social Media Management</option>\n                <option value=\"Other / Not sure\">Other / Not sure</option>\n              </select>\n              <span class=\"rk-consult-error\" id=\"consult-err-service\" hidden>Choose a service.</span>\n            </label>\n            <fieldset class=\"rk-consult-choice\">\n              <legend>Project Budget</legend>\n              <div class=\"rk-consult-pills\">\n                <label><input type=\"radio\" name=\"budget\" value=\"Under $1,000\"><span>Under $1,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$1,000 – $3,000\"><span>$1,000 – $3,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$3,000 – $5,000\"><span>$3,000 – $5,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"$5,000 – $10,000\"><span>$5,000 – $10,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"Above $10,000\"><span>Above $10,000</span></label>\n                <label><input type=\"radio\" name=\"budget\" value=\"Not Sure Yet\"><span>Not Sure Yet</span></label>\n              </div>\n            </fieldset>\n            <label class=\"rk-consult-field\">Project Details\n              <textarea name=\"details\" required rows=\"4\" placeholder=\"Tell us about your business, your goals, and what you need help with...\" aria-describedby=\"consult-err-details\"></textarea>\n              <span class=\"rk-consult-error\" id=\"consult-err-details\" hidden>Tell us about the project.</span>\n            </label>\n            <fieldset class=\"rk-consult-choice\">\n              <legend>Preferred Contact Method</legend>\n              <div class=\"rk-consult-pills\">\n                <label><input type=\"radio\" name=\"contact_method\" value=\"WeChat\" checked><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5l-.7 2.6 2.8-1.4c.8.2 1.6.4 2.5.4.3 0 .6 0 .9-.1-.2-.6-.3-1.2-.3-1.8 0-3.3 3.1-6 6.9-6 .2 0 .5 0 .7.1C16.8 6.1 13.4 4 9.5 4zm-2 3.2a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4.2 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zM17 9.2c-3.2 0-5.8 2.2-5.8 5s2.6 5 5.8 5c.6 0 1.2-.1 1.7-.2l2.3 1.2-.6-2.1c1.4-.9 2.4-2.3 2.4-3.9 0-2.8-2.6-5-5.8-5zm-1.7 2.3a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4zm3.4 0a.7.7 0 1 1 0 1.4.7.7 0 0 1 0-1.4z\"/></svg>WeChat</span></label>\n                <label><input type=\"radio\" name=\"contact_method\" value=\"WhatsApp\"><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3zm0 1.6a7.4 7.4 0 0 1 6.3 11.3l-.2.4.7 2.6-2.7-.7-.4.2A7.4 7.4 0 1 1 12 4.6zm4.1 9.3c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1l-.6.7c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.5l.4-.5.2-.3c.1-.2 0-.3 0-.5l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.8 1.6.6 1.9.5 2.3.5.3 0 1.1-.4 1.3-.9.2-.4.2-.8.1-.9 0-.1-.2-.1-.4-.2z\"/></svg>WhatsApp</span></label>\n                <label><input type=\"radio\" name=\"contact_method\" value=\"Email\"><span><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.2 7h15.6L12 12.2zM4 16.8l5.2-3.5L4 8.6v8.2zm16 0V8.6l-5.2 4.7L20 16.8z\"/></svg>Email</span></label>\n              </div>\n            </fieldset>\n            <p class=\"rk-consult-fail\" hidden role=\"alert\">We could not send this inquiry. Email yasir@hurfi.com and try again.</p>\n            <button class=\"rk-consult-submit\" type=\"submit\">\n              <span class=\"rk-consult-send-label\">Send Your Inquiry</span>\n              <span class=\"rk-consult-send-wait\" hidden>Sending…</span>\n              <span aria-hidden=\"true\">→</span>\n            </button>\n          </form>\n          <div class=\"rk-consult-done\" hidden>\n            <h3>Inquiry received</h3>\n            <p>Hurfi has your project details and will follow up.</p>\n          </div>\n        </div>\n      </div>\n\n      <dialog class=\"rk-consult-modal\" id=\"yasir-wechat\" aria-labelledby=\"yasir-wechat-title\">\n        <div class=\"rk-consult-modal-card\">\n          <button class=\"rk-consult-close\" type=\"button\" data-close-modal aria-label=\"Close\">×</button>\n          <h3 id=\"yasir-wechat-title\">Yasir Arafat</h3>\n          <p>Head of Strategy &amp; Consulting, Hurfi</p>\n          <img src=\"/assets/yasirarafating-wechat.jpeg\" alt=\"WeChat QR code for Yasir Arafat\" width=\"720\" height=\"960\">\n          <p>Scan using WeChat to connect directly.</p>\n        </div>\n      </dialog>\n      <dialog class=\"rk-consult-modal\" id=\"shahruk-wechat\" aria-labelledby=\"shahruk-wechat-title\">\n        <div class=\"rk-consult-modal-card\">\n          <button class=\"rk-consult-close\" type=\"button\" data-close-modal aria-label=\"Close\">×</button>\n          <h3 id=\"shahruk-wechat-title\">Connect with Shahruk Karim Simanto</h3>\n          <p>China Client Relations</p>\n          <img src=\"/assets/Shahruk_Karim_Simanto_wechat.jpg\" alt=\"WeChat QR code for Shahruk Karim Simanto\" width=\"720\" height=\"960\">\n          <p>Scan this QR code using WeChat.</p>\n        </div>\n      </dialog>\n    </section>");
   }
 
   function renderWechatDock() {
@@ -1884,13 +1701,13 @@
     ensureSkipLink();
     ensureMainId();
     initHeader();
-    injectOfferBar();
     enhanceBookCtas();
     bindHeaderScroll();
     renderFaqs();
     bootSchemas();
     renderFooter();
     renderConsult();
+    jumpToConsultHash();
     renderWechatDock();
     setYear();
     initHeroWords();

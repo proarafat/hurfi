@@ -90,7 +90,7 @@ window.HURFI_SCHEMA = {
       "name": "Is the consultation free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, for a limited time. You get a clear review of your digital presence and the next steps."
+        "text": "Yes. You get a clear review of your digital presence and the next steps."
       }
     },
     {
