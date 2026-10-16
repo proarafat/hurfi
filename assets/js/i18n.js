@@ -1042,6 +1042,39 @@
   zh["Can I change the logo?"] = "可以改标志吗？";
   zh["No. Use the files on this page as they are."] = "不可以。请按本页提供的文件原样使用。";
 
+  zh["Insights"] = "洞察";
+  zh["All insights"] = "全部文章";
+  zh["Resources"] = "资源";
+  zh["City guides"] = "城市指南";
+  zh["All city guides"] = "全部城市指南";
+  zh["China directory"] = "中国城市目录";
+  zh["All industries"] = "全部行业";
+  zh["Overseas buyer inquiries"] = "海外买家询盘";
+  zh["Factory website trust signals"] = "工厂网站信任要素";
+  zh["RFQ website checklist"] = "询价型网站清单";
+  zh["Industrial product page SEO"] = "工业产品页 SEO";
+  zh["International SEO checklist"] = "国际 SEO 清单";
+  zh["AI search for manufacturers"] = "制造企业与 AI 搜索";
+  zh["Google Ads for exporters"] = "外贸企业谷歌广告";
+  zh["LinkedIn for export sales"] = "领英外贸开发";
+  zh["Trade show follow-up"] = "展会后续跟进";
+  zh["Export website speed"] = "外贸网站速度";
+  zh["Choosing an export agency"] = "如何选择外贸营销公司";
+  zh["Shenzhen"] = "深圳";
+  zh["Guangzhou"] = "广州";
+  zh["Dongguan"] = "东莞";
+  zh["Shanghai"] = "上海";
+  zh["Suzhou"] = "苏州";
+  zh["Wuxi"] = "无锡";
+  zh["Changzhou"] = "常州";
+  zh["Hangzhou"] = "杭州";
+  zh["Ningbo"] = "宁波";
+  zh["Hefei"] = "合肥";
+  zh["Wuhan"] = "武汉";
+  zh["Xiamen"] = "厦门";
+  zh["Quanzhou"] = "泉州";
+  zh["Zhongshan"] = "中山";
+  zh["Tianjin"] = "天津";
   var fr = {
     "Skip to content": "Aller au contenu",
     "Language": "Langue",
@@ -1978,6 +2011,24 @@
     "Lifetime support: ongoing updates, priority response handling, and 24/7 expert assistance.": "Support continu : mises à jour, réponse prioritaire, et assistance d’experts à toute heure.",
     "Hand-picked Hurfi specialists across strategy, marketing, SEO, AI, design, development, and China client relations.": "Spécialistes Hurfi choisis pour la stratégie, le marketing, le SEO, l’IA, le design, le développement et la relation client en Chine."
   };
+  fr["Insights"] = "Analyses";
+  fr["All insights"] = "Toutes les analyses";
+  fr["Resources"] = "Ressources";
+  fr["City guides"] = "Guides des villes";
+  fr["All city guides"] = "Tous les guides des villes";
+  fr["China directory"] = "Annuaire Chine";
+  fr["All industries"] = "Tous les secteurs";
+  fr["Overseas buyer inquiries"] = "Demandes d’acheteurs étrangers";
+  fr["Factory website trust signals"] = "Signaux de confiance d’un site d’usine";
+  fr["RFQ website checklist"] = "Liste de contrôle RFQ";
+  fr["Industrial product page SEO"] = "SEO des pages produits industriels";
+  fr["International SEO checklist"] = "Liste de contrôle SEO international";
+  fr["AI search for manufacturers"] = "Recherche IA pour fabricants";
+  fr["Google Ads for exporters"] = "Google Ads pour exportateurs";
+  fr["LinkedIn for export sales"] = "LinkedIn pour la vente export";
+  fr["Trade show follow-up"] = "Suivi après salon";
+  fr["Export website speed"] = "Vitesse du site export";
+  fr["Choosing an export agency"] = "Choisir une agence export";
 
   fr["Limited"] = "Limité";
   fr["Brand system"] = "Système de marque";

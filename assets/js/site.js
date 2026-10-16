@@ -170,19 +170,42 @@
         label: "Locations",
         path: "/locations/",
         children: [
-          { label: "China", path: "/locations/china/" },
-          { label: "Shenzhen", path: "/locations/china/#city-guangdong-shenzhen" },
-          { label: "Guangzhou", path: "/locations/china/#city-guangdong-guangzhou" },
-          { label: "Dongguan", path: "/locations/china/#city-guangdong-dongguan" },
-          { label: "Foshan", path: "/locations/china/#city-guangdong-foshan" },
-          { label: "Shanghai", path: "/locations/china/#city-shanghai-shanghai" },
-          { label: "Suzhou", path: "/locations/china/#city-jiangsu-suzhou" },
-          { label: "Wuxi", path: "/locations/china/#city-jiangsu-wuxi" },
-          { label: "Hangzhou", path: "/locations/china/#city-zhejiang-hangzhou" },
-          { label: "Ningbo", path: "/locations/china/#city-zhejiang-ningbo" },
-          { label: "Qingdao", path: "/locations/china/#city-shandong-qingdao" },
-          { label: "Hefei", path: "/locations/china/#city-anhui-hefei" },
-          { label: "Wuhan", path: "/locations/china/#city-hubei-wuhan" },
+          { label: "China directory", path: "/locations/china/" },
+          { label: "Changzhou", path: "/locations/china/changzhou/" },
+          { label: "Dongguan", path: "/locations/china/dongguan/" },
+          { label: "Guangzhou", path: "/locations/china/guangzhou/" },
+          { label: "Hangzhou", path: "/locations/china/hangzhou/" },
+          { label: "Hefei", path: "/locations/china/hefei/" },
+          { label: "Ningbo", path: "/locations/china/ningbo/" },
+          { label: "Quanzhou", path: "/locations/china/quanzhou/" },
+          { label: "Shanghai", path: "/locations/china/shanghai/" },
+          { label: "Shenzhen", path: "/locations/china/shenzhen/" },
+          { label: "Suzhou", path: "/locations/china/suzhou/" },
+          { label: "Tianjin", path: "/locations/china/tianjin/" },
+          { label: "Wuhan", path: "/locations/china/wuhan/" },
+          { label: "Wuxi", path: "/locations/china/wuxi/" },
+          { label: "Xiamen", path: "/locations/china/xiamen/" },
+          { label: "Xi'an", path: "/locations/china/xian/" },
+          { label: "Zhongshan", path: "/locations/china/zhongshan/" },
+          { label: "All city guides", path: "/locations/#city-guides" },
+        ],
+      },
+      {
+        label: "Insights",
+        path: "/insights/",
+        children: [
+          { label: "All insights", path: "/insights/" },
+          { label: "Overseas buyer inquiries", path: "/insights/overseas-buyer-inquiries/" },
+          { label: "Factory website trust signals", path: "/insights/factory-website-trust-signals/" },
+          { label: "RFQ website checklist", path: "/insights/manufacturer-website-rfq-checklist/" },
+          { label: "Industrial product page SEO", path: "/insights/industrial-product-page-seo/" },
+          { label: "International SEO checklist", path: "/insights/international-seo-checklist-for-exporters/" },
+          { label: "AI search for manufacturers", path: "/insights/ai-search-for-manufacturers/" },
+          { label: "Google Ads for exporters", path: "/insights/google-ads-for-exporters/" },
+          { label: "LinkedIn for export sales", path: "/insights/linkedin-for-factory-export-sales/" },
+          { label: "Trade show follow-up", path: "/insights/trade-show-follow-up-for-manufacturers/" },
+          { label: "Export website speed", path: "/insights/export-website-speed-for-overseas-buyers/" },
+          { label: "Choosing an export agency", path: "/insights/choosing-an-export-marketing-agency/" },
         ],
       },
       { label: "Contact Us", path: "/contact/" },
@@ -460,7 +483,7 @@
     footer.dataset.ready = "1";
     footer.innerHTML =
       '<div class="footer-card">' +
-      '<div class="footer-top">' +
+      '<div class="footer-top footer-top--6">' +
       '<nav aria-label="Footer">' +
       '<p class="footer-kicker">Navigation</p>' +
       '<ul class="footer-list">' +
@@ -472,6 +495,26 @@
       '<li><a href="/contact/">Contact</a></li>' +
       '<li><a href="/book-consultation/">Book a Consultation</a></li>' +
       '<li><a href="/brand-guidelines/">Brand Guidelines</a></li>' +
+      "</ul></nav>" +
+      '<nav aria-label="Resources">' +
+      '<p class="footer-kicker">Resources</p>' +
+      '<ul class="footer-list">' +
+      '<li><a href="/insights/">Insights</a></li>' +
+      '<li><a href="/insights/manufacturer-website-rfq-checklist/">RFQ website checklist</a></li>' +
+      '<li><a href="/insights/international-seo-checklist-for-exporters/">International SEO checklist</a></li>' +
+      '<li><a href="/insights/industrial-product-page-seo/">Industrial product page SEO</a></li>' +
+      '<li><a href="/locations/china/">China directory</a></li>' +
+      "</ul></nav>" +
+      '<nav aria-label="City guides">' +
+      '<p class="footer-kicker">City guides</p>' +
+      '<ul class="footer-list">' +
+      '<li><a href="/locations/china/shenzhen/">Shenzhen</a></li>' +
+      '<li><a href="/locations/china/guangzhou/">Guangzhou</a></li>' +
+      '<li><a href="/locations/china/shanghai/">Shanghai</a></li>' +
+      '<li><a href="/locations/china/suzhou/">Suzhou</a></li>' +
+      '<li><a href="/locations/china/ningbo/">Ningbo</a></li>' +
+      '<li><a href="/locations/china/xian/">Xi\'an</a></li>' +
+      '<li><a href="/locations/#city-guides">All city guides</a></li>' +
       "</ul></nav>" +
       '<div><p class="footer-kicker">Locations</p>' +
       '<div class="footer-place"><p class="footer-place-name">Bangladesh</p>' +

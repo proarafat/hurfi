@@ -362,5 +362,2971 @@
    "Content that explains how you support overseas customers after delivery: documents, samples, technical contact.",
    "Search work aimed at component and specification terms in the vehicle, battery, display and semiconductor supply chains."
   ]
+ },
+ "guangzhou": {
+  "slug": "guangzhou",
+  "city": "Guangzhou",
+  "province": "Guangdong",
+  "region": "gd",
+  "anchor": "city-guangdong-guangzhou",
+  "title": "Export Websites & Google SEO for Guangzhou Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Guangzhou",
+  "description": "English websites, Google SEO and RFQ pages for Guangzhou auto-parts, EV battery, electronics, electrical and medical-device makers selling abroad.",
+  "lead": "Guangzhou factories supply cars and batteries, displays and chips, appliances and medical instruments — and many meet their first overseas buyers at the Canton Fair. Hurfi helps them build the website a buyer checks after the fair, and the search visibility that brings buyers between fairs.",
+  "context_intro": "Guangzhou reports its industrial results in the annual statistical bulletin, and the municipal Industry and Information Technology Bureau publishes a separate interpretation. The 2025 figures below come from those two documents.",
+  "facts": [
+   [
+    "The bulletin names automobile, electronic products and petrochemical manufacturing as Guangzhou’s three pillar industries. Together they accounted for 46.3% of the value added of industrial enterprises above designated size in 2025.",
+    [
+     "gz-1"
+    ]
+   ],
+   [
+    "Value added in automobile manufacturing fell 1.6%, while output of new-energy vehicles rose 21.6%, lithium-ion batteries 68.8% and charging piles 47.3%.",
+    [
+     "gz-1"
+    ]
+   ],
+   [
+    "Electrical machinery and equipment value added grew 8.0%, and railway, ship, aerospace and other transport equipment 13.2%. Output of household refrigerators rose 25.4% and room air conditioners 10.1%.",
+    [
+     "gz-1"
+    ]
+   ],
+   [
+    "The Industry and IT Bureau reports special-purpose equipment up 9.4%, medical instruments and equipment up 6.6%, display devices up 16.1% and integrated-circuit manufacturing value added up 43.0%.",
+    [
+     "gz-2"
+    ]
+   ],
+   [
+    "Guangzhou’s goods exports reached 825.66 billion yuan in 2025, up 17.8%.",
+    [
+     "gz-1"
+    ]
+   ]
+  ],
+  "context_after": "The pattern is steady pillars and fast-growing newer lines: EV batteries, charging equipment, chips, displays and transport equipment. A buyer searching from abroad may compare you with Guangzhou suppliers in quite different categories, so the first screen of your site has to make your category and your role in the supply chain obvious.",
+  "clusters": [
+   [
+    "Auto parts and the EV supply chain",
+    "With car output down and NEV, battery and charger output up, parts suppliers should show which vehicle types a part is built for, the quality system behind it and what you supply for electric platforms — without naming customers you are not allowed to name.",
+    "/industries/automotive-mobility-components/"
+   ],
+   [
+    "Batteries and charging equipment",
+    "Buyers of cells, packs and chargers ask for test reports, transport documents and certificates before they ask for price. Publish them on the product page with dates and the certificate holder’s name.",
+    "/industries/battery-energy-storage/"
+   ],
+   [
+    "Electronics, displays and chips",
+    "Engineers comparing display modules or ICs search by part type and parameter. Datasheets as HTML pages, with the PDF alongside, are easier for them and for search engines to read.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Electrical equipment and appliances",
+    "Appliance and electrical buyers check certification per market, voltage variants and OEM terms. One page per product family, with variants in a table, answers those questions faster than a catalogue download.",
+    "/industries/power-grid-electrical-equipment/"
+   ],
+   [
+    "Medical instruments",
+    "Medical buyers look for registration status in their market and the quality-management standard you work to. Being precise about what is and is not approved builds more trust than a wall of logos.",
+    "/industries/medical-devices-diagnostics/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "We met you at the Canton Fair. Can we check you before we reply?",
+    "Buyers often search the company name after a fair. Your English brand name should bring up your own site first, showing the same products you exhibited."
+   ],
+   [
+    "Are you the manufacturer or a trading company?",
+    "Show the production address, the processes you run in-house and what you outsource, with photos or short videos of your own lines."
+   ],
+   [
+    "Which markets is this product certified for?",
+    "List certificates by product and market, with the certificate holder’s name and validity, on the product page itself."
+   ],
+   [
+    "What are MOQ, sample and lead-time terms?",
+    "Give ranges, or say what they depend on. A buyer who must email just to learn whether you sell samples may not email."
+   ],
+   [
+    "Who handles our account after the first order?",
+    "Name a sales or engineering contact, the languages they work in and how quickly they normally reply."
+   ]
+  ],
+  "playbook": [
+   "Search your own company name in English the way a fair visitor would. If a marketplace listing or an old domain comes up first, fix that before anything else.",
+   "Give each product line its own page, titled with the words buyers use for it (for example “EV charging cable” rather than an internal model code), with specifications in text rather than images.",
+   "Keep one trade-show page that lists the fairs you have confirmed, and link each exhibited product to its full product page, so the page stays useful after the fair closes.",
+   "Attach certificates, test reports and datasheets to the products they cover, with dates. A buyer should not need to ask for a document you already have.",
+   "Make the RFQ form ask what your sales team needs to quote — product, quantity, target market, specification — and test that it reaches a mailbox someone reads daily.",
+   "Check each page against Google’s “Who, How, and Why” questions in its guidance on [helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content): who wrote it, how the information was produced and why the page exists."
+  ],
+  "help": [
+   "We review the site you already hand to fair visitors and the inquiries it produces, and tell you what to fix first.",
+   "We draft English product pages with your engineers and sales team; you approve every technical claim before it goes live.",
+   "We set up Google Search Console in your company’s own account, so you see the same search data we do."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Guangzhou?",
+    "No. Hurfi does not have an office or staff in Guangzhou. We work with Guangzhou manufacturers remotely by WeChat, email and video call, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "We already meet buyers at the Canton Fair. Why do we need a website and SEO?",
+    "The fair is held every spring and autumn in Guangzhou. Between sessions, buyers who did not visit your booth search online, and buyers who did visit check you before they reply. A clear website and search visibility cover both groups."
+   ],
+   [
+    "Which Guangzhou industries do you work with?",
+    "Any manufacturer that sells abroad. Guangzhou’s official figures point to automotive and EV parts, batteries and chargers, electronics and displays, electrical equipment and appliances, and medical instruments, and we have sector pages for each."
+   ],
+   [
+    "Can you guarantee first-page rankings on Google?",
+    "No, and you should be careful of anyone who does. Google’s own guidance on hiring an SEO says that no one can guarantee a #1 ranking on Google. We agree targets with you and report progress from your own Search Console."
+   ],
+   [
+    "Should our site be English only, or multilingual?",
+    "Start with English for your main export markets. Add another language only when you have someone who can answer buyers in it, and give each language its own URL with hreflang annotations so search engines show the right version."
+   ],
+   [
+    "How do we prove we are a factory and not a trader?",
+    "Show the factory address, real photos and video of your lines, the processes you do in-house, your equipment list and the people buyers will deal with. Do not use stock photos of other factories."
+   ],
+   [
+    "Do you write the technical content, or do we?",
+    "We draft it from your specifications, datasheets and interviews with your engineers. Your team checks and approves every technical statement before publishing."
+   ],
+   [
+    "How soon will search bring inquiries?",
+    "It depends on your current site, the products and the competition, so we do not promise a date. We set a plan, then report impressions, clicks and inquiries from your own accounts every month."
+   ],
+   [
+    "Can you help with LinkedIn as well?",
+    "Yes. Our social media management service covers LinkedIn company pages and posts that show real production and engineering work. See our guide to LinkedIn for factory export sales."
+   ],
+   [
+    "What happens in the first consultation?",
+    "We look at your current website, the markets you sell to and the products you want to grow, and suggest where to start. The consultation is free and there is no obligation."
+   ]
+  ],
+  "sources": [
+   "gz-1",
+   "gz-2",
+   "cf",
+   "g-hc",
+   "g-seo",
+   "gdd"
+  ],
+  "sectors": [
+   "automotive-mobility-components",
+   "battery-energy-storage",
+   "electronics-semiconductor",
+   "power-grid-electrical-equipment",
+   "medical-devices-diagnostics"
+  ],
+  "insights": [
+   "trade-show-follow-up-for-manufacturers",
+   "factory-website-trust-signals",
+   "international-seo-checklist-for-exporters"
+  ],
+  "siblings": [
+   "shenzhen",
+   "dongguan",
+   "zhongshan",
+   "xiamen"
+  ],
+  "extra_claims": [
+   [
+    "The Canton Fair is held every spring and autumn in Guangzhou.",
+    "cf"
+   ],
+   [
+    "Google’s guidance on hiring an SEO says no one can guarantee a #1 ranking on Google.",
+    "g-seo"
+   ],
+   [
+    "Google suggests evaluating content by asking “Who, How, and Why”.",
+    "g-hc"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Guangzhou. We work with Guangzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site fair visitors can check: product lines with specifications in text, factory proof and an RFQ form that reaches sales.",
+   "Your English brand name and product-line searches first, so buyers who met you at the fair — and those who did not — find your own site.",
+   "Campaigns timed around fair sessions and aimed at specific products and countries, measured by RFQs in your own accounts.",
+   "LinkedIn posts from the booth, the lines and the lab, so the people who met you can follow up with someone real."
+  ],
+  "tiles": [
+   [
+    "46.3%",
+    "share of above-scale industrial value added from autos, electronics and petrochemicals"
+   ],
+   [
+    "+68.8%",
+    "lithium-ion battery output"
+   ],
+   [
+    "+43.0%",
+    "IC manufacturing value added"
+   ],
+   [
+    "+17.8%",
+    "goods exports, to 825.66 bn yuan"
+   ]
+  ],
+  "srcline": "Guangzhou Statistics Bureau and Industry & IT Bureau, 2025",
+  "zones": [
+   [
+    "Guangzhou Development District, which shares its administration with Huangpu District, says it has more than 20,000 tech enterprises and 88 listed companies, accounts for about 40% of Guangzhou’s industrial value added and has a gross industrial output above 860 billion yuan.",
+    [
+     "gdd"
+    ]
+   ],
+   [
+    "The district describes itself as anchored by five industrial clusters at the hundred-billion-yuan level and three at the ten-billion-yuan level.",
+    [
+     "gdd"
+    ]
+   ]
+  ],
+  "zones_note": "For a supplier, the district matters because it is where many of the city’s vehicle, display, battery and biomedical supply chains sit. Overseas buyers do not need the district name, but they do need to see that a factory is part of a real supply chain — and where it ships from.",
+  "logistics": [
+   [
+    "Guangzhou’s ports handled 698.6 million tonnes of cargo in 2025 (up 1.6%), of which foreign-trade cargo was 196.9 million tonnes (up 11.4%), and 28.05 million TEU of containers (up 6.0%).",
+    [
+     "gz-1"
+    ]
+   ],
+   [
+    "Baiyun International Airport handled 83.59 million passengers and 2.44 million tonnes of cargo and mail, up 9.5% and 2.4%.",
+    [
+     "gz-1"
+    ]
+   ],
+   [
+    "The Canton Fair (China Import and Export Fair) was first held in spring 1957 and takes place every spring and autumn in Guangzhou.",
+    [
+     "cf"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade was 1,240.72 billion yuan in 2025 (+10.4%): exports grew 17.8% while imports fell 1.9%, giving a trade surplus of 410.59 billion yuan.",
+    [
+     "gz-1"
+    ]
+   ]
+  ],
+  "markets": "Guangzhou’s bulletin does not break exports down by destination in the passages we checked, so we do not quote market shares here. In practice, Canton Fair visitors come from many regions, which is one reason a Guangzhou supplier’s site should make shipping regions, certifications and languages clear rather than assume one market.",
+  "challenges": [
+   "**Fair-dependent pipelines.** Many inquiries start at the Canton Fair and then go quiet. If the website does not match what was shown at the booth, the follow-up loses momentum.",
+   "**Category confusion.** Guangzhou suppliers span cars, batteries, appliances and medical devices. Generic “trading and manufacturing” home pages make it hard for a buyer to see what you actually make.",
+   "**Marketplace-first presence.** Buyers who search your company name often find a marketplace store before your own site, with different product names and photos.",
+   "**Certification gaps on the page.** Battery, charger and medical buyers ask for market-specific certificates first; when these are missing or vague, the RFQ stalls."
+  ]
+ },
+ "suzhou": {
+  "slug": "suzhou",
+  "city": "Suzhou",
+  "province": "Jiangsu",
+  "region": "yrd",
+  "anchor": "city-jiangsu-suzhou",
+  "title": "Websites & Google SEO for Suzhou Manufacturers | Hurfi",
+  "h1": "Websites and Google SEO for Suzhou manufacturers selling abroad",
+  "description": "English B2B websites and Google SEO for Suzhou electronics, equipment, new-materials and medical-instrument manufacturers that want overseas inquiries.",
+  "lead": "Suzhou is one of China’s largest industrial cities, and much of its output is electronics, equipment and advanced materials sold to engineers abroad. Hurfi helps Suzhou suppliers publish the specifications, quality evidence and application pages those engineers search for.",
+  "context_intro": "Suzhou’s statistics bureau and its Industry and Information Technology Bureau both publish 2025 results. They show the scale of the city’s industry and which product groups are growing.",
+  "facts": [
+   [
+    "Output of industrial enterprises above designated size reached 4,896.6 billion yuan in 2025, up 3.9%; industrial value added grew 7.6%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "Among the leading sectors, output of computer, communications and other electronic equipment rose 5.1%, electrical machinery and equipment 4.6% and general-purpose equipment 4.4%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "High-tech manufacturing output was 1,858.9 billion yuan, up 5.5%; within it, medical instruments and instrumentation grew 9.6% and aerospace equipment 14.0%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "The Industry and IT Bureau puts 2025 output at about 1,494.4 billion yuan for electronic information, 1,624.3 billion for equipment manufacturing, 1,021.1 billion for advanced materials and 254.8 billion for biomedicine, and says each ranks among the top three nationally.",
+    [
+     "su-2"
+    ]
+   ],
+   [
+    "Suzhou’s goods exports were 1,760.9 billion yuan, up 7.6%.",
+    [
+     "su-1"
+    ]
+   ]
+  ],
+  "context_after": "At this scale, few Suzhou suppliers are the only maker of what they make. Overseas buyers — often engineers and sourcing teams at multinationals — compare several Suzhou factories side by side. The ones that win the shortlist usually make technical detail and quality evidence easy to find.",
+  "clusters": [
+   [
+    "Electronic information",
+    "Component, module and assembly suppliers are found by part numbers, parameters and application terms. Product pages need full specifications in text and clear notes on customisation.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Equipment manufacturing",
+    "Machine and automation buyers want cycle times, tolerances, footprints and service arrangements, plus real video of the machine running.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "Advanced materials",
+    "Materials buyers search by grade, standard and property. A data-sheet page per grade, with test methods named, works better than one long catalogue.",
+    "/industries/chemicals-specialty-materials/"
+   ],
+   [
+    "Medical and laboratory instruments",
+    "Instrument makers need to state registration status per market carefully, and explain calibration, consumables and service.",
+    "/industries/medical-devices-diagnostics/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Can you match our drawing and tolerance?",
+    "Show your machining or process capability with real tolerance ranges, inspection equipment and sample reports with client details removed."
+   ],
+   [
+    "Which quality system and audits do you have?",
+    "Name the standards you are certified to, the certifying body and the scope. Note customer audits only if you have permission."
+   ],
+   [
+    "How do you handle engineering changes and documentation?",
+    "Explain your change-control and document process in plain words: who signs off, and how long changes take."
+   ],
+   [
+    "Can we see the material or component traceability?",
+    "Describe how lots are tracked from incoming material to shipment, and what records buyers receive."
+   ],
+   [
+    "Who is our engineering contact?",
+    "Introduce the engineers or project managers by name and role, with the languages they work in."
+   ]
+  ],
+  "playbook": [
+   "Map your products to the search terms engineers use: part type, standard, material grade, application. Each of those can deserve its own page when you make it.",
+   "Publish specifications as HTML tables. Keep the PDF datasheet as a download, but do not make it the only place a number appears.",
+   "Write one capability page per process (for example precision machining, SMT assembly, clean-room assembly) with equipment, tolerances and inspection methods.",
+   "Add a quality page that shows certificates with scope and expiry, inspection equipment and the reports a buyer receives with each shipment.",
+   "Use an RFQ form with a drawing upload and fields for material, quantity, tolerance and target date, so the quote can start without three rounds of email.",
+   "Follow the basics in Google’s [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide): descriptive titles, clear URLs and links between related pages. Google says it does not use the keywords meta tag, so effort goes into page content instead."
+  ],
+  "help": [
+   "We plan the site structure around your product lines and processes, and the specification searches overseas engineers make.",
+   "We build product, capability and quality pages with your engineering team, in English that reads naturally.",
+   "We report search and inquiry results from your own Google Search Console and analytics accounts."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Suzhou?",
+    "No. Hurfi has no office or staff in Suzhou. We work with Suzhou manufacturers remotely by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "Many Suzhou factories make similar products. How do we stand out online?",
+    "By being specific: exact tolerances, materials, equipment, certifications with scope, and application pages that show where your parts are used. Generic claims like “high quality” do not separate you from the next supplier."
+   ],
+   [
+    "We supply multinationals already. Do we still need SEO?",
+    "If you want new customers abroad, yes. Engineers starting a new project search for capable suppliers, and existing customers’ new sites check you online too. SEO helps them find a site that answers their questions."
+   ],
+   [
+    "Should we publish our datasheets openly?",
+    "Publish what helps a buyer shortlist you: key specifications, standards and options. Keep confidential drawings and customer-specific data behind an inquiry."
+   ],
+   [
+    "Can you handle technical English for our products?",
+    "Yes. We write from your source documents and engineer interviews, keep units and standard names exact, and ask your team to approve every technical statement."
+   ],
+   [
+    "Do we need a separate site for each market?",
+    "Usually not at first. One strong English site often works for several markets. If you add languages later, give each version its own URL and connect them with hreflang."
+   ],
+   [
+    "What does an RFQ-ready page look like?",
+    "It states what you make and to what tolerance, shows proof, and ends with a form that asks for drawing, material, quantity and date. Our RFQ checklist lists the details."
+   ],
+   [
+    "Will you promise a number of leads?",
+    "No. Lead numbers depend on your market, products and price. We set goals with you, then report inquiries and search data from your own accounts."
+   ],
+   [
+    "Can you help us appear in AI search results?",
+    "Google says there are no additional requirements to appear in AI Overviews or AI Mode beyond normal SEO best practice. Clear, accurate product pages are the best preparation."
+   ],
+   [
+    "How do we start?",
+    "Book a free consultation. We review your current site and the buyers you want, then suggest the first pages to build or fix."
+   ]
+  ],
+  "sources": [
+   "su-1",
+   "su-2",
+   "g-ssg",
+   "g-ai",
+   "sip"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "industrial-machinery-cnc",
+   "chemicals-specialty-materials",
+   "medical-devices-diagnostics",
+   "laboratory-scientific-equipment"
+  ],
+  "insights": [
+   "industrial-product-page-seo",
+   "manufacturer-website-rfq-checklist",
+   "ai-search-for-manufacturers"
+  ],
+  "siblings": [
+   "shanghai",
+   "wuxi",
+   "changzhou",
+   "hangzhou"
+  ],
+  "extra_claims": [
+   [
+    "Google does not use the keywords meta tag.",
+    "g-ssg"
+   ],
+   [
+    "Google says there are no additional requirements to appear in AI Overviews or AI Mode.",
+    "g-ai"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Suzhou. We work with Suzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "Product, process and quality pages built for engineers comparing several Suzhou suppliers side by side.",
+   "Specification and application searches — part types, grades, standards — rather than broad terms you cannot win.",
+   "Targeted search campaigns for named products in chosen countries, with drawing-upload RFQs tracked as conversions.",
+   "LinkedIn content that shows engineering, inspection and the project managers buyers will work with."
+  ],
+  "tiles": [
+   [
+    "4,896.6 bn",
+    "yuan above-scale industrial output (+3.9%)"
+   ],
+   [
+    "1,858.9 bn",
+    "yuan high-tech manufacturing output (+5.5%)"
+   ],
+   [
+    "+9.6%",
+    "medical instruments and instrumentation output"
+   ],
+   [
+    "1,760.9 bn",
+    "yuan goods exports (+7.6%)"
+   ]
+  ],
+  "srcline": "Suzhou Statistics Bureau, 2025 Statistical Bulletin",
+  "zones": [
+   [
+    "Suzhou Industrial Park (SIP), approved by the State Council in February 1994 as an intergovernmental China–Singapore cooperation project, covers 278 square kilometres including the 80-square-kilometre China–Singapore Cooperative Zone.",
+    [
+     "sip"
+    ]
+   ],
+   [
+    "In 2025 SIP reported GDP of 416.31 billion yuan (+5.5%), industrial output of 736.2 billion yuan (+6.1%) and imports and exports of 834.59 billion yuan (+20.8%), and says it has ranked first for nine consecutive years in the national evaluation of state-level economic and technological development zones.",
+    [
+     "sip"
+    ]
+   ]
+  ],
+  "zones_note": "SIP is one of several development zones in Suzhou, and it hosts many foreign-invested and supplier companies. For a Suzhou supplier, the practical point is that buyers are used to multinational supplier standards. Your website is measured against them.",
+  "logistics": [
+   [
+    "Suzhou Port handled 613 million tonnes of cargo and 10.215 million TEU in 2025, up 2.5% and 5.7%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "The city ran 562 China–Europe Railway Express trains in 2025.",
+    [
+     "su-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade reached a record 2,811.9 billion yuan (+7.4%); mechanical and electrical products were 1,393.0 billion yuan of exports (+8.1%), or 79.1%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "Trade with Belt and Road partner countries was 1,265.4 billion yuan (+17.3%); trade with ASEAN, the EU and South Korea grew 25.2%, 5.7% and 14.7%.",
+    [
+     "su-1"
+    ]
+   ],
+   [
+    "Private-enterprise output was 2,517.6 billion yuan (+7.0%), and foreign-invested (including Hong Kong, Macao and Taiwan) output 2,204.5 billion yuan (+0.3%).",
+    [
+     "su-1"
+    ]
+   ]
+  ],
+  "markets": "The figures show trade growing fastest with ASEAN and Belt and Road partners, while the EU remains a large partner. Typical Suzhou export products follow the leading sectors: electronic and communication equipment, electrical machinery, general-purpose equipment and medical instruments. A site aimed at both European engineers and Southeast Asian buyers needs clear English, standards named by region and fast loading outside China.",
+  "challenges": [
+   "**Looking like everyone else.** Many Suzhou suppliers serve similar multinational customers with similar capabilities; generic capability lists do not differentiate.",
+   "**Confidentiality.** Contract manufacturers often cannot name customers, so they need other proof: process data, certificates, inspection equipment.",
+   "**Technical depth in English.** Specifications, tolerances and standards are often only in Chinese documents or PDFs.",
+   "**Private firms without an export team.** Fast-growing private manufacturers often lack staff who can run an English website and answer RFQs quickly."
+  ]
+ },
+ "hangzhou": {
+  "slug": "hangzhou",
+  "city": "Hangzhou",
+  "province": "Zhejiang",
+  "region": "yrd",
+  "anchor": "city-zhejiang-hangzhou",
+  "title": "B2B Websites & SEO for Hangzhou Manufacturers | Hurfi",
+  "h1": "B2B websites and SEO for Hangzhou manufacturers and tech suppliers",
+  "description": "Websites, Google SEO and LinkedIn for Hangzhou equipment, EV, robotics, electronics and industrial-software suppliers looking for buyers abroad.",
+  "lead": "Hangzhou combines a large digital economy with fast-growing equipment, vehicle and robotics manufacturing. Its suppliers often sell hardware and software together, which is hard to explain on a catalogue site. Hurfi helps them explain it clearly in English and get found by overseas buyers.",
+  "context_intro": "The figures below are from Hangzhou’s 2025 statistical bulletin, issued by the municipal statistics bureau and the national survey team in Hangzhou. We quote the text as published by the city’s official newspaper, because the bureau’s own listing loads only with scripts.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 6.0% in 2025. Equipment manufacturing grew 9.4% and made up 57.2% of that value added.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Automobile manufacturing value added grew 36.7% and computer, communications and other electronic equipment 13.4%.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Output of new-energy vehicles rose 383.0%, industrial robots 38.6%, 3D printing equipment 15.1% and integrated circuits 11.7%.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Value added of the core digital-economy industries was 678.0 billion yuan, 29.5% of the city’s GDP.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Goods exports were 646.9 billion yuan, up 8.7%; mechanical and electrical exports were 310.7 billion yuan, up 10.9%, and exports to the EU 124.9 billion yuan, up 11.9%.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Private enterprises made up 89.2% of above-designated-size industrial firms and 59.5% of their value added.",
+    [
+     "hz-1"
+    ]
+   ]
+  ],
+  "context_after": "Many Hangzhou exporters are private firms selling machines, devices or vehicles with software, data or connectivity built in. Overseas buyers need to understand both parts: what the hardware does and what the software adds. A website that splits those into separate, clear pages is easier to evaluate — and easier for search engines to rank for the right searches.",
+  "clusters": [
+   [
+    "Equipment and automation",
+    "Equipment makers should show the machine, the control system and the integration options, with real installation photos and service terms by region.",
+    "/industries/industrial-automation-robotics/"
+   ],
+   [
+    "EVs and vehicle parts",
+    "With vehicle output growing fast, parts and subsystem suppliers need pages per component, with test standards and the vehicle types they support.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "Electronics and chips",
+    "Electronics suppliers are found by part type and parameter; HTML datasheets help engineers and search engines alike.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Industrial software and connected devices",
+    "Software-heavy suppliers need plain explanations of deployment, data location, integration and support — the questions IT and operations teams ask first.",
+    "/industries/industrial-software-data/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Does the software come with the hardware, or separately?",
+    "Explain licensing, updates and what happens if the subscription ends, on a page of its own."
+   ],
+   [
+    "Where is our data stored, and who can access it?",
+    "State hosting options and access rules plainly. Vague answers stop procurement reviews."
+   ],
+   [
+    "Can it integrate with our existing systems?",
+    "List supported protocols, interfaces and example integrations you can actually show."
+   ],
+   [
+    "Who supports us in our time zone and language?",
+    "Describe support hours, languages and escalation, and whether you use local partners."
+   ],
+   [
+    "Which certifications cover the export version?",
+    "List the certificates per market and model, with the holder and scope."
+   ]
+  ],
+  "playbook": [
+   "Separate hardware, software and services into their own pages, each with a clear title, so a buyer searching for one does not land on a page about another.",
+   "Write an integration page per system or protocol you support, with what works today. Avoid listing integrations that are only planned.",
+   "Publish installation case descriptions with photos you own and client names only where you have written permission.",
+   "Give support and data questions their own page — hosting, updates, response times — because procurement teams look for them before they talk to sales.",
+   "If you sell to Europe, check you have the right documents for the market: for products that need CE marking, the European Commission states that manufacturers carry out the conformity assessment and issue the EU declaration of conformity. Say on the page which models carry it.",
+   "Track demo requests and RFQs as separate conversions so you can see which pages produce which kind of inquiry."
+  ],
+  "help": [
+   "We plan a site that explains hardware, software and service separately, and links them where they belong together.",
+   "We write and optimise English pages for the searches overseas engineers and IT buyers make.",
+   "We run LinkedIn company pages that show installations, engineering and the people behind the product."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Hangzhou?",
+    "No. We do not have an office or staff in Hangzhou. We work remotely with Hangzhou companies by WeChat, email and video, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "We sell hardware with software. How should the website handle that?",
+    "Give each its own clear pages — what the device does, what the software adds, how they connect — and link between them. Buyers search for each part separately."
+   ],
+   [
+    "Do overseas buyers care about our digital features?",
+    "Often yes, but they need specifics: what data is collected, where it is stored, how updates work and what happens offline. Unclear answers slow down procurement."
+   ],
+   [
+    "Our product changes quickly. How do we keep the site current?",
+    "Use a product structure that lets you update specifications in one place, mark discontinued models clearly and keep old URLs redirecting to the replacement."
+   ],
+   [
+    "Is a Chinese website enough if we use a translation plugin?",
+    "No. Machine-translated pages often get terms wrong and miss the searches buyers make. Write the English pages properly and, if you keep a Chinese version, connect them with hreflang."
+   ],
+   [
+    "Can you guarantee rankings for “robot” or “EV” keywords?",
+    "No one can guarantee rankings. Broad terms are also rarely the best target. We focus on specific product and application searches where a qualified buyer is likely."
+   ],
+   [
+    "Do you handle LinkedIn and trade content?",
+    "Yes. We plan and publish LinkedIn posts about real installations, engineering and team, in English, and link them to the relevant website pages."
+   ],
+   [
+    "How do you measure results?",
+    "Search Console and analytics in your own accounts: impressions, clicks, demo requests and RFQs by page. We do not report vanity reach as success."
+   ],
+   [
+    "What should we prepare before the first call?",
+    "Your current website, product list, the markets you want and any existing English material. If you do not have these, we start from what you have."
+   ]
+  ],
+  "sources": [
+   "hz-1",
+   "ce",
+   "g-hl",
+   "bj"
+  ],
+  "sectors": [
+   "industrial-automation-robotics",
+   "ev-e-mobility",
+   "electronics-semiconductor",
+   "industrial-software-data",
+   "data-centers-digital-infrastructure"
+  ],
+  "insights": [
+   "ai-search-for-manufacturers",
+   "linkedin-for-factory-export-sales",
+   "industrial-product-page-seo"
+  ],
+  "siblings": [
+   "ningbo",
+   "shanghai",
+   "suzhou",
+   "hefei"
+  ],
+  "extra_claims": [
+   [
+    "The European Commission states that manufacturers carry out the conformity assessment, set up the technical file, issue the EU declaration of conformity and affix the CE marking.",
+    "ce"
+   ],
+   [
+    "Hreflang annotations connect language versions of a page.",
+    "g-hl"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Hangzhou. We work with Hangzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site that explains hardware, software and service on separate, linked pages, with integration and support details.",
+   "Pages for the product, protocol and application searches that engineers and IT buyers make, in English that reads naturally.",
+   "Demo-request and RFQ campaigns aimed at specific markets, with each tracked as its own conversion.",
+   "LinkedIn posts about installations, engineering and the team, linked to the matching website pages."
+  ],
+  "tiles": [
+   [
+    "57.2%",
+    "of above-scale industrial value added from equipment manufacturing (+9.4%)"
+   ],
+   [
+    "+38.6%",
+    "industrial robot output"
+   ],
+   [
+    "29.5%",
+    "of GDP from core digital-economy industries"
+   ],
+   [
+    "646.9 bn",
+    "yuan goods exports (+8.7%)"
+   ]
+  ],
+  "srcline": "Hangzhou 2025 Statistical Bulletin (as published by hangzhou.com.cn)",
+  "zones": [
+   [
+    "Binjiang District, which is also the Hangzhou High-tech Zone, covers 73 square kilometres; Alibaba, Geely and Hikvision are headquartered there, according to the city’s official English portal.",
+    [
+     "bj"
+    ]
+   ]
+  ],
+  "zones_note": "Binjiang is the best-known of Hangzhou’s technology districts. Many hardware suppliers sell into the ecosystems around these companies, so their websites need to explain software, connectivity and integration as well as the hardware.",
+  "logistics": [
+   [
+    "Xiaoshan International Airport connected 218 cities by the end of 2025, 54 of them international (six more than a year earlier), and handled 50.46 million passengers (+5.0%).",
+    [
+     "hz-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "By market, exports to Belt and Road partner countries were 320.7 billion yuan (+14.1%), about half of all goods exports.",
+    [
+     "hz-1"
+    ]
+   ],
+   [
+    "Private enterprises exported 498.0 billion yuan (+11.3%), 77.0% of the city’s goods exports; cross-border e-commerce exports were 152.3 billion yuan (+14.9%).",
+    [
+     "hz-1"
+    ]
+   ]
+  ],
+  "markets": "Exports are growing fastest to Belt and Road partner markets, with the EU a large and growing destination. Typical export products follow the bulletin’s growth lines: new-energy vehicles, industrial robots, 3D printing equipment, integrated circuits and connected devices. EU buyers will look for conformity information; buyers in emerging markets often need clearer explanations of service and support.",
+  "challenges": [
+   "**Hardware plus software is hard to explain.** Buyers struggle when a single page tries to sell a device, a platform and a service at once.",
+   "**Data and security questions.** Overseas IT and procurement teams ask where data is stored and how updates work before they talk to sales.",
+   "**Fast product cycles.** Pages go out of date quickly, leaving discontinued models and broken links.",
+   "**Chinese-first content.** Product pages written for domestic platforms often miss the terms overseas engineers search for."
+  ]
+ },
+ "ningbo": {
+  "slug": "ningbo",
+  "city": "Ningbo",
+  "province": "Zhejiang",
+  "region": "yrd",
+  "anchor": "city-zhejiang-ningbo",
+  "title": "Export Websites & SEO for Ningbo Manufacturers | Hurfi",
+  "h1": "Export websites and SEO for Ningbo manufacturers",
+  "description": "English websites, Google SEO and RFQ pages for Ningbo machinery, components, moulds, electrical and appliance manufacturers that export.",
+  "lead": "Ningbo sits on one of the world’s busiest ports and has more national “single champion” manufacturers than any other Chinese city. Many of them make one component very well. Hurfi helps Ningbo manufacturers show that specialism to buyers abroad, and be found when those buyers search.",
+  "context_intro": "Ningbo’s 2025 statistical bulletin sets out industrial growth, export structure and port activity. We read the full text as republished by CCPIT Ningbo, a government-affiliated trade body.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 5.3% in 2025. Equipment manufacturing value added was 321.1 billion yuan, up 5.9%, or 62.3% of the total; high-tech manufacturing grew 11.9%.",
+    [
+     "nb-1"
+    ]
+   ],
+   [
+    "Output of electronic components rose 75.0%, industrial robots 46.4% and integrated circuits 10.6%.",
+    [
+     "nb-1"
+    ]
+   ],
+   [
+    "The bulletin counts 119 national manufacturing single-champion enterprises in Ningbo, the most of any Chinese city, and 511 specialised “little giant” firms.",
+    [
+     "nb-1"
+    ]
+   ],
+   [
+    "Goods exports reached 980.8 billion yuan, up 3.7%, and mechanical and electrical products made up 58.2% of exports.",
+    [
+     "nb-1"
+    ]
+   ],
+   [
+    "Ningbo-Zhoushan Port handled 1.43 billion tonnes of cargo, first in the world for the 17th year, and 43.872 million TEU of containers, up 11.6% and third in the world.",
+    [
+     "nb-1"
+    ]
+   ]
+  ],
+  "context_after": "A single-champion company leads its national market in one narrow product. That is an export story, but only if the website tells it: what exactly you make, for which applications, at what volume and quality. Ningbo’s export mix is mostly mechanical and electrical, so buyers tend to be engineers and purchasing teams comparing specifications.",
+  "clusters": [
+   [
+    "Precision components and moulds",
+    "Component and mould suppliers win on tolerances, materials, tooling life and inspection. Show those numbers and the equipment behind them.",
+    "/industries/precision-manufacturing-components/"
+   ],
+   [
+    "Machinery and equipment",
+    "Equipment is the largest part of Ningbo industry. Machine pages need specifications, video, spare-parts policy and service arrangements abroad.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "Electrical products and appliances",
+    "Electrical buyers check certificates by market and model, voltage options and packaging for export.",
+    "/industries/power-grid-electrical-equipment/"
+   ],
+   [
+    "Robotics and electronic components",
+    "With robots and components growing fast, these suppliers should explain integration, controller compatibility and test data.",
+    "/industries/industrial-automation-robotics/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "What exactly is your specialism?",
+    "Say it in one sentence at the top of the home page, then prove it with volumes, applications and tolerances."
+   ],
+   [
+    "Can you ship from Ningbo on our schedule?",
+    "Explain lead times, packaging and the Incoterms you normally quote, without promising dates you cannot keep."
+   ],
+   [
+    "Do you make the tooling yourselves?",
+    "Describe your toolroom or mould shop, its equipment and who owns the tooling after it is paid for."
+   ],
+   [
+    "What inspection reports come with each shipment?",
+    "List the reports — dimensional, material, functional — and show an anonymised sample."
+   ],
+   [
+    "Can you support a long product life?",
+    "Explain how long you keep parts, drawings and tools available, and how you handle change notices."
+   ]
+  ],
+  "playbook": [
+   "Put your specialism in the page title and first heading of the home page, in the buyer’s words — for example “precision die-cast aluminium housings” rather than “hardware products”.",
+   "Build one page per product family with a specification table, materials, finishes and the industries it serves.",
+   "Add a manufacturing page that lists equipment, toolroom capability and inspection instruments, with photos you own.",
+   "Make export logistics easy to read: packaging, lead-time ranges, the port you ship from and the trade terms you quote.",
+   "List the product page URLs in an XML sitemap. Google notes sitemaps help larger sites and new sites get crawled efficiently.",
+   "Give the RFQ form a drawing upload and ask for annual volume, so your team can quote the right process."
+  ],
+  "help": [
+   "We plan a site structure that leads with your specialism and the product families behind it.",
+   "We write English product and capability pages with your engineers, using exact specifications.",
+   "We set up search tracking in your own accounts and report which pages bring inquiries."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Ningbo?",
+    "No. We have no office or staff in Ningbo. We work with Ningbo manufacturers remotely by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "We are a single-champion company. Can we say that on our website?",
+    "Yes, if you hold the designation. State the product it covers and the year, and link to the official list if one is published. Do not extend it to products it does not cover."
+   ],
+   [
+    "Most of our business is with a few large customers. Why invest in a website?",
+    "To reduce that dependence. New buyers search by product and specification; a website that ranks for those searches brings inquiries you would not otherwise get."
+   ],
+   [
+    "Should we show prices?",
+    "For custom parts, usually not. Show what drives the price — material, volume, tolerance, finish — and invite an RFQ with drawings."
+   ],
+   [
+    "How do we handle many product variants?",
+    "Use one page per product family with a variant table, rather than hundreds of near-identical pages. Thin, repeated pages can hurt more than help."
+   ],
+   [
+    "Do you work with mould and tooling makers?",
+    "Yes. Tooling buyers want capacity, steel grades, tool life, trial process and lead time. We help you present those clearly."
+   ],
+   [
+    "Can you help us reach buyers in specific countries?",
+    "Yes, through English pages written for those markets, search targeting and, where it fits, paid campaigns aimed at those countries."
+   ],
+   [
+    "Can you guarantee a number of inquiries?",
+    "No. We plan for qualified inquiries and report them honestly from your own accounts, but we do not promise a number."
+   ],
+   [
+    "What is the first step?",
+    "A free consultation: we review your website and products, and suggest which pages and searches to start with."
+   ]
+  ],
+  "sources": [
+   "nb-1",
+   "g-sm",
+   "g-ssg",
+   "netdz"
+  ],
+  "sectors": [
+   "precision-manufacturing-components",
+   "industrial-machinery-cnc",
+   "power-grid-electrical-equipment",
+   "industrial-automation-robotics",
+   "oem-odm"
+  ],
+  "insights": [
+   "industrial-product-page-seo",
+   "manufacturer-website-rfq-checklist",
+   "google-ads-for-exporters"
+  ],
+  "siblings": [
+   "hangzhou",
+   "shanghai",
+   "suzhou",
+   "quanzhou"
+  ],
+  "extra_claims": [
+   [
+    "Google notes that sitemaps help large sites and new sites be crawled efficiently.",
+    "g-sm"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Ningbo. We work with Ningbo manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site that leads with your specialism, with one page per product family and a clear export-logistics page.",
+   "Search work for the exact component, material and process terms buyers use, supported by an XML sitemap.",
+   "Search campaigns for named components in target countries, measured by RFQs with drawings.",
+   "LinkedIn content that shows your toolroom, inspection and production — the proof behind the specialism."
+  ],
+  "tiles": [
+   [
+    "62.3%",
+    "of above-scale industrial value added from equipment manufacturing"
+   ],
+   [
+    "119",
+    "national single-champion manufacturers, most of any Chinese city"
+   ],
+   [
+    "43.872 m",
+    "TEU at Ningbo-Zhoushan Port (+11.6%)"
+   ],
+   [
+    "980.8 bn",
+    "yuan goods exports (+3.7%)"
+   ]
+  ],
+  "srcline": "Ningbo 2025 Statistical Bulletin (as republished by CCPIT Ningbo)",
+  "zones": [
+   [
+    "Ningbo Economic and Technological Development Zone in Beilun is described by the Zhejiang government as a petrochemical and steel base built on Beilun Port, with Geely Automobile as the flagship of its automobile industry.",
+    [
+     "netdz"
+    ]
+   ],
+   [
+    "The same source says the zone’s plastic injection-moulding machine base is known as the “Capital of Plastic Injection Molding Machine in China”, and its mould-making base as “Die-casting Mold Town in China”.",
+    [
+     "netdz"
+    ]
+   ]
+  ],
+  "zones_note": "Beilun’s injection-moulding machinery and die-casting moulds are good examples of Ningbo’s narrow, deep specialisms — exactly the kind of capability that needs specific product and process pages.",
+  "logistics": [
+   [
+    "At the end of 2025 Ningbo-Zhoushan Port had 309 container routes, 151 of them ocean trunk routes.",
+    [
+     "nb-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Ningbo traded directly with 234 countries and regions. Trade with Belt and Road partner countries was 741.3 billion yuan (+8.8%), with the EU 251.1 billion yuan (+5.1%) and with ASEAN 216.2 billion yuan (+15.2%).",
+    [
+     "nb-1"
+    ]
+   ],
+   [
+    "Private enterprises accounted for 77.9% of the city’s trade.",
+    [
+     "nb-1"
+    ]
+   ]
+  ],
+  "markets": "With trade partners in 234 countries and regions, Ningbo exporters sell everywhere, but the bulletin shows the EU and ASEAN as large partners and ASEAN growing fastest. Typical products include machinery, moulds, electrical products, electronic components and industrial robots. Specification pages written for engineers in both regions — metric units, standards named, export packaging explained — fit this mix.",
+  "challenges": [
+   "**Specialists who look like generalists.** Many single-champion firms hide their specialism behind a long, generic product list.",
+   "**Dependence on a few large customers.** Companies that grew through long-term OEM contracts often have little online presence for new buyers to find.",
+   "**Drawings and confidentiality.** Mould and component makers cannot show customer parts, so they need process and capability proof instead.",
+   "**Logistics questions unanswered.** Buyers want packaging, lead-time and trade-term information that is rarely on the site."
+  ]
+ },
+ "shanghai": {
+  "slug": "shanghai",
+  "city": "Shanghai",
+  "province": "Shanghai",
+  "region": "yrd",
+  "anchor": "city-shanghai-shanghai",
+  "title": "Industrial Websites & Google SEO for Shanghai Suppliers | Hurfi",
+  "h1": "Industrial websites and Google SEO for Shanghai manufacturers",
+  "description": "English websites and Google SEO for Shanghai semiconductor, aerospace, marine, automotive, new-energy and high-end equipment manufacturers selling abroad.",
+  "lead": "Shanghai’s factories make chips, aircraft and ship equipment, vehicles and high-end machinery, and many already sell to global companies. For them, the website is less about being found once and more about passing a technical and compliance review. Hurfi helps Shanghai manufacturers build sites that pass it — and rank for the searches that start it.",
+  "context_intro": "The Shanghai Municipal Bureau of Statistics publishes an annual bulletin and an earlier review of the year. The 2025 figures below come from both.",
+  "facts": [
+   [
+    "Output of industrial enterprises above designated size was 4,068.7 billion yuan in 2025, up 4.6%.",
+    [
+     "sh-1"
+    ]
+   ],
+   [
+    "Output of strategic emerging industries was 1,829.7 billion yuan, 45.0% of above-designated-size industrial output.",
+    [
+     "sh-1"
+    ]
+   ],
+   [
+    "By sector, output of railway, ship, aerospace and other transport equipment rose 15.8%, electrical machinery 11.1%, automobiles 7.8% and electronic equipment 7.7%.",
+    [
+     "sh-2"
+    ]
+   ],
+   [
+    "Integrated-circuit manufacturing grew 15.1%, AI-related manufacturing 13.6%, new energy 12.9% and high-end equipment 11.1%.",
+    [
+     "sh-2"
+    ]
+   ],
+   [
+    "Goods exports were 2.02 trillion yuan, up 10.8%; exports of the “new three” products were 0.16 trillion yuan, up 17.4%, with electric-vehicle exports up 13.8%.",
+    [
+     "sh-2"
+    ]
+   ]
+  ],
+  "context_after": "Shanghai’s growth is concentrated in technically demanding sectors where buyers run supplier qualification before they buy. Engineers, quality teams and compliance staff each read your website with different questions. A good Shanghai supplier site gives each of them a page to find their answer.",
+  "clusters": [
+   [
+    "Semiconductors and electronics",
+    "IC and electronics suppliers are evaluated on process, reliability data and supply continuity. Publish what you can and say what is available under NDA.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Aerospace and marine equipment",
+    "These buyers look for quality-system approvals, traceability and the programmes you are allowed to mention. Precision matters more than volume of text.",
+    "/industries/aerospace-aviation-supply-chain/"
+   ],
+   [
+    "Automotive and new energy",
+    "Vehicle, battery and solar suppliers need test standards, certification by market and production capacity stated plainly.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "High-end equipment",
+    "Equipment buyers expect specifications, installation references and a clear service model in their region.",
+    "/industries/industrial-machinery-cnc/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Will you pass our supplier qualification?",
+    "Publish your certifications with scope, your quality manual summary and the audit types you have passed, where you are allowed to say so."
+   ],
+   [
+    "Can you provide reliability or test data?",
+    "Show typical test results and the standards used; offer full reports under NDA."
+   ],
+   [
+    "How do you protect our IP?",
+    "Explain NDA practice, data access, and how drawings are stored and shared."
+   ],
+   [
+    "Is your capacity enough for our programme?",
+    "State capacity ranges and how you scale, rather than claiming unlimited capacity."
+   ],
+   [
+    "Who are your engineering counterparts?",
+    "Introduce the people who handle technical questions, with roles and languages."
+   ]
+  ],
+  "playbook": [
+   "Create pages for each evaluator: a technical page for engineers, a quality page for quality teams, and a compliance page for certifications and export documents.",
+   "Use exact names for standards and approvals, and the issuing body. Do not use logos of approvals you do not hold.",
+   "Write application pages that explain where your product is used and what problem it solves, with figures you can stand behind.",
+   "If you serve buyers in several countries, choose a clear URL structure. Google’s guide to [multi-regional and multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) compares country domains, subdomains and subdirectories.",
+   "Put a named contact and a short response promise on every product page, so a qualified buyer knows who will answer.",
+   "Measure RFQs and document requests separately; a datasheet request from an engineer is a different signal from a price request."
+  ],
+  "help": [
+   "We structure the site around the people who evaluate you: engineering, quality, compliance and purchasing.",
+   "We write precise English pages from your source documents and check every claim with your team.",
+   "We plan search work around specification and application searches, not broad terms you cannot win."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Shanghai?",
+    "No. Hurfi has no office or staff in Shanghai. We work with Shanghai companies remotely by WeChat, email and video, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "We already sell to global companies. What does a better website add?",
+    "It shortens supplier qualification for new buyers and makes you findable for new projects. Engineers often check a supplier’s site before agreeing to a first call."
+   ],
+   [
+    "How much technical detail should we publish?",
+    "Enough for a buyer to decide you are worth a call: key specifications, standards and capabilities. Keep confidential data for after an NDA, and say on the page that it is available."
+   ],
+   [
+    "Should we use a .com, a country domain or subfolders?",
+    "For most exporters a single .com with language or country subfolders is simplest to run. Google documents the trade-offs of each option."
+   ],
+   [
+    "Can you write for aerospace or semiconductor buyers?",
+    "Yes, from your own documents and with your engineers’ review. We do not invent specifications, approvals or customer names."
+   ],
+   [
+    "Can you mention our customers on the site?",
+    "Only with written permission. Otherwise we describe the application and sector without naming the customer."
+   ],
+   [
+    "Do you run paid campaigns too?",
+    "Yes, where they make sense — usually for specific product searches in specific countries, measured by RFQs from your own accounts."
+   ],
+   [
+    "Can you promise results by a set date?",
+    "No. Search results depend on competition and your current site. We set milestones, report progress monthly and change the plan when the data says so."
+   ],
+   [
+    "How do we start working together?",
+    "Book a free consultation. We look at your site, products and target buyers, then suggest a first scope."
+   ]
+  ],
+  "sources": [
+   "sh-1",
+   "sh-2",
+   "g-mr",
+   "lg"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "aerospace-aviation-supply-chain",
+   "marine-shipbuilding-supply-chain",
+   "ev-e-mobility",
+   "industrial-machinery-cnc"
+  ],
+  "insights": [
+   "international-seo-checklist-for-exporters",
+   "factory-website-trust-signals",
+   "choosing-an-export-marketing-agency"
+  ],
+  "siblings": [
+   "suzhou",
+   "hangzhou",
+   "ningbo",
+   "wuxi"
+  ],
+  "extra_claims": [
+   [
+    "Google documents the options for multi-regional sites: country-code domains, subdomains and subdirectories.",
+    "g-mr"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Shanghai. We work with Shanghai manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site with a page for each evaluator — engineering, quality, compliance, purchasing — so supplier qualification goes faster.",
+   "Specification and application searches, on a URL structure that suits the markets you serve.",
+   "Campaigns for specific products in specific countries, with datasheet requests and RFQs tracked separately.",
+   "LinkedIn content that introduces your engineers and shows real capability without exposing customers."
+  ],
+  "tiles": [
+   [
+    "4,068.7 bn",
+    "yuan above-scale industrial output (+4.6%)"
+   ],
+   [
+    "45.0%",
+    "of that output from strategic emerging industries"
+   ],
+   [
+    "+15.1%",
+    "integrated-circuit manufacturing"
+   ],
+   [
+    "2.02 tn",
+    "yuan goods exports (+10.8%)"
+   ]
+  ],
+  "srcline": "Shanghai Municipal Bureau of Statistics, 2025",
+  "zones": [
+   [
+    "The Lin-gang Special Area of the China (Shanghai) Pilot Free Trade Zone was set up under a State Council plan issued on 6 August 2019 and covers 819 square kilometres.",
+    [
+     "lg"
+    ]
+   ],
+   [
+    "Its industrial policies focus on four priority industries — integrated circuits, artificial intelligence, biomedicine and aerospace — and also support high-end equipment, intelligent connected vehicles, new materials and new energy.",
+    [
+     "lg"
+    ]
+   ]
+  ],
+  "zones_note": "Lin-gang is one of several Shanghai zones with a technology focus. Suppliers to chip, aerospace and biomedical manufacturers there face strict qualification, which is why their websites need technical, quality and compliance detail.",
+  "logistics": [
+   [
+    "Shanghai’s port handled 885.38 million tonnes of cargo (+2.5%) and 55.06 million TEU (+6.9%) in 2025; 53.0% of containers were water-to-water transshipment.",
+    [
+     "sh-1"
+    ]
+   ],
+   [
+    "Pudong and Hongqiao airports handled 4.54 million tonnes of cargo and mail (+7.9%), 4.10 million tonnes of it at Pudong.",
+    [
+     "sh-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade was 4,510.3 billion yuan (+5.6%), with imports up 1.8%.",
+    [
+     "sh-1"
+    ]
+   ],
+   [
+    "By market, exports to the EU were 325.7 billion yuan (+8.5%) and to ASEAN 322.1 billion yuan (+26.5%).",
+    [
+     "sh-1"
+    ]
+   ]
+  ],
+  "markets": "Exports to ASEAN grew more than three times as fast as exports to the EU in 2025, and the two are now similar in size. Typical exports follow the bulletin: electric vehicles and batteries, electrical machinery, integrated circuits, and transport equipment. Websites aimed at both regions should be explicit about standards, certifications and support arrangements per market.",
+  "challenges": [
+   "**Qualification, not discovery, is the bottleneck.** Buyers already know Shanghai; what slows them down is missing quality, compliance and capacity information.",
+   "**Multiple evaluators.** Engineers, quality staff and purchasing each look for different evidence, and most sites only serve one of them.",
+   "**IP sensitivity.** Suppliers must show capability without exposing customer designs.",
+   "**International site structure.** Companies serving several markets often have duplicated, inconsistent country sites."
+  ]
+ },
+ "wuhan": {
+  "slug": "wuhan",
+  "city": "Wuhan",
+  "province": "Hubei",
+  "region": "central",
+  "anchor": "city-hubei-wuhan",
+  "title": "Export Websites & SEO for Wuhan Manufacturers | Hurfi",
+  "h1": "Export websites and SEO for Wuhan manufacturers",
+  "description": "English websites and Google SEO for Wuhan optical-fibre, photonics, electronics, automotive and electrical-equipment manufacturers selling abroad.",
+  "lead": "Wuhan makes optical fibre on a very large scale, and its electronics, vehicle and electrical-equipment output is growing fast. Buyers abroad often know the products but not the suppliers. Hurfi helps Wuhan manufacturers become the suppliers those buyers find and can check.",
+  "context_intro": "The Wuhan Statistics Bureau’s 2025 bulletin and the Wuhan Bureau of Commerce’s review of the year give these figures.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 6.2% in 2025. Computer, communications and other electronic equipment grew 18.9%, automobiles 11.7% and electrical machinery and equipment 11.5%.",
+    [
+     "wh-1"
+    ]
+   ],
+   [
+    "High-tech manufacturing value added grew 16.6% and accounted for 26.2% of above-designated-size industry.",
+    [
+     "wh-1"
+    ]
+   ],
+   [
+    "Wuhan produced 130.49 million kilometres of optical fibre (up 2.1%), 19.88 million computers (up 46.0%), 69.51 million mobile phones (up 11.3%) and 811,000 vehicles (up 2.3%).",
+    [
+     "wh-1"
+    ]
+   ],
+   [
+    "The Bureau of Commerce reports output of 3D printing equipment up 86.5%, new-energy vehicles up 40.2% and industrial robots up 21.5%.",
+    [
+     "wh-2"
+    ]
+   ],
+   [
+    "Wuhan’s exports were 296.85 billion yuan, up 13.2%.",
+    [
+     "wh-2"
+    ]
+   ]
+  ],
+  "context_after": "Optical fibre, lasers and photonic components are bought by engineers who read specifications closely. Electronics and vehicle parts are bought on quality systems and capacity. In both cases, a Wuhan supplier’s website has to carry real technical content — and that content is also what search engines rank.",
+  "clusters": [
+   [
+    "Optical fibre and photonics",
+    "Fibre, laser and optical-component buyers search by wavelength, power, fibre type and standard. Each product family needs a specification page those searches can find.",
+    "/industries/optics-photonics/"
+   ],
+   [
+    "Electronics",
+    "Computer, phone and component output is growing. Contract and component suppliers should show processes, test capability and certifications.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Automotive and EV parts",
+    "Parts suppliers need component pages with standards, materials and the vehicle types supported.",
+    "/industries/automotive-mobility-components/"
+   ],
+   [
+    "Electrical equipment and 3D printing",
+    "Electrical and additive-manufacturing suppliers should explain specifications, materials and service in the buyer’s market.",
+    "/industries/power-grid-electrical-equipment/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "What are the exact optical or electrical specifications?",
+    "Publish them as text tables with test conditions, not only in images or PDFs."
+   ],
+   [
+    "Which standards do your products meet?",
+    "Name the standard and edition, and which models are tested to it."
+   ],
+   [
+    "Can you customise wavelength, length, connector or housing?",
+    "List the options you offer and what changes the lead time."
+   ],
+   [
+    "Do you have test equipment in-house?",
+    "Show the instruments and the tests you run on each batch."
+   ],
+   [
+    "How do you ship sensitive components?",
+    "Describe packaging, handling and the documents that travel with the goods."
+   ]
+  ],
+  "playbook": [
+   "List every product family and the specification terms engineers use for it. Each important combination of type and application can be its own page.",
+   "Write specification tables in HTML with units and test conditions. Offer the PDF datasheet too, but never only the PDF.",
+   "Add application pages — for example telecom, sensing, medical or industrial laser use — that link to the products used in each.",
+   "Use Product structured data on product pages where it fits. Google describes [Product snippets](https://developers.google.com/search/docs/appearance/structured-data/product) for pages that are not purchase pages, which suits most B2B catalogues.",
+   "Create a testing and quality page with your instruments and procedures, because photonics buyers ask about test data early.",
+   "Add a short inquiry form on each product page that asks for specification and quantity, so the quote can start straight away."
+  ],
+  "help": [
+   "We plan product and application pages around the specifications engineers search for.",
+   "We write technical English with your engineers and keep units, standards and model names exact.",
+   "We add structured data, check page speed and report results from your own Search Console."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Wuhan?",
+    "No. Hurfi does not have an office or staff in Wuhan. We work remotely with Wuhan manufacturers by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "We make optical components. Will buyers really find us through Google?",
+    "Engineers often search by product type and specification. If your pages publish those specifications clearly, they can rank for the searches that matter."
+   ],
+   [
+    "Should every product variant have its own page?",
+    "Not always. Give a page to each product family or important application, and handle minor variants in a table. Hundreds of near-identical pages rarely help."
+   ],
+   [
+    "Do we need structured data?",
+    "It helps search engines understand product pages and can make them eligible for richer results. It does not replace good content and does not guarantee any display."
+   ],
+   [
+    "Can you write about lasers and fibre without errors?",
+    "We work from your datasheets and test reports, and your engineers review every technical statement before it is published."
+   ],
+   [
+    "We also sell through distributors. Will a website conflict with them?",
+    "It does not have to. Many manufacturers list distributors by region on their site and route inquiries accordingly."
+   ],
+   [
+    "Which markets should we target first?",
+    "The ones where you already have certification, logistics and someone who can answer. We can help compare markets using search data."
+   ],
+   [
+    "Can you promise results?",
+    "We promise a clear plan and honest reporting, not rankings or lead numbers. Google itself warns that no one can guarantee a #1 ranking."
+   ],
+   [
+    "How do we begin?",
+    "Book a free consultation and share your product list. We will suggest which product and application pages to build first."
+   ]
+  ],
+  "sources": [
+   "wh-1",
+   "wh-2",
+   "g-prod",
+   "g-seo",
+   "ovc"
+  ],
+  "sectors": [
+   "optics-photonics",
+   "electronics-semiconductor",
+   "automotive-mobility-components",
+   "power-grid-electrical-equipment",
+   "laboratory-scientific-equipment"
+  ],
+  "insights": [
+   "industrial-product-page-seo",
+   "export-website-speed-for-overseas-buyers",
+   "overseas-buyer-inquiries"
+  ],
+  "siblings": [
+   "hefei",
+   "xian",
+   "changzhou",
+   "shanghai"
+  ],
+  "extra_claims": [
+   [
+    "Google describes Product snippets for non-purchase pages and merchant listings for purchase pages.",
+    "g-prod"
+   ],
+   [
+    "Google says no one can guarantee a #1 ranking on Google.",
+    "g-seo"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Wuhan. We work with Wuhan manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "Product-family and application pages with HTML specification tables and test data that photonics and electronics engineers can read.",
+   "Specification searches — wavelength, fibre type, standard — supported by Product structured data where it fits.",
+   "Campaigns for named products in chosen markets, with inquiry forms that ask for specification and quantity.",
+   "LinkedIn content that shows test labs, engineers and production, giving buyers a second place to check you."
+  ],
+  "tiles": [
+   [
+    "+18.9%",
+    "electronics value added"
+   ],
+   [
+    "130.49 m km",
+    "optical fibre produced (+2.1%)"
+   ],
+   [
+    "+86.5%",
+    "3D printing equipment output"
+   ],
+   [
+    "296.85 bn",
+    "yuan exports (+13.2%)"
+   ]
+  ],
+  "srcline": "Wuhan Statistics Bureau and Bureau of Commerce, 2025",
+  "zones": [
+   [
+    "The Wuhan East Lake High-tech Development Zone, also known as Optics Valley of China, was founded in 1988 and was recognised as the National Optoelectronic Information Industrial Base in 2001.",
+    [
+     "ovc"
+    ]
+   ],
+   [
+    "The zone’s official profile lists a planned area of 518 square kilometres, 42 institutes of higher learning and eight industrial parks, including the Optics Valley Optoelectronic Information Industrial Park, Biolake and the Wuhan East Lake Free Trade Zone.",
+    [
+     "ovc"
+    ]
+   ]
+  ],
+  "zones_note": "Optics Valley is where Wuhan’s fibre, laser and optoelectronics companies concentrate, close to universities. Their buyers are engineers, so their websites must carry specification-level detail.",
+  "logistics": [
+   [
+    "China–Europe Railway Express services from Wuhan ran 1,168 trains in 2025, 160 more than in 2024 (+15.9%).",
+    [
+     "wh-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade was 454.85 billion yuan (+12.7%), with imports up 11.9%.",
+    [
+     "wh-1"
+    ]
+   ],
+   [
+    "Trade with Belt and Road partner countries was 212.19 billion yuan (+10.4%).",
+    [
+     "wh-1"
+    ]
+   ]
+  ],
+  "markets": "The figures we checked show strong trade growth with Belt and Road partner countries; the bulletin passages do not give an EU or US breakdown, so we do not quote one. For photonics and electronics suppliers, buyers in telecom, industrial laser and research markets usually compare datasheets first, wherever they are.",
+  "challenges": [
+   "**Specifications locked in PDFs.** Optical and electrical parameters are often only in datasheets, which are harder for search engines and engineers to scan.",
+   "**Variant overload.** Fibre and laser products come in many variants; sites either hide them or create hundreds of thin pages.",
+   "**Low brand awareness abroad.** Buyers may know the product category but not Wuhan suppliers by name.",
+   "**Long sales cycles.** Engineering evaluations take months, so sites need content that keeps working between contacts."
+  ]
+ },
+ "xiamen": {
+  "slug": "xiamen",
+  "city": "Xiamen",
+  "province": "Fujian",
+  "region": "fj",
+  "anchor": "city-fujian-xiamen",
+  "title": "Export Websites & Google SEO for Xiamen Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for Xiamen manufacturers",
+  "description": "English websites, Google SEO and inquiry pages for Xiamen electronics, machinery, electrical, metal-products and pharmaceutical manufacturers.",
+  "lead": "Xiamen’s industry is led by electronics and machinery, with fast growth in electrical equipment and metal products. Most of these factories sell to buyers who never visit Fujian before the first order. Hurfi helps Xiamen manufacturers make that first, remote check easy.",
+  "context_intro": "Xiamen’s statistics bureau publishes a detailed annual bulletin. The 2025 figures below are taken from it.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 10.2% in 2025.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "The three largest sectors grew quickly: computer, communications and other electronic equipment by 15.3%, electrical machinery and equipment by 19.0%, and metal products by 54.7%. Together they made up 49.7% of above-designated-size industrial value added.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "Electronics and machinery are named as the city’s two pillar industries: 1,612 enterprises, 51.8% of the above-designated-size total, producing 61.6% of output (electronics 28.0%, machinery 33.6%).",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "High-tech manufacturing value added grew 18.1% and made up 41.3% of the total; railway, ship, aerospace and other transport equipment grew 17.5% and pharmaceuticals 17.6%.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "Goods exports were 540.76 billion yuan, up 8.6%.",
+    [
+     "xm-1"
+    ]
+   ]
+  ],
+  "context_after": "Two industries produce most of Xiamen’s output, but the fastest growth is in electrical equipment and metal products. That means many Xiamen suppliers are either new to export or entering new product lines. Their websites need to explain the new line as clearly as the old one, rather than hiding it on a generic “products” page.",
+  "clusters": [
+   [
+    "Electronics",
+    "Electronics and component makers should publish specifications in text, the processes they run in-house and the tests each batch goes through.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Machinery and electrical equipment",
+    "Machinery and electrical buyers compare specifications, certificates by market and after-sales arrangements. A page per product family keeps that comparison simple.",
+    "/industries/power-grid-electrical-equipment/"
+   ],
+   [
+    "Metal products and precision parts",
+    "Metal-products suppliers win on materials, tolerances, finishes and capacity. Show the equipment and inspection behind each process.",
+    "/industries/precision-manufacturing-components/"
+   ],
+   [
+    "Pharmaceuticals and medical products",
+    "Pharma and medical suppliers must be exact about registrations, GMP status and documents per market.",
+    "/industries/pharma-bioprocess-manufacturing/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Is this a new product line for you?",
+    "Say how long you have made it, what equipment you use and which tests it has passed. Honesty here builds trust."
+   ],
+   [
+    "Can you send samples to us quickly?",
+    "Explain sample policy, typical sample lead time and who pays freight."
+   ],
+   [
+    "Which materials and finishes are available?",
+    "List them in a table on the product page, with standards where relevant."
+   ],
+   [
+    "Do you have export experience to our country?",
+    "Name the regions you ship to and the documents you prepare, without naming customers unless allowed."
+   ],
+   [
+    "How do we pay and what are the terms?",
+    "Describe accepted payment methods and the usual terms so buyers know what to expect."
+   ]
+  ],
+  "playbook": [
+   "Give every product line its own section of the site, including new ones, with a clear English name and a short description of the application.",
+   "Add a capability page per process — for example stamping, CNC, surface treatment or SMT — with equipment lists and tolerance ranges.",
+   "Put certificates and test reports on the product pages they cover. Buyers look there first.",
+   "Write a sample-and-order page: sample policy, MOQ ranges, lead-time ranges, payment terms. It answers the questions that delay the first reply.",
+   "Check that pages load quickly on a phone abroad. Google’s Web Vitals guidance sets “good” thresholds of 2.5 seconds for Largest Contentful Paint, 200 milliseconds for Interaction to Next Paint and 0.1 for Cumulative Layout Shift.",
+   "Track RFQ form submissions and email clicks in analytics, so you can see which product pages actually produce inquiries."
+  ],
+  "help": [
+   "We plan the site around your product lines, including the new ones you want to grow.",
+   "We write English product, capability and terms pages with your sales and engineering team.",
+   "We check speed and mobile usability and report search and inquiry data from your own accounts."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Xiamen?",
+    "No. Hurfi does not have an office or staff in Xiamen. We work with Xiamen manufacturers remotely by WeChat, email and video, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "We are adding a new product line. Should it get its own website?",
+    "Usually not. A clear section on your main site, with its own product pages, benefits from the trust your site already has. A separate site starts from zero."
+   ],
+   [
+    "How do we show quality without naming customers?",
+    "Describe processes, inspection equipment, certificates and anonymised test reports. These convince buyers more than logos you are not allowed to use."
+   ],
+   [
+    "Should we target Google or B2B marketplaces?",
+    "Both can work. Marketplaces bring inquiries inside the platform; your own site is where buyers check you and where search traffic arrives. We help with the site and search side."
+   ],
+   [
+    "Our site is slow from abroad. Does that matter?",
+    "Yes. Slow pages lose buyers before they read anything. We measure speed from outside China and fix images, hosting and scripts."
+   ],
+   [
+    "Can you write for pharmaceutical or medical products?",
+    "Yes, carefully. We state registrations and GMP status exactly as your documents show, and your regulatory team approves the text."
+   ],
+   [
+    "Do you run Google Ads?",
+    "Yes, as part of digital marketing, when there is a clear product and market to target and conversion tracking is in place."
+   ],
+   [
+    "Can you guarantee more inquiries?",
+    "No. We plan for qualified inquiries and report them honestly from your own accounts. We do not promise numbers or rankings."
+   ],
+   [
+    "How do we get started?",
+    "Book a free consultation. We review your site and product lines and suggest where to begin."
+   ]
+  ],
+  "sources": [
+   "xm-1",
+   "wd-cwv",
+   "g-pe",
+   "xmt",
+   "cifit"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "power-grid-electrical-equipment",
+   "precision-manufacturing-components",
+   "pharma-bioprocess-manufacturing",
+   "industrial-machinery-cnc"
+  ],
+  "insights": [
+   "export-website-speed-for-overseas-buyers",
+   "factory-website-trust-signals",
+   "google-ads-for-exporters"
+  ],
+  "siblings": [
+   "quanzhou",
+   "guangzhou",
+   "shenzhen",
+   "ningbo"
+  ],
+  "extra_claims": [
+   [
+    "web.dev sets good thresholds of 2.5 s LCP, 200 ms INP and 0.1 CLS.",
+    "wd-cwv"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Xiamen. We work with Xiamen manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site that gives every product line, including new ones, its own section, plus a sample-and-order page.",
+   "Product and process searches in English, on pages fast enough for buyers on phones abroad.",
+   "Search campaigns for the lines you want to grow, with RFQs and email clicks tracked as conversions.",
+   "LinkedIn content that shows your processes and inspection, so new buyers can check you before the first order."
+  ],
+  "tiles": [
+   [
+    "+10.2%",
+    "above-scale industrial value added"
+   ],
+   [
+    "61.6%",
+    "of output from electronics and machinery"
+   ],
+   [
+    "+54.7%",
+    "metal products value added"
+   ],
+   [
+    "540.76 bn",
+    "yuan goods exports (+8.6%)"
+   ]
+  ],
+  "srcline": "Xiamen Statistics Bureau, 2025 Statistical Bulletin",
+  "zones": [
+   [
+    "Xiamen Torch Development Zone for High Technology Industries was approved in the first batch of national high-tech zones in March 1991.",
+    [
+     "xmt"
+    ]
+   ],
+   [
+    "The Fujian Department of Commerce lists the zone’s six pillar industries as flat-panel displays, computer and telecom equipment, electric power equipment, software and information services, microelectronics and integrated circuits, and LED.",
+    [
+     "xmt"
+    ]
+   ]
+  ],
+  "zones_note": "The Torch zone explains much of Xiamen’s electronics and electrical-equipment output. Suppliers in these chains sell to engineers and need specification-level pages.",
+  "logistics": [
+   [
+    "Xiamen’s port handled 211 million tonnes of cargo (+0.3%) and 12.51 million TEU (+2.1%) in 2025.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "Xiamen airport had routes to 147 airports (138 cities); international and regional passenger traffic rose 11.9% to 4.20 million.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "The China International Fair for Investment and Trade (CIFIT), hosted by China’s Ministry of Commerce, is held every year from 8 to 11 September in Xiamen.",
+    [
+     "cifit"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade was 960.02 billion yuan in 2025 (+3.0%): exports grew 8.6% while imports fell 3.5%.",
+    [
+     "xm-1"
+    ]
+   ],
+   [
+    "Trade with Belt and Road partner countries was 494.11 billion yuan (+6.8%) and with RCEP countries 324.91 billion yuan (+1.1%).",
+    [
+     "xm-1"
+    ]
+   ]
+  ],
+  "markets": "About half of Xiamen’s trade is with Belt and Road partner countries, and a third with RCEP partners in Asia-Pacific. Typical export products come from the pillar industries: displays, computers and telecom equipment, electrical machinery, metal products and pharmaceuticals. That mix calls for English pages that also work for buyers whose first language is not English: clear specifications, simple wording and visual proof.",
+  "challenges": [
+   "**New product lines without pages.** Fast growth in metal products and electrical equipment means many factories sell products their website does not yet show.",
+   "**Investment fair, not a sourcing fair.** CIFIT is an investment event; most product buyers still find suppliers through search, marketplaces and referrals.",
+   "**Speed abroad.** Sites hosted in mainland China often load slowly for buyers in Southeast Asia and Europe.",
+   "**Pharma compliance language.** Medical and pharma exporters need precise regulatory wording that generic agencies often get wrong."
+  ]
+ },
+ "quanzhou": {
+  "slug": "quanzhou",
+  "city": "Quanzhou",
+  "province": "Fujian",
+  "region": "fj",
+  "anchor": "city-fujian-quanzhou",
+  "title": "Export Websites & SEO for Quanzhou Manufacturers | Hurfi",
+  "h1": "Export websites and SEO for Quanzhou manufacturers and brands",
+  "description": "English websites, Google SEO and LinkedIn for Quanzhou textile, footwear and apparel, sports-goods, machinery, packaging and paper manufacturers.",
+  "lead": "Quanzhou is a private-manufacturing city: textiles and apparel, sports and craft goods, machinery, plastics and paper. Many of its factories make for other brands; some are building their own. Hurfi helps both kinds explain what they make and win buyers abroad.",
+  "context_intro": "Quanzhou’s 2025 statistical bulletin and the city government’s interpretation of the year’s economy give the figures below.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 7.0% in 2025, with manufacturing up 7.4% and light industry up 8.8%.",
+    [
+     "qz-1"
+    ]
+   ],
+   [
+    "Among the fastest-growing sectors were stationery, crafts, sports and entertainment goods (up 33.8%), general-purpose equipment (up 23.1%), textiles (up 19.3%), rubber and plastic products (up 19.3%) and paper (up 18.6%).",
+    [
+     "qz-1"
+    ]
+   ],
+   [
+    "The government’s interpretation says that eight of Quanzhou’s nine industries at the 100-billion-yuan level grew in 2025, with machinery and equipment up 11.0%, craft products 11.4% and paper and printing 13.4%.",
+    [
+     "qz-2"
+    ]
+   ]
+  ],
+  "context_after": "Light industry and consumer goods grew faster than heavy industry. For export, that often means OEM and ODM work for overseas brands, alongside factories building brands of their own. Buyers in both cases want to see design capability, materials, compliance and capacity — and they want to know whether you will work for them or compete with them.",
+  "clusters": [
+   [
+    "Textiles and technical fabrics",
+    "Fabric buyers search by fibre, weight, weave, finish and test standard. Publish those per fabric family.",
+    "/industries/textiles-technical-fabrics/"
+   ],
+   [
+    "Apparel, footwear and sports goods",
+    "Brand buyers check design support, sampling speed, materials, factory audits and capacity.",
+    "/industries/apparel-footwear-production/"
+   ],
+   [
+    "Machinery and equipment",
+    "Machinery makers should show specifications, real machine video and service options abroad.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "Paper, printing and packaging",
+    "Packaging buyers ask about materials, print methods, food-contact or recycled-content documents and MOQ.",
+    "/industries/packaging-printing-manufacturing/"
+   ],
+   [
+    "OEM and ODM manufacturing",
+    "For factories that make for other brands, the site has to show capability without exposing clients.",
+    "/industries/oem-odm/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Can you develop our design, or only produce it?",
+    "Explain your design and development team, the sampling process and what you need from the brand."
+   ],
+   [
+    "What is your MOQ per style or colour?",
+    "Give ranges and explain what changes them."
+   ],
+   [
+    "Which materials and test reports can you provide?",
+    "List material options and the tests you can supply reports for."
+   ],
+   [
+    "Have you passed social-compliance audits?",
+    "Name the audits you have passed and their dates, where you are allowed to share them."
+   ],
+   [
+    "Do you sell your own brand in our market?",
+    "Be clear about it. Brand buyers worry about competing with their supplier."
+   ]
+  ],
+  "playbook": [
+   "Decide what the website is for: OEM/ODM supply, your own brand, or both. If both, give each a clear section so brand buyers and retailers are not confused.",
+   "Build pages for each product category with materials, processes, MOQ ranges and sampling time.",
+   "Show development capability: design team, pattern or mould making, sampling room, with photos you own.",
+   "Publish compliance and audit information carefully — the audit name, the date and the scope.",
+   "Use LinkedIn to show real development and production work. A [LinkedIn Page](https://www.linkedin.com/help/linkedin/answer/a543852) for the company gives buyers a second place to check you.",
+   "Make the inquiry form ask for product type, quantity, target price range and timeline."
+  ],
+  "help": [
+   "We plan a site that separates OEM/ODM supply from your own brand where you have both.",
+   "We write category, development and compliance pages that answer brand buyers’ questions.",
+   "We set up and run LinkedIn and search work aimed at the buyers you want."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Quanzhou?",
+    "No. We have no office or staff in Quanzhou. We work with Quanzhou manufacturers remotely by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "We make for other brands. Can we show our work online?",
+    "Yes, without naming clients: show categories, materials, processes, development steps and anonymised samples. Ask permission before showing any branded product."
+   ],
+   [
+    "Should our own brand and our OEM business share a website?",
+    "They can, if each has a clear section and message. Some companies use a separate brand site; the right choice depends on who your buyers are."
+   ],
+   [
+    "Is Google useful for apparel and footwear sourcing?",
+    "Yes, for searches by product, material and capability. Many sourcing managers search for specific constructions, materials or certifications."
+   ],
+   [
+    "Do you help with Instagram as well as LinkedIn?",
+    "Yes. Social media management covers LinkedIn for B2B buyers and, where it fits your brand, Instagram."
+   ],
+   [
+    "How do we present sustainability claims?",
+    "Only with evidence: certificates, material documents or test reports. Vague green claims can harm trust."
+   ],
+   [
+    "Should we publish MOQ and prices?",
+    "Publishing MOQ ranges helps qualify buyers. Prices usually depend on materials and quantity, so explain the drivers instead."
+   ],
+   [
+    "Can you promise orders?",
+    "No. We work to bring qualified inquiries and report them from your own accounts. Orders depend on your products, prices and follow-up."
+   ],
+   [
+    "What is the first step?",
+    "A free consultation: we look at your website, your products and the buyers you want, and suggest a starting plan."
+   ]
+  ],
+  "sources": [
+   "qz-1",
+   "qz-2",
+   "li-page",
+   "jif"
+  ],
+  "sectors": [
+   "textiles-technical-fabrics",
+   "apparel-footwear-production",
+   "industrial-machinery-cnc",
+   "packaging-printing-manufacturing",
+   "oem-odm"
+  ],
+  "insights": [
+   "linkedin-for-factory-export-sales",
+   "trade-show-follow-up-for-manufacturers",
+   "overseas-buyer-inquiries"
+  ],
+  "siblings": [
+   "xiamen",
+   "ningbo",
+   "dongguan",
+   "zhongshan"
+  ],
+  "extra_claims": [
+   [
+    "LinkedIn Help explains how to create a LinkedIn Page for a company.",
+    "li-page"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Quanzhou. We work with Quanzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site that separates OEM/ODM supply from your own brand, with category, development and compliance pages.",
+   "Searches by product, material and construction that sourcing managers use, not just “factory” terms.",
+   "Campaigns aimed at brand and retail buyers in chosen markets, measured by qualified inquiries.",
+   "LinkedIn and, where it fits your brand, Instagram content that shows development and production."
+  ],
+  "tiles": [
+   [
+    "+7.0%",
+    "above-scale industrial value added"
+   ],
+   [
+    "+33.8%",
+    "stationery, crafts, sports and entertainment goods"
+   ],
+   [
+    "+19.3%",
+    "textiles"
+   ],
+   [
+    "9",
+    "industries with output above 100 bn yuan"
+   ]
+  ],
+  "srcline": "Quanzhou Statistics Bureau and city government, 2025",
+  "zones": [
+   [
+    "Jinjiang, a county-level city in Quanzhou, hosts the annual Jinjiang Footwear & Sports Industry International Exposition; the organiser calls Jinjiang the “Chinese Capital of Footwear”.",
+    [
+     "jif"
+    ]
+   ],
+   [
+    "The organiser says the exposition has a total exhibition area of more than 710,000 square metres and visitors from more than 70 countries and regions; the 27th edition ran from 19 to 22 April 2026.",
+    [
+     "jif"
+    ]
+   ]
+  ],
+  "zones_note": "Footwear, sportswear and the materials and machinery behind them are concentrated in Jinjiang and neighbouring districts. Many of these firms make for global brands while building brands of their own.",
+  "logistics": [
+   [
+    "Ports in Quanzhou handled 115.84 million tonnes of cargo (−0.9%), including 39.34 million tonnes of foreign-trade cargo, and 2.0646 million TEU (+1.1%) in 2025.",
+    [
+     "qz-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Trade with Belt and Road partner countries was 165.58 billion yuan (−10.5%) and with other RCEP members 68.75 billion yuan (−19.0%) in 2025.",
+    [
+     "qz-1"
+    ]
+   ]
+  ],
+  "markets": "Trade with Belt and Road and RCEP partners fell in 2025, even while light-industry output grew. That combination often pushes factories to look for new buyers and markets — which is when an export website and search visibility matter most. Typical products include footwear and sportswear, textiles, sports and craft goods, plastics, paper and packaging, and machinery.",
+  "challenges": [
+   "**OEM confidentiality.** Factories cannot show the branded products they make, so they need to show development and production capability instead.",
+   "**Own brand versus OEM.** Mixing brand marketing and OEM supply on one site confuses both retailers and brand buyers.",
+   "**Sustainability claims.** Brand buyers ask for material and audit evidence; vague green claims backfire.",
+   "**Shifting markets.** Falling trade with some partners in 2025 means many exporters need to reach buyers in new regions."
+  ]
+ },
+ "zhongshan": {
+  "slug": "zhongshan",
+  "city": "Zhongshan",
+  "province": "Guangdong",
+  "region": "gd",
+  "anchor": "city-guangdong-zhongshan",
+  "title": "Export Websites & SEO for Zhongshan Manufacturers | Hurfi",
+  "h1": "Export websites and SEO for Zhongshan lighting, appliance and equipment makers",
+  "description": "English websites and Google SEO for Zhongshan lighting, household-appliance, electrical-equipment, electronics and furniture manufacturers that export.",
+  "lead": "Zhongshan produces lighting and household appliances in very large volumes, and its equipment and electrical industries are growing faster still. In crowded product categories, a clear export website is often what gets a factory onto a buyer’s shortlist. Hurfi helps Zhongshan manufacturers build one.",
+  "context_intro": "The figures below come from Zhongshan’s 2025 statistical bulletin, published on the city government’s website.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 5.4% in 2025. Advanced manufacturing grew 8.9% and made up 52.2% of the total.",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "Equipment manufacturing grew 11.1% and accounted for 35.7%; electrical machinery and equipment grew 15.9% and computer, communications and other electronic equipment 10.2%.",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "Household electrical appliances grew 4.6%, while furniture manufacturing fell 9.5%.",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "Zhongshan produced about 1.1 billion lamps and lighting fixtures in 2025, up 2.4%; integrated-circuit output rose 28.5%.",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "Goods exports were 251.56 billion yuan, up 1.0%, of which mechanical and electrical products were 200.64 billion yuan.",
+    [
+     "zs-1"
+    ]
+   ]
+  ],
+  "context_after": "Lighting and appliances are mature, competitive export categories where buyers see many similar catalogues. Growth is now stronger in electrical equipment and electronics. For a Zhongshan supplier, the website has to show what is different: specifications, certifications per market, design or OEM capability, and the newer product lines.",
+  "clusters": [
+   [
+    "Lighting",
+    "Lighting buyers compare lumen output, efficacy, CRI, IP rating, driver and certification per market. Publish them in a table for each product family.",
+    "/industries/smart-buildings-urban-infrastructure/"
+   ],
+   [
+    "Household appliances",
+    "Appliance buyers check voltage variants, certification by market, packaging and OEM terms.",
+    "/industries/oem-odm/"
+   ],
+   [
+    "Electrical equipment and electronics",
+    "The fastest-growing lines need specification pages and test documents so engineers can shortlist you.",
+    "/industries/power-grid-electrical-equipment/"
+   ],
+   [
+    "Furniture",
+    "Furniture exporters should show materials, finishes, packaging, assembly and compliance documents.",
+    "/industries/furniture-interior-manufacturing/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Which certifications does this model have for our market?",
+    "Show certificates per model and market with the holder’s name, not a general logo row."
+   ],
+   [
+    "What are the real photometric or electrical values?",
+    "Publish measured values and the test standard, and offer test reports."
+   ],
+   [
+    "Can you put our brand on it?",
+    "Explain OEM options: logos, packaging, custom colours and MOQ for each."
+   ],
+   [
+    "What is the warranty and how are claims handled?",
+    "State warranty terms and the claim process clearly."
+   ],
+   [
+    "How do you pack for long-distance shipping?",
+    "Show packaging, carton specifications and drop-test practice if you have it."
+   ]
+  ],
+  "playbook": [
+   "Organise products by family and application (for example commercial, outdoor or industrial lighting) rather than by internal series names.",
+   "Give each family a specification table with measured values and test standards, plus downloadable test reports.",
+   "Add an OEM page that lists customisation options, MOQs and sampling time.",
+   "Write certification pages per market so buyers in Europe or North America see what applies to them.",
+   "Write titles and descriptions that state the product and its key specification. Google’s [title link](https://developers.google.com/search/docs/appearance/title-link) guidance asks for descriptive, concise titles that avoid keyword stuffing.",
+   "Ask for target market, quantity and certification needs in the RFQ form, so quotes are right first time."
+  ],
+  "help": [
+   "We plan a product structure that separates your families and applications clearly.",
+   "We write English specification, OEM and certification pages with your team.",
+   "We run search and paid campaigns for specific products and markets, tracked in your own accounts."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Zhongshan?",
+    "No. Hurfi does not have an office or staff in Zhongshan. We work with Zhongshan manufacturers remotely by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "Lighting is very competitive online. Is SEO still worth it?",
+    "Broad terms are hard to win, but specific searches — product type plus specification or application — are much more achievable, and they bring better-qualified buyers."
+   ],
+   [
+    "We have hundreds of models. Do they all need pages?",
+    "No. Give each family a page with a variant table. Hundreds of thin, near-identical pages are hard to maintain and rarely rank."
+   ],
+   [
+    "Should we show certificates on the website?",
+    "Yes, per model and market, with the certificate holder’s name. Only show certificates you actually hold."
+   ],
+   [
+    "Can you help us sell our own brand, not only OEM?",
+    "Yes. We help you present the brand separately from OEM supply, so retailers and brand buyers each see the right offer."
+   ],
+   [
+    "Do you work with appliance and furniture factories too?",
+    "Yes. The same principles apply: clear product families, specifications, compliance and packaging information."
+   ],
+   [
+    "Does a slow website hurt us?",
+    "It can. Buyers abroad leave slow pages, and product images are often the cause. We compress images and check speed from outside China."
+   ],
+   [
+    "Will you guarantee rankings?",
+    "No. Nobody can guarantee Google rankings. We commit to a clear plan and honest reporting."
+   ],
+   [
+    "How do we start?",
+    "Book a free consultation. We review your site and catalogue and suggest the first product families to improve."
+   ]
+  ],
+  "sources": [
+   "zs-1",
+   "g-tl",
+   "g-spam",
+   "gilf"
+  ],
+  "sectors": [
+   "oem-odm",
+   "smart-buildings-urban-infrastructure",
+   "power-grid-electrical-equipment",
+   "electronics-semiconductor",
+   "furniture-interior-manufacturing"
+  ],
+  "insights": [
+   "industrial-product-page-seo",
+   "export-website-speed-for-overseas-buyers",
+   "factory-website-trust-signals"
+  ],
+  "siblings": [
+   "guangzhou",
+   "shenzhen",
+   "dongguan",
+   "xiamen"
+  ],
+  "extra_claims": [
+   [
+    "Google’s title-link guidance asks for descriptive, concise titles and warns against keyword stuffing.",
+    "g-tl"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Zhongshan. We work with Zhongshan manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site organised by product family and application, with specification tables, OEM options and certificates per market.",
+   "Specific product-plus-specification searches, with descriptive titles rather than keyword lists.",
+   "Campaigns for chosen product families and markets, tracked by RFQs in your own accounts.",
+   "LinkedIn content that shows testing, packaging and production for buyers comparing many catalogues."
+  ],
+  "tiles": [
+   [
+    "52.2%",
+    "of above-scale industrial value added from advanced manufacturing"
+   ],
+   [
+    "+15.9%",
+    "electrical machinery and equipment"
+   ],
+   [
+    "~1.1 bn",
+    "lamps and lighting fixtures produced (+2.4%)"
+   ],
+   [
+    "251.56 bn",
+    "yuan goods exports (+1.0%)"
+   ]
+  ],
+  "srcline": "Zhongshan Statistics Bureau, 2025 Statistical Bulletin",
+  "zones": [
+   [
+    "Zhongshan’s 2025 bulletin reports results by town and district: Xiaolan had the largest GDP (609.95 billion yuan), the Torch development area 587.49 billion yuan with above-scale industrial value added up 8.9%, and Guzhen 177.8 billion yuan.",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "Guzhen calls itself the “Lighting Capital of China”. The 34th China (Guzhen) International Lighting Fair in March 2026 gathered more than 3,600 enterprises showing over 100,000 products, and nearly 70,000 registered buyers, including 4,500 international visitors from more than 130 countries and regions.",
+    [
+     "gilf"
+    ]
+   ]
+  ],
+  "zones_note": "Lighting is concentrated in Guzhen, appliances and hardware across several towns, and electronics and equipment in the Torch development area. A Zhongshan factory’s location often tells a buyer which cluster it belongs to — the website should say so.",
+  "logistics": [
+   [
+    "Zhongshan’s ports handled 20.62 million tonnes of cargo (+6.2%) and 1.2557 million TEU (−2.9%) in 2025.",
+    [
+     "zs-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "General-trade exports were 176.5 billion yuan (+4.3%) and processing-trade exports 66.96 billion yuan (−5.1%); high-tech product exports were 48.53 billion yuan (+2.8%).",
+    [
+     "zs-1"
+    ]
+   ],
+   [
+    "By market, exports to Belt and Road partners were 83.51 billion yuan (+6.5%), to the EU 43.91 billion yuan (+0.1%), to the United States 39.34 billion yuan (−18.0%), to ASEAN 32.73 billion yuan (+21.0%) and to Japan 9.23 billion yuan (+9.2%).",
+    [
+     "zs-1"
+    ]
+   ]
+  ],
+  "markets": "Exports to the United States fell 18% in 2025 while exports to ASEAN rose 21%, a clear sign of buyers shifting. Typical products include lamps and lighting (about 1.1 billion units), fans, range hoods, refrigerators, air conditioners and other appliances, plus electrical equipment and furniture. Factories reaching new markets need certificates and specifications for each one.",
+  "challenges": [
+   "**Catalogue sameness.** Thousands of lighting and appliance factories publish similar catalogues; specific specifications and certificates are what separate them.",
+   "**Market shift.** Falling US exports push factories toward ASEAN, the EU and other markets that need different certifications and voltages.",
+   "**Fair-centred selling.** Guzhen’s fairs bring buyers to town, but buyers who cannot travel rely on search and the website.",
+   "**Image-heavy, slow sites.** Lighting sites are often full of large images that load slowly abroad."
+  ]
+ },
+ "tianjin": {
+  "slug": "tianjin",
+  "city": "Tianjin",
+  "province": "Tianjin",
+  "region": "north",
+  "anchor": "city-tianjin-tianjin",
+  "title": "Export Websites & Google SEO for Tianjin Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Tianjin",
+  "description": "English websites and Google SEO for Tianjin aerospace, connected-vehicle, biomedicine, new-materials, robotics and equipment manufacturers selling abroad.",
+  "lead": "Tianjin organises its industry into twelve key industrial chains, from connected vehicles and aerospace to biomedicine and new materials, and ships through one of northern China’s main ports. Hurfi helps Tianjin manufacturers explain their place in those chains to buyers abroad.",
+  "context_intro": "The figures below are from Tianjin’s 2025 statistical bulletin, published on the Tianjin municipal government portal.",
+  "facts": [
+   [
+    "Industrial value added was 571.87 billion yuan in 2025, up 4.2%; manufacturing grew 4.9%.",
+    [
+     "tj-1"
+    ]
+   ],
+   [
+    "The twelve key industrial chains made up 81.9% of above-designated-size industry. Connected vehicles grew 25.3%, IT application innovation 9.9%, aerospace 9.7%, biomedicine 9.6% and new materials 9.3%.",
+    [
+     "tj-1"
+    ]
+   ],
+   [
+    "High-tech manufacturing grew 5.3% and made up 16.6%. Output of industrial robots rose 17.9%, service robots 6.4% and optical fibre 24.8%.",
+    [
+     "tj-1"
+    ]
+   ],
+   [
+    "Exports were 430.94 billion yuan, up 10.1%. Mechanical and electrical exports were 287.11 billion yuan, up 10.3%, and exports of medicines and medicinal materials 19.71 billion yuan, up 69.7%.",
+    [
+     "tj-1"
+    ]
+   ],
+   [
+    "Tianjin Port handled 24.03 million TEU of containers, up 3.2%, and 595 million tonnes of cargo, with 150 container routes.",
+    [
+     "tj-1"
+    ]
+   ]
+  ],
+  "context_after": "Tianjin buyers are often large integrators, vehicle makers, aerospace programmes or pharma companies with strict supplier processes. A Tianjin supplier’s website should show where it sits in the chain — raw material, component, subsystem or finished product — and the quality approvals that go with it.",
+  "clusters": [
+   [
+    "Aerospace",
+    "Aerospace buyers check approvals, traceability, special processes and the programmes you can mention.",
+    "/industries/aerospace-aviation-supply-chain/"
+   ],
+   [
+    "Connected and electric vehicles",
+    "Vehicle suppliers need component pages with test standards, software or connectivity details and quality systems.",
+    "/industries/automotive-mobility-components/"
+   ],
+   [
+    "Biomedicine",
+    "Pharma and biotech suppliers must state GMP status, registrations and documents per market precisely.",
+    "/industries/pharma-bioprocess-manufacturing/"
+   ],
+   [
+    "New materials",
+    "Materials buyers search by grade, property and standard; publish a data page per grade.",
+    "/industries/chemicals-specialty-materials/"
+   ],
+   [
+    "Robotics and automation",
+    "Robot and automation suppliers should explain payload, reach, controllers, integration and service.",
+    "/industries/industrial-automation-robotics/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Where do you sit in the supply chain?",
+    "Say whether you supply materials, components, subsystems or finished products, and to which tiers."
+   ],
+   [
+    "Which quality approvals do you hold?",
+    "List them with scope and certifying body."
+   ],
+   [
+    "How do you handle special processes and traceability?",
+    "Describe heat treatment, coating or clean-room processes and lot traceability."
+   ],
+   [
+    "Can you export through Tianjin Port on our schedule?",
+    "Explain lead times, packaging and the trade terms you quote."
+   ],
+   [
+    "Who handles regulatory documents?",
+    "Name the team responsible for export and regulatory documents."
+   ]
+  ],
+  "playbook": [
+   "Write a short “where we fit” page explaining your role in your industrial chain, linked to the products for each role.",
+   "Give each product or material grade a page with specifications, standards and the documents available.",
+   "Publish quality and compliance information with scope and dates, and keep it current.",
+   "Write for the reviewers: engineers, quality and regulatory staff each need a page that answers their questions.",
+   "Register the site in Search Console. Google’s guide to [getting started with Search Console](https://developers.google.com/search/docs/monitor-debug/search-console-start) explains how to see which searches show your pages.",
+   "Set up separate inquiry paths for technical questions and quotes, so they reach the right person."
+  ],
+  "help": [
+   "We plan pages that explain your position in the chain and the products behind it.",
+   "We write technical, quality and compliance pages from your documents, checked by your team.",
+   "We set up Search Console and analytics in your own accounts and report from them."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Tianjin?",
+    "No. Hurfi has no office or staff in Tianjin. We work with Tianjin manufacturers remotely by WeChat, email and video, from Xi’an and Bogura."
+   ],
+   [
+    "We are a tier-2 supplier. Do overseas buyers search for companies like us?",
+    "Yes, especially engineers looking for specific components or materials. Clear specification pages make you findable for those searches."
+   ],
+   [
+    "How do we present aerospace or pharma approvals?",
+    "Exactly as issued: the standard, scope, certifying body and dates. Never imply approvals you do not hold."
+   ],
+   [
+    "Should we publish material data sheets?",
+    "Publish the properties that help buyers shortlist you, with test methods. Keep customer-specific data for after an NDA."
+   ],
+   [
+    "Can you help with English for regulatory pages?",
+    "Yes, we write clear English from your documents, and your regulatory team approves the text."
+   ],
+   [
+    "Is Search Console really necessary?",
+    "Yes. It shows which searches bring impressions and clicks to your site, and it is free. We set it up in your own account."
+   ],
+   [
+    "Do you run campaigns for specific countries?",
+    "Yes, where the product and market justify it, measured by inquiries in your own accounts."
+   ],
+   [
+    "Can you promise a timeline for results?",
+    "No. We set milestones and report monthly, and we change the plan when the data shows we should."
+   ],
+   [
+    "What is the first step?",
+    "Book a free consultation. We will review your site and suggest the first pages to build or fix."
+   ]
+  ],
+  "sources": [
+   "tj-1",
+   "g-sc",
+   "g-hc",
+   "teda"
+  ],
+  "sectors": [
+   "aerospace-aviation-supply-chain",
+   "automotive-mobility-components",
+   "pharma-bioprocess-manufacturing",
+   "chemicals-specialty-materials",
+   "industrial-automation-robotics"
+  ],
+  "insights": [
+   "international-seo-checklist-for-exporters",
+   "choosing-an-export-marketing-agency",
+   "manufacturer-website-rfq-checklist"
+  ],
+  "siblings": [
+   "shanghai",
+   "wuhan",
+   "xian",
+   "hefei"
+  ],
+  "extra_claims": [
+   [
+    "Google’s Search Console guide explains how to monitor search performance.",
+    "g-sc"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Tianjin. We work with Tianjin manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "A site that explains where you sit in your industrial chain, with technical, quality and compliance pages for reviewers.",
+   "Component, material and standard searches, monitored in your own Search Console.",
+   "Campaigns for specific products and markets, with technical questions and quotes routed separately.",
+   "LinkedIn content that introduces your engineers and quality team to integrators and programme buyers."
+  ],
+  "tiles": [
+   [
+    "81.9%",
+    "of above-scale industry in 12 key industrial chains"
+   ],
+   [
+    "+25.3%",
+    "connected-vehicle chain"
+   ],
+   [
+    "24.03 m",
+    "TEU at Tianjin Port (+3.2%)"
+   ],
+   [
+    "430.94 bn",
+    "yuan exports (+10.1%)"
+   ]
+  ],
+  "srcline": "Tianjin 2025 Statistical Bulletin (Tianjin government portal)",
+  "zones": [
+   [
+    "The Tianjin Economic-Technological Development Area (TEDA), established in 1984, has a planned area of 403 square kilometres and describes itself as a demonstration base for electronics, automotive, petrochemicals and biopharmaceuticals.",
+    [
+     "teda"
+    ]
+   ],
+   [
+    "By the end of 2023 TEDA hosted 573 projects from 124 Fortune Global 500 companies, including FAW Toyota, FAW-Volkswagen, Samsung Mobile Display and Novo Nordisk; foreign-invested firms produced over 70% of its industrial output.",
+    [
+     "teda"
+    ]
+   ]
+  ],
+  "zones_note": "TEDA, in Binhai New Area near the port, is where many of Tianjin’s automotive, electronics and pharma suppliers work alongside multinational customers. Supplier websites there are judged against international supplier standards.",
+  "logistics": [
+   [
+    "In 2025 Tianjin Port added new direct container routes to the US West Coast, the Black Sea and India.",
+    [
+     "tj-1"
+    ]
+   ],
+   [
+    "Tianjin held 118 exhibitions and events in 2025, including an international mining conference, an international shipping industry expo and an international helicopter expo.",
+    [
+     "tj-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Exports to Belt and Road partner countries grew 13.8%; general-trade exports were 243.72 billion yuan (+2.9%) and processing-trade exports 122.93 billion yuan (+16.5%).",
+    [
+     "tj-1"
+    ]
+   ]
+  ],
+  "markets": "Tianjin’s exports grew fastest in medicines and processing trade, and towards Belt and Road partners. New direct routes to the US West Coast, the Black Sea and India suggest the markets port operators are targeting. Typical products include vehicles and parts, electronics, robots, optical fibre and pharmaceuticals.",
+  "challenges": [
+   "**Tier-2 invisibility.** Component and material suppliers to large OEMs often have almost no searchable product information.",
+   "**Regulated products.** Pharma and aerospace suppliers must publish precise, approved wording.",
+   "**Multinational comparison.** Buyers compare Tianjin suppliers with global suppliers in the same zone.",
+   "**Separate technical and sales paths.** Engineers’ questions and price requests often go to the same inbox and get lost."
+  ]
+ },
+ "changzhou": {
+  "slug": "changzhou",
+  "city": "Changzhou",
+  "province": "Jiangsu",
+  "region": "yrd",
+  "anchor": "city-jiangsu-changzhou",
+  "title": "Websites & SEO for Changzhou New-Energy Manufacturers | Hurfi",
+  "h1": "Websites and SEO for Changzhou new-energy and equipment manufacturers",
+  "description": "English websites and Google SEO for Changzhou battery, EV, solar, power-equipment, rail-equipment and electronics manufacturers selling abroad.",
+  "lead": "Changzhou has built one of China’s largest new-energy industries — batteries, EVs, solar and power equipment — alongside electronics and rail equipment. Buyers abroad check these suppliers hard on safety, certification and capacity. Hurfi helps Changzhou manufacturers answer those checks on their website.",
+  "context_intro": "The figures below come from Changzhou’s 2025 statistical bulletin and a city government update on the new-energy industry.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 4.6% in 2025. Electronics output rose 12.3% and biomedicine 5.1%; output of power and energy-storage batteries rose 14.1%.",
+    [
+     "cz-1"
+    ]
+   ],
+   [
+    "High-tech manufacturing output exceeded 300 billion yuan, up 12.3%.",
+    [
+     "cz-1"
+    ]
+   ],
+   [
+    "The city government reports a new-energy industry of 1,047.9 billion yuan in 2025, with the NEV and parts cluster above 500 billion yuan and more than 800,000 new-energy vehicles produced.",
+    [
+     "cz-2"
+    ]
+   ],
+   [
+    "The same update gives power-battery capacity of 212.9 GWh and says Changzhou makes 13% of China’s transformers.",
+    [
+     "cz-2"
+    ]
+   ],
+   [
+    "Goods exports were 304.71 billion yuan, up 17.0%.",
+    [
+     "cz-1"
+    ]
+   ]
+  ],
+  "context_after": "Battery, EV and power-equipment buyers abroad are cautious: they need safety tests, transport certificates, market approvals and evidence of capacity before they talk price. In a city with many new-energy suppliers, the one whose website answers those questions first is often the one that gets the call.",
+  "clusters": [
+   [
+    "Batteries and energy storage",
+    "Publish cell chemistry, test standards, transport documents and certification status per market for each product.",
+    "/industries/battery-energy-storage/"
+   ],
+   [
+    "EVs and vehicle parts",
+    "Parts suppliers should show component specifications, quality systems and the platforms they support.",
+    "/industries/ev-e-mobility/"
+   ],
+   [
+    "Solar and renewable power",
+    "Solar suppliers are compared on efficiency, warranty, certifications and bankability documents.",
+    "/industries/solar-renewable-power/"
+   ],
+   [
+    "Transformers and power equipment",
+    "Power-equipment buyers check ratings, standards, type tests and factory acceptance testing.",
+    "/industries/power-grid-electrical-equipment/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Which safety and transport tests has this product passed?",
+    "List the test standards and reports per model, with dates."
+   ],
+   [
+    "Which certifications apply in our market?",
+    "Show market-specific certificates and who holds them."
+   ],
+   [
+    "What is your real production capacity?",
+    "Give honest capacity ranges and lead times."
+   ],
+   [
+    "What warranty and degradation terms do you offer?",
+    "State warranty terms clearly, with the conditions that apply."
+   ],
+   [
+    "Can we witness factory acceptance tests?",
+    "Explain whether and how buyers can witness tests, in person or by video."
+   ]
+  ],
+  "playbook": [
+   "Create a page per product family with specifications, test standards and certification status per market.",
+   "Publish a safety and compliance page that collects test reports and certificates, linked from each product.",
+   "Add a capacity and quality page: lines, automation level, inspection and testing, with photos you own.",
+   "Explain warranty and service in plain words, including how claims are handled abroad.",
+   "Plan English and other language pages with Google’s advice on [localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions): each language version should list itself and the others, and links must work both ways or they are ignored.",
+   "Track datasheet downloads and RFQs separately, so you can see technical interest and buying interest."
+  ],
+  "help": [
+   "We plan product, compliance and capacity pages for new-energy buyers’ checks.",
+   "We write English technical pages from your test reports and certificates.",
+   "We plan multilingual SEO with correct hreflang, and report from your own accounts."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Changzhou?",
+    "No. Hurfi has no office or staff in Changzhou. We work with Changzhou manufacturers remotely by WeChat, email and video, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "Battery buyers ask for many documents. Should we publish them?",
+    "Publish the documents that help buyers shortlist you — test standards, certificates, transport documents — and offer full reports on request."
+   ],
+   [
+    "We sell to several countries. Do we need several languages?",
+    "Only where you can answer buyers in that language. English first, then other languages with proper hreflang."
+   ],
+   [
+    "How do we show capacity without exaggerating?",
+    "Give ranges, explain the lines and shifts, and avoid claims like “unlimited capacity”. Buyers check."
+   ],
+   [
+    "Can you write about transformers and power equipment?",
+    "Yes, from your ratings, type-test reports and standards, reviewed by your engineers."
+   ],
+   [
+    "Do you handle solar product pages?",
+    "Yes: efficiency, warranty, certifications and documents per market, presented clearly."
+   ],
+   [
+    "Can you help with LinkedIn?",
+    "Yes. LinkedIn helps buyers check the company and the people who contact them. We plan posts about real production and testing."
+   ],
+   [
+    "Will you promise a number of leads?",
+    "No. We aim for qualified inquiries and report them from your own accounts."
+   ],
+   [
+    "How do we start?",
+    "Book a free consultation. We review your site and suggest a first set of pages."
+   ]
+  ],
+  "sources": [
+   "cz-1",
+   "cz-2",
+   "g-hl",
+   "czne"
+  ],
+  "sectors": [
+   "battery-energy-storage",
+   "ev-e-mobility",
+   "solar-renewable-power",
+   "power-grid-electrical-equipment",
+   "electronics-semiconductor"
+  ],
+  "insights": [
+   "international-seo-checklist-for-exporters",
+   "industrial-product-page-seo",
+   "linkedin-for-factory-export-sales"
+  ],
+  "siblings": [
+   "wuxi",
+   "suzhou",
+   "hefei",
+   "shanghai"
+  ],
+  "extra_claims": [
+   [
+    "Google says each language version must list itself and that tags are ignored if two pages do not point to each other.",
+    "g-hl"
+   ]
+  ],
+  "v": 2,
+  "remote": "Hurfi does not have an office or staff in Changzhou. We work with Changzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "svc": [
+   "Product, safety-and-compliance and capacity pages built for new-energy buyers’ checks.",
+   "Multilingual SEO with correct hreflang, for the product and standard searches buyers make.",
+   "Campaigns for named products in chosen markets, with datasheet downloads and RFQs tracked separately.",
+   "LinkedIn content about testing, production and the people who answer technical questions."
+  ],
+  "tiles": [
+   [
+    "1,047.9 bn",
+    "yuan new-energy industry"
+   ],
+   [
+    "212.9 GWh",
+    "power-battery capacity"
+   ],
+   [
+    "13%",
+    "of China’s transformers made in Changzhou"
+   ],
+   [
+    "304.71 bn",
+    "yuan goods exports (+17.0%)"
+   ]
+  ],
+  "srcline": "Changzhou Statistics Bureau and city government, 2025",
+  "zones": [
+   [
+    "Changzhou’s official English investment page calls the city the “New Energy Capital” and the “World Capital of Transformers”, and says its energy-storage battery industry chain is 97% complete, ranking first in China.",
+    [
+     "czne"
+    ]
+   ],
+   [
+    "The same page lists focus industries by district: power and next-generation batteries in Liyang and Jintan; electric drive components, automotive electronics and chips in Wujin; and new-energy vehicles, photovoltaics and energy storage in Xinbei (Changzhou National High-Tech District).",
+    [
+     "czne"
+    ]
+   ]
+  ],
+  "zones_note": "Changzhou’s districts each promote different parts of the new-energy chain. A supplier’s district often signals what it makes, but buyers abroad still need the website to spell it out.",
+  "logistics": [
+   [
+    "Changzhou’s port handled 130.07 million tonnes of cargo in 2025 (+0.8%).",
+    [
+     "cz-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Total goods trade was 372.81 billion yuan (+13.9%), with imports up 1.7%.",
+    [
+     "cz-1"
+    ]
+   ],
+   [
+    "General trade made up 85.6% of trade, and private enterprises’ trade grew 25.6% to a 63.7% share.",
+    [
+     "cz-1"
+    ]
+   ],
+   [
+    "Civil drone output doubled, and output of energy-storage lithium-ion batteries rose 77.4%, carbon fibre and composites 46.6%, industrial robots 25.6% and transformers 16.2%.",
+    [
+     "cz-1"
+    ]
+   ]
+  ],
+  "markets": "Exports grew 17% in 2025, driven mainly by private, general-trade exporters — companies selling their own products rather than processing for others. Typical products are batteries and storage systems, EVs and parts, PV modules, transformers and power equipment. Buyers in Europe and elsewhere check safety and grid certifications before anything else.",
+  "challenges": [
+   "**Certification-first buyers.** Battery, PV and transformer buyers need test and certification data before price, and it is often missing online.",
+   "**Crowded supply base.** Many new-energy suppliers in one city make it hard to stand out without specific data.",
+   "**Fast-growing private exporters.** Companies scaling quickly often lack English content and RFQ processes.",
+   "**Multilingual markets.** Selling into several countries means language versions that are often inconsistent or unconnected."
+  ]
+ },
+ "xian": {
+  "slug": "xian",
+  "city": "Xi’an",
+  "province": "Shaanxi",
+  "region": "west",
+  "anchor": "city-shaanxi-xian",
+  "title": "Export Websites & Google SEO for Xi’an Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for manufacturers in Xi’an",
+  "description": "Hurfi’s China office is in Xi’an. English websites and Google SEO for Xi’an automotive, solar, aerospace, electrical and electronics manufacturers.",
+  "lead": "Xi’an is home to Hurfi’s China office, and to fast-growing automotive, solar, aerospace and electrical industries. Its exporters ship by sea and by rail to Europe. Hurfi helps Xi’an manufacturers present themselves to buyers abroad.",
+  "office": true,
+  "remote": "Hurfi’s China office is in Xi’an: Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University. We also work remotely with Xi’an companies by WeChat, email and video. If you would prefer to meet in person, say so when you book and we will confirm whether it is possible.",
+  "context_intro": "The figures below come from the Xi’an government’s summary of the city’s 2025 economic performance, based on statistics bureau data.",
+  "facts": [
+   [
+    "Value added of industrial enterprises above designated size grew 5.7% in 2025. Automobile manufacturing grew 20.1%, electrical machinery and equipment 28.5%, special-purpose equipment 7.6% and railway, ship, aerospace and other transport equipment 8.4%.",
+    [
+     "xa-1"
+    ]
+   ],
+   [
+    "Total output of nine industrial chain groups, including passenger cars and intelligent connected vehicles, photovoltaics and commercial vehicles, grew 14.0%.",
+    [
+     "xa-1"
+    ]
+   ],
+   [
+    "Output of mobile-communication base-station equipment rose 279.1%, civil drones 78.5%, 3D printing equipment 71.3%, charging piles 43.6%, urban rail vehicles 44.6%, lithium-ion batteries 13.4% and solar cells 11.4%.",
+    [
+     "xa-1"
+    ]
+   ],
+   [
+    "Exports were 349.26 billion yuan, up 25.8%; mechanical and electrical exports rose 25.6% and electric passenger-car exports 66.1%.",
+    [
+     "xa-1"
+    ]
+   ],
+   [
+    "China–Europe Railway Express (Xi’an) ran 6,037 trains, up 21.1%.",
+    [
+     "xa-1"
+    ]
+   ]
+  ],
+  "context_after": "Xi’an’s exporters are newer to overseas markets than many coastal factories, and exports grew fast in 2025. Many still rely on a Chinese website or a marketplace listing. An English website built for overseas buyers, and search visibility for specific products, are often the first steps.",
+  "clusters": [
+   [
+    "Automotive and EVs",
+    "Vehicle and parts makers should show specifications, test standards, certification per market and export experience.",
+    "/industries/automotive-mobility-components/"
+   ],
+   [
+    "Solar and new energy",
+    "Solar and battery suppliers are compared on efficiency, warranty, certificates and documents.",
+    "/industries/solar-renewable-power/"
+   ],
+   [
+    "Aerospace and drones",
+    "Aerospace and drone suppliers need careful pages on approvals, export control and specifications.",
+    "/industries/aerospace-aviation-supply-chain/"
+   ],
+   [
+    "Electrical equipment and electronics",
+    "Electrical and communications-equipment suppliers should publish ratings, standards and test reports.",
+    "/industries/power-grid-electrical-equipment/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Have you exported to our region before?",
+    "State the regions you have shipped to and the documents you prepared, without naming clients unless allowed."
+   ],
+   [
+    "How do you ship to Europe — by sea or rail?",
+    "Explain the options you use and typical transit times you can stand behind."
+   ],
+   [
+    "Are your products certified for our market?",
+    "List certificates per model and market."
+   ],
+   [
+    "Who will speak to us in English?",
+    "Name the English-speaking contact and their role."
+   ],
+   [
+    "Can we visit the factory?",
+    "Explain how visits work and whether video tours are possible."
+   ]
+  ],
+  "playbook": [
+   "Build an English site written for overseas buyers, not a translation of the Chinese site. Start with your main products and the questions buyers ask about them.",
+   "Give each product line a page with specifications in text, certificates and photos you own.",
+   "Add an export page covering shipping options, documents, payment terms and contact people.",
+   "Use [helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) as the standard: written by people who know the product, for buyers, not to fill keywords.",
+   "Set up Search Console and analytics from day one, so you can see which searches and pages bring buyers.",
+   "Keep your LinkedIn company page consistent with the website, so a buyer checking both sees the same company."
+  ],
+  "help": [
+   "We meet Xi’an clients at our office where that helps, and work remotely the rest of the time.",
+   "We build English websites for companies starting to export, from structure to product pages.",
+   "We set up search, analytics and LinkedIn so you can see results in your own accounts."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Xi’an?",
+    "Yes. Hurfi’s China office is at Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University, Xi’an, Shaanxi. Our other office is in Bogura, Bangladesh."
+   ],
+   [
+    "Can we meet in person?",
+    "Possibly. Say so when you book, and we will confirm whether an in-person meeting is possible. Most work happens by WeChat, email and video."
+   ],
+   [
+    "We only have a Chinese website. Where do we start?",
+    "With an English site written for buyers abroad: your main products, specifications, proof and an inquiry form. We can start small and grow it."
+   ],
+   [
+    "Is a translation of our Chinese site good enough?",
+    "Usually not. Overseas buyers ask different questions and use different search terms. We plan the English site around them."
+   ],
+   [
+    "Which Xi’an industries do you work with?",
+    "Any manufacturer that exports. The official figures point to automotive and EVs, solar and batteries, aerospace and drones, and electrical equipment."
+   ],
+   [
+    "Do drone or aerospace products need special care online?",
+    "Yes. Be precise about approvals and export rules, and do not publish controlled technical data. Your compliance team should approve those pages."
+   ],
+   [
+    "Can you help with LinkedIn and digital marketing too?",
+    "Yes. We offer website development, SEO, digital marketing and social media management, and can combine them."
+   ],
+   [
+    "Can you guarantee rankings?",
+    "No one can guarantee Google rankings. We commit to a plan, clear reporting and honest advice."
+   ],
+   [
+    "How do we get started?",
+    "Book a free consultation online, or contact us to ask about meeting at our Xi’an office."
+   ]
+  ],
+  "sources": [
+   "xa-1",
+   "g-hc",
+   "g-sc",
+   "xaz"
+  ],
+  "sectors": [
+   "automotive-mobility-components",
+   "solar-renewable-power",
+   "aerospace-aviation-supply-chain",
+   "power-grid-electrical-equipment",
+   "ev-e-mobility"
+  ],
+  "insights": [
+   "overseas-buyer-inquiries",
+   "linkedin-for-factory-export-sales",
+   "choosing-an-export-marketing-agency"
+  ],
+  "siblings": [
+   "wuhan",
+   "tianjin",
+   "hefei",
+   "changzhou"
+  ],
+  "extra_claims": [],
+  "v": 2,
+  "svc": [
+   "An English site written for overseas buyers, not a translation — products, proof, export terms and contacts.",
+   "Search Console and analytics from day one, and pages for the product searches buyers abroad make.",
+   "Campaigns for the products and markets you are entering, measured by inquiries in your own accounts.",
+   "A LinkedIn company page consistent with the website, with posts about real production and people."
+  ],
+  "tiles": [
+   [
+    "+5.7%",
+    "above-scale industrial value added"
+   ],
+   [
+    "+28.5%",
+    "electrical machinery and equipment"
+   ],
+   [
+    "+25.8%",
+    "exports, to 349.26 bn yuan"
+   ],
+   [
+    "6,037",
+    "China–Europe Railway Express (Xi’an) trains"
+   ]
+  ],
+  "srcline": "Xi’an Statistics Bureau, 2025 economic performance",
+  "zones": [
+   [
+    "The Xi’an High-tech Industries Development Zone, established in March 1991 in the first batch of national high-tech zones, reports more than 191,000 registered enterprises and core industries including electronic information (semiconductors and software) and advanced manufacturing for new-energy vehicles.",
+    [
+     "xaz"
+    ]
+   ],
+   [
+    "The Xi’an Yanliang National Aviation Hi-Tech Industrial Base was upgraded in 2010 to the National Shaanxi Aviation Economic and Technological Development Zone, which the city describes as the only national development zone featuring aviation.",
+    [
+     "xaz"
+    ]
+   ],
+   [
+    "The Xi’an International Trade and Logistic Park covers 120 square kilometres and includes the Xi’an Railway Container Freight Station and the Xi’an Comprehensive Free Trade Zone.",
+    [
+     "xaz"
+    ]
+   ]
+  ],
+  "zones_note": "Semiconductors and EVs in the high-tech zone, aviation in Yanliang, aerospace in the civil aerospace base, and rail freight at the international port area: each zone has its own buyers and its own compliance questions.",
+  "logistics": [
+   [
+    "China–Europe Railway Express (Xi’an) ran 6,037 trains in 2025 (+21.1%), carrying 6.96 million tonnes of goods (+23.7%).",
+    [
+     "xa-1"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Trade with Belt and Road partner countries was 267.78 billion yuan (+11.6%); trade with ASEAN grew 21.8% and with the EU 47.4%.",
+    [
+     "xa-1"
+    ]
+   ],
+   [
+    "High-tech product exports grew 26.3%.",
+    [
+     "xa-1"
+    ]
+   ]
+  ],
+  "markets": "Xi’an’s trade with the EU grew by nearly half in 2025, helped by rail links to Europe, and ASEAN trade also grew fast. Typical exports include electric passenger cars and parts, solar cells, lithium batteries, base-station and electrical equipment, and aviation products. EU buyers will look for conformity and certification information on the product pages.",
+  "challenges": [
+   "**New to export.** Many Xi’an manufacturers have Chinese-only sites or rely on marketplace listings.",
+   "**Translation instead of localisation.** Translated Chinese sites rarely answer overseas buyers’ questions.",
+   "**Controlled technologies.** Aerospace and drone suppliers must be careful about what technical data they publish.",
+   "**Rail logistics unexplained.** Buyers in Europe may not know rail freight options unless the site explains them."
+  ]
  }
 }

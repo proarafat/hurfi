@@ -1,0 +1,512 @@
+{
+ "gz-1": {
+  "publisher": "Guangzhou Statistics Bureau",
+  "label": "2025年广州市国民经济和社会发展统计公报 (Guangzhou 2025 Statistical Bulletin)",
+  "url": "https://www.gz.gov.cn/zwgk/sjfb/tjgb/content/post_10804075.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "gz-1",
+  "checked": "16 October 2026"
+ },
+ "gz-2": {
+  "publisher": "Guangzhou Municipal Bureau of Industry and Information Technology",
+  "label": "2025年广州市工业经济运行情况解读 (Interpretation of Guangzhou’s 2025 industrial performance)",
+  "url": "https://gxj.gz.gov.cn/yw/sjjd/content/mpost_10697352.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "gz-2",
+  "checked": "16 October 2026"
+ },
+ "su-1": {
+  "publisher": "Suzhou Statistics Bureau",
+  "label": "2025年苏州市国民经济和社会发展统计公报 (Suzhou 2025 Statistical Bulletin)",
+  "url": "https://tjj.suzhou.gov.cn/sztjj/tjgb/202604/3dc4b574cabd4e86b36ec5d3280e927c.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "su-1",
+  "checked": "16 October 2026"
+ },
+ "su-2": {
+  "publisher": "Suzhou Municipal Bureau of Industry and Information Technology",
+  "label": "苏州工业和信息化发展动态 (Suzhou industry and IT update, February 2026)",
+  "url": "https://gxj.suzhou.gov.cn/szeic/szgxdt/202602/a3eac313f0c94ab0b8428cfc91b4f0b9.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "su-2",
+  "checked": "16 October 2026"
+ },
+ "hz-1": {
+  "publisher": "Hangzhou Statistics Bureau and NBS Hangzhou Survey Team (bulletin text as published by Hangzhou Daily / hangzhou.com.cn)",
+  "label": "2025年杭州市国民经济和社会发展统计公报 (Hangzhou 2025 Statistical Bulletin)",
+  "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-04/30/content_9214808.htm",
+  "lang": "zh-Hans",
+  "grade": "Official text republished by the city’s official newspaper (statistics bureau listing is script-only)",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "hz-1",
+  "checked": "16 October 2026"
+ },
+ "nb-1": {
+  "publisher": "Ningbo Statistics Bureau (bulletin text as republished by CCPIT Ningbo)",
+  "label": "2025年宁波市国民经济和社会发展统计公报 (Ningbo 2025 Statistical Bulletin)",
+  "url": "http://www.ccpitnb.org/art/2026/4/23/art_8851_638600.html",
+  "lang": "zh-Hans",
+  "grade": "Official text republished by a government-affiliated trade body",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "nb-1",
+  "checked": "16 October 2026"
+ },
+ "sh-1": {
+  "publisher": "Shanghai Municipal Bureau of Statistics",
+  "label": "2025年上海市国民经济和社会发展统计公报 (Shanghai 2025 Statistical Bulletin)",
+  "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "sh-1",
+  "checked": "16 October 2026"
+ },
+ "sh-2": {
+  "publisher": "Shanghai Municipal Bureau of Statistics",
+  "label": "2025年上海市国民经济运行情况 (Shanghai economic performance in 2025)",
+  "url": "https://tjj.sh.gov.cn/tjxw/20260120/d3f4918a77484c77bed173db6aaef33c.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "sh-2",
+  "checked": "16 October 2026"
+ },
+ "wh-1": {
+  "publisher": "Wuhan Statistics Bureau",
+  "label": "2025年武汉市国民经济和社会发展统计公报 (Wuhan 2025 Statistical Bulletin)",
+  "url": "https://tjj.wuhan.gov.cn/tjfw/tjgb/202604/t20260408_2750693.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "wh-1",
+  "checked": "16 October 2026"
+ },
+ "wh-2": {
+  "publisher": "Wuhan Municipal Bureau of Commerce",
+  "label": "2025年武汉经济运行情况 (Wuhan economic performance in 2025)",
+  "url": "https://swj.wuhan.gov.cn/tzdt/hykd/202601/t20260129_2720589.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "wh-2",
+  "checked": "16 October 2026"
+ },
+ "xm-1": {
+  "publisher": "Xiamen Statistics Bureau",
+  "label": "2025年厦门市国民经济和社会发展统计公报 (Xiamen 2025 Statistical Bulletin)",
+  "url": "https://tjj.xm.gov.cn/tjzl/ndgb/202603/t20260325_2991064.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "xm-1",
+  "checked": "16 October 2026"
+ },
+ "qz-1": {
+  "publisher": "Quanzhou Statistics Bureau",
+  "label": "2025年泉州市国民经济和社会发展统计公报 (Quanzhou 2025 Statistical Bulletin)",
+  "url": "https://tjj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/202603/t20260331_3279583.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "qz-1",
+  "checked": "16 October 2026"
+ },
+ "qz-2": {
+  "publisher": "Quanzhou Municipal People’s Government",
+  "label": "2025年泉州经济运行情况解读 (Interpretation of Quanzhou’s 2025 economy)",
+  "url": "https://www.quanzhou.gov.cn/zfb/xxgk/zfxxgkzl/tjxx/sjjd/202601/t20260128_3262353.htm",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "qz-2",
+  "checked": "16 October 2026"
+ },
+ "zs-1": {
+  "publisher": "Zhongshan Statistics Bureau",
+  "label": "2025年中山市国民经济和社会发展统计公报 (Zhongshan 2025 Statistical Bulletin)",
+  "url": "http://www.zs.gov.cn/zwgk/sjfb/tjgb/content/post_2617216.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "zs-1",
+  "checked": "16 October 2026"
+ },
+ "tj-1": {
+  "publisher": "Tianjin Statistics Bureau and NBS Tianjin Survey Team (published on the Tianjin government portal)",
+  "label": "2025年天津市国民经济和社会发展统计公报 (Tianjin 2025 Statistical Bulletin)",
+  "url": "https://www.tj.gov.cn/sq/tjgb/202603/t20260327_7271193.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "tj-1",
+  "checked": "16 October 2026"
+ },
+ "cz-1": {
+  "publisher": "Changzhou Statistics Bureau",
+  "label": "2025年常州市国民经济和社会发展统计公报 (Changzhou 2025 Statistical Bulletin)",
+  "url": "https://tjj.changzhou.gov.cn/html/tjj/2026/OEJQMFCO_0506/29035.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cz-1",
+  "checked": "16 October 2026"
+ },
+ "cz-2": {
+  "publisher": "Changzhou Municipal People’s Government",
+  "label": "常州新能源产业发展情况 (Changzhou new-energy industry update)",
+  "url": "https://www.changzhou.gov.cn/ns_news/408176941251050",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "cz-2",
+  "checked": "16 October 2026"
+ },
+ "xa-1": {
+  "publisher": "Xi’an Municipal People’s Government (Xi’an Statistics Bureau figures)",
+  "label": "2025年西安市经济运行情况 (Xi’an economic performance in 2025, Xi’an Statistics Bureau, 2 February 2026)",
+  "url": "http://www.xa.gov.cn/gk/ghjh/gmjjhshfzjhjqzhqk/2018511615350665218.html",
+  "lang": "zh-Hans",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "xa-1",
+  "checked": "16 October 2026"
+ },
+ "cf": {
+  "publisher": "China Import and Export Fair (Canton Fair)",
+  "label": "About the Canton Fair",
+  "url": "https://www.cantonfair.org.cn/en-US/about",
+  "lang": "en",
+  "grade": "Official organiser page",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "cf",
+  "checked": "16 October 2026"
+ },
+ "g-hc": {
+  "publisher": "Google Search Central",
+  "label": "Creating helpful, reliable, people-first content",
+  "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-hc",
+  "checked": "16 October 2026"
+ },
+ "g-hl": {
+  "publisher": "Google Search Central",
+  "label": "Tell Google about localized versions of your page",
+  "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-hl",
+  "checked": "16 October 2026"
+ },
+ "g-mr": {
+  "publisher": "Google Search Central",
+  "label": "Managing multi-regional and multilingual sites",
+  "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-mr",
+  "checked": "16 October 2026"
+ },
+ "g-seo": {
+  "publisher": "Google Search Central",
+  "label": "Do you need an SEO?",
+  "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-seo",
+  "checked": "16 October 2026"
+ },
+ "g-ssg": {
+  "publisher": "Google Search Central",
+  "label": "SEO Starter Guide",
+  "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-ssg",
+  "checked": "16 October 2026"
+ },
+ "g-prod": {
+  "publisher": "Google Search Central",
+  "label": "Introduction to Product structured data",
+  "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-prod",
+  "checked": "16 October 2026"
+ },
+ "g-ai": {
+  "publisher": "Google Search Central",
+  "label": "AI features and your website",
+  "url": "https://developers.google.com/search/docs/appearance/ai-features",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-ai",
+  "checked": "16 October 2026"
+ },
+ "g-aiblog": {
+  "publisher": "Google Search Central Blog",
+  "label": "Top ways to ensure your content performs well in Google’s AI experiences on Search (May 2025)",
+  "url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-aiblog",
+  "checked": "16 October 2026"
+ },
+ "g-sc": {
+  "publisher": "Google Search Central",
+  "label": "Get started with Search Console",
+  "url": "https://developers.google.com/search/docs/monitor-debug/search-console-start",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-sc",
+  "checked": "16 October 2026"
+ },
+ "g-sm": {
+  "publisher": "Google Search Central",
+  "label": "Learn about sitemaps",
+  "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-sm",
+  "checked": "16 October 2026"
+ },
+ "g-pe": {
+  "publisher": "Google Search Central",
+  "label": "Understanding page experience in Google Search results",
+  "url": "https://developers.google.com/search/docs/appearance/page-experience",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-pe",
+  "checked": "16 October 2026"
+ },
+ "g-spam": {
+  "publisher": "Google Search Central",
+  "label": "Spam policies for Google web search",
+  "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-spam",
+  "checked": "16 October 2026"
+ },
+ "wd-cwv": {
+  "publisher": "web.dev (Google)",
+  "label": "Web Vitals",
+  "url": "https://web.dev/articles/vitals",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "wd-cwv",
+  "checked": "16 October 2026"
+ },
+ "ga-loc": {
+  "publisher": "Google Ads Help",
+  "label": "About advanced location options",
+  "url": "https://support.google.com/google-ads/answer/1722043",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "ga-loc",
+  "checked": "16 October 2026"
+ },
+ "ga-sb": {
+  "publisher": "Google Ads Help",
+  "label": "About Smart Bidding",
+  "url": "https://support.google.com/google-ads/answer/7065882",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "ga-sb",
+  "checked": "16 October 2026"
+ },
+ "ga4-ev": {
+  "publisher": "Google Analytics Help",
+  "label": "Recommended events",
+  "url": "https://support.google.com/analytics/answer/9267735",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "ga4-ev",
+  "checked": "16 October 2026"
+ },
+ "li-page": {
+  "publisher": "LinkedIn Help",
+  "label": "Create a LinkedIn Page",
+  "url": "https://www.linkedin.com/help/linkedin/answer/a543852",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "li-page",
+  "checked": "16 October 2026"
+ },
+ "g-tl": {
+  "publisher": "Google Search Central",
+  "label": "Influencing your title links in search results",
+  "url": "https://developers.google.com/search/docs/appearance/title-link",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "g-tl",
+  "checked": "16 October 2026"
+ },
+ "ce": {
+  "publisher": "European Commission",
+  "label": "CE marking",
+  "url": "https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "ce",
+  "checked": "16 October 2026"
+ },
+ "gdd": {
+  "publisher": "Guangzhou Development District / Huangpu District (official English site)",
+  "label": "Introduction to Guangzhou Development District / Huangpu district (updated 24 January 2025)",
+  "url": "https://eng.gdd.gov.cn/20250124/d05b5eeb-2084-3390-da20-cb8b9965f36c.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "gdd",
+  "checked": "16 October 2026"
+ },
+ "sip": {
+  "publisher": "Suzhou Industrial Park Administrative Committee",
+  "label": "SIP Introduction (2025 economic highlights)",
+  "url": "https://one.sipac.gov.cn/szgyyqwsdt/szyqzwdt/gjb/sip-introduction.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "sip",
+  "checked": "16 October 2026"
+ },
+ "bj": {
+  "publisher": "Hangzhou Municipal Government (ehangzhou.gov.cn)",
+  "label": "Binjiang district (Hangzhou High-tech Zone), updated 22 February 2022",
+  "url": "https://www.ehangzhou.gov.cn/2022-02/22/c_271131.htm",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "bj",
+  "checked": "16 October 2026"
+ },
+ "netdz": {
+  "publisher": "Zhejiang Provincial Government (ezhejiang.gov.cn)",
+  "label": "Ningbo Economic and Technological Development Zone (updated 27 November 2017)",
+  "url": "https://www.ezhejiang.gov.cn/2017-11/27/c_393194_2.htm",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "netdz",
+  "checked": "16 October 2026"
+ },
+ "lg": {
+  "publisher": "Shanghai Municipal Government (english.shanghai.gov.cn; source: Shanghai Municipal Commission of Economy and Informatization)",
+  "label": "Lin-gang Special Area of China (Shanghai) Pilot Free Trade Zone",
+  "url": "https://english.shanghai.gov.cn/en-NationalDevelopmentZone/20231211/24c0c2437a184c7f9ba1a72ad4e5b437.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "lg",
+  "checked": "16 October 2026"
+ },
+ "ovc": {
+  "publisher": "Wuhan East Lake High-tech Development Zone (Optics Valley of China, official English site)",
+  "label": "Profile of Optics Valley of China (updated 23 March 2021)",
+  "url": "http://www.chinaopticsvalley.com/2021-03/23/c_631197.htm",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "ovc",
+  "checked": "16 October 2026"
+ },
+ "xmt": {
+  "publisher": "Department of Commerce of Fujian Province (FDI portal)",
+  "label": "Xiamen Torch Development Zone for High Technology Industries",
+  "url": "https://fdi.swt.fujian.gov.cn/en/profiles-show-3485.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "xmt",
+  "checked": "16 October 2026"
+ },
+ "cifit": {
+  "publisher": "Embassy of the People’s Republic of China in Sweden",
+  "label": "Introduction to China International Fair for Investment and Trade (9 July 2024)",
+  "url": "https://se.china-embassy.gov.cn/eng/zgxw_0/202407/t20240709_11451049.htm",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "cifit",
+  "checked": "16 October 2026"
+ },
+ "jif": {
+  "publisher": "Jinjiang Footwear & Sports Industry International Exposition (organiser’s site)",
+  "label": "Brief introduction — 27th Jinjiang Footwear & Sports Industry International Exposition",
+  "url": "https://www.cn-jif.com/brief-introduction",
+  "lang": "en",
+  "grade": "Organiser’s official page",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "jif",
+  "checked": "16 October 2026"
+ },
+ "gilf": {
+  "publisher": "Zhongshan Municipal Government (official English site)",
+  "label": "34th Guzhen international lighting fair kicks off (20 March 2026)",
+  "url": "https://www.zs.gov.cn/ywb/economy/content/post_2599802.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "gilf",
+  "checked": "16 October 2026"
+ },
+ "teda": {
+  "publisher": "TEDA Administrative Commission (invest.teda.gov.cn)",
+  "label": "TEDA: Pioneering Development in China’s Economic Landscape (5 December 2024)",
+  "url": "https://invest.teda.gov.cn/contents/1490/73051.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "teda",
+  "checked": "16 October 2026"
+ },
+ "czne": {
+  "publisher": "Changzhou Municipal People’s Government (official English site)",
+  "label": "Welcome to Changzhou — Creating a Sustainable Future in the New Energy Capital",
+  "url": "https://www.changzhou.gov.cn/ns_news/168168834807252",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "czne",
+  "checked": "16 October 2026"
+ },
+ "xaz": {
+  "publisher": "Xi’an Municipal Government (en.xa.gov.cn)",
+  "label": "Economic development zones (updated 14 April 2025)",
+  "url": "https://en.xa.gov.cn/Business/IndustrialParks/1691691505444048897.html",
+  "lang": "en",
+  "grade": "Official source",
+  "method": "Box fetch timed out; page read via web fetch service and text checked",
+  "id": "xaz",
+  "checked": "16 October 2026"
+ }
+}

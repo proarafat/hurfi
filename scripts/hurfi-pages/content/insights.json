@@ -2,7 +2,7 @@
  "_hub": {
   "title": "Insights for Chinese Manufacturers Selling Abroad | Hurfi",
   "h1": "Insights",
-  "description": "Practical guides for Chinese manufacturers on overseas buyer inquiries, factory website trust and RFQ-ready websites.",
+  "description": "Practical guides for Chinese manufacturers selling abroad: buyer inquiries, RFQ-ready websites, international SEO, AI search, Google Ads, LinkedIn and trade shows.",
   "lead": "Practical notes for Chinese manufacturers and exporters who want overseas buyers to find them, trust them and send a real inquiry. No growth hacks, no invented numbers."
  },
  "overseas-buyer-inquiries": {
@@ -283,5 +283,1482 @@
     "Yes — see [website development](/services/website-development/) or [book a consultation](/book-consultation/)."
    ]
   ]
+ },
+ "international-seo-checklist-for-exporters": {
+  "slug": "international-seo-checklist-for-exporters",
+  "published": "2026-10-16",
+  "title": "International SEO Checklist for Chinese Exporters | Hurfi",
+  "h1": "An international SEO checklist for Chinese exporters",
+  "description": "A practical international SEO checklist for Chinese manufacturers: URL structure, languages, hreflang, content, technical checks and measurement.",
+  "lead": "Selling abroad means being found in Google by buyers who search in their own language and their own words. This checklist covers the decisions that matter most for a Chinese manufacturer’s export website, in the order we usually work through them.",
+  "steps": [
+   "Choose markets",
+   "Pick URL structure",
+   "Write for each language",
+   "Add hreflang",
+   "Check technical basics",
+   "Measure in Search Console"
+  ],
+  "sections": [
+   {
+    "h2": "1. Decide which markets come first",
+    "p": [
+     "International SEO starts with a business decision, not a technical one. List the countries where you already have certification, logistics and someone who can answer buyers. Those are your first markets.",
+     "For each one, note the language buyers search in and the words they use for your product. A German engineer and an American buyer may describe the same part differently, and both differ from the term used in your Chinese catalogue."
+    ],
+    "ul": [
+     "Markets where your products are certified or can be certified soon",
+     "Markets where you can ship and support customers",
+     "Markets where you have sales staff who can reply in the buyer’s language"
+    ]
+   },
+   {
+    "h2": "2. Choose a URL structure you can maintain",
+    "p": [
+     "Google’s guide to [managing multi-regional and multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) compares the main options: country-code domains (example.de), subdomains (de.example.com) and subdirectories (example.com/de/). Each has trade-offs in cost, maintenance and how strongly it signals a country.",
+     "For most manufacturers, one .com domain with language subdirectories is the simplest to run. It keeps all links and authority on one domain and is easy to host outside mainland China, which helps page speed for buyers abroad."
+    ],
+    "ul": [
+     "Use one domain unless you have a strong reason for country domains",
+     "Keep the same structure in every language (/en/products/…, /de/products/…)",
+     "Do not rely on automatic redirects by IP address; let buyers choose the language"
+    ]
+   },
+   {
+    "h2": "3. Write each language version properly",
+    "p": [
+     "Machine translation of a Chinese catalogue rarely works. Terms get mistranslated, specifications lose their units and the pages miss the words buyers actually search for. Write the English version first, for overseas buyers, and translate from that.",
+     "Each language version should answer the same questions: what you make, to which specification and standard, how you prove quality, and how to send an RFQ."
+    ],
+    "ul": [
+     "Use the buyer’s units and standard names",
+     "Translate the RFQ form and confirmation messages too",
+     "Have a native speaker or a technical reviewer check key pages"
+    ]
+   },
+   {
+    "h2": "4. Connect language versions with hreflang",
+    "p": [
+     "Hreflang annotations tell Google which page is the equivalent in another language or region. Google’s documentation on [localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions) sets two rules that are often missed: each language version must list itself as well as the others, and if two pages do not point to each other, the annotations are ignored.",
+     "Use an x-default entry for the page buyers should see when no language matches."
+    ]
+   },
+   {
+    "h2": "5. Check the technical basics",
+    "ul": [
+     "Pages load fast from your target markets — measure from outside China",
+     "Every product page has a unique, descriptive title and description",
+     "Specifications are in HTML text, not only images or PDFs",
+     "An XML sitemap lists every page you want indexed",
+     "Old URLs redirect to their new equivalents when you restructure",
+     "The RFQ form works and sends to a monitored mailbox"
+    ]
+   },
+   {
+    "h2": "6. Measure by market",
+    "p": [
+     "Set up [Search Console](https://developers.google.com/search/docs/monitor-debug/search-console-start) in your company’s own account. It shows impressions, clicks and the queries that brought them, and you can filter by country and page.",
+     "Track RFQs by language and market in your analytics. Rankings are a means; qualified inquiries from the markets you chose are the goal."
+    ]
+   },
+   {
+    "h2": "7. Avoid the common hreflang mistakes",
+    "p": [
+     "Most hreflang problems on exporter sites are small and mechanical. Google’s guidelines say each language version must list itself as well as all other language versions, and that alternate URLs must be fully qualified, including https. A Spanish page that points to the English page, but not back to itself, breaks the set.",
+     "Google also describes an x-default value for pages that serve no specific language, such as a language selector or a home page that redirects. Use it when you have such a page; do not invent one."
+    ],
+    "ul": [
+     "Every language version lists itself and every other version, with full https URLs.",
+     "The language codes are valid (for example en, es, de, pt-BR), not country names.",
+     "Canonical tags point to the same-language page, not to the English page.",
+     "New language pages are added to the set on all existing versions, not just one."
+    ]
+   },
+   {
+    "h2": "8. Do not redirect buyers by IP address",
+    "p": [
+     "It is tempting to send visitors from Germany to the German site automatically. Google’s advice on multi-regional sites is not to use IP analysis to adapt content, because location detection is unreliable and Google may not be able to crawl all variations of the site. Instead, give each version its own URL and add a visible language or region selector.",
+     "This also helps buyers. A purchasing manager in Dubai may prefer English; an engineer in Switzerland may want German or French. Let them choose, and remember their choice."
+    ]
+   },
+   {
+    "h2": "9. Plan content per market, not just translation",
+    "p": [
+     "Translation alone rarely wins rankings in a new market. Buyers search with local terms, standards and units. A pump that is sold by flow rate in m³/h in Europe may be searched by GPM in the United States. A cable may need UL references for North America and CE or IEC references for Europe.",
+     "Before you translate, list the ten product pages that matter most in each market, and check which terms, units and certifications buyers there use. Then write — or adapt — those pages first. Smaller, better pages in a market beat a full but weak copy of the English site."
+    ],
+    "ul": [
+     "Local units and standards on every specification table.",
+     "Market-specific certifications and documents linked from the product page.",
+     "Contact options that suit the market: business hours, languages and response times."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "What is international SEO?",
+    "It is the work of making a website findable in search engines in more than one country or language: choosing a URL structure, writing each language version, connecting them with hreflang and measuring results by market."
+   ],
+   [
+    "Do we need a separate website for every country?",
+    "Usually not. Google documents several options; for most manufacturers, one domain with language subdirectories is the easiest to maintain."
+   ],
+   [
+    "Is machine translation good enough?",
+    "Rarely for product pages. It often gets technical terms and units wrong and misses the words buyers search for. Translate from a well-written English version and have key pages reviewed."
+   ],
+   [
+    "What happens if hreflang is wrong?",
+    "Google may ignore it. Each version must list itself and the others, and the links must go both ways."
+   ],
+   [
+    "Should we redirect visitors by IP address?",
+    "It is better to let visitors choose. Automatic redirects can stop buyers and search engines from reaching the version they need."
+   ],
+   [
+    "Does hosting in China hurt international SEO?",
+    "It can make pages slow for buyers abroad. Many exporters host the export site outside mainland China for speed."
+   ],
+   [
+    "Which language should we start with?",
+    "English, for most exporters, because it covers many markets. Add other languages where you have buyers and staff who can reply."
+   ],
+   [
+    "How do we know it is working?",
+    "Search Console shows impressions and clicks by country and page; analytics shows inquiries by market. Look at both."
+   ],
+   [
+    "Can Hurfi do this for us?",
+    "Yes. Our SEO and website development services cover structure, content, hreflang and measurement for exporters."
+   ]
+  ],
+  "sources": [
+   "g-mr",
+   "g-hl",
+   "g-sc",
+   "g-sm"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "electronics-semiconductor",
+   "battery-energy-storage"
+  ],
+  "cities": [
+   "shanghai",
+   "changzhou",
+   "shenzhen"
+  ],
+  "related": [
+   "manufacturer-website-rfq-checklist",
+   "export-website-speed-for-overseas-buyers",
+   "ai-search-for-manufacturers"
+  ],
+  "svc": [
+   "Language-ready site structure, translated RFQ forms and fast hosting for buyers abroad.",
+   "Market selection, keyword research per language, hreflang and Search Console reporting by country.",
+   "Campaigns per country and language once the pages exist, measured by RFQs.",
+   "LinkedIn content in English that supports the markets you chose."
+  ],
+  "extra_claims": [
+   [
+    "Google compares ccTLDs, subdomains and subdirectories for multi-regional sites.",
+    "g-mr"
+   ],
+   [
+    "Each language version must list itself; if two pages do not point to each other the tags are ignored.",
+    "g-hl"
+   ],
+   [
+    "Search Console shows impressions, clicks and queries.",
+    "g-sc"
+   ],
+   [
+    "Each language version must list itself and all other language versions; alternate URLs must be fully qualified including https.",
+    "g-hl"
+   ],
+   [
+    "x-default value for pages with no specific language, such as language selectors or auto-redirecting home pages.",
+    "g-hl"
+   ],
+   [
+    "Do not use IP analysis to adapt content; location detection is unreliable and Google may not crawl all variations.",
+    "g-mr"
+   ]
+  ],
+  "v": 2
+ },
+ "choosing-an-export-marketing-agency": {
+  "slug": "choosing-an-export-marketing-agency",
+  "published": "2026-10-16",
+  "title": "How to Choose an Export Marketing Agency | Hurfi",
+  "h1": "How a manufacturer should choose an export marketing agency",
+  "description": "Questions a Chinese manufacturer should ask before hiring an export marketing or SEO agency: guarantees, ownership, reporting, content and red flags.",
+  "lead": "Choosing an agency to help you sell abroad is a significant decision for a factory. A good agency will make your company easier to find and easier to trust. A poor one can waste a year and leave you with accounts you do not own. These are the questions we would ask, including of ourselves.",
+  "steps": [
+   "Define the goal",
+   "Check guarantees",
+   "Confirm ownership",
+   "Review content process",
+   "Agree reporting",
+   "Start small"
+  ],
+  "sections": [
+   {
+    "h2": "Start with the outcome you want",
+    "p": [
+     "Before speaking to agencies, write down what success looks like in a year: more qualified RFQs from certain countries, a site that passes buyer checks, or less dependence on one marketplace. An agency should ask you this in the first meeting. If it starts with a package price instead, be careful."
+    ]
+   },
+   {
+    "h2": "Be wary of guarantees",
+    "p": [
+     "Google’s own advice on [hiring an SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo) states plainly that no one can guarantee a #1 ranking on Google. An agency that guarantees rankings or a fixed number of leads is either measuring something meaningless or promising something it cannot control.",
+     "A good agency commits to work, process and honest reporting instead."
+    ],
+    "ul": [
+     "Guaranteed first-page rankings",
+     "Guaranteed lead numbers regardless of product or price",
+     "Large volumes of “backlinks” for a fixed fee",
+     "Reports full of impressions and reach but no inquiries"
+    ]
+   },
+   {
+    "h2": "Make sure you own everything",
+    "p": [
+     "Your domain, website, hosting account, Google Search Console, analytics and ad accounts should be registered to your company, with the agency given access. If you part ways, you keep the history and the assets."
+    ],
+    "ul": [
+     "Domain registered in your company’s name",
+     "Search Console and analytics owned by your company account",
+     "Ad accounts in your name, with your payment method",
+     "Source files and content delivered to you"
+    ]
+   },
+   {
+    "h2": "Ask how content gets written",
+    "p": [
+     "For a manufacturer, content quality depends on technical accuracy. Ask who writes product pages, how they learn your products and who approves technical claims. Google’s guidance on [helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) suggests asking “Who, How, and Why” about each page; an agency should be able to answer those for the content it produces.",
+     "Mass-produced pages with little original information are a risk, not an asset. Google’s [spam policies](https://developers.google.com/search/docs/essentials/spam-policies) describe practices such as scaled content abuse — many pages generated mainly to manipulate rankings — and link spam."
+    ]
+   },
+   {
+    "h2": "Agree what will be reported",
+    "p": [
+     "Ask to see a sample report. The useful numbers for an exporter are qualified inquiries by source and market, search impressions and clicks for the products you care about, and the cost per qualified inquiry for paid campaigns.",
+     "Agree a monthly report and a quarterly review where the plan can change."
+    ]
+   },
+   {
+    "h2": "Start with a defined first scope",
+    "p": [
+     "A sensible first project is small enough to judge: fixing the main product pages, building an RFQ path, or setting up search tracking. You will learn more about an agency from three months of real work than from any proposal."
+    ]
+   },
+   {
+    "h2": "Questions to ask before you sign",
+    "p": [
+     "A short list of direct questions tells you more than a long sales deck. Ask every agency the same questions and compare the answers in writing."
+    ],
+    "ul": [
+     "Who will do the work each month, and in which language do they write?",
+     "Which of these tasks are done by people, and which by software or AI tools?",
+     "What will you need from our engineers and sales team, and how much of their time?",
+     "Which reports will we get, and can we see an example from a similar engagement?",
+     "What happens to the website, domains, ad accounts and content if we stop working together?",
+     "How will you handle technical claims, certifications and safety statements?"
+    ]
+   },
+   {
+    "h2": "Red flags in proposals",
+    "p": [
+     "Some warning signs come up again and again. Google’s spam policies describe link schemes and scaled content abuse — producing many pages mainly to manipulate rankings — as practices that can lead to lower rankings or removal from results. If a proposal promises hundreds of backlinks or “500 AI-written pages a month”, treat that as a risk, not a bonus.",
+     "Be cautious too of proposals that report only rankings for long lists of keywords nobody searches for, or traffic without inquiries. For a manufacturer, the useful numbers are qualified inquiries, RFQs and, eventually, orders."
+    ],
+    "ul": [
+     "Guaranteed first-page rankings or a fixed number of leads.",
+     "Bulk link building or “private networks”.",
+     "Ownership of your domain or ad account held by the agency.",
+     "No access to the analytics and Search Console data."
+    ]
+   },
+   {
+    "h2": "How to compare two shortlisted agencies",
+    "p": [
+     "When two agencies look similar, give each the same small paid task: for example, rewrite one key product page, or audit your top ten pages. Compare the quality of the work, how many questions they asked about your product, and how they handled technical details.",
+     "An agency that asks for datasheets, test reports and examples of real buyer questions is usually one that will write pages buyers trust. An agency that delivers quickly without asking anything has probably written something generic."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "Can any agency guarantee Google rankings?",
+    "No. Google states that no one can guarantee a #1 ranking on Google. Treat guarantees as a warning sign."
+   ],
+   [
+    "Who should own our website and accounts?",
+    "Your company. The agency should have access, not ownership, so you keep everything if you change agency."
+   ],
+   [
+    "What should an agency report each month?",
+    "Qualified inquiries by source and market, search impressions and clicks for priority products, and spend and cost per inquiry for paid campaigns."
+   ],
+   [
+    "Is it a problem if an agency builds hundreds of pages quickly?",
+    "It can be. Pages with little original value can fall under Google’s spam policies on scaled content. Fewer, better pages are usually safer."
+   ],
+   [
+    "Should the agency understand our industry?",
+    "It should be willing to learn it and to work with your engineers. Ask how they will learn your products and who approves technical claims."
+   ],
+   [
+    "How long should the first contract be?",
+    "Long enough to do real work, short enough to judge. A defined first scope over a few months is reasonable."
+   ],
+   [
+    "Should we choose a Chinese agency or a foreign one?",
+    "Choose the one that can write naturally for your buyers and communicate well with your team. Ask to see English content they have written."
+   ],
+   [
+    "What are signs of a good agency?",
+    "They ask about your goals, admit what they cannot promise, put accounts in your name and show you real reporting."
+   ],
+   [
+    "How does Hurfi work?",
+    "We start with a free consultation, agree a scope, keep accounts in your name and report from them every month. We do not guarantee rankings or lead numbers."
+   ]
+  ],
+  "sources": [
+   "g-seo",
+   "g-hc",
+   "g-spam"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "oem-odm",
+   "medical-devices-diagnostics"
+  ],
+  "cities": [
+   "xian",
+   "tianjin",
+   "shanghai"
+  ],
+  "related": [
+   "overseas-buyer-inquiries",
+   "international-seo-checklist-for-exporters",
+   "google-ads-for-exporters"
+  ],
+  "svc": [
+   "Sites built in your own hosting and domain, with source files handed over.",
+   "SEO reported from your own Search Console, with no ranking guarantees.",
+   "Ad accounts in your company name, reported by cost per qualified inquiry.",
+   "LinkedIn pages owned by your company, with the agency as an admin."
+  ],
+  "extra_claims": [
+   [
+    "No one can guarantee a #1 ranking on Google.",
+    "g-seo"
+   ],
+   [
+    "Google suggests asking Who, How and Why about content.",
+    "g-hc"
+   ],
+   [
+    "Google spam policies include scaled content abuse and link spam.",
+    "g-spam"
+   ],
+   [
+    "Scaled content abuse: many pages generated primarily to manipulate rankings; sites violating spam policies may rank lower or not appear.",
+    "g-spam"
+   ]
+  ],
+  "v": 2
+ },
+ "linkedin-for-factory-export-sales": {
+  "slug": "linkedin-for-factory-export-sales",
+  "published": "2026-10-16",
+  "title": "LinkedIn for Factory Export Sales: A Practical Guide | Hurfi",
+  "h1": "LinkedIn for factory export sales: a practical guide",
+  "description": "How Chinese manufacturers can use LinkedIn company pages and sales profiles to support export sales: setup, content, outreach and measurement.",
+  "lead": "When a factory’s sales manager emails an overseas buyer, the buyer often looks up the person and the company on LinkedIn before replying. A blank or inconsistent profile costs trust. This guide covers what a manufacturer needs on LinkedIn and how to keep it working without fabricating anything.",
+  "steps": [
+   "Create the company page",
+   "Fix sales profiles",
+   "Plan real content",
+   "Link to the website",
+   "Reach out carefully",
+   "Measure replies"
+  ],
+  "sections": [
+   {
+    "h2": "Why LinkedIn matters to overseas buyers",
+    "p": [
+     "LinkedIn is where many procurement and engineering staff check a supplier and the person contacting them. They look for consistency: does the company page match the website, does the salesperson work there, and is there evidence of real production?",
+     "A LinkedIn presence does not replace a website. It is a second place to check you, and it should point to the website for details."
+    ]
+   },
+   {
+    "h2": "Set up the company page properly",
+    "p": [
+     "LinkedIn Help explains how to [create a LinkedIn Page](https://www.linkedin.com/help/linkedin/answer/a543852) for a company. Use your English company name exactly as it appears on your website and documents, your website URL, your real location and a short description of what you make."
+    ],
+    "ul": [
+     "Logo and cover image you own",
+     "Description that names your products and the industries you serve",
+     "Website link to the English site",
+     "Location matching your factory address",
+     "At least two admins from your company"
+    ]
+   },
+   {
+    "h2": "Make sales profiles consistent",
+    "p": [
+     "Each person who contacts buyers should have a profile with their real name, a professional photo, their role and the company page linked as their employer. Buyers notice when a salesperson’s profile is empty or lists a different company."
+    ]
+   },
+   {
+    "h2": "Post what only your factory can show",
+    "p": [
+     "The most useful posts show things buyers cannot see elsewhere: a new line being installed, a test being run, an engineer explaining a design choice, packaging for an export order (without client names). One genuine post a week beats daily generic content."
+    ],
+    "ul": [
+     "Production and testing photos or short videos you own",
+     "Trade-show dates and booth details for confirmed fairs",
+     "Certifications when you receive them, with scope",
+     "Introductions to engineers and sales staff",
+     "Links to new product pages on your website"
+    ]
+   },
+   {
+    "h2": "Reach out without spamming",
+    "p": [
+     "Connection requests and messages work best when they are specific: why you are contacting this person, what you make that is relevant to them, and a link to the right product page. Mass messages with no context damage your reputation and can restrict your account."
+    ]
+   },
+   {
+    "h2": "Measure what matters",
+    "p": [
+     "Track replies, meetings and RFQs that started on LinkedIn, and visits from LinkedIn to your website in analytics. Follower counts are less important than whether the right buyers engage."
+    ]
+   },
+   {
+    "h2": "A weekly routine for a small export team",
+    "p": [
+     "LinkedIn works best as a steady habit, not a campaign. For a factory with one or two export sales staff, an hour or two a week is enough if it is spent on the right things."
+    ],
+    "ul": [
+     "**Monday:** post one piece of factory content — a production step, a test, a shipment — with a short explanation in English.",
+     "**Tuesday–Thursday:** reply to comments and messages within a working day; accept relevant connection requests.",
+     "**Weekly:** send a few personalised messages to buyers or engineers who engaged with your posts or visited your profile.",
+     "**Monthly:** review which posts led to profile visits, website clicks or conversations, and do more of those."
+    ]
+   },
+   {
+    "h2": "What to post when you cannot show customers",
+    "p": [
+     "Many factories cannot name customers or show their parts. That does not leave you with nothing to post. Buyers want to see process, quality and people, and you can show those without revealing a client."
+    ],
+    "ul": [
+     "Inspection equipment in use, with what it measures and how often.",
+     "Before-and-after examples of a process improvement, without customer names.",
+     "Certification audits passed, new equipment installed, capacity added.",
+     "Short explanations of a material, tolerance or standard your buyers ask about.",
+     "Your team: the engineer who answers technical questions, the person who handles shipping."
+    ]
+   },
+   {
+    "h2": "Connect LinkedIn to your website",
+    "p": [
+     "Every LinkedIn post should have somewhere to go. Link to the matching product or capability page on your website, not just the home page. On the website, make the RFQ form short and clear, so a buyer who clicks through from LinkedIn can ask a question in a minute.",
+     "Use tagged links (UTM parameters) on the links you post, so your analytics show which LinkedIn posts lead to visits and inquiries. Without that, it is hard to tell whether LinkedIn is working."
+    ]
+   },
+   {
+    "h2": "Mistakes that make factories look unreliable",
+    "ul": [
+     "A company page with no logo, no website link or a description copied from a marketplace.",
+     "Sales profiles with different company names, job titles in Chinese only, or no photo.",
+     "Connection requests followed immediately by a price list.",
+     "Posting only product photos with “best price, contact us”, and nothing about process or quality.",
+     "Long gaps between posts, so the page looks abandoned when a buyer checks it."
+    ],
+    "p": [],
+    "p2": [
+     "Each of these is easy to fix, and fixing them matters because buyers check LinkedIn to confirm that a supplier is real before they reply."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "Do B2B buyers really use LinkedIn to check suppliers?",
+    "Many procurement and engineering staff do, especially before replying to someone they do not know. A consistent profile reduces doubt."
+   ],
+   [
+    "Should we create a company page or only personal profiles?",
+    "Both. The company page shows the organisation; personal profiles show who buyers will deal with. Link them."
+   ],
+   [
+    "What should we post?",
+    "Real production, testing, engineering and team content you own, plus new products with links to your website. Avoid stock images and generic slogans."
+   ],
+   [
+    "How often should we post?",
+    "Regularly enough to look active — often one genuine post a week is enough for a factory."
+   ],
+   [
+    "Can we buy followers or connections?",
+    "No. Fake followers do not buy anything and can damage trust if noticed."
+   ],
+   [
+    "Can we use LinkedIn in China?",
+    "Access depends on your network setup and LinkedIn’s services in your region. Many export teams manage their pages from outside China or through partners."
+   ],
+   [
+    "Should we name our customers in posts?",
+    "Only with written permission. Otherwise describe the application or industry."
+   ],
+   [
+    "How do we measure LinkedIn results?",
+    "Count replies, meetings and RFQs that came from LinkedIn, and LinkedIn visits to your site in analytics."
+   ],
+   [
+    "Can Hurfi manage our LinkedIn?",
+    "Yes. Our social media management service plans and publishes LinkedIn content with your team and links it to your website."
+   ]
+  ],
+  "sources": [
+   "li-page",
+   "g-hc"
+  ],
+  "sectors": [
+   "industrial-automation-robotics",
+   "apparel-footwear-production",
+   "battery-energy-storage"
+  ],
+  "cities": [
+   "quanzhou",
+   "hangzhou",
+   "changzhou",
+   "xian"
+  ],
+  "related": [
+   "overseas-buyer-inquiries",
+   "trade-show-follow-up-for-manufacturers",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Website pages that LinkedIn posts can link to — product, capability and team pages.",
+   "Search work so buyers who check you after LinkedIn find your own site first.",
+   "LinkedIn campaigns aimed at specific job roles, where the budget justifies it.",
+   "Company page setup, profile guidance and a weekly posting plan with your team."
+  ],
+  "extra_claims": [
+   [
+    "LinkedIn Help explains how to create a LinkedIn Page.",
+    "li-page"
+   ]
+  ],
+  "v": 2
+ },
+ "ai-search-for-manufacturers": {
+  "slug": "ai-search-for-manufacturers",
+  "published": "2026-10-16",
+  "title": "AI Search for Manufacturers: What Actually Matters | Hurfi",
+  "h1": "AI search for manufacturers: what actually matters",
+  "description": "What Google’s AI Overviews and AI Mode mean for manufacturers’ websites, based on Google’s own documentation — and what is hype.",
+  "lead": "Buyers increasingly see AI-generated summaries in Google before they see a list of links. Manufacturers ask whether they need special “AI optimisation”. Google’s own documentation gives a clear answer, and it is less dramatic than many sales pitches suggest.",
+  "steps": [
+   "Keep pages crawlable",
+   "Write specific answers",
+   "Show who is behind it",
+   "Keep data consistent",
+   "Use structured data correctly",
+   "Measure real inquiries"
+  ],
+  "sections": [
+   {
+    "h2": "What Google says about AI features",
+    "p": [
+     "Google’s page on [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features) states that there are no additional requirements to appear in AI Overviews or AI Mode, and that no special schema.org structured data is needed. The same SEO foundations apply: pages must be indexable and eligible to be shown with a snippet.",
+     "In other words, a manufacturer that does normal SEO well is already doing most of what is needed."
+    ]
+   },
+   {
+    "h2": "Write pages that answer real buyer questions",
+    "p": [
+     "AI summaries draw on pages that answer a question clearly. For a manufacturer, those questions are specific: what tolerance can you hold, which standard does this cable meet, what is the MOQ for custom packaging. Pages that answer them in plain text, with numbers and conditions, are useful to buyers and to AI systems alike.",
+     "Google’s 2025 post on [succeeding in AI search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search) gives the same advice: focus on making unique, non-commodity content that visitors will find helpful and satisfying."
+    ],
+    "ul": [
+     "Specifications in HTML text, not only images or PDFs",
+     "FAQs that match questions your sales team actually receives",
+     "Application pages that explain where and why a product is used"
+    ]
+   },
+   {
+    "h2": "Be clear about who you are",
+    "p": [
+     "Summaries and buyers both benefit when the website makes the company clear: legal name, factory address, what you make yourself, certificates with scope, and who to contact. Inconsistent names or addresses across your site, LinkedIn and marketplace listings create doubt."
+    ]
+   },
+   {
+    "h2": "Use structured data for accuracy, not tricks",
+    "p": [
+     "Structured data such as Organization, Product and FAQ markup helps search engines understand a page, but Google says it is not required for AI features. Use it to describe what is visibly on the page, accurately. Markup that does not match the page can cause problems rather than solve them."
+    ]
+   },
+   {
+    "h2": "Avoid the hype",
+    "ul": [
+     "Services promising guaranteed placement in AI answers",
+     "Mass-generated pages written only for AI crawlers",
+     "Hidden text or keyword lists aimed at AI systems",
+     "Claims that a special file or markup is required to appear"
+    ]
+   },
+   {
+    "h2": "Measure what reaches you",
+    "p": [
+     "Google says traffic from AI features is included in Search Console’s Performance report, within the “Web” search type. What matters for a manufacturer is still the same: qualified inquiries from the right buyers. Track RFQs by landing page so you can see which content works."
+    ]
+   },
+   {
+    "h2": "What buyers ask AI assistants",
+    "p": [
+     "Buyers increasingly start supplier research by asking an AI assistant a long question — for example, “Which manufacturers make IP67 LED drivers with UL certification and a five-year warranty?” The answers these tools give draw on pages they can find and understand.",
+     "You cannot control which supplier an AI tool names. You can make sure your pages contain clear, specific answers to the questions buyers actually ask — specifications, certifications, minimum order quantities, lead times — so that they are good candidates to be found and cited. Google’s guidance for its AI features says the same SEO best practices apply as for search in general."
+    ]
+   },
+   {
+    "h2": "A practical checklist for your top pages",
+    "p": [
+     "Start with the ten pages that matter most for new buyers: your key product families, your capability page and your about page."
+    ],
+    "ul": [
+     "Specifications are in HTML text, not only in images or PDFs.",
+     "Certifications are named exactly, with the scope they cover.",
+     "The page states who you are: company name, location, factory or trading company.",
+     "Common questions are answered on the page in plain language.",
+     "The page is crawlable: no login, no blocking in robots.txt, and it is linked from other pages.",
+     "Structured data, where used, matches what is visible on the page."
+    ]
+   },
+   {
+    "h2": "Keep facts consistent everywhere",
+    "p": [
+     "AI tools and search engines compare information across sources. If your website says one capacity, your marketplace store another and your LinkedIn page a third, buyers — and machines — cannot tell which is right.",
+     "Pick one set of facts — company name, address, year founded, certifications, capacities — and use it on your website, marketplace profiles, LinkedIn and trade-fair listings. Update all of them when something changes."
+    ]
+   },
+   {
+    "h2": "How to tell whether it is working",
+    "p": [
+     "There is no separate report for every AI tool. Google says traffic from its AI features is included in Search Console’s Performance report, under the “Web” search type. Other assistants may appear as referral traffic in your analytics.",
+     "Watch three things over a few months: impressions and clicks for your key product pages in Search Console, referral visits from AI assistants in your analytics, and — most important — whether new inquiries mention finding you through search or an AI tool. Ask new contacts how they found you, and record the answer."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "Do we need special optimisation for Google’s AI Overviews?",
+    "Google says there are no additional requirements to appear in AI Overviews or AI Mode beyond normal SEO best practices."
+   ],
+   [
+    "Do we need special structured data for AI search?",
+    "No. Google states that no special schema.org structured data is needed. Use structured data to describe your pages accurately."
+   ],
+   [
+    "Will AI search reduce our website traffic?",
+    "It may change how buyers reach you. Pages that answer specific technical questions remain valuable, and buyers still visit suppliers’ sites before sending an RFQ."
+   ],
+   [
+    "Should we write content for AI systems instead of people?",
+    "No. Write for buyers. Google’s guidance focuses on helpful, people-first content."
+   ],
+   [
+    "Can an agency guarantee we appear in AI answers?",
+    "No one can guarantee that. Be wary of anyone who does."
+   ],
+   [
+    "What content works best for manufacturers?",
+    "Specific product, specification, application and FAQ pages that answer real buyer questions with numbers and conditions."
+   ],
+   [
+    "How do we see AI traffic?",
+    "It is included in Search Console performance reports. Track inquiries by landing page in analytics."
+   ],
+   [
+    "Does consistency across platforms matter?",
+    "Yes. Use the same company name, address and product names on your website, LinkedIn and listings."
+   ],
+   [
+    "Can Hurfi help?",
+    "Yes. Our SEO work covers the content, technical and structured-data basics that both classic and AI search rely on."
+   ]
+  ],
+  "sources": [
+   "g-ai",
+   "g-aiblog",
+   "g-hc"
+  ],
+  "sectors": [
+   "industrial-software-data",
+   "electronics-semiconductor",
+   "laboratory-scientific-equipment"
+  ],
+  "cities": [
+   "hangzhou",
+   "suzhou",
+   "shenzhen"
+  ],
+  "related": [
+   "industrial-product-page-seo",
+   "international-seo-checklist-for-exporters",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Pages built with clear HTML specifications and accurate structured data.",
+   "SEO focused on specific buyer questions, measured in your own Search Console.",
+   "Campaigns for products where search demand exists, measured by inquiries.",
+   "Consistent company information and real content on LinkedIn."
+  ],
+  "extra_claims": [
+   [
+    "AI feature traffic is reported in the Search Console Performance report, Web search type; to be a supporting link a page must be indexed and eligible for a snippet.",
+    "g-ai"
+   ],
+   [
+    "There are no additional requirements to appear in AI Overviews or AI Mode; no special schema.org structured data needed.",
+    "g-ai"
+   ],
+   [
+    "Google’s May 2025 post on AI search advises focusing on unique, non-commodity content that visitors find helpful and satisfying.",
+    "g-aiblog"
+   ],
+   [
+    "The same foundational SEO best practices apply to AI features as to Google Search overall.",
+    "g-ai"
+   ]
+  ],
+  "v": 2
+ },
+ "google-ads-for-exporters": {
+  "slug": "google-ads-for-exporters",
+  "published": "2026-10-16",
+  "title": "Google Ads for Exporters: A Setup Guide for Factories | Hurfi",
+  "h1": "Google Ads for exporters: a setup guide for factories",
+  "description": "How Chinese manufacturers can set up Google Ads for overseas B2B inquiries: location targeting, keywords, landing pages, conversion tracking and budgets.",
+  "lead": "Google Ads can bring overseas buyers to a factory’s website within days, but it can also spend a budget on the wrong countries and the wrong searches. This guide covers the settings and checks that matter most for B2B exporters.",
+  "steps": [
+   "Track conversions first",
+   "Set locations carefully",
+   "Choose specific keywords",
+   "Build matching landing pages",
+   "Start with a test budget",
+   "Review search terms weekly"
+  ],
+  "sections": [
+   {
+    "h2": "Set up conversion tracking before spending",
+    "p": [
+     "Decide what counts as a conversion: an RFQ form submission, a quote request email or a WhatsApp click. Track them in Google Analytics and import them into Google Ads. Google Analytics lists [recommended events](https://support.google.com/analytics/answer/9267735) for lead generation, including generate_lead for when a user submits a form or request.",
+     "Without conversion tracking you cannot tell which keywords bring buyers, and automated bidding has nothing to learn from. Google Ads Help states that to use [Smart Bidding](https://support.google.com/google-ads/answer/7065882) you need conversion tracking enabled, and some strategies rely on a minimum volume of conversion data."
+    ]
+   },
+   {
+    "h2": "Choose locations deliberately",
+    "p": [
+     "Google Ads offers advanced [location options](https://support.google.com/google-ads/answer/1722043). The broad setting, “Presence or Interest”, reaches people in your target locations and people who have shown interest in them; “Presence” limits ads to people who are in or regularly in those locations.",
+     "For an exporter, it is worth checking which setting fits. Google notes that the location mentioned in a search is considered first. Review the location report after the first weeks and exclude places you cannot serve."
+    ],
+    "ul": [
+     "Target the countries where you can ship, certify and support",
+     "Exclude mainland China if your campaign is for overseas buyers only",
+     "Check the location report and adjust"
+    ]
+   },
+   {
+    "h2": "Use specific, B2B keywords",
+    "p": [
+     "Broad product words attract consumers, students and competitors. Specific searches — product plus specification, standard, “manufacturer”, “supplier” or “OEM” — are more likely to come from buyers. Add negative keywords for retail, “free”, “DIY” and job searches."
+    ]
+   },
+   {
+    "h2": "Send clicks to the right page",
+    "p": [
+     "Each ad group should lead to the product page that matches the search, with specifications, proof and an RFQ form. Sending every click to the home page wastes money; the buyer has to search again."
+    ]
+   },
+   {
+    "h2": "Start small and measure cost per qualified inquiry",
+    "p": [
+     "Begin with a test budget on a few products and markets. After a few weeks, judge results by the number of qualified inquiries and what each one cost — not by clicks or impressions. Mark which inquiries were real buyers in your CRM or a simple sheet; GA4’s close_convert_lead event can record leads that became customers."
+    ]
+   },
+   {
+    "h2": "Review search terms every week",
+    "p": [
+     "The search terms report shows the actual searches that triggered your ads. Review it weekly at first, add negatives and move good terms into their own ad groups."
+    ]
+   },
+   {
+    "h2": "Location settings: presence or interest",
+    "p": [
+     "Google Ads offers broad geo targeting, called “Presence or Interest”, which reaches people in your target locations and also people who have shown interest in them. Google recommends broad targeting as a best practice on Search, but says to consider “Presence” when you only want to reach users in specific locations, not users elsewhere who are interested in them.",
+     "Exporters who can only serve buyers in certain countries — because of certification, voltage, shipping or distributor agreements — often fit that second case. Whichever setting you choose, check the location report after a few weeks and adjust based on where qualified inquiries actually come from."
+    ]
+   },
+   {
+    "h2": "Negative keywords for B2B exporters",
+    "p": [
+     "Industrial searches attract many clicks you do not want: job seekers, students, consumers looking for one unit, and people looking for repairs. A negative keyword list stops those searches triggering your ads."
+    ],
+    "ul": [
+     "Job and education terms: job, jobs, career, salary, course, training, PDF.",
+     "Consumer terms, if you do not sell single units: for home, DIY, near me, price of one.",
+     "Repair and second-hand terms, unless you offer those services: repair, used, second hand.",
+     "Competitor brand names, unless you have a deliberate competitor campaign."
+    ]
+   },
+   {
+    "h2": "Track leads, not just clicks",
+    "p": [
+     "Set up a conversion for each meaningful action: RFQ form submissions, contact form submissions, email clicks and WhatsApp or phone clicks. In Google Analytics 4, the recommended event for a submitted form or request for information is generate_lead.",
+     "Then judge campaigns by cost per qualified inquiry, not cost per click. A campaign with expensive clicks that brings two real RFQs a month is better than a cheap campaign that brings none. Review leads with your sales team each month and mark which ones were real buyers."
+    ]
+   },
+   {
+    "h2": "Budget and timing",
+    "p": [
+     "Start with a budget you can sustain for at least two to three months, focused on one or two markets and a few product groups. Industrial buyers search less often than consumers, so it takes time to collect enough data to judge a campaign.",
+     "Consider buyers’ time zones and working days when you review results, and make sure someone can answer inquiries quickly in those hours. An ad that brings an RFQ at 9 a.m. in Germany is wasted if the reply comes two days later."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "Is Google Ads useful for B2B manufacturers?",
+    "It can be, for products with clear search demand and a landing page that answers buyers. It works best alongside SEO, not instead of it."
+   ],
+   [
+    "What should count as a conversion?",
+    "Actions that show buying intent: RFQ form submissions, quote request emails, WhatsApp or phone clicks. GA4 recommends a generate_lead event for form and request submissions."
+   ],
+   [
+    "Do we need conversion tracking to use Smart Bidding?",
+    "Yes. Google Ads Help states that Smart Bidding needs conversion tracking enabled, and some strategies need a minimum amount of conversion data."
+   ],
+   [
+    "Which location setting should we use?",
+    "Google recommends “Presence or Interest” as a best practice on Search, but explains when “Presence” makes sense. Choose based on where you can actually sell, and check the location report."
+   ],
+   [
+    "How much budget do we need?",
+    "Enough to collect meaningful data on a few products and markets. We set a test budget with you and judge it by cost per qualified inquiry."
+   ],
+   [
+    "Should we send ads to our home page?",
+    "No. Send each ad group to the product page that matches the search."
+   ],
+   [
+    "How do we stop irrelevant clicks?",
+    "Use specific keywords, add negative keywords and review the search terms report weekly."
+   ],
+   [
+    "Can you guarantee a number of leads from ads?",
+    "No. Results depend on product, market, price and competition. We report honestly from your own account."
+   ],
+   [
+    "Can Hurfi manage our Google Ads?",
+    "Yes, through our digital marketing service. The account stays in your company’s name."
+   ]
+  ],
+  "sources": [
+   "ga-loc",
+   "ga-sb",
+   "ga4-ev"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "power-grid-electrical-equipment",
+   "precision-manufacturing-components"
+  ],
+  "cities": [
+   "ningbo",
+   "xiamen",
+   "zhongshan"
+  ],
+  "related": [
+   "overseas-buyer-inquiries",
+   "manufacturer-website-rfq-checklist",
+   "choosing-an-export-marketing-agency"
+  ],
+  "svc": [
+   "Landing pages per product that match the ad and end in a working RFQ form.",
+   "SEO for the same products, so search traffic continues when ads stop.",
+   "Campaign setup, conversion tracking, location and keyword management, in your own account.",
+   "LinkedIn content that supports buyers who check you after clicking an ad."
+  ],
+  "extra_claims": [
+   [
+    "Smart Bidding requires conversion tracking; some strategies need minimum conversion volume.",
+    "ga-sb"
+   ],
+   [
+    "Presence or Interest reaches people in or interested in targeted locations; location in query considered first.",
+    "ga-loc"
+   ],
+   [
+    "GA4 recommended events include generate_lead and close_convert_lead.",
+    "ga4-ev"
+   ],
+   [
+    "Google recommends broad geo targeting (Presence or Interest) as a best practice on Search, and suggests Presence when you only want users in specific locations.",
+    "ga-loc"
+   ],
+   [
+    "GA4 recommended event generate_lead: submits a form or a request for information.",
+    "ga4-ev"
+   ]
+  ],
+  "v": 2
+ },
+ "industrial-product-page-seo": {
+  "slug": "industrial-product-page-seo",
+  "published": "2026-10-16",
+  "title": "Industrial Product Page SEO: What Buyers and Google Need | Hurfi",
+  "h1": "Product page SEO for industrial manufacturers",
+  "description": "How to structure industrial product pages so overseas engineers and Google understand them: titles, specifications, documents, compliance and structured data.",
+  "lead": "For a manufacturer, the product page does most of the selling. It is where an engineer decides whether to send an RFQ, and where Google decides whether the page answers a search. This guide covers what a good industrial product page contains.",
+  "steps": [
+   "Descriptive title",
+   "Specifications in text",
+   "Applications",
+   "Compliance and documents",
+   "Structured data",
+   "RFQ form"
+  ],
+  "sections": [
+   {
+    "h2": "Start with a descriptive title",
+    "p": [
+     "The title should say what the product is in the buyer’s words, with the most important specification or variant: for example “Stainless steel ball valve, DN15–DN100, PN40” rather than “Product 3”. Google’s [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) recommends descriptive titles and notes that Google does not use the keywords meta tag."
+    ]
+   },
+   {
+    "h2": "Put specifications in HTML text",
+    "p": [
+     "Engineers search for numbers: sizes, ratings, tolerances, materials, standards. If those numbers are only in an image or a PDF, they are harder for buyers to scan and for search engines to read. Publish a specification table on the page and keep the PDF as a download."
+    ],
+    "ul": [
+     "Units and test conditions next to every value",
+     "Variants in one table rather than separate thin pages",
+     "Materials and finishes with the standards they meet",
+     "Drawings or dimension diagrams you own"
+    ]
+   },
+   {
+    "h2": "Explain applications and limits",
+    "p": [
+     "Say where the product is used and where it should not be used. Application text helps buyers who search by problem rather than by product name, and honest limits build trust with engineers."
+    ]
+   },
+   {
+    "h2": "Be exact about compliance",
+    "p": [
+     "List certificates for the product and market, with the holder and scope. For products sold in the EU that need CE marking, the [European Commission](https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en) explains that the manufacturer carries out the conformity assessment, sets up the technical file, issues the EU declaration of conformity and affixes the marking. Only claim what you hold."
+    ]
+   },
+   {
+    "h2": "Use structured data that matches the page",
+    "p": [
+     "Google’s [Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) documentation describes two types: Product snippets for pages that are not purchase pages, and merchant listings for pages where a product can be bought. Most B2B product pages fit the first. Mark up only what is visible on the page."
+    ]
+   },
+   {
+    "h2": "End with an RFQ path",
+    "p": [
+     "Every product page should end with a short form or a clear contact: what the buyer needs (quantity, specification, market, date) and who will answer. Track submissions by page so you know which products bring inquiries."
+    ]
+   },
+   {
+    "h2": "A product page outline you can reuse",
+    "p": [
+     "Most industrial product pages work well with the same basic outline. It gives buyers what they need in the order they look for it, and gives search engines clear text to work with."
+    ],
+    "ol": [
+     "**Title and one-line summary:** what the product is, its key specification and who it is for.",
+     "**Key specifications table:** in HTML, with units, tolerances and test conditions.",
+     "**Applications:** where it is used, and where it should not be used.",
+     "**Materials, options and customisation:** what can be changed and what cannot.",
+     "**Compliance and documents:** certificates, test reports and datasheets, with their scope.",
+     "**Packaging, MOQ and lead time:** typical ranges, clearly stated as such.",
+     "**RFQ path:** a short form or contact link with what information to include."
+    ]
+   },
+   {
+    "h2": "How to handle hundreds of variants",
+    "p": [
+     "Industrial products often come in many sizes, materials and ratings. Creating a page for every variant usually produces hundreds of near-identical pages that do not help buyers and may be treated as low value.",
+     "A better approach is one strong page per product family, with a variant table and filters. Create separate pages only for variants that buyers search for by name, or that have different applications, certifications or documents. Link variant pages back to the family page, and make sure each one has something unique to say."
+    ]
+   },
+   {
+    "h2": "Common mistakes on factory product pages",
+    "ul": [
+     "Specifications only in images or PDFs, so they cannot be searched or copied.",
+     "Titles that are only a model number, with no description of the product.",
+     "Copying a competitor’s or a marketplace description word for word.",
+     "Vague claims such as “high quality” and “best price” instead of measured values.",
+     "CE or other marks shown without saying which directives or standards apply.",
+     "No visible way to ask a question or request a quote."
+    ]
+   },
+   {
+    "h2": "Who should review a product page",
+    "p": [
+     "Product pages carry technical and legal weight. A wrong tolerance or an overstated certification can cost an order or create liability. Before a page is published, an engineer should check the specifications and applications, someone responsible for quality should check compliance statements, and a sales person should check that the page answers the questions buyers ask most.",
+     "Record who reviewed each page and when. When a specification or certificate changes, update the page and the date, so buyers and search engines see current information."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "What makes an industrial product page rank?",
+    "Clear relevance to the search — a descriptive title, specifications in text, application content — plus a site that is crawlable, fast and trusted."
+   ],
+   [
+    "Should every variant have its own page?",
+    "Usually not. Group minor variants in a table on one page. Give separate pages to products that buyers search for separately."
+   ],
+   [
+    "Are PDF datasheets bad for SEO?",
+    "Not bad, but not enough. Put the key specifications on the HTML page and offer the PDF too."
+   ],
+   [
+    "Does Google use the keywords meta tag?",
+    "No. Google states that it does not use the keywords meta tag."
+   ],
+   [
+    "Which structured data should B2B product pages use?",
+    "Usually Product snippets markup, which Google describes for non-purchase pages. Mark up only what is visible."
+   ],
+   [
+    "Can we list CE or other certificates?",
+    "Yes, if you hold them for that product. Name the product, scope and holder. The manufacturer is responsible for CE conformity assessment."
+   ],
+   [
+    "Should we show prices?",
+    "For configured or custom products, often not. Explain what affects price and invite an RFQ."
+   ],
+   [
+    "How long should a product page be?",
+    "As long as it needs to answer the buyer’s questions. Specifications, applications, compliance and an RFQ form usually take more than a paragraph."
+   ],
+   [
+    "Can Hurfi write our product pages?",
+    "Yes. We draft them from your documents with your engineers and you approve every technical statement."
+   ]
+  ],
+  "sources": [
+   "g-ssg",
+   "g-prod",
+   "ce"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "precision-manufacturing-components",
+   "optics-photonics"
+  ],
+  "cities": [
+   "wuhan",
+   "suzhou",
+   "ningbo",
+   "zhongshan"
+  ],
+  "related": [
+   "manufacturer-website-rfq-checklist",
+   "ai-search-for-manufacturers",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Product page templates with specification tables, documents and RFQ forms.",
+   "Titles, internal links and structured data for product and application searches.",
+   "Ads that send each search to its matching product page.",
+   "Posts that introduce new products and link to their pages."
+  ],
+  "extra_claims": [
+   [
+    "Google does not use the keywords meta tag.",
+    "g-ssg"
+   ],
+   [
+    "Product snippets are for non-purchase pages; merchant listings for purchase pages.",
+    "g-prod"
+   ],
+   [
+    "Manufacturers carry out the CE conformity assessment and issue the declaration.",
+    "ce"
+   ]
+  ],
+  "v": 2
+ },
+ "trade-show-follow-up-for-manufacturers": {
+  "slug": "trade-show-follow-up-for-manufacturers",
+  "published": "2026-10-16",
+  "title": "Trade Show Follow-Up for Manufacturers: Leads to RFQs | Hurfi",
+  "h1": "Trade show follow-up for manufacturers",
+  "description": "How manufacturers can turn Canton Fair and trade-show contacts into RFQs: preparation, the website buyers check afterwards, follow-up timing and tracking.",
+  "lead": "Trade shows still bring many factories their best buyers. But most of the work happens after the fair, when buyers compare dozens of suppliers they met. This guide covers how to make sure the follow-up — and the website buyers check — works in your favour.",
+  "steps": [
+   "Prepare pages before the fair",
+   "Capture details at the booth",
+   "Follow up within days",
+   "Send the right product page",
+   "Track every contact",
+   "Keep in touch"
+  ],
+  "sections": [
+   {
+    "h2": "Why the follow-up matters more than the booth",
+    "p": [
+     "At a large fair, a buyer may visit many booths in a day. Afterwards, they sort the contacts: who made what they need, who replied clearly, and who looks trustworthy online. The supplier that follows up fastest with useful information often gets the RFQ.",
+     "The [Canton Fair](https://www.cantonfair.org.cn/en-US/about), for example, has been held in Guangzhou every spring and autumn since 1957. Many buyers attend repeatedly and keep comparing suppliers between sessions."
+    ]
+   },
+   {
+    "h2": "Prepare your website before the fair",
+    "ul": [
+     "Product pages for every item you will exhibit, with specifications in text",
+     "A trade-show page with booth details for confirmed fairs, linking to those products",
+     "An English contact page with the names of the people at the booth",
+     "A short URL or QR code on brochures that leads to the right product section",
+     "An RFQ form that works on phones"
+    ]
+   },
+   {
+    "h2": "Capture useful details at the booth",
+    "p": [
+     "Record more than a business card: which products the buyer looked at, their market, quantity, timing and any certification needs. These notes make the follow-up specific instead of generic."
+    ]
+   },
+   {
+    "h2": "Follow up within days, with the right link",
+    "p": [
+     "Send a short email that reminds the buyer who you are, answers the question they asked and links to the exact product page — not only the home page or a large catalogue. Buyers who search your company name after the fair should find your own website first."
+    ]
+   },
+   {
+    "h2": "Track every contact through to RFQ",
+    "p": [
+     "Use a simple CRM or spreadsheet: contact, product interest, date of follow-up, reply, RFQ, quote. Tag website visits from fair materials (for example with campaign parameters on QR links) so you can see which fair brought which inquiries."
+    ]
+   },
+   {
+    "h2": "Stay in touch between fairs",
+    "p": [
+     "Buyers who were not ready to order may be ready months later. Useful updates — new products, certifications, a short video of a line — keep you on their list. LinkedIn helps here too, as a second place buyers can follow and check you."
+    ]
+   },
+   {
+    "h2": "A follow-up email template that works",
+    "p": [
+     "The first email after a fair should be short, specific and easy to reply to. Mention where you met, what the visitor asked about, and give one clear next step."
+    ],
+    "ul": [
+     "**Subject:** name of the fair, your company and the product discussed.",
+     "**First line:** where and when you met, and what they were interested in.",
+     "**Middle:** a link to the exact product or capability page, plus one answer to their question.",
+     "**Next step:** a specific offer — samples, a quotation, a short video call — with a date.",
+     "**Signature:** name, role, direct email, WhatsApp or phone, and website."
+    ]
+   },
+   {
+    "h2": "A 30-day follow-up plan",
+    "ul": [
+     "**Days 1–3:** first email to every qualified contact, with the right page link.",
+     "**Days 7–10:** second touch for those who did not reply: a short note with something useful, such as a datasheet or a case without client names.",
+     "**Days 14–21:** connect on LinkedIn with a personal note; send quotations or samples to those who asked.",
+     "**Day 30:** review every contact — active, paused or not a fit — and record the reason."
+    ]
+   },
+   {
+    "h2": "Measuring the return on a fair",
+    "p": [
+     "Booth costs, travel and samples add up. To judge whether a fair is worth repeating, track a few numbers for each one: qualified contacts, follow-ups sent, RFQs received, quotations sent and orders won, with the value of each.",
+     "Tag the links in your follow-up emails so your analytics show which fair contacts visited your site and which pages they read. Over two or three fairs, this tells you which events, products and messages bring real buyers."
+    ]
+   },
+   {
+    "h2": "Use the website between fairs",
+    "p": [
+     "A fair gives you a few days with buyers each year; your website works the other 360. After each fair, add what you learned: answers to the most common booth questions, pages for products that drew interest, and photos or short videos of new equipment.",
+     "Buyers who could not attend — or who found you later through a colleague — will look at your site first. If it reflects what you showed at the fair, it continues the conversation the booth started."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "How soon should we follow up after a trade show?",
+    "Within days, while the buyer still remembers your booth. Answer their question and link to the exact product page."
+   ],
+   [
+    "What should a follow-up email include?",
+    "A reminder of who you are, the answer to the buyer’s question, a link to the matching product page, and one clear next step."
+   ],
+   [
+    "Why does our website matter after the fair?",
+    "Buyers compare suppliers afterwards and often search your company name. Your site should confirm what they saw at the booth."
+   ],
+   [
+    "When is the Canton Fair held?",
+    "According to the organiser, every spring and autumn in Guangzhou. It was first held in spring 1957."
+   ],
+   [
+    "Should we make a separate page for each fair?",
+    "One trade-show page, updated with confirmed fairs and linking to products, is usually enough. Separate thin pages per fair add little."
+   ],
+   [
+    "How do we track which fair brought an order?",
+    "Tag QR links and fair-specific URLs with campaign parameters, and record each contact in a CRM or sheet through to RFQ."
+   ],
+   [
+    "Should we connect with buyers on LinkedIn after the fair?",
+    "Yes, with a personal note mentioning the fair and product. Keep your company page consistent with your website."
+   ],
+   [
+    "What if buyers do not reply?",
+    "Send one or two useful follow-ups with new information, then keep in touch occasionally. Avoid repetitive messages."
+   ],
+   [
+    "Can Hurfi help us prepare for a fair?",
+    "Yes. We can prepare product pages, the trade-show page, tracking links and follow-up templates."
+   ]
+  ],
+  "sources": [
+   "cf",
+   "g-hc"
+  ],
+  "sectors": [
+   "oem-odm",
+   "apparel-footwear-production",
+   "furniture-interior-manufacturing"
+  ],
+  "cities": [
+   "guangzhou",
+   "quanzhou",
+   "shenzhen",
+   "dongguan"
+  ],
+  "related": [
+   "overseas-buyer-inquiries",
+   "linkedin-for-factory-export-sales",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Product and trade-show pages ready before the fair, with mobile RFQ forms.",
+   "Search visibility for your English company name and exhibited products.",
+   "Tracking links and follow-up campaigns between fair sessions.",
+   "LinkedIn posts before, during and after the fair, linked to product pages."
+  ],
+  "extra_claims": [
+   [
+    "The Canton Fair has been held in Guangzhou every spring and autumn since 1957.",
+    "cf"
+   ]
+  ],
+  "v": 2
+ },
+ "export-website-speed-for-overseas-buyers": {
+  "slug": "export-website-speed-for-overseas-buyers",
+  "published": "2026-10-16",
+  "title": "Export Website Speed: Why It Matters to Overseas Buyers | Hurfi",
+  "h1": "Export website speed: making pages fast for overseas buyers",
+  "description": "Why page speed matters for Chinese exporters’ websites, what Core Web Vitals measure, and practical fixes for hosting, images and scripts.",
+  "lead": "Many Chinese factory websites are fast inside China and slow everywhere else. For an overseas buyer on a phone, a slow product page is often the last page they see. This guide explains what to measure and the fixes that usually help most.",
+  "steps": [
+   "Measure from abroad",
+   "Check Core Web Vitals",
+   "Fix hosting",
+   "Compress images",
+   "Trim scripts",
+   "Re-test"
+  ],
+  "sections": [
+   {
+    "h2": "Why speed matters for exporters",
+    "p": [
+     "Buyers abroad reach your site over international connections. If the server is in mainland China or the page loads large images and many scripts, the wait can be long. Google’s guidance on [page experience](https://developers.google.com/search/docs/appearance/page-experience) explains that it looks at signals such as Core Web Vitals alongside content relevance."
+    ]
+   },
+   {
+    "h2": "What Core Web Vitals measure",
+    "p": [
+     "[Web Vitals](https://web.dev/articles/vitals) defines three core metrics and their “good” thresholds:"
+    ],
+    "ul": [
+     "Largest Contentful Paint (loading): 2.5 seconds or less",
+     "Interaction to Next Paint (responsiveness): 200 milliseconds or less",
+     "Cumulative Layout Shift (visual stability): 0.1 or less"
+    ],
+    "p2": [
+     "Measure these from the countries where your buyers are, on mobile as well as desktop."
+    ]
+   },
+   {
+    "h2": "Host where your buyers are",
+    "p": [
+     "For an export site, hosting outside mainland China, or using a content delivery network with servers near your markets, usually makes the biggest difference. Keep a separate Chinese site in China if you need one for domestic buyers."
+    ]
+   },
+   {
+    "h2": "Compress and size images",
+    "ul": [
+     "Use modern formats such as WebP",
+     "Resize images to the size they are displayed",
+     "Set width and height so the layout does not jump",
+     "Lazy-load images below the first screen",
+     "Replace heavy sliders with one clear image"
+    ]
+   },
+   {
+    "h2": "Remove what slows pages down",
+    "p": [
+     "Chat widgets, tracking scripts, web fonts and video embeds add weight. Keep the ones you use and remove the rest. Scripts or fonts served from services that are slow or blocked in some regions can delay the whole page."
+    ]
+   },
+   {
+    "h2": "Test, fix, re-test",
+    "p": [
+     "Use Lighthouse or PageSpeed tools on your key product pages, fix the largest problems first and test again. Check Search Console’s Core Web Vitals report over time for real-user data."
+    ]
+   },
+   {
+    "h2": "The thresholds to aim for",
+    "p": [
+     "web.dev gives clear targets for Core Web Vitals: Largest Contentful Paint (LCP) within 2.5 seconds, Interaction to Next Paint (INP) of 200 milliseconds or less, and Cumulative Layout Shift (CLS) of 0.1 or less.",
+     "It also recommends measuring at the 75th percentile of page loads, separately for mobile and desktop. In practice this means most of your real visitors should get a good experience — not just you, testing from the office on a fast connection."
+    ]
+   },
+   {
+    "h2": "Test from where your buyers are",
+    "p": [
+     "A site that loads quickly in Shenzhen may be slow in Frankfurt or São Paulo, because of where it is hosted and how assets are delivered. Test key pages from the regions you sell to, using tools that let you choose a test location, and on mobile as well as desktop.",
+     "Chrome Lighthouse, which Google mentions as a tool for page-experience improvements, is useful for finding problems on a single page. Real-user data, when available, shows what visitors actually experience over time."
+    ],
+    "ul": [
+     "Test your home page, a top product page and the RFQ page.",
+     "Test from at least two target regions, on mobile and desktop.",
+     "Record results before and after each change, so you know what helped."
+    ]
+   },
+   {
+    "h2": "Quick wins for factory websites",
+    "ul": [
+     "Convert large JPEG and PNG product photos to WebP or AVIF, sized to how they are displayed.",
+     "Set width and height on images so the layout does not jump as they load.",
+     "Lazy-load images below the first screen; do not lazy-load the main image.",
+     "Remove unused plugins, sliders, chat widgets and tracking scripts.",
+     "Replace auto-playing background videos with a still image and an optional play button.",
+     "Use a CDN with locations near your buyers for images, CSS and JavaScript."
+    ]
+   },
+   {
+    "h2": "Keep it fast after launch",
+    "p": [
+     "Speed tends to slip over time as new images, plugins and tracking scripts are added. Set a simple rule: every new page is checked before it is published, and the key pages are re-tested every quarter from your main buyer regions.",
+     "Write down a few limits your team can follow — for example, a maximum image width and file size, no auto-playing video, and no new third-party script without a reason. Small rules like these keep a fast site fast."
+    ]
+   }
+  ],
+  "mid_after": 2,
+  "faq": [
+   [
+    "Does website speed affect Google rankings?",
+    "Google uses page experience signals, including Core Web Vitals, alongside relevance. Speed alone will not rank a page, but slow pages lose buyers."
+   ],
+   [
+    "What are good Core Web Vitals values?",
+    "web.dev gives LCP of 2.5 seconds or less, INP of 200 milliseconds or less and CLS of 0.1 or less as good."
+   ],
+   [
+    "Our site is fast in China. Why is it slow abroad?",
+    "Often because of server location, international connections, or scripts and fonts that load slowly outside China. Test from your target countries."
+   ],
+   [
+    "Should we host our export site outside China?",
+    "For most exporters, yes, or use a CDN with servers near your markets."
+   ],
+   [
+    "What is the quickest fix?",
+    "Usually images: compress them, convert to WebP and size them correctly."
+   ],
+   [
+    "Do chat widgets slow sites down?",
+    "They can. Keep only the tools you actually use."
+   ],
+   [
+    "How do we measure real-user speed?",
+    "Search Console’s Core Web Vitals report shows field data when enough visits are recorded."
+   ],
+   [
+    "Does speed matter for B2B buyers?",
+    "Yes. Buyers often research on phones and between meetings, and they have many other suppliers to check."
+   ],
+   [
+    "Can Hurfi fix our site speed?",
+    "Yes. Our website development work includes hosting advice, image optimisation and script clean-up, with before-and-after measurements."
+   ]
+  ],
+  "sources": [
+   "wd-cwv",
+   "g-pe"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "data-centers-digital-infrastructure",
+   "industrial-machinery-cnc"
+  ],
+  "cities": [
+   "xiamen",
+   "wuhan",
+   "zhongshan"
+  ],
+  "related": [
+   "international-seo-checklist-for-exporters",
+   "industrial-product-page-seo",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Hosting advice, WebP images, lean templates and before-and-after speed tests.",
+   "Core Web Vitals monitoring in Search Console as part of SEO work.",
+   "Fast landing pages so ad spend is not lost to slow loading.",
+   "Lightweight embeds so social content does not slow pages."
+  ],
+  "extra_claims": [
+   [
+    "Good thresholds: LCP ≤2.5 s, INP ≤200 ms, CLS ≤0.1.",
+    "wd-cwv"
+   ],
+   [
+    "Google page experience considers Core Web Vitals alongside relevance.",
+    "g-pe"
+   ],
+   [
+    "Core Web Vitals targets: LCP within 2.5 s, INP 200 ms or less, CLS 0.1 or less, measured at the 75th percentile, mobile and desktop separately.",
+    "wd-cwv"
+   ],
+   [
+    "Chrome Lighthouse helps identify page-experience improvements.",
+    "g-pe"
+   ]
+  ],
+  "v": 2
  }
 }

@@ -71,47 +71,195 @@ window.HURFI_SITE = {
       "label": "Industries",
       "path": "/industries/",
       "children": [
-        { "label": "Industrial Automation & Robotics", "path": "/industries/industrial-automation-robotics/" },
-        { "label": "Electronics & Semiconductor", "path": "/industries/electronics-semiconductor/" },
-        { "label": "EV & E-Mobility", "path": "/industries/ev-e-mobility/" },
-        { "label": "Battery & Energy Storage", "path": "/industries/battery-energy-storage/" },
-        { "label": "Power Grid & Electrical Equipment", "path": "/industries/power-grid-electrical-equipment/" },
-        { "label": "Medical Devices & Diagnostics", "path": "/industries/medical-devices-diagnostics/" },
-        { "label": "Laboratory & Scientific Equipment", "path": "/industries/laboratory-scientific-equipment/" },
-        { "label": "Industrial Machinery & CNC", "path": "/industries/industrial-machinery-cnc/" },
-        { "label": "Industrial Software & Data", "path": "/industries/industrial-software-data/" },
-        { "label": "Data Centers & Digital Infrastructure", "path": "/industries/data-centers-digital-infrastructure/" },
-        { "label": "Optics & Photonics", "path": "/industries/optics-photonics/" },
-        { "label": "Pharma & Bioprocess Manufacturing", "path": "/industries/pharma-bioprocess-manufacturing/" }
+        {
+          "label": "Industrial Automation & Robotics",
+          "path": "/industries/industrial-automation-robotics/"
+        },
+        {
+          "label": "Electronics & Semiconductor",
+          "path": "/industries/electronics-semiconductor/"
+        },
+        {
+          "label": "EV & E-Mobility",
+          "path": "/industries/ev-e-mobility/"
+        },
+        {
+          "label": "Battery & Energy Storage",
+          "path": "/industries/battery-energy-storage/"
+        },
+        {
+          "label": "Power Grid & Electrical Equipment",
+          "path": "/industries/power-grid-electrical-equipment/"
+        },
+        {
+          "label": "Medical Devices & Diagnostics",
+          "path": "/industries/medical-devices-diagnostics/"
+        },
+        {
+          "label": "Laboratory & Scientific Equipment",
+          "path": "/industries/laboratory-scientific-equipment/"
+        },
+        {
+          "label": "Industrial Machinery & CNC",
+          "path": "/industries/industrial-machinery-cnc/"
+        },
+        {
+          "label": "Industrial Software & Data",
+          "path": "/industries/industrial-software-data/"
+        },
+        {
+          "label": "Data Centers & Digital Infrastructure",
+          "path": "/industries/data-centers-digital-infrastructure/"
+        },
+        {
+          "label": "Optics & Photonics",
+          "path": "/industries/optics-photonics/"
+        },
+        {
+          "label": "Pharma & Bioprocess Manufacturing",
+          "path": "/industries/pharma-bioprocess-manufacturing/"
+        },
+        {
+          "label": "All industries",
+          "path": "/industries/"
+        }
       ]
     },
     {
       "label": "Locations",
       "path": "/locations/",
       "children": [
-        { "label": "China", "path": "/locations/china/" },
-        { "label": "Shenzhen", "path": "/locations/china/#city-guangdong-shenzhen" },
-        { "label": "Guangzhou", "path": "/locations/china/#city-guangdong-guangzhou" },
-        { "label": "Dongguan", "path": "/locations/china/#city-guangdong-dongguan" },
-        { "label": "Foshan", "path": "/locations/china/#city-guangdong-foshan" },
-        { "label": "Shanghai", "path": "/locations/china/#city-shanghai-shanghai" },
-        { "label": "Suzhou", "path": "/locations/china/#city-jiangsu-suzhou" },
-        { "label": "Wuxi", "path": "/locations/china/#city-jiangsu-wuxi" },
-        { "label": "Hangzhou", "path": "/locations/china/#city-zhejiang-hangzhou" },
-        { "label": "Ningbo", "path": "/locations/china/#city-zhejiang-ningbo" },
-        { "label": "Qingdao", "path": "/locations/china/#city-shandong-qingdao" },
-        { "label": "Hefei", "path": "/locations/china/#city-anhui-hefei" },
-        { "label": "Wuhan", "path": "/locations/china/#city-hubei-wuhan" }
+        {
+          "label": "China directory",
+          "path": "/locations/china/"
+        },
+        {
+          "label": "Changzhou",
+          "path": "/locations/china/changzhou/"
+        },
+        {
+          "label": "Dongguan",
+          "path": "/locations/china/dongguan/"
+        },
+        {
+          "label": "Guangzhou",
+          "path": "/locations/china/guangzhou/"
+        },
+        {
+          "label": "Hangzhou",
+          "path": "/locations/china/hangzhou/"
+        },
+        {
+          "label": "Hefei",
+          "path": "/locations/china/hefei/"
+        },
+        {
+          "label": "Ningbo",
+          "path": "/locations/china/ningbo/"
+        },
+        {
+          "label": "Quanzhou",
+          "path": "/locations/china/quanzhou/"
+        },
+        {
+          "label": "Shanghai",
+          "path": "/locations/china/shanghai/"
+        },
+        {
+          "label": "Shenzhen",
+          "path": "/locations/china/shenzhen/"
+        },
+        {
+          "label": "Suzhou",
+          "path": "/locations/china/suzhou/"
+        },
+        {
+          "label": "Tianjin",
+          "path": "/locations/china/tianjin/"
+        },
+        {
+          "label": "Wuhan",
+          "path": "/locations/china/wuhan/"
+        },
+        {
+          "label": "Wuxi",
+          "path": "/locations/china/wuxi/"
+        },
+        {
+          "label": "Xiamen",
+          "path": "/locations/china/xiamen/"
+        },
+        {
+          "label": "Xi'an",
+          "path": "/locations/china/xian/"
+        },
+        {
+          "label": "Zhongshan",
+          "path": "/locations/china/zhongshan/"
+        },
+        {
+          "label": "All city guides",
+          "path": "/locations/#city-guides"
+        }
+      ]
+    },
+    {
+      "label": "Insights",
+      "path": "/insights/",
+      "children": [
+        {
+          "label": "All insights",
+          "path": "/insights/"
+        },
+        {
+          "label": "Overseas buyer inquiries",
+          "path": "/insights/overseas-buyer-inquiries/"
+        },
+        {
+          "label": "Factory website trust signals",
+          "path": "/insights/factory-website-trust-signals/"
+        },
+        {
+          "label": "RFQ website checklist",
+          "path": "/insights/manufacturer-website-rfq-checklist/"
+        },
+        {
+          "label": "Industrial product page SEO",
+          "path": "/insights/industrial-product-page-seo/"
+        },
+        {
+          "label": "International SEO checklist",
+          "path": "/insights/international-seo-checklist-for-exporters/"
+        },
+        {
+          "label": "AI search for manufacturers",
+          "path": "/insights/ai-search-for-manufacturers/"
+        },
+        {
+          "label": "Google Ads for exporters",
+          "path": "/insights/google-ads-for-exporters/"
+        },
+        {
+          "label": "LinkedIn for export sales",
+          "path": "/insights/linkedin-for-factory-export-sales/"
+        },
+        {
+          "label": "Trade show follow-up",
+          "path": "/insights/trade-show-follow-up-for-manufacturers/"
+        },
+        {
+          "label": "Export website speed",
+          "path": "/insights/export-website-speed-for-overseas-buyers/"
+        },
+        {
+          "label": "Choosing an export agency",
+          "path": "/insights/choosing-an-export-marketing-agency/"
+        }
       ]
     },
     {
       "label": "Contact Us",
       "path": "/contact/"
-    },
-    {
-      "label": "Free Growth Strategy",
-      "path": "/book-consultation/",
-      "cta": true
     }
   ],
   "pages": [
