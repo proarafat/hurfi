@@ -128,7 +128,24 @@ def faq_ld(faq):
     return {"@context": "https://schema.org", "@type": "FAQPage",
             "mainEntity": [{"@type": "Question", "name": plain(q), "acceptedAnswer": {"@type": "Answer", "text": plain(a)}} for q, a in faq]}
 
-# GA4 Google tag, exactly as on every live page (right after <head>)
+# Google Tag Manager (head snippet, as high in <head> as possible, before GA4) and its
+# <noscript> iframe (right after <body>), exactly as on every live page
+GTM_HEAD = """<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TCWX44KL');</script>
+<!-- End Google Tag Manager -->
+"""
+
+GTM_BODY = """<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCWX44KL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+"""
+
+# GA4 Google tag, exactly as on every live page (right after GTM in <head>)
 GTAG = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T8MMZH7KBP"></script>
 <script>
@@ -162,7 +179,7 @@ def head(p):
     return f'''<!DOCTYPE html>
 <html lang="{lang}"{' data-static-lang="zh"' if lang.startswith('zh') else ''}>
 <head>
-{GTAG}{CLARITY}  <meta charset="UTF-8">
+{GTM_HEAD}{GTAG}{CLARITY}  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{E(t)}</title>
   <meta name="description" content="{E(d)}">
@@ -191,7 +208,7 @@ def head(p):
   <meta name="twitter:image" content="{OG_IMAGE}">
 {ld}</head>
 <body data-page="{p['data_page']}">
-'''
+{GTM_BODY}'''
 
 ZH_UI = None
 def zh_ui():
