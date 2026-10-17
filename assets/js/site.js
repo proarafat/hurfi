@@ -537,6 +537,10 @@
       '<li><a href="/terms/">Terms &amp; Conditions</a></li>' +
       '<li><a href="/refund-policy/">Refund &amp; Return Policy</a></li>' +
       "</ul></nav></div>" +
+      '<div class="footer-partner">' +
+      '<a class="footer-partner-badge" href="https://www.hostinger.com?REFERRALCODE=DSZYASIRA579" target="_blank" rel="sponsored noopener"><img src="/assets/img/partners/hostinger-partner-brand-dark.svg" alt="Official Hostinger Agency Partner badge" width="120" height="45" loading="lazy" decoding="async"></a>' +
+      '<p class="footer-partner-text"><strong>Official Hostinger® Agency Partner</strong> <span>Websites we build are hosted with priority Hostinger support.</span></p>' +
+      "</div>" +
       '<div class="footer-meta">' +
       '<p>© <span id="year"></span> Hurfi. <span>All rights reserved.</span></p>' +
       '<div class="footer-clocks">' +

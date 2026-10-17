@@ -2085,6 +2085,18 @@
   fr["Can I change the logo?"] = "Puis-je modifier le logo ?";
   fr["No. Use the files on this page as they are."] = "Non. Utilisez les fichiers de cette page tels quels.";
 
+  // Hostinger partner badge (footer, hero pill, credentials)
+  zh["Official Hostinger® Agency Partner"] = "Hostinger® 官方合作伙伴机构";
+  zh["Official Hostinger Agency Partner badge"] = "Hostinger 官方合作伙伴机构徽章";
+  zh["Hostinger Partner badge"] = "Hostinger 合作伙伴徽章";
+  zh["Websites we build are hosted with priority Hostinger support."] = "我们建设的网站托管在 Hostinger，并享有 Hostinger 优先技术支持。";
+  zh["Priority support for the sites we host"] = "我们托管的网站享有 Hostinger 优先技术支持";
+  fr["Official Hostinger® Agency Partner"] = "Partenaire agence officiel Hostinger®";
+  fr["Official Hostinger Agency Partner badge"] = "Badge partenaire agence officiel Hostinger";
+  fr["Hostinger Partner badge"] = "Badge partenaire Hostinger";
+  fr["Websites we build are hosted with priority Hostinger support."] = "Les sites que nous créons sont hébergés avec le support prioritaire de Hostinger.";
+  fr["Priority support for the sites we host"] = "Support prioritaire pour les sites que nous hébergeons";
+
   function map() {
     if (current() === "zh") return zh;
     if (current() === "fr") return fr;
