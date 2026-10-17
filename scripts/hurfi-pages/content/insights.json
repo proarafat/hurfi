@@ -2919,5 +2919,199 @@
    ]
   ],
   "v": 2
+ },
+ "b2b-website-design-rfqs": {
+  "slug": "b2b-website-design-rfqs",
+  "published": "2026-10-17",
+  "title": "B2B Website Design That Gets RFQs | Hurfi",
+  "h1": "Design a factory website that helps overseas buyers send RFQs",
+  "description": "Why factory websites lose buyers, what to show above the fold, and how to design product pages, trust signals and RFQ paths that turn interest into inquiries.",
+  "lead": "A factory website is not just decoration. It is the place where an overseas buyer decides whether your company looks real, relevant and easy to quote. This guide shows how to design the pages and paths that make an RFQ feel simple instead of risky.",
+  "steps": [
+   "Answer the first buyer question",
+   "Design the first screen",
+   "Build compare-ready product pages",
+   "Show proof fast",
+   "Keep RFQ paths short",
+   "Measure the redesign"
+  ],
+  "sections": [
+   {
+    "h2": "Why website design is really about decision speed",
+    "p": [
+     "When a buyer lands on a factory site, they are not looking for art direction. They are checking whether the company makes the right thing, whether the quality looks believable, and whether asking for a quote will be easy. A good design removes friction at each of those checks.",
+     "That is why this topic sits close to our pages on [Manufacturer Website RFQ Checklist](/insights/manufacturer-website-rfq-checklist/), [Factory Website Trust Signals](/insights/factory-website-trust-signals/), and [English B2B Websites for Chinese Manufacturers](/services/website-development/). The design work only matters if the page structure and the wording help the buyer move forward."
+    ]
+   },
+   {
+    "h2": "Put the answer above the fold",
+    "p": [
+     "The top of the page should answer four things at once: what you make, who it is for, what proof you can show, and how the buyer can contact you. If the first screen buries those answers under generic slogans, the buyer has to do the work themselves.",
+     "For a Chinese manufacturer, that usually means a clear H1, a short intro, a product or capability summary, one or two real photos, and a visible RFQ path. If the site serves several markets, add a simple language switch and keep the first-screen promise consistent across languages."
+    ],
+    "ul": [
+     "Say the product family or capability in plain English.",
+     "Show one real factory or product photo instead of a stock image carousel.",
+     "Include a visible button to request a quote, sample, or callback.",
+     "Place quality proof close to the first CTA, not hidden on a separate page.",
+     "Avoid vague slogans that do not tell the buyer what you make."
+    ]
+   },
+   {
+    "h2": "Design product pages for comparison, not applause",
+    "p": [
+     "Product pages work when buyers can compare options quickly. That means the page should read like a buying tool, not a brochure. Put the specification table in HTML, use meaningful headings, and keep model families together so visitors can understand the differences without downloading a PDF first.",
+     "Google’s guidance on [Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) says product snippets are for product pages where people cannot directly purchase the product. That fits many B2B factory sites. The page still needs human-friendly copy, but search also needs a clear signal about what the page is for."
+    ],
+    "ul": [
+     "Show the main dimensions, materials, finishes, standards or capacities on the page itself.",
+     "Group related models so the buyer can see the range at a glance.",
+     "Put applications and use cases near the specs, not far below them.",
+     "Keep the PDF as a download, but never rely on it as the only source of truth.",
+     "Add related products or series so the buyer has a next click."
+    ]
+   },
+   {
+    "h2": "Show proof without clutter",
+    "p": [
+     "A design that tries to prove everything at once can feel noisy. A better pattern is to place a few strong proof points where the buyer is already paying attention: a certificate block near quality claims, real machine or line photos near capability claims, and a short process explanation near the RFQ form.",
+     "Use the site to explain what you can verify, not what you hope the buyer believes. If a claim cannot be checked, leave it off the page. That makes the site cleaner and more credible."
+    ],
+    "ul": [
+     "Use certificates with scope and expiry dates where they matter.",
+     "Use factory and inspection photos that match the text next to them.",
+     "Explain MOQ, sample, lead time and payment basics in plain language.",
+     "If you cannot name customers, use anonymised project stories instead of invented logos.",
+     "Keep social proof specific and checkable."
+    ]
+   },
+   {
+    "h2": "Keep the RFQ path short",
+    "p": [
+     "A quote form is part of the design system, not a separate admin task. The buyer should understand what happens after they click, who will reply, and what details you need to answer properly. If the form is too long, too vague or hidden behind extra clicks, the visitor often leaves before sending anything.",
+     "We cover the page-level version of this in [Manufacturer Website RFQ Checklist](/insights/manufacturer-website-rfq-checklist/). For design work, the main goal is simple: ask for the right details, but ask for them only once."
+    ],
+    "ul": [
+     "Keep the form visible from the main product or capability page.",
+     "Ask for the product, quantity, market, and deadline before adding anything else.",
+     "Tell the buyer whether you reply by email, WhatsApp or both.",
+     "Make privacy, file handling and response expectations clear.",
+     "Test the form on a phone, because many buyers will use one."
+    ]
+   },
+   {
+    "h2": "Design for search and crawl, not just for the homepage",
+    "p": [
+     "A site can look polished and still be hard to find. Search-friendly design starts with descriptive page titles, a clear internal linking pattern, and a sitemap that helps crawlers see the important pages. Google’s title-link guidance asks for descriptive and concise title text, and its sitemap guidance says search engines read sitemaps to crawl a site more efficiently.",
+     "That is why we treat the information architecture as part of the visual design. If the main pages are easy to crawl, they are easier to reuse in search results and easier for buyers to move through."
+    ],
+    "ul": [
+     "Use page titles that say what the page is, not just the brand name.",
+     "Link product families, capability pages and RFQ pages together.",
+     "Keep URLs stable and simple.",
+     "Add only the pages you actually want buyers to land on.",
+     "Use [sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) to keep important pages discoverable."
+    ]
+   },
+   {
+    "h2": "Design for people first, then polish for search",
+    "p": [
+     "Google’s helpful-content guidance is blunt: if a page is mainly made to attract search visits, or if it just repeats what others say without adding value, it is a warning sign. For a manufacturer site, that means the page should answer a real buyer question with real product, process or quality detail.",
+     "This is where design and writing meet. A simple layout can still be strong if the content is specific, the claims are checkable, and the buyer never has to guess what happens next. The reverse is also true: a flashy layout with vague copy still loses the buyer."
+    ]
+   },
+   {
+    "h2": "What to avoid in a redesign",
+    "ul": [
+     "Do not hide the company identity, factory location or contact path behind a generic homepage.",
+     "Do not replace product detail with brand copy only.",
+     "Do not turn every page into a long banner stack.",
+     "Do not make buyers hunt for certificates, MOQ or lead times.",
+     "Do not let the PDF catalog replace the actual page."
+    ],
+    "p": [
+     "If you fix only one thing, fix the first screen. That is where buyers decide whether to keep reading, compare products, or leave."
+    ]
+   },
+   {
+    "h2": "How to know the redesign helped",
+    "p": [
+     "Use your own Search Console and analytics to see whether the right pages are getting impressions, clicks and RFQs. A good redesign should make the important pages easier to find and easier to use; it does not need to promise miracles. Track product-page entrances, form starts, form completions, and which pages lead to the most meaningful inquiries.",
+     "If the site has several clusters of products, compare them one by one. The goal is not just more traffic. The goal is fewer dead ends before a buyer sends a proper RFQ."
+    ],
+    "ul": [
+     "Check which pages attract impressions after the redesign.",
+     "Watch whether buyers move from product pages to RFQ forms.",
+     "Compare mobile and desktop behaviour.",
+     "Review which pages get internal clicks from the homepage and category pages.",
+     "Refresh the next batch of pages based on the data."
+    ]
+   }
+  ],
+  "mid_after": 4,
+  "faq": [
+   [
+    "Do we need a new website to improve RFQs?",
+    "Not always. Many factories can improve RFQs by rewriting the first screen, tightening product pages and simplifying the form."
+   ],
+   [
+    "Should the homepage show every product?",
+    "No. The homepage should guide buyers into the right product families or capabilities, then into the pages that answer their questions."
+   ],
+   [
+    "Is it okay to keep the PDF catalogue?",
+    "Yes, but keep it as a download. The web page still needs the key details in HTML."
+   ],
+   [
+    "What matters most on a product page?",
+    "Clear specifications, a short explanation of use, trust proof, and a visible route to ask for a quote."
+   ],
+   [
+    "Do we need prices on the website?",
+    "Usually not. Many B2B factory sites work better with MOQ, lead time, sample policy and an RFQ form."
+   ],
+   [
+    "Can AI-generated copy work on a factory website?",
+    "Only if a human checks the facts and the page still answers a real buyer question. Generic AI copy on its own is not enough."
+   ],
+   [
+    "How do we make the site easier to find?",
+    "Use descriptive titles, internal links, a sitemap and pages that answer specific product questions."
+   ],
+   [
+    "What if our products are custom or OEM?",
+    "Then the site should show capability, process, proof and the kind of brief you want buyers to send."
+   ]
+  ],
+  "sources": [
+   "g-helpful",
+   "g-title",
+   "g-product",
+   "g-sitemap"
+  ],
+  "sectors": [
+   "oem-odm",
+   "industrial-software-data",
+   "precision-manufacturing-components"
+  ],
+  "cities": [
+   "foshan",
+   "zhongshan",
+   "huizhou",
+   "shaoxing",
+   "taizhou-zhejiang"
+  ],
+  "related": [
+   "manufacturer-website-rfq-checklist",
+   "factory-website-trust-signals",
+   "export-website-speed-for-overseas-buyers"
+  ],
+  "svc": [
+   "Website planning and page structure for English B2B manufacturer sites.",
+   "SEO-friendly titles, internal links and product-page layouts that support discovery.",
+   "Digital marketing landing pages tied to the buyer questions your site should answer.",
+   "Social content that points the right visitors toward the right RFQ page."
+  ],
+  "v": 2
  }
 }

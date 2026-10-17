@@ -1528,5 +1528,45 @@
   "method": "Fetched from the box (HTTP 200) and text checked",
   "id": "iatf",
   "checked": "16 October 2026"
+ },
+ "g-helpful": {
+  "publisher": "Google Search Central",
+  "label": "Creating Helpful, Reliable, People-First Content",
+  "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+  "lang": "en",
+  "grade": "Official documentation",
+  "checked": "17 October 2026",
+  "id": "g-helpful",
+  "method": "Fetched from the OpenClaw VPS (HTTP 200) and text checked"
+ },
+ "g-title": {
+  "publisher": "Google Search Central",
+  "label": "Influencing Title Links in Google Search",
+  "url": "https://developers.google.com/search/docs/appearance/title-link",
+  "lang": "en",
+  "grade": "Official documentation",
+  "checked": "17 October 2026",
+  "id": "g-title",
+  "method": "Fetched from the OpenClaw VPS (HTTP 200) and text checked"
+ },
+ "g-product": {
+  "publisher": "Google Search Central",
+  "label": "Intro to Product Structured Data on Google",
+  "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+  "lang": "en",
+  "grade": "Official documentation",
+  "checked": "17 October 2026",
+  "id": "g-product",
+  "method": "Fetched from the OpenClaw VPS (HTTP 200) and text checked"
+ },
+ "g-sitemap": {
+  "publisher": "Google Search Central",
+  "label": "What Is a Sitemap",
+  "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+  "lang": "en",
+  "grade": "Official documentation",
+  "checked": "17 October 2026",
+  "id": "g-sitemap",
+  "method": "Fetched from the OpenClaw VPS (HTTP 200) and text checked"
  }
 }
