@@ -636,6 +636,92 @@ def build_industries_hub():
     s = add_hx_css(s)
     wr('industries/index.html', s)
 
+# ---------------------------------------------------------------- static JSON-LD for the core pages
+# These pages used to get all their schema from site.js at runtime (schema-data.js). The static
+# block below is now their single source: site.js sees each "@type" already present and injects
+# nothing for them. Organization/WebSite/ProfessionalService come from schema-data.js, so the
+# data lives in one place. Rerun alone with:  python scripts/hurfi-pages/build.py core-ld
+ORG_ID, WEBSITE_ID = SITE + '/#organization', SITE + '/#website'
+# same membership as the homepage Organization (Hostinger Agency Partner badge)
+HOSTINGER_MEMBER = {"@type": "ProgramMembership", "programName": "Hostinger Partner Program",
+                    "url": "https://www.hostinger.com/partner-program",
+                    "hostingOrganization": {"@type": "Organization", "name": "Hostinger", "url": "https://www.hostinger.com"}}
+CORE_PAGES = [  # (path, page @type, breadcrumb trail after Home, has ProfessionalService)
+    ('/about/', 'AboutPage', [('About', '/about/')], True),
+    ('/services/', 'CollectionPage', [('Services', '/services/')], True),
+    ('/projects/', 'CollectionPage', [('Projects', '/projects/')], True),
+    ('/industries/', 'CollectionPage', [('Industries', '/industries/')], True),
+    ('/locations/', 'CollectionPage', [('Locations', '/locations/')], True),
+    ('/locations/china/', 'CollectionPage', [('Locations', '/locations/'), ('China', '/locations/china/')], True),
+    ('/contact/', 'ContactPage', [('Contact', '/contact/')], True),
+    ('/book-consultation/', 'WebPage', [('Book a Consultation', '/book-consultation/')], True),
+    ('/privacy-policy/', 'WebPage', [('Privacy Policy', '/privacy-policy/')], False),
+    ('/terms/', 'WebPage', [('Terms & Conditions', '/terms/')], False),
+    ('/refund-policy/', 'WebPage', [('Refund & Return Policy', '/refund-policy/')], False),
+]
+
+def schema_data():
+    """Parse assets/js/schema-data.js (window.HURFI_SCHEMA = {key: {json}, ...};) into a dict."""
+    js = rd('assets/js/schema-data.js')
+    body = js[js.index('window.HURFI_SCHEMA = ') + len('window.HURFI_SCHEMA = '):].strip().rstrip(';')
+    return json.loads(re.sub(r'^  (\w+): ', r'"\1": ', body, flags=re.M))
+
+def _text(fragment):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', fragment))).strip()
+
+def page_faq(s):
+    """FAQ Q&A exactly as site.js bootSchemas() reads it: .rk-faq details -> summary span / first p."""
+    out = []
+    for sec in re.finditer(r'<section class="rk-faq[^"]*".*?</section>', s, re.S):
+        for d in re.finditer(r'<details[^>]*>(.*?)</details>', sec.group(0), re.S):
+            q = re.search(r'<summary[^>]*>\s*<span[^>]*>(.*?)</span>', d.group(1), re.S)
+            a = re.search(r'<p[^>]*>(.*?)</p>', d.group(1), re.S)
+            if q and a and _text(q.group(1)) and _text(a.group(1)):
+                out.append((_text(q.group(1)), _text(a.group(1))))
+    return out
+
+def build_core_ld():
+    sd = schema_data()
+    org = dict(sd['organization'])
+    org = dict([('@context', org.pop('@context')), ('@type', org.pop('@type')), ('@id', ORG_ID)] + list(org.items()))
+    org['memberOf'] = HOSTINGER_MEMBER
+    site = dict(sd['website'], **{"publisher": {"@id": ORG_ID}})
+    site = dict([('@context', site.pop('@context')), ('@type', site.pop('@type')), ('@id', WEBSITE_ID)] + list(site.items()))
+    # schema-data.js puts serviceType/audience directly on ProfessionalService, which schema.org only
+    # allows on Service; carry them on the offered Services instead, and give the LocalBusiness the
+    # Organization's own addresses (Google requires address on LocalBusiness types)
+    prof = dict(sd['professionalService'])
+    services, audience = prof.pop('serviceType'), prof.pop('audience')
+    prof = dict([('@context', prof.pop('@context')), ('@type', prof.pop('@type')), ('@id', SITE + '/#professionalservice')] + list(prof.items()))
+    prof['address'] = org['address']
+    prof['hasOfferCatalog'] = {"@type": "OfferCatalog", "name": "Hurfi services", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": x, "serviceType": x, "audience": audience,
+                                           "provider": {"@id": ORG_ID}}} for x in services]}
+    for path, typ, trail, with_prof in CORE_PAGES:
+        rel = path.strip('/') + '/index.html'
+        s = rd(rel)
+        url = SITE + path
+        assert ('<link rel="canonical" href="%s">' % url) in s, rel
+        title = _text(re.search(r'<title>(.*?)</title>', s, re.S).group(1))
+        desc = html.unescape(re.search(r'<meta name="description" content="([^"]*)">', s).group(1))
+        webpage = {"@context": "https://schema.org", "@type": typ, "@id": url + "#webpage", "url": url, "name": title,
+                   "description": desc, "inLanguage": "en", "isPartOf": {"@id": WEBSITE_ID},
+                   "publisher": {"@id": ORG_ID}, "breadcrumb": {"@id": url + "#breadcrumb"}}
+        if typ in ('AboutPage', 'ContactPage'):
+            webpage["mainEntity"] = {"@id": ORG_ID}
+        if path == '/locations/china/':
+            webpage["about"] = {"@type": "Country", "name": "China"}
+        crumbs = crumbs_ld([('Home', '/')] + trail)
+        crumbs = dict([('@context', crumbs.pop('@context')), ('@type', crumbs.pop('@type')), ('@id', url + '#breadcrumb')] + list(crumbs.items()))
+        ld = [org, site, webpage, crumbs]
+        if with_prof:
+            ld.append(prof)
+        faq = page_faq(s)
+        if faq:
+            ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+        wr(rel, set_ld(s, ld))
+
 # ---------------------------------------------------------------- batch 4: shared helpers
 SRC = None
 def sources():
@@ -1349,6 +1435,10 @@ def main():
     build_industries_hub()
     build_insights(ins, cities)
     build_zh(zh)
+    build_core_ld()
 
 if __name__ == '__main__':
-    main()
+    if sys.argv[1:] == ['core-ld']:
+        build_core_ld()
+    else:
+        main()

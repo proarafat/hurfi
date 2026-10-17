@@ -440,7 +440,8 @@
         url: url
       });
     }
-    if ((pageType === "industry" || pageType === "industries" || pageType === "location") && !hasSchemaType("WebPage")) {
+    if ((pageType === "industry" || pageType === "industries" || pageType === "location") && !hasSchemaType("WebPage") &&
+        !hasSchemaType("CollectionPage") && !hasSchemaType("AboutPage") && !hasSchemaType("ContactPage")) {
       var pageName = document.querySelector("h1");
       var pageDesc = document.querySelector('meta[name="description"]');
       var webPage = {

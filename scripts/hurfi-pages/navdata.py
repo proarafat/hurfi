@@ -1,5 +1,5 @@
 """Single source for the main navigation (static header HTML and site-data.js)."""
-VER = '20261017d'
+VER = '20261017e'
 
 SERVICES = [('Website Development', '/services/website-development/'), ('SEO', '/services/seo/'),
             ('Digital Marketing', '/services/digital-marketing/'), ('Social Media Management', '/services/social-media-management/', 'Hot')]
