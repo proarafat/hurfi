@@ -37,7 +37,7 @@ python -m http.server 8080
 python scripts/hurfi-pages/build.py
 ```
 
-It only rewrites the pages it owns, and only the marked `<!-- hurfi:gen:... -->` blocks inside existing pages. Update `sitemap.xml` `lastmod` for any page whose content changed. `python scripts/hurfi-pages/sitemap_lastmod.py` sets every `lastmod` from git history (content only: title, description, JSON-LD, `<main>`; ignores `?v=` bumps and header/footer). The 11 core pages (about, services, projects, industries, locations, locations/china, contact, book-consultation, privacy-policy, terms, refund-policy) carry static JSON-LD built from `assets/js/schema-data.js`; refresh it with `python scripts/hurfi-pages/build.py core-ld`.
+It only rewrites the pages it owns, and only the marked `<!-- hurfi:gen:... -->` blocks inside existing pages. Update `sitemap.xml` `lastmod` for any page whose content changed. `python scripts/hurfi-pages/sitemap_lastmod.py` sets every `lastmod` from git history (content only: title, description, JSON-LD, `<main>`; ignores `?v=` bumps and header/footer). The 11 core pages (about, services, projects, industries, locations, locations/china, contact, book-consultation, privacy-policy, terms, refund-policy) carry static JSON-LD built from `assets/js/schema-data.js`; refresh it with `python scripts/hurfi-pages/build.py core-ld`. Every page with JSON-LD carries the same full Organization (`ORG` in build.py, `@id` https://hurfi.com/#organization, data from schema-data.js); other nodes reference it by `@id`, and site.js injects no runtime Organization/WebSite/ProfessionalService when it is present. A full `npm run pages` rebuild reproduces the live pages, including the GA4 tag and the Chinese Hostinger partner placements.
 
 ## Forms
 

@@ -67,7 +67,8 @@ LINK = re.compile(r'\[([^\]]+)\]\(([^)\s]+)\)')
 
 def _a(url, text):
     if url.startswith('http'):
-        return '<a href="%s" target="_blank" rel="noopener">%s</a>' % (url, text)
+        rel = 'sponsored noopener' if 'REFERRALCODE=' in url else 'noopener'  # referral/affiliate links
+        return '<a href="%s" target="_blank" rel="%s">%s</a>' % (url, rel, text)
     return '<a href="%s">%s</a>' % (url, text)
 
 def md(s):
@@ -89,10 +90,32 @@ CSS_LINK = re.search(r'<link rel="stylesheet" href="/assets/css/style\.css\?v=[^
 from navdata import VER as _VER
 HX_LINK = '<link rel="stylesheet" href="/assets/css/hurfi-pages.css?v=%s">' % _VER
 
-ORG = {"@type": "Organization", "@id": SITE + "/#organization", "name": "Hurfi", "url": SITE + "/",
-       "logo": SITE + "/assets/img/hurfi-logo-for-whitebg.png", "email": "yasir@hurfi.com",
-       "address": [{"@type": "PostalAddress", "addressLocality": "Xi'an", "addressRegion": "Shaanxi", "addressCountry": "CN"},
-                   {"@type": "PostalAddress", "addressLocality": "Bogura", "addressCountry": "BD"}]}
+ORG_ID, WEBSITE_ID = SITE + '/#organization', SITE + '/#website'
+# same membership as the Hostinger Agency Partner badge
+HOSTINGER_MEMBER = {"@type": "ProgramMembership", "programName": "Hostinger Partner Program",
+                    "url": "https://www.hostinger.com/partner-program",
+                    "hostingOrganization": {"@type": "Organization", "name": "Hostinger", "url": "https://www.hostinger.com"}}
+LOGO = SITE + '/assets/img/hurfi-icon.png'  # 447x447 raster, the one logo used in all JSON-LD
+
+def schema_data():
+    """Parse assets/js/schema-data.js (window.HURFI_SCHEMA = {key: {json}, ...};) into a dict."""
+    js = rd('assets/js/schema-data.js')
+    body = js[js.index('window.HURFI_SCHEMA = ') + len('window.HURFI_SCHEMA = '):].strip().rstrip(';')
+    return json.loads(re.sub(r'^  (\w+): ', r'"\1": ', body, flags=re.M))
+
+def _with_id(node, node_id):
+    node = dict(node)
+    ctx, typ = node.pop('@context', None), node.pop('@type')
+    head = ([('@context', ctx)] if ctx else []) + [('@type', typ), ('@id', node_id)]
+    return dict(head + list(node.items()))
+
+# The one full Organization, emitted (identically) on every page that has JSON-LD; everything else
+# points at it by @id. Data comes from schema-data.js.
+_sd_org = dict(schema_data()['organization'])
+_sd_org.pop('@context')
+ORG = _with_id(_sd_org, ORG_ID)
+ORG['logo'] = LOGO
+ORG['memberOf'] = HOSTINGER_MEMBER
 
 def org_ld():
     return dict({"@context": "https://schema.org"}, **ORG)
@@ -105,6 +128,18 @@ def faq_ld(faq):
     return {"@context": "https://schema.org", "@type": "FAQPage",
             "mainEntity": [{"@type": "Question", "name": plain(q), "acceptedAnswer": {"@type": "Answer", "text": plain(a)}} for q, a in faq]}
 
+# GA4 Google tag, exactly as on every live page (right after <head>)
+GTAG = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8MMZH7KBP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T8MMZH7KBP');
+</script>
+"""
+
 def head(p):
     t, d, path = p['title'], p['description'], p['path']
     lang = p.get('lang', 'en')
@@ -116,7 +151,7 @@ def head(p):
     return f'''<!DOCTYPE html>
 <html lang="{lang}"{' data-static-lang="zh"' if lang.startswith('zh') else ''}>
 <head>
-  <meta charset="UTF-8">
+{GTAG}  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{E(t)}</title>
   <meta name="description" content="{E(d)}">
@@ -173,12 +208,17 @@ def localize_zh(chunk):
     out = re.sub(r'(aria-label|title)="([^"]*)"', attr, out)
     return out
 
+# Hostinger Agency Partner placements on the Chinese pages (same markup as the live pages)
+ZH_PARTNER_PILL = '        <p><a class="rk-hero-partner rk-hero-partner--inline" href="https://www.hostinger.com?REFERRALCODE=DSZYASIRA579" target="_blank" rel="sponsored noopener">\n          <img src="/assets/img/partners/hostinger-partner-brand-dark.svg" alt="Hostinger 合作伙伴徽章" width="72" height="27" decoding="async">\n          <span class="rk-hero-partner-text"><strong>Hostinger® 官方合作伙伴机构</strong><span class="rk-hero-partner-sub"><span aria-hidden="true"> · </span>我们托管的网站享有 Hostinger 优先技术支持</span></span>\n        </a></p>\n'
+ZH_PARTNER_WD = '    <section class="hx-partner" aria-labelledby="hx-partner-title">\n      <div class="hx-partner-card">\n        <a class="hx-partner-badge" href="https://www.hostinger.com?REFERRALCODE=DSZYASIRA579" target="_blank" rel="sponsored noopener"><img src="/assets/img/partners/hostinger-partner-brand-dark.svg" alt="Hostinger 官方合作伙伴机构徽章（Official Hostinger Agency Partner）" width="160" height="60" loading="lazy" decoding="async"></a>\n        <div class="hx-partner-copy">\n          <p class="hx-partner-kicker">主机托管</p>\n          <h2 id="hx-partner-title">由 Hostinger® 官方合作伙伴机构提供主机托管</h2>\n          <p>Hurfi 是 Hostinger® 合作伙伴计划（Hostinger Partner Program）经过认证的成员。我们建设的网站可以托管在 Hostinger 上，由我们的团队完成部署；作为合作伙伴，我们享有 Hostinger 的优先技术支持。</p>\n          <p class="hx-partner-link"><a href="https://www.hostinger.com?REFERRALCODE=DSZYASIRA579" target="_blank" rel="sponsored noopener">查看 Hostinger 为 Hurfi 提供的合作伙伴页面 <span aria-hidden="true">↗</span></a> <span class="hx-partner-note">推荐链接</span></p>\n        </div>\n      </div>\n    </section>\n\n'
+ZH_PARTNER_FOOT = ('>Hostinger® 官方合作伙伴机构</a></p>', '>Hostinger® 官方合作伙伴机构（Official Hostinger Agency Partner）</a></p>')
+
 def page(p, main):
     hdr, tail = HEADER, TAIL
     if p.get('lang', 'en').startswith('zh'):
         hdr = localize_zh(hdr).replace('data-lang="en" aria-pressed="true"', 'data-lang="en" aria-pressed="false"').replace('data-lang="zh" aria-pressed="false"', 'data-lang="zh" aria-pressed="true"')
         foot, scripts = tail.split('  </footer>', 1)
-        tail = localize_zh(foot) + '  </footer>' + scripts
+        tail = localize_zh(foot).replace(*ZH_PARTNER_FOOT) + '  </footer>' + scripts
     return head(p) + hdr + '  <main>\n' + main + '  </main>\n' + tail
 
 # ---------------------------------------------------------------- blocks
@@ -383,7 +423,7 @@ def build_insights(ins, cities=None):
         ld = [org_ld(), crumbs_ld(bc),
               {"@context": "https://schema.org", "@type": "Article", "headline": a['h1'], "description": a['description'], "url": SITE + path, "mainEntityOfPage": SITE + path,
                "datePublished": a['published'], "dateModified": a.get('modified', a['published']), "inLanguage": "en", "image": OG_IMAGE,
-               "author": {"@type": "Organization", "name": "Hurfi", "url": SITE + "/"}, "publisher": {"@id": SITE + "/#organization"}}]
+               "author": {"@id": SITE + "/#organization"}, "publisher": {"@id": SITE + "/#organization"}}]
         if a.get('faq'):
             ld.append(faq_ld(a['faq']))
         wr(path.strip('/') + '/index.html', page(dict(title=a['title'], description=a['description'], path=path, data_page='insight', og_type='article', ld=ld), main))
@@ -407,8 +447,14 @@ def build_zh(zh):
             bc = [('首页', '/zh/')]
         main = hero(z['kicker'], z['h1'], z['lead'], cta=('预约免费咨询', '/book-consultation/#book-form'),
                     note='本页为简体中文版。[查看英文版](%s)' % z['en']) + (crumbs_nav(bc, '面包屑导航') if key != 'home' else '')
-        for s in z['sections']:
+        if key == 'home':  # partner pill right under the hero CTA
+            cta = '        <a class="svc-cta" href="/book-consultation/#book-form">预约免费咨询 <span aria-hidden="true">→</span></a>\n'
+            assert cta in main
+            main = main.replace(cta, cta + ZH_PARTNER_PILL, 1)
+        for n, s in enumerate(z['sections']):
             main += section(s, 'brief hx-prose' if not s.get('cards') else 'brief')
+            if key == 'website-development' and n == 0:  # hosting partner block after the first section
+                main += ZH_PARTNER_WD
         if key != 'home':
             others = [(ZH_SVC[k], zh[k]['path'], zh[k]['description']) for k in ZH_SVC if k != key]
             main += section(dict(h2='其他服务', cards=others, id='other'), 'brief')
@@ -419,7 +465,7 @@ def build_zh(zh):
             ld.append({"@context": "https://schema.org", "@type": "WebPage", "name": z['h1'], "url": SITE + z['path'], "description": z['description'], "inLanguage": "zh-Hans", "isPartOf": {"@type": "WebSite", "name": "Hurfi", "url": SITE + "/"}})
         else:
             ld.append(crumbs_ld(bc))
-            ld.append({"@context": "https://schema.org", "@type": "Service", "name": z['h1'], "serviceType": ZH_SVC[key], "url": SITE + z['path'], "description": z['description'], "inLanguage": "zh-Hans",
+            ld.append({"@context": "https://schema.org", "@type": "Service", "name": z['h1'], "serviceType": ZH_SVC[key], "url": SITE + z['path'], "description": z['description'],
                        "provider": {"@id": SITE + "/#organization"}, "areaServed": {"@type": "Country", "name": "China"}})
         ld.append(faq_ld(z['faq']))
         wr(z['path'].strip('/') + '/index.html', page(dict(title=z['title'], description=z['description'], path=z['path'], lang='zh-Hans', alternates=alts,
@@ -639,13 +685,8 @@ def build_industries_hub():
 # ---------------------------------------------------------------- static JSON-LD for the core pages
 # These pages used to get all their schema from site.js at runtime (schema-data.js). The static
 # block below is now their single source: site.js sees each "@type" already present and injects
-# nothing for them. Organization/WebSite/ProfessionalService come from schema-data.js, so the
+# nothing for them. Organization (ORG, used on every page)/WebSite/ProfessionalService come from schema-data.js, so the
 # data lives in one place. Rerun alone with:  python scripts/hurfi-pages/build.py core-ld
-ORG_ID, WEBSITE_ID = SITE + '/#organization', SITE + '/#website'
-# same membership as the homepage Organization (Hostinger Agency Partner badge)
-HOSTINGER_MEMBER = {"@type": "ProgramMembership", "programName": "Hostinger Partner Program",
-                    "url": "https://www.hostinger.com/partner-program",
-                    "hostingOrganization": {"@type": "Organization", "name": "Hostinger", "url": "https://www.hostinger.com"}}
 CORE_PAGES = [  # (path, page @type, breadcrumb trail after Home, has ProfessionalService)
     ('/about/', 'AboutPage', [('About', '/about/')], True),
     ('/services/', 'CollectionPage', [('Services', '/services/')], True),
@@ -659,12 +700,6 @@ CORE_PAGES = [  # (path, page @type, breadcrumb trail after Home, has Profession
     ('/terms/', 'WebPage', [('Terms & Conditions', '/terms/')], False),
     ('/refund-policy/', 'WebPage', [('Refund & Return Policy', '/refund-policy/')], False),
 ]
-
-def schema_data():
-    """Parse assets/js/schema-data.js (window.HURFI_SCHEMA = {key: {json}, ...};) into a dict."""
-    js = rd('assets/js/schema-data.js')
-    body = js[js.index('window.HURFI_SCHEMA = ') + len('window.HURFI_SCHEMA = '):].strip().rstrip(';')
-    return json.loads(re.sub(r'^  (\w+): ', r'"\1": ', body, flags=re.M))
 
 def _text(fragment):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', fragment))).strip()
@@ -680,23 +715,34 @@ def page_faq(s):
                 out.append((_text(q.group(1)), _text(a.group(1))))
     return out
 
-def build_core_ld():
-    sd = schema_data()
-    org = dict(sd['organization'])
-    org = dict([('@context', org.pop('@context')), ('@type', org.pop('@type')), ('@id', ORG_ID)] + list(org.items()))
-    org['memberOf'] = HOSTINGER_MEMBER
-    site = dict(sd['website'], **{"publisher": {"@id": ORG_ID}})
-    site = dict([('@context', site.pop('@context')), ('@type', site.pop('@type')), ('@id', WEBSITE_ID)] + list(site.items()))
+def website_ld():
+    w = dict(schema_data()['website'], **{"publisher": {"@id": ORG_ID}})
+    return _with_id(w, WEBSITE_ID)
+
+def prof_ld():
     # schema-data.js puts serviceType/audience directly on ProfessionalService, which schema.org only
     # allows on Service; carry them on the offered Services instead, and give the LocalBusiness the
     # Organization's own addresses (Google requires address on LocalBusiness types)
-    prof = dict(sd['professionalService'])
+    prof = dict(schema_data()['professionalService'])
     services, audience = prof.pop('serviceType'), prof.pop('audience')
-    prof = dict([('@context', prof.pop('@context')), ('@type', prof.pop('@type')), ('@id', SITE + '/#professionalservice')] + list(prof.items()))
-    prof['address'] = org['address']
+    prof = _with_id(prof, SITE + '/#professionalservice')
+    prof['address'] = ORG['address']
     prof['hasOfferCatalog'] = {"@type": "OfferCatalog", "name": "Hurfi services", "itemListElement": [
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": x, "serviceType": x, "audience": audience,
                                            "provider": {"@id": ORG_ID}}} for x in services]}
+    return prof
+
+LD_TAG = re.compile(r'^  <script type="application/ld\+json">(\{.*?\})</script>\n', re.M)
+
+def build_core_ld():
+    org, site, prof = org_ld(), website_ld(), prof_ld()
+    # homepage: Organization/WebSite/ProfessionalService move into the generated block (FAQPage stays as is)
+    s = rd('index.html')
+    s = LD_TAG.sub(lambda m: '' if json.loads(m.group(1)).get('@type') in ('Organization', 'WebSite', 'ProfessionalService') else m.group(0), s)
+    wr('index.html', set_ld(s, [org, site, prof]))
+    # brand guidelines (hand-written @graph block): add the Organization it was missing
+    s = rd('brand-guidelines/index.html')
+    wr('brand-guidelines/index.html', set_ld(s, [org]))
     for path, typ, trail, with_prof in CORE_PAGES:
         rel = path.strip('/') + '/index.html'
         s = rd(rel)
@@ -1012,7 +1058,7 @@ def build_insight2(a, ins, cities):
            "isPartOf": {"@type": "WebSite", "name": "Hurfi", "url": SITE + "/"}, "primaryImageOfPage": {"@type": "ImageObject", "url": SITE + img, "width": 1200, "height": 675}, "dateModified": a.get('modified', a['published'])},
           {"@context": "https://schema.org", "@type": "Article", "headline": a['h1'], "description": a['description'], "url": SITE + path, "mainEntityOfPage": SITE + path,
            "datePublished": a['published'], "dateModified": a.get('modified', a['published']), "inLanguage": "en", "image": SITE + img,
-           "author": {"@type": "Organization", "name": "Hurfi", "url": SITE + "/"}, "publisher": {"@id": SITE + "/#organization"}},
+           "author": {"@id": SITE + "/#organization"}, "publisher": {"@id": SITE + "/#organization"}},
           faq_ld(a['faq'])]
     wr(path.strip('/') + '/index.html', page(dict(title=a['title'], description=a['description'], path=path, data_page='insight', og_type='article', ld=ld), main))
     import images

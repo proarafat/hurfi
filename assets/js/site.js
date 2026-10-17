@@ -404,9 +404,15 @@
     if (!window.HURFI_SCHEMA) return;
     var pageType = document.body.getAttribute("data-page");
     if (pageType === "404" || pageType === "thanks") return;
-    if (!hasSchemaType("Organization")) injectJsonLd(window.HURFI_SCHEMA.organization);
-    if (!hasSchemaType("WebSite")) injectJsonLd(window.HURFI_SCHEMA.website);
-    if (pageType !== "legal" && !hasSchemaType("ProfessionalService")) {
+    // pages that ship the full static Organization (#organization) already carry the site-level
+    // schema they need; only pages without it get the runtime Organization/WebSite/ProfessionalService
+    var staticOrg = false;
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (node) {
+      if (node.textContent.indexOf('"@type":"Organization","@id":"https://hurfi.com/#organization"') !== -1) staticOrg = true;
+    });
+    if (!staticOrg && !hasSchemaType("Organization")) injectJsonLd(window.HURFI_SCHEMA.organization);
+    if (!staticOrg && !hasSchemaType("WebSite")) injectJsonLd(window.HURFI_SCHEMA.website);
+    if (!staticOrg && pageType !== "legal" && !hasSchemaType("ProfessionalService")) {
       injectJsonLd(window.HURFI_SCHEMA.professionalService);
     }
     if (!hasSchemaType("FAQPage")) {
