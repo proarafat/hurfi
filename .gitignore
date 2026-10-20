@@ -1,4 +1,4 @@
-# Dependencies & local tooling
+﻿# Dependencies & local tooling
 node_modules/
 .npm/
 .cache/
@@ -23,3 +23,7 @@ dist/
 scripts/_chrome-brand*/
 scripts/_cd_brand-*/
 scripts/_brand-*.png
+
+# Python tooling (scripts/hurfi-pages)
+__pycache__/
+*.pyc

@@ -1,5 +1,8 @@
 """Single source for the main navigation (static header HTML and site-data.js)."""
 VER = '20261017f'
+# hurfi-pages.css changes on its own schedule; sharing VER with style.css made
+# every build rewrite this cache-buster even when the file was untouched.
+HX_VER = '20261017a'
 
 SERVICES = [('Website Development', '/services/website-development/'), ('SEO', '/services/seo/'),
             ('Digital Marketing', '/services/digital-marketing/'), ('Social Media Management', '/services/social-media-management/', 'Hot')]

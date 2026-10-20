@@ -1,17 +1,60 @@
 """Generate the guide infographics (own work) as compressed WebP. Deterministic."""
 import os
 from PIL import Image, ImageDraw, ImageFont
-FONT = '/usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf'
+_HERE = os.path.dirname(os.path.abspath(__file__))
+
+# Resolve a font the same way on Linux, macOS and Windows. The variable Inter
+# bundled in ./fonts/ is preferred so output is byte-identical across machines.
+FONT_CANDIDATES = [
+    os.environ.get('HURFI_FONT'),
+    os.path.join(_HERE, 'fonts', 'Inter-VariableFont_opsz,wght.ttf'),
+    '/usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf',
+    'C:/Windows/Fonts/segoeui.ttf',
+    '/System/Library/Fonts/Supplemental/Arial.ttf',
+]
+
+# Used only when the resolved font is not a variable font (no named weights).
+FONT_BOLD_CANDIDATES = [
+    'C:/Windows/Fonts/segoeuib.ttf',
+    'C:/Windows/Fonts/arialbd.ttf',
+    '/System/Library/Fonts/Supplemental/Arial Bold.ttf',
+]
+
 W, H = 1200, 675
 BG, CARD, LINE, BLUE, WHITE, MUTED, SOFT = (7, 9, 13), (14, 20, 31), (32, 44, 62), (77, 163, 255), (255, 255, 255), (139, 152, 170), (201, 211, 224)
 
+
+def _first_existing(paths):
+    for p in paths:
+        if p and os.path.exists(p):
+            return p
+    return None
+
+
+FONT = _first_existing(FONT_CANDIDATES)
+FONT_BOLD = _first_existing(FONT_BOLD_CANDIDATES)
+_VARIABLE = None
+
+
 def font(size, weight='Regular'):
-    f = ImageFont.truetype(FONT, size)
-    try:
-        f.set_variation_by_name(weight)
-    except Exception:
-        pass
-    return f
+    global _VARIABLE
+    if FONT is None:
+        return ImageFont.load_default(size)
+    if _VARIABLE is None:
+        try:
+            _VARIABLE = bool(ImageFont.truetype(FONT, 12).get_variation_names())
+        except Exception:
+            _VARIABLE = False
+    if _VARIABLE:
+        f = ImageFont.truetype(FONT, size)
+        try:
+            f.set_variation_by_name(weight)
+        except Exception:
+            pass
+        return f
+    # Static font: approximate the weight with a bold face where available.
+    boldish = weight in ('SemiBold', 'Bold', 'ExtraBold', 'Black')
+    return ImageFont.truetype(FONT_BOLD if (boldish and FONT_BOLD) else FONT, size)
 
 def wrap(d, text, f, width):
     words, lines, cur = text.split(), [], ''

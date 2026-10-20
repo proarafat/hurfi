@@ -87,8 +87,8 @@ TPL = rd('services/seo/index.html')
 HEADER = TPL[TPL.index('  <header class="site-header">'):TPL.index('  <main>')]
 TAIL = TPL[TPL.index('  <footer class="site-footer">'):]
 CSS_LINK = re.search(r'<link rel="stylesheet" href="/assets/css/style\.css\?v=[^"]+">', TPL).group(0)
-from navdata import VER as _VER
-HX_LINK = '<link rel="stylesheet" href="/assets/css/hurfi-pages.css?v=%s">' % _VER
+from navdata import VER as _VER, HX_VER as _HX_VER
+HX_LINK = '<link rel="stylesheet" href="/assets/css/hurfi-pages.css?v=%s">' % _HX_VER
 
 ORG_ID, WEBSITE_ID = SITE + '/#organization', SITE + '/#website'
 # same membership as the Hostinger Agency Partner badge
