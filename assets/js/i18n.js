@@ -2166,20 +2166,44 @@
     });
   }
 
+  // Only offer a language the page can actually deliver. A page opts in by
+  // declaring <link rel="alternate" hreflang="...">, which is also what search
+  // engines read, so the switch cannot drift ahead of the real translations.
+  function hasTwin(prefix) {
+    if (STATIC === prefix) return true;
+    return !!document.querySelector(
+      'link[rel="alternate"][hreflang^="' + prefix + '"]'
+    );
+  }
+
+  var LANGS = [["en", "EN"], ["zh", "中文"], ["fr", "FR"]];
+
+  function available() {
+    var out = [];
+    for (var i = 0; i < LANGS.length; i++) {
+      if (hasTwin(LANGS[i][0])) out.push(LANGS[i]);
+    }
+    return out;
+  }
+
   function mount(inner) {
     if (!inner) return;
     var phrases = map() || {};
+    var langs = available();
     var group = inner.querySelector(".lang-switch");
-    if (!group) {
+    var wanted = {};
+    langs.forEach(function (pair) { wanted[pair[0]] = pair[1]; });
+    if (group) {
+      // static pages ship all three buttons; drop the ones with no page behind them
+      group.querySelectorAll("button[data-lang]").forEach(function (button) {
+        if (!wanted[button.getAttribute("data-lang")]) button.parentNode.removeChild(button);
+      });
+    } else if (langs.length > 1) {
       group = document.createElement("div");
       group.className = "lang-switch";
       group.setAttribute("role", "group");
       group.setAttribute("aria-label", phrases["Language"] || "Language");
-      [
-        ["en", "EN"],
-        ["zh", "中文"],
-        ["fr", "FR"]
-      ].forEach(function (pair) {
+      langs.forEach(function (pair) {
         var button = document.createElement("button");
         button.type = "button";
         button.setAttribute("data-lang", pair[0]);
@@ -2189,6 +2213,12 @@
       var nav = inner.querySelector(".site-nav");
       if (nav) inner.insertBefore(group, nav);
       else inner.appendChild(group);
+    }
+    if (!group) return;
+    if (langs.length < 2) {
+      group.setAttribute("hidden", "");
+      group.style.display = "none";
+      return;
     }
     if (phrases["Language"]) group.setAttribute("aria-label", phrases["Language"]);
     bindLang(group);
