@@ -11,7 +11,9 @@
     if (STATIC === "zh") return "zh";
     try {
       var value = localStorage.getItem(STORAGE);
-      if (value === "zh" || value === "fr") return value;
+      // A stored choice is only honoured where that language page exists,
+      // otherwise the nav stays French on an English page with no way back.
+      if ((value === "zh" || value === "fr") && hasTwin(value)) return value;
     } catch (e) {}
     return "en";
   }
