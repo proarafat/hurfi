@@ -408,7 +408,7 @@ def build_insights(ins, cities=None):
     reset_ids()
     bc = [('Home', '/'), ('Insights', '/insights/')]
     grid = '      <div class="ind-grid">\n' + ''.join(
-        '        <a class="ind-card" href="/insights/%s/"><h3>%s</h3><p>%s</p><span class="ind-go" aria-hidden="true">→</span></a>\n' % (a['slug'], E(a['h1']), E(a['description'])) for a in arts) + '      </div>\n'
+        '        <a class="ind-card" href="/insights/%s/"><h3>%s</h3><p>%s</p><span class="ind-go" aria-hidden="true">→</span></a>\n' % (a['slug'], E(a['h1']), E(a.get('card') or a['description'])) for a in arts) + '      </div>\n'
     main = hero('Insights', hub['h1'], hub['lead'], cta2=('Contact us', '/contact/')) + crumbs_nav(bc) + '    <section class="brief" aria-labelledby="list-title">\n      <h2 id="list-title">Guides</h2>\n' + grid + '    </section>\n'
     if cities:
         main += '    <section class="brief" aria-labelledby="hubcity-title">\n      <h2 id="hubcity-title">City guides</h2>\n      <p>Guides to the main industries of Chinese manufacturing cities, based on official statistics, and what they mean for an export website.</p>\n      ' + link_list(city_guides(cities)).replace('hx-linklist', 'hx-linklist hx-linklist-inline') + '\n      <p><a class="desk-link" href="/locations/#city-guides">All city guides</a> · <a class="desk-link" href="/locations/china/">China directory</a> · <a class="desk-link" href="/industries/">All industries</a></p>\n    </section>\n'
