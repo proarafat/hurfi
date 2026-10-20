@@ -8,12 +8,12 @@
   var STATIC = document.documentElement.getAttribute("data-static-lang");
 
   function current() {
-    if (STATIC === "zh") return "zh";
+    if (STATIC) return STATIC;
     try {
       var value = localStorage.getItem(STORAGE);
-      // A stored choice is only honoured where that language page exists,
-      // otherwise the nav stays French on an English page with no way back.
-      if ((value === "zh" || value === "fr") && hasTwin(value)) return value;
+      // A stored choice is only honoured where that language is actually
+      // offered, otherwise the nav stays French on an English page.
+      if ((value === "zh" || value === "fr") && offers(value)) return value;
     } catch (e) {}
     return "en";
   }
@@ -2099,6 +2099,568 @@
   fr["Websites we build are hosted with priority Hostinger support."] = "Les sites que nous créons sont hébergés avec le support prioritaire de Hostinger.";
   fr["Priority support for the sites we host"] = "Support prioritaire pour les sites que nous hébergeons";
 
+
+  // Homepage completion, added 2026-10-20. Client and person names map to
+  // themselves: they are the same in every language.
+  zh["Export Marketing for Chinese Manufacturers | Hurfi"] = "中国制造商出口营销 | Hurfi";
+  zh["China directory"] = "中国城市目录";
+  zh["All city guides"] = "全部城市指南";
+  zh["All insights"] = "全部洞察";
+  zh["Guangdong province"] = "广东省";
+  zh["Zhejiang province"] = "浙江省";
+  zh["Jiangsu province"] = "江苏省";
+  zh["Shandong province"] = "山东省";
+  zh["Fujian province"] = "福建省";
+  zh["Anhui province"] = "安徽省";
+  zh["Hubei province"] = "湖北省";
+  zh["Hunan province"] = "湖南省";
+  zh["Henan province"] = "河南省";
+  zh["Sichuan province"] = "四川省";
+  zh["Liaoning province"] = "辽宁省";
+  zh["Overseas buyer inquiries"] = "海外买家询盘";
+  zh["Factory website trust signals"] = "工厂网站的信任信号";
+  zh["RFQ website checklist"] = "询价型网站清单";
+  zh["Industrial product page SEO"] = "工业产品页 SEO";
+  zh["International SEO checklist"] = "国际 SEO 清单";
+  zh["AI search for manufacturers"] = "面向制造商的 AI 搜索";
+  zh["Google Ads for exporters"] = "外贸企业的 Google Ads";
+  zh["LinkedIn for export sales"] = "用领英做外贸销售";
+  zh["Trade show follow-up"] = "展会后的跟进";
+  zh["Export website speed"] = "外贸网站速度";
+  zh["2025 export markets"] = "2025 年出口市场";
+  zh["ASEAN, Middle East & Africa pages"] = "东盟、中东与非洲页面";
+  zh["Certifications page"] = "认证页面";
+  zh["Shipping & logistics page"] = "物流与运输页面";
+  zh["Standing out in a cluster"] = "在产业集群中脱颖而出";
+  zh["PDF catalogue to product pages"] = "从 PDF 目录到产品页";
+  zh["Choosing an export agency"] = "如何选择外贸营销机构";
+  zh["Export marketing for Chinese manufacturers"] = "面向中国制造商的出口营销";
+  zh["Official Hostinger® Agency Partner"] = "Hostinger® 官方合作机构";
+  zh["Priority support for the sites we host"] = "我们托管的网站享优先技术支持";
+  zh["Industry‑Leading."] = "行业领先。";
+  zh["Indicative comparison of Hurfi with other ways manufacturers handle digital marketing. Ratings are illustrative, not verified measurements."] = "Hurfi 与其他数字营销方式的示意性对比。评分仅作示意，并非实测结果。";
+  zh["Words from the brands we’ve worked with."] = "合作品牌对我们的评价。";
+  zh["Indicative comparison. On a small screen, swipe sideways to see every column."] = "以下为示意性对比。小屏幕上可左右滑动查看各列。";
+  zh["Don’t fill this out:"] = "请勿填写此项：";
+  zh["Brand Guidelines"] = "品牌规范";
+  zh["Hurfi helps Chinese manufacturers, suppliers, and exporters with websites, SEO, digital marketing, and social media."] = "Hurfi 为中国制造商、供应商和出口企业提供网站、SEO、数字营销和社交媒体服务。";
+  zh["Bangladesh: Colony Chokforid Road, Bogura, Bangladesh."] = "孟加拉国：Colony Chokforid Road, Bogura, Bangladesh。";
+  zh["China: Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi."] = "中国：西安市长安区西北工业大学长安校区海天苑 3 号，陕西。";
+  zh["Hurfi home"] = "Hurfi 首页";
+  zh["Hostinger Partner badge"] = "Hostinger 合作伙伴徽章";
+  zh["B2B website designed for a manufacturer"] = "为制造企业设计的 B2B 网站";
+  zh["Search performance overview"] = "搜索表现概览";
+  zh["Digital campaign performance"] = "数字广告活动表现";
+  zh["Content and audience conversations"] = "内容与受众互动";
+  zh["Search and growth analytics for a B2B company"] = "B2B 企业的搜索与增长分析";
+  zh["Yasir Arafat"] = "Yasir Arafat";
+  zh["Shahruk Karim Simanto"] = "Shahruk Karim Simanto";
+  zh["Lukman Hosen"] = "Lukman Hosen";
+  zh["yasir@hurfi.com"] = "yasir@hurfi.com";
+  zh["llms.txt"] = "llms.txt";
+  zh["you@company.com"] = "you@company.com";
+  zh["Sober Society"] = "Sober Society";
+  zh["Compara Ofertas"] = "Compara Ofertas";
+  zh["Lorbuc Net"] = "Lorbuc Net";
+  zh["Juice Cards"] = "Juice Cards";
+  zh["Gully Apparel"] = "Gully Apparel";
+  zh["Africa Giant"] = "Africa Giant";
+  zh["General Coffee"] = "General Coffee";
+  zh["Claflin & Associates"] = "Claflin & Associates";
+  zh["Cammy & Grammy"] = "Cammy & Grammy";
+  zh["Cedar Hills Haven"] = "Cedar Hills Haven";
+  zh["Signed Anonymous"] = "Signed Anonymous";
+  zh["ZK Publishing House"] = "ZK Publishing House";
+  zh["Home Health Care Network"] = "Home Health Care Network";
+  zh["Pro Wills"] = "Pro Wills";
+  zh["Envisio Partners"] = "Envisio Partners";
+  zh["MG Global"] = "MG Global";
+  zh["Vivir de DJ"] = "Vivir de DJ";
+  zh["Solomon's Wealth Business"] = "Solomon's Wealth Business";
+  zh["JR Accounting"] = "JR Accounting";
+  fr["Export Marketing for Chinese Manufacturers | Hurfi"] = "Marketing export pour les fabricants chinois | Hurfi";
+  fr["China directory"] = "Annuaire Chine";
+  fr["All city guides"] = "Tous les guides de ville";
+  fr["All insights"] = "Tous les articles";
+  fr["Guangdong province"] = "province du Guangdong";
+  fr["Zhejiang province"] = "province du Zhejiang";
+  fr["Jiangsu province"] = "province du Jiangsu";
+  fr["Shandong province"] = "province du Shandong";
+  fr["Fujian province"] = "province du Fujian";
+  fr["Anhui province"] = "province du Anhui";
+  fr["Hubei province"] = "province du Hubei";
+  fr["Hunan province"] = "province du Hunan";
+  fr["Henan province"] = "province du Henan";
+  fr["Sichuan province"] = "province du Sichuan";
+  fr["Liaoning province"] = "province du Liaoning";
+  fr["Overseas buyer inquiries"] = "Demandes d'acheteurs étrangers";
+  fr["Factory website trust signals"] = "Signaux de confiance d'un site d'usine";
+  fr["RFQ website checklist"] = "Liste de contrôle d'un site d'appel d'offres";
+  fr["Industrial product page SEO"] = "SEO des pages produit industrielles";
+  fr["International SEO checklist"] = "Liste de contrôle SEO international";
+  fr["AI search for manufacturers"] = "La recherche par IA pour les industriels";
+  fr["Google Ads for exporters"] = "Google Ads pour les exportateurs";
+  fr["LinkedIn for export sales"] = "LinkedIn pour la vente à l'export";
+  fr["Trade show follow-up"] = "Suivi après un salon professionnel";
+  fr["Export website speed"] = "La vitesse d'un site d'export";
+  fr["2025 export markets"] = "Marchés d'exportation 2025";
+  fr["ASEAN, Middle East & Africa pages"] = "Pages ASEAN, Moyen-Orient et Afrique";
+  fr["Certifications page"] = "Page certifications";
+  fr["Shipping & logistics page"] = "Page transport et logistique";
+  fr["Standing out in a cluster"] = "Se démarquer dans un cluster industriel";
+  fr["PDF catalogue to product pages"] = "Du catalogue PDF aux pages produit";
+  fr["Choosing an export agency"] = "Choisir une agence export";
+  fr["Export marketing for Chinese manufacturers"] = "Marketing export pour les fabricants chinois";
+  fr["Official Hostinger® Agency Partner"] = "Agence partenaire officielle Hostinger®";
+  fr["Priority support for the sites we host"] = "Support prioritaire pour les sites que nous hébergeons";
+  fr["Industry‑Leading."] = "leader de votre secteur.";
+  fr["Indicative comparison of Hurfi with other ways manufacturers handle digital marketing. Ratings are illustrative, not verified measurements."] = "Comparaison indicative entre Hurfi et les autres façons dont les industriels gèrent le marketing digital. Les notes sont illustratives et non mesurées.";
+  fr["Words from the brands we’ve worked with."] = "Les mots des marques avec lesquelles nous avons travaillé.";
+  fr["Indicative comparison. On a small screen, swipe sideways to see every column."] = "Comparaison indicative. Sur petit écran, faites glisser latéralement pour voir toutes les colonnes.";
+  fr["Don’t fill this out:"] = "Ne remplissez pas ce champ :";
+  fr["Brand Guidelines"] = "Charte de marque";
+  fr["Hurfi helps Chinese manufacturers, suppliers, and exporters with websites, SEO, digital marketing, and social media."] = "Hurfi accompagne les fabricants, fournisseurs et exportateurs chinois en sites web, SEO, marketing digital et réseaux sociaux.";
+  fr["Bangladesh: Colony Chokforid Road, Bogura, Bangladesh."] = "Bangladesh : Colony Chokforid Road, Bogura, Bangladesh.";
+  fr["China: Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi."] = "Chine : Haitianyuan 3, campus Chang'an, Université polytechnique du Nord-Ouest, Xi'an, Shaanxi.";
+  fr["Hurfi home"] = "Accueil Hurfi";
+  fr["Hostinger Partner badge"] = "Badge partenaire Hostinger";
+  fr["B2B website designed for a manufacturer"] = "Site B2B conçu pour un fabricant";
+  fr["Search performance overview"] = "Aperçu des performances de recherche";
+  fr["Digital campaign performance"] = "Performances des campagnes digitales";
+  fr["Content and audience conversations"] = "Contenus et échanges avec l'audience";
+  fr["Search and growth analytics for a B2B company"] = "Analytique recherche et croissance pour une entreprise B2B";
+  fr["Yasir Arafat"] = "Yasir Arafat";
+  fr["Shahruk Karim Simanto"] = "Shahruk Karim Simanto";
+  fr["Lukman Hosen"] = "Lukman Hosen";
+  fr["yasir@hurfi.com"] = "yasir@hurfi.com";
+  fr["llms.txt"] = "llms.txt";
+  fr["you@company.com"] = "you@company.com";
+  fr["Sober Society"] = "Sober Society";
+  fr["Compara Ofertas"] = "Compara Ofertas";
+  fr["Lorbuc Net"] = "Lorbuc Net";
+  fr["Juice Cards"] = "Juice Cards";
+  fr["Gully Apparel"] = "Gully Apparel";
+  fr["Africa Giant"] = "Africa Giant";
+  fr["General Coffee"] = "General Coffee";
+  fr["Claflin & Associates"] = "Claflin & Associates";
+  fr["Cammy & Grammy"] = "Cammy & Grammy";
+  fr["Cedar Hills Haven"] = "Cedar Hills Haven";
+  fr["Signed Anonymous"] = "Signed Anonymous";
+  fr["ZK Publishing House"] = "ZK Publishing House";
+  fr["Home Health Care Network"] = "Home Health Care Network";
+  fr["Pro Wills"] = "Pro Wills";
+  fr["Envisio Partners"] = "Envisio Partners";
+  fr["MG Global"] = "MG Global";
+  fr["Vivir de DJ"] = "Vivir de DJ";
+  fr["Solomon's Wealth Business"] = "Solomon's Wealth Business";
+  fr["JR Accounting"] = "JR Accounting";
+
+
+  // Services, hubs and contact pages, 2026-10-20.
+  zh["Services | Hurfi — Digital Growth for Chinese B2B Companies"] = "服务 | Hurfi — 面向中国 B2B 企业的数字增长";
+  zh["Highlighted Capabilities"] = "核心能力";
+  zh["Strategic social presence for Chinese manufacturers, suppliers, and B2B brands — content that builds trust and visibility."] = "为中国制造商、供应商和 B2B 品牌建立有策略的社交媒体形象——用内容建立信任与曝光。";
+  zh["Google SEO for Chinese Manufacturers & Exporters | Hurfi"] = "中国制造商与出口企业的谷歌 SEO | Hurfi";
+  zh["Google SEO for Chinese manufacturers"] = "面向中国制造商的谷歌 SEO";
+  zh["Stable hosting from an Official Hostinger® Agency Partner"] = "Hostinger® 官方合作机构提供的稳定托管";
+  zh["A site that is slow or offline is hard to rank. Hurfi is a verified member of the Hostinger® Partner Program, so the sites we host for clients run on Hostinger with priority technical support behind them."] = "网站太慢或经常打不开，就很难获得排名。Hurfi 是 Hostinger® 合作伙伴计划的认证成员，因此我们为客户托管的网站运行在 Hostinger 上，并享有优先技术支持。";
+  zh["See Hostinger's partner page for Hurfi"] = "查看 Hurfi 的 Hostinger 合作伙伴页面";
+  zh["Referral link"] = "推荐链接";
+  zh["International SEO for factories that export"] = "面向出口工厂的国际 SEO";
+  zh["Most of the buyers a Chinese factory wants are outside China, and they search in their own language, in Google, with their own words for the product. International SEO is the work of making sure the right pages show up for them."] = "中国工厂想要的买家大多在中国以外，他们用自己的语言、在谷歌上、用自己熟悉的词搜索产品。国际 SEO 就是让正确的页面出现在这些搜索里。";
+  zh["Choosing target markets first, then the language and the wording buyers in those markets actually use."] = "先确定目标市场，再确定这些市场的买家真正使用的语言和用词。";
+  zh["A clear site structure for each market or language, with correct hreflang and canonical tags when there is more than one version."] = "为每个市场或语言建立清晰的网站结构；存在多个版本时，正确设置 hreflang 和 canonical 标签。";
+  zh["Server, hosting and speed checks, because a site that loads slowly from Europe or North America loses visitors before they read anything."] = "检查服务器、托管和加载速度——从欧洲或北美访问很慢的网站，访客还没看内容就走了。";
+  zh["Product and application pages written around specification-stage searches: materials, standards, tolerances, capacities and model numbers."] = "围绕选型阶段的搜索来写产品和应用页面：材料、标准、公差、产能和型号。";
+  zh["Search Console set up for your own domain, so you can see impressions and clicks by country."] = "在您自己的域名上配置 Search Console，按国家查看展示和点击。";
+  zh["What we will not do"] = "我们不做的事";
+  zh["Promise rankings, traffic or a number of inquiries."] = "不承诺排名、流量或询盘数量。";
+  zh["Buy links or use tactics that put your domain at risk."] = "不购买外链，不使用会让您的域名承担风险的手法。";
+  zh["Offer Baidu SEO — our work is aimed at overseas buyers searching in Google."] = "不做百度 SEO——我们的工作面向在谷歌搜索的海外买家。";
+  zh["Where SEO fits with the rest"] = "SEO 与其他工作的关系";
+  zh["SEO brings buyers to the site; the site has to answer them. If your product pages are thin, we will tell you, and the"] = "SEO 把买家带到网站，网站必须能回答他们。如果您的产品页内容单薄，我们会直接说明，可能";
+  zh["website development"] = "网站建设";
+  zh["work may come first. For sector-specific search topics see the"] = "工作要先做。按行业划分的搜索话题请看";
+  zh["industry pages"] = "行业页面";
+  zh[", and for a practical starting point read"] = "；想找个实用的起点，可以读";
+  zh["how Chinese manufacturers can win more overseas buyer inquiries"] = "中国制造商如何获得更多海外买家询盘";
+  zh["Related guides and city pages"] = "相关指南与城市页面";
+  zh["An international SEO checklist for Chinese exporters"] = "面向中国出口企业的国际 SEO 清单";
+  zh["AI search for manufacturers: what actually matters"] = "制造商与 AI 搜索：真正重要的部分";
+  zh["Product page SEO for industrial manufacturers"] = "工业制造企业的产品页 SEO";
+  zh["How a manufacturer should choose an export marketing agency"] = "制造企业如何选择外贸营销机构";
+  zh["City guides for manufacturers in"] = "制造业城市指南：";
+  zh["all city guides"] = "全部城市指南";
+  zh["B2B Digital Marketing for Chinese Manufacturers | Hurfi"] = "面向中国制造商的 B2B 数字营销 | Hurfi";
+  zh["B2B digital marketing that brings overseas inquiries"] = "带来海外询盘的 B2B 数字营销";
+  zh["Lead generation without inflated numbers"] = "不做注水的询盘获取";
+  zh["For a manufacturer, one qualified inquiry from the right buyer is worth more than thousands of impressions. We plan campaigns backwards from that: which buyers, in which markets, looking for which products — and which page on your site will answer them."] = "对制造商来说，来自合适买家的一条有效询盘，比几千次展示更有价值。我们由此倒推来规划：哪些买家、在哪些市场、找什么产品，以及网站上哪个页面来回答他们。";
+  zh["Search campaigns for buyers who are already looking for the product type or process you offer."] = "面向已经在搜索您这类产品或工艺的买家的搜索广告。";
+  zh["Content that answers the questions engineers and buyers ask before they write: specifications, standards, applications."] = "用内容回答工程师和采购在发询盘前会问的问题：规格、标准、应用场景。";
+  zh["Paid campaigns where the numbers justify them, with spend and results shown from your own ad accounts."] = "只在数据说得通的地方投放付费广告，预算和效果都来自您自己的广告账户。";
+  zh["Inquiry tracking by source, so you can see which channel produced which conversation."] = "按来源跟踪询盘，看清哪个渠道带来了哪次对话。";
+  zh["What we report"] = "我们汇报什么";
+  zh["Inquiries, calls and profile actions by channel, alongside spend. We do not report vanity reach as success, and we do not promise a number of leads. If a channel is not working after a fair test, we say so and move the budget."] = "按渠道汇报询盘、电话和主页互动，同时列出花费。我们不把虚高的触达当作成果，也不承诺线索数量。一个渠道经过合理测试仍不见效，我们会直说，并把预算挪走。";
+  zh["Further reading"] = "延伸阅读";
+  zh["Google Ads for exporters: a setup guide for factories"] = "外贸企业的 Google Ads：工厂设置指南";
+  zh["Trade show follow-up for manufacturers"] = "制造企业的展会跟进";
+  zh["LinkedIn & Social Media for Chinese Manufacturers | Hurfi"] = "面向中国制造商的领英与社交媒体 | Hurfi";
+  zh["LinkedIn and social media for Chinese manufacturers"] = "面向中国制造商的领英与社交媒体";
+  zh["Why LinkedIn matters for a factory"] = "为什么工厂需要领英";
+  zh["Before an overseas buyer replies to your email, they often look up the company page and the person who wrote to them. A company page with no posts, or a sales profile with no photo, raises doubts that a good price cannot fix. LinkedIn is where B2B buyers check whether a supplier is real, active and professional."] = "海外买家回复您邮件之前，往往会先看看公司主页和发邮件的那个人。主页没有内容，销售档案没有照片，这些疑虑再好的价格也补不回来。B2B 买家在领英上确认供应商是否真实、活跃、专业。";
+  zh["A company page that matches the website: same products, same certificates, same contact details."] = "公司主页与网站保持一致：同样的产品、同样的认证、同样的联系方式。";
+  zh["Profiles for the people buyers will talk to, in clear English."] = "为买家会接触的人建立档案，用清楚的英文。";
+  zh["A posting plan built around real material: production, testing, trade shows, new products, team."] = "围绕真实素材的发帖计划：生产、检测、展会、新产品、团队。";
+  zh["Every post approved by your team before it goes out; nothing is published without permission."] = "每条帖子发布前都由您的团队确认，未经许可不发布任何内容。";
+  zh["What we do not do"] = "我们不做的事";
+  zh["Buy followers or engagement."] = "不购买粉丝或互动量。";
+  zh["Send mass connection requests or automated messages that damage your account and reputation."] = "不群发好友请求或自动消息，这会损害您的账号和声誉。";
+  zh["Use stock photos in place of your own factory."] = "不用图库照片代替您自己的工厂。";
+  zh["LinkedIn for factory export sales: a practical guide"] = "用领英做工厂外贸销售：实用指南";
+  zh["Why overseas buyers hesitate on factory websites — and what to fix"] = "海外买家为什么会在一家工厂网站上犹豫——以及该改什么";
+  zh["Examples of Hurfi’s own posts"] = "Hurfi 自己的帖子示例";
+  zh["These are posts from Hurfi’s own social media, shown as examples of the visual style and messages we write for manufacturers. They are our brand work, not client results."] = "以下帖子来自 Hurfi 自己的社交媒体，用来展示我们为制造企业创作时的视觉风格和文案。这些是我们的品牌内容，不是客户成果。";
+  zh["Want posts like these for your factory? See"] = "想让您的工厂也有这样的内容？请查看";
+  zh["social media management"] = "社交媒体管理";
+  zh["A five-slide carousel from Hurfi’s feed"] = "Hurfi 账号上的五页轮播";
+  zh["Carousels let a factory explain who it is, what it does and how it works in one swipeable post. This is one of ours."] = "轮播可以让工厂用一条可滑动的帖子讲清自己是谁、做什么、怎么做。这是我们的其中一条。";
+  zh["Hurfi “Digital marketing” social post comparing two glasses of tea labelled “normal people” and “digital marketer”"] = "Hurfi 的「数字营销」帖子：两杯茶分别标注「普通人」和「数字营销人」";
+  zh["Hurfi social post “Don’t chase every click. Attract the right global buyers.”, with fish around a hook"] = "Hurfi 帖子「别追逐每一次点击，吸引对的全球买家。」，画面是鱼群围绕鱼钩";
+  zh["Hurfi social post “Global buyers don’t just search. They verify.”, with a magnifying glass over a factory website"] = "Hurfi 帖子「全球买家不只是搜索，他们会核实。」，画面上是放大镜下的工厂网站";
+  zh["Hurfi social post with a spider web: “A brand isn’t built by one thread.”"] = "Hurfi 帖子：蜘蛛网，配文「品牌不是一根丝线织成的。」";
+  zh["Hurfi social post “Your factory stands strong. Now make your brand stand tall globally.”, with a giraffe in sunglasses"] = "Hurfi 帖子「您的工厂很强，现在让品牌在全球站得更高。」，画面是戴墨镜的长颈鹿";
+  zh["Hurfi billboard-style post: “Your factory builds what the world needs. Our mission is making sure the world finds you.”"] = "Hurfi 广告牌风格帖子：「您的工厂制造世界所需，我们的使命是让世界找到您。」";
+  zh["Hurfi carousel slide 1, “Who we are”: we help Chinese manufacturers and exporters grow stronger online"] = "Hurfi 轮播第 1 页「我们是谁」：我们帮助中国制造商和出口企业在线上更强";
+  zh["Hurfi carousel slide 2, “What we do”: website development, SEO and AEO, social media marketing, ads and lead generation"] = "Hurfi 轮播第 2 页「我们做什么」：网站建设、SEO 与 AEO、社交媒体营销、广告与询盘获取";
+  zh["Hurfi carousel slide 3, “Who we work with”: Chinese manufacturers, suppliers and exporters across industries"] = "Hurfi 轮播第 3 页「我们与谁合作」：来自各行业的中国制造商、供应商和出口企业";
+  zh["Hurfi carousel slide 4, “Our process”: understand your business, research and strategy, build and optimise, grow and scale"] = "Hurfi 轮播第 4 页「我们的流程」：了解业务、调研与策略、建设与优化、增长与扩张";
+  zh["Hurfi carousel slide 5, “Why Hurfi?”: China market expertise, result-oriented strategy, transparent communication, long-term partnership"] = "Hurfi 轮播第 5 页「为什么选 Hurfi？」：中国市场经验、以结果为导向的策略、透明的沟通、长期合作";
+  zh["English B2B Websites for Chinese Manufacturers | Hurfi"] = "面向中国制造商的英文 B2B 网站 | Hurfi";
+  zh["English B2B websites for Chinese manufacturers"] = "面向中国制造商的英文 B2B 网站";
+  zh["Hosting by an Official Hostinger® Agency Partner"] = "由 Hostinger® 官方合作机构托管";
+  zh["Hurfi is a verified member of the Hostinger® Partner Program. The websites we build can be hosted on Hostinger, with set-up handled by our team, and as a partner we get priority technical support from Hostinger when a site needs attention."] = "Hurfi 是 Hostinger® 合作伙伴计划的认证成员。我们建设的网站可以托管在 Hostinger 上，由我们团队完成配置；作为合作伙伴，网站在需要处理时能得到 Hostinger 的优先技术支持。";
+  zh["What an export-ready factory website needs"] = "一个能接外单的工厂网站需要什么";
+  zh["One page per main product family, with the specification table on the page and the datasheet as a download."] = "每个主要产品系列一个页面，规格表放在页面上，数据表提供下载。";
+  zh["A factory and quality page: real photos of lines and testing, equipment lists, and certificates with scope and expiry dates."] = "工厂与质量页面：产线和检测的真实照片、设备清单，以及注明范围和有效期的证书。";
+  zh["Commercial basics stated plainly: minimum order quantity, sample policy, lead time, Incoterms you work with."] = "把商业条件讲清楚：最小起订量、样品政策、交货周期、使用的 Incoterms。";
+  zh["An RFQ path that asks for the right details — drawings, quantities, target market — and says who replies and how soon."] = "一条问对信息的询价路径——图纸、数量、目标市场——并说明由谁、多久内回复。";
+  zh["English written for buyers, not machine-translated from the Chinese site."] = "面向买家写的英文，而不是从中文网站机器翻译过来。";
+  zh["Rebuild or improve?"] = "重建还是改进？";
+  zh["Not every factory needs a new site. We start by reviewing the one you have: what buyers can find, what they cannot, and how the site performs from outside China. Sometimes restructuring the product pages and the contact path is enough; sometimes a rebuild is cheaper in the long run. We tell you which, and why."] = "不是每个工厂都需要新网站。我们先看现有的：买家能找到什么、找不到什么，以及从中国以外访问时表现如何。有时调整产品页和联系路径就够了，有时长期看重建更省钱。我们会告诉您选哪个，以及为什么。";
+  zh["Use our"] = "使用我们的";
+  zh["manufacturer website RFQ checklist"] = "制造企业网站询价清单";
+  zh["and the list of"] = "以及";
+  zh["factory website trust signals"] = "工厂网站信任信号";
+  zh["to check your current site before we talk."] = "在沟通前先检查您现在的网站。";
+  zh["What a manufacturer website needs before buyers send an RFQ"] = "买家发询价前，制造企业网站需要具备什么";
+  zh["Export website speed: making pages fast for overseas buyers"] = "外贸网站速度：让页面在海外买家那里加载得快";
+  zh["Is Hurfi a Hostinger partner?"] = "Hurfi 是 Hostinger 的合作伙伴吗？";
+  zh["Yes. Hurfi is an Official Hostinger Agency Partner, a verified member of the Hostinger Partner Program. Partner status gives us priority technical support from Hostinger for the websites we host. Hostinger's partner page for Hurfi:"] = "是的。Hurfi 是 Hostinger 官方合作机构，也是 Hostinger 合作伙伴计划的认证成员。合作伙伴身份让我们托管的网站享有 Hostinger 的优先技术支持。Hurfi 的 Hostinger 合作伙伴页面：";
+  zh["(referral link)."] = "（推荐链接）。";
+  zh["Contact Us | Hurfi"] = "联系我们 | Hurfi";
+  zh["Hurfi is a verified member of the Hostinger® Partner Program, with priority technical support from Hostinger for the websites we host."] = "Hurfi 是 Hostinger® 合作伙伴计划的认证成员，我们托管的网站享有 Hostinger 的优先技术支持。";
+  zh["About Hurfi | B2B Growth Partner for Chinese Companies"] = "关于 Hurfi | 中国企业的 B2B 增长伙伴";
+  zh["Book a Consultation | Hurfi"] = "预约咨询 | Hurfi";
+  zh["Projects | Hurfi"] = "项目 | Hurfi";
+  zh["Insights for Chinese Manufacturers Selling Abroad | Hurfi"] = "面向海外销售的中国制造商洞察 | Hurfi";
+  zh["Practical notes for Chinese manufacturers and exporters who want overseas buyers to find them, trust them and send a real inquiry. No growth hacks, no invented numbers."] = "写给想让海外买家找到、信任并真正发来询盘的中国制造商和出口企业。没有增长黑客套路，没有编造的数字。";
+  zh["Contact us"] = "联系我们";
+  zh["A practical guide for Chinese factories: why marketplaces are not enough, what overseas buyers check, and how a website, search and LinkedIn work together to produce inquiries."] = "写给中国工厂的实用指南：为什么只靠平台不够、海外买家会核查什么，以及网站、搜索和领英如何共同带来询盘。";
+  zh["The trust signals overseas buyers look for on a Chinese factory website, the mistakes that make a real factory look unreliable, and how to fix them."] = "海外买家在中国工厂网站上寻找的信任信号、让真实工厂显得不可靠的错误，以及如何修正。";
+  zh["A practical checklist of the pages, specifications and inquiry details a Chinese manufacturer website needs so overseas buyers can send a complete RFQ."] = "一份实用清单：中国制造商网站需要哪些页面、规格信息和询盘细节，海外买家才能发出完整的询价。";
+  zh["A practical international SEO checklist for Chinese manufacturers: URL structure, languages, hreflang, content, technical checks and measurement."] = "面向中国制造商的国际 SEO 实用清单：URL 结构、语言、hreflang、内容、技术检查和效果衡量。";
+  zh["Questions a Chinese manufacturer should ask before hiring an export marketing or SEO agency: guarantees, ownership, reporting, content and red flags."] = "中国制造商在选择外贸营销或 SEO 机构前该问的问题：承诺、所有权、汇报、内容以及危险信号。";
+  zh["How Chinese manufacturers can use LinkedIn company pages and sales profiles to support export sales: setup, content, outreach and measurement."] = "中国制造商如何用领英公司主页和销售档案支持出口销售：设置、内容、主动联系和效果衡量。";
+  zh["What Google’s AI Overviews and AI Mode mean for manufacturers’ websites, based on Google’s own documentation — and what is hype."] = "依据谷歌自己的文档，说明 AI Overviews 和 AI Mode 对制造企业网站意味着什么——以及哪些只是炒作。";
+  zh["How Chinese manufacturers can set up Google Ads for overseas B2B inquiries: location targeting, keywords, landing pages, conversion tracking and budgets."] = "中国制造商如何为海外 B2B 询盘设置 Google Ads：地域定位、关键词、落地页、转化跟踪和预算。";
+  zh["How to structure industrial product pages so overseas engineers and Google understand them: titles, specifications, documents, compliance and structured data."] = "如何组织工业产品页，让海外工程师和谷歌都能看懂：标题、规格、文档、合规和结构化数据。";
+  zh["How manufacturers can turn Canton Fair and trade-show contacts into RFQs: preparation, the website buyers check afterwards, follow-up timing and tracking."] = "制造商如何把广交会和展会上的联系人变成询盘：展前准备、买家展后会看的网站、跟进时机和跟踪。";
+  zh["Why page speed matters for Chinese exporters’ websites, what Core Web Vitals measure, and practical fixes for hosting, images and scripts."] = "为什么页面速度对中国出口企业的网站很重要、Core Web Vitals 衡量什么，以及托管、图片和脚本方面的实用改进。";
+  zh["Where Chinese manufacturing exports grew and fell in 2025 — and what it means for your website"] = "2025 年中国制造业出口哪些增长、哪些下滑——以及这对您的网站意味着什么";
+  zh["What 2025 provincial and city statistical bulletins show about export growth and decline by market, and how exporters can plan market pages from it."] = "2025 年各省市统计公报显示的各市场出口增长与下滑，以及出口企业如何据此规划市场页面。";
+  zh["Market pages for buyers in ASEAN, the Middle East and Africa"] = "面向东盟、中东和非洲买家的市场页面";
+  zh["How Chinese manufacturers can build useful market pages for ASEAN, Middle East and African buyers: content, languages, hreflang and what to avoid."] = "中国制造商如何为东盟、中东和非洲买家建设有用的市场页面：内容、语言、hreflang 以及要避免的做法。";
+  zh["The certifications page: how exporters should present certificates to overseas buyers"] = "认证页面：出口企业该如何向海外买家展示证书";
+  zh["How Chinese manufacturers can present certifications by market on their website — scope, models, validity and documents — without overclaiming."] = "中国制造商如何在网站上按市场展示认证——范围、型号、有效期和文件——同时避免夸大。";
+  zh["The shipping and logistics page: answering buyers’ delivery questions before they ask"] = "物流与运输页面：在买家开口前回答交付问题";
+  zh["What a Chinese manufacturer’s shipping page should cover — Incoterms, ports, packing, lead times and samples — so overseas buyers can plan and request a quote."] = "中国制造商的物流页面应该包含什么——Incoterms、港口、包装、交货周期和样品——让海外买家能规划并询价。";
+  zh["Standing out online when your whole city makes the same product"] = "当全城都在做同一种产品时，如何在线上脱颖而出";
+  zh["How manufacturers in Chinese industrial clusters — pumps, fabrics, wigs, eyewear — can make their website stand out from hundreds of similar suppliers."] = "中国产业集群中的制造商——水泵、面料、假发、眼镜——如何让自己的网站从数百家相似供应商中脱颖而出。";
+  zh["From PDF catalogue to product pages: making your range searchable"] = "从 PDF 目录到产品页：让您的产品范围可被搜索";
+  zh["Why Chinese manufacturers should turn PDF catalogues into HTML product pages, how to structure them, and how to keep PDFs useful as downloads."] = "为什么中国制造商应把 PDF 目录转成 HTML 产品页、如何组织这些页面，以及如何让 PDF 继续作为下载资料发挥作用。";
+  zh["Guides to the main industries of Chinese manufacturing cities, based on official statistics, and what they mean for an export website."] = "基于官方统计数据，介绍中国制造业城市主要产业的指南，以及它们对外贸网站的意义。";
+  zh["Not sure where to start?"] = "不确定从哪里开始？";
+  zh["Book a free consultation and we will tell you which of these guides matter most for your website."] = "预约免费咨询，我们会告诉您这些指南中哪些对您的网站最重要。";
+  zh["Solar & Renewable Power"] = "光伏与可再生能源";
+  zh["Water & Wastewater Technology"] = "水与污水处理技术";
+  zh["Environmental & Circular Economy"] = "环保与循环经济";
+  zh["Agritech & Agricultural Equipment"] = "农业科技与农机";
+  zh["Smart Buildings & Urban Infrastructure"] = "智能建筑与城市基础设施";
+  zh["Precision Manufacturing & Components"] = "精密制造与零部件";
+  zh["Automotive & Mobility Components"] = "汽车与出行零部件";
+  zh["Aerospace & Aviation Supply Chain"] = "航空航天供应链";
+  zh["Industrial HVAC & Building Systems"] = "工业暖通与建筑系统";
+  zh["Construction Materials & Systems"] = "建筑材料与系统";
+  zh["Food Processing Equipment"] = "食品加工设备";
+  zh["Packaging & Printing Manufacturing"] = "包装与印刷制造";
+  zh["Textiles & Technical Fabrics"] = "纺织与技术面料";
+  zh["Furniture & Interior Manufacturing"] = "家具与室内制造";
+  zh["Logistics & Warehouse Technology"] = "物流与仓储技术";
+  zh["Chemicals & Specialty Materials"] = "化工与特种材料";
+  zh["Mining & Mineral Processing Equipment"] = "矿山与矿物加工设备";
+  zh["Marine & Shipbuilding Supply Chain"] = "船舶与海工供应链";
+  zh["Industrial Safety & Testing"] = "工业安全与检测";
+  zh["Apparel & Footwear Production"] = "服装与鞋类生产";
+  zh["Commercial Cleaning & Hygiene Equipment"] = "商用清洁与卫生设备";
+  zh["Across sectors"] = "跨行业";
+  zh["Some work depends on how the factory sells rather than what it makes."] = "有些工作取决于工厂怎么卖，而不是做什么。";
+  zh["OEM & ODM manufacturing"] = "OEM 与 ODM 制造";
+  zh["For factories that build products for other brands."] = "为其他品牌代工生产的工厂。";
+  zh["China Manufacturing Regions We Serve | Hurfi"] = "我们服务的中国制造业地区 | Hurfi";
+  zh["China manufacturing regions we serve"] = "我们服务的中国制造业地区";
+  zh["Guides for manufacturers in 39 Chinese cities, based on official industry statistics. Hurfi’s China office is in Xi’an; we work with manufacturers in the other cities remotely, and we do not have local offices there."] = "基于官方产业统计数据，为 39 个中国城市的制造商提供指南。Hurfi 的中国办公室在西安；其他城市的企业我们远程合作，在当地没有办公室。";
+  zh["Pearl River Delta (Guangdong)"] = "珠三角（广东）";
+  zh["Yangtze River Delta and Anhui"] = "长三角与安徽";
+  zh["Bohai Rim and northeast China"] = "环渤海与东北";
+  zh["Central and western China"] = "中西部";
+  zh["Province guides"] = "省级指南";
+  zh["Province guides summarise official figures, link to the city guides and profile smaller manufacturing cities from their own statistical bulletins."] = "省级指南汇总官方数据，链接到城市指南，并根据各地统计公报介绍较小的制造业城市。";
+  zh["Full China directory"] = "完整的中国城市目录";
+  zh["Insights for exporters"] = "出口企业洞察";
+  zh["Guangdong · city guide"] = "广东 · 城市指南";
+  zh["Shanghai · city guide"] = "上海 · 城市指南";
+  zh["Jiangsu · city guide"] = "江苏 · 城市指南";
+  zh["Zhejiang · city guide"] = "浙江 · 城市指南";
+  zh["Anhui · city guide"] = "安徽 · 城市指南";
+  zh["Fujian · city guide"] = "福建 · 城市指南";
+  zh["Beijing · city guide"] = "北京 · 城市指南";
+  zh["Tianjin · city guide"] = "天津 · 城市指南";
+  zh["Shandong · city guide"] = "山东 · 城市指南";
+  zh["Liaoning · city guide"] = "辽宁 · 城市指南";
+  zh["Hubei · city guide"] = "湖北 · 城市指南";
+  zh["Hunan · city guide"] = "湖南 · 城市指南";
+  zh["Henan · city guide"] = "河南 · 城市指南";
+  zh["Chongqing · city guide"] = "重庆 · 城市指南";
+  zh["Sichuan · city guide"] = "四川 · 城市指南";
+  zh["Shaanxi · city guide"] = "陕西 · 城市指南";
+  zh["Province guide · 1 city guides"] = "省级指南 · 1 个城市指南";
+  zh["Province guide · 2 city guides"] = "省级指南 · 2 个城市指南";
+  zh["Province guide · 3 city guides"] = "省级指南 · 3 个城市指南";
+  zh["Province guide · 4 city guides"] = "省级指南 · 4 个城市指南";
+  zh["Province guide · 5 city guides"] = "省级指南 · 5 个城市指南";
+  zh["Province guide · 7 city guides"] = "省级指南 · 7 个城市指南";
+  fr["Services | Hurfi — Digital Growth for Chinese B2B Companies"] = "Services | Hurfi — croissance digitale pour les entreprises B2B chinoises";
+  fr["Highlighted Capabilities"] = "Compétences clés";
+  fr["Strategic social presence for Chinese manufacturers, suppliers, and B2B brands — content that builds trust and visibility."] = "Une présence sociale stratégique pour les fabricants, fournisseurs et marques B2B chinois — des contenus qui construisent la confiance et la visibilité.";
+  fr["Google SEO for Chinese Manufacturers & Exporters | Hurfi"] = "SEO Google pour les fabricants et exportateurs chinois | Hurfi";
+  fr["Google SEO for Chinese manufacturers"] = "SEO Google pour les fabricants chinois";
+  fr["Stable hosting from an Official Hostinger® Agency Partner"] = "Un hébergement stable par une agence partenaire officielle Hostinger®";
+  fr["A site that is slow or offline is hard to rank. Hurfi is a verified member of the Hostinger® Partner Program, so the sites we host for clients run on Hostinger with priority technical support behind them."] = "Un site lent ou hors ligne est difficile à référencer. Hurfi est membre vérifié du programme partenaire Hostinger® : les sites que nous hébergeons pour nos clients tournent sur Hostinger, avec un support technique prioritaire.";
+  fr["See Hostinger's partner page for Hurfi"] = "Voir la page partenaire Hostinger de Hurfi";
+  fr["Referral link"] = "Lien de parrainage";
+  fr["International SEO for factories that export"] = "SEO international pour les usines exportatrices";
+  fr["Most of the buyers a Chinese factory wants are outside China, and they search in their own language, in Google, with their own words for the product. International SEO is the work of making sure the right pages show up for them."] = "La plupart des acheteurs visés par une usine chinoise se trouvent hors de Chine : ils cherchent sur Google, dans leur langue, avec leurs propres mots. Le SEO international consiste à faire apparaître les bonnes pages pour ces recherches.";
+  fr["Choosing target markets first, then the language and the wording buyers in those markets actually use."] = "Choisir d’abord les marchés cibles, puis la langue et les termes réellement employés par les acheteurs de ces marchés.";
+  fr["A clear site structure for each market or language, with correct hreflang and canonical tags when there is more than one version."] = "Une structure de site claire par marché ou par langue, avec des balises hreflang et canonical correctes lorsqu’il existe plusieurs versions.";
+  fr["Server, hosting and speed checks, because a site that loads slowly from Europe or North America loses visitors before they read anything."] = "Vérification du serveur, de l’hébergement et de la vitesse : un site lent depuis l’Europe ou l’Amérique du Nord perd ses visiteurs avant qu’ils aient lu quoi que ce soit.";
+  fr["Product and application pages written around specification-stage searches: materials, standards, tolerances, capacities and model numbers."] = "Des pages produit et application écrites autour des recherches de spécification : matériaux, normes, tolérances, capacités et références.";
+  fr["Search Console set up for your own domain, so you can see impressions and clicks by country."] = "Search Console configuré sur votre propre domaine, pour voir les impressions et les clics par pays.";
+  fr["What we will not do"] = "Ce que nous ne ferons pas";
+  fr["Promise rankings, traffic or a number of inquiries."] = "Promettre des positions, du trafic ou un nombre de demandes.";
+  fr["Buy links or use tactics that put your domain at risk."] = "Acheter des liens ou utiliser des méthodes qui mettent votre domaine en danger.";
+  fr["Offer Baidu SEO — our work is aimed at overseas buyers searching in Google."] = "Proposer du SEO Baidu — notre travail vise les acheteurs étrangers qui cherchent sur Google.";
+  fr["Where SEO fits with the rest"] = "La place du SEO dans l’ensemble";
+  fr["SEO brings buyers to the site; the site has to answer them. If your product pages are thin, we will tell you, and the"] = "Le SEO amène les acheteurs au site ; le site doit leur répondre. Si vos pages produit sont trop minces, nous vous le dirons, et le";
+  fr["website development"] = "la création de site";
+  fr["work may come first. For sector-specific search topics see the"] = "travail peut passer en premier. Pour les sujets de recherche propres à un secteur, voir les";
+  fr["industry pages"] = "pages secteur";
+  fr[", and for a practical starting point read"] = ", et pour un point de départ concret, lire";
+  fr["how Chinese manufacturers can win more overseas buyer inquiries"] = "comment les fabricants chinois peuvent obtenir plus de demandes d’acheteurs étrangers";
+  fr["Related guides and city pages"] = "Guides et pages ville associés";
+  fr["An international SEO checklist for Chinese exporters"] = "Une liste de contrôle SEO international pour les exportateurs chinois";
+  fr["AI search for manufacturers: what actually matters"] = "La recherche par IA pour les industriels : ce qui compte vraiment";
+  fr["Product page SEO for industrial manufacturers"] = "SEO des pages produit pour les industriels";
+  fr["How a manufacturer should choose an export marketing agency"] = "Comment un industriel devrait choisir une agence de marketing export";
+  fr["City guides for manufacturers in"] = "Guides de ville pour les industriels à";
+  fr["all city guides"] = "tous les guides de ville";
+  fr["B2B Digital Marketing for Chinese Manufacturers | Hurfi"] = "Marketing digital B2B pour les fabricants chinois | Hurfi";
+  fr["B2B digital marketing that brings overseas inquiries"] = "Un marketing digital B2B qui génère des demandes étrangères";
+  fr["Lead generation without inflated numbers"] = "Générer des contacts sans chiffres gonflés";
+  fr["For a manufacturer, one qualified inquiry from the right buyer is worth more than thousands of impressions. We plan campaigns backwards from that: which buyers, in which markets, looking for which products — and which page on your site will answer them."] = "Pour un industriel, une demande qualifiée du bon acheteur vaut plus que des milliers d’impressions. Nous planifions donc à rebours : quels acheteurs, sur quels marchés, pour quels produits — et quelle page de votre site leur répondra.";
+  fr["Search campaigns for buyers who are already looking for the product type or process you offer."] = "Des campagnes search pour les acheteurs qui cherchent déjà le type de produit ou le procédé que vous proposez.";
+  fr["Content that answers the questions engineers and buyers ask before they write: specifications, standards, applications."] = "Des contenus qui répondent aux questions que se posent ingénieurs et acheteurs avant d’écrire : spécifications, normes, applications.";
+  fr["Paid campaigns where the numbers justify them, with spend and results shown from your own ad accounts."] = "Des campagnes payantes là où les chiffres le justifient, avec les dépenses et les résultats tirés de vos propres comptes publicitaires.";
+  fr["Inquiry tracking by source, so you can see which channel produced which conversation."] = "Un suivi des demandes par source, pour voir quel canal a produit quelle conversation.";
+  fr["What we report"] = "Ce que nous rapportons";
+  fr["Inquiries, calls and profile actions by channel, alongside spend. We do not report vanity reach as success, and we do not promise a number of leads. If a channel is not working after a fair test, we say so and move the budget."] = "Les demandes, les appels et les actions sur les profils par canal, avec les dépenses. Nous ne présentons pas la portée comme un résultat et nous ne promettons pas un nombre de contacts. Si un canal ne fonctionne pas après un test honnête, nous le disons et réaffectons le budget.";
+  fr["Further reading"] = "Pour aller plus loin";
+  fr["Google Ads for exporters: a setup guide for factories"] = "Google Ads pour les exportateurs : guide de configuration pour les usines";
+  fr["Trade show follow-up for manufacturers"] = "Le suivi de salon pour les industriels";
+  fr["LinkedIn & Social Media for Chinese Manufacturers | Hurfi"] = "LinkedIn et réseaux sociaux pour les fabricants chinois | Hurfi";
+  fr["LinkedIn and social media for Chinese manufacturers"] = "LinkedIn et réseaux sociaux pour les fabricants chinois";
+  fr["Why LinkedIn matters for a factory"] = "Pourquoi LinkedIn compte pour une usine";
+  fr["Before an overseas buyer replies to your email, they often look up the company page and the person who wrote to them. A company page with no posts, or a sales profile with no photo, raises doubts that a good price cannot fix. LinkedIn is where B2B buyers check whether a supplier is real, active and professional."] = "Avant de répondre à votre e-mail, un acheteur étranger consulte souvent la page de l’entreprise et le profil de la personne qui lui écrit. Une page sans publications, ou un profil commercial sans photo, suscite des doutes qu’un bon prix ne corrige pas. C’est sur LinkedIn que les acheteurs B2B vérifient qu’un fournisseur est réel, actif et professionnel.";
+  fr["A company page that matches the website: same products, same certificates, same contact details."] = "Une page entreprise alignée sur le site : mêmes produits, mêmes certificats, mêmes coordonnées.";
+  fr["Profiles for the people buyers will talk to, in clear English."] = "Des profils pour les personnes que les acheteurs contacteront, dans un anglais clair.";
+  fr["A posting plan built around real material: production, testing, trade shows, new products, team."] = "Un plan de publication fondé sur du contenu réel : production, essais, salons, nouveaux produits, équipe.";
+  fr["Every post approved by your team before it goes out; nothing is published without permission."] = "Chaque publication est validée par votre équipe avant diffusion ; rien n’est publié sans autorisation.";
+  fr["What we do not do"] = "Ce que nous ne faisons pas";
+  fr["Buy followers or engagement."] = "Acheter des abonnés ou de l’engagement.";
+  fr["Send mass connection requests or automated messages that damage your account and reputation."] = "Envoyer des demandes de connexion en masse ou des messages automatisés qui nuisent à votre compte et à votre réputation.";
+  fr["Use stock photos in place of your own factory."] = "Utiliser des photos de banque d’images à la place de votre usine.";
+  fr["LinkedIn for factory export sales: a practical guide"] = "LinkedIn pour la vente export d’une usine : guide pratique";
+  fr["Why overseas buyers hesitate on factory websites — and what to fix"] = "Pourquoi les acheteurs étrangers hésitent sur un site d’usine — et quoi corriger";
+  fr["Examples of Hurfi’s own posts"] = "Exemples de publications de Hurfi";
+  fr["These are posts from Hurfi’s own social media, shown as examples of the visual style and messages we write for manufacturers. They are our brand work, not client results."] = "Ces publications viennent des réseaux sociaux de Hurfi : elles montrent le style visuel et les messages que nous écrivons pour les industriels. C’est notre travail de marque, pas des résultats clients.";
+  fr["Want posts like these for your factory? See"] = "Vous voulez ce type de publications pour votre usine ? Voir";
+  fr["social media management"] = "la gestion des réseaux sociaux";
+  fr["A five-slide carousel from Hurfi’s feed"] = "Un carrousel de cinq pages issu du fil de Hurfi";
+  fr["Carousels let a factory explain who it is, what it does and how it works in one swipeable post. This is one of ours."] = "Un carrousel permet à une usine d’expliquer qui elle est, ce qu’elle fait et comment, en une seule publication à faire défiler. Voici l’un des nôtres.";
+  fr["Hurfi “Digital marketing” social post comparing two glasses of tea labelled “normal people” and “digital marketer”"] = "Publication Hurfi « Marketing digital » comparant deux verres de thé étiquetés « les gens normaux » et « le marketeur digital »";
+  fr["Hurfi social post “Don’t chase every click. Attract the right global buyers.”, with fish around a hook"] = "Publication Hurfi « Ne courez pas après chaque clic. Attirez les bons acheteurs internationaux. », avec des poissons autour d’un hameçon";
+  fr["Hurfi social post “Global buyers don’t just search. They verify.”, with a magnifying glass over a factory website"] = "Publication Hurfi « Les acheteurs internationaux ne se contentent pas de chercher. Ils vérifient. », avec une loupe sur le site d’une usine";
+  fr["Hurfi social post with a spider web: “A brand isn’t built by one thread.”"] = "Publication Hurfi avec une toile d’araignée : « Une marque ne se construit pas avec un seul fil. »";
+  fr["Hurfi social post “Your factory stands strong. Now make your brand stand tall globally.”, with a giraffe in sunglasses"] = "Publication Hurfi « Votre usine est solide. Faites maintenant grandir votre marque à l’international. », avec une girafe en lunettes de soleil";
+  fr["Hurfi billboard-style post: “Your factory builds what the world needs. Our mission is making sure the world finds you.”"] = "Publication Hurfi façon panneau publicitaire : « Votre usine fabrique ce dont le monde a besoin. Notre mission : faire en sorte que le monde vous trouve. »";
+  fr["Hurfi carousel slide 1, “Who we are”: we help Chinese manufacturers and exporters grow stronger online"] = "Diapositive 1 du carrousel Hurfi, « Qui nous sommes » : nous aidons les fabricants et exportateurs chinois à se renforcer en ligne";
+  fr["Hurfi carousel slide 2, “What we do”: website development, SEO and AEO, social media marketing, ads and lead generation"] = "Diapositive 2, « Ce que nous faisons » : création de sites, SEO et AEO, marketing sur les réseaux sociaux, publicité et génération de contacts";
+  fr["Hurfi carousel slide 3, “Who we work with”: Chinese manufacturers, suppliers and exporters across industries"] = "Diapositive 3, « Avec qui nous travaillons » : fabricants, fournisseurs et exportateurs chinois de tous secteurs";
+  fr["Hurfi carousel slide 4, “Our process”: understand your business, research and strategy, build and optimise, grow and scale"] = "Diapositive 4, « Notre méthode » : comprendre votre activité, recherche et stratégie, construire et optimiser, croître et passer à l’échelle";
+  fr["Hurfi carousel slide 5, “Why Hurfi?”: China market expertise, result-oriented strategy, transparent communication, long-term partnership"] = "Diapositive 5, « Pourquoi Hurfi ? » : expertise du marché chinois, stratégie orientée résultats, communication transparente, partenariat durable";
+  fr["English B2B Websites for Chinese Manufacturers | Hurfi"] = "Sites B2B en anglais pour les fabricants chinois | Hurfi";
+  fr["English B2B websites for Chinese manufacturers"] = "Des sites B2B en anglais pour les fabricants chinois";
+  fr["Hosting by an Official Hostinger® Agency Partner"] = "Hébergement par une agence partenaire officielle Hostinger®";
+  fr["Hurfi is a verified member of the Hostinger® Partner Program. The websites we build can be hosted on Hostinger, with set-up handled by our team, and as a partner we get priority technical support from Hostinger when a site needs attention."] = "Hurfi est membre vérifié du programme partenaire Hostinger®. Les sites que nous créons peuvent être hébergés sur Hostinger, l’installation étant assurée par notre équipe ; en tant que partenaire, nous bénéficions du support technique prioritaire de Hostinger lorsqu’un site demande une intervention.";
+  fr["What an export-ready factory website needs"] = "Ce dont un site d’usine prêt à l’export a besoin";
+  fr["One page per main product family, with the specification table on the page and the datasheet as a download."] = "Une page par grande famille de produits, avec le tableau de spécifications sur la page et la fiche technique en téléchargement.";
+  fr["A factory and quality page: real photos of lines and testing, equipment lists, and certificates with scope and expiry dates."] = "Une page usine et qualité : vraies photos des lignes et des essais, listes d’équipements, et certificats avec périmètre et dates d’expiration.";
+  fr["Commercial basics stated plainly: minimum order quantity, sample policy, lead time, Incoterms you work with."] = "Les bases commerciales énoncées clairement : quantité minimale, politique d’échantillons, délai de production, Incoterms utilisés.";
+  fr["An RFQ path that asks for the right details — drawings, quantities, target market — and says who replies and how soon."] = "Un parcours de demande de devis qui demande les bonnes informations — plans, quantités, marché visé — et indique qui répond et sous quel délai.";
+  fr["English written for buyers, not machine-translated from the Chinese site."] = "Un anglais écrit pour les acheteurs, pas traduit automatiquement depuis le site chinois.";
+  fr["Rebuild or improve?"] = "Refonte ou amélioration ?";
+  fr["Not every factory needs a new site. We start by reviewing the one you have: what buyers can find, what they cannot, and how the site performs from outside China. Sometimes restructuring the product pages and the contact path is enough; sometimes a rebuild is cheaper in the long run. We tell you which, and why."] = "Toutes les usines n’ont pas besoin d’un nouveau site. Nous commençons par examiner l’existant : ce que les acheteurs trouvent, ce qu’ils ne trouvent pas, et son comportement depuis l’étranger. Parfois restructurer les pages produit et le parcours de contact suffit ; parfois une refonte coûte moins cher à long terme. Nous vous disons laquelle des deux, et pourquoi.";
+  fr["Use our"] = "Utilisez notre";
+  fr["manufacturer website RFQ checklist"] = "liste de contrôle RFQ pour site d’usine";
+  fr["and the list of"] = "et la liste des";
+  fr["factory website trust signals"] = "signaux de confiance d’un site d’usine";
+  fr["to check your current site before we talk."] = "pour évaluer votre site actuel avant notre échange.";
+  fr["What a manufacturer website needs before buyers send an RFQ"] = "Ce qu’un site d’industriel doit offrir avant qu’un acheteur envoie une demande";
+  fr["Export website speed: making pages fast for overseas buyers"] = "Vitesse d’un site export : des pages rapides pour les acheteurs étrangers";
+  fr["Is Hurfi a Hostinger partner?"] = "Hurfi est-il partenaire Hostinger ?";
+  fr["Yes. Hurfi is an Official Hostinger Agency Partner, a verified member of the Hostinger Partner Program. Partner status gives us priority technical support from Hostinger for the websites we host. Hostinger's partner page for Hurfi:"] = "Oui. Hurfi est une agence partenaire officielle Hostinger, membre vérifié du programme partenaire. Ce statut nous donne accès au support technique prioritaire de Hostinger pour les sites que nous hébergeons. La page partenaire Hostinger de Hurfi :";
+  fr["(referral link)."] = "(lien de parrainage).";
+  fr["Contact Us | Hurfi"] = "Contact | Hurfi";
+  fr["Hurfi is a verified member of the Hostinger® Partner Program, with priority technical support from Hostinger for the websites we host."] = "Hurfi est membre vérifié du programme partenaire Hostinger®, avec un support technique prioritaire de Hostinger pour les sites que nous hébergeons.";
+  fr["About Hurfi | B2B Growth Partner for Chinese Companies"] = "À propos de Hurfi | Partenaire de croissance B2B des entreprises chinoises";
+  fr["Book a Consultation | Hurfi"] = "Réserver une consultation | Hurfi";
+  fr["Projects | Hurfi"] = "Projets | Hurfi";
+  fr["Insights for Chinese Manufacturers Selling Abroad | Hurfi"] = "Analyses pour les fabricants chinois qui vendent à l’étranger | Hurfi";
+  fr["Practical notes for Chinese manufacturers and exporters who want overseas buyers to find them, trust them and send a real inquiry. No growth hacks, no invented numbers."] = "Des notes pratiques pour les fabricants et exportateurs chinois qui veulent que les acheteurs étrangers les trouvent, leur fassent confiance et envoient une vraie demande. Pas de recettes miracles, pas de chiffres inventés.";
+  fr["Contact us"] = "Nous contacter";
+  fr["A practical guide for Chinese factories: why marketplaces are not enough, what overseas buyers check, and how a website, search and LinkedIn work together to produce inquiries."] = "Un guide pratique pour les usines chinoises : pourquoi les marketplaces ne suffisent pas, ce que vérifient les acheteurs étrangers, et comment site, recherche et LinkedIn produisent ensemble des demandes.";
+  fr["The trust signals overseas buyers look for on a Chinese factory website, the mistakes that make a real factory look unreliable, and how to fix them."] = "Les signaux de confiance que cherchent les acheteurs étrangers sur le site d’une usine chinoise, les erreurs qui font paraître une vraie usine peu fiable, et comment les corriger.";
+  fr["A practical checklist of the pages, specifications and inquiry details a Chinese manufacturer website needs so overseas buyers can send a complete RFQ."] = "Une liste de contrôle pratique des pages, spécifications et informations de demande dont un site de fabricant chinois a besoin pour qu’un acheteur étranger envoie une demande complète.";
+  fr["A practical international SEO checklist for Chinese manufacturers: URL structure, languages, hreflang, content, technical checks and measurement."] = "Une liste de contrôle SEO international pratique pour les fabricants chinois : structure d’URL, langues, hreflang, contenus, vérifications techniques et mesure.";
+  fr["Questions a Chinese manufacturer should ask before hiring an export marketing or SEO agency: guarantees, ownership, reporting, content and red flags."] = "Les questions qu’un fabricant chinois doit poser avant d’engager une agence de marketing export ou SEO : garanties, propriété, reporting, contenus et signaux d’alerte.";
+  fr["How Chinese manufacturers can use LinkedIn company pages and sales profiles to support export sales: setup, content, outreach and measurement."] = "Comment les fabricants chinois peuvent utiliser les pages entreprise et les profils commerciaux LinkedIn pour soutenir les ventes export : configuration, contenus, prospection et mesure.";
+  fr["What Google’s AI Overviews and AI Mode mean for manufacturers’ websites, based on Google’s own documentation — and what is hype."] = "Ce que les AI Overviews et le mode IA de Google impliquent pour les sites d’industriels, d’après la documentation de Google — et ce qui n’est que du battage.";
+  fr["How Chinese manufacturers can set up Google Ads for overseas B2B inquiries: location targeting, keywords, landing pages, conversion tracking and budgets."] = "Comment les fabricants chinois peuvent configurer Google Ads pour des demandes B2B à l’étranger : ciblage géographique, mots-clés, pages d’atterrissage, suivi des conversions et budgets.";
+  fr["How to structure industrial product pages so overseas engineers and Google understand them: titles, specifications, documents, compliance and structured data."] = "Comment structurer les pages produit industrielles pour que les ingénieurs étrangers et Google les comprennent : titres, spécifications, documents, conformité et données structurées.";
+  fr["How manufacturers can turn Canton Fair and trade-show contacts into RFQs: preparation, the website buyers check afterwards, follow-up timing and tracking."] = "Comment transformer les contacts du Canton Fair et des salons en demandes de devis : préparation, site que les acheteurs consultent ensuite, timing de relance et suivi.";
+  fr["Why page speed matters for Chinese exporters’ websites, what Core Web Vitals measure, and practical fixes for hosting, images and scripts."] = "Pourquoi la vitesse de page compte pour les sites des exportateurs chinois, ce que mesurent les Core Web Vitals, et des correctifs concrets sur l’hébergement, les images et les scripts.";
+  fr["Where Chinese manufacturing exports grew and fell in 2025 — and what it means for your website"] = "Où les exportations manufacturières chinoises ont progressé ou reculé en 2025 — et ce que cela implique pour votre site";
+  fr["What 2025 provincial and city statistical bulletins show about export growth and decline by market, and how exporters can plan market pages from it."] = "Ce que les bulletins statistiques provinciaux et municipaux de 2025 montrent de la croissance et du recul des exportations par marché, et comment les exportateurs peuvent en tirer des pages marché.";
+  fr["Market pages for buyers in ASEAN, the Middle East and Africa"] = "Des pages marché pour les acheteurs d’ASEAN, du Moyen-Orient et d’Afrique";
+  fr["How Chinese manufacturers can build useful market pages for ASEAN, Middle East and African buyers: content, languages, hreflang and what to avoid."] = "Comment les fabricants chinois peuvent créer des pages marché utiles pour les acheteurs d’ASEAN, du Moyen-Orient et d’Afrique : contenus, langues, hreflang et erreurs à éviter.";
+  fr["The certifications page: how exporters should present certificates to overseas buyers"] = "La page certifications : comment les exportateurs doivent présenter leurs certificats aux acheteurs étrangers";
+  fr["How Chinese manufacturers can present certifications by market on their website — scope, models, validity and documents — without overclaiming."] = "Comment les fabricants chinois peuvent présenter leurs certifications par marché sur leur site — périmètre, modèles, validité et documents — sans exagérer.";
+  fr["The shipping and logistics page: answering buyers’ delivery questions before they ask"] = "La page transport et logistique : répondre aux questions de livraison avant qu’elles soient posées";
+  fr["What a Chinese manufacturer’s shipping page should cover — Incoterms, ports, packing, lead times and samples — so overseas buyers can plan and request a quote."] = "Ce que doit couvrir la page transport d’un fabricant chinois — Incoterms, ports, emballage, délais et échantillons — pour que les acheteurs étrangers puissent planifier et demander un devis.";
+  fr["Standing out online when your whole city makes the same product"] = "Se démarquer en ligne quand toute votre ville fabrique le même produit";
+  fr["How manufacturers in Chinese industrial clusters — pumps, fabrics, wigs, eyewear — can make their website stand out from hundreds of similar suppliers."] = "Comment les industriels des clusters chinois — pompes, tissus, perruques, lunettes — peuvent démarquer leur site de centaines de fournisseurs similaires.";
+  fr["From PDF catalogue to product pages: making your range searchable"] = "Du catalogue PDF aux pages produit : rendre votre gamme trouvable";
+  fr["Why Chinese manufacturers should turn PDF catalogues into HTML product pages, how to structure them, and how to keep PDFs useful as downloads."] = "Pourquoi les fabricants chinois doivent transformer leurs catalogues PDF en pages produit HTML, comment les structurer, et comment garder les PDF utiles en téléchargement.";
+  fr["Guides to the main industries of Chinese manufacturing cities, based on official statistics, and what they mean for an export website."] = "Des guides sur les principales industries des villes manufacturières chinoises, fondés sur les statistiques officielles, et ce qu’elles impliquent pour un site export.";
+  fr["Not sure where to start?"] = "Vous ne savez pas par où commencer ?";
+  fr["Book a free consultation and we will tell you which of these guides matter most for your website."] = "Réservez une consultation gratuite et nous vous dirons lesquels de ces guides comptent le plus pour votre site.";
+  fr["Solar & Renewable Power"] = "Solaire et énergies renouvelables";
+  fr["Water & Wastewater Technology"] = "Eau et traitement des eaux usées";
+  fr["Environmental & Circular Economy"] = "Environnement et économie circulaire";
+  fr["Agritech & Agricultural Equipment"] = "Agritech et matériel agricole";
+  fr["Smart Buildings & Urban Infrastructure"] = "Bâtiments intelligents et infrastructures urbaines";
+  fr["Precision Manufacturing & Components"] = "Fabrication de précision et composants";
+  fr["Automotive & Mobility Components"] = "Composants automobiles et de mobilité";
+  fr["Aerospace & Aviation Supply Chain"] = "Chaîne d’approvisionnement aéronautique et spatiale";
+  fr["Industrial HVAC & Building Systems"] = "CVC industriel et systèmes du bâtiment";
+  fr["Construction Materials & Systems"] = "Matériaux et systèmes de construction";
+  fr["Food Processing Equipment"] = "Équipements de transformation alimentaire";
+  fr["Packaging & Printing Manufacturing"] = "Fabrication d’emballages et d’imprimés";
+  fr["Textiles & Technical Fabrics"] = "Textiles et tissus techniques";
+  fr["Furniture & Interior Manufacturing"] = "Ameublement et agencement intérieur";
+  fr["Logistics & Warehouse Technology"] = "Logistique et technologies d’entrepôt";
+  fr["Chemicals & Specialty Materials"] = "Chimie et matériaux spéciaux";
+  fr["Mining & Mineral Processing Equipment"] = "Équipements miniers et de traitement des minerais";
+  fr["Marine & Shipbuilding Supply Chain"] = "Chaîne d’approvisionnement maritime et navale";
+  fr["Industrial Safety & Testing"] = "Sécurité industrielle et essais";
+  fr["Apparel & Footwear Production"] = "Production de vêtements et de chaussures";
+  fr["Commercial Cleaning & Hygiene Equipment"] = "Équipements de nettoyage et d’hygiène professionnels";
+  fr["Across sectors"] = "Tous secteurs";
+  fr["Some work depends on how the factory sells rather than what it makes."] = "Certains travaux dépendent de la façon dont l’usine vend, pas de ce qu’elle fabrique.";
+  fr["OEM & ODM manufacturing"] = "Fabrication OEM et ODM";
+  fr["For factories that build products for other brands."] = "Pour les usines qui fabriquent pour d’autres marques.";
+  fr["China Manufacturing Regions We Serve | Hurfi"] = "Les régions manufacturières chinoises que nous servons | Hurfi";
+  fr["China manufacturing regions we serve"] = "Les régions manufacturières chinoises que nous servons";
+  fr["Guides for manufacturers in 39 Chinese cities, based on official industry statistics. Hurfi’s China office is in Xi’an; we work with manufacturers in the other cities remotely, and we do not have local offices there."] = "Des guides pour les industriels de 39 villes chinoises, fondés sur les statistiques officielles. Le bureau chinois de Hurfi est à Xi’an ; nous travaillons à distance avec les industriels des autres villes, où nous n’avons pas de bureau.";
+  fr["Pearl River Delta (Guangdong)"] = "Delta de la rivière des Perles (Guangdong)";
+  fr["Yangtze River Delta and Anhui"] = "Delta du Yangtsé et Anhui";
+  fr["Bohai Rim and northeast China"] = "Golfe de Bohai et nord-est de la Chine";
+  fr["Central and western China"] = "Chine centrale et occidentale";
+  fr["Province guides"] = "Guides de province";
+  fr["Province guides summarise official figures, link to the city guides and profile smaller manufacturing cities from their own statistical bulletins."] = "Les guides de province résument les chiffres officiels, renvoient aux guides de ville et présentent les villes manufacturières plus petites d’après leurs propres bulletins statistiques.";
+  fr["Full China directory"] = "Annuaire complet de la Chine";
+  fr["Insights for exporters"] = "Analyses pour les exportateurs";
+  fr["Guangdong · city guide"] = "Guangdong · guide de ville";
+  fr["Shanghai · city guide"] = "Shanghai · guide de ville";
+  fr["Jiangsu · city guide"] = "Jiangsu · guide de ville";
+  fr["Zhejiang · city guide"] = "Zhejiang · guide de ville";
+  fr["Anhui · city guide"] = "Anhui · guide de ville";
+  fr["Fujian · city guide"] = "Fujian · guide de ville";
+  fr["Beijing · city guide"] = "Pékin · guide de ville";
+  fr["Tianjin · city guide"] = "Tianjin · guide de ville";
+  fr["Shandong · city guide"] = "Shandong · guide de ville";
+  fr["Liaoning · city guide"] = "Liaoning · guide de ville";
+  fr["Hubei · city guide"] = "Hubei · guide de ville";
+  fr["Hunan · city guide"] = "Hunan · guide de ville";
+  fr["Henan · city guide"] = "Henan · guide de ville";
+  fr["Chongqing · city guide"] = "Chongqing · guide de ville";
+  fr["Sichuan · city guide"] = "Sichuan · guide de ville";
+  fr["Shaanxi · city guide"] = "Shaanxi · guide de ville";
+  fr["Province guide · 1 city guides"] = "Guide de province · 1 guides de ville";
+  fr["Province guide · 2 city guides"] = "Guide de province · 2 guides de ville";
+  fr["Province guide · 3 city guides"] = "Guide de province · 3 guides de ville";
+  fr["Province guide · 4 city guides"] = "Guide de province · 4 guides de ville";
+  fr["Province guide · 5 city guides"] = "Guide de province · 5 guides de ville";
+  fr["Province guide · 7 city guides"] = "Guide de province · 7 guides de ville";
+
+
+  // Page labels and team names, 2026-10-20.
+  zh["How Chinese manufacturers can win more overseas buyer inquiries"] = "中国制造商如何获得更多海外买家询盘";
+  zh["Xi’an"] = "西安";
+  zh["hostinger.com"] = "hostinger.com";
+  zh["Nun Mohammad Maruf"] = "Nun Mohammad Maruf";
+  zh["Shahriar Shawon"] = "Shahriar Shawon";
+  zh["Siam Shekh"] = "Siam Shekh";
+  zh["Sadman Sadat Siam"] = "Sadman Sadat Siam";
+  zh["Ahnaf Afrid"] = "Ahnaf Afrid";
+  fr["How Chinese manufacturers can win more overseas buyer inquiries"] = "Comment les fabricants chinois peuvent obtenir plus de demandes d’acheteurs étrangers";
+  fr["Xi’an"] = "Xi’an";
+  fr["hostinger.com"] = "hostinger.com";
+  fr["Nun Mohammad Maruf"] = "Nun Mohammad Maruf";
+  fr["Shahriar Shawon"] = "Shahriar Shawon";
+  fr["Siam Shekh"] = "Siam Shekh";
+  fr["Sadman Sadat Siam"] = "Sadman Sadat Siam";
+  fr["Ahnaf Afrid"] = "Ahnaf Afrid";
+
   function map() {
     if (current() === "zh") return zh;
     if (current() === "fr") return fr;
@@ -2133,8 +2695,12 @@
       var raw = node.nodeValue;
       if (!raw || !raw.trim()) return;
       var core = raw.trim();
-      if (!phrases[core]) return;
-      node.nodeValue = raw.replace(core, phrases[core]);
+      // A heading broken over several source lines carries newlines and runs of
+      // indentation inside one text node; collapse them before the lookup.
+      var key = core.replace(/\s+/g, " ");
+      var out = phrases[core] || phrases[key];
+      if (!out) return;
+      node.nodeValue = raw.replace(core, out);
     });
     ["aria-label", "placeholder", "alt", "title", "data-label", "data-tip"].forEach(function (attr) {
       root.querySelectorAll("[" + attr + "]").forEach(function (el) {
@@ -2168,14 +2734,58 @@
     });
   }
 
-  // Only offer a language the page can actually deliver. A page opts in by
-  // declaring <link rel="alternate" hreflang="...">, which is also what search
-  // engines read, so the switch cannot drift ahead of the real translations.
-  function hasTwin(prefix) {
-    if (STATIC === prefix) return true;
-    return !!document.querySelector(
-      'link[rel="alternate"][hreflang^="' + prefix + '"]'
-    );
+  // A language is offered only where the dictionary actually covers the page.
+  // Before this, the switch promised French on articles whose body stayed
+  // English; now the button appears once coverage is real, and disappears again
+  // if a page grows faster than its translation.
+  var MIN_COVERAGE = 0.9;
+
+  function textNodes() {
+    var out = [];
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        var parent = node.parentElement;
+        if (!parent) return NodeFilter.FILTER_REJECT;
+        var tag = parent.tagName;
+        if (tag === "SCRIPT" || tag === "STYLE" || tag === "NOSCRIPT") {
+          return NodeFilter.FILTER_REJECT;
+        }
+        if (parent.closest && parent.closest(".lang-switch")) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        // Proper nouns, numbers, arrows and logo letters are not prose: a
+        // translatable node carries lowercase text or Chinese characters.
+        var v = node.nodeValue.trim();
+        return v.length > 1 && /[a-z\u4e00-\u9fff]/.test(v)
+          ? NodeFilter.FILTER_ACCEPT
+          : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var node;
+    while ((node = walker.nextNode())) {
+      out.push(node.nodeValue.trim().replace(/\s+/g, " "));
+    }
+    return out;
+  }
+
+  var COVERAGE = {};
+  function coverage(name) {
+    if (COVERAGE[name] !== undefined) return COVERAGE[name];
+    var dict = name === "zh" ? zh : fr;
+    var nodes = textNodes();
+    var hit = 0;
+    for (var i = 0; i < nodes.length; i++) {
+      if (dict[nodes[i]] !== undefined) hit++;
+    }
+    COVERAGE[name] = nodes.length ? hit / nodes.length : 0;
+    return COVERAGE[name];
+  }
+
+  function offers(name) {
+    if (name === "en") return true;
+    if (STATIC === name) return true;
+    if (!document.body) return false;
+    return coverage(name) >= MIN_COVERAGE;
   }
 
   var LANGS = [["en", "EN"], ["zh", "中文"], ["fr", "FR"]];
@@ -2183,7 +2793,7 @@
   function available() {
     var out = [];
     for (var i = 0; i < LANGS.length; i++) {
-      if (hasTwin(LANGS[i][0])) out.push(LANGS[i]);
+      if (offers(LANGS[i][0])) out.push(LANGS[i]);
     }
     return out;
   }
@@ -2226,6 +2836,13 @@
     bindLang(group);
   }
 
-  window.HURFI_I18N = { current: current, apply: apply, mount: mount };
+  window.HURFI_I18N = { current: current, apply: apply, mount: mount, coverage: coverage, available: available,
+    missing: function (name) {
+      var dict = name === "zh" ? zh : fr, out = {};
+      textNodes().forEach(function (t) {
+        if (dict[t] === undefined) out[t] = (out[t] || 0) + 1;
+      });
+      return out;
+    } };
   document.documentElement.lang = htmlLang();
 })();
