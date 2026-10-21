@@ -3244,5 +3244,265 @@
    "Posts and pages that give answer engines clean facts to quote."
   ],
   "v": 2
+ },
+ "incoterms-2020-explained": {
+  "slug": "incoterms-2020-explained",
+  "published": "2026-10-21",
+  "title": "Incoterms 2020 Explained: EXW, FCA and DDP | Hurfi",
+  "h1": "Incoterms 2020 explained for exporters",
+  "card": "The eleven rules, who pays each cost, where risk passes, and which terms a Chinese manufacturer should quote.",
+  "description": "Incoterms 2020 explained for Chinese exporters: EXW, FCA, FOB, CIF, DAP, DPU and DDP, who pays each cost, and where risk passes.",
+  "lead": "Incoterms 2020 are the International Chamber of Commerce’s eleven three-letter rules that decide who arranges carriage, who pays which cost, and where risk passes from seller to buyer. This guide covers the rules a Chinese manufacturer is asked to quote most often — EXW, FCA, FOB, CIF, DAP, DPU and DDP — and what each one obliges the seller to do.",
+  "steps": [
+   "Pick the rule that matches how the goods travel",
+   "Check who clears export and import",
+   "Name the place, not just the country",
+   "Keep payment terms outside the Incoterm",
+   "Publish the terms buyers ask for"
+  ],
+  "mid_after": 3,
+  "sections": [
+   {
+    "h2": "What Incoterms 2020 actually decide",
+    "p": [
+     "Incoterms are eleven three-letter trade terms published by the International Chamber of Commerce. The current edition, Incoterms 2020, has been in force since 1 January 2020 and replaced the 2010 edition; the rules themselves have been used in international sales contracts since 1936.",
+     "An Incoterm answers three questions and nothing else: who contracts and pays for carriage, where the seller’s risk ends, and which costs each side carries. It does not set the price, the payment method, the product specification, the warranty or the law that governs the contract. A quotation that says only “FOB Ningbo” still leaves payment terms, inspection and after-sales to be agreed in writing.",
+     "The rules bind only when the contract incorporates them by reference, including the edition and a named place. “Incoterms 2020 DAP Rotterdam” is a usable term; “DAP Europe” is not."
+    ]
+   },
+   {
+    "h2": "The eleven rules fall into two groups",
+    "p": [
+     "Seven rules apply to any mode of transport, including containers and multimodal shipments. Four apply only to sea and inland waterway carriage, and they assume the goods are handed over at the ship rather than at an inland terminal."
+    ],
+    "ul": [
+     "**Any mode:** EXW (Ex Works), FCA (Free Carrier), CPT (Carriage Paid To), CIP (Carriage and Insurance Paid To), DAP (Delivered at Place), DPU (Delivered at Place Unloaded), DDP (Delivered Duty Paid).",
+     "**Sea and inland waterway only:** FAS (Free Alongside Ship), FOB (Free On Board), CFR (Cost and Freight), CIF (Cost, Insurance and Freight).",
+     "**The common mistake:** using FOB or CIF for a container that is handed to a carrier at a container yard inland. Risk passes when the goods are on board, but the seller lost control of them days earlier."
+    ]
+   },
+   {
+    "h2": "EXW and FCA: the difference that matters to a Chinese factory",
+    "p": [
+     "Under EXW the seller makes the goods available at its own premises and does almost nothing else: the buyer loads, clears the goods for export and arranges carriage. That looks simple for the seller, but it collides with how China exports in practice, because export declaration and VAT documentation are normally handled by the exporter.",
+     "Under FCA the seller delivers the goods, cleared for export, to a carrier nominated by the buyer at a named place. When that place is the seller’s premises, the seller loads the vehicle; when it is another place, such as a freight forwarder’s warehouse, the seller delivers the goods ready for unloading.",
+     "For most Chinese manufacturers FCA is the honest minimum term. It keeps export clearance where the paperwork and the tax refund already sit, and it stops the quotation from implying a service the factory cannot legally complete for a foreign buyer."
+    ]
+   },
+   {
+    "h2": "FOB, CFR and CIF: risk leaves early, documents carry the trade",
+    "p": [
+     "Under FOB the seller delivers the goods on board the vessel nominated by the buyer at the named port of shipment; risk passes at that moment. CFR moves the freight cost to the seller but not the risk: the seller pays carriage to the destination port while risk still passes when the goods are on board.",
+     "CIF adds insurance to CFR. Incoterms 2020 keeps Institute Cargo Clauses (C) as the default level of cover for CIF, which is narrower than many buyers assume, and the parties may agree a higher level. The point for a manufacturer is that the buyer’s protection comes from the document set and the insurance cover, not from a promise that the goods will arrive intact.",
+     "These three rules reward precision in the quotation: port name, vessel or sailing window where relevant, and the exact scope of what the price includes."
+    ]
+   },
+   {
+    "h2": "DAP, DPU and DDP: who clears customs and who unloads",
+    "p": [
+     "DAP means the seller delivers the goods at the named place, ready for unloading, with import clearance and duties left to the buyer. DPU means the same journey plus unloading by the seller; it is the rule renamed from DAT in the 2020 edition.",
+     "DDP puts import clearance, duties and taxes on the seller. It is the widest obligation in the set, and the one that most often goes wrong when a factory quotes it without a customs representative or a tax registration in the destination country. A DDP price that ignores import VAT is not a price, it is a future dispute.",
+     "A practical rule: choose the smallest obligation you can actually perform. Sellers who quote DDP “to be helpful” end up owning a customs problem in a country where they have no standing."
+    ]
+   },
+   {
+    "h2": "What changed in Incoterms 2020",
+    "p": [
+     "The 2020 edition changed presentation and a few mechanics rather than the basic allocation of risk. Five changes matter to a manufacturer that quotes every week."
+    ],
+    "ul": [
+     "**DAT became DPU** and moved after DAP, to make the seller’s unloading obligation explicit and to allow any place of destination, not only a terminal.",
+     "**FCA now allows an on-board bill of lading.** Where goods are sold FCA for sea carriage and a letter of credit requires an on-board bill, the parties may agree that the buyer instructs the carrier to issue one to the seller after loading.",
+     "**All costs sit together at A9/B9** of each rule, so the full cost list can be read at a glance instead of being assembled from several articles.",
+     "**Insurance levels are split.** CIF keeps Institute Cargo Clauses (C) as its default; CIP now requires cover at the Institute Cargo Clauses (A) level or equivalent.",
+     "**Security obligations are clearer** in articles A4 (carriage) and A7 (export and import clearance), with the related costs listed in the consolidated costs article."
+    ]
+   },
+   {
+    "h2": "Where trade terms belong on a manufacturer’s website",
+    "p": [
+     "Overseas buyers ask about terms before they ask for a price, and a terms block on the quotation or product page removes one email round from every negotiation. State the rule, the named place and the port, for example “FCA Ningbo, Incoterms 2020”, and keep payment terms in a separate line.",
+     "Two mistakes are common on Chinese manufacturer sites. The first is a table that presents CIF as door delivery, which leads the buyer to expect a service the term does not include. The second is a single “FOB China” line with no port, which makes freight quotes impossible to compare.",
+     "A short terms section also gives an answer engine something concrete to quote when a buyer asks what a supplier’s shipping terms are. That is worth more than another paragraph about company history."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Are Incoterms 2020 mandatory?",
+    "No. They apply only when the sales contract incorporates them by reference, naming the edition and a place. Without that reference, the default rules of the applicable law decide delivery and risk."
+   ],
+   [
+    "What is the difference between CIF and CIP?",
+    "CIF applies only to sea and inland waterway carriage and defaults to Institute Cargo Clauses (C) cover. CIP applies to any mode of transport and requires cover at the Institute Cargo Clauses (A) level, which is broader."
+   ],
+   [
+    "Can we quote FOB for a container shipment?",
+    "It is not advisable. FOB assumes the goods are handed over on board a vessel; a container is usually handed to a carrier at an inland terminal, so risk and control separate in a way the rule does not describe."
+   ],
+   [
+    "Who pays import duty under DAP?",
+    "The buyer. Under DAP the seller delivers to the named place ready for unloading, and the buyer clears the goods for import and pays duties and taxes."
+   ],
+   [
+    "Does DDP include VAT and import taxes?",
+    "Yes. DDP places import clearance, duties and taxes on the seller, which is why a DDP price requires a customs representative or tax registration in the destination country."
+   ],
+   [
+    "Do Incoterms decide when the seller gets paid?",
+    "No. Payment terms are separate: a letter of credit, an advance payment or open account. An Incoterm only allocates carriage, cost and risk."
+   ]
+  ],
+  "sources": [
+   "icc-2020"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "electronics-semiconductor",
+   "apparel-footwear-production"
+  ],
+  "cities": [
+   "ningbo",
+   "shenzhen"
+  ],
+  "related": [
+   "shipping-logistics-page-for-exporters",
+   "manufacturer-website-rfq-checklist",
+   "certifications-page-for-export-websites"
+  ],
+  "svc": [
+   "Pages that state terms, ports and lead times in the same place buyers look for specifications.",
+   "Titles and internal links around the phrases buyers use when they compare suppliers.",
+   "Landing pages for chosen product families in the markets where your orders are growing.",
+   "Posts that answer the commercial questions buyers ask before the first call."
+  ],
+  "v": 2
+ },
+ "ce-marking-for-chinese-manufacturers": {
+  "slug": "ce-marking-for-chinese-manufacturers",
+  "published": "2026-10-21",
+  "title": "CE Marking for Chinese Manufacturers: A Guide | Hurfi",
+  "h1": "CE marking for Chinese manufacturers",
+  "card": "What CE marking requires, who signs the declaration, when a notified body is needed and which certificates mean nothing.",
+  "description": "What CE marking requires: covered products, the technical file, the EU declaration of conformity, notified bodies, and certificates that carry no legal weight.",
+  "lead": "CE marking is the manufacturer’s own declaration that a product meets the EU harmonisation legislation that applies to it. It is not an EU approval, it is not a quality grade, and it is compulsory only for products covered by those rules. This guide explains what a Chinese manufacturer has to produce, who signs it, and when a notified body is involved.",
+  "steps": [
+   "Identify the legislation that covers the product",
+   "Run the conformity assessment the legislation sets",
+   "Build the technical file",
+   "Sign the EU declaration of conformity",
+   "Affix the mark correctly",
+   "Publish the evidence buyers ask for"
+  ],
+  "mid_after": 3,
+  "sections": [
+   {
+    "h2": "What the CE mark means, and what it does not",
+    "p": [
+     "The letters “CE” on a product sold in the European Economic Area signify that the product has been assessed against the EU rules on safety, health and environmental protection that apply to it. By affixing the mark, the manufacturer declares that the product meets all the legal requirements for CE marking and may be sold throughout the EEA.",
+     "The European Commission is explicit about the limits. CE marking is not an approval issued by the EU or by any authority, it does not indicate that a product has been approved as safe, and it does not indicate the product’s origin. It is a declaration of conformity made by the party that places the product on the market."
+    ]
+   },
+   {
+    "h2": "Which products need CE marking",
+    "p": [
+     "CE marking is compulsory only for products covered by the EU harmonisation legislation that requires it, and it is forbidden on products outside that scope. A factory that adds the mark to an uncovered product is not being cautious; it is making a false declaration.",
+     "In practice the scope is set by the legislation for the product family, not by the product’s name. Electrical equipment, machinery, radio equipment, medical devices, personal protective equipment, toys, pressure equipment and construction products each sit under different rules with different assessment routes."
+    ]
+   },
+   {
+    "h2": "Who is responsible for compliance",
+    "p": [
+     "The manufacturer carries the core duties: carry out the conformity assessment, set up the technical file, issue the EU declaration of conformity and affix the CE marking. For an exporter in China, “manufacturer” means the party that designs and produces the goods, whether or not it is established in the EU.",
+     "Importers and distributors have their own obligations. They must place only compliant products on the EEA market, keep the documentation available, and add their name and contact details where the legislation requires it. A European customer asking for your declaration is not being difficult; that customer is being asked to prove compliance by its own market surveillance authority."
+    ]
+   },
+   {
+    "h2": "The technical file and the EU declaration of conformity",
+    "p": [
+     "The technical file is the evidence behind the mark: drawings, specifications, risk assessment, test reports, the standards applied and the assessment records. Most harmonisation legislation requires the manufacturer to keep it available for a period after the product is placed on the market, typically ten years.",
+     "The EU declaration of conformity is the signed document that lists the product, the manufacturer, the legislation applied, the harmonised standards used and, where relevant, the notified body. It is the document a buyer, a customs officer or a market surveillance authority asks for first, and it is the one document a factory should be able to send within a day.",
+     "A common gap on manufacturer websites is a wall of certificate images with no declaration and no directive numbers. Buyers who know the rules read the declaration, because it names the legislation and the standards; a certificate image without that context proves very little."
+    ]
+   },
+   {
+    "h2": "When a notified body is needed",
+    "p": [
+     "For many products the manufacturer can complete the assessment itself, through internal production control and the applicable harmonised standards. For others the legislation requires a notified body, or gives a choice between routes, for example with higher-risk machinery or certain medical devices.",
+     "A notified body is designated by an EU country for a defined scope, and its four-digit identification number appears next to the CE mark when the legislation requires third-party involvement. A body outside that scope cannot certify the product, whatever the certificate says."
+    ]
+   },
+   {
+    "h2": "The machinery transition: directive now, regulation from 2027",
+    "p": [
+     "Machinery is the sector where the rules are changing soonest. The current text is the Machinery Directive 2006/42/EC. The Machinery Regulation (EU) 2023/1230 was adopted on 14 June 2023 and applies on a mandatory basis from 20 January 2027.",
+     "The regulation keeps the essential health and safety requirements and voluntary harmonised standards, and adds provisions for machinery with AI-powered safety functions, cyber-safety for compliance-relevant software, and conformity assessment for higher-risk machinery. Machinery placed on the EU market before 20 January 2027 must comply with the directive.",
+     "For a Chinese machinery maker, that date belongs in the sales conversation and on the website: buyers are already asking which text a machine is declared against."
+    ]
+   },
+   {
+    "h2": "Voluntary certificates that carry no legal weight",
+    "p": [
+     "The European Commission warns about certificates issued by bodies acting outside their notified status. Under EU law, voluntary or additional certificates are not a recognised means to prove compliance and carry no value in checks by market surveillance authorities or customs.",
+     "CE marking can only be affixed after testing and the conformity assessment procedure that the applicable legislation prescribes, and a certificate must not itself bear the CE mark. A supplier that offers a “CE certificate” as the whole answer is describing a document that does not exist in EU law: the instruments are the declaration of conformity and the technical file.",
+     "The commercial consequence is simple. A buyer who receives a voluntary certificate instead of a declaration learns that the supplier does not know the rules, and moves to the next quotation."
+    ]
+   },
+   {
+    "h2": "What to publish on the website so buyers can check",
+    "p": [
+     "Buyers check compliance before they check price. A compliance page that names the legislation for each product family, states the assessment route, lists the harmonised standards applied and offers the declaration of conformity on request removes a real objection.",
+     "Three details make that page credible: the exact directive or regulation number, the notified body number where one is involved, and the date the declaration was signed. A fourth helps search: describe the product family in the words buyers use, such as “CE marking for industrial machinery” or “EMC and LVD compliance for control panels”, rather than a generic “certificates” heading.",
+     "Compliance content is also one of the few places where a manufacturer can answer an AI assistant’s question with a named legal instrument. That is the difference between being summarised as a supplier and being cited as a source."
+    ]
+   }
+  ],
+  "faq": [
+   [
+    "Is CE marking a quality mark?",
+    "No. CE marking declares conformity with the EU legislation that applies to the product. It is not an EU approval, not a safety certificate issued by an authority, and not an indication of origin."
+   ],
+   [
+    "Can a Chinese manufacturer self-certify?",
+    "For many product families, yes: the manufacturer completes the conformity assessment, builds the technical file and signs the EU declaration of conformity. Where the legislation requires a notified body, self-declaration is not enough."
+   ],
+   [
+    "Which directive applies to my product?",
+    "The one that covers the product family: for example 2006/42/EC for machinery until 20 January 2027, 2014/30/EU for electromagnetic compatibility, 2014/35/EU for low voltage equipment and 2014/53/EU for radio equipment. A product can fall under more than one."
+   ],
+   [
+    "What is the difference between a CE certificate and a declaration of conformity?",
+    "There is no general “CE certificate” in EU law. The binding documents are the EU declaration of conformity, signed by the manufacturer, and the technical file that supports it. Certificates from non-notified bodies do not prove compliance."
+   ],
+   [
+    "How long must the technical file be kept?",
+    "Most harmonisation legislation requires the manufacturer to keep the technical file and the declaration available for about ten years after the product is placed on the market. The exact period is set by the legislation for that product family."
+   ]
+  ],
+  "sources": [
+   "ec-ce",
+   "ec-machinery"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "electronics-semiconductor",
+   "medical-devices-diagnostics"
+  ],
+  "cities": [
+   "shenzhen",
+   "ningbo"
+  ],
+  "related": [
+   "certifications-page-for-export-websites",
+   "industrial-product-page-seo",
+   "manufacturer-website-rfq-checklist"
+  ],
+  "svc": [
+   "Compliance pages that name the directive, the standards and the declaration, in the wording buyers search.",
+   "Titles, headings and internal links that connect certificates to the products they cover.",
+   "Landing pages for the product families where compliance is the buying objection.",
+   "Posts that explain a certification change before a buyer asks about it."
+  ],
+  "v": 2
  }
 }
