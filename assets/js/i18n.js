@@ -11768,6 +11768,12 @@
   fr["Infographic of four 2025 official figures for Kunshan: 561.5 bn yuan of GDP (+5.8%); 1,302.8 bn yuan of industrial output; 47.7% high-tech share of that output; 536.9 bn yuan of exports (flat)."] = "Infographie des quatre chiffres officiels 2025 de Kunshan : 561,5 milliards de yuans de PIB (+5,8 %) ; 1 302,8 milliards de production industrielle ; 47,7 % de hautes technologies ; 536,9 milliards d’exportations (stables).";
   zh["Hurfi social post with a pressure-gauge dial: “Your factory has capacity. The world needs to see it.”"] = "Hurfi 社交媒体图，配压力表盘：“你的工厂有产能，世界需要看见。”";
   fr["Hurfi social post with a pressure-gauge dial: “Your factory has capacity. The world needs to see it.”"] = "Publication Hurfi avec un cadran de manomètre : « Votre usine a de la capacité. Le monde doit la voir. »";
+  zh["Electronics, displays and IT hardware, precision parts and OEM work; buyers compare specifications."] = "电子、显示与IT硬件、精密零件及OEM代工；买家会比较规格。";
+  fr["Electronics, displays and IT hardware, precision parts and OEM work; buyers compare specifications."] = "Électronique, écrans et matériel informatique, pièces de précision et travail OEM ; les acheteurs comparent les spécifications.";
+  zh["Guides for manufacturers in 40 Chinese cities, based on official industry statistics. Hurfi’s China office is in Xi’an; we work with manufacturers in the other cities remotely, and we do not have local offices there."] = "基于官方行业统计数据，为中国40个城市的制造企业提供的指南。Hurfi 的中国办公室位于西安；其他城市的企业我们远程服务，当地没有办公室。";
+  fr["Guides for manufacturers in 40 Chinese cities, based on official industry statistics. Hurfi’s China office is in Xi’an; we work with manufacturers in the other cities remotely, and we do not have local offices there."] = "Des guides pour les fabricants de 40 villes chinoises, fondés sur les statistiques industrielles officielles. Le bureau chinois de Hurfi est à Xi’an ; nous travaillons à distance avec les fabricants des autres villes et n’y avons pas de bureau local.";
+  zh["Province guide · 6 city guides"] = "省级指南 · 6 篇城市指南";
+  fr["Province guide · 6 city guides"] = "Guide provincial · 6 guides de ville";
   function map() {
     if (current() === "zh") return zh;
     if (current() === "fr") return fr;
