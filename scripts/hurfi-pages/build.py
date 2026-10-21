@@ -635,7 +635,7 @@ def build_home(pg):
     wr('index.html', s)
 
 REGIONS = [('Pearl River Delta (Guangdong)', ['shenzhen', 'guangzhou', 'dongguan', 'foshan', 'zhongshan', 'zhuhai', 'huizhou']),
-           ('Yangtze River Delta and Anhui', ['shanghai', 'suzhou', 'nanjing', 'wuxi', 'changzhou', 'nantong', 'hangzhou', 'ningbo', 'wenzhou', 'jinhua', 'shaoxing', 'taizhou-zhejiang', 'jiaxing', 'hefei', 'wuhu']),
+           ('Yangtze River Delta and Anhui', ['shanghai', 'suzhou', 'kunshan', 'nanjing', 'wuxi', 'changzhou', 'nantong', 'hangzhou', 'ningbo', 'wenzhou', 'jinhua', 'shaoxing', 'taizhou-zhejiang', 'jiaxing', 'hefei', 'wuhu']),
            ('Fujian', ['xiamen', 'quanzhou', 'fuzhou']),
            ('Bohai Rim and northeast China', ['beijing', 'tianjin', 'qingdao', 'jinan', 'yantai', 'weifang', 'dalian', 'shenyang']),
            ('Central and western China', ['wuhan', 'changsha', 'zhengzhou', 'chongqing', 'chengdu', 'xian'])]

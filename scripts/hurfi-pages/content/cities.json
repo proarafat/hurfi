@@ -8836,5 +8836,245 @@
    "**No testing shown.** Photos and descriptions of test equipment build trust.",
    "**Inland logistics unexplained.** Buyers need routes and terms."
   ]
+ },
+ "kunshan": {
+  "slug": "kunshan",
+  "city": "Kunshan",
+  "province": "Jiangsu",
+  "region": "yrd",
+  "anchor": "city-jiangsu-kunshan",
+  "title": "Export Websites & SEO for Kunshan Manufacturers | Hurfi",
+  "h1": "Export websites and Google SEO for Kunshan manufacturers",
+  "description": "English B2B websites, Google SEO and RFQ pages for Kunshan makers of electronics, IT hardware, precision parts and industrial equipment.",
+  "lead": "Kunshan is the county-level city beside Shanghai that assembles much of the world’s laptops, phones and displays: its 2025 industrial output was 1,302.79 billion yuan, 47.7% of it high-tech. Hurfi builds the English websites that turn that production base into overseas buyers.",
+  "remote": "Hurfi does not have an office or staff in Kunshan. We work with Kunshan manufacturers remotely — by WeChat, email and video call — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh).",
+  "context_intro": "The figures below come from Kunshan’s 2025 statistical bulletin, published in May 2026.",
+  "facts": [
+   [
+    "Kunshan’s GDP was 561.534 billion yuan in 2025, up 5.8%: second-industry value added was 289.057 billion yuan (+6.4%) and services 269.835 billion yuan (+5.1%), a 0.5:51.4:48.1 split.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Industrial output above designated size reached 1,302.79 billion yuan (+4.9%); high-tech output was 622.077 billion yuan, 47.7% of the total.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "The city has one IT cluster worth more than 100 billion yuan — computers, communications and other electronic equipment — and eleven clusters worth more than 10 billion yuan each. Sixteen firms passed 10 billion yuan of output and 1,147 passed 100 million.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Output in 2025 included 16.372 million computers, 72.169 million mobile phones and 102 million LCD panels.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Trade was 824.80 billion yuan (+1.3%), with exports of 536.94 billion yuan, flat on 2024. General trade rose 8.6% to 174.793 billion yuan; processing trade fell 0.7% to 495.303 billion yuan.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Cross-border e-commerce trade was 1.992 billion yuan, up 335.2%, and 80 new foreign-invested projects were signed, with 1.03 billion US dollars of registered foreign capital and 792 million US dollars actually used.",
+    [
+     "c-ks"
+    ]
+   ]
+  ],
+  "context_after": "Kunshan’s trade is still dominated by processing: about three-fifths of it is contract manufacturing for brands based elsewhere. Those brands, and their distributors, choose suppliers by reading — specifications, certifications, capacity and quality systems — before they ever send a drawing. The city also has more than 3,500 valid high-tech enterprises and 28,238 valid invention patents, so many suppliers can answer technical questions in detail. The website is where that detail has to be visible. Cross-border e-commerce grew almost fourfold in 2025, which means more Kunshan makers are now selling direct and need product pages that work for buyers who never visit China.",
+  "clusters": [
+   [
+    "Electronics, displays and IT hardware",
+    "Brand owners and distributors compare panel specifications, chipsets, interfaces, certifications and capacity in text.",
+    "/industries/electronics-semiconductor/"
+   ],
+   [
+    "Precision parts, moulds and tooling",
+    "Buyers check tolerances, materials, inspection reports and repeatability before releasing drawings.",
+    "/industries/precision-manufacturing-components/"
+   ],
+   [
+    "Equipment and automation",
+    "Equipment buyers need ratings, standards, cycle times, footprint and service terms on the page.",
+    "/industries/industrial-machinery-cnc/"
+   ],
+   [
+    "OEM and ODM contract manufacturing",
+    "Brands look for process capability, IP handling, audit readiness and realistic lead times.",
+    "/industries/oem-odm/"
+   ]
+  ],
+  "buyer_q": [
+   [
+    "Can you show the exact panel, module or chipset we would receive?",
+    "Name the part numbers you build around and put the specification table in page text, not only in a PDF."
+   ],
+   [
+    "Which certifications cover my market?",
+    "List them by market with scope, certificate number and the products covered."
+   ],
+   [
+    "Can you manufacture under our brand and packaging?",
+    "Explain your OEM and ODM process, tooling ownership and how you protect drawings."
+   ],
+   [
+    "What is your monthly capacity and lead time?",
+    "Give realistic ranges per product family and say what changes them."
+   ],
+   [
+    "How do you ship from Kunshan?",
+    "Name the airport, port and bonded options you actually use, with typical terms."
+   ],
+   [
+    "Can your engineers work from our specification?",
+    "Describe sampling, DFM feedback and how new projects are quoted."
+   ]
+  ],
+  "playbook": [
+   "Put what you make, for which industry and to which standards on the first screen.",
+   "Give every product family a page with an HTML specification table and part numbers.",
+   "Publish a certifications page by market and link it from each product page.",
+   "Write a logistics page: airport and port options, packing, Incoterms and lead times.",
+   "Show production, test and inspection with real photos and short captions.",
+   "Track RFQs by product family and country, and review them monthly."
+  ],
+  "help": [
+   "We structure the site around product families, part numbers and certifications, the way engineering buyers search.",
+   "We write English product and capability pages with your team and get every claim approved.",
+   "We report RFQs by product and country, so you can see which pages earn inquiries."
+  ],
+  "faq": [
+   [
+    "Does Hurfi have an office in Kunshan?",
+    "No. Hurfi does not have an office or staff in Kunshan. We work with Kunshan manufacturers remotely by WeChat, email and video, from our offices in Xi’an and Bogura."
+   ],
+   [
+    "We mostly do processing trade for foreign brands. Do we need a website?",
+    "Yes, but a different one. Your buyers are brand owners and their sourcing teams, so the site should show process capability, quality systems, audit readiness and capacity — not retail-style product listings."
+   ],
+   [
+    "We make displays and IT hardware. What should the site show?",
+    "Panel and module specifications, interfaces, certifications, test data and production capacity, with part numbers in the page text so buyers and search engines can match them."
+   ],
+   [
+    "Can you write for OEM and ODM work without exposing our customers?",
+    "Yes. We describe capability and process, never client names or drawings unless you approve them in writing."
+   ],
+   [
+    "How long does a site take?",
+    "Most projects run six to ten weeks from kickoff, depending on how much technical material your engineers can review."
+   ],
+   [
+    "Do you work in Chinese as well?",
+    "Yes. We build English sites for export and can add Chinese pages, with correct hreflang between them."
+   ]
+  ],
+  "sources": [
+   "c-ks",
+   "g-hl"
+  ],
+  "sectors": [
+   "electronics-semiconductor",
+   "precision-manufacturing-components",
+   "industrial-machinery-cnc",
+   "oem-odm"
+  ],
+  "insights": [
+   "certifications-page-for-export-websites",
+   "shipping-logistics-page-for-exporters",
+   "international-seo-checklist-for-exporters"
+  ],
+  "siblings": [
+   "suzhou",
+   "shanghai",
+   "wuxi",
+   "changzhou",
+   "nantong"
+  ],
+  "extra_claims": [
+   [
+    "Google explains how to tell it about localized versions of a page.",
+    "g-hl"
+   ]
+  ],
+  "v": 2,
+  "svc": [
+   "A site that presents electronics, precision parts, equipment and contract manufacturing with specifications and certifications.",
+   "Searches for product types, part numbers and standards, with English and Chinese versions tagged correctly.",
+   "Campaigns built around your strongest product families and markets, reported by inquiry.",
+   "Posts that show production, testing and shipments without exposing client work."
+  ],
+  "tiles": [
+   [
+    "561.5 bn",
+    "yuan of GDP (+5.8%)"
+   ],
+   [
+    "1,302.8 bn",
+    "yuan of industrial output"
+   ],
+   [
+    "47.7%",
+    "high-tech share of that output"
+   ],
+   [
+    "536.9 bn",
+    "yuan of exports (flat)"
+   ]
+  ],
+  "srcline": "Kunshan Statistics Bureau, 2025 Statistical Bulletin",
+  "logistics": [
+   [
+    "The Yangtze River Delta International Airport Kunshan Logistics Centre, a bonded air-cargo station linked to Shanghai’s airports, handled 16.175 billion yuan of imports and exports.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Kunshan Comprehensive Bonded Zone had 44 firms in the VAT general-taxpayer pilot, with 587.31 billion yuan invoiced under the scheme.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Courier volume passed 1.4 billion parcels (+23.4%), the highest of any county-level city in Jiangsu.",
+    [
+     "c-ks"
+    ]
+   ]
+  ],
+  "exports": [
+   [
+    "Taiwanese-invested firms remain central: 203 of them used the cross-group renminbi lending pilot, borrowing and lending 32.607 billion yuan and saving more than 1 billion yuan in financing costs.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "Eighty new foreign-invested projects were signed in 2025, with 1.03 billion US dollars of registered foreign capital and 792 million US dollars actually used.",
+    [
+     "c-ks"
+    ]
+   ],
+   [
+    "The city counted more than 3,500 valid high-tech enterprises, 23 Jiangsu unicorns or potential unicorns and 124 gazelle companies.",
+    [
+     "c-ks"
+    ]
+   ]
+  ],
+  "markets": "Kunshan sells to brand owners in the US, Europe and Japan through processing trade, and increasingly direct to buyers in Southeast Asia and Belt and Road markets through cross-border e-commerce. Both groups research suppliers online first, but they look for different things: brands want audit and process evidence, direct buyers want product data, prices and shipping.",
+  "challenges": [
+   "**One page for everything.** Buyers cannot tell product families apart.",
+   "**Specifications locked in PDFs.** Search engines and buyers both miss them.",
+   "**Certifications implied, not listed.** Say which markets, which scope.",
+   "**No logistics answer.** Airport, port and bonded options are a buying criterion."
+  ]
  }
 }

@@ -1618,5 +1618,15 @@
   "method": "Read via web fetch service; directive and regulation numbers, application date and the warning on voluntary certificates checked",
   "id": "ec-machinery",
   "checked": "21 October 2026"
+ },
+ "c-ks": {
+  "publisher": "Kunshan Statistics Bureau (昆山市统计局), Kunshan Municipal People's Government",
+  "label": "2025年昆山市国民经济和社会发展统计公报 (Kunshan 2025 Statistical Bulletin)",
+  "url": "https://www.ks.gov.cn/kss/tjfx/202605/319700b1bdda44ecb0c30584163e79fc.shtml",
+  "lang": "zh-Hans",
+  "grade": "Official source (municipal government website)",
+  "method": "Fetched from the box (HTTP 200) on 21 October 2026 and text checked",
+  "id": "c-ks",
+  "checked": "21 October 2026"
  }
 }
