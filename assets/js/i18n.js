@@ -5845,6 +5845,49 @@
   fr["Infographic of four figures for Solar & Renewable Power: 832.7 GW solar cells made in China in 2025, up 7.6%; 1,201.73 GW installed solar capacity at end-2025, up 35.4%; US$23.7bn module exports in 2025 (−15.3%) for 249.8 GW; US$9.04bn inverter exports in 2025, up 9.4%."] = "Infographie de quatre chiffres : 832,7 GW de cellules produites en Chine en 2025, +7,6 % ; 1 201,73 GW de capacité solaire installée fin 2025, +35,4 % ; 23,7 Md$ d’exportations de modules (−15,3 %) pour 249,8 GW ; 9,04 Md$ d’exportations d’onduleurs en 2025, +9,4 %.";
   fr["Hurfi social post “Flip it.” with two bars contrasting a factory’s production with its online visibility"] = "Publication Hurfi « Flip it. » avec deux barres opposant production et visibilité en ligne";
 
+
+  // Page titles and privacy/brand strings, 2026-10-20.
+  zh["Thank You | Hurfi"] = "感谢您 | Hurfi";
+  zh["Brand Guidelines | Hurfi Logo, Colors, and Type"] = "品牌规范 | Hurfi 标志、颜色与字体";
+  zh["PolySans Neutral"] = "PolySans Neutral";
+  zh["Plus Jakarta Sans"] = "Plus Jakarta Sans";
+  zh["Instrument Serif"] = "Instrument Serif";
+  zh["Hurfi app icon, a blue rounded tile with a white mark"] = "Hurfi 应用图标：蓝色圆角方块配白色标志";
+  zh["Hurfi logo for light backgrounds, blue icon and black wordmark"] = "浅色背景用 Hurfi 标志：蓝色图标配黑色文字标识";
+  zh["Hurfi logo for dark backgrounds, blue icon and white wordmark"] = "深色背景用 Hurfi 标志：蓝色图标配白色文字标识";
+  zh["Hurfi white lockup, white tile and white wordmark"] = "Hurfi 全白组合标：白色方块配白色文字标识";
+  zh["Hurfi brand identity on Behance"] = "Behance 上的 Hurfi 品牌形象";
+  zh["Updated 16 October 2026"] = "2026 年 10 月 16 日更新";
+  zh["Your language choice, stored in this browser only, so the site opens in the same language next time."] = "您的语言选择仅保存在此浏览器中，以便下次访问时以相同语言打开网站。";
+  zh["The inquiry form is delivered by FormSubmit (formsubmit.co), which receives what you type and emails it to Hurfi’s business mailboxes (yasir@hurfi.com and support@hurfi.com)."] = "询盘表单由 FormSubmit（formsubmit.co）投递，它接收您填写的内容并通过电子邮件发送至 Hurfi 的业务邮箱（yasir@hurfi.com 和 support@hurfi.com）。";
+  zh["Services this site uses"] = "本网站使用的服务";
+  zh["Some outside services handle data so this site can work. Each one has its own privacy policy."] = "一些外部服务会处理数据，网站才能正常运行。每项服务都有自己的隐私政策。";
+  zh["hosts the site. Like any web host, it receives your IP address and browser details when a page loads."] = "托管本网站。与任何网站托管商一样，页面加载时会接收您的 IP 地址和浏览器信息。";
+  zh["sits in front of the site for speed and security, and also sees the request details of each page load."] = "位于网站前端以提升速度与安全性，同样会看到每次页面加载的请求信息。";
+  zh["(formsubmit.co) receives the inquiry form and forwards it to Hurfi by email. It may show a captcha to check that a person sent the form."] = "（formsubmit.co）接收询盘表单并以电子邮件转发给 Hurfi。它可能会显示验证码，以确认表单由真人提交。";
+  zh["Google Fonts"] = "Google Fonts";
+  zh["serves the site’s fonts, so your browser connects to Google’s servers when a page loads."] = "提供网站的字体，因此页面加载时您的浏览器会连接 Google 的服务器。";
+  fr["Thank You | Hurfi"] = "Merci | Hurfi";
+  fr["Brand Guidelines | Hurfi Logo, Colors, and Type"] = "Charte de marque | Logo, couleurs et typographie Hurfi";
+  fr["PolySans Neutral"] = "PolySans Neutral";
+  fr["Plus Jakarta Sans"] = "Plus Jakarta Sans";
+  fr["Instrument Serif"] = "Instrument Serif";
+  fr["Hurfi app icon, a blue rounded tile with a white mark"] = "Icône de l’application Hurfi : tuile bleue arrondie avec un symbole blanc";
+  fr["Hurfi logo for light backgrounds, blue icon and black wordmark"] = "Logo Hurfi pour fonds clairs : icône bleue et logotype noir";
+  fr["Hurfi logo for dark backgrounds, blue icon and white wordmark"] = "Logo Hurfi pour fonds sombres : icône bleue et logotype blanc";
+  fr["Hurfi white lockup, white tile and white wordmark"] = "Version blanche Hurfi : tuile blanche et logotype blanc";
+  fr["Hurfi brand identity on Behance"] = "Identité de marque Hurfi sur Behance";
+  fr["Updated 16 October 2026"] = "Mise à jour le 16 octobre 2026";
+  fr["Your language choice, stored in this browser only, so the site opens in the same language next time."] = "Votre choix de langue, conservé uniquement dans ce navigateur, afin que le site s’ouvre dans la même langue la prochaine fois.";
+  fr["The inquiry form is delivered by FormSubmit (formsubmit.co), which receives what you type and emails it to Hurfi’s business mailboxes (yasir@hurfi.com and support@hurfi.com)."] = "Le formulaire de demande est transmis par FormSubmit (formsubmit.co), qui reçoit vos informations et les envoie par e-mail aux boîtes professionnelles de Hurfi (yasir@hurfi.com et support@hurfi.com).";
+  fr["Services this site uses"] = "Services utilisés par ce site";
+  fr["Some outside services handle data so this site can work. Each one has its own privacy policy."] = "Des services externes traitent des données pour que ce site fonctionne. Chacun dispose de sa propre politique de confidentialité.";
+  fr["hosts the site. Like any web host, it receives your IP address and browser details when a page loads."] = "héberge le site. Comme tout hébergeur, il reçoit votre adresse IP et les informations de votre navigateur lors du chargement d’une page.";
+  fr["sits in front of the site for speed and security, and also sees the request details of each page load."] = "se place devant le site pour la vitesse et la sécurité, et voit aussi les détails des requêtes de chaque chargement de page.";
+  fr["(formsubmit.co) receives the inquiry form and forwards it to Hurfi by email. It may show a captcha to check that a person sent the form."] = "(formsubmit.co) reçoit le formulaire de demande et le transmet à Hurfi par e-mail. Il peut afficher un captcha pour vérifier qu’une personne a bien envoyé le formulaire.";
+  fr["Google Fonts"] = "Google Fonts";
+  fr["serves the site’s fonts, so your browser connects to Google’s servers when a page loads."] = "fournit les polices du site, votre navigateur se connecte donc aux serveurs de Google lors du chargement d’une page.";
+
   function map() {
     if (current() === "zh") return zh;
     if (current() === "fr") return fr;
