@@ -2647,7 +2647,7 @@
   zh["How Chinese manufacturers can win more overseas buyer inquiries"] = "中国制造商如何获得更多海外买家询盘";
   zh["Xi’an"] = "西安";
   zh["hostinger.com"] = "hostinger.com";
-  zh["Nun Mohammad Maruf"] = "Nun Mohammad Maruf";
+  zh["Nur Mohammad Maruf"] = "Nur Mohammad Maruf";
   zh["Shahriar Shawon"] = "Shahriar Shawon";
   zh["Siam Shekh"] = "Siam Shekh";
   zh["Sadman Sadat Siam"] = "Sadman Sadat Siam";
@@ -2655,7 +2655,7 @@
   fr["How Chinese manufacturers can win more overseas buyer inquiries"] = "Comment les fabricants chinois peuvent obtenir plus de demandes d’acheteurs étrangers";
   fr["Xi’an"] = "Xi’an";
   fr["hostinger.com"] = "hostinger.com";
-  fr["Nun Mohammad Maruf"] = "Nun Mohammad Maruf";
+  fr["Nur Mohammad Maruf"] = "Nur Mohammad Maruf";
   fr["Shahriar Shawon"] = "Shahriar Shawon";
   fr["Siam Shekh"] = "Siam Shekh";
   fr["Sadman Sadat Siam"] = "Sadman Sadat Siam";
