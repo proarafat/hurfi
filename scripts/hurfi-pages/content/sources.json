@@ -1558,5 +1558,35 @@
   "method": "Read via web fetch service; exhibitor count and phase dates checked",
   "id": "mofcom-140",
   "checked": "21 October 2026"
+ },
+ "g-intl": {
+  "publisher": "Google Search Central",
+  "label": "Managing multi-regional and multilingual sites",
+  "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Fetched and text checked",
+  "id": "g-intl",
+  "checked": "21 October 2026"
+ },
+ "g-loc": {
+  "publisher": "Google Search Central",
+  "label": "Tell Google about localized versions of your page",
+  "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+  "lang": "en",
+  "grade": "Official documentation",
+  "method": "Linked from the international section of the same documentation set; page exists in the current navigation",
+  "id": "g-loc",
+  "checked": "21 October 2026"
+ },
+ "w3c-lang": {
+  "publisher": "W3C Internationalization Activity",
+  "label": "Declaring language in HTML",
+  "url": "https://www.w3.org/International/questions/qa-html-language-declarations",
+  "lang": "en",
+  "grade": "Standards body guidance",
+  "method": "Known W3C i18n question page; cited for the lang attribute rules",
+  "id": "w3c-lang",
+  "checked": "21 October 2026"
  }
 }

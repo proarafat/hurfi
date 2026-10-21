@@ -411,6 +411,18 @@
    [
     "How long before search brings inquiries?",
     "It varies by market and competition, and we do not promise a date. We report progress monthly."
+   ],
+   [
+    "How do overseas buyers search for CNC machining suppliers?",
+    "Mostly by service and material, not by company type: “custom CNC machining service”, “precision CNC machining parts”, “aluminium CNC machining”, “stainless steel CNC machining”. A supplier page that only says “CNC machining company” misses those searches."
+   ],
+   [
+    "Should aluminium and stainless steel parts have separate pages?",
+    "Yes, if you machine both at volume. Buyers search by material, and a page that lists the alloys you cut, achievable tolerances, finishes and typical parts matches that search far better than one general page."
+   ],
+   [
+    "What should a custom machining quote form ask for?",
+    "Drawing format (STEP, IGES or DXF), material and alloy, tolerances, surface finish, quantity and target date. Ask for the file, not a description of it, so the first reply can be a real quotation."
    ]
   ],
   "cities": [

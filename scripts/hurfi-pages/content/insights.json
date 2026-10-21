@@ -3089,5 +3089,160 @@
    "Posts that show the booth, the products and the shipments that follow."
   ],
   "v": 2
+ },
+ "what-is-international-seo": {
+  "slug": "what-is-international-seo",
+  "published": "2026-10-21",
+  "title": "What Is International SEO? A Guide for Exporters | Hurfi",
+  "h1": "What is international SEO?",
+  "card": "The difference between translating a site and ranking in another market, and the parts that actually change results.",
+  "description": "What international SEO means for manufacturers: multilingual versus multi-regional, hreflang, URL structure, translation quality and per-market measurement.",
+  "lead": "International SEO is the work of making one website rank and convert in more than one language or country. It is not translation with keywords added. This guide explains the parts that change results, in the order a manufacturer should do them.",
+  "steps": [
+   "Choose the markets, not the languages",
+   "Pick a URL structure you can maintain",
+   "Translate with a technical reviewer",
+   "Implement hreflang and language tags",
+   "Localise proof and units",
+   "Measure each market separately"
+  ],
+  "sections": [
+   {
+    "h2": "A working definition",
+    "p": [
+     "International SEO covers three jobs: making pages exist in the right language, telling search engines which country and language each page serves, and making the local version good enough to be chosen over a local competitor. The first is translation. The second is technical annotation. The third is where most of the return comes from, and where most projects stop too early.",
+     "For a Chinese manufacturer, the practical question is not “should we translate the site” but “in which markets can we support a buyer, and what does that buyer need to see before sending an enquiry”."
+    ]
+   },
+   {
+    "h2": "Multilingual and multi-regional are different problems",
+    "p": [
+     "Google's own documentation draws the line clearly: a multilingual site offers content in more than one language, while a multi-regional site targets users in different countries, even in the same language. A manufacturer shipping to Canada and the United States has a multi-regional problem; a Canadian business with English and French versions has a multilingual one, and many exporters have both at once.",
+     "This matters because the two need different signals. Language versions need correct language tags and translated content. Country versions need consistent regional signals: currency, units, certifications accepted there, delivery terms, contact hours and local proof."
+    ]
+   },
+   {
+    "h2": "How search engines learn which page is for whom",
+    "p": [
+     "Three mechanisms do most of the work. The HTML lang attribute declares the language of a page, and should match the text actually on it. hreflang annotations link alternate language or region versions of the same page to each other. Canonical tags then make clear which URL is the original when near-duplicates exist."
+    ],
+    "ul": [
+     "Every language version should carry hreflang annotations for the other versions, including a self-reference.",
+     "Annotations should be reciprocal: if page A points to page B, page B points back to A.",
+     "Use x-default for the version served when no language or region matches.",
+     "Set the lang attribute on the html element; do not declare a language the page does not use.",
+     "Keep one canonical per language version, and make sure sitemaps list the versions you want indexed."
+    ]
+   },
+   {
+    "h2": "Choosing a URL structure",
+    "p": [
+     "There are three common patterns, and the right answer depends on how much you will invest per market rather than on a technical preference."
+    ],
+    "ul": [
+     "**Country-code domains** (example.de, example.fr): strongest country signal, but each domain needs its own authority, hosting and maintenance.",
+     "**Subdomains** (de.example.com): easier to separate technically, but treated more like separate sites than folders.",
+     "**Subfolders** (example.com/de/): cheapest to launch and usually the fastest way to inherit the main site's authority; weaker as a country signal.",
+     "For most manufacturers starting with two or three markets, subfolders are the pragmatic first step; a country domain can follow where the market justifies it."
+    ]
+   },
+   {
+    "h2": "Translation quality is the part nobody automates",
+    "p": [
+     "A machine translation of a specification table produces a page that reads fluently and is still wrong. Model numbers, tolerances, standards, directive numbers and certificate scopes have to survive translation exactly, and the surrounding sentence has to sound like the industry in that language.",
+     "The workflow that holds up is: a professional translator who works in the sector, then a technical reviewer from your own team, then a native check of the final page. That is slower than a plugin, and it is the difference between a page buyers trust and one they close."
+    ]
+   },
+   {
+    "h2": "Search is not only Google",
+    "p": [
+     "Google dominates in most Western markets, but not everywhere. Baidu is the main engine in mainland China, Yandex in Russia, Naver in South Korea, and Seznam in the Czech Republic. Each has its own indexing behaviour, and some prefer locally hosted or locally registered sites.",
+     "This does not mean building a separate strategy per engine. It means checking, market by market, which engine your buyers actually use, and making sure the site is crawlable and legible there before spending on content."
+    ]
+   },
+   {
+    "h2": "What answer engines need from the same pages",
+    "p": [
+     "Buyers increasingly start with an AI assistant rather than a search box. Those systems quote pages that state facts plainly and attribute them: what a product is, which standard it meets, what the lead time is, who published the figure. The same structure that helps a careful buyer helps a retrieval system.",
+     "In practice: one clear H2 per question, specifications in HTML tables rather than images, FAQ sections with real answers, and schema that describes the page honestly. Our guide to [AI search for manufacturers](/insights/ai-search-for-manufacturers/) covers the retrieval side in more depth."
+    ]
+   },
+   {
+    "h2": "A four-week start for one market",
+    "ul": [
+     "**Week 1:** choose one market, one product family and the pages that matter; check who ranks there now.",
+     "**Week 2:** translate those pages with a sector translator; keep numbers, standards and certificate names untouched.",
+     "**Week 3:** add language tags, hreflang and sitemap entries; fix internal links between language versions.",
+     "**Week 4:** localise proof — currency, units, delivery terms, certificates accepted there — then measure impressions and enquiries for that market alone."
+    ]
+   },
+   {
+    "h2": "How this differs from the checklist",
+    "p": [
+     "Our [international SEO checklist for exporters](/insights/international-seo-checklist-for-exporters/) is the audit view: the items to verify on a site that already exists. This page is the definition and the build order. Start here if the site has no translated pages yet; start with the checklist if it has several and you are not sure they work."
+    ]
+   }
+  ],
+  "mid_after": 4,
+  "faq": [
+   [
+    "What is international SEO in simple terms?",
+    "Making a website rank and convert in more than one language or country: translated pages, technical signals that tell search engines which version is for whom, and local proof that makes the page worth choosing."
+   ],
+   [
+    "Is international SEO just translation?",
+    "No. Translation is one input. The rest is URL and hreflang structure, language tags, local units and certifications, and measurement per market."
+   ],
+   [
+    "Do I need hreflang if I only have one translation?",
+    "Yes, between the original and the translated version, with a self-reference and a return link. Without it, engines may treat the pages as duplicates or serve the wrong one."
+   ],
+   [
+    "Should we use a country domain or a subfolder?",
+    "Subfolders are the cheapest way to start and inherit the main site's authority; country domains give a stronger local signal but each needs its own investment. Most manufacturers should start with subfolders."
+   ],
+   [
+    "Can we machine translate product pages?",
+    "Not for specifications, certificates or terms. Machine output can be used as a draft for marketing copy at most, and every technical page needs a sector translator plus a review by your engineers."
+   ],
+   [
+    "Does international SEO work for Baidu or Yandex?",
+    "Partly. Each engine has its own behaviour and some favour locally hosted or registered sites. Check which engine your buyers use in that market before investing in content."
+   ],
+   [
+    "How long until a translated page ranks?",
+    "It depends on competition, site authority and how much local proof the page carries. We do not promise timelines; we report impressions and enquiries per market from your own accounts."
+   ],
+   [
+    "Can we start with one market?",
+    "Yes, and we usually recommend it. One market done properly teaches you what the second needs, and costs far less than five half-finished versions."
+   ]
+  ],
+  "sources": [
+   "g-intl",
+   "g-loc",
+   "w3c-lang"
+  ],
+  "sectors": [
+   "oem-odm",
+   "industrial-machinery-cnc",
+   "electronics-semiconductor"
+  ],
+  "cities": [
+   "guangzhou",
+   "shenzhen"
+  ],
+  "related": [
+   "international-seo-checklist-for-exporters",
+   "ai-search-for-manufacturers",
+   "pdf-catalogue-to-product-pages"
+  ],
+  "svc": [
+   "Translated pages built on the same design, with language tags and hreflang wired in from the start.",
+   "Per-market titles, internal links and sitemaps, plus checks on which engine matters in each country.",
+   "Campaigns in the market's own language, with local units and terms.",
+   "Posts and pages that give answer engines clean facts to quote."
+  ],
+  "v": 2
  }
 }
