@@ -1528,5 +1528,35 @@
   "method": "Fetched from the box (HTTP 200) and text checked",
   "id": "iatf",
   "checked": "16 October 2026"
+ },
+ "cf-gi": {
+  "publisher": "China Import and Export Fair (Canton Fair)",
+  "label": "General information: 140th session dates, hours and venue",
+  "url": "https://www.cantonfair.org.cn/en-US/about?pageCode=0d842e9d29ba482f90c54878687a3d2b",
+  "lang": "en",
+  "grade": "Official organiser page",
+  "method": "Read via web fetch service; dates, hours and venue text checked",
+  "id": "cf-gi",
+  "checked": "21 October 2026"
+ },
+ "cf-139": {
+  "publisher": "China Import and Export Fair (Canton Fair)",
+  "label": "General information: 139th session dates and exhibit categories",
+  "url": "https://cief.cantonfair.org.cn/en/cfintro/cfintro.html",
+  "lang": "en",
+  "grade": "Official organiser page",
+  "method": "Read via web fetch service; dates, categories, venue and exhibitor figures checked",
+  "id": "cf-139",
+  "checked": "21 October 2026"
+ },
+ "mofcom-140": {
+  "publisher": "The State Council of the People's Republic of China (english.gov.cn)",
+  "label": "140th Canton Fair in south China to draw over 32,000 exhibitors",
+  "url": "https://english.www.gov.cn/news/202609/19/content_WS6aade1f3c6d00ca5f9a0d422.html",
+  "lang": "en",
+  "grade": "Official government news release",
+  "method": "Read via web fetch service; exhibitor count and phase dates checked",
+  "id": "mofcom-140",
+  "checked": "21 October 2026"
  }
 }
