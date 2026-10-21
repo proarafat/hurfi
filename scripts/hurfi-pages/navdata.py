@@ -1,5 +1,5 @@
-﻿"""Single source for the main navigation (static header HTML and site-data.js)."""
-VER = '20261021h'
+"""Single source for the main navigation (static header HTML and site-data.js)."""
+VER = '20261021i'
 # hurfi-pages.css changes on its own schedule; sharing VER with style.css made
 # every build rewrite this cache-buster even when the file was untouched.
 HX_VER = '20261017a'
@@ -47,7 +47,7 @@ NAV = [('Home', '/'), ('About', '/about/'), ('Services', '/services/', SERVICES)
 def _child(c):
     badge = ''
     if len(c) > 2 and c[2] == 'Hot':
-        badge = '<span class="badge badge-hot" aria-label="Hot"><span class="badge-hot-icon" aria-hidden="true">Ã¢Å“Â¦</span><span class="badge-hot-text">Hot</span></span>'
+        badge = '<span class="badge badge-hot" aria-label="Hot"><span class="badge-hot-icon" aria-hidden="true">âœ¦</span><span class="badge-hot-text">Hot</span></span>'
     return '<li><a href="%s"><span class="nav-link-text">%s</span>%s</a></li>' % (c[1], c[0].replace('&', '&amp;'), badge)
 
 def nav_ul():
