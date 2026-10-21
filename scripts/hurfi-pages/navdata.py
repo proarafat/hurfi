@@ -1,5 +1,5 @@
 ﻿"""Single source for the main navigation (static header HTML and site-data.js)."""
-VER = '20261021y'
+VER = '20261021z'
 # hurfi-pages.css changes on its own schedule; sharing VER with style.css made
 # every build rewrite this cache-buster even when the file was untouched.
 HX_VER = '20261017a'
@@ -28,15 +28,19 @@ INSIGHTS = [('All insights', '/insights/'),
             ('RFQ website checklist', '/insights/manufacturer-website-rfq-checklist/'),
             ('Industrial product page SEO', '/insights/industrial-product-page-seo/'),
             ('International SEO checklist', '/insights/international-seo-checklist-for-exporters/'),
+            ('What is international SEO', '/insights/what-is-international-seo/'),
             ('AI search for manufacturers', '/insights/ai-search-for-manufacturers/'),
             ('Google Ads for exporters', '/insights/google-ads-for-exporters/'),
             ('LinkedIn for export sales', '/insights/linkedin-for-factory-export-sales/'),
             ('Trade show follow-up', '/insights/trade-show-follow-up-for-manufacturers/'),
+            ('Canton Fair guide', '/insights/canton-fair-guide-for-exporters/'),
             ('Export website speed', '/insights/export-website-speed-for-overseas-buyers/'),
             ('2025 export markets', '/insights/china-export-markets-2025/'),
             ('ASEAN, Middle East & Africa pages', '/insights/market-pages-for-asean-middle-east-africa/'),
             ('Certifications page', '/insights/certifications-page-for-export-websites/'),
+            ('CE marking', '/insights/ce-marking-for-chinese-manufacturers/'),
             ('Shipping & logistics page', '/insights/shipping-logistics-page-for-exporters/'),
+            ('Incoterms 2020', '/insights/incoterms-2020-explained/'),
             ('Standing out in a cluster', '/insights/standing-out-in-an-industrial-cluster/'),
             ('PDF catalogue to product pages', '/insights/pdf-catalogue-to-product-pages/'),
             ('Choosing an export agency', '/insights/choosing-an-export-marketing-agency/')]

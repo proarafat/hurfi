@@ -12568,6 +12568,12 @@
   fr["Infographic of four figures for Textiles & Technical Fabrics: 30.67bn m of cloth made in China in 2025; 87.0m t of chemical fibre made in 2025, up 4.9%; 1,020.5bn yuan of textile yarn and fabric exports, up 1.0%; 26.35bn m of printed and dyed cloth made in Shaoxing."] = "Infographie de quatre chiffres pour les textiles et textiles techniques : 30,67 milliards de mètres de tissus produits en Chine en 2025 ; 87,0 millions de tonnes de fibres chimiques en 2025, +4,9 % ; 1 020,5 milliards de yuans d’exportations de fils et tissus, +1,0 % ; 26,35 milliards de mètres de tissus imprimés et teints à Shaoxing.";
   zh["Hurfi social post “Be yourself. Be unique. Don’t copy others.” with a row of dots and a fingerprint"] = "Hurfi 社交媒体图“做自己。保持独特。不要抄袭他人。”配一行圆点和一枚指纹";
   fr["Hurfi social post “Be yourself. Be unique. Don’t copy others.” with a row of dots and a fingerprint"] = "Publication Hurfi « Soyez vous-même. Soyez unique. Ne copiez pas les autres. » avec une rangée de points et une empreinte digitale.";
+  zh["Canton Fair guide"] = "广交会指南";
+  fr["Canton Fair guide"] = "Guide du Canton Fair";
+  zh["Incoterms 2020"] = "Incoterms 2020";
+  fr["Incoterms 2020"] = "Incoterms 2020";
+  zh["What is international SEO"] = "什么是国际SEO";
+  fr["What is international SEO"] = "Qu’est-ce que le SEO international";
   function map() {
     if (current() === "zh") return zh;
     if (current() === "fr") return fr;
