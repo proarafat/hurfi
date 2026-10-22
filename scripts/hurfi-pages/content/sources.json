@@ -1628,5 +1628,15 @@
   "method": "Fetched from the box (HTTP 200) on 21 October 2026 and text checked",
   "id": "c-ks",
   "checked": "21 October 2026"
+ },
+ "mw-oem": {
+  "publisher": "Merriam-Webster",
+  "label": "OEM — definition and word history",
+  "url": "https://www.merriam-webster.com/dictionary/OEM",
+  "lang": "en",
+  "grade": "Dictionary entry",
+  "method": "Read via web fetch service (22 October 2026); definition and first-known-use date checked",
+  "id": "mw-oem",
+  "checked": "22 October 2026"
  }
 }

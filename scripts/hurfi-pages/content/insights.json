@@ -3504,5 +3504,186 @@
    "Posts that explain a certification change before a buyer asks about it."
   ],
   "v": 2
+ },
+ "what-is-an-oem-manufacturer": {
+  "slug": "what-is-an-oem-manufacturer",
+  "published": "2026-10-23",
+  "title": "What Is an OEM Manufacturer? OEM vs ODM Explained | Hurfi",
+  "h1": "What is an OEM manufacturer?",
+  "card": "The term has two live meanings. This guide separates them, then covers design ownership, tooling, legal responsibility and what buyers should check.",
+  "description": "OEM vs ODM explained: what an OEM manufacturer is, who owns the design and tooling, who is legally responsible, and what buyers should check.",
+  "lead": "An OEM manufacturer makes goods that another company sells under its own brand. That is the everyday meaning in sourcing. The dictionary meaning is different, and the gap between the two causes real mistakes. This guide separates the terms, then covers design ownership, tooling, legal responsibility and what to check before you sign.",
+  "steps": [
+   "Fix the meaning of OEM",
+   "Agree design and tooling ownership",
+   "Check certificate scope",
+   "Approve samples and changes",
+   "Assign compliance duties",
+   "Publish proof, protect clients"
+  ],
+  "sections": [
+   {
+    "h2": "Two meanings, one confusing word",
+    "p": [
+     "Merriam-Webster defines an OEM as “one that produces complex equipment (such as a computer system) from components usually bought from other manufacturers”. In that sense the OEM is the company whose name is on the finished machine. It assembles and sells; it does not have to make the parts. The dictionary dates the first known use to 1968.",
+     "In Chinese export manufacturing, OEM usually means something narrower and, in practice, almost the reverse. An OEM factory produces goods to another company's specification, and those goods carry that company's brand. The factory may do no design work at all. The buyer owns the product definition, the drawings, the packaging and the customer relationship.",
+     "Both meanings are current. When a European brand owner says it is looking for an OEM manufacturer, it usually means a factory that will build its product. When a Chinese sales manager says “we are an OEM”, it usually means “we manufacture for other brands”. The words match; the assumptions often do not. Agree on the meaning in the first call, before drawings or prices are discussed."
+    ]
+   },
+   {
+    "h2": "OEM vs ODM vs OBM: who owns what",
+    "p": [
+     "The three labels describe who defines the product and whose brand goes on it. They are not quality grades."
+    ],
+    "ul": [
+     "**OEM:** the buyer specifies the product; the factory manufactures to that specification; the product carries the buyer's brand.",
+     "**ODM:** the factory develops the design; the buyer selects it, may change branding and packaging, and sells it under the buyer's brand.",
+     "**OBM:** the factory sells under its own brand and competes with the brands it may also supply.",
+     "**Contract manufacturer:** an umbrella term for a factory that makes goods for other companies; it can work in any of the three models."
+    ],
+    "p2": [
+     "The commercial difference is design risk and exclusivity. In a strict OEM project the buyer's specification, tooling and product should not appear in another customer's catalogue. In an ODM project the factory may offer the same platform to several buyers unless exclusivity is negotiated. That is why the model has to be named in the contract, not just in the brochure."
+    ]
+   },
+   {
+    "h2": "What an OEM project actually involves",
+    "p": [
+     "An OEM order is a transfer of a specification, not just a purchase order. The buyer supplies drawings, tolerances, materials, surface finish, packaging and the market requirements the product has to meet. The factory supplies process capability, equipment, quality control, production capacity and a feedback loop when a tolerance is expensive or impossible to hold.",
+     "The work usually runs through the same stages: a design-for-manufacture review, tooling and fixtures, first samples, dimensional and functional approval, a golden sample signed by both sides, a pilot run, then mass production with change control. Packaging artwork, labelling and the compliance file sit alongside production, not after it.",
+     "A factory that never pushes back on a drawing is not necessarily competent. Early questions about tolerance, material substitution or test method usually save money later."
+    ]
+   },
+   {
+    "h2": "Who is legally responsible for the product",
+    "p": [
+     "Under EU product rules, the obligations attach to the party that places the product on the market under its name or trademark. When a brand owner commissions a factory, the brand owner is normally the manufacturer in the legal sense, even though it did not make the product. The CE marking, the technical file, the declaration of conformity and the importer details follow from that role.",
+     "This is why “the factory has CE” is not a complete answer. The question is which product, which model, which site and which legal party the document covers. A factory can hold the technical documentation under contract, but responsibility does not move to the factory because it did the manufacturing.",
+     "Automotive supply chains add their own layer. IATF 16949 certification is commonly required of suppliers to vehicle makers, and it is checked through the chain rather than accepted at face value. In regulated categories, medical devices or radio equipment for example, the split between design responsibility and manufacturing responsibility needs to be written down before the first sample."
+    ]
+   },
+   {
+    "h2": "What to check before you sign",
+    "p": [
+     "The checks below matter more than the label on the website."
+    ],
+    "ol": [
+     "**Certificate scope.** A certificate for a different site, product family or process proves less than it appears to. Read the scope, not the logo.",
+     "**Tooling ownership.** Say who owns the tool, where it is kept, who pays for maintenance, and what happens if you move. Tooling that cannot be transferred is leverage against you.",
+     "**Change control.** Require written notification and re-approval before a sub-supplier, material or process changes. Undisclosed changes are the most common source of failed batches.",
+     "**Test reports.** Check which laboratory produced them and whether it is accredited to ISO/IEC 17025. Accreditation says the lab is competent for the test; it does not say the product passed every requirement.",
+     "**Sample record.** Keep a signed golden sample, dimensions, photos and packaging. “Like the last order” is not a specification.",
+     "**Confidentiality.** Sign the NDA before drawings are shared, not after the quotation.",
+     "**Traceability.** Agree whether traceability is by batch, lot or serial number, and what the factory records."
+    ]
+   },
+   {
+    "h2": "Which model fits your product",
+    "p": [
+     "Choose OEM when the product is the differentiator and you need control over design, tooling and intellectual property. Choose ODM when speed to market matters more than exclusivity, or when you do not have the engineering resource to specify the product yourself. OBM is a different business: you are building a brand and competing with the customers you might otherwise serve.",
+     "Hybrid arrangements are common: an ODM platform with OEM branding, a custom enclosure and an exclusive market. That can work, provided the contract says which parts are exclusive and which are not.",
+     "The expensive mistake is choosing ODM for a product you intend to defend with patents, or choosing OEM when nobody on your side can approve a drawing change within a week."
+    ]
+   },
+   {
+    "h2": "What this means for the factory's website",
+    "p": [
+     "Brand owners shortlist factories from websites before they send drawings. A page that says “OEM/ODM welcome” does not help them decide. The pages that do help show process scope, materials, tolerances, equipment, quality systems, tooling capability and the sample-approval workflow.",
+     "Confidentiality and proof are not opposites. A factory can publish its machine list, inspection equipment, certificate scope and an anonymised case such as “a European brand owner in outdoor power equipment” without naming the customer. Our guide to [factory website trust signals](/insights/factory-website-trust-signals/) covers the evidence buyers look for, and the [RFQ checklist](/insights/manufacturer-website-rfq-checklist/) covers what should be ready before an inquiry arrives.",
+     "If you manufacture for other brands, read the [OEM and ODM marketing page](/industries/oem-odm/), which explains how to present both models without exposing client names."
+    ]
+   },
+   {
+    "h2": "Terms to agree before the first meeting",
+    "p": [
+     "Most disputes start with a word both sides thought they understood. Put these on one page and attach it to the NDA or the first quotation:"
+    ],
+    "ul": [
+     "OEM, ODM or OBM, and which applies to this product.",
+     "Who owns the design, drawings, tooling and packaging artwork.",
+     "Who prepares the technical file, the declaration of conformity and the label.",
+     "Sample approval method and the golden sample.",
+     "Change-control rules and notification period.",
+     "MOQ, lead time, Incoterms and payment terms.",
+     "Warranty, spare parts and end-of-life arrangements."
+    ],
+    "p2": [
+     "Delivery terms are in the [Incoterms 2020 guide](/insights/incoterms-2020-explained/); everything else belongs in the supply agreement."
+    ]
+   },
+   {
+    "h2": "The short version",
+    "p": [
+     "OEM is a word with two live meanings. In the dictionary sense, the OEM is the company that sells the finished equipment. In sourcing, the OEM is the factory that builds to someone else's specification and brand. Decide which one is meant, write down who owns design, tooling and compliance, check certificate scope rather than logos, and publish the process in a form that survives an NDA."
+    ]
+   }
+  ],
+  "mid_after": 4,
+  "faq": [
+   [
+    "Is an OEM manufacturer the same as a contract manufacturer?",
+    "Not exactly. Contract manufacturer is the umbrella term for a factory that makes goods for other companies. OEM is one model within it, where the buyer owns the product definition and the factory builds to that specification."
+   ],
+   [
+    "Does an OEM manufacturer own the design?",
+    "Usually not. In the sourcing sense the buyer owns the design, the drawings and often the tooling; the factory owns its process know-how. The contract should say so explicitly, including what happens to drawings and tools if the relationship ends."
+   ],
+   [
+    "What is the difference between OEM and ODM?",
+    "In OEM the buyer specifies the product. In ODM the factory develops the design and the buyer brands it. The commercial difference is exclusivity: an ODM platform may be sold to several buyers unless the contract says otherwise."
+   ],
+   [
+    "Can one factory be both OEM and ODM?",
+    "Yes. Many factories run both models on different lines or product families. Ask which model applies to your product and what that means for drawings, tooling, exclusivity and price, rather than asking what the company “is”."
+   ],
+   [
+    "Who owns the tooling in an OEM project?",
+    "Whoever the contract says. Buyers should assume nothing: specify ownership, location, maintenance, access and transfer or buy-out terms before the tool is cut. Tooling you cannot move is a switching cost you did not price."
+   ],
+   [
+    "Is the OEM factory the legal manufacturer?",
+    "In the EU, the party that places the product on the market under its name or trademark is normally treated as the manufacturer, even if another company made it. Responsibility follows the brand and the market, not the factory gate."
+   ],
+   [
+    "Does an OEM factory need ISO 9001 or IATF 16949?",
+    "ISO 9001 is the baseline quality system many buyers ask for. Automotive supply chains commonly require IATF 16949, checked through the chain. In both cases, read the certificate scope and confirm the certified site."
+   ],
+   [
+    "Is OEM the same as aftermarket?",
+    "No. OEM parts are supplied to the original equipment maker or under its brand. Aftermarket parts are sold by third parties for replacement or repair. The two are priced and warranted differently."
+   ],
+   [
+    "How do buyers find a reliable OEM manufacturer?",
+    "Start with capability fit and certificate scope, then samples, references under NDA and a small first order. A website that documents process, equipment and quality shortens that work before the first call."
+   ]
+  ],
+  "sources": [
+   "mw-oem",
+   "ec-ce",
+   "iatf",
+   "iso-17025"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "electronics-semiconductor",
+   "medical-devices-diagnostics"
+  ],
+  "cities": [
+   "shenzhen",
+   "dongguan",
+   "ningbo"
+  ],
+  "related": [
+   "factory-website-trust-signals",
+   "manufacturer-website-rfq-checklist",
+   "certifications-page-for-export-websites",
+   "incoterms-2020-explained"
+  ],
+  "svc": [
+   "Explaining OEM and ODM models in plain English, without naming clients.",
+   "Capability pages that document processes, tolerances, materials and quality systems.",
+   "Compliance pages that connect certificates to the products and markets they cover.",
+   "RFQ and sample-approval pages that shorten the first order."
+  ],
+  "v": 2
  }
 }
