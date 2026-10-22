@@ -5,6 +5,318 @@
   "description": "Practical guides for Chinese manufacturers selling abroad: buyer inquiries, RFQ-ready websites, international SEO, AI search, Google Ads, LinkedIn and trade shows.",
   "lead": "Practical notes for Chinese manufacturers and exporters who want overseas buyers to find them, trust them and send a real inquiry. No growth hacks, no invented numbers."
  },
+ "commercial-energy-storage-procurement": {
+  "slug": "commercial-energy-storage-procurement",
+  "published": "2026-10-22",
+  "title": "Commercial Energy Storage Procurement: Buyer Checklist | Hurfi",
+  "h1": "Commercial energy storage procurement: what to verify before you order",
+  "card": "A buyer's checklist for commercial battery storage: load data, system sizing, safety scope, performance guarantees, commissioning and the questions that expose a weak offer.",
+  "description": "A buyer's checklist for commercial battery storage: load profile, system sizing, safety standards, warranties, commissioning and what to ask before signing.",
+  "lead": "Commercial energy storage is bought to solve a specific electricity problem, not to fill a datasheet. This guide sets out the load data, safety scope, performance terms and commissioning evidence a buyer should require before comparing commercial battery storage quotes.",
+  "steps": [
+   "Define the electricity problem",
+   "Collect interval load data",
+   "Size energy and power separately",
+   "Check the safety scope",
+   "Put performance in writing",
+   "Agree commissioning evidence"
+  ],
+  "sections": [
+   {
+    "h2": "What commercial energy storage is bought to do",
+    "p": [
+     "Commercial and industrial battery storage sits behind the meter at a factory, warehouse, office or campus. It stores electricity when power is cheap or plentiful and discharges it when the site needs it, whether that is during expensive tariff periods, demand spikes, solar ramp-downs or grid outages.",
+     "Most buyers have one of four jobs in mind: cut demand charges, shift solar generation, protect critical loads, or defer a grid upgrade. Each job changes the power rating, usable energy, controls and interconnection. Write the job in one sentence before comparing any quotes."
+    ]
+   },
+   {
+    "h2": "Start with the load profile, not the battery datasheet",
+    "p": [
+     "A credible proposal starts with at least twelve months of interval data, ideally at 15-minute resolution. The buyer should also provide the current tariff and contract, maximum demand, load shape, existing solar or generators, critical loads, single-line diagram, available footprint and the grid connection limit.",
+     "A system sized from an average monthly bill will usually be wrong. Demand charges depend on power over a short interval, backup depends on critical-load energy and start-up surges, and solar shifting depends on the generation profile. Better data produces a smaller, cheaper and more useful system."
+    ],
+    "ul": [
+     "Twelve months of interval load data, with the date, interval length and units stated.",
+     "The tariff structure, including demand charges, time-of-use bands and export limits.",
+     "A single-line diagram showing existing solar, generators, UPS systems and the point of connection.",
+     "Critical loads and their start-up characteristics, not just their running load.",
+     "Site constraints: footprint, clearance, floor loading, ambient temperature, ventilation and fire access.",
+     "The grid operator’s connection limit and any import or export restrictions."
+    ]
+   },
+   {
+    "h2": "Size energy and power separately",
+    "p": [
+     "Kilowatt-hours describe how long the system can run; kilowatts describe how fast it can charge or discharge. A proposal should state the power conversion system rating, nameplate energy, usable energy, depth of discharge, round-trip efficiency, degradation assumptions and any planned augmentation.",
+     "Ask for the load-profile simulation behind the headline numbers. Confirm the guaranteed usable energy at the beginning and end of warranty, at a defined temperature and charge or discharge rate. If the supplier cannot show the assumptions, the quote is not comparable with another supplier’s quote."
+    ]
+   },
+   {
+    "h2": "Which safety standards should appear in the offer?",
+    "p": [
+     "UL 9540 is the Standard for Energy Storage Systems and Equipment and applies to the complete system, not just the cells. UL 9540A is the test method for evaluating thermal runaway fire propagation in battery energy storage systems, and NFPA 855 is the installation standard for stationary systems [2][3][4].",
+     "IEC 62619 covers safety requirements for industrial lithium cells and batteries, including stationary applications, but it is not a complete-system certification [5]. A cell certificate is not a system certificate, and a system certificate is not an installation approval. Ask for the certificate scope, edition, issuing body, product model and the authority having jurisdiction’s acceptance path."
+    ]
+   },
+   {
+    "h2": "Performance claims: what to put in writing",
+    "p": [
+     "Compare round-trip efficiency at a stated rate and temperature, usable energy, the degradation curve through the warranty period, auxiliary loads such as heating, ventilation and controls, availability, response time and ramp rate. A single efficiency percentage without boundary conditions is a marketing number.",
+     "A performance guarantee should name the test conditions, measurement points, allowed degradation, the remedy if performance falls short, and who pays for the test. Remedies can be augmentation, replacement or a financial credit; each has a different value to the buyer."
+    ]
+   },
+   {
+    "h2": "Warranty, service and software access",
+    "p": [
+     "Ask who commissions the system, who services it, the response time, spare-parts arrangements, local technician coverage, firmware update policy, remote monitoring, data ownership and export, cybersecurity and end-of-life recycling. These terms decide the cost of ownership after the equipment arrives.",
+     "Software can lock an owner into a service contract. Require read-only access and data export at handover, and make sure the warranty survives if the original installer is replaced. A warranty that depends on one local company is weaker than one that follows the equipment."
+    ]
+   },
+   {
+    "h2": "Commissioning and acceptance tests",
+    "p": [
+     "Acceptance should include a capacity test at defined conditions, protection-setting checks, point-to-point verification, emergency-stop tests, fire-alarm and suppression interface checks, SCADA or energy-management-system integration, grid-protection tests, as-built drawings, an operation and maintenance manual, and operator training.",
+     "Hold retention until the test reports and required authority approvals are delivered. A commissioning checklist in the contract is more useful than a promise that the system will be “fully tested”."
+    ]
+   },
+   {
+    "h2": "A short RFQ checklist for commercial storage",
+    "p": [
+     "A good RFQ lets suppliers price the same scope. It should include the site data, the job the system must do, the required availability, the connection limits and the documents the buyer will use to accept the system."
+    ],
+    "ul": [
+     "Load data, tariff, maximum demand and critical-load list.",
+     "Single-line diagram, site layout, ambient conditions and fire-access constraints.",
+     "Required power, usable energy, backup duration and daily cycle profile.",
+     "Certification scope required for the target market and the authority having jurisdiction.",
+     "Performance guarantee, warranty, service response and software access terms.",
+     "Commissioning scope, acceptance tests, training, documentation and retention.",
+     "Delivery destination, Incoterm, transport responsibilities and target commissioning date.",
+     "A request for the assumptions behind the sizing, not just the price."
+    ]
+   },
+   {
+    "h2": "What a storage manufacturer’s website should publish",
+    "p": [
+     "Buyers research before they contact a supplier. Publish the system architecture, battery and power-conversion specifications, certificate scope, fire-test summary, warranty summary, commissioning process, service coverage and an RFQ data sheet in HTML rather than only in a PDF catalogue.",
+     "A clear specification table and an RFQ form that asks for interval data, tariff and site constraints shorten the first exchange. Hurfi builds these buyer-facing pages for Chinese manufacturers, with the evidence a procurement team needs before it will open a technical discussion."
+    ]
+   }
+  ],
+  "mid_after": 4,
+  "faq": [
+   [
+    "What size commercial battery storage do I need?",
+    "Sizing starts from interval load data and the bill problem, not from a standard kWh figure. Model twelve months of load against the tariff, then confirm the critical-load energy and the site’s connection limit."
+   ],
+   [
+    "Is UL 9540 the same as UL 9540A?",
+    "No. UL 9540 certifies a complete energy storage system and its equipment, while UL 9540A is the test method for evaluating thermal runaway fire propagation in battery energy storage systems."
+   ],
+   [
+    "Does IEC 62619 certify a complete energy storage system?",
+    "No. IEC 62619 covers safety requirements for industrial lithium cells and batteries; complete-system certification and installation approval are separate."
+   ],
+   [
+    "What warranty terms should a commercial BESS include?",
+    "The warranty should state usable energy and degradation limits, availability, response times, exclusions, the remedy if performance falls short, and whether it transfers to a new owner."
+   ],
+   [
+    "Can a Chinese manufacturer quote DDP for a battery system?",
+    "It can, but DDP requires the seller to clear import in the buyer’s country. Check who can act as importer of record, how dangerous-goods transport is handled, and who commissions the system before accepting DDP."
+   ],
+   [
+    "What should an RFQ for commercial storage include?",
+    "Include interval load data, the tariff, maximum demand, critical loads, the single-line diagram, site constraints, required certificates, warranty terms, commissioning scope and the delivery destination."
+   ]
+  ],
+  "sources": [
+   "iea-batteries",
+   "ul-9540",
+   "ul-9540a",
+   "nfpa-855",
+   "iec-62619"
+  ],
+  "sectors": [
+   "battery-energy-storage",
+   "power-grid-electrical-equipment",
+   "data-centers-digital-infrastructure"
+  ],
+  "cities": [
+   "shenzhen",
+   "changzhou",
+   "ningbo"
+  ],
+  "related": [
+   "what-is-an-oem-manufacturer",
+   "certifications-page-for-export-websites",
+   "manufacturer-website-rfq-checklist",
+   "shipping-logistics-page-for-exporters",
+   "factory-website-trust-signals"
+  ],
+  "svc": [
+   "Specification pages that separate nameplate, usable energy and warranted performance.",
+   "Certificate pages that show scope, edition and product model instead of a wall of logos.",
+   "Commissioning and service pages that answer the buyer’s post-order questions.",
+   "RFQ forms that collect load data, tariffs and site constraints in the first message."
+  ],
+  "v": 2
+ },
+ "cnc-machining-quote-comparison": {
+  "slug": "cnc-machining-quote-comparison",
+  "published": "2026-10-22",
+  "title": "CNC Machining Quotes: How to Compare Suppliers | Hurfi",
+  "h1": "How to compare CNC machining quotes",
+  "card": "Why CNC quotes are hard to compare, and how to line up drawing revision, tolerance, material certificates, inspection, quantity breaks and landed cost before choosing a supplier.",
+  "description": "Compare CNC machining quotes on drawing revision, tolerance, material certification, inspection, quantity breaks, lead time and total landed cost.",
+  "lead": "Two CNC suppliers can answer the same RFQ with prices that differ by half and still both be right, because they are quoting different scopes. This guide shows buyers how to control the drawing package, compare tolerance and inspection, and calculate the real landed cost before choosing a machining supplier.",
+  "steps": [
+   "Send one controlled drawing package",
+   "Fix the quantity breaks",
+   "Compare tolerance with capability",
+   "Check material and inspection",
+   "Separate one-time costs",
+   "Compare landed cost and capacity"
+  ],
+  "sections": [
+   {
+    "h2": "Why CNC machining quotes are hard to compare",
+    "p": [
+     "A CNC quote is a set of assumptions about drawing revision, material, tolerance, finish, inspection, quantity, packaging, lead time and delivery terms. When those assumptions differ, the headline price is not a like-for-like number.",
+     "The lowest quote is often the one with the narrowest scope: stock material instead of certified material, general tolerances instead of inspected critical dimensions, or a lead time that starts only after the material arrives. Make the assumptions visible before comparing price."
+    ]
+   },
+   {
+    "h2": "Send one controlled drawing package to every supplier",
+    "p": [
+     "Send a 3D model for geometry and a 2D drawing for tolerances, notes, material, heat treatment and finish. State the drawing revision on every document, and include the quantity, target date, delivery destination and the quality documents required.",
+     "ASME Y14.5 is the authoritative guideline for geometric dimensioning and tolerancing, while ISO 2768-1 covers general tolerances when individual tolerances are not indicated [1][2]. Say which convention governs the drawing; mixing them is a common source of dispute."
+    ],
+    "ul": [
+     "STEP or native CAD model, with the same revision as the drawing.",
+     "2D PDF drawing showing datums, tolerances, threads, finishes and notes.",
+     "Material and alloy specification, temper or heat treatment, and any approved substitutes.",
+     "Critical dimensions and the inspection method the buyer will accept.",
+     "Quantity breaks, target date and delivery destination.",
+     "Required certificates, first-article report and packaging."
+    ]
+   },
+   {
+    "h2": "Compare tolerance with process capability",
+    "p": [
+     "A tight tolerance is a process requirement, not a wish. Ask the supplier to confirm the machine, fixture and inspection method for each critical feature, and whether the price includes a CMM report or only a dimensional check.",
+     "If the drawing has no individual tolerance, confirm the ISO 2768-1 class in the RFQ. Tightening every tolerance to avoid a conversation raises cost and lead time without improving fit. Tolerance should follow function."
+    ]
+   },
+   {
+    "h2": "Check material and finish assumptions",
+    "p": [
+     "Confirm the alloy, temper, mill certificate, heat number, surface finish and coating thickness. Ask whether the material is bought to order or pulled from stock, and require written approval before any substitution.",
+     "For regulated products, add traceability, first-article inspection and production-part approval to the scope. A material certificate that does not match the heat number on the parts is not traceability."
+    ]
+   },
+   {
+    "h2": "Inspection and documentation: what is included?",
+    "p": [
+     "Ask what inspection is included in the unit price: first article, in-process checks, final dimensional report, thread gauges, surface-roughness checks, material certificates and packing inspection. Agree the sampling level and who pays for third-party inspection.",
+     "ISO 9001:2026 is a quality management system standard, not a product certification [3]. Check the certificate’s scope and validity, then verify the actual inspection records for the order. A logo on a website is not evidence that a specific batch was measured."
+    ]
+   },
+   {
+    "h2": "Separate tooling, setup and quantity breaks",
+    "p": [
+     "A CNC price can include programming, fixtures, setup, tooling, first-article inspection, material, machining, finishing, inspection and packaging. Ask which costs are one-time and which repeat on every order.",
+     "Request prices at realistic quantity bands to see how the setup cost is amortized. Ask who owns custom fixtures, whether they are dedicated to the buyer, and what happens to them if production moves."
+    ]
+   },
+   {
+    "h2": "Lead time, Incoterms and landed cost",
+    "p": [
+     "A quoted lead time can mean machining only, machining after material arrives, or delivery after drawing approval. Ask for the production lead time after drawing and first-article approval, and confirm the capacity reserved for the order.",
+     "Compare Ex Works, FOB and DAP quotes under Incoterms 2020, then add freight, insurance, duty, clearance, packaging and the cost of the buyer’s own inspection. The lowest ex-works price can be the highest landed cost."
+    ]
+   },
+   {
+    "h2": "Score quotes instead of ranking by price",
+    "p": [
+     "Set the weights before seeing prices: scope completeness, tolerance capability, material traceability, inspection, lead time, communication, price and payment terms. Score each quote against the same evidence and keep the assumptions beside the score.",
+     "For critical parts, pay for a sample and inspect it against the drawing. A sample proves the process once; production approval still needs a first-article report and change control."
+    ]
+   },
+   {
+    "h2": "How to approve the first article before production",
+    "p": [
+     "First-article inspection is the control point between a quotation and a production order. The supplier measures the first parts against the drawing, records the actual values and sends the report with the material certificate and any deviation requests. The buyer approves, rejects or approves with conditions in writing.",
+     "Agree the report format before the order: which features are measured, which instrument is used, how many parts are sampled and who signs. For critical features, ask for a layout inspection with actual values rather than a pass or fail tick. Photographs help, but they do not replace dimensional data.",
+     "Change control matters as much as the first measurement. A revised drawing needs a new revision number, a new first-article report for the changed features and a clear date from which the new revision applies. Without that discipline, an approved sample can drift into a different production process."
+    ]
+   },
+   {
+    "h2": "What a CNC supplier should publish",
+    "p": [
+     "Publish the materials you machine, achievable tolerances, equipment list, inspection equipment, finishing options, certifications, typical lead times and an RFQ form that accepts drawings. Buyers compare capability before they contact a supplier.",
+     "HTML capability pages are easier to search, quote and update than a PDF catalogue. Hurfi builds these pages for Chinese machining suppliers, with the specification detail that lets a buyer shortlist without a long email exchange."
+    ]
+   }
+  ],
+  "mid_after": 4,
+  "faq": [
+   [
+    "What is the difference between ISO 2768 and GD&T?",
+    "ISO 2768-1 sets general tolerances for dimensions without individual tolerance indications. GD&T, as defined in ASME Y14.5, communicates design intent through datums, symbols and geometric controls."
+   ],
+   [
+    "Should I send a STEP file or a PDF drawing?",
+    "Send both. The STEP file defines geometry; the PDF drawing defines tolerances, notes, material, finish and revision. The drawing controls acceptance."
+   ],
+   [
+    "Why do CNC machining quotes vary so much?",
+    "Suppliers make different assumptions about material, tolerance, finish, inspection, quantity, lead time and delivery terms. Compare the scope before comparing the price."
+   ],
+   [
+    "What is a fair MOQ for CNC machining?",
+    "There is no universal MOQ. Setup and programming dominate small lots, so ask for the quantity break where the unit price stabilises and check whether material has a minimum order."
+   ],
+   [
+    "How do I check a supplier’s tolerance capability?",
+    "Ask for a capability study or a sample part measured on the critical features, and confirm the machine, fixture and inspection method used. A certificate alone does not prove capability."
+   ],
+   [
+    "What should a CNC machining quote include?",
+    "It should include the drawing revision, material and certificate, operations, tolerance and inspection, finish, quantity, unit price, setup or tooling, lead-time basis, packaging, Incoterm and payment terms."
+   ]
+  ],
+  "sources": [
+   "iso-2768",
+   "asme-y14-5",
+   "iso-9001"
+  ],
+  "sectors": [
+   "industrial-machinery-cnc",
+   "precision-manufacturing-components",
+   "automotive-mobility-components"
+  ],
+  "cities": [
+   "shenzhen",
+   "dongguan",
+   "suzhou",
+   "ningbo"
+  ],
+  "related": [
+   "what-is-an-oem-manufacturer",
+   "manufacturer-website-rfq-checklist",
+   "industrial-product-page-seo",
+   "factory-website-trust-signals",
+   "incoterms-2020-explained"
+  ],
+  "svc": [
+   "Capability pages that state materials, tolerances, equipment and inspection.",
+   "Quote forms that collect drawings, material, finish, quantity and target date.",
+   "Certification pages that explain scope instead of displaying logos.",
+   "Case pages that show the process and evidence behind a finished part."
+  ],
+  "v": 2
+ },
  "overseas-buyer-inquiries": {
   "slug": "overseas-buyer-inquiries",
   "published": "2026-10-16",
@@ -3319,6 +3631,14 @@
     ]
    },
    {
+    "h2": "What Incoterms 2020 do not decide",
+    "p": [
+     "Incoterms allocate costs, risks and tasks between seller and buyer. They do not transfer title to the goods, set payment terms, govern product liability or override mandatory law [1]. A contract that names CIF but says nothing about title leaves ownership to the sale contract, not to the trade term.",
+     "CIF and CIP require the seller to arrange insurance, but the minimum cover is Institute Cargo Clauses (C), which is narrower than many buyers assume [1]. If the buyer needs all-risk cover, the contract has to say so and allocate the premium.",
+     "FOB risk passes when the goods are on board the vessel; for containerised cargo handed to a carrier at a terminal, FCA often matches the physical handover better [1]. DDP makes the seller responsible for import clearance, which may be impossible where a non-resident cannot act as importer of record; DAP can be the workable alternative."
+    ]
+   },
+   {
     "h2": "Where trade terms belong on a manufacturer’s website",
     "p": [
      "Overseas buyers ask about terms before they ask for a price, and a terms block on the quotation or product page removes one email round from every negotiation. State the rule, the named place and the port, for example “FCA Ningbo, Incoterms 2020”, and keep payment terms in a separate line.",
@@ -3376,7 +3696,8 @@
    "Landing pages for chosen product families in the markets where your orders are growing.",
    "Posts that answer the commercial questions buyers ask before the first call."
   ],
-  "v": 2
+  "v": 2,
+  "modified": "2026-10-22"
  },
  "ce-marking-for-chinese-manufacturers": {
   "slug": "ce-marking-for-chinese-manufacturers",

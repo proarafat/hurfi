@@ -1638,5 +1638,75 @@
   "method": "Read via web fetch service (22 October 2026); definition and first-known-use date checked",
   "id": "mw-oem",
   "checked": "22 October 2026"
+ },
+ "iea-batteries": {
+  "publisher": "International Energy Agency (IEA)",
+  "label": "Batteries and Secure Energy Transitions, World Energy Outlook Special Report (25 April 2024)",
+  "url": "https://www.iea.org/reports/batteries-and-secure-energy-transitions",
+  "lang": "en",
+  "grade": "Intergovernmental organisation report",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iea-batteries",
+  "checked": "22 October 2026"
+ },
+ "ul-9540": {
+  "publisher": "UL Solutions",
+  "label": "Energy Storage System Testing and Certification: UL 9540, the Standard for Energy Storage Systems and Equipment",
+  "url": "https://www.ul.com/services/energy-storage-system-testing-and-certification",
+  "lang": "en",
+  "grade": "Testing and certification body page",
+  "method": "Fetched via web fetch service and text checked",
+  "id": "ul-9540",
+  "checked": "22 October 2026"
+ },
+ "ul-9540a": {
+  "publisher": "UL Solutions",
+  "label": "UL 9540A Test Method for Battery Energy Storage Systems (BESS)",
+  "url": "https://www.ul.com/services/ul-9540a-test-method",
+  "lang": "en",
+  "grade": "Testing and certification body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "ul-9540a",
+  "checked": "22 October 2026"
+ },
+ "nfpa-855": {
+  "publisher": "National Fire Protection Association (NFPA)",
+  "label": "NFPA 855, Standard for the Installation of Stationary Energy Storage Systems (2026 edition)",
+  "url": "https://www.nfpa.org/product/nfpa-855-standard/p0855code/nfpa-855-standard-for-the-installation-of-stationary-energy-storage-systems-2026/85526",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched via web fetch service and text checked",
+  "id": "nfpa-855",
+  "checked": "22 October 2026"
+ },
+ "iec-62619": {
+  "publisher": "International Electrotechnical Commission (IEC) Webstore",
+  "label": "IEC 62619:2022 Secondary cells and batteries containing alkaline or other non-acid electrolytes — Safety requirements for secondary lithium cells and batteries, for use in industrial applications",
+  "url": "https://webstore.iec.ch/en/publication/64073",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched via web fetch service and text checked",
+  "id": "iec-62619",
+  "checked": "22 October 2026"
+ },
+ "asme-y14-5": {
+  "publisher": "American Society of Mechanical Engineers (ASME)",
+  "label": "Y14.5-2018 (R2024) Dimensioning and Tolerancing",
+  "url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched via web fetch service and text checked",
+  "id": "asme-y14-5",
+  "checked": "22 October 2026"
+ },
+ "iso-9001": {
+  "publisher": "International Organization for Standardization (ISO)",
+  "label": "ISO 9001:2026 Quality management systems — Requirements",
+  "url": "https://www.iso.org/standard/9001",
+  "lang": "en",
+  "grade": "Standards body page",
+  "method": "Fetched from the box (HTTP 200) and text checked",
+  "id": "iso-9001",
+  "checked": "22 October 2026"
  }
 }
