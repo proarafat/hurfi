@@ -30,6 +30,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>Digital Growth Across China's Manufacturing Hubs | Hurfi</title>
   <meta name="description" content="Explore major industrial regions and manufacturing cities across China, and discover how Hurfi helps B2B companies strengthen their digital presence.">
   <link rel="canonical" href="https://hurfi.com/locations/china/">
+  <!-- hurfi:gen:hreflang:start -->
+  <link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/">
+  <link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/">
+  <!-- hurfi:gen:hreflang:end -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1065,7 +1070,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="/assets/js/china-locations.js?v=20261017p"></script>
   <script src="/assets/js/site-data.js?v=20261023ap"></script>
   <script src="/assets/js/schema-data.js?v=20261017a"></script>
-  <script src="/assets/js/i18n.js?v=20261023ap"></script>
+  <script src="/assets/js/i18n.js?v=20261115a"></script>
   <script>
 (function () {
   function arm(el) {
@@ -1097,6 +1102,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     (function () {
       var data = window.HURFI_CHINA;
       if (!data) return;
+      // On /zh/locations/china/ the mirror ships window.HURFI_ZH_EXTRA (place and sector names);
+      // results show Chinese and the search matches both scripts. English pages are unchanged.
+      var ZX = window.HURFI_ZH_EXTRA || null;
+      function T(s) {
+        if (!ZX || !s) return s;
+        return ZX[s] || s.split("; ").map(function (p) { return ZX[p] || p; }).join("、");
+      }
       var q = document.getElementById("cn-q");
       var province = document.querySelector('[data-cn="province"]');
       var industry = document.querySelector('[data-cn="industry"]');
@@ -1108,7 +1120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       sectors.sort().forEach(function (s) {
         var opt = document.createElement("option");
         opt.value = s;
-        opt.textContent = s;
+        opt.textContent = T(s);
         industry.appendChild(opt);
       });
       var more = document.querySelector("[data-cn-more]");
@@ -1127,7 +1139,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           if (region.value && c.industrialRegion !== region.value) return false;
           if (industry.value && c.industrialSectors.indexOf(industry.value) === -1) return false;
           if (!query) return true;
-          var blob = [c.name, c.province, c.industrialRegion].concat(c.industrialSectors).join(" ").toLowerCase();
+          var parts = [c.name, c.province, c.industrialRegion].concat(c.industrialSectors);
+          var blob = parts.concat(ZX ? parts.map(T) : []).join(" ").toLowerCase();
           return blob.indexOf(query) !== -1;
         });
         hits.sort(function (a, b) {
@@ -1143,9 +1156,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           a.className = "ind-hit";
           a.href = "#city-" + c.id;
           var strong = document.createElement("strong");
-          strong.textContent = c.name;
+          strong.textContent = ZX ? (ZX[c.name + "|" + c.provinceSlug.replace(/[^a-z]/g, "")] || T(c.name)) : c.name;
           var span = document.createElement("span");
-          span.textContent = [c.province, c.industrialRegion, c.researchFocus].filter(Boolean).join(" · ");
+          span.textContent = [c.province, c.industrialRegion, c.researchFocus].filter(Boolean).map(T).join(" · ");
           a.appendChild(strong);
           a.appendChild(span);
           frag.appendChild(a);

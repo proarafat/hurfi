@@ -13,6 +13,15 @@ B2B growth partner for Chinese manufacturers, suppliers and exporters.
 - Shared behaviour lives in `assets/js/site.js` (menus, consult block and inquiry form, JSON-LD fallback), `assets/js/i18n.js` (client-side EN/中文/FR switch) and `assets/css/style.css`.
 - New pages added in October 2026 (city guides, insights, `/zh/` pages, enriched sector pages) come from `scripts/hurfi-pages/build.py` and the JSON files in `scripts/hurfi-pages/content/`. See `scripts/hurfi-pages/README.md`.
 
+## Chinese version (`/zh/`) and language routing
+
+Every English page has a static Simplified Chinese twin at the same path under `/zh/`. Search engines index both and pick the right one per query through hreflang (`en`, `zh-Hans`, `x-default` → English) in each page and in `sitemap.xml`.
+
+- **Generator:** `node scripts/hurfi-pages/zh_mirror.mjs` (also the last step of `npm run pages`). It applies the `zh` dictionary in `assets/js/i18n.js`, plus `scripts/hurfi-pages/content/zh-meta.json` (titles, descriptions, leftover body text) and `content/zh-places.json` (place names), to each English page. It also writes the reciprocal hreflang on the English page, the sitemap entries and `netlify/edge-functions/zh-paths.js`. The 5 hand-written pages in `content/zh.json` (`/zh/`, `/zh/services/*`) are kept; only their links and English leftovers are updated.
+- **After editing an English page,** rerun the generator. `--report` shows dictionary coverage per page and `--missing` lists every untranslated string (JSON). Add those strings to `zh-meta.json`. A page below 90% coverage gets no Chinese twin until it is translated.
+- **Never edit files under `/zh/` by hand** (except through `content/zh.json` for the 5 hand-written ones). The next run overwrites them.
+- **Visitors:** `netlify/edge-functions/lang-redirect.js` sends a 302 to the `/zh/` twin when the visitor is in China, Hong Kong, Macao or Taiwan (Cloudflare `CF-IPCountry`), or when their browser's top language is Chinese. The EN / 中文 / FR switch sets the `hurfi-lang` cookie, and that choice always wins. `?lang=en` forces English and remembers it. Crawlers are never redirected.
+
 ## Do NOT run
 
 | Command | Why |

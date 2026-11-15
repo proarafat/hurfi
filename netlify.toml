@@ -68,6 +68,13 @@
   status = 404
   force = true
 
+# Edge function source (netlify/edge-functions/) sits in the publish dir; Netlify deploys it, nobody fetches it.
+[[redirects]]
+  from = "/netlify/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
@@ -81,7 +88,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
-    Cache-Control = "public, max-age=0, must-revalidate"
+    Cache-Control = "public, max-age=0, must-revalidate, no-transform"
     CDN-Cache-Control = "public, max-age=120"
     Cloudflare-CDN-Cache-Control = "public, max-age=120"
     Netlify-CDN-Cache-Control = "public, max-age=0, must-revalidate"

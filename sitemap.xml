@@ -1,795 +1,2289 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hurfi.com/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/"/>
   </url>
   <url>
     <loc>https://hurfi.com/about/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/about/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/about/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/about/"/>
   </url>
   <url>
     <loc>https://hurfi.com/services/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/services/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/"/>
   </url>
   <url>
     <loc>https://hurfi.com/services/website-development/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/website-development/"/>
   </url>
   <url>
     <loc>https://hurfi.com/services/seo/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/seo/"/>
   </url>
   <url>
     <loc>https://hurfi.com/services/digital-marketing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/digital-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/digital-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/digital-marketing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/services/social-media-management/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/social-media-management/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/social-media-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/social-media-management/"/>
   </url>
   <url>
     <loc>https://hurfi.com/projects/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/projects/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/projects/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/projects/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/projects/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/projects/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/oem-odm/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/oem-odm/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/oem-odm/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/oem-odm/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/industrial-automation-robotics/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-automation-robotics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-automation-robotics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-automation-robotics/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/industrial-automation-robotics/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-automation-robotics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-automation-robotics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-automation-robotics/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/electronics-semiconductor/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/electronics-semiconductor/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/electronics-semiconductor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/electronics-semiconductor/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/electronics-semiconductor/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/electronics-semiconductor/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/electronics-semiconductor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/electronics-semiconductor/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/ev-e-mobility/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/ev-e-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/ev-e-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/ev-e-mobility/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/ev-e-mobility/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/ev-e-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/ev-e-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/ev-e-mobility/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/battery-energy-storage/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/battery-energy-storage/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/battery-energy-storage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/battery-energy-storage/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/battery-energy-storage/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/battery-energy-storage/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/battery-energy-storage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/battery-energy-storage/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/power-grid-electrical-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/power-grid-electrical-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/power-grid-electrical-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/power-grid-electrical-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/power-grid-electrical-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/power-grid-electrical-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/power-grid-electrical-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/power-grid-electrical-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/medical-devices-diagnostics/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/medical-devices-diagnostics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/medical-devices-diagnostics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/medical-devices-diagnostics/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/medical-devices-diagnostics/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/medical-devices-diagnostics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/medical-devices-diagnostics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/medical-devices-diagnostics/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/laboratory-scientific-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/laboratory-scientific-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/laboratory-scientific-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/laboratory-scientific-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/laboratory-scientific-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/laboratory-scientific-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/laboratory-scientific-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/laboratory-scientific-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/industrial-machinery-cnc/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-machinery-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-machinery-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-machinery-cnc/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/industrial-machinery-cnc/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-machinery-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-machinery-cnc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-machinery-cnc/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/industrial-software-data/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-software-data/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-software-data/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-software-data/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/industrial-software-data/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-software-data/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-software-data/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-software-data/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/data-centers-digital-infrastructure/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/data-centers-digital-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/data-centers-digital-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/data-centers-digital-infrastructure/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/data-centers-digital-infrastructure/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/data-centers-digital-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/data-centers-digital-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/data-centers-digital-infrastructure/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/optics-photonics/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/optics-photonics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/optics-photonics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/optics-photonics/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/optics-photonics/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/optics-photonics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/optics-photonics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/optics-photonics/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/pharma-bioprocess-manufacturing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/pharma-bioprocess-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/pharma-bioprocess-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/pharma-bioprocess-manufacturing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/pharma-bioprocess-manufacturing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/pharma-bioprocess-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/pharma-bioprocess-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/pharma-bioprocess-manufacturing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/solar-renewable-power/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/solar-renewable-power/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/solar-renewable-power/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/solar-renewable-power/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/solar-renewable-power/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/solar-renewable-power/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/solar-renewable-power/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/solar-renewable-power/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/water-wastewater-technology/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/water-wastewater-technology/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/water-wastewater-technology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/water-wastewater-technology/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/water-wastewater-technology/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/water-wastewater-technology/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/water-wastewater-technology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/water-wastewater-technology/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/environmental-circular-economy/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/environmental-circular-economy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/environmental-circular-economy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/environmental-circular-economy/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/environmental-circular-economy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/environmental-circular-economy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/environmental-circular-economy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/environmental-circular-economy/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/agritech-agricultural-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/agritech-agricultural-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/agritech-agricultural-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/agritech-agricultural-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/agritech-agricultural-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/agritech-agricultural-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/agritech-agricultural-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/agritech-agricultural-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/smart-buildings-urban-infrastructure/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/smart-buildings-urban-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/smart-buildings-urban-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/smart-buildings-urban-infrastructure/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/smart-buildings-urban-infrastructure/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/smart-buildings-urban-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/smart-buildings-urban-infrastructure/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/smart-buildings-urban-infrastructure/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/precision-manufacturing-components/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/precision-manufacturing-components/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/precision-manufacturing-components/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/precision-manufacturing-components/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/precision-manufacturing-components/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/precision-manufacturing-components/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/precision-manufacturing-components/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/precision-manufacturing-components/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/automotive-mobility-components/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/automotive-mobility-components/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/automotive-mobility-components/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/automotive-mobility-components/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/automotive-mobility-components/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/automotive-mobility-components/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/automotive-mobility-components/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/automotive-mobility-components/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/aerospace-aviation-supply-chain/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/aerospace-aviation-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/aerospace-aviation-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/aerospace-aviation-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/aerospace-aviation-supply-chain/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/aerospace-aviation-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/aerospace-aviation-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/aerospace-aviation-supply-chain/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/industrial-hvac-building-systems/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-hvac-building-systems/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-hvac-building-systems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-hvac-building-systems/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/industrial-hvac-building-systems/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-hvac-building-systems/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-hvac-building-systems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-hvac-building-systems/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/construction-materials-systems/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/construction-materials-systems/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/construction-materials-systems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/construction-materials-systems/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/construction-materials-systems/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/construction-materials-systems/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/construction-materials-systems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/construction-materials-systems/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/food-processing-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/food-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/food-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/food-processing-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/food-processing-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/food-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/food-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/food-processing-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/packaging-printing-manufacturing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/packaging-printing-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/packaging-printing-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/packaging-printing-manufacturing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/packaging-printing-manufacturing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/packaging-printing-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/packaging-printing-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/packaging-printing-manufacturing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/textiles-technical-fabrics/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/textiles-technical-fabrics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/textiles-technical-fabrics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/textiles-technical-fabrics/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/textiles-technical-fabrics/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/textiles-technical-fabrics/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/textiles-technical-fabrics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/textiles-technical-fabrics/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/furniture-interior-manufacturing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/furniture-interior-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/furniture-interior-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/furniture-interior-manufacturing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/furniture-interior-manufacturing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/furniture-interior-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/furniture-interior-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/furniture-interior-manufacturing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/logistics-warehouse-technology/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/logistics-warehouse-technology/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/logistics-warehouse-technology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/logistics-warehouse-technology/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/logistics-warehouse-technology/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/logistics-warehouse-technology/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/logistics-warehouse-technology/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/logistics-warehouse-technology/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/chemicals-specialty-materials/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/chemicals-specialty-materials/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/chemicals-specialty-materials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/chemicals-specialty-materials/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/chemicals-specialty-materials/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/chemicals-specialty-materials/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/chemicals-specialty-materials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/chemicals-specialty-materials/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/mining-mineral-processing-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/mining-mineral-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/mining-mineral-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/mining-mineral-processing-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/mining-mineral-processing-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/mining-mineral-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/mining-mineral-processing-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/mining-mineral-processing-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/marine-shipbuilding-supply-chain/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/marine-shipbuilding-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/marine-shipbuilding-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/marine-shipbuilding-supply-chain/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/marine-shipbuilding-supply-chain/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/marine-shipbuilding-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/marine-shipbuilding-supply-chain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/marine-shipbuilding-supply-chain/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/industrial-safety-testing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-safety-testing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-safety-testing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-safety-testing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/industrial-safety-testing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/industrial-safety-testing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/industrial-safety-testing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/industrial-safety-testing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/apparel-footwear-production/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/apparel-footwear-production/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/apparel-footwear-production/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/apparel-footwear-production/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/apparel-footwear-production/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/apparel-footwear-production/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/apparel-footwear-production/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/apparel-footwear-production/"/>
   </url>
   <url>
     <loc>https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/commercial-cleaning-hygiene-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/industries/commercial-cleaning-hygiene-equipment/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/industries/commercial-cleaning-hygiene-equipment/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/"/>
   </url>
   <url>
     <loc>https://hurfi.com/contact/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/contact/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/contact/"/>
   </url>
   <url>
     <loc>https://hurfi.com/book-consultation/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/book-consultation/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/book-consultation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/book-consultation/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/book-consultation/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/book-consultation/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/book-consultation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/book-consultation/"/>
   </url>
   <url>
     <loc>https://hurfi.com/privacy-policy/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/privacy-policy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/privacy-policy/"/>
   </url>
   <url>
     <loc>https://hurfi.com/terms/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/terms/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/terms/"/>
   </url>
   <url>
     <loc>https://hurfi.com/refund-policy/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/refund-policy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/refund-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/refund-policy/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/refund-policy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/refund-policy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/refund-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/refund-policy/"/>
   </url>
   <url>
     <loc>https://hurfi.com/brand-guidelines/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/brand-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/brand-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/brand-guidelines/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/brand-guidelines/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/brand-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/brand-guidelines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/brand-guidelines/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/factory-website-trust-signals/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/factory-website-trust-signals/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/factory-website-trust-signals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/factory-website-trust-signals/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/factory-website-trust-signals/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/factory-website-trust-signals/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/factory-website-trust-signals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/factory-website-trust-signals/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/manufacturer-website-rfq-checklist/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/manufacturer-website-rfq-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/manufacturer-website-rfq-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/manufacturer-website-rfq-checklist/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/manufacturer-website-rfq-checklist/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/manufacturer-website-rfq-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/manufacturer-website-rfq-checklist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/manufacturer-website-rfq-checklist/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/overseas-buyer-inquiries/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/overseas-buyer-inquiries/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/overseas-buyer-inquiries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/overseas-buyer-inquiries/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/overseas-buyer-inquiries/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/overseas-buyer-inquiries/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/overseas-buyer-inquiries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/overseas-buyer-inquiries/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/dongguan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/dongguan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/dongguan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/dongguan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/dongguan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/dongguan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/dongguan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/dongguan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/hefei/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hefei/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hefei/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hefei/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/hefei/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hefei/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hefei/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hefei/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/shenzhen/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shenzhen/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shenzhen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shenzhen/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/shenzhen/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shenzhen/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shenzhen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shenzhen/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/wuxi/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuxi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuxi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuxi/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/wuxi/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuxi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuxi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuxi/"/>
   </url>
   <url>
     <loc>https://hurfi.com/zh/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/"/>
   </url>
   <url>
     <loc>https://hurfi.com/zh/services/digital-marketing/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/digital-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/digital-marketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/digital-marketing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/zh/services/seo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/seo/"/>
   </url>
   <url>
     <loc>https://hurfi.com/zh/services/social-media-management/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/social-media-management/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/social-media-management/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/social-media-management/"/>
   </url>
   <url>
     <loc>https://hurfi.com/zh/services/website-development/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/services/website-development/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/guangzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/guangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/guangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/guangzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/guangzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/guangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/guangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/guangzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/suzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/suzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/suzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/suzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/suzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/suzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/suzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/suzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/kunshan/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/kunshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/kunshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/kunshan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/kunshan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/kunshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/kunshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/kunshan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/hangzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hangzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/hangzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hangzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hangzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/ningbo/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/ningbo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/ningbo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/ningbo/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/ningbo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/ningbo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/ningbo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/ningbo/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/shanghai/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shanghai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shanghai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shanghai/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/shanghai/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shanghai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shanghai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shanghai/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/wuhan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuhan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuhan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuhan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/wuhan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuhan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuhan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuhan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/xiamen/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/xiamen/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/xiamen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/xiamen/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/xiamen/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/xiamen/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/xiamen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/xiamen/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/quanzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/quanzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/quanzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/quanzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/quanzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/quanzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/quanzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/quanzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/zhongshan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhongshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhongshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhongshan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/zhongshan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhongshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhongshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhongshan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/tianjin/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/tianjin/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/tianjin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/tianjin/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/tianjin/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/tianjin/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/tianjin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/tianjin/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/changzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/changzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/changzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/changzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/changzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/changzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/changzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/changzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/xian/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/xian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/xian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/xian/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/xian/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/xian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/xian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/xian/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/international-seo-checklist-for-exporters/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/international-seo-checklist-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/international-seo-checklist-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/international-seo-checklist-for-exporters/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/international-seo-checklist-for-exporters/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/international-seo-checklist-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/international-seo-checklist-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/international-seo-checklist-for-exporters/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/choosing-an-export-marketing-agency/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/choosing-an-export-marketing-agency/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/choosing-an-export-marketing-agency/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/choosing-an-export-marketing-agency/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/choosing-an-export-marketing-agency/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/choosing-an-export-marketing-agency/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/choosing-an-export-marketing-agency/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/choosing-an-export-marketing-agency/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/linkedin-for-factory-export-sales/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/linkedin-for-factory-export-sales/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/linkedin-for-factory-export-sales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/linkedin-for-factory-export-sales/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/linkedin-for-factory-export-sales/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/linkedin-for-factory-export-sales/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/linkedin-for-factory-export-sales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/linkedin-for-factory-export-sales/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/ai-search-for-manufacturers/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/ai-search-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/ai-search-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/ai-search-for-manufacturers/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/ai-search-for-manufacturers/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/ai-search-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/ai-search-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/ai-search-for-manufacturers/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/google-ads-for-exporters/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/google-ads-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/google-ads-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/google-ads-for-exporters/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/google-ads-for-exporters/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/google-ads-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/google-ads-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/google-ads-for-exporters/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/industrial-product-page-seo/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/industrial-product-page-seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/industrial-product-page-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/industrial-product-page-seo/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/industrial-product-page-seo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/industrial-product-page-seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/industrial-product-page-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/industrial-product-page-seo/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/trade-show-follow-up-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/trade-show-follow-up-for-manufacturers/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/trade-show-follow-up-for-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/export-website-speed-for-overseas-buyers/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/export-website-speed-for-overseas-buyers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/export-website-speed-for-overseas-buyers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/export-website-speed-for-overseas-buyers/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/export-website-speed-for-overseas-buyers/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/export-website-speed-for-overseas-buyers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/export-website-speed-for-overseas-buyers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/export-website-speed-for-overseas-buyers/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/guangdong/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/guangdong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/guangdong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/guangdong/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/guangdong/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/guangdong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/guangdong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/guangdong/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/zhejiang/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhejiang/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/zhejiang/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhejiang/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/jiangsu/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jiangsu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jiangsu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jiangsu/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/jiangsu/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jiangsu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jiangsu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jiangsu/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/shandong/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shandong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shandong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shandong/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/shandong/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shandong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shandong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shandong/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/liaoning/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/liaoning/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/liaoning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/liaoning/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/liaoning/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/liaoning/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/liaoning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/liaoning/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/nanjing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/nanjing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/nanjing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/nanjing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/nanjing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/nanjing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/nanjing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/nanjing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/wenzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wenzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wenzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wenzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/wenzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wenzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wenzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wenzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/changsha/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/changsha/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/changsha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/changsha/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/changsha/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/changsha/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/changsha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/changsha/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/zhengzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhengzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhengzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhengzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/zhengzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhengzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhengzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhengzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/chongqing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/chongqing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/chongqing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/chongqing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/chongqing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/chongqing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/chongqing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/chongqing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/beijing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/beijing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/beijing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/beijing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/beijing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/beijing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/beijing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/beijing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/dalian/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/dalian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/dalian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/dalian/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/dalian/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/dalian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/dalian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/dalian/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/jinan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jinan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jinan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jinan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/jinan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jinan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jinan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jinan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/foshan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/foshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/foshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/foshan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/foshan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/foshan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/foshan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/foshan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/qingdao/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/qingdao/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/qingdao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/qingdao/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/qingdao/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/qingdao/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/qingdao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/qingdao/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/chengdu/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/chengdu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/chengdu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/chengdu/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/chengdu/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/chengdu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/chengdu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/chengdu/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/yantai/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/yantai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/yantai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/yantai/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/yantai/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/yantai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/yantai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/yantai/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/shenyang/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shenyang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shenyang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shenyang/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/shenyang/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shenyang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shenyang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shenyang/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/zhuhai/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhuhai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhuhai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhuhai/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/zhuhai/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/zhuhai/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/zhuhai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/zhuhai/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/jinhua/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jinhua/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jinhua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jinhua/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/jinhua/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jinhua/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jinhua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jinhua/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/huizhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/huizhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/huizhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/huizhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/huizhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/huizhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/huizhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/huizhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/nantong/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/nantong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/nantong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/nantong/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/nantong/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/nantong/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/nantong/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/nantong/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/shaoxing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shaoxing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shaoxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shaoxing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/shaoxing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/shaoxing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/shaoxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/shaoxing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/taizhou-zhejiang/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/taizhou-zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/taizhou-zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/taizhou-zhejiang/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/taizhou-zhejiang/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/taizhou-zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/taizhou-zhejiang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/taizhou-zhejiang/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/jiaxing/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jiaxing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jiaxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jiaxing/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/jiaxing/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/jiaxing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/jiaxing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/jiaxing/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/weifang/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/weifang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/weifang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/weifang/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/weifang/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/weifang/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/weifang/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/weifang/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/fuzhou/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/fuzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/fuzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/fuzhou/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/fuzhou/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/fuzhou/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/fuzhou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/fuzhou/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/wuhu/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuhu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuhu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuhu/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/wuhu/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/wuhu/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/wuhu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/wuhu/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/fujian/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/fujian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/fujian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/fujian/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/fujian/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/fujian/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/fujian/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/fujian/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/anhui/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/anhui/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/anhui/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/anhui/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/anhui/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/anhui/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/anhui/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/anhui/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/hubei/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hubei/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hubei/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hubei/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/hubei/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hubei/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hubei/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hubei/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/hunan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hunan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hunan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hunan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/hunan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/hunan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/hunan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/hunan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/henan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/henan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/henan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/henan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/henan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/henan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/henan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/henan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/locations/china/sichuan/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/sichuan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/sichuan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/sichuan/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/locations/china/sichuan/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/locations/china/sichuan/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/locations/china/sichuan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/locations/china/sichuan/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/china-export-markets-2025/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/china-export-markets-2025/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/china-export-markets-2025/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/china-export-markets-2025/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/china-export-markets-2025/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/china-export-markets-2025/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/china-export-markets-2025/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/china-export-markets-2025/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/market-pages-for-asean-middle-east-africa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/market-pages-for-asean-middle-east-africa/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/market-pages-for-asean-middle-east-africa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/certifications-page-for-export-websites/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/certifications-page-for-export-websites/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/certifications-page-for-export-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/certifications-page-for-export-websites/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/certifications-page-for-export-websites/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/certifications-page-for-export-websites/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/certifications-page-for-export-websites/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/certifications-page-for-export-websites/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/shipping-logistics-page-for-exporters/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/shipping-logistics-page-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/shipping-logistics-page-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/shipping-logistics-page-for-exporters/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/shipping-logistics-page-for-exporters/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/shipping-logistics-page-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/shipping-logistics-page-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/shipping-logistics-page-for-exporters/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/incoterms-2020-explained/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/incoterms-2020-explained/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/incoterms-2020-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/incoterms-2020-explained/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/incoterms-2020-explained/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/incoterms-2020-explained/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/incoterms-2020-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/incoterms-2020-explained/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/ce-marking-for-chinese-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/ce-marking-for-chinese-manufacturers/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/ce-marking-for-chinese-manufacturers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/standing-out-in-an-industrial-cluster/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/standing-out-in-an-industrial-cluster/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/standing-out-in-an-industrial-cluster/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/standing-out-in-an-industrial-cluster/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/standing-out-in-an-industrial-cluster/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/standing-out-in-an-industrial-cluster/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/standing-out-in-an-industrial-cluster/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/standing-out-in-an-industrial-cluster/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/pdf-catalogue-to-product-pages/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/pdf-catalogue-to-product-pages/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/pdf-catalogue-to-product-pages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/pdf-catalogue-to-product-pages/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/pdf-catalogue-to-product-pages/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/pdf-catalogue-to-product-pages/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/pdf-catalogue-to-product-pages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/pdf-catalogue-to-product-pages/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/canton-fair-guide-for-exporters/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/canton-fair-guide-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/canton-fair-guide-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/canton-fair-guide-for-exporters/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/canton-fair-guide-for-exporters/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/canton-fair-guide-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/canton-fair-guide-for-exporters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/canton-fair-guide-for-exporters/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/what-is-international-seo/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/what-is-international-seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/what-is-international-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/what-is-international-seo/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/what-is-international-seo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/what-is-international-seo/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/what-is-international-seo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/what-is-international-seo/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/what-is-an-oem-manufacturer/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/what-is-an-oem-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/what-is-an-oem-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/what-is-an-oem-manufacturer/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/what-is-an-oem-manufacturer/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/what-is-an-oem-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/what-is-an-oem-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/what-is-an-oem-manufacturer/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/commercial-energy-storage-procurement/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/commercial-energy-storage-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/commercial-energy-storage-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/commercial-energy-storage-procurement/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/commercial-energy-storage-procurement/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/commercial-energy-storage-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/commercial-energy-storage-procurement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/commercial-energy-storage-procurement/"/>
   </url>
   <url>
     <loc>https://hurfi.com/insights/cnc-machining-quote-comparison/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/cnc-machining-quote-comparison/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/cnc-machining-quote-comparison/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/cnc-machining-quote-comparison/"/>
+  </url>
+  <url>
+    <loc>https://hurfi.com/zh/insights/cnc-machining-quote-comparison/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hurfi.com/insights/cnc-machining-quote-comparison/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hurfi.com/zh/insights/cnc-machining-quote-comparison/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hurfi.com/insights/cnc-machining-quote-comparison/"/>
   </url>
 </urlset>

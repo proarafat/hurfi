@@ -4,6 +4,7 @@
 /package.json    /404.html    404!
 /package-lock.json    /404.html    404!
 /.github/*    /404.html    404!
+/netlify/*    /404.html    404!
 /home    /    301
 /appointment    /book-consultation/    301
 /book    /book-consultation/    301

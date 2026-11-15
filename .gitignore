@@ -27,3 +27,6 @@ scripts/_brand-*.png
 # Python tooling (scripts/hurfi-pages)
 __pycache__/
 *.pyc
+
+# Search Console exports (the repo root is the publish dir, so keep them out of git)
+hurfi.com-Coverage-*/

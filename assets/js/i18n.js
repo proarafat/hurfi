@@ -20276,6 +20276,7 @@
       button.addEventListener("click", function () {
         var want = button.getAttribute("data-lang");
         try { localStorage.setItem(STORAGE, want); } catch (e) {}
+        remember(want);
         // Prefer a real translated URL when the page declares one (hreflang).
         var target = null;
         if (want === "zh") target = document.querySelector('link[rel="alternate"][hreflang^="zh"]');
@@ -20340,6 +20341,7 @@
   function offers(name) {
     if (name === "en") return true;
     if (STATIC === name) return true;
+    if (name === "zh" && zhAlternate()) return true;
     if (!document.body) return false;
     return coverage(name) >= MIN_COVERAGE;
   }
@@ -20390,6 +20392,43 @@
     }
     if (phrases["Language"]) group.setAttribute("aria-label", phrases["Language"]);
     bindLang(group);
+  }
+
+  // The language cookie is read by netlify/edge-functions/lang-redirect.js, so a visitor
+  // who picks EN in China (or 中文 in the US) keeps that choice on every later visit.
+  function remember(lang) {
+    try {
+      document.cookie = "hurfi-lang=" + lang + "; Path=/; Max-Age=31536000; SameSite=Lax" +
+        (window.location.protocol === "https:" ? "; Secure" : "");
+    } catch (e) {}
+  }
+
+  function zhAlternate() {
+    var link = document.querySelector('link[rel="alternate"][hreflang^="zh"]');
+    var href = link && link.getAttribute("href");
+    return href ? href.replace(/^https?:\/\/[^\/]+/, "") : null;
+  }
+
+  // Extra names a page ships for runtime-rendered content (the China directory search).
+  if (window.HURFI_ZH_EXTRA) {
+    for (var extra in window.HURFI_ZH_EXTRA) {
+      if (Object.prototype.hasOwnProperty.call(window.HURFI_ZH_EXTRA, extra) && zh[extra] === undefined) {
+        zh[extra] = window.HURFI_ZH_EXTRA[extra];
+      }
+    }
+  }
+
+  // Visitors who chose 中文 before the static Chinese pages existed only have the choice in
+  // localStorage: move it to the cookie and open the real Chinese URL instead of
+  // translating the English page in place.
+  if (!STATIC) {
+    try {
+      if (localStorage.getItem(STORAGE) === "zh" && !/(?:^|;\s*)hurfi-lang=/.test(document.cookie)) {
+        var zhPath = zhAlternate();
+        remember("zh");
+        if (zhPath && zhPath !== window.location.pathname) window.location.replace(zhPath + window.location.search + window.location.hash);
+      }
+    } catch (e) {}
   }
 
   window.HURFI_I18N = { current: current, apply: apply, mount: mount, coverage: coverage, available: available,

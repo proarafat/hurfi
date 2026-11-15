@@ -450,7 +450,7 @@ def build_insights(ins, cities=None):
             main += faq_block(a['faq'], title='Common questions')
         ld = [org_ld(), crumbs_ld(bc),
               {"@context": "https://schema.org", "@type": "Article", "headline": a['h1'], "description": a['description'], "url": SITE + path, "mainEntityOfPage": SITE + path,
-               "datePublished": a['published'], "dateModified": a.get('modified', a['published']), "inLanguage": "en", "image": OG_IMAGE,
+               "datePublished": iso_dt(a['published']), "dateModified": iso_dt(a.get('modified', a['published'])), "inLanguage": "en", "image": OG_IMAGE,
                "author": {"@id": SITE + "/#organization"}, "publisher": {"@id": SITE + "/#organization"}}]
         if a.get('faq'):
             ld.append(faq_ld(a['faq']))
@@ -460,6 +460,10 @@ def sid_peek(s):
     # ids are assigned in section(); recompute the same slug deterministically
     b = re.sub(r'[^a-z0-9]+', '-', plain(s['h2']).lower()).strip('-')[:40]
     return 's-' + b if b[:1].isdigit() else b
+
+def iso_dt(d):
+    """Article dates with a time zone, as Google asks (ISO 8601; Hurfi publishes from Asia/Dhaka)."""
+    return d + 'T09:00:00+06:00' if len(d) == 10 else d
 
 def human_date(iso):
     y, m, d = iso.split('-')
@@ -1085,7 +1089,7 @@ def build_insight2(a, ins, cities):
           {"@context": "https://schema.org", "@type": "WebPage", "@id": SITE + path, "name": a['h1'], "url": SITE + path, "description": a['description'], "inLanguage": "en",
            "isPartOf": {"@type": "WebSite", "name": "Hurfi", "url": SITE + "/"}, "primaryImageOfPage": {"@type": "ImageObject", "url": SITE + img, "width": 1200, "height": 675}, "dateModified": a.get('modified', a['published'])},
           {"@context": "https://schema.org", "@type": "Article", "headline": a['h1'], "description": a['description'], "url": SITE + path, "mainEntityOfPage": SITE + path,
-           "datePublished": a['published'], "dateModified": a.get('modified', a['published']), "inLanguage": "en", "image": SITE + img,
+           "datePublished": iso_dt(a['published']), "dateModified": iso_dt(a.get('modified', a['published'])), "inLanguage": "en", "image": SITE + img,
            "author": {"@id": SITE + "/#organization"}, "publisher": {"@id": SITE + "/#organization"}},
           faq_ld(a['faq'])]
     wr(path.strip('/') + '/index.html', page(dict(title=a['title'], description=a['description'], path=path, data_page='insight', og_type='article', ld=ld), main))
@@ -1510,6 +1514,13 @@ def main():
     build_insights(ins, cities)
     build_zh(zh)
     build_core_ld()
+    zh_mirror()
+
+def zh_mirror():
+    """Last step: the static Chinese twin of every English page (/zh/**), hreflang on both,
+    sitemap alternates and the edge-function path list. It reads the pages written above."""
+    import subprocess
+    subprocess.run(['node', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'zh_mirror.mjs')], check=True)
 
 if __name__ == '__main__':
     if sys.argv[1:] == ['core-ld']:

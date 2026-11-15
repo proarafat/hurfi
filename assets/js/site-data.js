@@ -304,7 +304,7 @@ window.HURFI_SITE = {
     },
     {
       "path": "/projects/",
-      "title": "Projects | Hurfi",
+      "title": "Projects | B2B Websites & SEO for Manufacturers | Hurfi",
       "description": "Selected digital projects for Chinese manufacturers, suppliers, and B2B companies.",
       "type": "projects",
       "geo": null,
@@ -699,7 +699,7 @@ window.HURFI_SITE = {
     },
     {
       "path": "/contact/",
-      "title": "Contact Us | Hurfi",
+      "title": "Contact Hurfi | Export Marketing for Chinese Manufacturers",
       "description": "Contact Hurfi — B2B growth partner for Chinese manufacturers, suppliers, and exporters.",
       "type": "contact",
       "geo": null,
