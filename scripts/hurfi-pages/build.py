@@ -434,7 +434,7 @@ def build_insights(ins, cities=None):
         if v1c:
             rel_more += '\n        <p class="hx-toc-title">City guides</p>\n        <ul>%s<li><a href="/locations/#city-guides">All city guides</a></li></ul>' % ''.join('<li><a href="/locations/china/%s/">%s</a></li>' % (x, E(cities[x]['city'])) for x in v1c if x in cities)
         date_h = human_date(a['published'])
-        main = hero('Insights', a['h1'], a['lead'], meta='By the Hurfi team · <time datetime="%s">%s</time>' % (a['published'], date_h)) + crumbs_nav(bc)
+        main = hero('Insights', a['h1'], a['lead'], meta='By the Hurfi team · <time datetime="%s">%s</time>' % (a['published'], date_h), cta2=('See our work', '/projects/')) + crumbs_nav(bc)
         main += f'''    <div class="hx-article">
       <nav class="hx-toc" aria-label="On this page"><p class="hx-toc-title">On this page</p><ol>{toc}</ol></nav>
       <article class="hx-article-body">
@@ -1064,7 +1064,7 @@ def build_insight2(a, ins, cities):
     pvs = provinces()
     pvl = ''.join('<li><a href="/locations/china/%s/">%s</a></li>' % (x, E(pvs[x]['name'])) for x in mpv)
     date_h = human_date(a['published'])
-    main = hero('Insights', a['h1'], a['lead'], meta='By the Hurfi team · <time datetime="%s">%s</time>' % (a['published'], date_h), cta2=('Contact us', '/contact/')) + crumbs_nav(bc)
+    main = hero('Insights', a['h1'], a['lead'], meta='By the Hurfi team · <time datetime="%s">%s</time>' % (a['published'], date_h), cta2=('See our work', '/projects/')) + crumbs_nav(bc)
     main += f'''    <div class="hx-article">
       <nav class="hx-toc" aria-label="On this page"><p class="hx-toc-title">On this page</p><ol>{toc}</ol></nav>
       <article class="hx-article-body">
@@ -1356,6 +1356,9 @@ SERVICE_GUIDES = {
  'digital-marketing': ['google-ads-for-exporters', 'overseas-buyer-inquiries', 'trade-show-follow-up-for-manufacturers', 'choosing-an-export-marketing-agency'],
  'social-media-management': ['linkedin-for-factory-export-sales', 'trade-show-follow-up-for-manufacturers', 'factory-website-trust-signals'],
 }
+# Industry pages each service page links to (the audit found service pages linked none).
+SERVICE_INDUSTRIES = { "website-development": ["oem-odm", "industrial-machinery-cnc", "electronics-semiconductor", "power-grid-electrical-equipment", "medical-devices-diagnostics", "precision-manufacturing-components"], "seo": ["industrial-automation-robotics", "electronics-semiconductor", "chemicals-specialty-materials", "water-wastewater-technology", "battery-energy-storage", "laboratory-scientific-equipment"], "digital-marketing": ["industrial-machinery-cnc", "solar-renewable-power", "ev-e-mobility", "food-processing-equipment", "construction-materials-systems", "packaging-printing-manufacturing"], "social-media-management": ["oem-odm", "textiles-technical-fabrics", "apparel-footwear-production", "furniture-interior-manufacturing", "industrial-hvac-building-systems", "marine-shipbuilding-supply-chain"] }
+
 SERVICE_CITIES = ['shenzhen', 'guangzhou', 'shanghai', 'suzhou', 'hangzhou', 'ningbo', 'wuhan', 'xian']
 
 def build_service_links(ins, cities):
@@ -1365,7 +1368,10 @@ def build_service_links(ins, cities):
         reset_ids()
         g = '; '.join('[%s](/insights/%s/)' % (ins[k]['h1'], k) for k in guides if k in ins)
         cl = ', '.join('[%s](/locations/china/%s/)' % (cities[c]['city'], c) for c in SERVICE_CITIES if c in cities)
-        body = section(dict(h2='Related guides and city pages', p=['Guides: ' + g + '.', 'City guides for manufacturers in ' + cl + ', and [all city guides](/locations/#city-guides).'], id='service-guides'))
+        names = sector_names()
+        inds = ['[%s](/industries/%s/)' % (names[x], x) for x in SERVICE_INDUSTRIES.get(key, []) if x in names] + ['[All industries](/industries/)']
+        body = section(dict(h2='Related guides and city pages', p=['Guides: ' + g + '.', 'City guides for manufacturers in ' + cl + ', and [all city guides](/locations/#city-guides).', 'Industries we do this work for:'],
+                            ul=inds, p2=['[See finished websites, search and campaign work](/projects/)'], id='service-guides'))
         s = set_block(s, 'service-guides', body, before='    <section class="brief" aria-labelledby="other-title">')
         wr(rel, s)
 

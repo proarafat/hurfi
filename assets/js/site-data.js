@@ -707,7 +707,7 @@ window.HURFI_SITE = {
     },
     {
       "path": "/book-consultation/",
-      "title": "Book a Consultation | Hurfi",
+      "title": "Book a Free Export Marketing Consultation | Hurfi",
       "description": "Book a free consultation with Hurfi — strategy call for Chinese manufacturers, suppliers, and B2B companies.",
       "type": "conversion",
       "geo": null,
