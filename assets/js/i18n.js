@@ -20342,6 +20342,8 @@
     if (name === "en") return true;
     if (STATIC === name) return true;
     if (name === "zh" && zhAlternate()) return true;
+    // In the runtime build French is not loaded yet: the build lists the pages it covers.
+    if (name === "fr" && FR_PAGES && !frReady()) return !!FR_PAGES[window.location.pathname];
     if (!document.body) return false;
     return coverage(name) >= MIN_COVERAGE;
   }
@@ -20429,6 +20431,27 @@
         if (zhPath && zhPath !== window.location.pathname) window.location.replace(zhPath + window.location.search + window.location.hash);
       }
     } catch (e) {}
+  }
+
+  // Pages load assets/js/i18n-run.js, built from this file by scripts/hurfi-pages/zh_mirror.mjs:
+  // the same code with only the zh strings scripts insert at runtime (the /zh/ pages are
+  // static), and French fetched from FR_SRC for visitors who chose it. Here both are null.
+  var FR_PAGES = null, FR_SRC = null; // set in i18n-run.js
+
+  function frReady() {
+    for (var key in fr) if (Object.prototype.hasOwnProperty.call(fr, key)) return true;
+    return false;
+  }
+
+  if (FR_SRC && !STATIC && current() === "fr" && !frReady()) {
+    var frTag = document.createElement("script");
+    frTag.src = FR_SRC;
+    frTag.onload = function () {
+      fr = window.HURFI_I18N_FR || {};
+      COVERAGE = {};
+      if (document.body) apply(document.body);
+    };
+    document.head.appendChild(frTag);
   }
 
   window.HURFI_I18N = { current: current, apply: apply, mount: mount, coverage: coverage, available: available,

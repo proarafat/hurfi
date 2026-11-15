@@ -12,7 +12,7 @@ It does **not** regenerate the site. It writes only the pages and blocks listed 
 | `content/cities.json` | 4 pilot city pages: facts **with source ids**, sources (publisher, URL, checked date), sector links, approach, FAQ |
 | `content/insights.json` | `/insights/` hub + 3 articles (sections, FAQ, publish date) |
 | `content/zh.json` | 5 hand-written Simplified Chinese pages (`/zh/`, `/zh/services/*`) with their English alternates |
-| `zh_mirror.mjs` | Static Chinese twin of every other English page under `/zh/`, hreflang on both, sitemap alternates, `netlify/edge-functions/zh-paths.js`. Runs last in `build.py`. `--report` / `--missing` show translation gaps |
+| `zh_mirror.mjs` | Static Chinese twin of every other English page under `/zh/`, hreflang on both, sitemap alternates, `netlify/edge-functions/lang-redirect/zh-paths.js`, the runtime `assets/js/i18n-run.js` / `i18n-fr.js`. Runs last in `build.py`. `--report` / `--missing` show translation gaps |
 | `content/zh-meta.json` | Chinese for strings the `i18n.js` dictionary lacks (titles, descriptions, leftover text); keys are the exact English |
 | `content/zh-places.json` | Chinese place names; keys like `Yulin` plus `province` (joined by a pipe) settle shared names (Yulin, Yichun, Taizhou, Fuzhou, Suzhou) |
 | `content/pages.json` | OEM/ODM rewrite, service-page additions, homepage title/H1 line, locations hub title |

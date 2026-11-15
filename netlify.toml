@@ -1,6 +1,8 @@
 # Static publish. Do not run npm run build: patch-pages rewrites the live pages.
 [build]
-  command = "node -e \"console.log('Hurfi static publish')\""
+  # Static site. The only build step refreshes the generated Chinese pages, hreflang, sitemap and
+  # i18n-run.js (scripts/hurfi-pages/zh_mirror.mjs); if it fails, the committed files are published.
+  command = "node scripts/hurfi-pages/zh_mirror.mjs || echo 'zh_mirror failed: publishing the committed files'"
   publish = "."
 
 [build.environment]
