@@ -1520,7 +1520,14 @@ def main():
     build_insights(ins, cities)
     build_zh(zh)
     build_core_ld()
+    service_cities()
     zh_mirror()
+
+def service_cities():
+    """Service x city landing pages (/seo-agency-shenzhen/ ...) and their links on the service and city
+    pages; content in content/service-cities.mjs. Runs before zh_mirror, which builds their /zh/ twins."""
+    import subprocess
+    subprocess.run(['node', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'service_cities.mjs')], check=True)
 
 def zh_mirror():
     """Last step: the static Chinese twin of every English page (/zh/**), hreflang on both,

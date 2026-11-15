@@ -5,6 +5,8 @@ export default {
  "/book-consultation/": "/zh/book-consultation/",
  "/brand-guidelines/": "/zh/brand-guidelines/",
  "/contact/": "/zh/contact/",
+ "/digital-marketing-agency-guangzhou/": "/zh/digital-marketing-agency-guangzhou/",
+ "/digital-marketing-agency-shenzhen/": "/zh/digital-marketing-agency-shenzhen/",
  "/industries/": "/zh/industries/",
  "/industries/aerospace-aviation-supply-chain/": "/zh/industries/aerospace-aviation-supply-chain/",
  "/industries/agritech-agricultural-equipment/": "/zh/industries/agritech-agricultural-equipment/",
@@ -121,10 +123,16 @@ export default {
  "/privacy-policy/": "/zh/privacy-policy/",
  "/projects/": "/zh/projects/",
  "/refund-policy/": "/zh/refund-policy/",
+ "/seo-agency-guangzhou/": "/zh/seo-agency-guangzhou/",
+ "/seo-agency-shenzhen/": "/zh/seo-agency-shenzhen/",
  "/services/": "/zh/services/",
  "/services/digital-marketing/": "/zh/services/digital-marketing/",
  "/services/seo/": "/zh/services/seo/",
  "/services/social-media-management/": "/zh/services/social-media-management/",
  "/services/website-development/": "/zh/services/website-development/",
- "/terms/": "/zh/terms/"
+ "/social-media-management-agency-guangzhou/": "/zh/social-media-management-agency-guangzhou/",
+ "/social-media-management-agency-shenzhen/": "/zh/social-media-management-agency-shenzhen/",
+ "/terms/": "/zh/terms/",
+ "/website-development-agency-guangzhou/": "/zh/website-development-agency-guangzhou/",
+ "/website-development-agency-shenzhen/": "/zh/website-development-agency-shenzhen/"
 };

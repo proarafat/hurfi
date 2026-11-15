@@ -11,6 +11,7 @@ It does **not** regenerate the site. It writes only the pages and blocks listed 
 | `content/sectors.json` | 12 menu sector pages: title, H1, lead, buyer checks, site work, gaps, search topics, FAQ, related pilot cities |
 | `content/cities.json` | 4 pilot city pages: facts **with source ids**, sources (publisher, URL, checked date), sector links, approach, FAQ |
 | `content/insights.json` | `/insights/` hub + 3 articles (sections, FAQ, publish date) |
+| `service_cities.mjs` + `content/service-cities.mjs` | 8 service × city landing pages (`/website-development-agency-shenzhen/`, `/seo-agency-guangzhou/` …): English + Chinese pairs in one file; also writes their links on the 4 service pages and the Shenzhen/Guangzhou guides, sitemap entries, the llms.txt section and the Chinese into `zh-meta.json`. `build.py` runs it before `zh_mirror.mjs` |
 | `content/zh.json` | 5 hand-written Simplified Chinese pages (`/zh/`, `/zh/services/*`) with their English alternates |
 | `zh_mirror.mjs` | Static Chinese twin of every other English page under `/zh/`, hreflang on both, sitemap alternates, `netlify/edge-functions/lang-redirect/zh-paths.js`, the runtime `assets/js/i18n-run.js` / `i18n-fr.js`. Runs last in `build.py`. `--report` / `--missing` show translation gaps |
 | `content/zh-meta.json` | Chinese for strings the `i18n.js` dictionary lacks (titles, descriptions, leftover text); keys are the exact English |

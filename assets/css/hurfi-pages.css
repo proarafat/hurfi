@@ -36,6 +36,9 @@ body .about-hero.hx-hero h1 {
 .brief.hx-prose > p,
 .brief.hx-sources > p { text-align: left; max-width: 46rem; }
 .brief.hx-prose h2 { margin-bottom: 0.2rem; }
+.brief.hx-prose > h3 { max-width: 46rem; margin: 1.6rem auto 0; text-align: left; font-size: 1.12rem; color: #fff; }
+.brief.hx-prose > h3 + p { margin-top: 0.4rem; }
+.hx-src-note { font-size: 0.86rem; }
 .hx-list {
   max-width: 46rem;
   margin: 1rem auto 0;
