@@ -17,6 +17,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { CITIES, SERVICES, PAGES, AREAS_NOTE, UPDATED } from "./content/service-cities.mjs";
+import { IMAGES, HERO_IMAGE, TRUST, LAYOUT } from "./content/service-cities-layout.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..", "..");
@@ -101,14 +102,14 @@ ${GTM_HEAD}${GTAG}${CLARITY}  <meta charset="UTF-8">
   <meta property="og:description" content="${E(p.description)}">
   <meta property="og:url" content="${SITE}${p.path}">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="${OG_IMAGE}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Hurfi — export marketing for Chinese manufacturers">
+  <meta property="og:image" content="${p.og ? SITE + p.og.src : OG_IMAGE}">
+  <meta property="og:image:width" content="${p.og ? p.og.w : 1200}">
+  <meta property="og:image:height" content="${p.og ? p.og.h : 630}">
+  <meta property="og:image:alt" content="${p.og ? E(p.og.alt) : "Hurfi — export marketing for Chinese manufacturers"}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${E(p.title)}">
   <meta name="twitter:description" content="${E(p.description)}">
-  <meta name="twitter:image" content="${OG_IMAGE}">
+  <meta name="twitter:image" content="${p.og ? SITE + p.og.src : OG_IMAGE}">
 ${ld}</head>
 <body data-page="service">
 ${GTM_BODY}`;
@@ -133,42 +134,191 @@ function crumbsNav(items) {
   return `    <nav class="hx-crumbs" aria-label="Breadcrumb"><ol>${li}</ol></nav>\n`;
 }
 
-function hero(kicker, h1, lead, note) {
-  return `    <header class="about-hero hx-hero">
-      <div class="container">
-        <p class="about-kicker">${E(kicker)}</p>
-        <h1>${E(t(h1))}</h1>
-        <p class="about-hero-lead">${E(t(lead))}</p>
-        <p class="hx-hero-note">${E(t(note))}</p>
-        <div class="cta-row hx-cta-row"><a class="btn" href="/book-consultation/#book-form">Book a Consultation</a><a class="btn btn-outline" href="/contact/">Contact us</a></div>
-      </div>
+/* ------------------------------------------------------------ icons (stroke, 24px grid) */
+const ICONS = {
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  monitor: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',
+  factory: '<path d="M3 21V11l5 3v-3l5 3V8l5 3V4h3v17z"/><path d="M7 17h2M12 17h2M17 17h2"/>',
+  globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+  chart: '<path d="M4 20V11M10 20V5M16 20v-6M22 20H2"/>',
+  pen: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/>',
+  share: '<circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="m8.2 10.9 7.6-3.8M8.2 13.1l7.6 3.8"/>',
+  users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/>',
+  shield: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/>',
+  compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+  cart: '<circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h12L22 7H6.2"/>',
+  video: '<rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3"/>',
+  mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7L11.5 7M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1.5-1.5"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  layers: '<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
+  pin: '<path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>',
+  spark: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+};
+const icon = (name) => `<span class="sc-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICONS[name] || ICONS.spark}</svg></span>`;
+const ICON_RULES = [
+  [/video|reel/i, "video"], [/email/i, "mail"], [/CRM|integration|link/i, "link"], [/e-commerce|shop|shopify/i, "cart"],
+  [/linkedin|social|facebook|instagram|post/i, "share"], [/search|seo|keyword|google|on-page/i, "search"],
+  [/international|export|global|overseas|trading/i, "globe"], [/track|measure|performance|data|report|monitor|analysis|speed/i, "chart"],
+  [/content|story|storytelling|design|creative|catalogue|specification/i, "pen"], [/ads|advertis|campaign|lead|enquir|quotation|retarget/i, "target"],
+  [/factory|manufactur|industrial|machinery|oem|odm|automotive|ev |electrical|medical|furniture|textile|apparel|electronics|semiconductor|supplier/i, "factory"],
+  [/website|web|corporate|responsive|wordpress|custom/i, "monitor"], [/team|partner|business|understand|b2b|one team/i, "users"],
+  [/trust|confidence|honest|hostinger|transparent|promise|consistent|credib/i, "shield"], [/strategy|plan|journey|process/i, "compass"],
+  [/technology|tech/i, "layers"],
+];
+const pickIcon = (text) => (ICON_RULES.find(([re]) => re.test(text)) || [0, "spark"])[1];
+
+/* ------------------------------------------------------------ images */
+function figure(key, { cls = "sc-media", eager = false } = {}) {
+  const I = IMAGES[key];
+  if (!I) throw new Error("unknown image " + key);
+  const load = eager ? ' fetchpriority="high" decoding="async"' : ' loading="lazy" decoding="async"';
+  const parts = [];
+  if (I.caption) parts.push(`<span>${E(t(I.caption))}</span>`);
+  if (I.credit) {
+    const c = I.credit;
+    parts.push(`<span class="sc-credit">${E(pair("Photo:", "图片："))} <a href="${E(c.page)}" target="_blank" rel="noopener">${E(t([c.author, c.author]))}</a>, <a href="${E(c.licenseUrl)}" target="_blank" rel="noopener license">${E(c.license)}</a>${E(pair(", via Wikimedia Commons", "，来自维基共享资源"))}</span>`);
+  }
+  const cap = parts.length ? `\n        <figcaption>${parts.join(" ")}</figcaption>` : "";
+  return `      <figure class="${cls}">
+        <img src="${I.src}" alt="${E(t(I.alt))}" width="${I.w}" height="${I.h}"${load}>${cap}
+      </figure>
+`;
+}
+const imageLd = (key) => {
+  const I = IMAGES[key];
+  const o = { "@type": "ImageObject", url: SITE + I.src, width: I.w, height: I.h, caption: I.alt[0] };
+  if (I.credit) Object.assign(o, { creator: { "@type": "Person", name: I.credit.author }, creditText: `${I.credit.author} / Wikimedia Commons`, license: I.credit.licenseUrl, acquireLicensePage: I.credit.page });
+  return o;
+};
+
+/* ------------------------------------------------------------ page blocks */
+function hero(kicker, h1, lead, note, imgKey) {
+  return `    <header class="about-hero hx-hero sc-hero">
+      <div class="container sc-hero-grid">
+        <div class="sc-hero-copy">
+          <p class="about-kicker">${E(kicker)}</p>
+          <h1>${E(t(h1))}</h1>
+          <p class="about-hero-lead">${E(t(lead))}</p>
+          <p class="hx-hero-note">${E(t(note))}</p>
+          <div class="cta-row hx-cta-row"><a class="btn" href="/book-consultation/#book-form">Book a Consultation</a><a class="btn btn-outline" href="/contact/">Contact us</a></div>
+        </div>
+${figure(imgKey, { cls: "sc-media sc-hero-media", eager: true }).replace(/^/gm, "    ").replace(/^    $/gm, "")}      </div>
     </header>
 `;
 }
 
-function section(s) {
+function trustStrip() {
+  const li = TRUST.map(([ic, txt]) => `        <li>${icon(ic)}<span>${E(t(txt))}</span></li>\n`).join("");
+  return `    <section class="sc-trust" aria-label="${E(pair("Working with Hurfi", "与 Hurfi 合作"))}">\n      <ul>\n${li}      </ul>\n    </section>\n`;
+}
+
+const checklist = (items) => `      <ul class="sc-check${items.length > 6 ? " sc-check--cols" : ""}">\n${items.map((x) => `        <li>${E(t(x))}</li>\n`).join("")}      </ul>\n`;
+const srcNote = (src) => {
+  if (!src) return "";
+  const links = src.links || [[src.label, src.url]];
+  return `      <p class="hx-src-note">${E(t(src.pre))} ${links.map(([l, u]) => `<a href="${u}" target="_blank" rel="noopener">${E(t(l))}</a>`).join("; ")}</p>\n`;
+};
+function statsBand(st) {
+  if (!st) return "";
+  const items = st.items.map(([n, l]) => `        <div class="sc-stat"><strong>${E(t(n))}</strong><span>${E(t(l))}</span></div>\n`).join("");
+  return `      <div class="sc-stats">\n${items}      </div>\n` + srcNote(st.src);
+}
+
+/** One content section. Sub-blocks -> icon card grid; cards -> linked card grid; otherwise a text row,
+ *  with a photo (alternating sides) when the layout gives one, or a checklist panel when it has a list. */
+let splitCount = 0;
+function section(s, imgKey, stats) {
   const h2 = t(s.h2);
   const i = sid(h2);
-  let out = `    <section class="brief hx-prose" aria-labelledby="${i}">\n      <h2 id="${i}">${E(h2)}</h2>\n`;
-  out += paras(s.p);
-  if (s.src) out += `      <p class="hx-src-note">${E(t(s.src.pre))} <a href="${s.src.url}" target="_blank" rel="noopener">${E(t(s.src.label))}</a></p>\n`;
-  if (s.ul) out += ul(s.ul);
-  for (const x of s.sub || []) {
-    out += `      <h3>${E(t(x.h3))}</h3>\n` + paras(x.p);
-    if (x.ul) out += ul(x.ul);
-    out += paras(x.p2);
-  }
-  if (s.cards) {
-    out += '      <div class="brief-grid">\n';
-    for (const c of s.cards) {
-      const name = t(c.t);
-      out += `        <article class="brief-card"><h3>${c.u ? `<a href="${c.u}">${E(name)}</a>` : E(name)}</h3><p>${E(t(c.b))}</p></article>\n`;
+  if (s.sub || s.cards) {
+    const items = s.sub ? s.sub.map((x) => ({ h: x.h3, p: x.p, ul: x.ul, p2: x.p2 })) : s.cards.map((c) => ({ h: c.t, u: c.u, p: [c.b] }));
+    const lists = items.some((x) => x.ul);
+    const n = items.length;
+    const cols = lists ? (n % 3 === 0 || n === 5 ? 3 : 2) : n === 4 ? 4 : n % 3 === 0 || n === 5 ? 3 : 2;
+    let out = `    <section class="brief sc-features" aria-labelledby="${i}">\n      <h2 id="${i}">${E(h2)}</h2>\n` + paras(s.p) + srcNote(s.src);
+    out += `      <div class="sc-grid sc-grid--${cols}">\n`;
+    for (const x of items) {
+      const name = t(x.h);
+      const head = x.u ? `<a href="${x.u}">${E(name)} <span aria-hidden="true">→</span></a>` : E(name);
+      out += `        <article class="sc-card${x.u ? " sc-card--link" : ""}">\n          ${icon(pickIcon(name))}\n          <h3>${head}</h3>\n`;
+      out += paras(x.p, "          ");
+      if (x.ul) out += checklist(x.ul).replace(/^/gm, "    ").replace(/^    $/gm, "");
+      out += paras(x.p2, "          ");
+      out += "        </article>\n";
     }
-    out += "      </div>\n";
+    out += "      </div>\n" + paras(s.p2) + statsBand(stats);
+    return out + "    </section>\n";
   }
-  out += paras(s.p2);
-  if (s.ul2) out += ul(s.ul2);
-  return out + "    </section>\n";
+  const list = [...(s.ul || []), ...(s.ul2 || [])];
+  if (imgKey) {
+    const rev = splitCount++ % 2 === 1;
+    let copy = `        <h2 id="${i}">${E(h2)}</h2>\n` + paras(s.p, "        ") + srcNote(s.src).replace(/^      /, "        ");
+    const cl = (l) => (l && l.length ? checklist(l).replace(/^/gm, "  ").replace(/^  $/gm, "") : "");
+    copy += cl(s.ul) + paras(s.p2, "        ") + cl(s.ul2);
+    return `    <section class="brief sc-split${rev ? " sc-split--rev" : ""}" aria-labelledby="${i}">
+      <div class="sc-split-copy">
+${copy}      </div>
+${figure(imgKey)}${statsBand(stats)}    </section>
+`;
+  }
+  if (list.length) {
+    let copy = `        <h2 id="${i}">${E(h2)}</h2>\n` + paras(s.p, "        ") + srcNote(s.src).replace(/^      /, "        ") + paras(s.p2, "        ");
+    return `    <section class="brief sc-split sc-split--panel" aria-labelledby="${i}">
+      <div class="sc-split-copy">
+${copy}      </div>
+      <div class="sc-panel">
+${checklist(list).replace(/^/gm, "  ").replace(/^  $/gm, "")}      </div>
+${statsBand(stats)}    </section>
+`;
+  }
+  return `    <section class="brief hx-prose" aria-labelledby="${i}">\n      <h2 id="${i}">${E(h2)}</h2>\n` + paras(s.p) + srcNote(s.src) + paras(s.p2) + statsBand(stats) + "    </section>\n";
+}
+
+// "Proof from the work": the first screenshots of the matching service page (same captions).
+function proofBand(svc) {
+  const s = rd(`services/${svc}/index.html`);
+  const band = s.match(/<section class="proof-band"[\s\S]*?<\/section>/);
+  if (!band) return "";
+  const h2 = band[0].match(/<h2[^>]*>([\s\S]*?)<\/h2>/)[1], lead = band[0].match(/<\/h2>\s*<p>([\s\S]*?)<\/p>/)[1];
+  const figs = [...band[0].matchAll(/<figure class="proof-shot">[\s\S]*?<\/figure>/g)].slice(0, 3).map((m) => "        " + m[0].replace(/\n\s*/g, "\n          ").replace(/\n          <\/figure>$/, "\n        </figure>")).join("\n");
+  return `    <section class="proof-band" aria-labelledby="proof-title">
+      <h2 id="proof-title">${h2}</h2>
+      <p>${lead}</p>
+      <div class="proof-grid">
+${figs}
+      </div>
+    </section>
+`;
+}
+
+// Hurfi's own posts (same markup and wording as build.py posts_strip)
+const POSTS = JSON.parse(rd("scripts/hurfi-pages/content/posts.json"));
+function postsStrip(slugs) {
+  const figs = slugs.filter((k) => POSTS[k]).map((k) => `        <figure class="hx-post"><img src="/assets/img/hurfi-post/web/${k}.webp" alt="${E(POSTS[k].alt)}" width="${POSTS[k].w}" height="${POSTS[k].h}" loading="lazy" decoding="async"></figure>\n`).join("");
+  return `    <section class="brief hx-posts" aria-labelledby="posts-title">
+      <h2 id="posts-title">Hurfi on social media</h2>
+      <p>A few of Hurfi’s own social media posts for manufacturers. They show our brand work and how we talk to factories; they are not client results.</p>
+      <div class="hx-post-grid">
+${figs}      </div>
+      <p class="hx-post-note">Want posts like these for your factory? See <a href="/services/social-media-management/">social media management</a>.</p>
+    </section>
+`;
+}
+
+function areasBlock(pg, C) {
+  const li = C.areas.map(([en, zh]) => {
+    const [n, d] = en.split(/:\s*/), [zn, zd] = zh.split("：");
+    return `        <li>${icon("pin")}<div><strong>${E(t([n, zn]))}</strong><span>${E(t([d, zd]))}</span></div></li>\n`;
+  }).join("");
+  return `    <section class="brief sc-areas" aria-labelledby="areas-title">
+      <h2 id="areas-title">${E(t(pg.areasH2))}</h2>
+${paras([pg.areasP])}      <ul class="sc-area-grid">
+${li}      </ul>
+      <p class="sc-note">${E(t(AREAS_NOTE))}</p>
+    </section>
+`;
 }
 
 function ctaBand(ident, h2, ps, extra = "") {
@@ -182,8 +332,8 @@ ${extra}    </section>
 function processBlock(pr) {
   const h2 = t(pr.h2);
   const i = sid(h2);
-  const li = pr.steps.map(([a, b]) => `        <li><strong>${E(t([a[0] + ".", a[1] + "："]))}</strong> ${E(t(b))}</li>\n`).join("");
-  return `    <section class="brief hx-prose" aria-labelledby="${i}">\n      <h2 id="${i}">${E(h2)}</h2>\n      <ol class="hx-list hx-steps">\n${li}      </ol>\n    </section>\n`;
+  const li = pr.steps.map(([a, b], n) => `        <li class="sc-step"><span class="sc-step-n" aria-hidden="true">${String(n + 1).padStart(2, "0")}</span><h3>${E(t(a))}</h3><p>${E(t(b))}</p></li>\n`).join("");
+  return `    <section class="brief sc-process" aria-labelledby="${i}">\n      <h2 id="${i}">${E(h2)}</h2>\n      <ol class="sc-steps">\n${li}      </ol>\n    </section>\n`;
 }
 
 function faqBlock(title, faq) {
@@ -219,23 +369,25 @@ const CITY_GUIDE = (city) => [`Guide for ${CITIES[city].name[0]} manufacturers`,
 
 /* ------------------------------------------------------------ pages */
 function build(pg) {
-  ids = new Set(["rk-faq-title", "midcta-title", "endcta-title", "related-title", "areas-title"]);
+  ids = new Set(["rk-faq-title", "midcta-title", "endcta-title", "related-title", "areas-title", "proof-title", "posts-title"]);
   const S = SERVICES[pg.svc], C = CITIES[pg.city];
   const url = urlOf(pg), abs = SITE + url;
   const cityName = t(C.name), title = t(pg.title), desc = t(pg.description), h1 = t(pg.h1);
   const myLabel = t(label(pg.svc, pg.city));
   const crumbs = [["Home", "/"], ["Services", "/services/"], [S.crumb, `/services/${pg.svc}/`], [C.name, url]];
 
-  let main = hero(t([`${cityName} · ${S.crumb}`, `${C.name[1]} · ${S.lower[1]}`]), pg.h1, pg.lead, C.remote) + crumbsNav(crumbs);
+  const L = LAYOUT[pg.slug] || {};
+  const heroKey = HERO_IMAGE[pg.city];
+  splitCount = 0;
+  let main = hero(t([`${cityName} · ${S.crumb}`, `${C.name[1]} · ${S.lower[1]}`]), pg.h1, pg.lead, C.remote, heroKey) + crumbsNav(crumbs) + trustStrip();
   pg.sections.forEach((s, n) => {
-    main += section(s);
+    main += section(s, (L.imgs || {})[n], (L.stats || {})[n]);
     if (n === 1) main += ctaBand("midcta-title", S.mid[0], [S.mid[1]]);
   });
+  main += proofBand(pg.svc);
   main += processBlock(pg.process);
-  main += `    <section class="brief hx-prose" aria-labelledby="areas-title">
-      <h2 id="areas-title">${E(t(pg.areasH2))}</h2>
-${paras([pg.areasP])}${ul(C.areas)}${paras([AREAS_NOTE])}    </section>
-`;
+  if (L.posts) main += postsStrip(L.posts);
+  main += areasBlock(pg, C);
   const lowerSvc = SERVICES[pg.svc].lower;
   main += faqBlock([`Questions about ${lowerSvc[0]} in ${C.name[0]}`, `关于${C.name[1]}${lowerSvc[1]}的常见问题`], pg.faq);
 
@@ -266,13 +418,14 @@ ${paras([pg.areasP])}${ul(C.areas)}${paras([AREAS_NOTE])}    </section>
     crumbLd,
     { "@context": "https://schema.org", "@type": "WebPage", "@id": abs + "#webpage", url: abs, name: title, description: desc, inLanguage: "en",
       isPartOf: { "@type": "WebSite", "@id": SITE + "/#website", name: "Hurfi", url: SITE + "/" }, publisher: { "@id": ORG_ID }, breadcrumb: { "@id": abs + "#breadcrumb" },
-      mainEntity: { "@id": abs + "#service" }, about: area, dateModified: UPDATED },
-    { "@context": "https://schema.org", "@type": "Service", "@id": abs + "#service", name: myLabel, serviceType: S.crumb, description: desc, url: abs,
+      mainEntity: { "@id": abs + "#service" }, about: area, primaryImageOfPage: imageLd(heroKey), dateModified: UPDATED },
+    { "@context": "https://schema.org", "@type": "Service", "@id": abs + "#service", name: myLabel, serviceType: S.crumb, description: desc, url: abs, image: SITE + IMAGES[heroKey].src,
       provider: { "@id": ORG_ID }, areaServed: area,
       audience: { "@type": "BusinessAudience", audienceType: "Manufacturers, exporters and B2B companies" } },
     { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: pg.faq.map(([q, a]) => ({ "@type": "Question", name: q[0], acceptedAnswer: { "@type": "Answer", text: a[0] } })) },
   ];
-  let html = head({ title, description: desc, path: url, ld }) + HEADER + "  <main>\n" + main + "  </main>\n" + TAIL;
+  const H = IMAGES[heroKey];
+  let html = head({ title, description: desc, path: url, ld, og: { src: H.src, w: H.w, h: H.h, alt: t(H.alt) } }) + HEADER + "  <main>\n" + main + "  </main>\n" + TAIL;
   // Keep what zh_mirror.mjs adds to the English page (hreflang block, runtime script version),
   // so running this script again without the mirror changes nothing.
   const rel = `${pg.slug}/index.html`;
