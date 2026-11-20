@@ -180,6 +180,7 @@ def head(p):
 <html lang="{lang}"{' data-static-lang="zh"' if lang.startswith('zh') else ''}>
 <head>
 {GTM_HEAD}{GTAG}{CLARITY}  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="codeva-xVWX79g5yR" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{E(t)}</title>
   <meta name="description" content="{E(d)}">
