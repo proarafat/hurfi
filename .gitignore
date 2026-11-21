@@ -30,3 +30,7 @@ __pycache__/
 
 # Search Console exports (the repo root is the publish dir, so keep them out of git)
 hurfi.com-Coverage-*/
+
+# Build output (scripts/site/build.mjs)
+dist/
+build-report.json

@@ -112,7 +112,7 @@
     "Not Sure Yet": "还不确定",
     "Project Details": "项目详情",
     "Tell us about your business, your goals, and what you need help with...": "说说您的业务、目标和需要什么帮助……",
-    "Preferred Contact Method": "首选联系方式",
+    "Preferred Contact Method": "希望的联系方式",
     "Enter your full name.": "请填写姓名。",
     "Enter a valid business email.": "请填写有效的商务邮箱。",
     "Choose a service.": "请选择一项服务。",
@@ -267,7 +267,7 @@
     "Xi'an": "西安",
     "Bogura": "博格拉",
     "Colony Chokforid Road, Bogura, Bangladesh": "Colony Chokforid Road, Bogura, 孟加拉国",
-    "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi": "海天苑三，西北工业大学长安校区，西安，陕西",
+    "Dongxiang Road, Chang'an District, Xi'an, Shaanxi 710129": "陕西省西安市长安区东祥路 710129",
     "Legal": "法律",
     "Privacy Policy": "隐私政策",
     "Terms & Conditions": "条款与条件",
@@ -521,7 +521,7 @@
     "Families can find the right information faster. That was the brief, and Hurfi stayed with it.": "家庭可以更快找到正确的信息。这就是要求，Hurfi 一直按这个做。",
     "A clean process and a site that finally matches the standard of the work we do.": "过程干净，网站终于配得上我们工作的标准。",
     "They made a serious service feel approachable. The pages are clearer, and nothing important got lost.": "他们让一项严肃的服务变得容易接近。页面更清楚，重要的东西没有丢。",
-    "Thoughtful from the first conversation. The site now explains the partnership in a way clients understand.": "从第一次谈话起就很用心。网站现在用客户能懂的方式解释这种合作。",
+    "Thoughtful from the first conversation. The site now explains the partnership in a way clients understand.": "从首次谈话起就很用心。网站现在用客户能懂的方式解释这种合作。",
     "Steady communication across the project. The finished pages feel international without losing who we are.": "整个项目沟通稳定。完成的页面有国际感，也没有丢掉我们是谁。",
     "Direct, respectful, and precise. The new presence is something we are comfortable standing behind.": "直接、尊重、精确。新的形象是我们愿意站在后面的。",
     "Hurfi presented the range with more clarity. Showrooms and buyers can see the offer without the clutter.": "Hurfi 把产品系列讲得更清楚。展厅和买家不用在杂乱里找。",
@@ -734,7 +734,7 @@
     "The catalog should be findable. A buried PDF is not a catalog.": "目录要找得到。藏起来的 PDF 不算目录。",
     "A way to start": "一个开始的方式",
     "Inquiry, WeChat, or a clear next step. The page should not end in silence.": "询盘、微信，或一个清楚的下一步。页面不该停在沉默里。",
-    "Does the page need every product on day one?": "第一天就要放上所有产品吗？",
+    "Does the page need every product on day one?": "首日就要放上所有产品吗？",
     "No. Start with the ranges buyers ask for. The catalog can grow after the structure is right.": "不用。先放买家会问的系列。结构对了，目录可以再长。",
     "Industrial Suppliers": "工业供应商",
     "Industrial Suppliers | Hurfi": "工业供应商 | Hurfi",
@@ -744,7 +744,7 @@
     "Proof of supply": "供货证明",
     "What you make, what you can repeat, and how a buyer asks.": "你做什么、能不能稳定做、买家怎么问。",
     "Trust before the call": "通话之前的信任",
-    "The page has to answer the first questions, so the call is about the order.": "页面要先回答第一批问题，通话才谈得上订单。",
+    "The page has to answer the first questions, so the call is about the order.": "页面要先回答首批问题，通话才谈得上订单。",
     "Our buyers compare several factories. What should the site show first?": "我们的买家会比较几家工厂。网站先展示什么？",
     "Capability, the range, and a way to inquire. A slogan does not help that comparison.": "能力、系列，以及询盘的方式。一句口号帮不上这种比较。",
     "Electronics": "电子",
@@ -832,7 +832,7 @@
     "Supply, not a brochure": "供货，不是画册",
     "Lead times, range, and who the factory sells to.": "交期、系列，以及工厂卖给谁。",
     "Two kinds of buyer": "两类买家",
-    "A project and a distributor do not ask the same first question.": "项目方和经销商的第一个问题不一样。",
+    "A project and a distributor do not ask the same first question.": "项目方和经销商的首个问题不一样。",
     "Projects and distributors ask different questions. One site?": "项目方和经销商问的不一样。一个网站够吗？",
     "One site, with pages that answer both: the material, and how supply works.": "一个网站，用不同页面回答两件事：材料和供货怎么进行。",
     "Furniture": "家具",
@@ -998,7 +998,7 @@
   zh["Icon Blue"] = "图标蓝";
   zh["The flat blue in the app icon PNG. The SVG file uses #007AFE."] = "应用图标 PNG 里的纯色蓝。SVG 文件使用 #007AFE。";
   zh["Palette Blue"] = "色板蓝";
-  zh["The first blue in the identity palette."] = "视觉识别色板里的第一块蓝色。";
+  zh["The first blue in the identity palette."] = "视觉识别色板里的首块蓝色。";
   zh["Growth Green"] = "成长绿";
   zh["The green beside blue in the identity palette."] = "视觉识别色板里，蓝色旁边的绿色。";
   zh["Sky"] = "天空蓝";
@@ -1316,7 +1316,7 @@
     "Xi'an": "Xi'an",
     "Bogura": "Bogura",
     "Colony Chokforid Road, Bogura, Bangladesh": "Colony Chokforid Road, Bogura, Bangladesh",
-    "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi": "Haitianyuan 3, campus de Chang'an, Northwestern Polytechnical University, Xi'an, Shaanxi",
+    "Dongxiang Road, Chang'an District, Xi'an, Shaanxi 710129": "Dongxiang Road, district de Chang'an, Xi'an, Shaanxi 710129",
     "Legal": "Juridique",
     "Privacy Policy": "Politique de confidentialité",
     "Terms & Conditions": "Conditions générales",
@@ -2145,7 +2145,7 @@
   zh["Brand Guidelines"] = "品牌规范";
   zh["Hurfi helps Chinese manufacturers, suppliers, and exporters with websites, SEO, digital marketing, and social media."] = "Hurfi 为中国制造商、供应商和出口企业提供网站、SEO、数字营销和社交媒体服务。";
   zh["Bangladesh: Colony Chokforid Road, Bogura, Bangladesh."] = "孟加拉国：Colony Chokforid Road, Bogura, Bangladesh。";
-  zh["China: Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi."] = "中国：西安市长安区西北工业大学长安校区海天苑 3 号，陕西。";
+  zh["China: Dongxiang Road, Chang'an District, Xi'an, Shaanxi 710129."] = "中国：陕西省西安市长安区东祥路 710129。";
   zh["Hurfi home"] = "Hurfi 首页";
   zh["Hostinger Partner badge"] = "Hostinger 合作伙伴徽章";
   zh["B2B website designed for a manufacturer"] = "为制造企业设计的 B2B 网站";
@@ -2221,7 +2221,7 @@
   fr["Brand Guidelines"] = "Charte de marque";
   fr["Hurfi helps Chinese manufacturers, suppliers, and exporters with websites, SEO, digital marketing, and social media."] = "Hurfi accompagne les fabricants, fournisseurs et exportateurs chinois en sites web, SEO, marketing digital et réseaux sociaux.";
   fr["Bangladesh: Colony Chokforid Road, Bogura, Bangladesh."] = "Bangladesh : Colony Chokforid Road, Bogura, Bangladesh.";
-  fr["China: Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University, Xi'an, Shaanxi."] = "Chine : Haitianyuan 3, campus Chang'an, Université polytechnique du Nord-Ouest, Xi'an, Shaanxi.";
+  fr["China: Dongxiang Road, Chang'an District, Xi'an, Shaanxi 710129."] = "Chine : Dongxiang Road, district de Chang'an, Xi'an, Shaanxi 710129.";
   fr["Hurfi home"] = "Accueil Hurfi";
   fr["Hostinger Partner badge"] = "Badge partenaire Hostinger";
   fr["B2B website designed for a manufacturer"] = "Site B2B conçu pour un fabricant";
@@ -2342,7 +2342,7 @@
   zh["What an export-ready factory website needs"] = "一个能接外单的工厂网站需要什么";
   zh["One page per main product family, with the specification table on the page and the datasheet as a download."] = "每个主要产品系列一个页面，规格表放在页面上，数据表提供下载。";
   zh["A factory and quality page: real photos of lines and testing, equipment lists, and certificates with scope and expiry dates."] = "工厂与质量页面：产线和检测的真实照片、设备清单，以及注明范围和有效期的证书。";
-  zh["Commercial basics stated plainly: minimum order quantity, sample policy, lead time, Incoterms you work with."] = "把商业条件讲清楚：最小起订量、样品政策、交货周期、使用的 Incoterms。";
+  zh["Commercial basics stated plainly: minimum order quantity, sample policy, lead time, Incoterms you work with."] = "把商业条件讲清楚：起订量、样品政策、交货周期、使用的 Incoterms。";
   zh["An RFQ path that asks for the right details — drawings, quantities, target market — and says who replies and how soon."] = "一条问对信息的询价路径——图纸、数量、目标市场——并说明由谁、多久内回复。";
   zh["English written for buyers, not machine-translated from the Chinese site."] = "面向买家写的英文，而不是从中文网站机器翻译过来。";
   zh["Rebuild or improve?"] = "重建还是改进？";
@@ -2390,7 +2390,7 @@
   zh["Why Chinese manufacturers should turn PDF catalogues into HTML product pages, how to structure them, and how to keep PDFs useful as downloads."] = "为什么中国制造商应把 PDF 目录转成 HTML 产品页、如何组织这些页面，以及如何让 PDF 继续作为下载资料发挥作用。";
   zh["Guides to the main industries of Chinese manufacturing cities, based on official statistics, and what they mean for an export website."] = "基于官方统计数据，介绍中国制造业城市主要产业的指南，以及它们对外贸网站的意义。";
   zh["Not sure where to start?"] = "不确定从哪里开始？";
-  zh["Book a free consultation and we will tell you which of these guides matter most for your website."] = "预约免费咨询，我们会告诉您这些指南中哪些对您的网站最重要。";
+  zh["Book a free consultation and we will tell you which of these guides matter most for your website."] = "预约免费咨询，我们会告诉您这些指南中哪些对您的网站尤为重要。";
   zh["Solar & Renewable Power"] = "光伏与可再生能源";
   zh["Water & Wastewater Technology"] = "水与污水处理技术";
   zh["Environmental & Circular Economy"] = "环保与循环经济";
@@ -2674,9 +2674,9 @@
   zh["Remove the warning signs"] = "去掉那些警示信号";
   zh["Explain what happens after an inquiry"] = "说明发出询盘之后会发生什么";
   zh["Keep it current"] = "保持更新";
-  zh["The first signal is a clear, consistent identity:"] = "第一个信号是清晰、一致的身份：";
+  zh["The first signal is a clear, consistent identity:"] = "首个信号是清晰、一致的身份：";
   zh["Your registered company name in English, the same on every page, profile and document."] = "英文注册公司名称，在每个页面、每个档案和每份文件上都保持一致。";
-  zh["A real factory address, ideally with a map, and photos that match it."] = "真实的工厂地址，最好配地图，并且照片与地址相符。";
+  zh["A real factory address, ideally with a map, and photos that match it."] = "真实的工厂地址，宜配地图，并且照片与地址相符。";
   zh["Named people a buyer can contact, with roles — not only a generic form."] = "写明可联系的人名和职位，而不是只有一个通用表单。";
   zh["The year the company was founded and what you actually manufacture in-house."] = "公司成立的年份，以及你们自己实际生产什么。";
   zh["If you are a trading company or work with partner factories, say so plainly. Buyers accept that much more easily than discovering it later."] = "如果你是贸易公司，或者与合作工厂一起生产，就直说。买家接受这一点，远比后来自己发现要容易得多。";
@@ -2691,7 +2691,7 @@
   zh["Some details make a real factory look unreliable. Check your site for:"] = "有些细节会让真实的工厂显得不可靠。检查你的网站有没有：";
   zh["Broken links, empty pages or “coming soon” sections."] = "失效链接、空页面或“敬请期待”的版块。";
   zh["Machine-translated text and inconsistent product names."] = "机器翻译的文字，以及前后不一致的产品名称。";
-  zh["Claims with no evidence: “No.1 in China”, “world-leading”, unexplained star ratings."] = "没有依据的说法：“中国第一”、“世界领先”、来路不明的星级评分。";
+  zh["Claims with no evidence: “No.1 in China”, “world-leading”, unexplained star ratings."] = "没有依据的说法：“行业龙头”、“世界领先”、来路不明的星级评分。";
   zh["Contact details that differ between the website, LinkedIn and marketplace profiles."] = "网站、领英和平台档案上的联系方式不一致。";
   zh["A free email address as the only contact, instead of an address on your own domain."] = "只留一个免费邮箱，而不是自己域名下的邮箱。";
   zh["A buyer is more likely to write if they know what comes next: who replies, within what time, whether you sign an NDA for drawings, how samples work and what information you need for a quotation. One short paragraph near the inquiry form removes much of the hesitation."] = "如果买家知道接下来会发生什么，就更愿意来联系：谁回复、多久回、图纸是否签保密协议、样品怎么走、报价需要哪些信息。在询盘表单旁写一段话，就能消掉大部分犹豫。";
@@ -2716,13 +2716,13 @@
   zh["Measure what matters"] = "衡量真正重要的事";
   zh["B2B marketplaces are useful: they bring traffic and a familiar way to request quotes. The problem is that every supplier on the platform looks similar. Your listing sits next to dozens of others, often with the same photos, the same claims and prices that invite a race to the bottom."] = "B2B 平台是有用的：它们带来流量，也提供了买家熟悉的询价方式。问题在于平台上每家供应商看起来都差不多。你的店铺挨着几十家，往往用着同样的照片、同样的说法，价格则一路往下比。";
   zh["A buyer who is serious about a long-term supplier usually wants to know more than a listing can show: who you are, what you make yourself, what you outsource, which standards you work to and who they will deal with after the first order. That information belongs on a website you control."] = "真正想找长期供应商的买家，想知道的是店铺讲不清的东西：你是谁、哪些是自己做的、哪些外协、按什么标准生产，以及下单之后由谁对接。这些信息应该放在你自己能掌控的网站上。";
-  zh["Before an engineer or purchasing manager sends a first message, they are trying to answer a few simple questions:"] = "工程师或采购经理在发出第一条消息之前，心里在回答几个简单的问题：";
+  zh["Before an engineer or purchasing manager sends a first message, they are trying to answer a few simple questions:"] = "工程师或采购经理在发出首条消息之前，心里在回答几个简单的问题：";
   zh["Is this a real manufacturer, and where is the factory?"] = "这是真正的制造商吗？工厂在哪里？";
   zh["Do they make the product I need, to the specification and standard I need?"] = "他们能做我要的产品吗？符合我需要的规格和标准吗？";
-  zh["Can they handle my volumes, and what is the minimum order?"] = "他们能承接我的量吗？最小起订量是多少？";
+  zh["Can they handle my volumes, and what is the minimum order?"] = "他们能承接我的量吗？起订量是多少？";
   zh["Who will answer me, in which language, and how quickly?"] = "谁来回复我？用什么语言？多快？";
   zh["What happens after I send an inquiry?"] = "发出询盘之后会怎样？";
-  zh["If your website answers these questions in plain English, the buyer arrives at the first conversation already half-convinced. If it does not, many buyers simply move on without telling you why."] = "如果网站用清楚的英文回答了这些问题，买家在第一次沟通时就已经信了大半。如果没有，很多买家就直接走开，也不会告诉你原因。";
+  zh["If your website answers these questions in plain English, the buyer arrives at the first conversation already half-convinced. If it does not, many buyers simply move on without telling you why."] = "如果网站用清楚的英文回答了这些问题，买家在首次沟通时就已经信了大半。如果没有，很多买家就直接走开，也不会告诉你原因。";
   zh["A factory website that produces inquiries is usually less about design and more about structure:"] = "能带来询盘的工厂网站，靠的通常不是设计，而是结构：";
   zh["Product or capability pages with specifications in HTML, not only in a PDF."] = "产品或能力页面，规格用 HTML 呈现，而不只放在 PDF 里。";
   zh["A factory and quality page with real photos, equipment, certificates and their scope."] = "工厂与质量页面，放真实照片、设备、证书及其适用范围。";
@@ -2730,7 +2730,7 @@
   zh["A clear inquiry path: what to send (drawings, quantities, target date) and what you will send back."] = "清晰的询盘路径：需要买家提供什么（图纸、数量、目标日期），以及你会回什么。";
   zh["We go through the practical checklist in"] = "我们的实用清单见";
   zh["what a manufacturer website needs for RFQs"] = "制造企业网站为询价需要准备什么";
-  zh["Google search works best for manufacturers when it targets the specific questions buyers ask at the specification stage — product types, materials, standards, tolerances, compatibility — rather than broad phrases such as “China manufacturer”, which mostly attract price shoppers."] = "对制造商来说，谷歌搜索最有效的时候，是瞄准买家在选型阶段问的具体问题——产品类型、材料、标准、公差、兼容性——而不是“中国制造商”这类宽泛词，那些词招来的多半是只比价的人。";
+  zh["Google search works best for manufacturers when it targets the specific questions buyers ask at the specification stage — product types, materials, standards, tolerances, compatibility — rather than broad phrases such as “China manufacturer”, which mostly attract price shoppers."] = "对制造商来说，谷歌搜索很有效的时候，是瞄准买家在选型阶段问的具体问题——产品类型、材料、标准、公差、兼容性——而不是“中国制造商”这类宽泛词，那些词招来的多半是只比价的人。";
   zh["This is slower than buying ads, and nobody can honestly promise a ranking. But pages that answer real technical questions keep working for years, and the buyers who arrive through them tend to be better qualified. Our"] = "这比买广告慢，也没有人能诚实承诺排名。但回答真实技术问题的页面能持续多年发挥作用，而从这些页面来的买家，通常更对口。我们的";
   zh["SEO service"] = "SEO 服务";
   zh["is built around this approach."] = "就是按这个思路做的。";
@@ -2765,7 +2765,7 @@
   zh["A request-a-quote link on the page itself."] = "页面上直接放询价链接。";
   zh["Buyers want to know they are dealing with the manufacturer. Show production equipment, inspection and testing, the quality system and certificates with their scope and validity. Real photos matter more than design."] = "买家想知道自己是在和制造商打交道。展示生产设备、检测与试验、质量体系，以及注明范围和有效期的证书。真实照片比设计更重要。";
   zh["Many RFQs stall on simple questions. Answer them on the site:"] = "很多询价卡在简单的问题上。把这些答案放在网站上：";
-  zh["Minimum order quantity, or how MOQ is decided."] = "最小起订量，或者最小起订量是如何确定的。";
+  zh["Minimum order quantity, or how MOQ is decided."] = "起订量，或者起订量是如何确定的。";
   zh["Typical lead time for samples and for production."] = "样品和批量生产的常见交期。";
   zh["Sample policy and cost."] = "样品政策和费用。";
   zh["Incoterms you usually quote and the ports you ship from."] = "常用的 Incoterms 和发货港口。";
@@ -2774,13 +2774,13 @@
   zh["Product or part, and quantity."] = "产品或零件，以及数量。";
   zh["Target date."] = "目标日期。";
   zh["Drawing or file upload, with an NDA option if you offer one."] = "图纸或文件上传，若可提供则加上保密协议选项。";
-  zh["Application or end use."] = "应用场景或最终用途。";
+  zh["Application or end use."] = "应用场景或终端用途。";
   zh["Contact details and the preferred way to reply — email, WeChat or WhatsApp."] = "联系方式，以及希望的回复方式——邮件、微信或 WhatsApp。";
   zh["After submission, show a confirmation that says who will reply and when, and send an automatic acknowledgment. Then make sure someone actually replies."] = "提交之后，显示一条确认，说明谁会回复、什么时候回，并自动发一封确认信。然后确保真的有人回复。";
   zh["Engineers often search by problem or application, not by product name. Pages that explain how your product is used in a specific industry — with the relevant standards and examples you are allowed to share — bring better-qualified visitors and give them confidence you understand their field. Our"] = "工程师常常按问题或应用来搜索，而不是按产品名称。说明产品在某个行业里如何使用的页面——配上相关标准和可以公开的案例——能带来更对口的访客，也让他们相信你懂这一行。我们的";
   zh["show the sectors we work with."] = "列出了我们服务的行业。";
   zh["None of this helps if search engines cannot read it:"] = "如果搜索引擎读不到，这些都白费：";
-  zh["Each page has a unique, descriptive title and one clear heading."] = "每个页面有唯一、描述性的标题，以及一个清晰的主标题。";
+  zh["Each page has a unique, descriptive title and one clear heading."] = "每个页面有独立、描述性的标题，以及一个清晰的主标题。";
   zh["Specifications are text, not images."] = "规格是文字，不是图片。";
   zh["Pages load quickly on mobile, with compressed images."] = "页面在手机上加载快，图片经过压缩。";
   zh["The site has a sitemap, and important pages are linked from the navigation."] = "网站有站点地图，重要页面在导航中有链接。";
@@ -2788,7 +2788,7 @@
   zh["covers this technical layer."] = "涵盖这一层技术工作。";
   zh["Use one company name, one set of contact details and one inquiry process across the website, LinkedIn and marketplaces. Route different requests — quotes, support, partnerships — to the right person, so none of them waits."] = "网站、领英和平台上使用同一个公司名称、同一套联系方式、同一套询盘流程。把不同请求——报价、售后、合作——分流给对的人，别让任何一件等着。";
   zh["Do we need prices on the website?"] = "网站上需要标价吗？";
-  zh["Not usually for custom or industrial products. But clear MOQ, lead-time and sample information helps buyers decide to send an RFQ."] = "定制品或工业品通常不需要。但写清最小起订量、交期和样品信息，能帮买家下决心发询价。";
+  zh["Not usually for custom or industrial products. But clear MOQ, lead-time and sample information helps buyers decide to send an RFQ."] = "定制品或工业品通常不需要。但写清起订量、交期和样品信息，能帮买家下决心发询价。";
   zh["Should the RFQ form allow file uploads?"] = "询价表单应该允许上传文件吗？";
   zh["For drawing-based work, yes. State what file types you accept and how you protect them."] = "以图纸为主的工作，需要。写明接受哪些格式，以及你如何保护这些文件。";
   zh["Can Hurfi build this for us?"] = "Hurfi 能帮我们做这些吗？";
@@ -2946,7 +2946,7 @@
   zh["states that there are no additional requirements to appear in AI Overviews or AI Mode, and that no special schema.org structured data is needed. The same SEO foundations apply: pages must be indexable and eligible to be shown with a snippet."] = "页面指出：要出现在 AI 概览或 AI 模式中，没有任何额外要求，也不需要特殊的 schema.org 结构化数据。适用的还是同样的 SEO 基础：页面必须可被索引，并具备以摘要形式展示的资格。";
   zh["In other words, a manufacturer that does normal SEO well is already doing most of what is needed."] = "换句话说，把常规 SEO 做好的制造企业，已经完成了大部分该做的事。";
   zh["Diagram by Hurfi summarising this guide."] = "Hurfi 制作的指南结构图。";
-  zh["AI summaries draw on pages that answer a question clearly. For a manufacturer, those questions are specific: what tolerance can you hold, which standard does this cable meet, what is the MOQ for custom packaging. Pages that answer them in plain text, with numbers and conditions, are useful to buyers and to AI systems alike."] = "AI 摘要取自那些把问题回答清楚的页面。对制造企业来说，这些问题很具体：你能做到什么公差、这款线缆符合哪个标准、定制包装的最小起订量是多少。用纯文字、带数字和条件把这些答清的页面，对买家有用，对 AI 系统也有用。";
+  zh["AI summaries draw on pages that answer a question clearly. For a manufacturer, those questions are specific: what tolerance can you hold, which standard does this cable meet, what is the MOQ for custom packaging. Pages that answer them in plain text, with numbers and conditions, are useful to buyers and to AI systems alike."] = "AI 摘要取自那些把问题回答清楚的页面。对制造企业来说，这些问题很具体：你能做到什么公差、这款线缆符合哪个标准、定制包装的起订量是多少。用纯文字、带数字和条件把这些答清的页面，对买家有用，对 AI 系统也有用。";
   zh["Google’s 2025 post on"] = "谷歌 2025 年关于";
   zh["succeeding in AI search"] = "在 AI 搜索中取得成功";
   zh["gives the same advice: focus on making unique, non-commodity content that visitors will find helpful and satisfying."] = "给出的建议是一样的：专注于做出独特、非泛化的内容，让访客觉得有用、满意。";
@@ -2963,8 +2963,8 @@
   zh["Claims that a special file or markup is required to appear"] = "声称必须要有某个特殊文件或标记才能被展示";
   zh["Google says traffic from AI features is included in Search Console’s Performance report, within the “Web” search type. What matters for a manufacturer is still the same: qualified inquiries from the right buyers. Track RFQs by landing page so you can see which content works."] = "谷歌表示，来自 AI 功能的流量会计入 Search Console 的效果报告，归在“网页”搜索类型下。对制造企业来说，重要的仍然没变：来自对口买家的有效询盘。按落地页记录询价，就能看出哪些内容起作用。";
   zh["Buyers increasingly start supplier research by asking an AI assistant a long question — for example, “Which manufacturers make IP67 LED drivers with UL certification and a five-year warranty?” The answers these tools give draw on pages they can find and understand."] = "买家越来越常向 AI 助手提一个很长的问题来开始找供应商，比如：“哪些厂家生产带 UL 认证、五年质保的 IP67 LED 驱动电源？”这些工具给出的答案，来自它们能找到并读懂的页面。";
-  zh["You cannot control which supplier an AI tool names. You can make sure your pages contain clear, specific answers to the questions buyers actually ask — specifications, certifications, minimum order quantities, lead times — so that they are good candidates to be found and cited. Google’s guidance for its AI features says the same SEO best practices apply as for search in general."] = "你无法控制 AI 工具点名哪家供应商。你能做到的是，让页面里包含对买家真实问题的清晰、具体答案——规格、认证、最小起订量、交期——这样你的页面才是有机会被找到、被引用的好候选。谷歌对其 AI 功能的说明也指出，适用的仍是与常规搜索相同的 SEO 最佳实践。";
-  zh["Start with the ten pages that matter most for new buyers: your key product families, your capability page and your about page."] = "先从那十个对新买家最重要的页面开始：主要产品系列、能力页面，以及关于页面。";
+  zh["You cannot control which supplier an AI tool names. You can make sure your pages contain clear, specific answers to the questions buyers actually ask — specifications, certifications, minimum order quantities, lead times — so that they are good candidates to be found and cited. Google’s guidance for its AI features says the same SEO best practices apply as for search in general."] = "你无法控制 AI 工具点名哪家供应商。你能做到的是，让页面里包含对买家真实问题的清晰、具体答案——规格、认证、起订量、交期——这样你的页面才是有机会被找到、被引用的好候选。谷歌对其 AI 功能的说明也指出，适用的仍是与常规搜索相同的 SEO 推荐做法。";
+  zh["Start with the ten pages that matter most for new buyers: your key product families, your capability page and your about page."] = "先从那十个对新买家尤为重要的页面开始：主要产品系列、能力页面，以及关于页面。";
   zh["Specifications are in HTML text, not only in images or PDFs."] = "规格写在 HTML 文字里，而不只在图片或 PDF 中。";
   zh["Certifications are named exactly, with the scope they cover."] = "认证名称写得准确，并注明适用范围。";
   zh["The page states who you are: company name, location, factory or trading company."] = "页面说明你是谁：公司名称、所在地、是工厂还是贸易公司。";
@@ -2974,7 +2974,7 @@
   zh["AI tools and search engines compare information across sources. If your website says one capacity, your marketplace store another and your LinkedIn page a third, buyers — and machines — cannot tell which is right."] = "AI 工具和搜索引擎会跨来源比对信息。如果网站写一个产能、平台店铺写另一个、领英主页写第三个，买家和机器都分不清哪个是对的。";
   zh["Pick one set of facts — company name, address, year founded, certifications, capacities — and use it on your website, marketplace profiles, LinkedIn and trade-fair listings. Update all of them when something changes."] = "选定一套事实——公司名称、地址、成立年份、认证、产能——并统一用在网站、平台档案、领英和展会名录上。有任何变化，就一起更新。";
   zh["There is no separate report for every AI tool. Google says traffic from its AI features is included in Search Console’s Performance report, under the “Web” search type. Other assistants may appear as referral traffic in your analytics."] = "没有针对每个 AI 工具的单独报表。谷歌表示，来自其 AI 功能的流量计入 Search Console 效果报告的“网页”搜索类型。其他助手可能以引荐流量的形式出现在你的分析工具里。";
-  zh["Watch three things over a few months: impressions and clicks for your key product pages in Search Console, referral visits from AI assistants in your analytics, and — most important — whether new inquiries mention finding you through search or an AI tool. Ask new contacts how they found you, and record the answer."] = "用几个月盯住三件事：Search Console 里重点产品页的展示和点击；分析工具里来自 AI 助手的引荐访问；以及最重要的一点——新询盘里有没有提到是通过搜索或 AI 工具找到你的。问新联系人是怎么找到你的，并记录下来。";
+  zh["Watch three things over a few months: impressions and clicks for your key product pages in Search Console, referral visits from AI assistants in your analytics, and — most important — whether new inquiries mention finding you through search or an AI tool. Ask new contacts how they found you, and record the answer."] = "用几个月盯住三件事：Search Console 里重点产品页的展示和点击；分析工具里来自 AI 助手的引荐访问；以及尤为重要的一点——新询盘里有没有提到是通过搜索或 AI 工具找到你的。问新联系人是怎么找到你的，并记录下来。";
   zh["How Hurfi helps with this"] = "Hurfi 在这件事上怎么帮";
   zh["Hurfi offers four services for manufacturers selling abroad. Here is how each one relates to this guide."] = "Hurfi 为出口制造企业提供四项服务。下面是每一项与这份指南的关系。";
   zh["Pages built with clear HTML specifications and accurate structured data."] = "页面用清晰的 HTML 规格和准确的结构化数据构建。";
@@ -2984,7 +2984,7 @@
   zh["Hurfi on social media"] = "Hurfi 的社交媒体";
   zh["A few of Hurfi’s own social media posts for manufacturers. They show our brand work and how we talk to factories; they are not client results."] = "Hurfi 自己面向制造企业发布的几条社媒内容。它们展示我们的品牌表达和与工厂沟通的方式，并非客户案例成果。";
   zh["Do we need special optimisation for Google’s AI Overviews?"] = "需要为谷歌 AI 概览做特殊优化吗？";
-  zh["Google says there are no additional requirements to appear in AI Overviews or AI Mode beyond normal SEO best practices."] = "谷歌表示，除了常规的 SEO 最佳实践，出现在 AI 概览或 AI 模式中没有额外要求。";
+  zh["Google says there are no additional requirements to appear in AI Overviews or AI Mode beyond normal SEO best practices."] = "谷歌表示，除了常规的 SEO 推荐做法，出现在 AI 概览或 AI 模式中没有额外要求。";
   zh["Do we need special structured data for AI search?"] = "AI 搜索需要特殊的结构化数据吗？";
   zh["No. Google states that no special schema.org structured data is needed. Use structured data to describe your pages accurately."] = "不需要。谷歌说明并不需要特殊的 schema.org 结构化数据。结构化数据用来准确描述你的页面。";
   zh["Will AI search reduce our website traffic?"] = "AI 搜索会减少我们网站的流量吗？";
@@ -2993,7 +2993,7 @@
   zh["No. Write for buyers. Google’s guidance focuses on helpful, people-first content."] = "不应该。为人写。谷歌的指引强调有用、以人为本的内容。";
   zh["Can an agency guarantee we appear in AI answers?"] = "代理公司能保证我们出现在 AI 答案里吗？";
   zh["No one can guarantee that. Be wary of anyone who does."] = "没有人能保证。谁这样保证，就要当心。";
-  zh["What content works best for manufacturers?"] = "什么样的内容对制造企业最有效？";
+  zh["What content works best for manufacturers?"] = "什么样的内容对制造企业很有效？";
   zh["Specific product, specification, application and FAQ pages that answer real buyer questions with numbers and conditions."] = "具体的产品、规格、应用和问答页面，用数字和条件回答买家的真实问题。";
   zh["How do we see AI traffic?"] = "怎么看到 AI 带来的流量？";
   zh["It is included in Search Console performance reports. Track inquiries by landing page in analytics."] = "它计入 Search Console 的效果报告。在分析工具里按落地页跟踪询盘。";
@@ -3008,14 +3008,14 @@
   zh["Top ways to ensure your content performs well in Google’s AI experiences on Search (May 2025)"] = "Top ways to ensure your content performs well in Google’s AI experiences on Search (May 2025)";
   zh["Creating helpful, reliable, people-first content"] = "Creating helpful, reliable, people-first content";
   zh["Put this guide to work"] = "把这份指南用起来";
-  zh["A first consultation is free. We will look at your site and tell you which parts of this guide matter most for you."] = "首次咨询免费。我们会看你的网站，并告诉你在你的情况下这份指南里哪几点最关键。";
+  zh["A first consultation is free. We will look at your site and tell you which parts of this guide matter most for you."] = "首次咨询免费。我们会看你的网站，并告诉你在你的情况下这份指南里哪几点尤为关键。";
   zh["Diagram of the steps covered in this guide: 1. Keep pages crawlable; 2. Write specific answers; 3. Show who is behind it; 4. Keep data consistent; 5. Use structured data correctly; 6. Measure real inquiries."] = "本指南步骤示意图：1. 保证页面可抓取；2. 写具体的答案；3. 说明背后是谁；4. 保持数据一致；5. 正确使用结构化数据；6. 衡量真实询盘。";
   zh["Hurfi social post “A great factory means nothing if global buyers can’t find it.”"] = "Hurfi 社媒内容：“再好的工厂，如果海外买家找不到，也等于没有。”";
   zh["Hurfi social post: a hand holding a card that reads “We turn insights into a clear strategy”"] = "Hurfi 社媒内容：一只手举着卡片，上面写着“我们把洞察变成清晰的策略”。";
   zh["Hurfi social post “Ready to get discovered?”, with a hand lifting a cover off a factory scene"] = "Hurfi 社媒内容：“准备好被发现了？”画面是一只手掀开工厂场景上的盖布。";
   zh["The Certifications Page Export Buyers Look For | Hurfi"] = "出口买家想看到的认证页面 | Hurfi";
-  zh["For many overseas buyers, certifications are the first filter: no right certificate, no RFQ. Yet many factory websites show a wall of logos with no detail. This guide explains how to build a certifications page that buyers trust, and how to link it to your products."] = "对很多海外买家来说，认证是第一道筛选：证书不对，就没有询价。但很多工厂网站只是堆一墙标志，没有任何细节。这份指南讲怎么做一个买家信得过的认证页面，以及怎么把它和产品页连起来。";
-  zh["Why certifications decide the first call"] = "为什么认证决定第一次通话";
+  zh["For many overseas buyers, certifications are the first filter: no right certificate, no RFQ. Yet many factory websites show a wall of logos with no detail. This guide explains how to build a certifications page that buyers trust, and how to link it to your products."] = "对很多海外买家来说，认证是首道筛选：证书不对，就没有询价。但很多工厂网站只是堆一墙标志，没有任何细节。这份指南讲怎么做一个买家信得过的认证页面，以及怎么把它和产品页连起来。";
+  zh["Why certifications decide the first call"] = "为什么认证决定首次通话";
   zh["What the EU expects from manufacturers"] = "欧盟对制造商的要求";
   zh["Group certificates by market"] = "按市场归类证书";
   zh["Give the details buyers check"] = "给出买家会核查的细节";
@@ -3025,7 +3025,7 @@
   zh["A simple layout that works"] = "一个简单好用的版式";
   zh["Common mistakes to avoid"] = "常见的错误";
   zh["Write it for people, not only for search"] = "为人写，而不只为搜索写";
-  zh["A buyer in Europe, North America or the Middle East usually has to prove that what they import meets local rules. Before contacting you, they want to know whether your products already comply. If your site does not say, the easiest decision is to move on to a supplier whose site does."] = "欧洲、北美或中东的买家通常要证明进口的产品符合当地法规。在联系你之前，他们想知道你的产品是否已经合规。如果网站没有说明，最省事的决定就是换一家写清楚了的供应商。";
+  zh["A buyer in Europe, North America or the Middle East usually has to prove that what they import meets local rules. Before contacting you, they want to know whether your products already comply. If your site does not say, the easiest decision is to move on to a supplier whose site does."] = "欧洲、北美或中东的买家通常要证明进口的产品符合当地法规。在联系你之前，他们想知道你的产品是否已经合规。如果网站没有说明，更省事的决定就是换一家写清楚了的供应商。";
   zh["The European Commission’s"] = "欧盟委员会关于";
   zh["CE marking page"] = "CE 标志的页面";
   zh["explains that manufacturers are responsible for carrying out the conformity assessment, setting up the technical file, issuing the EU declaration of conformity and affixing the CE marking. Importers and distributors must make sure the products they place on the market meet the rules."] = "说明：制造商负责进行合格评定、建立技术文件、出具欧盟符合性声明并加贴 CE 标志。进口商和经销商必须确保其投放市场的产品符合规定。";
@@ -3047,7 +3047,7 @@
   zh["can describe your products to Google."] = "可以向谷歌描述你的产品。";
   zh["Certificates expire, scopes change and new models need testing. Give one person the job of checking the page every quarter. An expired certificate on your website tells a buyer you are not paying attention."] = "证书会到期，范围会变，新机型需要检测。指定一个人每季度检查这个页面。网站上挂着过期证书，等于告诉买家你没在用心。";
   zh["Some documents you may not want to publish openly. Offer them on request with a short form: the buyer’s company, market and products of interest. That request is itself a strong sales lead."] = "有些文件你可能不想公开。用一张短表单提供按需索取：买家公司、市场、关注的产品。这个索取动作本身就是一条高质量销售线索。";
-  zh["Most manufacturers can use the same structure: a short introduction, then one block per market, then quality-system certificates, then a “request documents” form. Inside each market block, a table works well:"] = "多数制造企业可以用同样的结构：简短介绍，然后每个市场一块，再是体系证书，最后是“索取文件”表单。每个市场块里，用表格最清楚：";
+  zh["Most manufacturers can use the same structure: a short introduction, then one block per market, then quality-system certificates, then a “request documents” form. Inside each market block, a table works well:"] = "多数制造企业可以用同样的结构：简短介绍，然后每个市场一块，再是体系证书，接着是“索取文件”表单。每个市场块里，用表格更清楚：";
   zh["Column 1: certificate or document name."] = "第 1 列：证书或文件名称。";
   zh["Column 2: products and models covered."] = "第 2 列：覆盖的产品和型号。";
   zh["Column 3: issuing body or laboratory."] = "第 3 列：发证机构或实验室。";
@@ -3098,7 +3098,7 @@
   zh["How to handle hundreds of variants"] = "如何处理上百个型号";
   zh["Common mistakes on factory product pages"] = "工厂产品页常见错误";
   zh["Who should review a product page"] = "产品页该由谁审核";
-  zh["The title should say what the product is in the buyer’s words, with the most important specification or variant: for example “Stainless steel ball valve, DN15–DN100, PN40” rather than “Product 3”. Google’s"] = "标题应该用买家的说法讲清这是什么产品，并带上最重要的规格或型号，比如“不锈钢球阀，DN15–DN100，PN40”，而不是“产品 3”。谷歌的";
+  zh["The title should say what the product is in the buyer’s words, with the most important specification or variant: for example “Stainless steel ball valve, DN15–DN100, PN40” rather than “Product 3”. Google’s"] = "标题应该用买家的说法讲清这是什么产品，并带上尤为重要的规格或型号，比如“不锈钢球阀，DN15–DN100，PN40”，而不是“产品 3”。谷歌的";
   zh["SEO Starter Guide"] = "SEO 入门指南";
   zh["recommends descriptive titles and notes that Google does not use the keywords meta tag."] = "建议使用描述性标题，并指出谷歌不使用 keywords 元标签。";
   zh["Engineers search for numbers: sizes, ratings, tolerances, materials, standards. If those numbers are only in an image or a PDF, they are harder for buyers to scan and for search engines to read. Publish a specification table on the page and keep the PDF as a download."] = "工程师是按数字搜索的：尺寸、额定值、公差、材料、标准。如果这些数字只存在于图片或 PDF 里，买家不好扫读，搜索引擎也不好读取。把规格表放在页面上，PDF 留作下载。";
@@ -3110,7 +3110,7 @@
   zh["List certificates for the product and market, with the holder and scope. For products sold in the EU that need CE marking, the"] = "按产品和市场列出证书，写明持有人和范围。对在欧盟销售且需要 CE 标志的产品，";
   zh["European Commission"] = "欧盟委员会";
   zh["explains that the manufacturer carries out the conformity assessment, sets up the technical file, issues the EU declaration of conformity and affixes the marking. Only claim what you hold."] = "说明由制造商进行合格评定、建立技术文件、出具欧盟符合性声明并加贴标志。只声明你确实持有的东西。";
-  zh["documentation describes two types: Product snippets for pages that are not purchase pages, and merchant listings for pages where a product can be bought. Most B2B product pages fit the first. Mark up only what is visible on the page."] = "文档描述了两类：适用非购买页面的“产品摘要”，以及适用可直接购买页面的“商家信息”。多数 B2B 产品页属于第一类。只标记页面上看得见的内容。";
+  zh["documentation describes two types: Product snippets for pages that are not purchase pages, and merchant listings for pages where a product can be bought. Most B2B product pages fit the first. Mark up only what is visible on the page."] = "文档描述了两类：适用非购买页面的“产品摘要”，以及适用可直接购买页面的“商家信息”。多数 B2B 产品页属于前一类。只标记页面上看得见的内容。";
   zh["Every product page should end with a short form or a clear contact: what the buyer needs (quantity, specification, market, date) and who will answer. Track submissions by page so you know which products bring inquiries."] = "每个产品页都应以一张短表单或清晰的联系方式收尾：说明买家需要提供什么（数量、规格、市场、日期），以及谁来回复。按页面跟踪提交量，就知道哪些产品带来询盘。";
   zh["Most industrial product pages work well with the same basic outline. It gives buyers what they need in the order they look for it, and gives search engines clear text to work with."] = "多数工业产品页用同一套基本结构就能做好。它按买家的查找顺序给出需要的信息，也给搜索引擎留下清晰的文字。";
   zh["Title and one-line summary:"] = "标题和一句话概述：";
@@ -3122,7 +3122,7 @@
   zh["what can be changed and what cannot."] = "哪些可以改，哪些不能改。";
   zh["Compliance and documents:"] = "合规与文件：";
   zh["certificates, test reports and datasheets, with their scope."] = "证书、检测报告和数据表，并注明范围。";
-  zh["Packaging, MOQ and lead time:"] = "包装、最小起订量和交期：";
+  zh["Packaging, MOQ and lead time:"] = "包装、起订量和交期：";
   zh["typical ranges, clearly stated as such."] = "常见区间，并明确说明这是区间。";
   zh["RFQ path:"] = "询价路径：";
   zh["a short form or contact link with what information to include."] = "一张短表单或联系链接，并说明需要提供哪些信息。";
@@ -3131,11 +3131,11 @@
   zh["Specifications only in images or PDFs, so they cannot be searched or copied."] = "规格只在图片或 PDF 里，既不能搜索也不能复制。";
   zh["Titles that are only a model number, with no description of the product."] = "标题只有一个型号，完全不描述产品。";
   zh["Copying a competitor’s or a marketplace description word for word."] = "逐字照抄竞争对手或平台上的描述。";
-  zh["Vague claims such as “high quality” and “best price” instead of measured values."] = "用“高品质”“最优价格”这类空话代替实测数值。";
+  zh["Vague claims such as “high quality” and “best price” instead of measured values."] = "用“高品质”“理想价格”这类空话代替实测数值。";
   zh["CE or other marks shown without saying which directives or standards apply."] = "展示 CE 或其他标志，却不说适用哪些指令或标准。";
   zh["No visible way to ask a question or request a quote."] = "看不到提问或索要报价的入口。";
-  zh["Product pages carry technical and legal weight. A wrong tolerance or an overstated certification can cost an order or create liability. Before a page is published, an engineer should check the specifications and applications, someone responsible for quality should check compliance statements, and a sales person should check that the page answers the questions buyers ask most."] = "产品页既有技术分量，也有法律分量。一个写错的公差或一句夸大的认证，可能丢掉订单，也可能带来责任。页面发布前，工程师应核对规格和应用，质量负责人应核对合规表述，销售人员应确认页面回答了买家最常问的问题。";
-  zh["Record who reviewed each page and when. When a specification or certificate changes, update the page and the date, so buyers and search engines see current information."] = "记录每个页面由谁、何时审核。规格或证书有变化时，更新页面和日期，让买家和搜索引擎看到最新信息。";
+  zh["Product pages carry technical and legal weight. A wrong tolerance or an overstated certification can cost an order or create liability. Before a page is published, an engineer should check the specifications and applications, someone responsible for quality should check compliance statements, and a sales person should check that the page answers the questions buyers ask most."] = "产品页既有技术分量，也有法律分量。一个写错的公差或一句夸大的认证，可能丢掉订单，也可能带来责任。页面发布前，工程师应核对规格和应用，质量负责人应核对合规表述，销售人员应确认页面回答了买家常问的问题。";
+  zh["Record who reviewed each page and when. When a specification or certificate changes, update the page and the date, so buyers and search engines see current information."] = "记录每个页面由谁、何时审核。规格或证书有变化时，更新页面和日期，让买家和搜索引擎看到新信息。";
   zh["Product page templates with specification tables, documents and RFQ forms."] = "含规格表、文件和询价表单的产品页模板。";
   zh["Titles, internal links and structured data for product and application searches."] = "针对产品和应用搜索的标题、内链和结构化数据。";
   zh["Ads that send each search to its matching product page."] = "把每个搜索词送到对应产品页的广告。";
@@ -3402,7 +3402,7 @@
 
   // Insight articles: international SEO, agency choice, market pages, 2026-10-20.
   zh["International SEO Checklist for Chinese Exporters | Hurfi"] = "中国出口企业的国际 SEO 清单 | Hurfi";
-  zh["Selling abroad means being found in Google by buyers who search in their own language and their own words. This checklist covers the decisions that matter most for a Chinese manufacturer’s export website, in the order we usually work through them."] = "做出口，意味着要让用自己的语言、自己的说法搜索的买家在谷歌上找到你。这份清单按我们通常的工作顺序，讲中国制造企业出口网站最要紧的几个决定。";
+  zh["Selling abroad means being found in Google by buyers who search in their own language and their own words. This checklist covers the decisions that matter most for a Chinese manufacturer’s export website, in the order we usually work through them."] = "做出口，意味着要让用自己的语言、自己的说法搜索的买家在谷歌上找到你。这份清单按我们通常的工作顺序，讲中国制造企业出口网站尤其要紧的几个决定。";
   zh["1. Decide which markets come first"] = "1. 先确定优先市场";
   zh["2. Choose a URL structure you can maintain"] = "2. 选一个你能长期维护的网址结构";
   zh["3. Write each language version properly"] = "3. 每种语言都认真写";
@@ -3412,7 +3412,7 @@
   zh["7. Avoid the common hreflang mistakes"] = "7. 避开常见的 hreflang 错误";
   zh["8. Do not redirect buyers by IP address"] = "8. 不要按 IP 地址重定向买家";
   zh["9. Plan content per market, not just translation"] = "9. 按市场规划内容，而不只是翻译";
-  zh["International SEO starts with a business decision, not a technical one. List the countries where you already have certification, logistics and someone who can answer buyers. Those are your first markets."] = "国际 SEO 的起点是商业决定，不是技术决定。列出那些你已经有认证、有物流、也有人能回复买家的国家。这些就是你的第一批市场。";
+  zh["International SEO starts with a business decision, not a technical one. List the countries where you already have certification, logistics and someone who can answer buyers. Those are your first markets."] = "国际 SEO 的起点是商业决定，不是技术决定。列出那些你已经有认证、有物流、也有人能回复买家的国家。这些就是你的首批市场。";
   zh["For each one, note the language buyers search in and the words they use for your product. A German engineer and an American buyer may describe the same part differently, and both differ from the term used in your Chinese catalogue."] = "对每个市场，记下买家搜索时用的语言，以及他们描述你产品时用的词。德国工程师和美国买家对同一个零件的说法可能不同，两者也不同于你中文目录里的叫法。";
   zh["Markets where your products are certified or can be certified soon"] = "产品已获认证、或很快能获认证的市场";
   zh["Markets where you can ship and support customers"] = "你能发货并提供支持的市场";
@@ -3420,7 +3420,7 @@
   zh["Google’s guide to"] = "谷歌关于";
   zh["managing multi-regional and multilingual sites"] = "多地区、多语言网站的管理";
   zh["compares the main options: country-code domains (example.de), subdomains (de.example.com) and subdirectories (example.com/de/). Each has trade-offs in cost, maintenance and how strongly it signals a country."] = "比较了几种主要方案：国家域名（example.de）、子域名（de.example.com）和子目录（example.com/de/）。它们在成本、维护难度和“国家信号”强弱上各有取舍。";
-  zh["For most manufacturers, one .com domain with language subdirectories is the simplest to run. It keeps all links and authority on one domain and is easy to host outside mainland China, which helps page speed for buyers abroad."] = "对多数制造企业来说，一个 .com 域名加语言子目录最好维护。所有链接和权重都集中在一个域名上，也方便把主机放在中国大陆以外，从而改善海外买家的访问速度。";
+  zh["For most manufacturers, one .com domain with language subdirectories is the simplest to run. It keeps all links and authority on one domain and is easy to host outside mainland China, which helps page speed for buyers abroad."] = "对多数制造企业来说，一个 .com 域名加语言子目录宜维护。所有链接和权重都集中在一个域名上，也方便把主机放在中国大陆以外，从而改善海外买家的访问速度。";
   zh["Use one domain unless you have a strong reason for country domains"] = "除非有充分理由，否则用一个域名";
   zh["Keep the same structure in every language (/en/products/…, /de/products/…)"] = "各语言保持相同结构（/en/products/…、/de/products/…）";
   zh["Do not rely on automatic redirects by IP address; let buyers choose the language"] = "不要依赖按 IP 的自动跳转，让买家自己选语言";
@@ -3434,7 +3434,7 @@
   zh["sets two rules that are often missed: each language version must list itself as well as the others, and if two pages do not point to each other, the annotations are ignored."] = "定下两条常被忽略的规则：每个语言版本必须把自己和其他版本都列上；如果两个页面没有互相指向，标注就会被忽略。";
   zh["Use an x-default entry for the page buyers should see when no language matches."] = "用 x-default 指定在没有匹配语言时买家应该看到的页面。";
   zh["Pages load fast from your target markets — measure from outside China"] = "页面在目标市场加载要快——从中国境外测速";
-  zh["Every product page has a unique, descriptive title and description"] = "每个产品页都有唯一、描述性的标题和描述";
+  zh["Every product page has a unique, descriptive title and description"] = "每个产品页都有独立、描述性的标题和描述";
   zh["Specifications are in HTML text, not only images or PDFs"] = "规格是 HTML 文字，而不只是图片或 PDF";
   zh["An XML sitemap lists every page you want indexed"] = "XML 站点地图列出所有希望被索引的页面";
   zh["Old URLs redirect to their new equivalents when you restructure"] = "改版时，旧网址跳转到对应的新网址";
@@ -3452,7 +3452,7 @@
   zh["It is tempting to send visitors from Germany to the German site automatically. Google’s advice on multi-regional sites is not to use IP analysis to adapt content, because location detection is unreliable and Google may not be able to crawl all variations of the site. Instead, give each version its own URL and add a visible language or region selector."] = "把德国访客自动送到德语站很诱人。但谷歌对多地区网站的建议是不要用 IP 分析来调整内容，因为定位并不可靠，而且谷歌可能抓不到网站的所有版本。更好的做法是每个版本各有网址，并加上显眼的语言或地区选择器。";
   zh["This also helps buyers. A purchasing manager in Dubai may prefer English; an engineer in Switzerland may want German or French. Let them choose, and remember their choice."] = "这对买家也有好处。迪拜的采购经理可能更愿意看英文，瑞士的工程师可能想看法语或德语。让他们自己选，并记住他们的选择。";
   zh["Translation alone rarely wins rankings in a new market. Buyers search with local terms, standards and units. A pump that is sold by flow rate in m³/h in Europe may be searched by GPM in the United States. A cable may need UL references for North America and CE or IEC references for Europe."] = "只靠翻译，很难在新市场拿到排名。买家是用当地的术语、标准和单位来搜索的。在欧洲按 m³/h 流量卖的泵，在美国可能是按 GPM 搜索。线缆在北美可能需要 UL 编号，在欧洲则需要 CE 或 IEC 编号。";
-  zh["Before you translate, list the ten product pages that matter most in each market, and check which terms, units and certifications buyers there use. Then write — or adapt — those pages first. Smaller, better pages in a market beat a full but weak copy of the English site."] = "翻译之前，先列出每个市场最重要的十个产品页，查清当地买家使用哪些术语、单位和认证。然后优先写——或改写——这些页面。在某个市场里，少而好的页面胜过一次完整却薄弱的英文站照搬。";
+  zh["Before you translate, list the ten product pages that matter most in each market, and check which terms, units and certifications buyers there use. Then write — or adapt — those pages first. Smaller, better pages in a market beat a full but weak copy of the English site."] = "翻译之前，先列出每个市场尤为重要的十个产品页，查清当地买家使用哪些术语、单位和认证。然后优先写——或改写——这些页面。在某个市场里，少而好的页面胜过一次完整却薄弱的英文站照搬。";
   zh["Local units and standards on every specification table."] = "每张规格表都用当地的单位和标准。";
   zh["Market-specific certifications and documents linked from the product page."] = "产品页链接到该市场特有的认证和文件。";
   zh["Contact options that suit the market: business hours, languages and response times."] = "适合该市场的联系选项：工作时间、语言和响应时间。";
@@ -3463,7 +3463,7 @@
   zh["What is international SEO?"] = "什么是国际 SEO？";
   zh["It is the work of making a website findable in search engines in more than one country or language: choosing a URL structure, writing each language version, connecting them with hreflang and measuring results by market."] = "就是让网站在多个国家或语言下都能被搜索引擎找到：选网址结构、写各语言版本、用 hreflang 连起来，并按市场衡量结果。";
   zh["Do we need a separate website for every country?"] = "每个国家都需要单独的网站吗？";
-  zh["Usually not. Google documents several options; for most manufacturers, one domain with language subdirectories is the easiest to maintain."] = "通常不需要。谷歌列了几种方案；对多数制造企业，一个域名加语言子目录最好维护。";
+  zh["Usually not. Google documents several options; for most manufacturers, one domain with language subdirectories is the easiest to maintain."] = "通常不需要。谷歌列了几种方案；对多数制造企业，一个域名加语言子目录宜维护。";
   zh["Is machine translation good enough?"] = "机器翻译够用吗？";
   zh["Rarely for product pages. It often gets technical terms and units wrong and misses the words buyers search for. Translate from a well-written English version and have key pages reviewed."] = "产品页上很少够用。它常把术语和单位弄错，也漏掉买家搜索的词。请从一篇写得好的英文版翻译，并让重点页面经过审校。";
   zh["What happens if hreflang is wrong?"] = "hreflang 写错了会怎样？";
@@ -3492,14 +3492,14 @@
   zh["Make sure you own everything"] = "确保一切都归你所有";
   zh["Ask how content gets written"] = "问清内容是怎么写出来的";
   zh["Agree what will be reported"] = "约定汇报什么";
-  zh["Start with a defined first scope"] = "从范围明确的第一期开始";
+  zh["Start with a defined first scope"] = "从范围明确的首期开始";
   zh["Questions to ask before you sign"] = "签约前要问的问题";
   zh["Red flags in proposals"] = "方案里的危险信号";
   zh["How to compare two shortlisted agencies"] = "如何比较两家入围的代理";
-  zh["Before speaking to agencies, write down what success looks like in a year: more qualified RFQs from certain countries, a site that passes buyer checks, or less dependence on one marketplace. An agency should ask you this in the first meeting. If it starts with a package price instead, be careful."] = "在接触代理之前，先写下一年后“成功”是什么样子：来自某些国家的有效询价更多、网站能通过买家核查，或者对某个平台的依赖减少。代理在第一次会谈就该问你这个问题。如果它一上来就报套餐价格，要留个心眼。";
+  zh["Before speaking to agencies, write down what success looks like in a year: more qualified RFQs from certain countries, a site that passes buyer checks, or less dependence on one marketplace. An agency should ask you this in the first meeting. If it starts with a package price instead, be careful."] = "在接触代理之前，先写下一年后“成功”是什么样子：来自某些国家的有效询价更多、网站能通过买家核查，或者对某个平台的依赖减少。代理在首次会谈就该问你这个问题。如果它一上来就报套餐价格，要留个心眼。";
   zh["Google’s own advice on"] = "谷歌自己关于";
   zh["hiring an SEO"] = "聘请 SEO 的建议";
-  zh["states plainly that no one can guarantee a #1 ranking on Google. An agency that guarantees rankings or a fixed number of leads is either measuring something meaningless or promising something it cannot control."] = "明确说：没有人能保证在谷歌排第一。承诺排名或固定数量线索的代理，要么在衡量毫无意义的东西，要么在承诺它控制不了的事。";
+  zh["states plainly that no one can guarantee a #1 ranking on Google. An agency that guarantees rankings or a fixed number of leads is either measuring something meaningless or promising something it cannot control."] = "明确说：没有人能保证在谷歌排首位。承诺排名或固定数量线索的代理，要么在衡量毫无意义的东西，要么在承诺它控制不了的事。";
   zh["A good agency commits to work, process and honest reporting instead."] = "好的代理承诺的是工作、流程和诚实的汇报。";
   zh["Guaranteed first-page rankings"] = "保证首页排名";
   zh["Guaranteed lead numbers regardless of product or price"] = "不管产品和价格，保证线索数量";
@@ -3518,7 +3518,7 @@
   zh["describe practices such as scaled content abuse — many pages generated mainly to manipulate rankings — and link spam."] = "描述了“规模化内容滥用”——主要为操纵排名而生成大量页面——以及链接垃圾等做法。";
   zh["Ask to see a sample report. The useful numbers for an exporter are qualified inquiries by source and market, search impressions and clicks for the products you care about, and the cost per qualified inquiry for paid campaigns."] = "要求看一份真实报表样例。对出口企业有用的数字是：按来源和市场的有效询盘、你关心的产品的搜索展示与点击，以及付费推广的每条有效询盘成本。";
   zh["Agree a monthly report and a quarterly review where the plan can change."] = "约定每月一份报告，每季度一次复盘，复盘时可以调整计划。";
-  zh["A sensible first project is small enough to judge: fixing the main product pages, building an RFQ path, or setting up search tracking. You will learn more about an agency from three months of real work than from any proposal."] = "合理的第一期项目要小到可以评判：修好主要产品页、搭好询价路径，或者把搜索跟踪建立起来。三个月的实际工作，比任何方案书都更能让你了解一家代理。";
+  zh["A sensible first project is small enough to judge: fixing the main product pages, building an RFQ path, or setting up search tracking. You will learn more about an agency from three months of real work than from any proposal."] = "合理的首期项目要小到可以评判：修好主要产品页、搭好询价路径，或者把搜索跟踪建立起来。三个月的实际工作，比任何方案书都更能让你了解一家代理。";
   zh["A short list of direct questions tells you more than a long sales deck. Ask every agency the same questions and compare the answers in writing."] = "几个直接的问题，比一份冗长的销售演示更能说明问题。对每家代理问同样的问题，把答案写下来比较。";
   zh["Who will do the work each month, and in which language do they write?"] = "每个月由谁来做这些工作？他们用什么语言写？";
   zh["Which of these tasks are done by people, and which by software or AI tools?"] = "这些工作里哪些由人完成，哪些由软件或 AI 工具完成？";
@@ -3527,19 +3527,19 @@
   zh["What happens to the website, domains, ad accounts and content if we stop working together?"] = "如果我们停止合作，网站、域名、广告账号和内容归谁？";
   zh["How will you handle technical claims, certifications and safety statements?"] = "你们怎么处理技术表述、认证和安全声明？";
   zh["Some warning signs come up again and again. Google’s spam policies describe link schemes and scaled content abuse — producing many pages mainly to manipulate rankings — as practices that can lead to lower rankings or removal from results. If a proposal promises hundreds of backlinks or “500 AI-written pages a month”, treat that as a risk, not a bonus."] = "有些危险信号反复出现。谷歌的垃圾内容政策把“链接方案”和“规模化内容滥用”——主要为操纵排名而产出大量页面——列为可能导致排名下降甚至被移出结果的做法。如果方案承诺几百条外链，或者“每月 500 篇 AI 写的页面”，请把它当风险，而不是赠品。";
-  zh["Be cautious too of proposals that report only rankings for long lists of keywords nobody searches for, or traffic without inquiries. For a manufacturer, the useful numbers are qualified inquiries, RFQs and, eventually, orders."] = "对那些只汇报一长串没人搜索的关键词排名、或者只报流量不谈询盘的方案，也要当心。对制造企业来说，有用的数字是有效询盘、询价，以及最终的订单。";
+  zh["Be cautious too of proposals that report only rankings for long lists of keywords nobody searches for, or traffic without inquiries. For a manufacturer, the useful numbers are qualified inquiries, RFQs and, eventually, orders."] = "对那些只汇报一长串没人搜索的关键词排名、或者只报流量不谈询盘的方案，也要当心。对制造企业来说，有用的数字是有效询盘、询价，以及落地的订单。";
   zh["Guaranteed first-page rankings or a fixed number of leads."] = "保证首页排名或固定线索数量。";
   zh["Bulk link building or “private networks”."] = "批量买外链或“私有网络”。";
   zh["Ownership of your domain or ad account held by the agency."] = "域名或广告账号的所有权在代理手里。";
   zh["No access to the analytics and Search Console data."] = "不给你分析工具和 Search Console 数据的访问权。";
-  zh["When two agencies look similar, give each the same small paid task: for example, rewrite one key product page, or audit your top ten pages. Compare the quality of the work, how many questions they asked about your product, and how they handled technical details."] = "两家代理看起来差不多时，给每家一个相同的小付费任务：比如改写一个重点产品页，或者审查你最重要的十个页面。然后比较工作质量、他们问了多少关于你产品的问题，以及他们如何处理技术细节。";
+  zh["When two agencies look similar, give each the same small paid task: for example, rewrite one key product page, or audit your top ten pages. Compare the quality of the work, how many questions they asked about your product, and how they handled technical details."] = "两家代理看起来差不多时，给每家一个相同的小付费任务：比如改写一个重点产品页，或者审查你尤为重要的十个页面。然后比较工作质量、他们问了多少关于你产品的问题，以及他们如何处理技术细节。";
   zh["An agency that asks for datasheets, test reports and examples of real buyer questions is usually one that will write pages buyers trust. An agency that delivers quickly without asking anything has probably written something generic."] = "会要数据表、检测报告和真实买家问题样例的代理，通常会写出买家信任的页面。什么都不问、很快就交稿的代理，多半写的是通用套话。";
   zh["Sites built in your own hosting and domain, with source files handed over."] = "在你自己的主机和域名上建站，并移交源文件。";
   zh["SEO reported from your own Search Console, with no ranking guarantees."] = "用你自己的 Search Console 汇报，不做排名保证。";
   zh["Ad accounts in your company name, reported by cost per qualified inquiry."] = "广告账号在公司名下，按每条有效询盘成本汇报。";
   zh["LinkedIn pages owned by your company, with the agency as an admin."] = "领英主页归公司所有，代理作为管理员。";
   zh["Can any agency guarantee Google rankings?"] = "有代理能保证谷歌排名吗？";
-  zh["No. Google states that no one can guarantee a #1 ranking on Google. Treat guarantees as a warning sign."] = "没有。谷歌明确表示没有人能保证排名第一。把“保证”当作警示信号。";
+  zh["No. Google states that no one can guarantee a #1 ranking on Google. Treat guarantees as a warning sign."] = "没有。谷歌明确表示没有人能保证排名首位。把“保证”当作警示信号。";
   zh["Who should own our website and accounts?"] = "网站和账号该归谁？";
   zh["Your company. The agency should have access, not ownership, so you keep everything if you change agency."] = "归你公司。代理只应有访问权，而不是所有权，这样换代理时东西都在你手上。";
   zh["What should an agency report each month?"] = "代理每月应该汇报什么？";
@@ -3548,7 +3548,7 @@
   zh["It can be. Pages with little original value can fall under Google’s spam policies on scaled content. Fewer, better pages are usually safer."] = "可能有问题。原创价值低的页面可能落入谷歌关于规模化内容的垃圾政策。少而好的页面通常更安全。";
   zh["Should the agency understand our industry?"] = "代理需要懂我们的行业吗？";
   zh["It should be willing to learn it and to work with your engineers. Ask how they will learn your products and who approves technical claims."] = "至少要愿意去学，并愿意和你的工程师合作。问他们打算怎么了解你的产品，谁确认技术表述。";
-  zh["How long should the first contract be?"] = "第一份合同该多长？";
+  zh["How long should the first contract be?"] = "首份合同该多长？";
   zh["Long enough to do real work, short enough to judge. A defined first scope over a few months is reasonable."] = "长到能做实事，短到能判断效果。范围明确的几个月首期比较合理。";
   zh["Should we choose a Chinese agency or a foreign one?"] = "该选中国代理还是国外代理？";
   zh["Choose the one that can write naturally for your buyers and communicate well with your team. Ask to see English content they have written."] = "选那个能为你的买家写得自然、又能和你的团队顺畅沟通的。要求看他们写过的英文内容。";
@@ -3590,7 +3590,7 @@
   zh["describe doorway abuse: pages created to rank for similar searches that lead users to less useful intermediate pages, including pages targeted at specific regions or cities that funnel users to one page. A page for every country with the same text and a new name is exactly that. One strong page for a market you serve is worth more than fifty thin ones."] = "描述了“门页滥用”：为在相似搜索中排名而创建的页面，把用户引向用处不大的中间页，包括针对特定地区或城市、再把用户导向同一个页面的做法。每个国家一个页面、文字相同只换个名字，正是这种。一个真正服务该市场的扎实页面，胜过五十个单薄页面。";
   zh["English works for many B2B buyers in these regions, but Arabic, French, Spanish, Portuguese, Vietnamese, Thai or Indonesian pages can help where buyers prefer them. Translate only what you can support: if a buyer writes in Arabic, someone must be able to answer."] = "在这些地区，英文对很多 B2B 买家够用；但在买家更偏好本地语言的市场上，阿拉伯语、法语、西班牙语、葡萄牙语、越南语、泰语或印尼语页面会有帮助。只翻译你能支撑的部分：如果买家写阿拉伯语，就得有人能回。";
   zh["multi-regional and multilingual sites"] = "多地区、多语言网站";
-  zh["compares country domains, subdomains and subdirectories. For most manufacturers, subdirectories such as /ar/ or /fr/ on one domain are simplest to manage."] = "比较了国家域名、子域名和子目录。对多数制造企业，一个域名下用 /ar/ 或 /fr/ 这样的子目录最好管理。";
+  zh["compares country domains, subdomains and subdirectories. For most manufacturers, subdirectories such as /ar/ or /fr/ on one domain are simplest to manage."] = "比较了国家域名、子域名和子目录。对多数制造企业，一个域名下用 /ar/ 或 /fr/ 这样的子目录宜管理。";
   zh["When you have language or regional versions, Google recommends using hreflang to"] = "当你有了语言或地区版本，谷歌建议用 hreflang";
   zh["tell it about localized versions"] = "告知本地化版本";
   zh["of a page, with an x-default for unmatched languages."] = "来标明同一页面的各版本，并用 x-default 处理无匹配语言的情况。";
@@ -3620,7 +3620,7 @@
   zh["Do we need local certifications?"] = "需要当地认证吗？";
   zh["Many markets have their own rules. Check with the authority in each market and list only certificates you hold."] = "很多市场有自己的规定。向各市场的主管机构核实，并且只列出你确实持有的证书。";
   zh["Should we show prices for these markets?"] = "这些市场要标价吗？";
-  zh["Usually not exact prices, but MOQs, terms and lead times help buyers decide."] = "通常不必标确切价格，但最小起订量、条款和交期能帮买家做决定。";
+  zh["Usually not exact prices, but MOQs, terms and lead times help buyers decide."] = "通常不必标确切价格，但起订量、条款和交期能帮买家做决定。";
   zh["Can Hurfi translate our pages?"] = "Hurfi 能翻译我们的页面吗？";
   zh["We plan and build language versions with proper translation and correct tags, and we review them with you."] = "我们会规划并搭建各语言版本，做正经的翻译和正确的标注，并和你一起审核。";
   zh["Can you guarantee rankings in these markets?"] = "能保证在这些市场排名吗？";
@@ -3873,7 +3873,7 @@
 
   // Insight articles: site speed, PDF catalogue, Google Ads, 2026-10-20.
   zh["Export Website Speed: Why It Matters to Overseas Buyers | Hurfi"] = "出口网站速度：为什么海外买家在意 | Hurfi";
-  zh["Many Chinese factory websites are fast inside China and slow everywhere else. For an overseas buyer on a phone, a slow product page is often the last page they see. This guide explains what to measure and the fixes that usually help most."] = "很多中国工厂的网站在国内很快，到了国外就慢。对用手机访问的海外买家来说，一个加载慢的产品页，经常是他们看到的最后一页。这份指南讲该测什么，以及通常最有效的改法。";
+  zh["Many Chinese factory websites are fast inside China and slow everywhere else. For an overseas buyer on a phone, a slow product page is often the last page they see. This guide explains what to measure and the fixes that usually help most."] = "很多中国工厂的网站在国内很快，到了国外就慢。对用手机访问的海外买家来说，一个加载慢的产品页，经常是他们看到的末页。这份指南讲该测什么，以及通常很有效的改法。";
   zh["Why speed matters for exporters"] = "为什么速度对出口企业重要";
   zh["What Core Web Vitals measure"] = "Core Web Vitals 衡量的是什么";
   zh["Host where your buyers are"] = "把主机放在买家附近";
@@ -3889,19 +3889,19 @@
   zh["explains that it looks at signals such as Core Web Vitals alongside content relevance."] = "说明：谷歌在内容相关性之外，还会看 Core Web Vitals 这类信号。";
   zh["Web Vitals"] = "Web Vitals";
   zh["defines three core metrics and their “good” thresholds:"] = "定义了三个核心指标及其“良好”阈值：";
-  zh["Largest Contentful Paint (loading): 2.5 seconds or less"] = "最大内容绘制（加载）：2.5 秒以内";
+  zh["Largest Contentful Paint (loading): 2.5 seconds or less"] = "主要内容渲染（加载）：2.5 秒以内";
   zh["Interaction to Next Paint (responsiveness): 200 milliseconds or less"] = "交互到下次绘制（响应）：200 毫秒以内";
   zh["Cumulative Layout Shift (visual stability): 0.1 or less"] = "累积布局偏移（视觉稳定性）：0.1 以内";
   zh["Measure these from the countries where your buyers are, on mobile as well as desktop."] = "在买家所在的国家测这些指标，手机和桌面都要测。";
-  zh["For an export site, hosting outside mainland China, or using a content delivery network with servers near your markets, usually makes the biggest difference. Keep a separate Chinese site in China if you need one for domestic buyers."] = "对出口站来说，把主机放在中国大陆以外，或者使用在市场附近有节点的 CDN，通常效果最明显。如果国内买家需要，可以另做一个放在中国境内的中文站。";
+  zh["For an export site, hosting outside mainland China, or using a content delivery network with servers near your markets, usually makes the biggest difference. Keep a separate Chinese site in China if you need one for domestic buyers."] = "对出口站来说，把主机放在中国大陆以外，或者使用在市场附近有节点的 CDN，通常效果更明显。如果国内买家需要，可以另做一个放在中国境内的中文站。";
   zh["Use modern formats such as WebP"] = "使用 WebP 这类现代格式";
   zh["Resize images to the size they are displayed"] = "把图片缩放到实际显示尺寸";
   zh["Set width and height so the layout does not jump"] = "写明宽高，避免布局跳动";
   zh["Lazy-load images below the first screen"] = "首屏以下的图片延迟加载";
   zh["Replace heavy sliders with one clear image"] = "用一张清晰的图片替代笨重的轮播";
   zh["Chat widgets, tracking scripts, web fonts and video embeds add weight. Keep the ones you use and remove the rest. Scripts or fonts served from services that are slow or blocked in some regions can delay the whole page."] = "聊天插件、跟踪脚本、网页字体和视频嵌入都会增加负担。保留真正在用的，其余删掉。来自某些地区很慢或被屏蔽的服务的脚本或字体，会拖慢整个页面。";
-  zh["Use Lighthouse or PageSpeed tools on your key product pages, fix the largest problems first and test again. Check Search Console’s Core Web Vitals report over time for real-user data."] = "对重点产品页用 Lighthouse 或 PageSpeed 工具，先解决最大的问题，然后重新测试。定期查看 Search Console 的 Core Web Vitals 报告，了解真实用户数据。";
-  zh["web.dev gives clear targets for Core Web Vitals: Largest Contentful Paint (LCP) within 2.5 seconds, Interaction to Next Paint (INP) of 200 milliseconds or less, and Cumulative Layout Shift (CLS) of 0.1 or less."] = "web.dev 给出了明确的 Core Web Vitals 目标：最大内容绘制（LCP）在 2.5 秒以内，交互到下次绘制（INP）在 200 毫秒以内，累积布局偏移（CLS）在 0.1 以内。";
+  zh["Use Lighthouse or PageSpeed tools on your key product pages, fix the largest problems first and test again. Check Search Console’s Core Web Vitals report over time for real-user data."] = "对重点产品页用 Lighthouse 或 PageSpeed 工具，先解决影响较大的问题，然后重新测试。定期查看 Search Console 的 Core Web Vitals 报告，了解真实用户数据。";
+  zh["web.dev gives clear targets for Core Web Vitals: Largest Contentful Paint (LCP) within 2.5 seconds, Interaction to Next Paint (INP) of 200 milliseconds or less, and Cumulative Layout Shift (CLS) of 0.1 or less."] = "web.dev 给出了明确的 Core Web Vitals 目标：主要内容渲染（LCP）在 2.5 秒以内，交互到下次绘制（INP）在 200 毫秒以内，累积布局偏移（CLS）在 0.1 以内。";
   zh["It also recommends measuring at the 75th percentile of page loads, separately for mobile and desktop. In practice this means most of your real visitors should get a good experience — not just you, testing from the office on a fast connection."] = "它还建议按页面加载的第 75 百分位来测，手机和桌面分开。实际含义是：大多数真实访客都应有良好体验，而不只是你在办公室用快网测得好看。";
   zh["A site that loads quickly in Shenzhen may be slow in Frankfurt or São Paulo, because of where it is hosted and how assets are delivered. Test key pages from the regions you sell to, using tools that let you choose a test location, and on mobile as well as desktop."] = "在深圳打开很快的网站，在法兰克福或圣保罗可能很慢，这取决于主机位置和资源分发方式。用可以选择测试地点的工具，从你销售的地区测重点页面，手机和桌面都要测。";
   zh["Chrome Lighthouse, which Google mentions as a tool for page-experience improvements, is useful for finding problems on a single page. Real-user data, when available, shows what visitors actually experience over time."] = "谷歌在讲页面体验改进时提到的 Chrome Lighthouse，适合查找单个页面的问题。真实用户数据（如果有）则反映访客长期的实际体验。";
@@ -3915,7 +3915,7 @@
   zh["Replace auto-playing background videos with a still image and an optional play button."] = "用一张静态图片加可选播放按钮，替换自动播放的背景视频。";
   zh["Use a CDN with locations near your buyers for images, CSS and JavaScript."] = "用在你买家附近有节点的 CDN 分发图片、CSS 和 JavaScript。";
   zh["Speed tends to slip over time as new images, plugins and tracking scripts are added. Set a simple rule: every new page is checked before it is published, and the key pages are re-tested every quarter from your main buyer regions."] = "随着新图片、插件和跟踪脚本不断增加，速度往往会慢慢变差。定一条简单的规则：每个新页面发布前都测一遍，重点页面每季度从主要买家地区重测一次。";
-  zh["Write down a few limits your team can follow — for example, a maximum image width and file size, no auto-playing video, and no new third-party script without a reason. Small rules like these keep a fast site fast."] = "写下几条团队能遵守的限制——比如图片最大宽度和文件大小、不使用自动播放视频、没有理由不加新的第三方脚本。这类小规则能让快的网站一直快下去。";
+  zh["Write down a few limits your team can follow — for example, a maximum image width and file size, no auto-playing video, and no new third-party script without a reason. Small rules like these keep a fast site fast."] = "写下几条团队能遵守的限制——比如图片宽度上限和文件大小、不使用自动播放视频、没有理由不加新的第三方脚本。这类小规则能让快的网站一直快下去。";
   zh["Hosting advice, WebP images, lean templates and before-and-after speed tests."] = "主机建议、WebP 图片、精简模板，以及改动前后的速度测试。";
   zh["Core Web Vitals monitoring in Search Console as part of SEO work."] = "把 Search Console 里的 Core Web Vitals 监测纳入 SEO 工作。";
   zh["Fast landing pages so ad spend is not lost to slow loading."] = "快速落地页，避免广告预算浪费在加载缓慢上。";
@@ -3928,7 +3928,7 @@
   zh["Often because of server location, international connections, or scripts and fonts that load slowly outside China. Test from your target countries."] = "通常是因为服务器位置、国际线路，或者在中国境外加载很慢的脚本和字体。从目标国家测一测就知道了。";
   zh["Should we host our export site outside China?"] = "出口站应该放在中国境外吗？";
   zh["For most exporters, yes, or use a CDN with servers near your markets."] = "对多数出口企业来说，是的；或者使用在市场附近有节点的 CDN。";
-  zh["What is the quickest fix?"] = "最快的改法是什么？";
+  zh["What is the quickest fix?"] = "较快的改法是什么？";
   zh["Usually images: compress them, convert to WebP and size them correctly."] = "通常是图片：压缩、转成 WebP、设对尺寸。";
   zh["Do chat widgets slow sites down?"] = "聊天插件会拖慢网站吗？";
   zh["They can. Keep only the tools you actually use."] = "会。只保留真正在用的。";
@@ -3964,7 +3964,7 @@
   zh["Specification tables in HTML are easy to read on phones and to copy into comparisons."] = "HTML 规格表在手机上易读，也方便复制到对比表里。";
   zh["Each page can carry its own RFQ form, certificates and related products."] = "每个页面可以有自己的询价表单、证书和相关产品。";
   zh["You can see which products attract inquiries."] = "你能看出哪些产品带来询盘。";
-  zh["List every product family, model and specification in the catalogue. Note what is out of date, what is missing and which families bring the most valuable inquiries. Start with those."] = "把目录里每个产品系列、型号和规格列出来。标出过时的、缺失的，以及哪几个系列带来最有价值的询盘。从这些开始。";
+  zh["List every product family, model and specification in the catalogue. Note what is out of date, what is missing and which families bring the most valuable inquiries. Start with those."] = "把目录里每个产品系列、型号和规格列出来。标出过时的、缺失的，以及哪几个系列带来很有价值的询盘。从这些开始。";
   zh["A page for every tiny variant often creates many near-duplicate pages. Usually one page per product family or series, with a model table, works better. Give a model its own page only when buyers search for it or it differs significantly."] = "为每个细微变型都建页，往往会产生大量近乎重复的页面。通常一个产品系列一页、配一张型号表更好。只有当买家会专门搜某个型号，或者它差别很大时，才单独建页。";
   zh["A clear H1 with the product type and key specification."] = "清晰的 H1，写明产品类型和关键规格。";
   zh["A short introduction: what it is, what it is for, who uses it."] = "简短介绍：是什么、做什么用、谁在用。";
@@ -3994,7 +3994,7 @@
   zh["Should we remove the PDF?"] = "要把 PDF 删掉吗？";
   zh["No. Keep it as a download, and keep it consistent with the product pages."] = "不用。保留作下载，并与产品页保持一致。";
   zh["How many pages do we need?"] = "需要多少个页面？";
-  zh["Usually one per product family or series, with model tables. Start with the families that matter most."] = "通常每个产品系列一页，配型号表。从最重要的系列开始。";
+  zh["Usually one per product family or series, with model tables. Start with the families that matter most."] = "通常每个产品系列一页，配型号表。从尤为重要的系列开始。";
   zh["Our catalogue is in Chinese. Can you help?"] = "我们的目录是中文的，能帮忙吗？";
   zh["Yes. We work from Chinese documents and write English pages with your team."] = "可以。我们基于中文文件，与你的团队一起写英文页面。";
   zh["How long does it take?"] = "需要多久？";
@@ -4002,12 +4002,12 @@
   zh["Will this improve our rankings?"] = "这能提升排名吗？";
   zh["It usually helps buyers and search find the right product, but nobody can guarantee rankings."] = "通常能帮买家和搜索找到对的产品，但没人能保证排名。";
   zh["What about prices?"] = "价格怎么办？";
-  zh["Most B2B product pages do not show prices; MOQs, lead times and an RFQ form work better."] = "多数 B2B 产品页不标价；最小起订量、交期和询价表单更管用。";
+  zh["Most B2B product pages do not show prices; MOQs, lead times and an RFQ form work better."] = "多数 B2B 产品页不标价；起订量、交期和询价表单更管用。";
   zh["File types indexable by Google"] = "谷歌可索引的文件类型";
   zh["Influencing your title links in search results"] = "影响搜索结果中的标题链接";
   zh["Diagram of the steps covered in this guide: 1. Audit the catalogue; 2. Group into families; 3. Build a template; 4. Put specs in HTML; 5. Keep PDFs as downloads; 6. Link and measure."] = "本指南步骤示意图：1. 盘点目录；2. 按系列归组；3. 做模板；4. 规格放进 HTML；5. PDF 作下载；6. 链接与衡量。";
   zh["Google Ads for Exporters: A Setup Guide for Factories | Hurfi"] = "出口企业的谷歌广告：工厂投放设置指南 | Hurfi";
-  zh["Google Ads can bring overseas buyers to a factory’s website within days, but it can also spend a budget on the wrong countries and the wrong searches. This guide covers the settings and checks that matter most for B2B exporters."] = "谷歌广告能在几天内把海外买家带到工厂网站，但也可能把预算花在错误的国家和错误的搜索上。这份指南讲 B2B 出口企业最要紧的设置和检查。";
+  zh["Google Ads can bring overseas buyers to a factory’s website within days, but it can also spend a budget on the wrong countries and the wrong searches. This guide covers the settings and checks that matter most for B2B exporters."] = "谷歌广告能在几天内把海外买家带到工厂网站，但也可能把预算花在错误的国家和错误的搜索上。这份指南讲 B2B 出口企业尤其要紧的设置和检查。";
   zh["Set up conversion tracking before spending"] = "花钱之前先设好转化跟踪";
   zh["Choose locations deliberately"] = "有意识地选择地区";
   zh["Use specific, B2B keywords"] = "使用具体的 B2B 关键词";
@@ -4023,7 +4023,7 @@
   zh["for lead generation, including generate_lead for when a user submits a form or request."] = "用于线索获取，其中 generate_lead 用于用户提交表单或请求时。";
   zh["Without conversion tracking you cannot tell which keywords bring buyers, and automated bidding has nothing to learn from. Google Ads Help states that to use"] = "没有转化跟踪，你分不清哪些关键词带来买家，自动出价也没有数据可学。Google Ads 帮助说明，要使用";
   zh["Smart Bidding"] = "智能出价";
-  zh["you need conversion tracking enabled, and some strategies rely on a minimum volume of conversion data."] = "必须先启用转化跟踪，某些策略还需要最低数量的转化数据。";
+  zh["you need conversion tracking enabled, and some strategies rely on a minimum volume of conversion data."] = "必须先启用转化跟踪，某些策略还需要起订数量的转化数据。";
   zh["Google Ads offers advanced"] = "谷歌广告提供高级";
   zh["location options"] = "地区选项";
   zh[". The broad setting, “Presence or Interest”, reaches people in your target locations and people who have shown interest in them; “Presence” limits ads to people who are in or regularly in those locations."] = "。宽泛的设置“实际位置或兴趣”，会覆盖目标地区的用户以及对其表现出兴趣的用户；“实际位置”则只投放给在这些地区或经常在此的人。";
@@ -4035,7 +4035,7 @@
   zh["Each ad group should lead to the product page that matches the search, with specifications, proof and an RFQ form. Sending every click to the home page wastes money; the buyer has to search again."] = "每个广告组都应指向与搜索匹配的产品页，页面上有规格、证据和询价表单。把所有点击都送到首页是浪费钱——买家还得再找一遍。";
   zh["Begin with a test budget on a few products and markets. After a few weeks, judge results by the number of qualified inquiries and what each one cost — not by clicks or impressions. Mark which inquiries were real buyers in your CRM or a simple sheet; GA4’s close_convert_lead event can record leads that became customers."] = "先用测试预算，聚焦少数产品和市场。几周后，用有效询盘的数量和每条成本来判断，而不是看点击或展示。在 CRM 或一张简单的表里标出哪些询盘是真买家；GA4 的 close_convert_lead 事件可以记录成为客户的线索。";
   zh["The search terms report shows the actual searches that triggered your ads. Review it weekly at first, add negatives and move good terms into their own ad groups."] = "搜索词报告显示实际触发广告的搜索。起初每周查看，添加否定词，把好的词单独放进广告组。";
-  zh["Google Ads offers broad geo targeting, called “Presence or Interest”, which reaches people in your target locations and also people who have shown interest in them. Google recommends broad targeting as a best practice on Search, but says to consider “Presence” when you only want to reach users in specific locations, not users elsewhere who are interested in them."] = "谷歌广告提供宽泛的地区定位，称为“实际位置或兴趣”，既覆盖目标地区的用户，也覆盖对其表现出兴趣的人。谷歌将宽泛定位列为搜索广告的最佳实践，但也说明：如果你只想触达特定地区的用户、而不想触达其他地区感兴趣的人，就应考虑“实际位置”。";
+  zh["Google Ads offers broad geo targeting, called “Presence or Interest”, which reaches people in your target locations and also people who have shown interest in them. Google recommends broad targeting as a best practice on Search, but says to consider “Presence” when you only want to reach users in specific locations, not users elsewhere who are interested in them."] = "谷歌广告提供宽泛的地区定位，称为“实际位置或兴趣”，既覆盖目标地区的用户，也覆盖对其表现出兴趣的人。谷歌将宽泛定位列为搜索广告的推荐做法，但也说明：如果你只想触达特定地区的用户、而不想触达其他地区感兴趣的人，就应考虑“实际位置”。";
   zh["Exporters who can only serve buyers in certain countries — because of certification, voltage, shipping or distributor agreements — often fit that second case. Whichever setting you choose, check the location report after a few weeks and adjust based on where qualified inquiries actually come from."] = "只能服务某些国家买家的出口企业——因为认证、电压、运输或经销商协议——往往属于第二种情况。无论选哪种设置，几周后都查看地区报告，按有效询盘的实际来源调整。";
   zh["Industrial searches attract many clicks you do not want: job seekers, students, consumers looking for one unit, and people looking for repairs. A negative keyword list stops those searches triggering your ads."] = "工业类搜索会带来很多你不想要的点击：求职者、学生、想买一台的消费者，以及找维修的人。否定关键词列表能让这些搜索不再触发你的广告。";
   zh["Job and education terms: job, jobs, career, salary, course, training, PDF."] = "求职与教育类：job、jobs、career、salary、course、training、PDF。";
@@ -4051,13 +4051,13 @@
   zh["Campaign setup, conversion tracking, location and keyword management, in your own account."] = "在你自己的账号里做活动设置、转化跟踪、地区和关键词管理。";
   zh["LinkedIn content that supports buyers who check you after clicking an ad."] = "用领英内容承接那些点了广告后回来核查你的买家。";
   zh["Is Google Ads useful for B2B manufacturers?"] = "谷歌广告对 B2B 制造商有用吗？";
-  zh["It can be, for products with clear search demand and a landing page that answers buyers. It works best alongside SEO, not instead of it."] = "对有明确搜索需求、且有能回答买家问题的落地页的产品，是有用的。它最好是和 SEO 配合，而不是替代 SEO。";
+  zh["It can be, for products with clear search demand and a landing page that answers buyers. It works best alongside SEO, not instead of it."] = "对有明确搜索需求、且有能回答买家问题的落地页的产品，是有用的。它宜和 SEO 配合，而不是替代 SEO。";
   zh["What should count as a conversion?"] = "什么应该算转化？";
   zh["Actions that show buying intent: RFQ form submissions, quote request emails, WhatsApp or phone clicks. GA4 recommends a generate_lead event for form and request submissions."] = "体现购买意向的动作：提交询价表单、发送询价邮件、点击 WhatsApp 或电话。GA4 建议为表单和请求提交使用 generate_lead 事件。";
   zh["Do we need conversion tracking to use Smart Bidding?"] = "使用智能出价需要转化跟踪吗？";
-  zh["Yes. Google Ads Help states that Smart Bidding needs conversion tracking enabled, and some strategies need a minimum amount of conversion data."] = "需要。Google Ads 帮助说明，智能出价需要启用转化跟踪，某些策略还需要最低数量的转化数据。";
+  zh["Yes. Google Ads Help states that Smart Bidding needs conversion tracking enabled, and some strategies need a minimum amount of conversion data."] = "需要。Google Ads 帮助说明，智能出价需要启用转化跟踪，某些策略还需要起订数量的转化数据。";
   zh["Which location setting should we use?"] = "该用哪种地区设置？";
-  zh["Google recommends “Presence or Interest” as a best practice on Search, but explains when “Presence” makes sense. Choose based on where you can actually sell, and check the location report."] = "谷歌将“实际位置或兴趣”列为搜索广告的最佳实践，同时说明了什么情况下“实际位置”更合适。根据你实际能卖到的地方来选，并查看地区报告。";
+  zh["Google recommends “Presence or Interest” as a best practice on Search, but explains when “Presence” makes sense. Choose based on where you can actually sell, and check the location report."] = "谷歌将“实际位置或兴趣”列为搜索广告的推荐做法，同时说明了什么情况下“实际位置”更合适。根据你实际能卖到的地方来选，并查看地区报告。";
   zh["How much budget do we need?"] = "需要多少预算？";
   zh["Enough to collect meaningful data on a few products and markets. We set a test budget with you and judge it by cost per qualified inquiry."] = "足够在少数产品和市场上收集有意义的数据。我们会和你一起定测试预算，并按每条有效询盘成本来评判。";
   zh["Should we send ads to our home page?"] = "广告应该指向首页吗？";
@@ -4301,7 +4301,7 @@
   zh["Location matching your factory address"] = "所在地与工厂地址一致";
   zh["At least two admins from your company"] = "至少两名公司内部管理员";
   zh["Each person who contacts buyers should have a profile with their real name, a professional photo, their role and the company page linked as their employer. Buyers notice when a salesperson’s profile is empty or lists a different company."] = "每个联系买家的人都应有真实姓名、职业照、职位，并把公司主页设为雇主。销售档案空白、或者写着另一家公司，买家一眼就能看出。";
-  zh["The most useful posts show things buyers cannot see elsewhere: a new line being installed, a test being run, an engineer explaining a design choice, packaging for an export order (without client names). One genuine post a week beats daily generic content."] = "最有用的帖子展示买家在别处看不到的东西：新产线在安装、正在做测试、工程师解释某个设计选择、出口订单的包装（不点名客户）。每周一条真实内容，胜过每天发套话。";
+  zh["The most useful posts show things buyers cannot see elsewhere: a new line being installed, a test being run, an engineer explaining a design choice, packaging for an export order (without client names). One genuine post a week beats daily generic content."] = "很有用的帖子展示买家在别处看不到的东西：新产线在安装、正在做测试、工程师解释某个设计选择、出口订单的包装（不点名客户）。每周一条真实内容，胜过每天发套话。";
   zh["Production and testing photos or short videos you own"] = "你自有的生产和检测照片或短视频";
   zh["Trade-show dates and booth details for confirmed fairs"] = "已确认展会的日期和展位信息";
   zh["Certifications when you receive them, with scope"] = "收到证书时发布，并注明范围";
@@ -4309,7 +4309,7 @@
   zh["Links to new product pages on your website"] = "链接到网站上的新产品页";
   zh["Connection requests and messages work best when they are specific: why you are contacting this person, what you make that is relevant to them, and a link to the right product page. Mass messages with no context damage your reputation and can restrict your account."] = "添加联系人和发消息，具体才有用：为什么联系这个人、你做的什么与他相关、以及对的产品页链接。没有上下文的群发会损害声誉，还可能导致账号受限。";
   zh["Track replies, meetings and RFQs that started on LinkedIn, and visits from LinkedIn to your website in analytics. Follower counts are less important than whether the right buyers engage."] = "跟踪来自领英的回复、会议和询价，以及分析工具里来自领英的网站访问。粉丝数远不如“对的买家是否互动”重要。";
-  zh["LinkedIn works best as a steady habit, not a campaign. For a factory with one or two export sales staff, an hour or two a week is enough if it is spent on the right things."] = "领英最好是靠稳定的习惯，而不是靠一场运动。对只有一两个出口销售的工厂来说，每周一两个小时，只要花在对的地方就够了。";
+  zh["LinkedIn works best as a steady habit, not a campaign. For a factory with one or two export sales staff, an hour or two a week is enough if it is spent on the right things."] = "领英宜靠稳定的习惯，而不是靠一场运动。对只有一两个出口销售的工厂来说，每周一两个小时，只要花在对的地方就够了。";
   zh["post one piece of factory content — a production step, a test, a shipment — with a short explanation in English."] = "发一条工厂内容——一个生产环节、一次检测、一批出货——配一段简短的英文说明。";
   zh["Tuesday–Thursday:"] = "周二至周四：";
   zh["reply to comments and messages within a working day; accept relevant connection requests."] = "在一个工作日内回复评论和私信；接受相关的联系人请求。";
@@ -4326,7 +4326,7 @@
   zh["A company page with no logo, no website link or a description copied from a marketplace."] = "公司主页没有标志、没有网站链接，或者描述是从平台上抄的。";
   zh["Sales profiles with different company names, job titles in Chinese only, or no photo."] = "销售档案写着不同的公司名、职位只有中文，或者没有照片。";
   zh["Connection requests followed immediately by a price list."] = "刚加好友就发报价单。";
-  zh["Posting only product photos with “best price, contact us”, and nothing about process or quality."] = "只发产品图配“最优价格，联系我们”，完全不谈工艺或质量。";
+  zh["Posting only product photos with “best price, contact us”, and nothing about process or quality."] = "只发产品图配“理想价格，联系我们”，完全不谈工艺或质量。";
   zh["Long gaps between posts, so the page looks abandoned when a buyer checks it."] = "帖子间隔很久，买家来查时主页像荒废了。";
   zh["Each of these is easy to fix, and fixing them matters because buyers check LinkedIn to confirm that a supplier is real before they reply."] = "这些都容易改，而且值得改，因为买家会在回复前用领英确认供应商是否真实存在。";
   zh["Website pages that LinkedIn posts can link to — product, capability and team pages."] = "领英帖可以链接到的网站页面——产品页、能力页和团队页。";
@@ -4355,7 +4355,7 @@
   zh["Create a LinkedIn Page"] = "创建领英公司主页";
   zh["Diagram of the steps covered in this guide: 1. Create the company page; 2. Fix sales profiles; 3. Plan real content; 4. Link to the website; 5. Reach out carefully; 6. Measure replies."] = "本指南步骤示意图：1. 建公司主页；2. 修好销售档案；3. 规划真实内容；4. 链接到网站；5. 谨慎主动联系；6. 衡量回复。";
   zh["Trade Show Follow-Up for Manufacturers: Leads to RFQs | Hurfi"] = "制造企业的展会跟进：从名片到询价 | Hurfi";
-  zh["Trade shows still bring many factories their best buyers. But most of the work happens after the fair, when buyers compare dozens of suppliers they met. This guide covers how to make sure the follow-up — and the website buyers check — works in your favour."] = "展会依然给很多工厂带来最好的买家。但大部分工作发生在展会之后，买家在那时比较他们见过的几十家供应商。这份指南讲怎么让跟进——以及买家会去查的网站——对你有利。";
+  zh["Trade shows still bring many factories their best buyers. But most of the work happens after the fair, when buyers compare dozens of suppliers they met. This guide covers how to make sure the follow-up — and the website buyers check — works in your favour."] = "展会依然给很多工厂带来出色的买家。但大部分工作发生在展会之后，买家在那时比较他们见过的几十家供应商。这份指南讲怎么让跟进——以及买家会去查的网站——对你有利。";
   zh["Why the follow-up matters more than the booth"] = "为什么跟进比展位更重要";
   zh["Prepare your website before the fair"] = "展会前先把网站准备好";
   zh["Capture useful details at the booth"] = "在展位记录有用的信息";
@@ -4366,7 +4366,7 @@
   zh["A 30-day follow-up plan"] = "30 天跟进计划";
   zh["Measuring the return on a fair"] = "衡量参展回报";
   zh["Use the website between fairs"] = "展会之间用好网站";
-  zh["At a large fair, a buyer may visit many booths in a day. Afterwards, they sort the contacts: who made what they need, who replied clearly, and who looks trustworthy online. The supplier that follows up fastest with useful information often gets the RFQ."] = "在大型展会上，买家一天可能走访很多展位。之后他们会梳理联系人：谁做的正是自己需要的、谁回复得清楚、谁在网上看起来可信。跟进最快、信息最有用的供应商，往往拿到询价。";
+  zh["At a large fair, a buyer may visit many booths in a day. Afterwards, they sort the contacts: who made what they need, who replied clearly, and who looks trustworthy online. The supplier that follows up fastest with useful information often gets the RFQ."] = "在大型展会上，买家一天可能走访很多展位。之后他们会梳理联系人：谁做的正是自己需要的、谁回复得清楚、谁在网上看起来可信。跟进较快、信息很有用的供应商，往往拿到询价。";
   zh["Canton Fair"] = "广交会";
   zh[", for example, has been held in Guangzhou every spring and autumn since 1957. Many buyers attend repeatedly and keep comparing suppliers between sessions."] = "就是一个例子：自 1957 年起每年春秋两届在广州举办。很多买家反复到场，并在会期之间持续比较供应商。";
   zh["Product pages for every item you will exhibit, with specifications in text"] = "为每件参展产品准备好产品页，规格用文字呈现";
@@ -4378,21 +4378,21 @@
   zh["Send a short email that reminds the buyer who you are, answers the question they asked and links to the exact product page — not only the home page or a large catalogue. Buyers who search your company name after the fair should find your own website first."] = "发一封短邮件：提醒买家你是谁、回答他们问的问题、链接到确切的产品页——而不只是首页或一份大目录。展会之后搜索你公司名的买家，应该首先找到你自己的网站。";
   zh["Use a simple CRM or spreadsheet: contact, product interest, date of follow-up, reply, RFQ, quote. Tag website visits from fair materials (for example with campaign parameters on QR links) so you can see which fair brought which inquiries."] = "用简单的 CRM 或表格：联系人、关注产品、跟进日期、回复、询价、报价。给展会物料带来的网站访问打标记（例如在二维码链接上加活动参数），就能看出哪个展会带来了哪些询盘。";
   zh["Buyers who were not ready to order may be ready months later. Useful updates — new products, certifications, a short video of a line — keep you on their list. LinkedIn helps here too, as a second place buyers can follow and check you."] = "当时还没准备下单的买家，几个月后可能就准备好了。有用的更新——新产品、认证、一段产线短视频——能让你留在他们的名单上。领英在这里也有用，它是买家可以关注和核查你的第二个地方。";
-  zh["The first email after a fair should be short, specific and easy to reply to. Mention where you met, what the visitor asked about, and give one clear next step."] = "展会后的第一封邮件应该短、具体、容易回复。提到在哪里见过、访客问过什么，并给出一个明确的下一步。";
+  zh["The first email after a fair should be short, specific and easy to reply to. Mention where you met, what the visitor asked about, and give one clear next step."] = "展会后的首封邮件应该短、具体、容易回复。提到在哪里见过、访客问过什么，并给出一个明确的下一步。";
   zh["name of the fair, your company and the product discussed."] = "展会名称、你的公司、谈到的产品。";
-  zh["First line:"] = "第一句：";
+  zh["First line:"] = "首句：";
   zh["where and when you met, and what they were interested in."] = "何时何地见过，以及他们关注什么。";
   zh["a link to the exact product or capability page, plus one answer to their question."] = "链接到确切的产品或能力页面，并对他们的问题给出一个答案。";
   zh["Next step:"] = "下一步：";
   zh["a specific offer — samples, a quotation, a short video call — with a date."] = "一个具体的提议——样品、报价、一次简短的视频通话——并带日期。";
   zh["name, role, direct email, WhatsApp or phone, and website."] = "姓名、职位、直接邮箱、WhatsApp 或电话，以及网站。";
-  zh["first email to every qualified contact, with the right page link."] = "给每个有效联系人发第一封邮件，附上正确的页面链接。";
+  zh["first email to every qualified contact, with the right page link."] = "给每个有效联系人发首封邮件，附上正确的页面链接。";
   zh["second touch for those who did not reply: a short note with something useful, such as a datasheet or a case without client names."] = "对没回复的人做第二次触达：一封短消息，附上有用的东西，比如数据表或不含客户名称的案例。";
   zh["connect on LinkedIn with a personal note; send quotations or samples to those who asked."] = "在领英上带个人留言添加联系；给有需求的人寄报价或样品。";
   zh["review every contact — active, paused or not a fit — and record the reason."] = "逐个复核联系人——在谈、暂停还是不合适——并记录原因。";
   zh["Booth costs, travel and samples add up. To judge whether a fair is worth repeating, track a few numbers for each one: qualified contacts, follow-ups sent, RFQs received, quotations sent and orders won, with the value of each."] = "展位、差旅和样品都是成本。要判断一个展会值不值得再去，就为每个展会记几个数：有效联系人、发出的跟进、收到的询价、发出的报价、成交订单，以及各自金额。";
   zh["Tag the links in your follow-up emails so your analytics show which fair contacts visited your site and which pages they read. Over two or three fairs, this tells you which events, products and messages bring real buyers."] = "给跟进邮件里的链接加标记，分析工具就能显示哪些展会联系人访问了网站、读了哪些页面。经过两三个展会，你就能知道哪些展会、哪些产品、哪些话术带来真实买家。";
-  zh["A fair gives you a few days with buyers each year; your website works the other 360. After each fair, add what you learned: answers to the most common booth questions, pages for products that drew interest, and photos or short videos of new equipment."] = "展会一年只给你几天和买家相处的时间，网站则在其余三百六十天替你工作。每次展会后，把学到的东西补上：展位上最常被问的问题的答案、吸引关注的产品页面，以及新设备的照片或短视频。";
+  zh["A fair gives you a few days with buyers each year; your website works the other 360. After each fair, add what you learned: answers to the most common booth questions, pages for products that drew interest, and photos or short videos of new equipment."] = "展会一年只给你几天和买家相处的时间，网站则在其余三百六十天替你工作。每次展会后，把学到的东西补上：展位上常被问的问题的答案、吸引关注的产品页面，以及新设备的照片或短视频。";
   zh["Buyers who could not attend — or who found you later through a colleague — will look at your site first. If it reflects what you showed at the fair, it continues the conversation the booth started."] = "没能到场的买家，或者后来经同事介绍找到你的买家，会先看你的网站。如果网站能体现你在展会展示的东西，它就延续了展位开启的那场对话。";
   zh["Product and trade-show pages ready before the fair, with mobile RFQ forms."] = "展会前备好产品页和展会页，含适合手机的询价表单。";
   zh["Search visibility for your English company name and exhibited products."] = "让英文公司名和参展产品在搜索中可见。";
@@ -4446,7 +4446,7 @@
   zh["Most cluster websites have thin product pages: a photo and a few lines. Give each product family a real page with specifications in text, applications, options and downloadable datasheets. Where it fits,"] = "集群里多数网站的产品页很单薄：一张照片加几行字。给每个产品系列做真正的一页：文字规格、应用、选项和可下载的数据表。在合适的地方，";
   zh["can help describe products to Google."] = "可以帮助向谷歌描述产品。";
   zh["Buyers in clusters often cannot tell factories from traders. Show your own production lines, testing, warehouse and team, with your own photos and captions. Give your address and say what you make in-house and what you buy in."] = "集群里的买家常常分不清工厂和贸易商。用你自己的照片和图注展示产线、检测、仓库和团队。写出地址，说明哪些自己做、哪些外购。";
-  zh["MOQ and sample terms."] = "最小起订量和样品条款。";
+  zh["MOQ and sample terms."] = "起订量和样品条款。";
   zh["Lead times for standard and custom products."] = "标准品和定制品交期。";
   zh["Certifications by market."] = "按市场列出的认证。";
   zh["Shipping ports and terms."] = "发货港口和条款。";
@@ -4457,9 +4457,9 @@
   zh["Does our first screen say what we make that is different?"] = "首屏有没有说清我们做的哪里不同？";
   zh["Can a buyer find a specification table in two clicks?"] = "买家点两下能找到规格表吗？";
   zh["Are the photos clearly from our factory?"] = "照片明显来自我们工厂吗？";
-  zh["Do we answer MOQ, lead time and certification questions without an email?"] = "最小起订量、交期和认证的问题，不写邮件就能在网站上找到答案吗？";
+  zh["Do we answer MOQ, lead time and certification questions without an email?"] = "起订量、交期和认证的问题，不写邮件就能在网站上找到答案吗？";
   zh["Each “no” is a place to start."] = "每个“没有”，都是一个起点。";
-  zh["In a cluster, specialists often win online: the supplier that makes one kind of pump, fabric or wig very well, and says so clearly. If you have a speciality, put it first. If you make a broad range, organise it so that each family has the depth a specialist would show."] = "在产业集群里，线上往往是专精者胜出：把某一种泵、布或假发做到很好，并且说得很清楚的供应商。如果你有专长，就把它放在最前面。如果产品线很宽，就组织好，让每个系列都有专精者才有的深度。";
+  zh["In a cluster, specialists often win online: the supplier that makes one kind of pump, fabric or wig very well, and says so clearly. If you have a speciality, put it first. If you make a broad range, organise it so that each family has the depth a specialist would show."] = "在产业集群里，线上往往是专精者胜出：把某一种泵、布或假发做到很好，并且说得很清楚的供应商。如果你有专长，就把它放在前面。如果产品线很宽，就组织好，让每个系列都有专精者才有的深度。";
   zh["Track which pages lead to inquiries. Over time you will see which differences buyers care about, and you can strengthen those pages first."] = "跟踪哪些页面带来询盘。时间长了，你会看出买家在意哪些差别，然后先加强这些页面。";
   zh["A site built around what makes you different, with deep product pages and your own photos."] = "围绕你的不同之处建站，配上深入的产品页和自有照片。";
   zh["Searches for exact products and specifications, where specific pages win."] = "针对确切产品和规格的搜索，具体页面更容易胜出。";
@@ -4472,7 +4472,7 @@
   zh["Is it worth naming our city?"] = "值得写出我们所在的城市吗？";
   zh["Yes, as context. But your differences, not your location, should lead."] = "值得，作为背景。但打头的应该是你的差别，而不是所在地。";
   zh["How many products should we put online?"] = "应该把多少产品放到网上？";
-  zh["Start with the families that bring the best inquiries, and make those pages excellent."] = "先做带来最好询盘的那些系列，并把它们做到出色。";
+  zh["Start with the families that bring the best inquiries, and make those pages excellent."] = "先做带来宜询盘的那些系列，并把它们做到出色。";
   zh["Do we need our own photos?"] = "需要自己的照片吗？";
   zh["Yes. Stock or supplier photos make you look like a trader."] = "需要。图库照片或供应商给的照片，会让你看起来像贸易商。";
   zh["Can marketplaces replace our website?"] = "平台能替代我们的网站吗？";
@@ -4699,7 +4699,7 @@
   zh["Where Chinese Exports Grew and Fell in 2025 | Hurfi"] = "2025 年中国出口哪里增长、哪里下滑 | Hurfi";
   zh["Official 2025 statistical bulletins tell a clear story: exports to the United States fell in many places, while sales to the EU, ASEAN and Africa grew in several provinces and cities. This guide pulls together the figures we checked for our location guides and explains what they mean for an export website."] = "官方的 2025 年统计公报讲了一个清楚的故事：很多地方对美出口下滑，而若干省市对欧盟、东盟和非洲的销售在增长。这份指南汇总了我们为城市指南核对过的数字，并说明它们对出口网站意味着什么。";
   zh["What the bulletins measure"] = "公报衡量的是什么";
-  zh["Inland provinces grew fastest"] = "内陆省份增长最快";
+  zh["Inland provinces grew fastest"] = "内陆省份增长较快";
   zh["Some coastal economies fell"] = "部分沿海经济体下滑";
   zh["The United States fell, other markets grew"] = "对美下滑，其他市场增长";
   zh["Check your own data first"] = "先看你自己的数据";
@@ -4737,7 +4737,7 @@
   zh["). A market page that promises compliance you do not have does more harm than no page at all."] = "）。承诺你并不具备的合规性，比完全没有页面更糟。";
   zh["Good market pages are specific: the products you sell there, the standards and certificates that apply, the delivery terms you offer, references in the region and who will answer. Google’s guidance on"] = "好的市场页很具体：你在那里卖的产品、适用的标准和证书、你提供的交付条款、当地的案例，以及由谁来回复。谷歌关于";
   zh["explains the URL and language options if you add translated versions."] = "的指南解释了增加翻译版本时的网址和语言选项。";
-  zh["Track inquiries by market from the first week. After three to six months you will know which markets respond and which need different products, prices or terms. Statistics point the way; your own data decides."] = "从第一周起就按市场跟踪询盘。三到六个月后，你会知道哪些市场有反应，哪些需要不同的产品、价格或条款。统计指方向，你自己的数据做决定。";
+  zh["Track inquiries by market from the first week. After three to six months you will know which markets respond and which need different products, prices or terms. Statistics point the way; your own data decides."] = "从首周起就按市场跟踪询盘。三到六个月后，你会知道哪些市场有反应，哪些需要不同的产品、价格或条款。统计指方向，你自己的数据做决定。";
   zh["Market pages built around the products, rules and terms that apply in each market."] = "围绕各市场适用的产品、规则和条款来做市场页。";
   zh["Search Console reports by country, so you see which markets respond."] = "Search Console 提供按国家的报告，能看出哪些市场有反应。";
   zh["Campaigns tested in a few chosen markets before larger budgets."] = "在少数选定市场先做测试，再投入更大预算。";
@@ -4791,7 +4791,7 @@
   zh["Container loading: how many units per 20′ or 40′ container, if useful."] = "集装箱装载：如适用，写明 20 尺或 40 尺柜能装多少件。";
   zh["Marking, labelling and documents that travel with the goods."] = "随货的唛头、标签和单证。";
   zh["Give ranges for standard products, custom products and repeat orders, and say what affects them: materials, tooling, testing or season. Buyers trust realistic ranges more than promises that turn out to be wrong."] = "分别给出标准品、定制品和返单的交期区间，并说明受什么影响：材料、模具、检测还是季节。买家更信任真实的区间，而不是后来被证明不对的承诺。";
-  zh["Many relationships start with a sample. Explain how buyers can get one, what it costs, how it is shipped and how long it takes. If you accept small trial orders, say so and give the minimum."] = "很多合作从样品开始。说明买家怎么拿到样品、费用多少、如何寄送、需要多久。如果接受小批量试单，就写明，并给出最低数量。";
+  zh["Many relationships start with a sample. Explain how buyers can get one, what it costs, how it is shipped and how long it takes. If you accept small trial orders, say so and give the minimum."] = "很多合作从样品开始。说明买家怎么拿到样品、费用多少、如何寄送、需要多久。如果接受小批量试单，就写明，并给出起订数量。";
   zh["List the export documents you routinely supply, and explain how you handle special cases such as oversized machinery or goods that need dangerous-goods handling. Do not claim capabilities you do not have; say instead which forwarders or partners you work with."] = "列出你通常提供的出口单证，并说明如何处理特殊情况，比如超大型机械或需要危险品操作的货物。不要声称自己没有的能力；改为说明你与哪些货代或伙伴合作。";
   zh["Put a short “Shipping and lead times” line on each product page with a link to the full page. Add the shipping page to your main navigation or footer and to your XML sitemap. A buyer should never have to search for it."] = "在每个产品页加一行简短的“运输与交期”，链接到完整页面。把运输页放进主导航或页脚，也放进 XML 站点地图。买家不该需要去“找”它。";
   zh["Ports of loading and any inland routes."] = "装货港和任何内陆路线。";
@@ -4801,7 +4801,7 @@
   zh["Documents you supply with each shipment."] = "每批货随附的单证。";
   zh["Who to contact for a freight quote."] = "运费报价找谁。";
   zh["If you can tick every item, most buyers will have the information they need to compare you and ask for a quote."] = "如果每一项都能打勾，多数买家就拿到了比较你并询价所需的信息。";
-  zh["Photos and short videos of packing, loading and containers leaving your factory are some of the most convincing content an exporter can publish. They show care, capacity and that you really ship — things buyers cannot judge from text alone."] = "包装、装柜和集装箱驶出工厂的照片与短视频，是出口商能发布的最有说服力的内容之一。它们展示了用心、产能，以及你真的在出货——这些是买家仅凭文字判断不了的。";
+  zh["Photos and short videos of packing, loading and containers leaving your factory are some of the most convincing content an exporter can publish. They show care, capacity and that you really ship — things buyers cannot judge from text alone."] = "包装、装柜和集装箱驶出工厂的照片与短视频，是出口商能发布的很有说服力的内容之一。它们展示了用心、产能，以及你真的在出货——这些是买家仅凭文字判断不了的。";
   zh["Freight rates and transit times change. Avoid quoting fixed prices; give the information that stays stable — ports, terms, packing and ranges — and invite buyers to request a current quote."] = "运价和运输时间会变。避免报固定价格；给出稳定的信息——港口、条款、包装和区间——并邀请买家索取当前报价。";
   zh["A shipping and logistics page linked from every product page."] = "一个从每个产品页链接过去的运输与物流页面。";
   zh["A clear site structure and sitemap so buyers and search engines find it."] = "清晰的网站结构和站点地图，让买家和搜索引擎都能找到它。";
@@ -4979,7 +4979,7 @@
   zh["Where it is made"] = "产地在哪里";
   zh["Related pages"] = "相关页面";
   zh["Standards, rules and documents buyers ask about"] = "买家会问的标准、规则和文件";
-  zh["What buyers ask first, and what your website can show so the answer is already there."] = "买家最先问什么，以及你的网站能展示什么，让答案已经在那里。";
+  zh["What buyers ask first, and what your website can show so the answer is already there."] = "买家首先问什么，以及你的网站能展示什么，让答案已经在那里。";
   zh["Want this playbook applied to your products?"] = "想把这套方法用到你的产品上吗？";
   zh["Book a free consultation and we will look at your current site, product range and target markets, and tell you which steps to take first. Prefer to write first? Use the contact form."] = "预约一次免费咨询，我们会看你的现有网站、产品范围和目标市场，告诉你先做哪几步。更想先写信？用联系表单。";
   zh["Province guides:"] = "省份指南：";
@@ -5148,10 +5148,10 @@
   zh["Port and shipyard equipment"] = "港口与船厂设备";
   zh["Cranes, material handling and port automation, sold to terminals and yards on references and uptime."] = "起重机、物料搬运和港口自动化，靠业绩和可用率卖给码头与船厂。";
   zh["Marine equipment is regulated by international conventions, flag states and classification societies. Buyers check these first:"] = "船用设备受国际公约、船旗国和船级社监管。买家会先核查这些：";
-  zh["The IMO describes SOLAS as the most important international treaty on the safety of merchant ships; its main objective is minimum standards for the construction, equipment and operation of ships, with certificates as proof of compliance."] = "国际海事组织（IMO）称 SOLAS 是关于商船安全最重要的国际条约；其主要目标是规定船舶建造、设备和操作的最低标准，并以证书作为符合证明。";
+  zh["The IMO describes SOLAS as the most important international treaty on the safety of merchant ships; its main objective is minimum standards for the construction, equipment and operation of ships, with certificates as proof of compliance."] = "国际海事组织（IMO）称 SOLAS 是关于商船安全尤为重要的国际条约；其主要目标是规定船舶建造、设备和操作的基本标准，并以证书作为符合证明。";
   zh["Under SOLAS, port State control lets governments inspect foreign ships if there are clear grounds to believe the ship or its equipment does not comply."] = "根据 SOLAS，如果有明确理由认为船舶或其设备不符合要求，港口国监督允许政府对挂外国旗的船舶进行检查。";
   zh["Equipment carried on EU-flagged ships must comply with the Marine Equipment Directive 2014/90/EU. EMSA’s MED Portal lists more than 200,000 approved marine equipment items, and its MED e-tag lets manufacturers link certified products to the portal with a Data Matrix code."] = "挂在欧盟旗船舶上的设备必须符合船用设备指令 2014/90/EU。EMSA 的 MED 门户列出超过 20 万项已认可船用设备，其 MED 电子标签让制造商可以用 Data Matrix 码把认证产品链接到门户。";
-  zh["For the website, Google’s guidance on helpful, people-first content asks whether content shows first-hand expertise, which in marine supply means real project references and engineering detail rather than generic copy."] = "对网站而言，谷歌关于“对人有用、以人为本”内容的指南会问内容是否体现第一手专业经验——在船舶供应领域，这意味着真实项目业绩和工程细节，而不是通用文案。";
+  zh["For the website, Google’s guidance on helpful, people-first content asks whether content shows first-hand expertise, which in marine supply means real project references and engineering detail rather than generic copy."] = "对网站而言，谷歌关于“对人有用、以人为本”内容的指南会问内容是否体现一手专业经验——在船舶供应领域，这意味着真实项目业绩和工程细节，而不是通用文案。";
   zh["Classification-society approvals (type approvals, works approvals) are specific to products and societies. List each one with the society, certificate number, product scope and validity, and keep the list current."] = "船级社认可（型式认可、工厂认可）针对具体产品和具体船级社。逐项列出船级社、证书编号、产品范围和有效期，并保持更新。";
   zh["Questions overseas buyers ask marine and shipbuilding suppliers"] = "海外买家会问船舶与海工供应商的问题";
   zh["Which class societies have approved this product?"] = "这个产品通过了哪些船级社认可？";
@@ -5228,9 +5228,9 @@
   zh["Is Hurfi located in Dalian or Nantong?"] = "Hurfi 在大连或南通吗？";
   zh["No. Hurfi’s offices are in Xi’an and Bogura; we work with marine suppliers in any city remotely."] = "不是。Hurfi 的办公室在西安和博格拉；我们远程服务任何城市的船用供应商。";
   zh["Where should we begin?"] = "该从哪里开始？";
-  zh["With a free consultation: we review your site, approvals and references and suggest the first improvements."] = "从一次免费咨询开始：我们看你的网站、认可和业绩，提出第一批改进建议。";
+  zh["With a free consultation: we review your site, approvals and references and suggest the first improvements."] = "从一次免费咨询开始：我们看你的网站、认可和业绩，提出首批改进建议。";
   zh["MIIT Equipment Industry Development Center (citing MIIT Department of Equipment Industry II)."] = "工信部装备工业发展中心（援引工信部装备工业二司）。";
-  zh["2025年我国造船国际市场份额继续保持全球领先 (China’s shipbuilding market share stayed first in the world in 2025, 2 February 2026)"] = "2025年我国造船国际市场份额继续保持全球领先（中国造船国际市场份额 2025 年继续保持全球第一，2026 年 2 月 2 日）";
+  zh["2025年我国造船国际市场份额继续保持全球领先 (China’s shipbuilding market share stayed first in the world in 2025, 2 February 2026)"] = "2025年我国造船国际市场份额继续保持全球领先（中国造船国际市场份额 2025 年继续保持全球首位，2026 年 2 月 2 日）";
   zh["China Association of the National Shipbuilding Industry (CANSI)."] = "中国船舶工业行业协会（CANSI）。";
   zh["2025年船舶工业经济运行分析 (Analysis of the shipbuilding industry’s 2025 performance, 12 March 2026)"] = "2025年船舶工业经济运行分析（造船业 2025 年运行分析，2026 年 3 月 12 日）";
   zh["International Maritime Organization (IMO)."] = "国际海事组织（IMO）。";
@@ -5374,7 +5374,7 @@
 
   // Industry page: aerospace and aviation, 2026-10-20.
   zh["Aerospace & Aviation: Export Websites and SEO | Hurfi"] = "航空航天：出口网站与 SEO | Hurfi";
-  zh["Aerospace buyers qualify suppliers slowly and on evidence: quality systems, approvals, traceability and process capability. Hurfi helps Chinese aerospace and aviation suppliers present that evidence accurately in English, so procurement and supplier-quality teams abroad can take the first step."] = "航空买家认证供应商很慢，且只看证据：质量体系、批准、可追溯性和工艺能力。Hurfi 帮助中国的航空航天供应商用英文准确呈现这些证据，让海外的采购和供应商质量团队能迈出第一步。";
+  zh["Aerospace buyers qualify suppliers slowly and on evidence: quality systems, approvals, traceability and process capability. Hurfi helps Chinese aerospace and aviation suppliers present that evidence accurately in English, so procurement and supplier-quality teams abroad can take the first step."] = "航空买家认证供应商很慢，且只看证据：质量体系、批准、可追溯性和工艺能力。Hurfi 帮助中国的航空航天供应商用英文准确呈现这些证据，让海外的采购和供应商质量团队能迈出首先。";
   zh["Aerospace and aviation in 2025: the official figures"] = "2025 年航空航天：官方数据";
   zh["National and city statistics show aviation activity and aerospace manufacturing growing in several Chinese centres."] = "国家和城市统计显示，中国多个中心的航空运输和航空航天制造都在增长。";
   zh["Civil aviation freight in China reached 10.172 million tonnes in 2025, up 13.3%."] = "2025 年中国民航货邮运输量达 1017.2 万吨，增长 13.3%。";
@@ -5397,11 +5397,11 @@
   zh["Design, load testing and certification for use around aircraft."] = "围绕飞机使用的设计、载荷测试和认证。";
   zh["Special processes"] = "特种工艺";
   zh["Heat treatment, surface treatment and NDT, often needing specific accreditation."] = "热处理、表面处理和无损检测，往往需要专项认可。";
-  zh["Quality and approval systems are the first filter for aerospace buyers:"] = "质量和批准体系是航空买家的第一道筛选：";
+  zh["Quality and approval systems are the first filter for aerospace buyers:"] = "质量和批准体系是航空买家的首道筛选：";
   zh["The IAQG 9100 series standardises quality management requirements for aviation, space and defence organisations, with 9110 for maintenance organisations and 9120 for distributors."] = "IAQG 9100 系列为航空、航天和防务组织统一质量管理要求，其中 9110 面向维修组织、9120 面向分销商。";
   zh["EASA is responsible for certification and oversight of production organisations whose principal place of business is outside EU Member States, under Regulation (EU) 2018/1139 and Commission Regulation (EU) 748/2012."] = "根据 (EU) 2018/1139 号法规和 (EU) 748/2012 号委员会法规，EASA 负责对主要营业地在欧盟成员国之外的生产组织进行认证和监督。";
   zh["ISO/IEC 17025 helps laboratory test reports be accepted from one country to another, relevant to material and NDT testing."] = "ISO/IEC 17025 有助于实验室检测报告在国与国之间被接受，这与材料和无损检测相关。";
-  zh["Google’s guidance on helpful content asks whether pages show first-hand expertise, which in aerospace means real process capability rather than generic claims."] = "谷歌关于有用内容的指南会问页面是否体现第一手专业经验——在航空领域，这意味着真实的工艺能力，而不是笼统的说法。";
+  zh["Google’s guidance on helpful content asks whether pages show first-hand expertise, which in aerospace means real process capability rather than generic claims."] = "谷歌关于有用内容的指南会问页面是否体现一手专业经验——在航空领域，这意味着真实的工艺能力，而不是笼统的说法。";
   zh["List only the certifications and approvals you hold, with scope, certificate numbers and validity. Never imply customer approvals you do not have; aerospace buyers check."] = "只列出你实际持有的认证和批准，注明范围、证书编号和有效期。绝不要暗示你并不拥有的客户批准；航空买家会核查。";
   zh["Questions overseas buyers ask aerospace and aviation suppliers"] = "海外买家会问航空航天供应商的问题";
   zh["Are you certified to 9100?"] = "你们通过 9100 认证了吗？";
@@ -5417,7 +5417,7 @@
   zh["How do you manage lead times and changes?"] = "你们如何管理交期和变更？";
   zh["Planning, capacity and communication arrangements."] = "计划、产能和沟通安排。";
   zh["A website, SEO and RFQ playbook for aerospace and aviation manufacturers"] = "面向航空航天制造企业的网站、SEO 与询价方法";
-  zh["Aerospace marketing is about credibility and precision. Overclaiming is the fastest way to lose a buyer. Our usual order:"] = "航空营销靠的是可信度和精确。夸大其词是失去买家最快的方式。我们通常的顺序：";
+  zh["Aerospace marketing is about credibility and precision. Overclaiming is the fastest way to lose a buyer. Our usual order:"] = "航空营销靠的是可信度和精确。夸大其词是失去买家较快的方式。我们通常的顺序：";
   zh["Build capability pages by process and material, with machine lists, tolerances and inspection equipment."] = "按工艺和材料建能力页面，列出设备清单、公差和检测设备。";
   zh["Publish a quality page with certifications, scope and validity, and an outline of your quality system."] = "发布质量页面，列出认证、范围和有效期，并概述质量体系。";
   zh["Show part families with photos you are allowed to publish, without customer drawings."] = "展示零件族，用允许公开的照片，不含客户图纸。";
@@ -5467,7 +5467,7 @@
   zh["Can a website help us get qualified by aerospace customers?"] = "网站能帮我们通过航空客户的认证吗？";
   zh["It cannot replace qualification audits. It helps the right buyers find you and see enough evidence to start the process."] = "它替代不了认证审核。它能帮对的买家找到你，并看到足够开始流程的证据。";
   zh["Should we list our machines?"] = "应该列出设备清单吗？";
-  zh["Yes. Machine lists, work envelopes and inspection equipment are among the most useful details for aerospace buyers."] = "应该。设备清单、加工范围和检测设备是航空买家最需要的信息之一。";
+  zh["Yes. Machine lists, work envelopes and inspection equipment are among the most useful details for aerospace buyers."] = "应该。设备清单、加工范围和检测设备是航空买家尤其需要的信息之一。";
   zh["How do we handle confidential parts?"] = "机密零件怎么处理？";
   zh["Show part types and processes, not customer drawings. Use secure upload for RFQs."] = "展示零件类型和工艺，不展示客户图纸。询价用安全上传。";
   zh["Do aerospace buyers use search engines?"] = "航空买家会用搜索引擎吗？";
@@ -5642,7 +5642,7 @@
   zh["Cables, connectors, junction boxes and isolators: ratings, certificates and compatibility."] = "电缆、连接器、接线盒和隔离开关：额定值、证书和兼容性。";
   zh["Wind components"] = "风电部件";
   zh["Bearings, gearboxes, blade parts and condition monitoring, sold to turbine makers and service firms who ask for material traceability and test records."] = "轴承、齿轮箱、叶片部件和状态监测，卖给要求材料可追溯性和检测记录的风机制造商与服务公司。";
-  zh["Requirements depend on product and market. These references come up most often:"] = "要求取决于产品和市场。以下引用最常见：";
+  zh["Requirements depend on product and market. These references come up most often:"] = "要求取决于产品和市场。以下引用常见：";
   zh["IEC 61215-1:2021 sets design qualification and type approval tests for terrestrial PV modules intended for long-term open-air use, including crystalline silicon and thin-film modules, and adds instructions for bifacial modules. The IEC notes that test results are not a prediction of module lifetime."] = "IEC 61215-1:2021 规定了长期户外使用的地面光伏组件的设计鉴定和定型试验，涵盖晶硅和薄膜组件，并增加了双面组件的说明。IEC 指出，试验结果并不预示组件寿命。";
   zh["In the EU, electrical equipment rated between 50 and 1000 V AC or 75 and 1500 V DC falls under the Low Voltage Directive (2014/35/EU)."] = "在欧盟，额定电压在交流 50 至 1000 V 或直流 75 至 1500 V 之间的电气设备属于低电压指令（2014/35/EU）范围。";
   zh["The EMC Directive requires electrical and electronic equipment not to generate, or be affected by, electromagnetic disturbance, which matters for inverters and power electronics."] = "EMC 指令要求电气和电子设备不产生电磁干扰、也不受其影响，这对逆变器和电力电子尤为重要。";
@@ -5929,7 +5929,7 @@
   zh["Brand owners search differently depending on what they need. An OEM buyer already has a design and wants a factory to build it to their drawings. An ODM buyer wants a factory that brings its own designs, platforms or engineering to the project. Many factories do both, but the website should say clearly which services you offer, for which product categories, and where the line sits between your intellectual property and the client’s."] = "品牌方的搜索方式取决于他们的需求。OEM 买家已经有设计，需要工厂按图生产；ODM 买家则希望工厂把自己的设计、平台或工程能力带入项目。许多工厂两者都做，但网站应清楚说明您提供哪些服务、覆盖哪些产品类别，以及您的知识产权与客户知识产权之间的界限在哪里。";
   zh["What brand owners check before they send a brief"] = "品牌方在发出需求简报前会核查什么";
   zh["Product categories and processes you run in-house, and which steps you subcontract."] = "您自行生产的产品类别与工序，以及哪些环节外包。";
-  zh["Minimum order quantities, sampling cost and lead time for a first run, and how those change at volume."] = "最小起订量、打样费用与首批交期，以及批量放大后这些条件如何变化。";
+  zh["Minimum order quantities, sampling cost and lead time for a first run, and how those change at volume."] = "起订量、打样费用与首批交期，以及批量放大后这些条件如何变化。";
   zh["How you handle confidentiality: NDAs, restricted areas, file handling, and whether you will sign the client’s own agreement."] = "您如何处理保密事项：保密协议、限制区域、文件管理，以及是否愿意签署客户自己的协议。";
   zh["Who owns tooling, moulds and design files, and what happens to them if the relationship ends."] = "工装、模具与设计文件归谁所有，合作关系结束时如何处理。";
   zh["Quality system and audit history: the certificates you hold, and whether you accept third-party and client audits."] = "质量体系与审核记录：您持有的证书，以及是否接受第三方审核和客户审核。";
@@ -6467,9 +6467,9 @@
   fr["Datasheets with part numbers, electrical characteristics, package options and revision history."] = "Des fiches techniques indiquant les références, caractéristiques électriques, options de boîtier et historique des révisions.";
   zh["Compliance documents such as RoHS and REACH declarations; for automotive-grade parts, the AEC-Q qualification only where it has been completed."] = "RoHS 和 REACH 等合规声明；汽车级元件仅在已完成相应认证时才标明 AEC-Q 资格。";
   fr["Compliance documents such as RoHS and REACH declarations; for automotive-grade parts, the AEC-Q qualification only where it has been completed."] = "Des documents de conformité tels que les déclarations RoHS et REACH ; pour les composants automobiles, la qualification AEC-Q uniquement lorsqu’elle a été obtenue.";
-  zh["For PCB and PCBA work: layer counts, materials, minimum trace/space, assembly capability and the workmanship standard you build to (for example IPC-A-610 class)."] = "对于 PCB 和 PCBA 业务：说明层数、材料、最小线宽/线距、组装能力及执行的工艺标准（例如 IPC-A-610 等级）。";
+  zh["For PCB and PCBA work: layer counts, materials, minimum trace/space, assembly capability and the workmanship standard you build to (for example IPC-A-610 class)."] = "对于 PCB 和 PCBA 业务：说明层数、材料、线宽下限/线距、组装能力及执行的工艺标准（例如 IPC-A-610 等级）。";
   fr["For PCB and PCBA work: layer counts, materials, minimum trace/space, assembly capability and the workmanship standard you build to (for example IPC-A-610 class)."] = "Pour les activités PCB et PCBA : nombre de couches, matériaux, largeur/espacement minimal des pistes, capacités d’assemblage et norme de fabrication appliquée (par exemple, classe IPC-A-610).";
-  zh["MOQ, sample policy, typical lead times and how long a part stays in production."] = "最小起订量、样品政策、典型交期以及元件的预计持续生产年限。";
+  zh["MOQ, sample policy, typical lead times and how long a part stays in production."] = "起订量、样品政策、典型交期以及元件的预计持续生产年限。";
   fr["MOQ, sample policy, typical lead times and how long a part stays in production."] = "Quantité minimale de commande, politique d’échantillonnage, délais habituels et durée de maintien d’un composant en production.";
   zh["Traceability: lot tracking, test records and what a buyer receives with each shipment."] = "可追溯性：批次跟踪、测试记录，以及买家每批货物会收到的资料。";
   fr["Traceability: lot tracking, test records and what a buyer receives with each shipment."] = "Traçabilité : suivi des lots, dossiers d’essai et documents remis à l’acheteur avec chaque expédition.";
@@ -6597,7 +6597,7 @@
   fr["Cycle-life and efficiency numbers with no test conditions, which experienced buyers discount immediately."] = "Des chiffres de durée de vie en cycles et d’efficacité sans conditions de test, que les acheteurs expérimentés écartent immédiatement.";
   zh["Certificates shown as logos only, without the certificate holder, model coverage or validity."] = "证书仅以标志形式展示，未注明证书持有人、覆盖型号或有效期。";
   fr["Certificates shown as logos only, without the certificate holder, model coverage or validity."] = "Des certificats présentés uniquement sous forme de logos, sans nom du titulaire, modèles concernés ni période de validité.";
-  zh["No information on shipping and dangerous-goods handling, which is one of the first practical questions."] = "没有提供运输和危险品处理信息，而这是买家最先关注的实际问题之一。";
+  zh["No information on shipping and dangerous-goods handling, which is one of the first practical questions."] = "没有提供运输和危险品处理信息，而这是买家首先关注的实际问题之一。";
   fr["No information on shipping and dangerous-goods handling, which is one of the first practical questions."] = "Aucune information sur l’expédition et la manutention des marchandises dangereuses, alors qu’il s’agit de l’une des premières questions pratiques.";
   zh["Overseas battery and energy storage buyers rarely search for a supplier by company type alone. They search for the product, the specification or the problem. These are the pages we usually plan first:"] = "海外电池和储能买家很少只按公司类型寻找供应商。他们会搜索产品、规格或要解决的问题。我们通常会优先规划以下页面：";
   fr["Overseas battery and energy storage buyers rarely search for a supplier by company type alone. They search for the product, the specification or the problem. These are the pages we usually plan first:"] = "Les acheteurs étrangers de batteries et de solutions de stockage d’énergie recherchent rarement un fournisseur par type d’entreprise uniquement. Ils cherchent un produit, une spécification ou une solution à un problème. Voici les pages que nous planifions généralement en priorité :";
@@ -7274,7 +7274,7 @@
   fr["Video pages that show the machine cutting real parts, with the material and cycle time named."] = "Des pages vidéo montrant la machine en train d’usiner de vraies pièces, avec le matériau et le temps de cycle indiqués.";
   zh["Pages for the industries and parts you machine for, so buyers searching by application find a relevant machine."] = "为您服务的行业和加工的零件建立页面，让按应用场景搜索的买家找到相关设备。";
   fr["Pages for the industries and parts you machine for, so buyers searching by application find a relevant machine."] = "Des pages dédiées aux secteurs que vous servez et aux pièces que vous usinez, afin que les acheteurs qui recherchent une application trouvent une machine adaptée.";
-  zh["Installation, training and service pages that answer the main worry of buying a machine from abroad."] = "安装、培训和服务页面回答买家从海外采购设备时最关心的问题。";
+  zh["Installation, training and service pages that answer the main worry of buying a machine from abroad."] = "安装、培训和服务页面回答买家从海外采购设备时尤其关心的问题。";
   fr["Installation, training and service pages that answer the main worry of buying a machine from abroad."] = "Des pages sur l’installation, la formation et le service qui répondent à la principale préoccupation des acheteurs de machines à l’étranger.";
   zh["Spare-parts and consumables pages that make reordering easy after the sale."] = "备件和耗材页面方便客户在成交后再次订购。";
   fr["Spare-parts and consumables pages that make reordering easy after the sale."] = "Des pages sur les pièces de rechange et les consommables qui facilitent les commandes après-vente.";
@@ -7332,7 +7332,7 @@
   fr["Heavy machinery contract manufacturing"] = "Fabrication à façon de machines lourdes";
   zh["Is video necessary?"] = "视频有必要吗？";
   fr["Is video necessary?"] = "La vidéo est-elle nécessaire ?";
-  zh["For machinery it is one of the strongest proofs. Short clips of real cutting are better than polished advertising."] = "对于机械设备，视频是最有力的证明之一。真实切削的短片比精致的广告更有说服力。";
+  zh["For machinery it is one of the strongest proofs. Short clips of real cutting are better than polished advertising."] = "对于机械设备，视频是很有力的证明之一。真实切削的短片比精致的广告更有说服力。";
   fr["For machinery it is one of the strongest proofs. Short clips of real cutting are better than polished advertising."] = "Pour les machines, c’est l’une des preuves les plus convaincantes. De courtes séquences d’usinage réel sont plus parlantes qu’une publicité très travaillée.";
   zh["We sell through dealers. Will the site compete with them?"] = "我们通过经销商销售。网站会和他们竞争吗？";
   fr["We sell through dealers. Will the site compete with them?"] = "Nous vendons par l’intermédiaire de revendeurs. Le site sera-t-il en concurrence avec eux ?";
@@ -7564,7 +7564,7 @@
   fr["Beijing’s service robot output rose 47.6%, and Tianjin’s 6.4%."] = "La production de robots de service a augmenté de 47.6 % à Pékin et de 6.4 % à Tianjin.";
   zh["IEC 60335-2-72:2021 covers the safety of powered ride-on and walk-behind floor treatment machines for commercial use, for sweeping, scrubbing, wet or dry pick-up, polishing and shampooing floors."] = "IEC 60335-2-72:2021 涵盖商用乘驾式和步行操纵式地面处理设备的安全要求，适用于清扫、刷洗、干湿吸取、抛光和地毯清洗。";
   fr["IEC 60335-2-72:2021 covers the safety of powered ride-on and walk-behind floor treatment machines for commercial use, for sweeping, scrubbing, wet or dry pick-up, polishing and shampooing floors."] = "La norme IEC 60335-2-72:2021 couvre la sécurité des machines motorisées de traitement des sols à conducteur porté ou accompagnant, à usage commercial, pour le balayage, le récurage, l’aspiration humide ou sèche, le polissage et le shampooing des sols.";
-  zh["The standard covers machines used in hotels, schools, hospitals, factories, shops and offices, powered by combustion engines, mains motors (up to 250 V single-phase or 480 V other) or batteries."] = "该标准适用于酒店、学校、医院、工厂、商店和办公室使用的设备，设备可由内燃机、市电电机（单相最高 250 V，其他类型最高 480 V）或电池供电。";
+  zh["The standard covers machines used in hotels, schools, hospitals, factories, shops and offices, powered by combustion engines, mains motors (up to 250 V single-phase or 480 V other) or batteries."] = "该标准适用于酒店、学校、医院、工厂、商店和办公室使用的设备，设备可由内燃机、市电电机（单相上限 250 V，其他类型上限 480 V）或电池供电。";
   fr["The standard covers machines used in hotels, schools, hospitals, factories, shops and offices, powered by combustion engines, mains motors (up to 250 V single-phase or 480 V other) or batteries."] = "La norme couvre les machines utilisées dans les hôtels, écoles, hôpitaux, usines, magasins et bureaux, alimentées par un moteur à combustion, le secteur (jusqu’à 250 V monophasé ou 480 V pour les autres configurations) ou des batteries.";
   zh["In the EU, 14.4 million tonnes of electrical and electronic equipment are placed on the market, and 5 million tonnes of e-waste were collected in 2022."] = "在欧盟，电气和电子设备投放市场的数量为1,440万吨；2022年收集了500万吨电子废弃物。";
   fr["In the EU, 14.4 million tonnes of electrical and electronic equipment are placed on the market, and 5 million tonnes of e-waste were collected in 2022."] = "Dans l’UE, 14.4 millions de tonnes d’équipements électriques et électroniques sont mises sur le marché, et 5 millions de tonnes de déchets électroniques ont été collectées en 2022.";
@@ -7810,7 +7810,7 @@
   fr["Packaging machinery"] = "Machines d’emballage";
   zh["Filling, forming, sealing and labelling equipment."] = "灌装、成型、封口和贴标设备。";
   fr["Filling, forming, sealing and labelling equipment."] = "Équipements de remplissage, formage, scellage et étiquetage.";
-  zh["These references come up most with European buyers:"] = "欧洲买家最常提及以下法规和标准：";
+  zh["These references come up most with European buyers:"] = "欧洲买家常提及以下法规和标准：";
   fr["These references come up most with European buyers:"] = "Les acheteurs européens mentionnent le plus souvent les références suivantes :";
   zh["The EU packaging regulation sets mandatory rules for eco-design, recycled content, waste prevention, reuse formats and collection and recycling, including binding reuse targets and deposit return systems."] = "欧盟包装法规对生态设计、再生材料含量、废弃物预防、重复使用规格以及收集和回收制定了强制要求，其中包括具有约束力的重复使用目标和押金返还制度。";
   fr["The EU packaging regulation sets mandatory rules for eco-design, recycled content, waste prevention, reuse formats and collection and recycling, including binding reuse targets and deposit return systems."] = "La réglementation européenne sur les emballages fixe des règles obligatoires concernant l’écoconception, le contenu recyclé, la prévention des déchets, les formats réutilisables ainsi que la collecte et le recyclage. Elle prévoit notamment des objectifs contraignants de réemploi et des systèmes de consigne.";
@@ -7836,9 +7836,9 @@
   fr["Is it approved for food contact?"] = "Le produit est-il approuvé pour le contact alimentaire ?";
   zh["Declarations of compliance per material and use."] = "按材料和用途提供符合性声明。";
   fr["Declarations of compliance per material and use."] = "Fournissez une déclaration de conformité pour chaque matériau et usage.";
-  zh["What are your MOQs and print options?"] = "最小起订量和印刷选项有哪些？";
+  zh["What are your MOQs and print options?"] = "起订量和印刷选项有哪些？";
   fr["What are your MOQs and print options?"] = "Quelles sont vos quantités minimales de commande et vos options d’impression ?";
-  zh["MOQs, print methods, colours and finishes."] = "最小起订量、印刷方式、颜色和表面效果。";
+  zh["MOQs, print methods, colours and finishes."] = "起订量、印刷方式、颜色和表面效果。";
   fr["MOQs, print methods, colours and finishes."] = "Quantités minimales de commande, procédés d’impression, couleurs et finitions.";
   zh["How fast can you sample?"] = "打样需要多久？";
   fr["How fast can you sample?"] = "Dans quels délais pouvez-vous fournir des échantillons ?";
@@ -7854,7 +7854,7 @@
   fr["Packaging buyers are brand, procurement and sustainability teams. Each needs different evidence. Our usual order:"] = "Les acheteurs d’emballages appartiennent souvent aux équipes de marque, d’approvisionnement et de développement durable. Chacune a besoin de preuves différentes. Voici l’ordre que nous suivons généralement :";
   zh["Organise the site by material and format, and by end market (food, cosmetics, e-commerce, industrial)."] = "按材料、规格和终端市场（食品、化妆品、电商、工业）组织网站内容。";
   fr["Organise the site by material and format, and by end market (food, cosmetics, e-commerce, industrial)."] = "Organisez le site par matériau, format et marché final (agroalimentaire, cosmétiques, commerce en ligne, industrie).";
-  zh["Give each product family a page with structures, sizes, print options and MOQs."] = "为每个产品系列建立页面，介绍结构、尺寸、印刷选项和最小起订量。";
+  zh["Give each product family a page with structures, sizes, print options and MOQs."] = "为每个产品系列建立页面，介绍结构、尺寸、印刷选项和起订量。";
   fr["Give each product family a page with structures, sizes, print options and MOQs."] = "Créez une page pour chaque famille de produits, avec les structures, dimensions, options d’impression et quantités minimales de commande.";
   zh["Publish a compliance and sustainability page with food-contact, recyclability and certification information."] = "发布合规与可持续发展页面，说明食品接触、可回收性和认证信息。";
   fr["Publish a compliance and sustainability page with food-contact, recyclability and certification information."] = "Publiez une page sur la conformité et le développement durable, avec des informations sur le contact alimentaire, la recyclabilité et les certifications.";
@@ -7946,7 +7946,7 @@
   fr["Can we claim our packaging is recyclable?"] = "Pouvons-nous déclarer que nos emballages sont recyclables ?";
   zh["Only where you can document it for the specific material and market."] = "只有在能够针对具体材料和市场提供证明时才可以。";
   fr["Only where you can document it for the specific material and market."] = "Uniquement si vous pouvez le justifier pour le matériau et le marché concernés.";
-  zh["Price bands or MOQ tiers can help. Custom work is usually quoted."] = "提供价格区间或不同最小起订量档位会有帮助。定制产品通常需要单独报价。";
+  zh["Price bands or MOQ tiers can help. Custom work is usually quoted."] = "提供价格区间或不同起订量档位会有帮助。定制产品通常需要单独报价。";
   fr["Price bands or MOQ tiers can help. Custom work is usually quoted."] = "Des fourchettes de prix ou différents paliers de quantité minimale peuvent être utiles. Les produits sur mesure font généralement l’objet d’un devis.";
   zh["Can we show brands we produce for?"] = "我们可以展示合作生产的品牌吗？";
   fr["Can we show brands we produce for?"] = "Pouvons-nous citer les marques pour lesquelles nous fabriquons ?";
@@ -7978,7 +7978,7 @@
   fr["Safety and testing in 2025: the official figures"] = "Sécurité et essais en 2025 : chiffres officiels";
   zh["China’s statistics show a large and growing testing and certification system, and city bulletins show strong instrument output."] = "中国统计数据显示，检测和认证体系规模庞大且持续发展；各城市公报也显示仪器产量强劲。";
   fr["China’s statistics show a large and growing testing and certification system, and city bulletins show strong instrument output."] = "Les statistiques chinoises révèlent un système d’essai et de certification vaste et en expansion, tandis que les bulletins municipaux font état d’une forte production d’instruments.";
-  zh["China had 874 national quality inspection and testing centres at the end of 2025 and 1,216 product, system and service certification bodies, which have certified 1.17 million firms."] = "截至2025年底，中国共有874个国家级质量检验检测中心和1,216家产品、体系及服务认证机构，累计认证企业117万家。";
+  zh["China had 874 national quality inspection and testing centres at the end of 2025 and 1,216 product, system and service certification bodies, which have certified 1.17 million firms."] = "截至2025年底，中国共有874个国家质量检验检测中心和1,216家产品、体系及服务认证机构，累计认证企业117万家。";
   fr["China had 874 national quality inspection and testing centres at the end of 2025 and 1,216 product, system and service certification bodies, which have certified 1.17 million firms."] = "À la fin de 2025, la Chine comptait 874 centres nationaux d’inspection et d’essai de la qualité et 1,216 organismes de certification de produits, de systèmes et de services, qui avaient certifié 1.17 million d’entreprises.";
   zh["4,929 national standards were set or revised in 2025, 2,481 of them new."] = "2025年，中国制定或修订了4,929项国家标准，其中2,481项为新制定标准。";
   fr["4,929 national standards were set or revised in 2025, 2,481 of them new."] = "En 2025, 4,929 normes nationales ont été établies ou révisées, dont 2,481 nouvelles.";
@@ -8054,7 +8054,7 @@
   fr["Can you supply private label?"] = "Pouvez-vous fournir des produits sous marque de distributeur ?";
   zh["Conditions and certification implications."] = "说明合作条件及其对认证的影响。";
   fr["Conditions and certification implications."] = "Précisez les conditions et les conséquences sur les certifications.";
-  zh["What are lead times and MOQs?"] = "交期和最小起订量是多少？";
+  zh["What are lead times and MOQs?"] = "交期和起订量是多少？";
   fr["What are lead times and MOQs?"] = "Quels sont les délais et les quantités minimales de commande ?";
   zh["Per product line."] = "按产品系列分别说明。";
   fr["Per product line."] = "Précisez-les pour chaque gamme de produits.";
@@ -8178,7 +8178,7 @@
   fr["Personal protective equipment (PPE Regulation (EU) 2016/425)"] = "Équipements de protection individuelle (règlement EPI (UE) 2016/425)";
   zh["Talk to us about your industrial safety and testing products"] = "欢迎与我们讨论您的工业安全与检测产品";
   fr["Talk to us about your industrial safety and testing products"] = "Parlez-nous de vos produits de sécurité industrielle et d’essai";
-  zh["Infographic of four figures for Industrial Safety & Testing: 874 national quality inspection centres in China; 1,216 certification bodies in China; 4,929 national standards set or revised in 2025; +12.1% instruments and meters growth in Nanjing."] = "工业安全与检测信息图，列出四项数据：中国有874个国家级质量检验检测中心；中国有1,216家认证机构；2025年制定或修订4,929项国家标准；南京仪器仪表产业增长12.1%。";
+  zh["Infographic of four figures for Industrial Safety & Testing: 874 national quality inspection centres in China; 1,216 certification bodies in China; 4,929 national standards set or revised in 2025; +12.1% instruments and meters growth in Nanjing."] = "工业安全与检测信息图，列出四项数据：中国有874个国家质量检验检测中心；中国有1,216家认证机构；2025年制定或修订4,929项国家标准；南京仪器仪表产业增长12.1%。";
   fr["Infographic of four figures for Industrial Safety & Testing: 874 national quality inspection centres in China; 1,216 certification bodies in China; 4,929 national standards set or revised in 2025; +12.1% instruments and meters growth in Nanjing."] = "Infographie sur la sécurité industrielle et les essais présentant quatre chiffres : 874 centres nationaux d’inspection de la qualité en Chine ; 1,216 organismes de certification en Chine ; 4,929 normes nationales établies ou révisées en 2025 ; hausse de 12.1 % du secteur des instruments et compteurs à Nanjing.";
   zh["Industrial HVAC & Building Systems: Websites and SEO | Hurfi"] = "工业暖通空调与建筑系统：网站与 SEO | Hurfi";
   fr["Industrial HVAC & Building Systems: Websites and SEO | Hurfi"] = "CVC industriel et systèmes du bâtiment : sites web et référencement | Hurfi";
@@ -8230,7 +8230,7 @@
   fr["Cleanroom and process cooling"] = "Salles blanches et refroidissement des procédés";
   zh["Precision temperature and humidity control for factories, labs and data rooms."] = "为工厂、实验室和数据机房提供精准的温湿度控制。";
   fr["Precision temperature and humidity control for factories, labs and data rooms."] = "Contrôle précis de la température et de l’humidité pour les usines, laboratoires et salles informatiques.";
-  zh["Rules depend on the product and the market. These are the references HVAC buyers in Europe raise most often:"] = "法规要求因产品和市场而异。欧洲 HVAC 买家最常提及以下法规：";
+  zh["Rules depend on the product and the market. These are the references HVAC buyers in Europe raise most often:"] = "法规要求因产品和市场而异。欧洲 HVAC 买家常提及以下法规：";
   fr["Rules depend on the product and the market. These are the references HVAC buyers in Europe raise most often:"] = "Les exigences dépendent du produit et du marché. Voici les références que les acheteurs européens de systèmes CVC mentionnent le plus souvent :";
   zh["EU F-gas rules restrict fluorinated refrigerants; the Commission promotes climate-friendly alternatives, and buyers increasingly ask which refrigerant a unit uses and why."] = "欧盟 F-gas 规则限制含氟制冷剂；欧盟委员会鼓励采用气候友好型替代品，买家也越来越常询问设备使用哪种制冷剂及其原因。";
   fr["EU F-gas rules restrict fluorinated refrigerants; the Commission promotes climate-friendly alternatives, and buyers increasingly ask which refrigerant a unit uses and why."] = "Les règles européennes sur les gaz fluorés limitent les réfrigérants fluorés ; la Commission encourage des solutions de remplacement plus respectueuses du climat, et les acheteurs demandent de plus en plus quel réfrigérant utilise une unité et pourquoi.";
@@ -8386,7 +8386,7 @@
   fr["Hurfi’s offices are in Xi’an and Bogura. We work with manufacturers across China remotely."] = "Les bureaux de Hurfi se trouvent à Xi’an et à Bogura. Nous travaillons à distance avec des fabricants dans toute la Chine.";
   zh["Book a free consultation; we review your site and ranges and suggest the first steps."] = "预约免费咨询；我们会评估您的网站和产品系列，并建议后续步骤。";
   fr["Book a free consultation; we review your site and ranges and suggest the first steps."] = "Réservez une consultation gratuite : nous examinerons votre site et vos gammes, puis vous proposerons les premières étapes.";
-  zh["Fluorinated greenhouse gases (page last updated 25 November 2025)"] = "含氟温室气体（页面最后更新于 2025 年 11 月 25 日）";
+  zh["Fluorinated greenhouse gases (page last updated 25 November 2025)"] = "含氟温室气体（页面更新于 2025 年 11 月 25 日）";
   fr["Fluorinated greenhouse gases (page last updated 25 November 2025)"] = "Gaz à effet de serre fluorés (page mise à jour le 25 novembre 2025)";
   zh["Talk to us about your HVAC and building systems products"] = "欢迎与我们讨论您的 HVAC 和建筑系统产品";
   fr["Talk to us about your HVAC and building systems products"] = "Parlez-nous de vos produits CVC et équipements du bâtiment";
@@ -8504,7 +8504,7 @@
   fr["Official statistics show environmental manufacturing and green building in cities with Hurfi guides:"] = "Les statistiques officielles montrent la fabrication environnementale et la construction verte dans des villes couvertes par les guides Hurfi :";
   zh[": energy-saving and environmental manufacturing output was 48.749 billion yuan in 2025."] = "：2025 年节能环保制造业产值达 487.49 亿元。";
   fr[": energy-saving and environmental manufacturing output was 48.749 billion yuan in 2025."] = " : la production manufacturière en économies d’énergie et protection de l’environnement a atteint 48,749 milliards de yuans en 2025.";
-  zh[": added 17.27 million m² of green and prefabricated buildings and 16 national green manufacturing units."] = "：新增绿色建筑和装配式建筑 1727 万平方米，以及 16 家国家级绿色制造单位。";
+  zh[": added 17.27 million m² of green and prefabricated buildings and 16 national green manufacturing units."] = "：新增绿色建筑和装配式建筑 1727 万平方米，以及 16 家国家绿色制造单位。";
   fr[": added 17.27 million m² of green and prefabricated buildings and 16 national green manufacturing units."] = " : ajout de 17,27 millions de m² de bâtiments verts et préfabriqués, et de 16 unités nationales de fabrication verte.";
   zh[": public spending on energy saving and environmental protection rose 48.6%."] = "：节能环保公共支出增长 48.6%。";
   fr[": public spending on energy saving and environmental protection rose 48.6%."] = " : les dépenses publiques consacrées aux économies d’énergie et à la protection de l’environnement ont augmenté de 48,6 %.";
@@ -8578,7 +8578,7 @@
   fr["Yes, factually and with links to official sources, without giving legal advice."] = "Oui, de façon factuelle et avec des liens vers les sources officielles, sans donner de conseil juridique.";
   zh["How do we present performance data?"] = "我们该如何呈现性能数据？";
   fr["How do we present performance data?"] = "Comment présenter nos données de performance ?";
-  zh["With conditions, test methods and dates, not best-case figures alone."] = "要附上条件、测试方法和日期，而不只是最优数据。";
+  zh["With conditions, test methods and dates, not best-case figures alone."] = "要附上条件、测试方法和日期，而不只是理想数据。";
   fr["With conditions, test methods and dates, not best-case figures alone."] = "Avec les conditions, les méthodes d’essai et les dates, pas seulement les meilleurs chiffres.";
   zh["Can we name reference plants?"] = "我们可以公开样板工厂的名称吗？";
   fr["Can we name reference plants?"] = "Pouvons-nous citer nos usines de référence ?";
@@ -8832,7 +8832,7 @@
   fr["Hurfi does not have an office or staff in Wuxi. We work with Wuxi manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi n’a ni bureau ni personnel à Wuxi. Nous travaillons à distance avec les fabricants de Wuxi — WeChat, e-mail et visioconférence — depuis nos bureaux de Xi’an (Shaanxi) et de Bogura (Bangladesh).";
   zh["What Wuxi makes, according to official data"] = "官方数据中的无锡产业";
   fr["What Wuxi makes, according to official data"] = "Ce que produit Wuxi, selon les données officielles";
-  zh["Wuxi organises its industry policy around a named set of clusters. The city’s own figures show which of them are largest, which helps decide where an export website and search plan should start."] = "无锡围绕一组明确命名的产业集群制定产业政策。该市自己的数据可以看出哪些集群规模最大，这有助于判断外贸网站和搜索计划应从何处入手。";
+  zh["Wuxi organises its industry policy around a named set of clusters. The city’s own figures show which of them are largest, which helps decide where an export website and search plan should start."] = "无锡围绕一组明确命名的产业集群制定产业政策。该市自己的数据可以看出哪些集群规模居首，这有助于判断外贸网站和搜索计划应从何处入手。";
   fr["Wuxi organises its industry policy around a named set of clusters. The city’s own figures show which of them are largest, which helps decide where an export website and search plan should start."] = "Wuxi structure sa politique industrielle autour d’un ensemble nommé de clusters. Les chiffres de la ville montrent lesquels sont les plus importants, ce qui aide à décider par où commencer un site export et un plan de recherche.";
   zh["The Wuxi Industry and Information Technology Bureau reports that its “465” modern industrial cluster system included 5,582 above-designated-size enterprises in January–November 2025, with combined revenue of about RMB 1.7 trillion."] = "无锡市工业和信息化局的数据显示，2025 年 1—11 月，“465”现代产业集群体系内规模以上企业达 5,582 家，合计营收约 1.7 万亿元。";
   fr["The Wuxi Industry and Information Technology Bureau reports that its “465” modern industrial cluster system included 5,582 above-designated-size enterprises in January–November 2025, with combined revenue of about RMB 1.7 trillion."] = "Le bureau de l’industrie et des technologies de l’information de Wuxi indique que son système de clusters industriels modernes « 465 » comptait 5 582 entreprises de taille supérieure au seuil réglementaire de janvier à novembre 2025, pour un chiffre d’affaires cumulé d’environ 1 700 milliards de yuans.";
@@ -8854,7 +8854,7 @@
   fr["Automotive-parts makers need pages that state the quality system and the standards each part meets, and only claim the approvals they hold."] = "Les fabricants de pièces automobiles ont besoin de pages indiquant le système qualité et les normes respectées par chaque pièce, et ne doivent revendiquer que les homologations réellement détenues.";
   zh["New energy"] = "新能源";
   fr["New energy"] = "Énergies nouvelles";
-  zh["For battery and storage suppliers, test conditions, certificates and shipping documents are the first questions a buyer asks."] = "对电池和储能供应商来说，测试条件、证书和运输文件是买家的第一批问题。";
+  zh["For battery and storage suppliers, test conditions, certificates and shipping documents are the first questions a buyer asks."] = "对电池和储能供应商来说，测试条件、证书和运输文件是买家的首批问题。";
   fr["For battery and storage suppliers, test conditions, certificates and shipping documents are the first questions a buyer asks."] = "Pour les fournisseurs de batteries et de stockage, les conditions d’essai, les certificats et les documents d’expédition sont les premières questions des acheteurs.";
   zh["How Hurfi works with Wuxi manufacturers"] = "Hurfi 如何与无锡制造商合作";
   fr["How Hurfi works with Wuxi manufacturers"] = "Comment Hurfi travaille avec les fabricants de Wuxi";
@@ -8926,7 +8926,7 @@
   fr["Hurfi has no office or staff in Hefei. We work with Hefei manufacturers remotely over WeChat, email and video calls, from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi n’a ni bureau ni personnel à Hefei. Nous travaillons à distance avec les fabricants de Hefei par WeChat, e-mail et visioconférence, depuis nos bureaux de Xi’an (Shaanxi) et de Bogura (Bangladesh).";
   zh["What Hefei makes, according to official data"] = "官方数据中的合肥产业";
   fr["What Hefei makes, according to official data"] = "Ce que produit Hefei, selon les données officielles";
-  zh["Recent figures released through the Hefei Statistics Bureau show which industries are driving the city’s growth. We use them to choose the industry pages and search topics that matter for a Hefei supplier."] = "合肥市统计局发布的最新数据显示了哪些产业在推动该市增长。我们据此为合肥供应商选择真正重要的行业页面和搜索主题。";
+  zh["Recent figures released through the Hefei Statistics Bureau show which industries are driving the city’s growth. We use them to choose the industry pages and search topics that matter for a Hefei supplier."] = "合肥市统计局发布的新数据显示了哪些产业在推动该市增长。我们据此为合肥供应商选择真正重要的行业页面和搜索主题。";
   fr["Recent figures released through the Hefei Statistics Bureau show which industries are driving the city’s growth. We use them to choose the industry pages and search topics that matter for a Hefei supplier."] = "Les chiffres récents publiés par le bureau des statistiques de Hefei montrent les industries qui portent la croissance de la ville. Nous nous en servons pour choisir les pages sectorielles et les sujets de recherche pertinents pour un fournisseur de Hefei.";
   zh["Citing the Hefei Statistics Bureau, Anhui Economic News reported that Hefei’s above-designated-size industrial value added grew 17.6% in 2025, led by computer, communications and other electronic equipment manufacturing (up 60.6%) and automobile manufacturing (up 11.1%), described as the city’s two pillar industries."] = "《安徽经济网》援引合肥市统计局数据报道，2025 年合肥规模以上工业增加值增长 17.6%，其中计算机、通信和其他电子设备制造业增长 60.6%，汽车制造业增长 11.1%，被称为该市两大支柱产业。";
   fr["Citing the Hefei Statistics Bureau, Anhui Economic News reported that Hefei’s above-designated-size industrial value added grew 17.6% in 2025, led by computer, communications and other electronic equipment manufacturing (up 60.6%) and automobile manufacturing (up 11.1%), described as the city’s two pillar industries."] = "Citée par Anhui Economic News, qui s’appuie sur le bureau des statistiques de Hefei, la valeur ajoutée industrielle des entreprises de taille supérieure au seuil réglementaire a augmenté de 17,6 % en 2025, portée par la fabrication d’ordinateurs, de matériel de communication et d’autres équipements électroniques (+60,6 %) et la construction automobile (+11,1 %), présentées comme les deux industries piliers de la ville.";
@@ -8964,7 +8964,7 @@
   fr["Reporting from your own analytics and Search Console accounts."] = "Des rapports issus de vos propres comptes d’analyse et de Search Console.";
   zh["For a Hefei manufacturer selling abroad, the first pages and search topics usually follow the city’s industrial mix:"] = "对面向海外的合肥制造商来说，首批页面和搜索主题通常围绕该市的产业结构来定：";
   fr["For a Hefei manufacturer selling abroad, the first pages and search topics usually follow the city’s industrial mix:"] = "Pour un fabricant de Hefei qui vend à l’étranger, les premières pages et les premiers sujets de recherche suivent en général la structure industrielle de la ville :";
-  zh["Product pages for EV, battery and display-related components with the ratings and test data buyers ask for first."] = "为电动汽车、电池和显示相关元件建立产品页面，列出买家最先追问的额定参数和测试数据。";
+  zh["Product pages for EV, battery and display-related components with the ratings and test data buyers ask for first."] = "为电动汽车、电池和显示相关元件建立产品页面，列出买家首先追问的额定参数和测试数据。";
   fr["Product pages for EV, battery and display-related components with the ratings and test data buyers ask for first."] = "Des pages produits pour les composants liés aux véhicules électriques, aux batteries et aux écrans, avec les caractéristiques nominales et données d’essai demandées en premier.";
   zh["Certification and quality pages that answer automotive buyers’ questions about approval processes."] = "认证与质量页面，回应汽车买家关于认证流程的问题。";
   fr["Certification and quality pages that answer automotive buyers’ questions about approval processes."] = "Des pages certification et qualité qui répondent aux questions des acheteurs automobiles sur les processus d’homologation.";
@@ -9004,7 +9004,7 @@
   fr["What Dongguan makes, according to official data"] = "Ce que produit Dongguan, selon les données officielles";
   zh["Dongguan’s own government documents describe a manufacturing base built on electronics, equipment and home products. That shapes where an export website should focus."] = "东莞市政府文件将该市描述为以电子、装备和家居产品为基础的制造基地。这也决定了外贸网站应该聚焦的方向。";
   fr["Dongguan’s own government documents describe a manufacturing base built on electronics, equipment and home products. That shapes where an export website should focus."] = "Les documents du gouvernement de Dongguan décrivent une base manufacturière fondée sur l’électronique, les équipements et les produits pour la maison. Cela oriente la priorité d’un site export.";
-  zh["The municipal government describes new-generation electronic information as Dongguan’s largest pillar industry, with smart mobile terminals as its leading segment."] = "市政府将新一代电子信息列为东莞最大的支柱产业，其中智能移动终端是主导板块。";
+  zh["The municipal government describes new-generation electronic information as Dongguan’s largest pillar industry, with smart mobile terminals as its leading segment."] = "市政府将新一代电子信息列为东莞首要的支柱产业，其中智能移动终端是主导板块。";
   fr["The municipal government describes new-generation electronic information as Dongguan’s largest pillar industry, with smart mobile terminals as its leading segment."] = "La municipalité présente la nouvelle génération de l’information électronique comme la première industrie pilier de Dongguan, avec les terminaux mobiles intelligents comme segment dominant.";
   zh["Dongguan’s smart mobile terminal cluster was selected as a national advanced manufacturing cluster by the Ministry of Industry and Information Technology in 2019. The city reports producing 196 million smartphones in 2022 — about one in six made in China."] = "2019 年，东莞智能移动终端集群被工业和信息化部评为国家先进制造业集群。该市称 2022 年生产智能手机 1.96 亿部——约占全国产量的六分之一。";
   fr["Dongguan’s smart mobile terminal cluster was selected as a national advanced manufacturing cluster by the Ministry of Industry and Information Technology in 2019. The city reports producing 196 million smartphones in 2022 — about one in six made in China."] = "En 2019, le cluster des terminaux mobiles intelligents de Dongguan a été retenu comme cluster national de fabrication avancée par le ministère de l’Industrie et des Technologies de l’information. La ville indique avoir produit 196 millions de smartphones en 2022 — environ un sur six fabriqués en Chine.";
@@ -9026,7 +9026,7 @@
   fr["Equipment makers need specification pages, video of machines working, and a straight answer on service abroad."] = "Les fabricants d’équipements ont besoin de pages de spécifications, de vidéos de machines en fonctionnement et d’une réponse claire sur le service à l’étranger.";
   zh["Home and furniture products"] = "家居与家具产品";
   fr["Home and furniture products"] = "Produits pour la maison et mobilier";
-  zh["Home-products manufacturers need range pages buyers can scan, with materials, finishes, MOQ and packaging information."] = "家居产品制造商需要便于买家快速浏览的产品系列页面，包含材质、表面处理、最小起订量和包装信息。";
+  zh["Home-products manufacturers need range pages buyers can scan, with materials, finishes, MOQ and packaging information."] = "家居产品制造商需要便于买家快速浏览的产品系列页面，包含材质、表面处理、起订量和包装信息。";
   fr["Home-products manufacturers need range pages buyers can scan, with materials, finishes, MOQ and packaging information."] = "Les fabricants de produits pour la maison ont besoin de pages de gammes faciles à parcourir, avec matériaux, finitions, MOQ et informations d’emballage.";
   zh["How Hurfi works with Dongguan manufacturers"] = "Hurfi 如何与东莞制造商合作";
   fr["How Hurfi works with Dongguan manufacturers"] = "Comment Hurfi travaille avec les fabricants de Dongguan";
@@ -9162,7 +9162,7 @@
   fr["Shandong’s manufacturing economy in official figures"] = "L’économie manufacturière du Shandong en chiffres officiels";
   zh["The Shandong Provincial Bureau of Statistics’ 2025 bulletin gives the province-wide picture below."] = "山东省统计局 2025 年统计公报给出了以下全省概况。";
   fr["The Shandong Provincial Bureau of Statistics’ 2025 bulletin gives the province-wide picture below."] = "Le bulletin 2025 du bureau provincial des statistiques du Shandong donne la vision d’ensemble suivante.";
-  zh["Shandong’s GDP was 10,319.75 billion yuan in 2025, up 5.5%, making it the third province and the first in northern China to pass 10 trillion yuan."] = "2025 年山东 GDP 为 103,197.5 亿元，增长 5.5%，成为第三个、也是北方第一个突破 10 万亿元的省份。";
+  zh["Shandong’s GDP was 10,319.75 billion yuan in 2025, up 5.5%, making it the third province and the first in northern China to pass 10 trillion yuan."] = "2025 年山东 GDP 为 103,197.5 亿元，增长 5.5%，成为第三个、也是北方首个突破 10 万亿元的省份。";
   fr["Shandong’s GDP was 10,319.75 billion yuan in 2025, up 5.5%, making it the third province and the first in northern China to pass 10 trillion yuan."] = "Le PIB du Shandong a atteint 10 319,75 milliards de yuans en 2025, en hausse de 5,5 %, ce qui en fait la troisième province et la première du nord de la Chine à dépasser 10 000 milliards de yuans.";
   zh["Value added of industry above designated size grew 7.6% and manufacturing 8.7%; equipment manufacturing grew 11.4% and made up 26.6% of above-designated-size value added."] = "规模以上工业增加值增长 7.6%，制造业增长 8.7%；装备制造业增长 11.4%，占规模以上工业增加值的 26.6%。";
   fr["Value added of industry above designated size grew 7.6% and manufacturing 8.7%; equipment manufacturing grew 11.4% and made up 26.6% of above-designated-size value added."] = "La valeur ajoutée de l’industrie des entreprises de taille supérieure au seuil réglementaire a augmenté de 7,6 % et celle de la fabrication de 8,7 % ; la fabrication d’équipements a progressé de 11,4 % et représenté 26,6 % de cette valeur ajoutée.";
@@ -9312,7 +9312,7 @@
   fr["Printed and dyed fabrics, chemical fibre, bearings and fans; many export markets."] = "Tissus imprimés et teints, fibres chimiques, roulements et ventilateurs ; de nombreux marchés d’exportation.";
   zh["Pumps, cars, motorcycles, moulds, shoes and eyewear from private factories."] = "民营工厂生产的泵、汽车、摩托车、模具、鞋和眼镜。";
   fr["Pumps, cars, motorcycles, moulds, shoes and eyewear from private factories."] = "Pompes, automobiles, motos, moules, chaussures et lunettes issues d’usines privées.";
-  zh["Electronics, chemicals, equipment and fashion; the fastest-growing container port in Zhejiang."] = "电子、化工、设备和时尚；拥有浙江增长最快的集装箱港口。";
+  zh["Electronics, chemicals, equipment and fashion; the fastest-growing container port in Zhejiang."] = "电子、化工、设备和时尚；拥有浙江增长较快的集装箱港口。";
   fr["Electronics, chemicals, equipment and fashion; the fastest-growing container port in Zhejiang."] = "Électronique, produits chimiques, équipements et mode ; le port à conteneurs qui croît le plus vite du Zhejiang.";
   zh["Other Zhejiang cities we work with"] = "我们合作的其他浙江城市";
   fr["Other Zhejiang cities we work with"] = "Autres villes du Zhejiang avec lesquelles nous travaillons";
@@ -9374,7 +9374,7 @@
   fr["Can you guarantee orders?"] = "Pouvez-vous garantir des commandes ?";
   zh["No. We plan for qualified inquiries and report honestly."] = "不能。我们以高质量询盘为目标，并如实汇报。";
   fr["No. We plan for qualified inquiries and report honestly."] = "Non. Nous visons des demandes qualifiées et rendons compte honnêtement.";
-  zh["Book a free consultation and tell us which product family matters most."] = "预约免费咨询，告诉我们最重要的产品系列是哪个。";
+  zh["Book a free consultation and tell us which product family matters most."] = "预约免费咨询，告诉我们尤为重要的产品系列是哪个。";
   fr["Book a free consultation and tell us which product family matters most."] = "Réservez une consultation gratuite et indiquez-nous quelle famille de produits compte le plus.";
   zh["Zhejiang in the China directory"] = "中国目录中的浙江";
   fr["Zhejiang in the China directory"] = "Le Zhejiang dans l’annuaire Chine";
@@ -9430,7 +9430,7 @@
   fr["Exports were 19.57 billion yuan, up 3.9%."] = "Les exportations ont atteint 19,57 milliards de yuans, en hausse de 3,9 %.";
   zh["Revenue of above-designated-size industry was 311.75 billion yuan (+6.2%)."] = "规模以上工业营业收入 3,117.5 亿元（增长 6.2%）。";
   fr["Revenue of above-designated-size industry was 311.75 billion yuan (+6.2%)."] = "Le chiffre d’affaires de l’industrie des entreprises de taille supérieure au seuil a atteint 311,75 milliards de yuans (+6,2 %).";
-  zh["Equipment makes up more than two-fifths of Zhuzhou’s industry. Its suppliers should show standards, approvals and delivered projects — the evidence engineering buyers ask for first. Related:"] = "装备制造业占株洲工业的五分之二以上。当地供应商应展示标准、认证和已交付项目——这些是工程类买家最先索取的证据。相关：";
+  zh["Equipment makes up more than two-fifths of Zhuzhou’s industry. Its suppliers should show standards, approvals and delivered projects — the evidence engineering buyers ask for first. Related:"] = "装备制造业占株洲工业的五分之二以上。当地供应商应展示标准、认证和已交付项目——这些是工程类买家首先索取的证据。相关：";
   fr["Equipment makes up more than two-fifths of Zhuzhou’s industry. Its suppliers should show standards, approvals and delivered projects — the evidence engineering buyers ask for first. Related:"] = "L’équipement représente plus des deux cinquièmes de l’industrie de Zhuzhou. Ses fournisseurs doivent présenter normes, homologations et projets livrés — les preuves que les acheteurs techniques demandent en premier. Voir aussi :";
   zh["Zhuzhou in the China directory"] = "中国目录中的株洲";
   fr["Zhuzhou in the China directory"] = "Zhuzhou dans l’annuaire Chine";
@@ -9538,11 +9538,11 @@
   fr["The organiser has published both 2026 sessions. All phases run at the China Import and Export Fair Complex, No. 382 Yuejiang Zhong Road, Guangzhou, from 9:30 to 18:00."] = "L’organisateur a publié les deux sessions de 2026. Toutes les phases se tiennent au complexe de la Foire de Canton, 382 Yuejiang Zhong Road, Canton, de 9 h 30 à 18 h.";
   zh["139th (Spring 2026):"] = "第 139 届（2026 年春）：";
   fr["139th (Spring 2026):"] = "139e (printemps 2026) :";
-  zh["Phase 1, 15–19 April; Phase 2, 23–27 April; Phase 3, 1–5 May."] = "第一期 4 月 15—19 日；第二期 4 月 23—27 日；第三期 5 月 1—5 日。";
+  zh["Phase 1, 15–19 April; Phase 2, 23–27 April; Phase 3, 1–5 May."] = "首期 4 月 15—19 日；第二期 4 月 23—27 日；第三期 5 月 1—5 日。";
   fr["Phase 1, 15–19 April; Phase 2, 23–27 April; Phase 3, 1–5 May."] = "Phase 1, 15–19 avril ; phase 2, 23–27 avril ; phase 3, 1er–5 mai.";
   zh["140th (Autumn 2026):"] = "第 140 届（2026 年秋）：";
   fr["140th (Autumn 2026):"] = "140e (automne 2026) :";
-  zh["Phase 1, 15–19 October; Phase 2, 23–27 October; Phase 3, 31 October–4 November."] = "第一期 10 月 15—19 日；第二期 10 月 23—27 日；第三期 10 月 31 日—11 月 4 日。";
+  zh["Phase 1, 15–19 October; Phase 2, 23–27 October; Phase 3, 31 October–4 November."] = "首期 10 月 15—19 日；第二期 10 月 23—27 日；第三期 10 月 31 日—11 月 4 日。";
   fr["Phase 1, 15–19 October; Phase 2, 23–27 October; Phase 3, 31 October–4 November."] = "Phase 1, 15–19 octobre ; phase 2, 23–27 octobre ; phase 3, 31 octobre–4 novembre.";
   zh["Intervals in autumn 2026:"] = "2026 年秋季换展期：";
   fr["Intervals in autumn 2026:"] = "Intervalles à l’automne 2026 :";
@@ -9554,7 +9554,7 @@
   fr["the Ministry of Commerce and the Guangdong provincial government host; the China Foreign Trade Centre organises."] = "le ministère du Commerce et le gouvernement du Guangdong accueillent ; le China Foreign Trade Centre organise.";
   zh["Phases are grouped by product, so buyers plan travel around the phase that matches what they source. The organiser's list is long; this is the summary most buyers use."] = "各期按产品分组，买家会围绕自己采购的品类安排行程。主办方的清单很长，以下是多数买家使用的概要。";
   fr["Phases are grouped by product, so buyers plan travel around the phase that matches what they source. The organiser's list is long; this is the summary most buyers use."] = "Les phases sont regroupées par produit : les acheteurs planifient leur voyage selon la phase correspondant à leurs achats. La liste de l’organisateur est longue ; voici le résumé utilisé par la plupart des acheteurs.";
-  zh["Phase 1 — industrial and technical:"] = "第一期——工业与技术类：";
+  zh["Phase 1 — industrial and technical:"] = "首期——工业与技术类：";
   fr["Phase 1 — industrial and technical:"] = "Phase 1 — industriel et technique :";
   zh["household appliances, consumer electronics and information products, industrial automation, processing, power and general machinery, construction and agricultural machinery, new materials and chemicals, vehicles and spare parts, motorcycles, bicycles, lighting, hardware and tools, new energy resources."] = "家用电器、消费电子与信息产品、工业自动化、加工机械、动力与通用机械、工程与农业机械、新材料与化工、汽车及零部件、摩托车、自行车、照明、五金工具、新能源。";
   fr["household appliances, consumer electronics and information products, industrial automation, processing, power and general machinery, construction and agricultural machinery, new materials and chemicals, vehicles and spare parts, motorcycles, bicycles, lighting, hardware and tools, new energy resources."] = "électroménager, électronique grand public et produits d’information, automatisation industrielle, machines de transformation, énergie et machines générales, machines de construction et agricoles, matériaux nouveaux et produits chimiques, véhicules et pièces, motos, vélos, éclairage, quincaillerie et outils, énergies nouvelles.";
@@ -9568,7 +9568,7 @@
   fr["clothing and accessories, underwear, sportswear, furs and leather, textile raw materials and fabrics, shoes, cases and bags, home textiles and carpets, office supplies, food, medicines, health products and medical devices, personal care, sports and recreation, pet products, toys and children's items."] = "vêtements et accessoires, sous-vêtements, sportswear, fourrures et cuir, matières textiles et tissus, chaussures, bagages, linge de maison et tapis, fournitures de bureau, alimentation, médicaments, produits de santé et dispositifs médicaux, soins personnels, sport et loisirs, articles pour animaux, jouets et articles pour enfants.";
   zh["Buyer registration is handled by the organiser, through its buyer platform. You register with passport and company details, receive a buyer badge, and use the same system for the visa invitation letter many first-time visitors need."] = "买家登记由主办方通过其买家平台办理。您用护照和公司信息登记，获得买家证，并通过同一系统申请许多首次参观者所需的签证邀请函。";
   fr["Buyer registration is handled by the organiser, through its buyer platform. You register with passport and company details, receive a buyer badge, and use the same system for the visa invitation letter many first-time visitors need."] = "L’inscription des acheteurs est gérée par l’organisateur via sa plateforme acheteurs. Vous vous inscrivez avec votre passeport et les informations de votre société, recevez un badge acheteur et utilisez le même système pour la lettre d’invitation au visa dont beaucoup de visiteurs ont besoin.";
-  zh["Register early: badge approval and visa timing are the two things that most often go wrong close to a session."] = "尽早登记：临近展期时，买家证审批和签证时间最容易出问题。";
+  zh["Register early: badge approval and visa timing are the two things that most often go wrong close to a session."] = "尽早登记：临近展期时，买家证审批和签证时间更容易出问题。";
   fr["Register early: badge approval and visa timing are the two things that most often go wrong close to a session."] = "Inscrivez-vous tôt : la validation du badge et les délais de visa sont les deux points qui posent le plus souvent problème à l’approche d’une session.";
   zh["Apply for the invitation letter only through the organiser's buyer system; treat unsolicited offers of letters or badges as suspect."] = "邀请函只通过主办方的买家系统申请；对主动提供的邀请函或买家证要保持警惕。";
   fr["Apply for the invitation letter only through the organiser's buyer system; treat unsolicited offers of letters or badges as suspect."] = "Ne demandez la lettre d’invitation que via le système acheteurs de l’organisateur ; méfiez-vous des offres spontanées de lettres ou de badges.";
@@ -9584,7 +9584,7 @@
   fr["A page for every product you exhibit, with specifications in HTML rather than only inside a PDF catalogue."] = "Une page pour chaque produit exposé, avec les spécifications en HTML et non seulement dans un catalogue PDF.";
   zh["Certificates and approvals on the product pages they cover, with scope and market."] = "把证书和认证放在对应的产品页面上，并注明范围和市场。";
   fr["Certificates and approvals on the product pages they cover, with scope and market."] = "Les certificats et homologations sur les pages produits concernées, avec le périmètre et le marché.";
-  zh["MOQ, lead time and packing stated plainly, so the first email is about the project and not about basics."] = "明确写出最小起订量、交期和包装，让第一封邮件谈项目而不是谈基本问题。";
+  zh["MOQ, lead time and packing stated plainly, so the first email is about the project and not about basics."] = "明确写出起订量、交期和包装，让首封邮件谈项目而不是谈基本问题。";
   fr["MOQ, lead time and packing stated plainly, so the first email is about the project and not about basics."] = "Indiquez clairement le MOQ, le délai et l’emballage, pour que le premier e-mail porte sur le projet et non sur les bases.";
   zh["A fair page with booth number, hall and phase, linking to the products on show."] = "设一个展会页面，写明展位号、展馆和期次，并链接到参展产品。";
   fr["A fair page with booth number, hall and phase, linking to the products on show."] = "Une page salon avec numéro de stand, hall et phase, renvoyant aux produits présentés.";
@@ -9604,7 +9604,7 @@
   fr["industrial product page SEO"] = "le SEO des pages produits industriels";
   zh["covers the pages the email should point to."] = "讲的是邮件应指向哪些页面。";
   fr["covers the pages the email should point to."] = "couvre les pages vers lesquelles l’e-mail doit renvoyer.";
-  zh["The spring session normally falls in mid-April with the same three-phase pattern, and the autumn session in mid-October. Exact dates, hall layout and registration windows are published by the organiser, and they are the only source worth planning around; third-party date lists are often copied and wrong."] = "春季展通常在 4 月中旬，沿用同样的三期模式，秋季展在 10 月中旬。具体日期、展馆布局和登记时间由主办方公布，也是唯一值得据此规划的来源；第三方日期清单多为转抄，常有错误。";
+  zh["The spring session normally falls in mid-April with the same three-phase pattern, and the autumn session in mid-October. Exact dates, hall layout and registration windows are published by the organiser, and they are the only source worth planning around; third-party date lists are often copied and wrong."] = "春季展通常在 4 月中旬，沿用同样的三期模式，秋季展在 10 月中旬。具体日期、展馆布局和登记时间由主办方公布，也是值得据此规划的可靠来源；第三方日期清单多为转抄，常有错误。";
   fr["The spring session normally falls in mid-April with the same three-phase pattern, and the autumn session in mid-October. Exact dates, hall layout and registration windows are published by the organiser, and they are the only source worth planning around; third-party date lists are often copied and wrong."] = "La session de printemps tombe normalement à la mi-avril selon le même schéma en trois phases, et celle d’automne à la mi-octobre. Les dates exactes, la disposition des halls et les fenêtres d’inscription sont publiées par l’organisateur, seule source fiable pour planifier ; les listes de dates de tiers sont souvent recopiées et fausses.";
   zh["Confirm which phase your products are in, and book travel for those days only."] = "确认产品所属期次，只订那几天的行程。";
   fr["Confirm which phase your products are in, and book travel for those days only."] = "Confirmez la phase de vos produits et ne réservez le voyage que pour ces jours.";
@@ -9614,11 +9614,11 @@
   fr["Add the fair page with booth, hall and phase, and link it from the home page."] = "Ajoutez la page salon avec stand, hall et phase, et liez-la depuis la page d’accueil.";
   zh["Create one tracked link or QR code for each product group."] = "为每个产品组创建一个可追踪的链接或二维码。";
   fr["Create one tracked link or QR code for each product group."] = "Créez un lien ou un QR code suivi par groupe de produits.";
-  zh["Decide who replies to enquiries, and in what language, before the first day."] = "在开展第一天前，确定由谁、用哪种语言回复询盘。";
+  zh["Decide who replies to enquiries, and in what language, before the first day."] = "在开展首日前，确定由谁、用哪种语言回复询盘。";
   fr["Decide who replies to enquiries, and in what language, before the first day."] = "Décidez qui répond aux demandes, et dans quelle langue, avant le premier jour.";
   zh["Log every contact with product interest and market, not just a name."] = "记录每个联系人的产品兴趣和市场，而不只是一个名字。";
   fr["Log every contact with product interest and market, not just a name."] = "Consignez chaque contact avec le produit qui l’intéresse et son marché, pas seulement un nom.";
-  zh["Send the first follow-up within three days of meeting the buyer."] = "在见到买家后三天内发出第一封跟进邮件。";
+  zh["Send the first follow-up within three days of meeting the buyer."] = "在见到买家后三天内发出首封跟进邮件。";
   fr["Send the first follow-up within three days of meeting the buyer."] = "Envoyez le premier suivi dans les trois jours suivant la rencontre.";
   zh["Review which page the fair traffic landed on, and fix what it exposed."] = "查看展会流量落在哪个页面，并修正它暴露的问题。";
   fr["Review which page the fair traffic landed on, and fix what it exposed."] = "Vérifiez sur quelle page le trafic du salon est arrivé et corrigez ce qu’il a révélé.";
@@ -9648,7 +9648,7 @@
   fr["Request it through the organiser's buyer system after registering. Treat any paid or unsolicited offer of an invitation letter as suspect."] = "Demandez-la via le système acheteurs de l’organisateur après l’inscription. Méfiez-vous de toute lettre d’invitation payante ou non sollicitée.";
   zh["Which phase should I attend?"] = "我应该参加哪一期？";
   fr["Which phase should I attend?"] = "À quelle phase participer ?";
-  zh["The one that matches what you source: Phase 1 for machinery, electronics, vehicles, hardware and building materials; Phase 2 for houseware, gifts and furniture; Phase 3 for textiles, clothing, shoes, food and health products."] = "与您采购内容相匹配的那一期：第一期是机械、电子、汽车、五金和建材；第二期是家居用品、礼品和家具；第三期是纺织、服装、鞋类、食品和健康产品。";
+  zh["The one that matches what you source: Phase 1 for machinery, electronics, vehicles, hardware and building materials; Phase 2 for houseware, gifts and furniture; Phase 3 for textiles, clothing, shoes, food and health products."] = "与您采购内容相匹配的那一期：首期是机械、电子、汽车、五金和建材；第二期是家居用品、礼品和家具；第三期是纺织、服装、鞋类、食品和健康产品。";
   fr["The one that matches what you source: Phase 1 for machinery, electronics, vehicles, hardware and building materials; Phase 2 for houseware, gifts and furniture; Phase 3 for textiles, clothing, shoes, food and health products."] = "Celle qui correspond à vos achats : phase 1 pour machines, électronique, véhicules, quincaillerie et matériaux de construction ; phase 2 pour arts de la table, cadeaux et mobilier ; phase 3 pour textiles, vêtements, chaussures, alimentation et produits de santé.";
   zh["How large is the fair?"] = "展会规模有多大？";
   fr["How large is the fair?"] = "Quelle est la taille du salon ?";
@@ -9700,7 +9700,7 @@
   fr["A four-week start for one market"] = "Un démarrage en quatre semaines pour un marché";
   zh["How this differs from the checklist"] = "这与清单有何不同";
   fr["How this differs from the checklist"] = "En quoi cela diffère de la checklist";
-  zh["International SEO covers three jobs: making pages exist in the right language, telling search engines which country and language each page serves, and making the local version good enough to be chosen over a local competitor. The first is translation. The second is technical annotation. The third is where most of the return comes from, and where most projects stop too early."] = "国际 SEO 包含三项工作：让页面以正确语言存在、告诉搜索引擎每个页面服务哪个国家和语言、并让本地版本好到能胜过本地竞争对手。第一项是翻译，第二项是技术标注，第三项贡献了大部分回报，也是多数项目过早停下的地方。";
+  zh["International SEO covers three jobs: making pages exist in the right language, telling search engines which country and language each page serves, and making the local version good enough to be chosen over a local competitor. The first is translation. The second is technical annotation. The third is where most of the return comes from, and where most projects stop too early."] = "国际 SEO 包含三项工作：让页面以正确语言存在、告诉搜索引擎每个页面服务哪个国家和语言、并让本地版本好到能胜过本地竞争对手。首项是翻译，第二项是技术标注，第三项贡献了大部分回报，也是多数项目过早停下的地方。";
   fr["International SEO covers three jobs: making pages exist in the right language, telling search engines which country and language each page serves, and making the local version good enough to be chosen over a local competitor. The first is translation. The second is technical annotation. The third is where most of the return comes from, and where most projects stop too early."] = "Le SEO international couvre trois tâches : faire exister les pages dans la bonne langue, indiquer aux moteurs quel pays et quelle langue chaque page sert, et rendre la version locale assez bonne pour être préférée à un concurrent local. La première est la traduction. La deuxième est l’annotation technique. La troisième apporte l’essentiel du retour, et c’est là que la plupart des projets s’arrêtent trop tôt.";
   zh["For a Chinese manufacturer, the practical question is not “should we translate the site” but “in which markets can we support a buyer, and what does that buyer need to see before sending an enquiry”."] = "对中国制造商来说，实际问题不是“要不要翻译网站”，而是“我们能在哪些市场为买家提供支持，那位买家在发出询盘前需要看到什么”。";
   fr["For a Chinese manufacturer, the practical question is not “should we translate the site” but “in which markets can we support a buyer, and what does that buyer need to see before sending an enquiry”."] = "Pour un fabricant chinois, la vraie question n’est pas « faut-il traduire le site » mais « dans quels marchés pouvons-nous accompagner un acheteur, et que doit-il voir avant d’envoyer une demande ».";
@@ -9724,17 +9724,17 @@
   fr["There are three common patterns, and the right answer depends on how much you will invest per market rather than on a technical preference."] = "Il existe trois schémas courants, et le bon choix dépend de l’investissement par marché plutôt que d’une préférence technique.";
   zh["Country-code domains"] = "国别域名";
   fr["Country-code domains"] = "Domaines nationaux";
-  zh["(example.de, example.fr): strongest country signal, but each domain needs its own authority, hosting and maintenance."] = "（example.de、example.fr）：国家信号最强，但每个域名都需要自己的权重、主机和维护。";
+  zh["(example.de, example.fr): strongest country signal, but each domain needs its own authority, hosting and maintenance."] = "（example.de、example.fr）：国家信号突出，但每个域名都需要自己的权重、主机和维护。";
   fr["(example.de, example.fr): strongest country signal, but each domain needs its own authority, hosting and maintenance."] = "(example.de, example.fr) : signal pays le plus fort, mais chaque domaine a besoin de sa propre autorité, de son hébergement et de sa maintenance.";
   zh["(de.example.com): easier to separate technically, but treated more like separate sites than folders."] = "（de.example.com）：技术上更易分离，但被当作独立站点而非目录。";
   fr["(de.example.com): easier to separate technically, but treated more like separate sites than folders."] = "(de.example.com) : plus facile à séparer techniquement, mais traité davantage comme des sites distincts que comme des dossiers.";
-  zh["(example.com/de/): cheapest to launch and usually the fastest way to inherit the main site's authority; weaker as a country signal."] = "（example.com/de/）：上线成本最低，通常也是继承主站权重最快的方式；但作为国家信号较弱。";
+  zh["(example.com/de/): cheapest to launch and usually the fastest way to inherit the main site's authority; weaker as a country signal."] = "（example.com/de/）：上线成本较低，通常也是继承主站权重较快的方式；但作为国家信号较弱。";
   fr["(example.com/de/): cheapest to launch and usually the fastest way to inherit the main site's authority; weaker as a country signal."] = "(example.com/de/) : le moins cher à lancer et souvent le moyen le plus rapide d’hériter de l’autorité du site principal ; signal pays plus faible.";
-  zh["For most manufacturers starting with two or three markets, subfolders are the pragmatic first step; a country domain can follow where the market justifies it."] = "对大多数从两三个市场起步的制造商来说，子目录是务实的第一步；在市场足以支撑时，再跟进国别域名。";
+  zh["For most manufacturers starting with two or three markets, subfolders are the pragmatic first step; a country domain can follow where the market justifies it."] = "对大多数从两三个市场起步的制造商来说，子目录是务实的首先；在市场足以支撑时，再跟进国别域名。";
   fr["For most manufacturers starting with two or three markets, subfolders are the pragmatic first step; a country domain can follow where the market justifies it."] = "Pour la plupart des fabricants qui démarrent sur deux ou trois marchés, les sous-dossiers sont la première étape pragmatique ; un domaine national peut suivre là où le marché le justifie.";
   zh["A machine translation of a specification table produces a page that reads fluently and is still wrong. Model numbers, tolerances, standards, directive numbers and certificate scopes have to survive translation exactly, and the surrounding sentence has to sound like the industry in that language."] = "机器翻译的规格表读起来流畅，却仍然是错的。型号、公差、标准、指令编号和证书范围必须原样保留，周围的句子也要听起来像该语言里的行业用语。";
   fr["A machine translation of a specification table produces a page that reads fluently and is still wrong. Model numbers, tolerances, standards, directive numbers and certificate scopes have to survive translation exactly, and the surrounding sentence has to sound like the industry in that language."] = "Une traduction automatique d’un tableau de spécifications produit une page fluide et pourtant fausse. Références, tolérances, normes, numéros de directive et périmètres de certificats doivent survivre exactement à la traduction, et la phrase autour doit sonner comme le métier dans cette langue.";
-  zh["The workflow that holds up is: a professional translator who works in the sector, then a technical reviewer from your own team, then a native check of the final page. That is slower than a plugin, and it is the difference between a page buyers trust and one they close."] = "可靠的流程是：熟悉该行业的专业译员，然后是你自己团队的技术审校，最后是对最终页面的母语校对。这比插件慢，但决定了页面是被买家信任还是被关掉。";
+  zh["The workflow that holds up is: a professional translator who works in the sector, then a technical reviewer from your own team, then a native check of the final page. That is slower than a plugin, and it is the difference between a page buyers trust and one they close."] = "可靠的流程是：熟悉该行业的专业译员，然后是你自己团队的技术审校，接着是对定稿页面的母语校对。这比插件慢，但决定了页面是被买家信任还是被关掉。";
   fr["The workflow that holds up is: a professional translator who works in the sector, then a technical reviewer from your own team, then a native check of the final page. That is slower than a plugin, and it is the difference between a page buyers trust and one they close."] = "La méthode qui tient est la suivante : un traducteur professionnel du secteur, puis une relecture technique par votre équipe, puis une vérification par un natif de la page finale. C’est plus lent qu’un plugin, et c’est la différence entre une page à laquelle les acheteurs font confiance et une page qu’ils ferment.";
   zh["Google dominates in most Western markets, but not everywhere. Baidu is the main engine in mainland China, Yandex in Russia, Naver in South Korea, and Seznam in the Czech Republic. Each has its own indexing behaviour, and some prefer locally hosted or locally registered sites."] = "Google 在多数西方市场占主导，但并非处处如此。中国大陆主要是百度，俄罗斯是 Yandex，韩国是 Naver，捷克是 Seznam。每个引擎的索引行为不同，有些更偏好本地托管或本地注册的站点。";
   fr["Google dominates in most Western markets, but not everywhere. Baidu is the main engine in mainland China, Yandex in Russia, Naver in South Korea, and Seznam in the Czech Republic. Each has its own indexing behaviour, and some prefer locally hosted or locally registered sites."] = "Google domine sur la plupart des marchés occidentaux, mais pas partout. Baidu est le moteur principal en Chine continentale, Yandex en Russie, Naver en Corée du Sud et Seznam en Tchéquie. Chacun a son comportement d’indexation, et certains préfèrent les sites hébergés ou enregistrés localement.";
@@ -9780,11 +9780,11 @@
   fr["Yes, between the original and the translated version, with a self-reference and a return link. Without it, engines may treat the pages as duplicates or serve the wrong one."] = "Oui, entre l’original et la version traduite, avec auto-référence et lien retour. Sans cela, les moteurs peuvent considérer les pages comme des doublons ou servir la mauvaise.";
   zh["Should we use a country domain or a subfolder?"] = "应该用国别域名还是子目录？";
   fr["Should we use a country domain or a subfolder?"] = "Faut-il un domaine national ou un sous-dossier ?";
-  zh["Subfolders are the cheapest way to start and inherit the main site's authority; country domains give a stronger local signal but each needs its own investment. Most manufacturers should start with subfolders."] = "子目录是起步并继承主站权重最便宜的方式；国别域名本地信号更强，但每个都需要单独投入。多数制造商应从子目录开始。";
+  zh["Subfolders are the cheapest way to start and inherit the main site's authority; country domains give a stronger local signal but each needs its own investment. Most manufacturers should start with subfolders."] = "子目录是起步并继承主站权重更便宜的方式；国别域名本地信号更强，但每个都需要单独投入。多数制造商应从子目录开始。";
   fr["Subfolders are the cheapest way to start and inherit the main site's authority; country domains give a stronger local signal but each needs its own investment. Most manufacturers should start with subfolders."] = "Les sous-dossiers sont le moyen le moins cher de démarrer et d’hériter de l’autorité du site principal ; les domaines nationaux offrent un signal local plus fort mais exigent chacun leur propre investissement. La plupart des fabricants devraient commencer par des sous-dossiers.";
   zh["Can we machine translate product pages?"] = "产品页面可以机器翻译吗？";
   fr["Can we machine translate product pages?"] = "Peut-on traduire les pages produits automatiquement ?";
-  zh["Not for specifications, certificates or terms. Machine output can be used as a draft for marketing copy at most, and every technical page needs a sector translator plus a review by your engineers."] = "规格、证书和条款不行。机器译文最多只能作为营销文案的草稿，每个技术页面都需要行业译员和你们工程师的审校。";
+  zh["Not for specifications, certificates or terms. Machine output can be used as a draft for marketing copy at most, and every technical page needs a sector translator plus a review by your engineers."] = "规格、证书和条款不行。机器译文至多只能作为营销文案的草稿，每个技术页面都需要行业译员和你们工程师的审校。";
   fr["Not for specifications, certificates or terms. Machine output can be used as a draft for marketing copy at most, and every technical page needs a sector translator plus a review by your engineers."] = "Pas pour les spécifications, certificats ou conditions. Une sortie automatique peut au mieux servir de brouillon pour du contenu marketing, et chaque page technique exige un traducteur du secteur et une relecture par vos ingénieurs.";
   zh["Does international SEO work for Baidu or Yandex?"] = "国际 SEO 对百度或 Yandex 有效吗？";
   fr["Does international SEO work for Baidu or Yandex?"] = "Le SEO international fonctionne-t-il pour Baidu ou Yandex ?";
@@ -9818,7 +9818,7 @@
   fr["Yes, if you machine both at volume. Buyers search by material, and a page that lists the alloys you cut, achievable tolerances, finishes and typical parts matches that search far better than one general page."] = "Oui, si vous usinez les deux en volume. Les acheteurs cherchent par matière, et une page qui liste les alliages usinés, les tolérances atteignables, les finitions et les pièces typiques correspond bien mieux à cette recherche qu’une page générale.";
   zh["What should a custom machining quote form ask for?"] = "定制加工询价表单应该要求提供什么？";
   fr["What should a custom machining quote form ask for?"] = "Que doit demander un formulaire de devis d’usinage sur mesure ?";
-  zh["Drawing format (STEP, IGES or DXF), material and alloy, tolerances, surface finish, quantity and target date. Ask for the file, not a description of it, so the first reply can be a real quotation."] = "图纸格式（STEP、IGES 或 DXF）、材料和合金、公差、表面处理、数量以及目标交期。要求提供文件本身，而不是对文件的描述，这样第一次回复就能是真正的报价。";
+  zh["Drawing format (STEP, IGES or DXF), material and alloy, tolerances, surface finish, quantity and target date. Ask for the file, not a description of it, so the first reply can be a real quotation."] = "图纸格式（STEP、IGES 或 DXF）、材料和合金、公差、表面处理、数量以及目标交期。要求提供文件本身，而不是对文件的描述，这样首次回复就能是真正的报价。";
   fr["Drawing format (STEP, IGES or DXF), material and alloy, tolerances, surface finish, quantity and target date. Ask for the file, not a description of it, so the first reply can be a real quotation."] = "Le format du plan (STEP, IGES ou DXF), la matière et l’alliage, les tolérances, la finition de surface, la quantité et la date cible. Demandez le fichier, pas sa description, pour que la première réponse soit une vraie offre.";
   zh["Fujian Manufacturers: Export Websites & SEO | Hurfi"] = "福建制造商：外贸网站与 SEO | Hurfi";
   fr["Fujian Manufacturers: Export Websites & SEO | Hurfi"] = "Fabricants du Fujian : sites export et SEO | Hurfi";
@@ -9876,7 +9876,7 @@
   fr["We work with manufacturers in every Fujian city, remotely. We have not yet checked official figures for the cities below, so we do not quote any; each links to its entry in the China directory."] = "Nous travaillons à distance avec des fabricants de toutes les villes du Fujian. Nous n’avons pas encore vérifié les chiffres officiels des villes ci-dessous, nous n’en citons donc aucun ; chacune renvoie à son entrée dans l’annuaire Chine.";
   zh["Website and search priorities for Fujian exporters"] = "福建出口企业的网站与搜索重点";
   fr["Website and search priorities for Fujian exporters"] = "Priorités site web et recherche pour les exportateurs du Fujian";
-  zh["Put what you make, for whom and to which standards on the first screen."] = "在第一屏就说明你做什么、为谁做、符合哪些标准。";
+  zh["Put what you make, for whom and to which standards on the first screen."] = "在首屏就说明你做什么、为谁做、符合哪些标准。";
   fr["Put what you make, for whom and to which standards on the first screen."] = "Mettez dès le premier écran ce que vous fabriquez, pour qui et selon quelles normes.";
   zh["Give each product family a page with specifications in text and certificates by market."] = "为每个产品系列设一个页面，规格用文字呈现，并按市场列出证书。";
   fr["Give each product family a page with specifications in text and certificates by market."] = "Donnez à chaque famille de produits une page avec les spécifications en texte et les certificats par marché.";
@@ -9884,7 +9884,7 @@
   fr["For Europe, prepare CE and other required documents before you build market pages."] = "Pour l’Europe, préparez le marquage CE et les autres documents requis avant de construire les pages marché.";
   zh["Separate own-brand and OEM pages; many Fujian makers do both."] = "自有品牌页与 OEM 页分开；许多福建企业两者兼做。";
   fr["Separate own-brand and OEM pages; many Fujian makers do both."] = "Séparez les pages marque propre et OEM ; beaucoup de fabricants du Fujian font les deux.";
-  zh["Explain shipping from Xiamen, Fuzhou or your nearest port."] = "说明从厦门、福州或最近港口的运输安排。";
+  zh["Explain shipping from Xiamen, Fuzhou or your nearest port."] = "说明从厦门、福州或就近港口的运输安排。";
   fr["Explain shipping from Xiamen, Fuzhou or your nearest port."] = "Expliquez l’expédition depuis Xiamen, Fuzhou ou votre port le plus proche.";
   zh["Track RFQs by product line and country to see which new markets respond."] = "按产品线和国家追踪询盘，看哪些新市场有回应。";
   fr["Track RFQs by product line and country to see which new markets respond."] = "Suivez les demandes par ligne de produits et par pays pour voir quels nouveaux marchés répondent.";
@@ -9928,7 +9928,7 @@
   fr["Yes, as part of digital marketing and social media management, for chosen products and markets."] = "Oui, dans le cadre du marketing digital et de la gestion des réseaux sociaux, pour des produits et marchés choisis.";
   zh["No. Nobody can. We report honestly from your own Search Console and analytics."] = "不能。没有人能保证。我们依据你自己的 Search Console 和分析数据如实汇报。";
   fr["No. Nobody can. We report honestly from your own Search Console and analytics."] = "Non. Personne ne le peut. Nous rapportons honnêtement à partir de votre propre Search Console et de vos statistiques.";
-  zh["Book a free consultation and tell us which product family and market matter most."] = "预约免费咨询，告诉我们哪个产品系列和市场最重要。";
+  zh["Book a free consultation and tell us which product family and market matter most."] = "预约免费咨询，告诉我们哪个产品系列和市场尤为重要。";
   fr["Book a free consultation and tell us which product family and market matter most."] = "Réservez une consultation gratuite et dites-nous quelle famille de produits et quel marché comptent le plus.";
   zh["Fujian in the China directory"] = "中国目录中的福建";
   fr["Fujian in the China directory"] = "Le Fujian dans l’annuaire Chine";
@@ -9960,7 +9960,7 @@
   fr["Processing trade was 490.44 billion yuan (+3.1%), 47.5% of trade; general trade 34.5%."] = "Le perfectionnement a représenté 490,44 milliards de yuans (+3,1 %), soit 47,5 % du commerce ; le commerce général 34,5 %.";
   zh["33 of 41 industry groups grew; value added of foreign-invested firms rose 13.7%."] = "41 个行业大类中有 33 个实现增长；外商投资企业增加值增长 13.7%。";
   fr["33 of 41 industry groups grew; value added of foreign-invested firms rose 13.7%."] = "33 des 41 grands groupes industriels ont progressé ; la valeur ajoutée des entreprises à capitaux étrangers a augmenté de 13,7 %.";
-  zh["Many Sichuan exports are processing trade for global brands. For the province’s own-brand and component makers, winning direct buyers means showing technical depth — and explaining logistics from western China clearly. Foreign-invested manufacturing grew fastest, and suppliers to those plants can use the same evidence to reach buyers abroad."] = "四川很多出口是为全球品牌做的加工贸易。对省内自有品牌和零部件制造商来说，赢得直接买家意味着展示技术深度——并清楚说明从中国西部出发的物流。外商投资制造业增长最快，这些工厂的供应商可以用同样的证据触达海外买家。";
+  zh["Many Sichuan exports are processing trade for global brands. For the province’s own-brand and component makers, winning direct buyers means showing technical depth — and explaining logistics from western China clearly. Foreign-invested manufacturing grew fastest, and suppliers to those plants can use the same evidence to reach buyers abroad."] = "四川很多出口是为全球品牌做的加工贸易。对省内自有品牌和零部件制造商来说，赢得直接买家意味着展示技术深度——并清楚说明从中国西部出发的物流。外商投资制造业增长较快，这些工厂的供应商可以用同样的证据触达海外买家。";
   fr["Many Sichuan exports are processing trade for global brands. For the province’s own-brand and component makers, winning direct buyers means showing technical depth — and explaining logistics from western China clearly. Foreign-invested manufacturing grew fastest, and suppliers to those plants can use the same evidence to reach buyers abroad."] = "Beaucoup d’exportations du Sichuan sont du perfectionnement pour des marques mondiales. Pour les fabricants de marque propre et de composants de la province, gagner des acheteurs directs suppose de montrer sa profondeur technique — et d’expliquer clairement la logistique depuis l’ouest de la Chine. La fabrication à capitaux étrangers a crû le plus vite, et les fournisseurs de ces usines peuvent utiliser les mêmes preuves pour atteindre des acheteurs à l’étranger.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Sichuan Provincial Bureau of Statistics, 2025 Statistical Bulletin). Figures describe the province, not any Hurfi client."] = "Hurfi 制图，数据取自下方所列官方来源（四川省统计局 2025 年统计公报）。数据描述全省情况，不涉及任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Sichuan Provincial Bureau of Statistics, 2025 Statistical Bulletin). Figures describe the province, not any Hurfi client."] = "Infographie Hurfi, réalisée à partir des sources officielles listées ci-dessous (Bulletin statistique 2025 du Bureau provincial de la statistique du Sichuan). Les chiffres décrivent la province, non un client de Hurfi.";
@@ -10040,7 +10040,7 @@
   fr["Yes, once tracking is in place, so you can see which channel brings RFQs."] = "Oui, une fois le suivi en place, pour voir quel canal apporte les demandes.";
   zh["No. Google decides rankings and buyers decide orders. We report honestly on both."] = "不能。排名由 Google 决定，订单由买家决定。我们对两者都如实汇报。";
   fr["No. Google decides rankings and buyers decide orders. We report honestly on both."] = "Non. Google décide du classement et les acheteurs des commandes. Nous rendons compte honnêtement des deux.";
-  zh["Book a free consultation and tell us which buyers you most want to reach."] = "预约免费咨询，告诉我们你最想触达哪些买家。";
+  zh["Book a free consultation and tell us which buyers you most want to reach."] = "预约免费咨询，告诉我们你更想触达哪些买家。";
   fr["Book a free consultation and tell us which buyers you most want to reach."] = "Réservez une consultation gratuite et dites-nous quels acheteurs vous voulez atteindre en priorité.";
   zh["Sichuan in the China directory"] = "中国目录中的四川";
   fr["Sichuan in the China directory"] = "Le Sichuan dans l’annuaire Chine";
@@ -10056,7 +10056,7 @@
   fr["Anhui Manufacturers: Export Websites & SEO | Hurfi"] = "Fabricants de l’Anhui : sites export et SEO | Hurfi";
   zh["Export websites and Google SEO for Anhui manufacturers"] = "为安徽制造商打造外贸网站与 Google SEO";
   fr["Export websites and Google SEO for Anhui manufacturers"] = "Sites export et SEO Google pour les fabricants de l’Anhui";
-  zh["Anhui made more cars and more new-energy vehicles than any other Chinese province in 2025, and exported more vehicles too. Hefei builds EVs, electronics, displays and semiconductors; Wuhu cars, robots and compressors; Chuzhou appliances, batteries and engines. This guide summarises the official figures and links to our city guides."] = "2025 年安徽汽车和新能源汽车产量均居全国首位，汽车出口也最多。合肥生产电动汽车、电子、显示器和半导体；芜湖生产汽车、机器人和压缩机；滁州生产家电、电池和发动机。本指南汇总官方数据，并链接到城市指南。";
+  zh["Anhui made more cars and more new-energy vehicles than any other Chinese province in 2025, and exported more vehicles too. Hefei builds EVs, electronics, displays and semiconductors; Wuhu cars, robots and compressors; Chuzhou appliances, batteries and engines. This guide summarises the official figures and links to our city guides."] = "2025 年安徽汽车和新能源汽车产量均居全国首位，汽车出口也至多。合肥生产电动汽车、电子、显示器和半导体；芜湖生产汽车、机器人和压缩机；滁州生产家电、电池和发动机。本指南汇总官方数据，并链接到城市指南。";
   fr["Anhui made more cars and more new-energy vehicles than any other Chinese province in 2025, and exported more vehicles too. Hefei builds EVs, electronics, displays and semiconductors; Wuhu cars, robots and compressors; Chuzhou appliances, batteries and engines. This guide summarises the official figures and links to our city guides."] = "L’Anhui a produit en 2025 plus de voitures et plus de véhicules à énergie nouvelle que toute autre province chinoise, et en a aussi exporté davantage. Hefei fabrique des véhicules électriques, de l’électronique, des écrans et des semi-conducteurs ; Wuhu des voitures, des robots et des compresseurs ; Chuzhou de l’électroménager, des batteries et des moteurs. Ce guide résume les chiffres officiels et renvoie à nos guides de villes.";
   zh["Hurfi’s offices are in Xi’an (Shaanxi) and Bogura (Bangladesh). We do not have an office or staff in Anhui; we work with manufacturers there remotely."] = "Hurfi 的办公室位于西安（陕西）和博古拉（孟加拉国）。我们在安徽没有办公室或员工；我们以远程方式与当地制造商合作。";
   fr["Hurfi’s offices are in Xi’an (Shaanxi) and Bogura (Bangladesh). We do not have an office or staff in Anhui; we work with manufacturers there remotely."] = "Les bureaux de Hurfi sont à Xi’an (Shaanxi) et à Bogura (Bangladesh). Nous n’avons ni bureau ni personnel dans l’Anhui ; nous travaillons à distance avec les fabricants de la province.";
@@ -10068,9 +10068,9 @@
   fr["Anhui’s GDP was 5,298.9 billion yuan in 2025, up 5.5%; high-tech manufacturing grew 30.4% and made up 18.1% of above-designated-size industrial value added."] = "Le PIB de l’Anhui s’est élevé à 5 298,9 milliards de yuans en 2025, en hausse de 5,5 % ; l’industrie de haute technologie a progressé de 30,4 % et représenté 18,1 % de la valeur ajoutée industrielle de taille supérieure.";
   zh["Computer, communication and other electronic equipment grew 40.9% and automobile manufacturing 20.1%."] = "计算机、通信和其他电子设备增长 40.9%，汽车制造业增长 20.1%。";
   fr["Computer, communication and other electronic equipment grew 40.9% and automobile manufacturing 20.1%."] = "L’informatique, la communication et les autres équipements électroniques ont progressé de 40,9 % et la fabrication automobile de 20,1 %.";
-  zh["The province made 3.686 million cars, including 1.794 million new-energy vehicles; the bulletin says both ranked first in China."] = "全省生产汽车 368.6 万辆，其中新能源汽车 179.4 万辆；公报称两者均居全国第一。";
+  zh["The province made 3.686 million cars, including 1.794 million new-energy vehicles; the bulletin says both ranked first in China."] = "全省生产汽车 368.6 万辆，其中新能源汽车 179.4 万辆；公报称两者均居全国首位。";
   fr["The province made 3.686 million cars, including 1.794 million new-energy vehicles; the bulletin says both ranked first in China."] = "La province a produit 3,686 millions de voitures, dont 1,794 million de véhicules à énergie nouvelle ; selon le bulletin, les deux se classent premiers en Chine.";
-  zh["Exports were 682.31 billion yuan (+17.8%); vehicle exports reached 1.228 million units (+28.7%), first in China."] = "出口 6,823.1 亿元（+17.8%）；汽车出口 122.8 万辆（+28.7%），居全国第一。";
+  zh["Exports were 682.31 billion yuan (+17.8%); vehicle exports reached 1.228 million units (+28.7%), first in China."] = "出口 6,823.1 亿元（+17.8%）；汽车出口 122.8 万辆（+28.7%），居全国首位。";
   fr["Exports were 682.31 billion yuan (+17.8%); vehicle exports reached 1.228 million units (+28.7%), first in China."] = "Les exportations ont atteint 682,31 milliards de yuans (+17,8 %) ; les exportations de véhicules ont atteint 1,228 million d’unités (+28,7 %), premières en Chine.";
   zh["Exports of the “new three” — electric vehicles, lithium-ion batteries and solar products — rose 107.8% to 101.83 billion yuan; trade with ASEAN grew 38.3% and with the EU 21.6%."] = "“新三样”——电动汽车、锂离子电池和光伏产品——出口增长 107.8% 至 1,018.3 亿元；对东盟贸易增长 38.3%，对欧盟增长 21.6%。";
   fr["Exports of the “new three” — electric vehicles, lithium-ion batteries and solar products — rose 107.8% to 101.83 billion yuan; trade with ASEAN grew 38.3% and with the EU 21.6%."] = "Les exportations des « trois nouveaux » — véhicules électriques, batteries lithium-ion et produits solaires — ont augmenté de 107,8 % pour atteindre 101,83 milliards de yuans ; le commerce avec l’ASEAN a crû de 38,3 % et avec l’UE de 21,6 %.";
@@ -10110,7 +10110,7 @@
   fr["Suzhou (Anhui)"] = "Suzhou (Anhui)";
   zh["Website and search priorities for Anhui exporters"] = "安徽出口企业的网站与搜索重点";
   fr["Website and search priorities for Anhui exporters"] = "Priorités site web et recherche pour les exportateurs de l’Anhui";
-  zh["Show your quality systems, testing and certifications prominently — supply-chain buyers look first."] = "把质量体系、检测和认证放在显眼位置——供应链买家最先看这些。";
+  zh["Show your quality systems, testing and certifications prominently — supply-chain buyers look first."] = "把质量体系、检测和认证放在显眼位置——供应链买家首先看这些。";
   fr["Show your quality systems, testing and certifications prominently — supply-chain buyers look first."] = "Affichez clairement vos systèmes qualité, vos essais et vos certifications — les acheteurs de la chaîne regardent d’abord cela.";
   zh["Give each product family a page with specifications in HTML."] = "为每个产品系列设一个页面，规格用 HTML 呈现。";
   fr["Give each product family a page with specifications in HTML."] = "Donnez à chaque famille de produits une page avec les spécifications en HTML.";
@@ -10210,7 +10210,7 @@
   fr["Iron ore grew 12.7%, steel and deep processing 6.8% and the magnesite industry 14.1%; output of automation instruments rose 42.1% to 975,000 units."] = "Le minerai de fer a progressé de 12,7 %, l’acier et sa transformation de 6,8 % et la filière magnésite de 14,1 % ; la production d’instruments d’automatisation a augmenté de 42,1 % pour atteindre 975 000 unités.";
   zh["Industrial export delivery value was 9.98 billion yuan (+1.5%), including 6.13 billion yuan from steel and 1.34 billion yuan from magnesite (+15.9%); exports were 17.83 billion yuan (−5.2%)."] = "工业出口交货值 99.8 亿元（+1.5%），其中钢铁 61.3 亿元、菱镁 13.4 亿元（+15.9%）；出口 178.3 亿元（−5.2%）。";
   fr["Industrial export delivery value was 9.98 billion yuan (+1.5%), including 6.13 billion yuan from steel and 1.34 billion yuan from magnesite (+15.9%); exports were 17.83 billion yuan (−5.2%)."] = "La valeur des livraisons à l’exportation de l’industrie a atteint 9,98 milliards de yuans (+1,5 %), dont 6,13 milliards pour l’acier et 1,34 milliard pour la magnésite (+15,9 %) ; les exportations ont été de 17,83 milliards (−5,2 %).";
-  zh["Anshan’s steel, magnesite and refractory suppliers sell on grade, composition and standards. Publishing those per product — with test certificates — is the most useful thing their websites can do. Related:"] = "鞍山的钢铁、菱镁和耐火材料供应商靠牌号、成分和标准来销售。按产品公布这些信息并附检测证书，是他们的网站能做的最有用的事。相关：";
+  zh["Anshan’s steel, magnesite and refractory suppliers sell on grade, composition and standards. Publishing those per product — with test certificates — is the most useful thing their websites can do. Related:"] = "鞍山的钢铁、菱镁和耐火材料供应商靠牌号、成分和标准来销售。按产品公布这些信息并附检测证书，是他们的网站能做的很有用的事。相关：";
   fr["Anshan’s steel, magnesite and refractory suppliers sell on grade, composition and standards. Publishing those per product — with test certificates — is the most useful thing their websites can do. Related:"] = "Les fournisseurs d’acier, de magnésite et de réfractaires d’Anshan vendent sur la nuance, la composition et les normes. Publier ces informations par produit, avec les certificats d’essai, est la chose la plus utile que leur site puisse faire. Voir :";
   zh["Anshan in the China directory"] = "中国目录中的鞍山";
   fr["Anshan in the China directory"] = "Anshan dans l’annuaire Chine";
@@ -10306,7 +10306,7 @@
   fr["High-tech manufacturing grew 15.5% and made up 17.4% of above-designated-size value added; electronics grew 16.9%."] = "L’industrie de haute technologie a progressé de 15,5 % et représenté 17,4 % de la valeur ajoutée de taille supérieure ; l’électronique a crû de 16,9 %.";
   zh["Goods trade was 834.01 billion yuan (+18.2%) and exports 581.86 billion yuan (+19.6%)."] = "货物贸易 8,340.1 亿元（+18.2%），出口 5,818.6 亿元（+19.6%）。";
   fr["Goods trade was 834.01 billion yuan (+18.2%) and exports 581.86 billion yuan (+19.6%)."] = "Le commerce de marchandises a atteint 834,01 milliards de yuans (+18,2 %) et les exportations 581,86 milliards (+19,6 %).";
-  zh["Trade with ASEAN, Hubei’s largest partner, was 175.58 billion yuan (+16.7%), and with the EU 113.66 billion yuan (+40.2%)."] = "对湖北最大伙伴东盟贸易 1,755.8 亿元（+16.7%），对欧盟 1,136.6 亿元（+40.2%）。";
+  zh["Trade with ASEAN, Hubei’s largest partner, was 175.58 billion yuan (+16.7%), and with the EU 113.66 billion yuan (+40.2%)."] = "对湖北的主要伙伴东盟贸易 1,755.8 亿元（+16.7%），对欧盟 1,136.6 亿元（+40.2%）。";
   fr["Trade with ASEAN, Hubei’s largest partner, was 175.58 billion yuan (+16.7%), and with the EU 113.66 billion yuan (+40.2%)."] = "Le commerce avec l’ASEAN, premier partenaire du Hubei, a atteint 175,58 milliards de yuans (+16,7 %), et avec l’UE 113,66 milliards (+40,2 %).";
   zh["Trade with Belt and Road countries was 457.61 billion yuan (+21.0%), 54.9% of the total; ports handled 2.7537 million TEU (+5.6%)."] = "对共建“一带一路”国家贸易 4,576.1 亿元（+21.0%），占总额 54.9%；港口集装箱吞吐量 275.37 万标箱（+5.6%）。";
   fr["Trade with Belt and Road countries was 457.61 billion yuan (+21.0%), 54.9% of the total; ports handled 2.7537 million TEU (+5.6%)."] = "Le commerce avec les pays de l’Initiative la Ceinture et la Route a atteint 457,61 milliards de yuans (+21,0 %), soit 54,9 % du total ; les ports ont traité 2,7537 millions d’EVP (+5,6 %).";
@@ -10596,7 +10596,7 @@
   fr["Write application pages for the industries you supply."] = "Rédigez des pages d’application pour les secteurs que vous servez.";
   zh["Build market pages for ASEAN, the Middle East or Africa if those are where your orders are growing."] = "如果订单增长来自东盟、中东或非洲，就为这些市场建立页面。";
   fr["Build market pages for ASEAN, the Middle East or Africa if those are where your orders are growing."] = "Créez des pages marché pour l’ASEAN, le Moyen-Orient ou l’Afrique si c’est là que vos commandes progressent.";
-  zh["Explain shipping and lead times from your nearest port."] = "说明从最近港口发货的运输方式与交期。";
+  zh["Explain shipping and lead times from your nearest port."] = "说明从就近港口发货的运输方式与交期。";
   fr["Explain shipping and lead times from your nearest port."] = "Expliquez l’expédition et les délais depuis votre port le plus proche.";
   zh["Track datasheet downloads and RFQs separately."] = "分别跟踪数据手册下载和询盘。";
   fr["Track datasheet downloads and RFQs separately."] = "Suivez séparément les téléchargements de fiches techniques et les demandes de devis.";
@@ -10688,7 +10688,7 @@
   fr["Electronics, hardware and smart devices; buyers check specifications and certifications first."] = "Électronique, quincaillerie et appareils intelligents ; les acheteurs vérifient d’abord les spécifications et les certifications.";
   zh["Autos, EV batteries, electronics and the Canton Fair; the website after the fair matters."] = "汽车、动力电池、电子和广交会；展会之后的网站更关键。";
   fr["Autos, EV batteries, electronics and the Canton Fair; the website after the fair matters."] = "Automobile, batteries de véhicules électriques, électronique et Foire de Canton ; le site web après le salon fait la différence.";
-  zh["Contract manufacturing and electronics; process capability and quality systems sell."] = "代工制造和电子；工艺能力和质量体系最具说服力。";
+  zh["Contract manufacturing and electronics; process capability and quality systems sell."] = "代工制造和电子；工艺能力和质量体系颇具说服力。";
   fr["Contract manufacturing and electronics; process capability and quality systems sell."] = "Fabrication en sous-traitance et électronique ; la capacité de process et les systèmes qualité font vendre.";
   zh["Appliances, furniture, machinery and building materials; new markets after a weak US year."] = "家电、家具、机械和建材；美国市场疲弱后转向新市场。";
   fr["Appliances, furniture, machinery and building materials; new markets after a weak US year."] = "Électroménager, meubles, machines et matériaux de construction ; de nouveaux marchés après une année difficile aux États-Unis.";
@@ -10720,13 +10720,13 @@
   fr["Be specific on the first screen: what you make, for which industry and to which standards. Generic “manufacturer and trader” headlines are lost among Guangdong’s many suppliers."] = "Soyez précis dès le premier écran : ce que vous fabriquez, pour quel secteur et selon quelles normes. Les titres génériques du type « fabricant et négociant » se perdent parmi les nombreux fournisseurs du Guangdong.";
   zh["Give each product line its own page with specifications as text and certificates per market."] = "为每条产品线设置独立页面，规格用文字呈现，并按市场列出认证。";
   fr["Give each product line its own page with specifications as text and certificates per market."] = "Donnez à chaque ligne de produits sa propre page, avec les spécifications en texte et les certifications par marché.";
-  zh["Explain shipping from your nearest port — Shenzhen, Guangzhou, Zhuhai or others — with lead times and terms."] = "说明从最近港口（深圳、广州、珠海等）出货的方式，并写明交期和贸易条款。";
+  zh["Explain shipping from your nearest port — Shenzhen, Guangzhou, Zhuhai or others — with lead times and terms."] = "说明从就近港口（深圳、广州、珠海等）出货的方式，并写明交期和贸易条款。";
   fr["Explain shipping from your nearest port — Shenzhen, Guangzhou, Zhuhai or others — with lead times and terms."] = "Expliquez l’expédition depuis votre port le plus proche — Shenzhen, Guangzhou, Zhuhai ou autres — avec les délais et les conditions.";
   zh["If you exhibit at the Canton Fair or other fairs, make the website match what buyers saw at the booth."] = "如果参加广交会或其他展会，让网站与买家在展位上看到的内容一致。";
   fr["If you exhibit at the Canton Fair or other fairs, make the website match what buyers saw at the booth."] = "Si vous exposez à la Foire de Canton ou dans d’autres salons, faites correspondre le site à ce que les acheteurs ont vu sur le stand.";
   zh["Plan language versions only for markets you really sell to, and tag them correctly."] = "只为你真正销售的市场规划语言版本，并正确标注语言。";
   fr["Plan language versions only for markets you really sell to, and tag them correctly."] = "Ne prévoyez des versions linguistiques que pour les marchés où vous vendez réellement, et balisez-les correctement.";
-  zh["Measure inquiries by product line and country from day one."] = "从第一天起就按产品线和国家统计询盘。";
+  zh["Measure inquiries by product line and country from day one."] = "从首日起就按产品线和国家统计询盘。";
   fr["Measure inquiries by product line and country from day one."] = "Mesurez les demandes par ligne de produits et par pays dès le premier jour.";
   zh["How Hurfi helps Guangdong manufacturers"] = "Hurfi 如何帮助广东制造商";
   fr["How Hurfi helps Guangdong manufacturers"] = "Comment Hurfi aide les fabricants du Guangdong";
@@ -10788,7 +10788,7 @@
   fr["Incoterms 2020 Explained: EXW, FCA and DDP | Hurfi"] = "Incoterms 2020 expliqués : EXW, FCA et DDP | Hurfi";
   zh["Incoterms 2020 explained for exporters"] = "写给出口企业的 Incoterms 2020 说明";
   fr["Incoterms 2020 explained for exporters"] = "Les Incoterms 2020 expliqués pour les exportateurs";
-  zh["Incoterms 2020 are the International Chamber of Commerce’s eleven three-letter rules that decide who arranges carriage, who pays which cost, and where risk passes from seller to buyer. This guide covers the rules a Chinese manufacturer is asked to quote most often — EXW, FCA, FOB, CIF, DAP, DPU and DDP — and what each one obliges the seller to do."] = "Incoterms 2020 是国际商会制定的十一条三字母规则，用来确定由谁安排运输、由谁承担哪项费用，以及风险在何处由卖方转移给买方。本文讲的是中国制造商最常被要求报价的几条规则——EXW、FCA、FOB、CIF、DAP、DPU 与 DDP——以及每一条对卖方提出了什么要求。";
+  zh["Incoterms 2020 are the International Chamber of Commerce’s eleven three-letter rules that decide who arranges carriage, who pays which cost, and where risk passes from seller to buyer. This guide covers the rules a Chinese manufacturer is asked to quote most often — EXW, FCA, FOB, CIF, DAP, DPU and DDP — and what each one obliges the seller to do."] = "Incoterms 2020 是国际商会制定的十一条三字母规则，用来确定由谁安排运输、由谁承担哪项费用，以及风险在何处由卖方转移给买方。本文讲的是中国制造商常被要求报价的几条规则——EXW、FCA、FOB、CIF、DAP、DPU 与 DDP——以及每一条对卖方提出了什么要求。";
   fr["Incoterms 2020 are the International Chamber of Commerce’s eleven three-letter rules that decide who arranges carriage, who pays which cost, and where risk passes from seller to buyer. This guide covers the rules a Chinese manufacturer is asked to quote most often — EXW, FCA, FOB, CIF, DAP, DPU and DDP — and what each one obliges the seller to do."] = "Les Incoterms 2020 sont les onze règles de trois lettres de la Chambre de commerce internationale qui déterminent qui organise le transport, qui paie chaque coût et où le risque passe du vendeur à l’acheteur. Ce guide couvre les règles que l’on demande le plus souvent à un fabricant chinois de citer — EXW, FCA, FOB, CIF, DAP, DPU et DDP — et ce que chacune impose au vendeur.";
   zh["What Incoterms 2020 actually decide"] = "Incoterms 2020 究竟确定了什么";
   fr["What Incoterms 2020 actually decide"] = "Ce que les Incoterms 2020 déterminent réellement";
@@ -10820,7 +10820,7 @@
   fr["Sea and inland waterway only:"] = "Maritime et fluvial uniquement :";
   zh["FAS (Free Alongside Ship), FOB (Free On Board), CFR (Cost and Freight), CIF (Cost, Insurance and Freight)."] = "FAS（船边交货）、FOB（船上交货）、CFR（成本加运费）、CIF（成本、保险费加运费）。";
   fr["FAS (Free Alongside Ship), FOB (Free On Board), CFR (Cost and Freight), CIF (Cost, Insurance and Freight)."] = "FAS (Free Alongside Ship / franco le long du navire), FOB (Free On Board / franco à bord), CFR (Cost and Freight / coût et fret), CIF (Cost, Insurance and Freight / coût, assurance et fret).";
-  zh["The common mistake:"] = "最常见的错误：";
+  zh["The common mistake:"] = "常见的错误：";
   fr["The common mistake:"] = "L’erreur courante :";
   zh["using FOB or CIF for a container that is handed to a carrier at a container yard inland. Risk passes when the goods are on board, but the seller lost control of them days earlier."] = "对交给内陆集装箱场站承运人的货物使用 FOB 或 CIF。风险在货物装船时才转移，但卖方在此前几天就已经失去了对货物的控制。";
   fr["using FOB or CIF for a container that is handed to a carrier at a container yard inland. Risk passes when the goods are on board, but the seller lost control of them days earlier."] = "utiliser FOB ou CIF pour un conteneur remis à un transporteur dans un parc à conteneurs intérieur. Le risque passe au chargement à bord, mais le vendeur a perdu la maîtrise des marchandises plusieurs jours plus tôt.";
@@ -10838,9 +10838,9 @@
   fr["These three rules reward precision in the quotation: port name, vessel or sailing window where relevant, and the exact scope of what the price includes."] = "Ces trois règles récompensent la précision de l’offre : nom du port, navire ou fenêtre de départ le cas échéant, et périmètre exact de ce que le prix couvre.";
   zh["DAP means the seller delivers the goods at the named place, ready for unloading, with import clearance and duties left to the buyer. DPU means the same journey plus unloading by the seller; it is the rule renamed from DAT in the 2020 edition."] = "DAP 指卖方在指定地点把货物交付、处于可卸状态，进口清关和关税由买方负责。DPU 是在同一行程上再由卖方卸货；它就是 2020 年版里由 DAT 改名而来的规则。";
   fr["DAP means the seller delivers the goods at the named place, ready for unloading, with import clearance and duties left to the buyer. DPU means the same journey plus unloading by the seller; it is the rule renamed from DAT in the 2020 edition."] = "DAP signifie que le vendeur livre les marchandises au lieu nommé, prêtes à être déchargées, le dédouanement à l’import et les droits restant à l’acheteur. DPU ajoute le déchargement par le vendeur ; c’est la règle renommée depuis DAT dans l’édition 2020.";
-  zh["DDP puts import clearance, duties and taxes on the seller. It is the widest obligation in the set, and the one that most often goes wrong when a factory quotes it without a customs representative or a tax registration in the destination country. A DDP price that ignores import VAT is not a price, it is a future dispute."] = "DDP 把进口清关、关税和税费都放在卖方身上。这是整套规则里义务最宽的一条，也是工厂在没有目的国报关代理或税务登记的情况下最容易出问题的一条。忽略进口增值税的 DDP 价格不是价格，而是日后的一桩纠纷。";
+  zh["DDP puts import clearance, duties and taxes on the seller. It is the widest obligation in the set, and the one that most often goes wrong when a factory quotes it without a customs representative or a tax registration in the destination country. A DDP price that ignores import VAT is not a price, it is a future dispute."] = "DDP 把进口清关、关税和税费都放在卖方身上。这是整套规则里义务较宽的一条，也是工厂在没有目的国报关代理或税务登记的情况下更容易出问题的一条。忽略进口增值税的 DDP 价格不是价格，而是日后的一桩纠纷。";
   fr["DDP puts import clearance, duties and taxes on the seller. It is the widest obligation in the set, and the one that most often goes wrong when a factory quotes it without a customs representative or a tax registration in the destination country. A DDP price that ignores import VAT is not a price, it is a future dispute."] = "DDP met le dédouanement à l’import, les droits et les taxes à la charge du vendeur. C’est l’obligation la plus large de l’ensemble, et celle qui tourne le plus mal quand une usine la cite sans représentant en douane ni enregistrement fiscal dans le pays de destination. Un prix DDP qui ignore la TVA à l’import n’est pas un prix, c’est un litige à venir.";
-  zh["A practical rule: choose the smallest obligation you can actually perform. Sellers who quote DDP “to be helpful” end up owning a customs problem in a country where they have no standing."] = "一条实用原则：选择你确实能履行的最小义务。为了“帮客户一个忙”而报 DDP 的卖方，最后会在一个自己没有任何资格的国家里承担一个清关问题。";
+  zh["A practical rule: choose the smallest obligation you can actually perform. Sellers who quote DDP “to be helpful” end up owning a customs problem in a country where they have no standing."] = "一条实用原则：选择你确实能履行的、范围较小的义务。为了“帮客户一个忙”而报 DDP 的卖方，到头来会在一个自己没有任何资格的国家里承担一个清关问题。";
   fr["A practical rule: choose the smallest obligation you can actually perform. Sellers who quote DDP “to be helpful” end up owning a customs problem in a country where they have no standing."] = "Règle pratique : choisissez la plus petite obligation que vous pouvez réellement exécuter. Les vendeurs qui citent DDP « pour rendre service » finissent par assumer un problème douanier dans un pays où ils n’ont aucune qualité pour agir.";
   zh["The 2020 edition changed presentation and a few mechanics rather than the basic allocation of risk. Five changes matter to a manufacturer that quotes every week."] = "2020 年版改的是呈现方式和少量机制，而不是风险的基本分配。对每周都要报价的制造商来说，有五处变化值得注意。";
   fr["The 2020 edition changed presentation and a few mechanics rather than the basic allocation of risk. Five changes matter to a manufacturer that quotes every week."] = "L’édition 2020 a changé la présentation et quelques mécanismes, pas la répartition de base du risque. Cinq changements comptent pour un fabricant qui chiffre chaque semaine.";
@@ -10866,7 +10866,7 @@
   fr["in articles A4 (carriage) and A7 (export and import clearance), with the related costs listed in the consolidated costs article."] = "aux articles A4 (transport) et A7 (dédouanement export et import), les coûts correspondants figurant à l’article consolidé sur les coûts.";
   zh["Overseas buyers ask about terms before they ask for a price, and a terms block on the quotation or product page removes one email round from every negotiation. State the rule, the named place and the port, for example “FCA Ningbo, Incoterms 2020”, and keep payment terms in a separate line."] = "海外买家在问价格之前先问条款，把条款块放在报价页或产品页上，每轮谈判就能少一封邮件。写清规则、指定地点和港口，例如“FCA Ningbo, Incoterms 2020”，并把付款条件单独列一行。";
   fr["Overseas buyers ask about terms before they ask for a price, and a terms block on the quotation or product page removes one email round from every negotiation. State the rule, the named place and the port, for example “FCA Ningbo, Incoterms 2020”, and keep payment terms in a separate line."] = "Les acheteurs étrangers posent la question des conditions avant celle du prix, et un bloc de conditions sur la page de devis ou de produit supprime un aller-retour par négociation. Indiquez la règle, le lieu nommé et le port, par exemple « FCA Ningbo, Incoterms 2020 », et gardez les conditions de paiement sur une ligne séparée.";
-  zh["Two mistakes are common on Chinese manufacturer sites. The first is a table that presents CIF as door delivery, which leads the buyer to expect a service the term does not include. The second is a single “FOB China” line with no port, which makes freight quotes impossible to compare."] = "中国制造商网站上常见两个错误。第一是把 CIF 做成表格里的门到门服务，让买方期待这条规则并不包含的服务。第二是只写“FOB China”而不写港口，导致运费报价无法比较。";
+  zh["Two mistakes are common on Chinese manufacturer sites. The first is a table that presents CIF as door delivery, which leads the buyer to expect a service the term does not include. The second is a single “FOB China” line with no port, which makes freight quotes impossible to compare."] = "中国制造商网站上常见两个错误。其一是把 CIF 做成表格里的门到门服务，让买方期待这条规则并不包含的服务。第二是只写“FOB China”而不写港口，导致运费报价无法比较。";
   fr["Two mistakes are common on Chinese manufacturer sites. The first is a table that presents CIF as door delivery, which leads the buyer to expect a service the term does not include. The second is a single “FOB China” line with no port, which makes freight quotes impossible to compare."] = "Deux erreurs sont fréquentes sur les sites de fabricants chinois. La première est un tableau qui présente CIF comme une livraison à domicile, ce qui laisse l’acheteur attendre un service que la règle ne comprend pas. La seconde est une simple ligne « FOB China » sans port, qui rend les devis de fret incomparables.";
   zh["A short terms section also gives an answer engine something concrete to quote when a buyer asks what a supplier’s shipping terms are. That is worth more than another paragraph about company history."] = "一段简短的条款说明，还能在买方询问供应商运输条件时，给答案引擎一段可以直接引用的事实。这比再写一段公司历史更有价值。";
   fr["A short terms section also gives an answer engine something concrete to quote when a buyer asks what a supplier’s shipping terms are. That is worth more than another paragraph about company history."] = "Un court bloc de conditions donne aussi à un moteur de réponse un fait précis à citer quand un acheteur demande quelles sont les conditions d’expédition d’un fournisseur. Cela vaut plus qu’un paragraphe de plus sur l’histoire de l’entreprise.";
@@ -10876,7 +10876,7 @@
   fr["Titles and internal links around the phrases buyers use when they compare suppliers."] = "Des titres et des liens internes autour des expressions que les acheteurs utilisent pour comparer des fournisseurs.";
   zh["Landing pages for chosen product families in the markets where your orders are growing."] = "为订单正在增长的市场，选择合适的品类做落地页。";
   fr["Landing pages for chosen product families in the markets where your orders are growing."] = "Des pages d’atterrissage pour les familles de produits choisies, sur les marchés où vos commandes progressent.";
-  zh["Posts that answer the commercial questions buyers ask before the first call."] = "用文章回答买家在第一次通话前提出的商务问题。";
+  zh["Posts that answer the commercial questions buyers ask before the first call."] = "用文章回答买家在首次通话前提出的商务问题。";
   fr["Posts that answer the commercial questions buyers ask before the first call."] = "Des articles qui répondent aux questions commerciales posées avant le premier appel.";
   zh["Are Incoterms 2020 mandatory?"] = "Incoterms 2020 是强制性的吗？";
   fr["Are Incoterms 2020 mandatory?"] = "Les Incoterms 2020 sont-ils obligatoires ?";
@@ -10942,7 +10942,7 @@
   fr["Importers and distributors have their own obligations. They must place only compliant products on the EEA market, keep the documentation available, and add their name and contact details where the legislation requires it. A European customer asking for your declaration is not being difficult; that customer is being asked to prove compliance by its own market surveillance authority."] = "Les importateurs et les distributeurs ont leurs propres obligations. Ils ne doivent mettre sur le marché de l’EEE que des produits conformes, tenir la documentation à disposition et ajouter leur nom et leurs coordonnées lorsque la législation l’exige. Un client européen qui demande votre déclaration n’est pas difficile : son autorité de surveillance du marché lui demande de prouver la conformité.";
   zh["The technical file is the evidence behind the mark: drawings, specifications, risk assessment, test reports, the standards applied and the assessment records. Most harmonisation legislation requires the manufacturer to keep it available for a period after the product is placed on the market, typically ten years."] = "技术文件是标志背后的证据：图纸、规格、风险评估、测试报告、所采用的标准和评估记录。多数协调法规要求制造商在产品投放市场后的一段时间内保持文件可提供，通常是十年。";
   fr["The technical file is the evidence behind the mark: drawings, specifications, risk assessment, test reports, the standards applied and the assessment records. Most harmonisation legislation requires the manufacturer to keep it available for a period after the product is placed on the market, typically ten years."] = "Le dossier technique est la preuve qui sous-tend la marque : plans, spécifications, analyse des risques, rapports d’essai, normes appliquées et enregistrements de l’évaluation. La plupart des législations d’harmonisation imposent au fabricant de le tenir à disposition pendant une durée après la mise sur le marché, généralement dix ans.";
-  zh["The EU declaration of conformity is the signed document that lists the product, the manufacturer, the legislation applied, the harmonised standards used and, where relevant, the notified body. It is the document a buyer, a customs officer or a market surveillance authority asks for first, and it is the one document a factory should be able to send within a day."] = "欧盟符合性声明是签署的文件，列明产品、制造商、所适用的法规、采用的协调标准，以及（如适用）公告机构。它是买家、海关或市场监管机构最先索要的文件，也是工厂应当能在一天内发出的文件。";
+  zh["The EU declaration of conformity is the signed document that lists the product, the manufacturer, the legislation applied, the harmonised standards used and, where relevant, the notified body. It is the document a buyer, a customs officer or a market surveillance authority asks for first, and it is the one document a factory should be able to send within a day."] = "欧盟符合性声明是签署的文件，列明产品、制造商、所适用的法规、采用的协调标准，以及（如适用）公告机构。它是买家、海关或市场监管机构首先索要的文件，也是工厂应当能在一天内发出的文件。";
   fr["The EU declaration of conformity is the signed document that lists the product, the manufacturer, the legislation applied, the harmonised standards used and, where relevant, the notified body. It is the document a buyer, a customs officer or a market surveillance authority asks for first, and it is the one document a factory should be able to send within a day."] = "La déclaration UE de conformité est le document signé qui indique le produit, le fabricant, la législation appliquée, les normes harmonisées utilisées et, le cas échéant, l’organisme notifié. C’est le document qu’un acheteur, un agent des douanes ou une autorité de surveillance demande en premier, et celui qu’une usine doit pouvoir envoyer en une journée.";
   zh["A common gap on manufacturer websites is a wall of certificate images with no declaration and no directive numbers. Buyers who know the rules read the declaration, because it names the legislation and the standards; a certificate image without that context proves very little."] = "制造商网站上常见的缺口，是一堆证书图片，却没有声明、没有指令编号。懂规则的买家看的是声明，因为声明写明法规和标准；缺少这些背景的证书图片，证明力很有限。";
   fr["A common gap on manufacturer websites is a wall of certificate images with no declaration and no directive numbers. Buyers who know the rules read the declaration, because it names the legislation and the standards; a certificate image without that context proves very little."] = "Un manque fréquent sur les sites de fabricants est un mur d’images de certificats, sans déclaration ni numéros de directive. Les acheteurs qui connaissent les règles lisent la déclaration, parce qu’elle nomme la législation et les normes ; une image de certificat sans ce contexte prouve très peu.";
@@ -10950,7 +10950,7 @@
   fr["For many products the manufacturer can complete the assessment itself, through internal production control and the applicable harmonised standards. For others the legislation requires a notified body, or gives a choice between routes, for example with higher-risk machinery or certain medical devices."] = "Pour de nombreux produits, le fabricant peut réaliser lui-même l’évaluation, par le contrôle interne de la production et les normes harmonisées applicables. Pour d’autres, la législation impose un organisme notifié ou laisse le choix entre plusieurs voies, par exemple pour les machines à risque élevé ou certains dispositifs médicaux.";
   zh["A notified body is designated by an EU country for a defined scope, and its four-digit identification number appears next to the CE mark when the legislation requires third-party involvement. A body outside that scope cannot certify the product, whatever the certificate says."] = "公告机构由欧盟成员国指定，范围有明确界定；法规要求第三方介入时，其四位识别号会与 CE 标志一同标注。超出该范围的机构无法为该产品认证，无论证书上怎么写。";
   fr["A notified body is designated by an EU country for a defined scope, and its four-digit identification number appears next to the CE mark when the legislation requires third-party involvement. A body outside that scope cannot certify the product, whatever the certificate says."] = "Un organisme notifié est désigné par un État membre de l’UE pour un champ défini, et son numéro d’identification à quatre chiffres figure à côté du marquage CE lorsque la législation exige l’intervention d’un tiers. Un organisme hors de ce champ ne peut pas certifier le produit, quoi qu’indique le certificat.";
-  zh["Machinery is the sector where the rules are changing soonest. The current text is the Machinery Directive 2006/42/EC. The Machinery Regulation (EU) 2023/1230 was adopted on 14 June 2023 and applies on a mandatory basis from 20 January 2027."] = "机械是规则变化最快的领域。现行文本是机械指令 2006/42/EC。机械法规 (EU) 2023/1230 于 2023 年 6 月 14 日通过，自 2027 年 1 月 20 日起强制适用。";
+  zh["Machinery is the sector where the rules are changing soonest. The current text is the Machinery Directive 2006/42/EC. The Machinery Regulation (EU) 2023/1230 was adopted on 14 June 2023 and applies on a mandatory basis from 20 January 2027."] = "机械是规则变化较快的领域。现行文本是机械指令 2006/42/EC。机械法规 (EU) 2023/1230 于 2023 年 6 月 14 日通过，自 2027 年 1 月 20 日起强制适用。";
   fr["Machinery is the sector where the rules are changing soonest. The current text is the Machinery Directive 2006/42/EC. The Machinery Regulation (EU) 2023/1230 was adopted on 14 June 2023 and applies on a mandatory basis from 20 January 2027."] = "Les machines sont le secteur où les règles changent le plus tôt. Le texte en vigueur est la directive Machines 2006/42/CE. Le règlement Machines (UE) 2023/1230 a été adopté le 14 juin 2023 et s’applique à titre obligatoire à partir du 20 janvier 2027.";
   zh["The regulation keeps the essential health and safety requirements and voluntary harmonised standards, and adds provisions for machinery with AI-powered safety functions, cyber-safety for compliance-relevant software, and conformity assessment for higher-risk machinery. Machinery placed on the EU market before 20 January 2027 must comply with the directive."] = "该法规保留了基本健康与安全要求和自愿性协调标准，并新增了针对带 AI 安全功能机械的条款、与合规相关软件的网络安全要求，以及高风险机械的符合性评估。2027 年 1 月 20 日之前投放欧盟市场的机械，仍须符合指令。";
   fr["The regulation keeps the essential health and safety requirements and voluntary harmonised standards, and adds provisions for machinery with AI-powered safety functions, cyber-safety for compliance-relevant software, and conformity assessment for higher-risk machinery. Machinery placed on the EU market before 20 January 2027 must comply with the directive."] = "Le règlement conserve les exigences essentielles de santé et de sécurité et les normes harmonisées d’application volontaire, et ajoute des dispositions pour les machines dotées de fonctions de sécurité fondées sur l’IA, la cybersécurité des logiciels pertinents pour la conformité et l’évaluation de la conformité des machines à risque élevé. Les machines mises sur le marché de l’UE avant le 20 janvier 2027 doivent être conformes à la directive.";
@@ -11062,7 +11062,7 @@
   fr["Wear parts and spares"] = "Pièces d’usure et pièces de rechange";
   zh["Materials, life and availability."] = "材质、寿命和供货能力。";
   fr["Materials, life and availability."] = "Matériaux, durée de vie et disponibilité.";
-  zh["Safety rules matter most for underground and processing equipment:"] = "对井下设备和选矿设备来说，安全法规最为关键：";
+  zh["Safety rules matter most for underground and processing equipment:"] = "对井下设备和选矿设备来说，安全法规尤为关键：";
   fr["Safety rules matter most for underground and processing equipment:"] = "Les règles de sécurité comptent surtout pour les équipements souterrains et de traitement :";
   zh["The ATEX Directive 2014/34/EU covers equipment and protective systems for potentially explosive atmospheres, and the Commission names mines among the places where such atmospheres occur."] = "《ATEX 指令》2014/34/EU 适用于潜在爆炸性环境中的设备和防护系统，欧盟委员会明确把矿井列为可能出现此类环境的地点之一。";
   fr["The ATEX Directive 2014/34/EU covers equipment and protective systems for potentially explosive atmospheres, and the Commission names mines among the places where such atmospheres occur."] = "La directive ATEX 2014/34/UE couvre les appareils et systèmes de protection destinés aux atmosphères explosibles, et la Commission cite les mines parmi les lieux où de telles atmosphères peuvent apparaître.";
@@ -11472,7 +11472,7 @@
   fr["Industrial zones and districts in Zhuhai"] = "Zones industrielles et districts de Zhuhai";
   zh["Xiangzhou, Jinwan and Doumen districts had GDP of 304.770, 96.461 and 56.079 billion yuan in 2025; industrial value added grew 0.4% in Xiangzhou, 6.1% in Jinwan and 13.5% in Doumen."] = "2025 年，香洲、金湾和斗门三区的地区生产总值分别为 3,047.7 亿元、964.6 亿元和 560.8 亿元；工业增加值增速分别为香洲 0.4%、金湾 6.1%、斗门 13.5%。";
   fr["Xiangzhou, Jinwan and Doumen districts had GDP of 304.770, 96.461 and 56.079 billion yuan in 2025; industrial value added grew 0.4% in Xiangzhou, 6.1% in Jinwan and 13.5% in Doumen."] = "En 2025, les districts de Xiangzhou, Jinwan et Doumen ont réalisé un PIB de 304,77, 96,46 et 56,08 milliards de yuans ; la valeur ajoutée industrielle a progressé de 0,4 % à Xiangzhou, 6,1 % à Jinwan et 13,5 % à Doumen.";
-  zh["Industrial growth was strongest in Jinwan and Doumen, Zhuhai’s western districts. Wherever you are, buyers want to see real production and real testing."] = "工业增长最快的是珠海西部的金湾和斗门。无论在哪个区，买家都想看到真实的生产和真实的检测。";
+  zh["Industrial growth was strongest in Jinwan and Doumen, Zhuhai’s western districts. Wherever you are, buyers want to see real production and real testing."] = "工业增长较快的是珠海西部的金湾和斗门。无论在哪个区，买家都想看到真实的生产和真实的检测。";
   fr["Industrial growth was strongest in Jinwan and Doumen, Zhuhai’s western districts. Wherever you are, buyers want to see real production and real testing."] = "La croissance industrielle a été la plus forte à Jinwan et Doumen, les districts occidentaux de Zhuhai. Où que vous soyez, les acheteurs veulent voir une production réelle et des essais réels.";
   zh["Ports, logistics and trade fairs"] = "港口、物流与交易会";
   fr["Ports, logistics and trade fairs"] = "Ports, logistique et foires commerciales";
@@ -11516,7 +11516,7 @@
   fr["Publish compatibility and interface information per product."] = "Publiez les informations de compatibilité et d’interface pour chaque produit.";
   zh["Can you supply under our brand?"] = "可以按我们的品牌供货吗？";
   fr["Can you supply under our brand?"] = "Pouvez-vous fournir sous notre marque ?";
-  zh["Explain OEM and ODM options, minimums and approval steps."] = "说明 OEM 和 ODM 选项、最小起订量和确认流程。";
+  zh["Explain OEM and ODM options, minimums and approval steps."] = "说明 OEM 和 ODM 选项、起订量和确认流程。";
   fr["Explain OEM and ODM options, minimums and approval steps."] = "Expliquez les options OEM et ODM, les minimums et les étapes de validation.";
   zh["Which test reports can you send?"] = "可以提供哪些测试报告？";
   fr["Which test reports can you send?"] = "Quels rapports d’essai pouvez-vous envoyer ?";
@@ -11534,7 +11534,7 @@
   fr["Separate OEM/ODM services from your own-brand products so both buyers find the right pages."] = "Séparez les services OEM/ODM de vos produits de marque propre pour que les deux types d’acheteurs trouvent les bonnes pages.";
   zh["Publish a quality and testing page with the test equipment, standards and reports you can share."] = "发布质量与检测页面，列出可以公开的检测设备、标准和报告。";
   fr["Publish a quality and testing page with the test equipment, standards and reports you can share."] = "Publiez une page qualité et essais avec les équipements de test, les normes et les rapports que vous pouvez partager.";
-  zh["Write application pages that explain where each product is used and which specifications matter."] = "编写应用页面，说明每个产品用在哪里，哪些规格最关键。";
+  zh["Write application pages that explain where each product is used and which specifications matter."] = "编写应用页面，说明每个产品用在哪里，哪些规格尤为关键。";
   fr["Write application pages that explain where each product is used and which specifications matter."] = "Rédigez des pages d’application qui expliquent où chaque produit est utilisé et quelles spécifications comptent.";
   zh["Google’s product structured-data guidance"] = "Google 的产品结构化数据指南";
   fr["Google’s product structured-data guidance"] = "Les recommandations de Google sur les données structurées de produit";
@@ -11586,7 +11586,7 @@
   fr["For markets you sell to, yes, with correct language tags and proper translation."] = "Oui, pour les marchés où vous vendez, avec des balises de langue correctes et une traduction soignée.";
   zh["Yes, for chosen models and countries, once conversion tracking works."] = "会，针对选定型号和国家，前提是转化跟踪已经可用。";
   fr["Yes, for chosen models and countries, once conversion tracking works."] = "Oui, pour des modèles et des pays choisis, une fois le suivi des conversions opérationnel.";
-  zh["Book a free consultation and tell us which product line matters most."] = "预约免费咨询，并告诉我们哪条产品线最重要。";
+  zh["Book a free consultation and tell us which product line matters most."] = "预约免费咨询，并告诉我们哪条产品线尤为重要。";
   fr["Book a free consultation and tell us which product line matters most."] = "Réservez une consultation gratuite et dites-nous quelle gamme de produits compte le plus.";
   zh["Zhuhai in the China directory"] = "中国目录中的珠海";
   fr["Zhuhai in the China directory"] = "Zhuhai dans l’annuaire Chine";
@@ -11726,7 +11726,7 @@
   fr["A site that presents electronics, precision parts, equipment and contract manufacturing with specifications and certifications."] = "Un site qui présente électronique, pièces de précision, équipements et fabrication sous contrat avec spécifications et certifications.";
   zh["Searches for product types, part numbers and standards, with English and Chinese versions tagged correctly."] = "针对产品类型、料号和标准的搜索，中英文版本正确标注。";
   fr["Searches for product types, part numbers and standards, with English and Chinese versions tagged correctly."] = "Des recherches sur les types de produits, les références et les normes, avec des versions anglaise et chinoise correctement balisées.";
-  zh["Campaigns built around your strongest product families and markets, reported by inquiry."] = "围绕你们最强的产品系列和市场开展推广，按询盘报告结果。";
+  zh["Campaigns built around your strongest product families and markets, reported by inquiry."] = "围绕你们突出的产品系列和市场开展推广，按询盘报告结果。";
   fr["Campaigns built around your strongest product families and markets, reported by inquiry."] = "Des campagnes autour de vos meilleures familles de produits et marchés, mesurées en demandes de devis.";
   zh["Posts that show production, testing and shipments without exposing client work."] = "展示生产、测试和发货的内容，不泄露客户项目。";
   fr["Posts that show production, testing and shipments without exposing client work."] = "Des publications qui montrent production, essais et expéditions sans exposer le travail des clients.";
@@ -11832,7 +11832,7 @@
   fr["Exports to the United States were 24.275 billion yuan (−34.5%), to the EU 29.434 billion (−12.1%) and to ASEAN 33.636 billion (−60.2%)."] = "Les exportations vers les États-Unis ont atteint 24,275 milliards de yuans (−34,5 %), vers l’UE 29,434 milliards (−12,1 %) et vers l’ASEAN 33,636 milliards (−60,2 %).";
   zh["Exports to Japan were 8.644 billion yuan (−12.9%); 868 new foreign-invested firms were set up (+19.7%)."] = "对日本出口86.44亿元（−12.9%）；新设外商投资企业868家（+19.7%）。";
   fr["Exports to Japan were 8.644 billion yuan (−12.9%); 868 new foreign-invested firms were set up (+19.7%)."] = "Les exportations vers le Japon ont atteint 8,644 milliards de yuans (−12,9 %) ; 868 nouvelles entreprises à capitaux étrangers ont été créées (+19,7 %).";
-  zh["Fuzhou’s exports fell in every major market in 2025, ASEAN most of all. Exporters rebuilding demand should pick a few markets, prepare the certifications and terms those buyers need, and build pages for them."] = "2025年福州对各主要市场出口均下降，东盟降幅最大。重建需求的出口企业应选定少数市场，准备好这些买家需要的认证和条款，并为它们建立页面。";
+  zh["Fuzhou’s exports fell in every major market in 2025, ASEAN most of all. Exporters rebuilding demand should pick a few markets, prepare the certifications and terms those buyers need, and build pages for them."] = "2025年福州对各主要市场出口均下降，东盟降幅居前。重建需求的出口企业应选定少数市场，准备好这些买家需要的认证和条款，并为它们建立页面。";
   fr["Fuzhou’s exports fell in every major market in 2025, ASEAN most of all. Exporters rebuilding demand should pick a few markets, prepare the certifications and terms those buyers need, and build pages for them."] = "Les exportations de Fuzhou ont reculé sur tous les grands marchés en 2025, surtout vers l’ASEAN. Les exportateurs qui reconstruisent la demande doivent choisir quelques marchés, préparer les certifications et conditions attendues par ces acheteurs, et créer des pages pour eux.";
   zh["Challenges Fuzhou manufacturers face online"] = "福州制造企业在线上常遇到的挑战";
   fr["Challenges Fuzhou manufacturers face online"] = "Les défis en ligne des fabricants de Fuzhou";
@@ -11866,7 +11866,7 @@
   fr["Give grades, standards and the certificates you supply."] = "Indiquez les nuances, les normes et les certificats que vous fournissez.";
   zh["Can you make OEM products?"] = "能否做OEM产品？";
   fr["Can you make OEM products?"] = "Pouvez-vous fabriquer des produits OEM ?";
-  zh["Explain OEM, MOQ and design protection on a separate page."] = "在单独页面说明OEM、最小起订量和设计保护。";
+  zh["Explain OEM, MOQ and design protection on a separate page."] = "在单独页面说明OEM、起订量和设计保护。";
   fr["Explain OEM, MOQ and design protection on a separate page."] = "Expliquez l’OEM, la quantité minimale et la protection des designs sur une page dédiée.";
   zh["What capacity and lead time apply?"] = "产能和交期如何？";
   fr["What capacity and lead time apply?"] = "Quelle capacité et quel délai s’appliquent ?";
@@ -11912,7 +11912,7 @@
   fr["A website does not fix demand by itself, but it helps you reach new buyers and markets directly. We are honest about what it can and cannot do."] = "Un site ne règle pas la demande à lui seul, mais il vous aide à atteindre directement de nouveaux acheteurs et marchés. Nous sommes clairs sur ce qu’il peut faire et ne pas faire.";
   zh["We make textiles and fibre. What should the site show?"] = "我们做纺织和纤维，网站应展示什么？";
   fr["We make textiles and fibre. What should the site show?"] = "Nous fabriquons du textile et des fibres. Que doit montrer le site ?";
-  zh["Composition, deniers, weights, finishes, test standards, MOQs and real photos."] = "成分、旦数、克重、后整理、检测标准、最小起订量和真实照片。";
+  zh["Composition, deniers, weights, finishes, test standards, MOQs and real photos."] = "成分、旦数、克重、后整理、检测标准、起订量和真实照片。";
   fr["Composition, deniers, weights, finishes, test standards, MOQs and real photos."] = "Composition, deniers, grammages, finitions, normes d’essai, quantités minimales et vraies photos.";
   zh["We are a steel or metal maker. Can you help?"] = "我们是钢铁或金属企业，你们能帮忙吗？";
   fr["We are a steel or metal maker. Can you help?"] = "Nous sommes un producteur d’acier ou de métal. Pouvez-vous nous aider ?";
@@ -11952,7 +11952,7 @@
   fr["China · Liaoning"] = "Chine · Liaoning";
   zh["Export websites and Google SEO for Shenyang manufacturers"] = "为沈阳制造企业打造外贸网站与谷歌SEO";
   fr["Export websites and Google SEO for Shenyang manufacturers"] = "Sites web export et référencement Google pour les fabricants de Shenyang";
-  zh["Shenyang is the capital of Liaoning and one of China’s oldest equipment-making cities: machine tools and general equipment, vehicles, electrical machinery, aerospace and transport equipment, and robots. Its exports grew in 2025 while overall industry fell. Hurfi helps Shenyang manufacturers find buyers abroad with websites that explain their engineering clearly."] = "沈阳是辽宁省省会，也是中国最老的装备制造城市之一：机床与通用设备、汽车、电机电气、航空航天与运输设备，以及机器人。2025年当地出口增长，而整体工业下降。Hurfi 帮助沈阳制造企业用能清楚讲明工程能力的网站找到海外买家。";
+  zh["Shenyang is the capital of Liaoning and one of China’s oldest equipment-making cities: machine tools and general equipment, vehicles, electrical machinery, aerospace and transport equipment, and robots. Its exports grew in 2025 while overall industry fell. Hurfi helps Shenyang manufacturers find buyers abroad with websites that explain their engineering clearly."] = "沈阳是辽宁省省会，也是中国资深的装备制造城市之一：机床与通用设备、汽车、电机电气、航空航天与运输设备，以及机器人。2025年当地出口增长，而整体工业下降。Hurfi 帮助沈阳制造企业用能清楚讲明工程能力的网站找到海外买家。";
   fr["Shenyang is the capital of Liaoning and one of China’s oldest equipment-making cities: machine tools and general equipment, vehicles, electrical machinery, aerospace and transport equipment, and robots. Its exports grew in 2025 while overall industry fell. Hurfi helps Shenyang manufacturers find buyers abroad with websites that explain their engineering clearly."] = "Shenyang, capitale du Liaoning, est l’une des plus anciennes villes de construction mécanique de Chine : machines-outils et équipements généraux, véhicules, matériel électrique, aéronautique et matériel de transport, et robots. Ses exportations ont progressé en 2025 alors que l’industrie reculait. Hurfi aide les fabricants de Shenyang à trouver des acheteurs étrangers avec des sites qui expliquent clairement leur ingénierie.";
   zh["Hurfi does not have an office or staff in Shenyang. We work with Shenyang manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi 在沈阳没有办公室或员工。我们通过微信、邮件和视频会议远程服务沈阳制造企业，团队位于西安（陕西）和博古拉（孟加拉国）。";
   fr["Hurfi does not have an office or staff in Shenyang. We work with Shenyang manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi n’a pas de bureau ni de personnel à Shenyang. Nous travaillons avec les fabricants de Shenyang à distance — WeChat, e-mail et visioconférence — depuis nos bureaux de Xi’an (Shaanxi) et de Bogura (Bangladesh).";
@@ -11996,7 +11996,7 @@
   fr["Shenyang’s airport had 222 routes at the end of 2025, 21 of them international, and handled 24.938 million passengers."] = "Fin 2025, l’aéroport de Shenyang comptait 222 lignes, dont 21 internationales, et a accueilli 24,938 millions de passagers.";
   zh["General-trade exports rose 25.5% to 51.12 billion yuan, while processing-trade exports fell 39.5% to 8.88 billion yuan."] = "一般贸易出口增长25.5%至511.2亿元，加工贸易出口下降39.5%至88.8亿元。";
   fr["General-trade exports rose 25.5% to 51.12 billion yuan, while processing-trade exports fell 39.5% to 8.88 billion yuan."] = "Les exportations en commerce général ont progressé de 25,5 % à 51,12 milliards de yuans, tandis que les exportations en commerce de transformation reculaient de 39,5 % à 8,88 milliards.";
-  zh["Shenyang’s export growth came from general trade — firms selling their own products directly. That is exactly the kind of exporter that needs its own strong website."] = "沈阳的出口增长来自一般贸易——企业直接销售自己的产品。这正是最需要自己强大网站的一类出口企业。";
+  zh["Shenyang’s export growth came from general trade — firms selling their own products directly. That is exactly the kind of exporter that needs its own strong website."] = "沈阳的出口增长来自一般贸易——企业直接销售自己的产品。这正是尤其需要自己强大网站的一类出口企业。";
   fr["Shenyang’s export growth came from general trade — firms selling their own products directly. That is exactly the kind of exporter that needs its own strong website."] = "La croissance des exportations de Shenyang est venue du commerce général — des entreprises qui vendent directement leurs propres produits. C’est exactement le type d’exportateur qui a besoin d’un site solide.";
   zh["Challenges Shenyang manufacturers face online"] = "沈阳制造企业在线上常遇到的挑战";
   fr["Challenges Shenyang manufacturers face online"] = "Les défis en ligne des fabricants de Shenyang";
@@ -12008,7 +12008,7 @@
   fr["Long-established equipment makers often have outdated sites that undersell them."] = "Les constructeurs de machines établis de longue date ont souvent des sites dépassés qui les sous-vendent.";
   zh["No after-sales information."] = "没有售后信息。";
   fr["No after-sales information."] = "Aucune information après-vente.";
-  zh["Buyers abroad worry most about service."] = "海外买家最担心服务。";
+  zh["Buyers abroad worry most about service."] = "海外买家尤其担心服务。";
   fr["Buyers abroad worry most about service."] = "Les acheteurs étrangers s’inquiètent surtout du service.";
   zh["Machines without video."] = "设备没有视频。";
   fr["Machines without video."] = "Des machines sans vidéo.";
@@ -12050,7 +12050,7 @@
   fr["Add short videos of machines in operation, with captions that say what the machine is doing."] = "Ajoutez de courtes vidéos de machines en fonctionnement, avec des légendes qui expliquent ce que fait la machine.";
   zh["Write application pages by industry served, explaining which machine and options fit each job."] = "按所服务的行业编写应用页面，说明哪种机型和选项适合哪类加工。";
   fr["Write application pages by industry served, explaining which machine and options fit each job."] = "Rédigez des pages d’application par secteur servi, en expliquant quelle machine et quelles options conviennent à chaque travail.";
-  zh["Google’s guidance on video best practices"] = "Google 关于视频最佳做法的指南";
+  zh["Google’s guidance on video best practices"] = "Google 关于视频推荐做法的指南";
   fr["Google’s guidance on video best practices"] = "Les recommandations de Google sur les bonnes pratiques vidéo";
   zh["so machine videos can be found in search."] = "让设备视频能被搜索到。";
   fr["so machine videos can be found in search."] = "pour que les vidéos de machines soient trouvées dans la recherche.";
@@ -12080,7 +12080,7 @@
   fr["No. Hurfi does not have an office or staff in Shenyang. We work with Shenyang manufacturers remotely by WeChat, email and video, from our offices in Xi’an and Bogura."] = "Non. Hurfi n’a ni bureau ni personnel à Shenyang. Nous travaillons à distance par WeChat, e-mail et visioconférence, depuis nos bureaux de Xi’an et de Bogura.";
   zh["Our domestic orders fell. Can export marketing help?"] = "我们的国内订单下降了，外贸营销有帮助吗？";
   fr["Our domestic orders fell. Can export marketing help?"] = "Nos commandes intérieures ont reculé. Le marketing export peut-il aider ?";
-  zh["It can help new buyers abroad find and trust you. We start with the machines and markets most likely to respond."] = "它能帮助海外新买家找到并信任你们。我们从最可能有反应的机型和市场开始。";
+  zh["It can help new buyers abroad find and trust you. We start with the machines and markets most likely to respond."] = "它能帮助海外新买家找到并信任你们。我们从更可能有反应的机型和市场开始。";
   fr["It can help new buyers abroad find and trust you. We start with the machines and markets most likely to respond."] = "Il peut aider de nouveaux acheteurs étrangers à vous trouver et à vous faire confiance. Nous commençons par les machines et les marchés les plus susceptibles de répondre.";
   zh["We are an established equipment maker. Why do we need a new website?"] = "我们是老牌装备制造企业，为什么需要新网站？";
   fr["We are an established equipment maker. Why do we need a new website?"] = "Nous sommes un constructeur établi. Pourquoi un nouveau site ?";
@@ -12092,7 +12092,7 @@
   fr["Honestly: what you support remotely, what partners do locally, and how spare parts reach the customer."] = "Honnêtement : ce que vous assurez à distance, ce que font les partenaires locaux et comment les pièces arrivent au client.";
   zh["Can videos help sell machines?"] = "视频能帮助卖设备吗？";
   fr["Can videos help sell machines?"] = "Les vidéos peuvent-elles aider à vendre des machines ?";
-  zh["Yes. Real videos of machines working are among the strongest proof for equipment buyers."] = "能。设备运行的真实视频是设备买家最看重的证据之一。";
+  zh["Yes. Real videos of machines working are among the strongest proof for equipment buyers."] = "能。设备运行的真实视频是设备买家尤其看重的证据之一。";
   fr["Yes. Real videos of machines working are among the strongest proof for equipment buyers."] = "Oui. De vraies vidéos de machines en fonctionnement sont parmi les preuves les plus fortes pour les acheteurs d’équipements.";
   zh["Can you write technical content in English?"] = "你们能写英文技术内容吗？";
   fr["Can you write technical content in English?"] = "Pouvez-vous rédiger du contenu technique en anglais ?";
@@ -12108,7 +12108,7 @@
   fr["Liaoning province guide"] = "Guide de la province du Liaoning";
   zh["Shenyang in the China directory"] = "中国目录中的沈阳";
   fr["Shenyang in the China directory"] = "Shenyang dans l’annuaire Chine";
-  zh["Video SEO best practices"] = "视频SEO最佳做法";
+  zh["Video SEO best practices"] = "视频SEO推荐做法";
   fr["Video SEO best practices"] = "Bonnes pratiques de SEO vidéo";
   zh["Talk to us about Shenyang"] = "与我们聊聊沈阳";
   fr["Talk to us about Shenyang"] = "Parlons de Shenyang";
@@ -12178,7 +12178,7 @@
   fr["Google lists PDF among the file types it can index, but key capability data should also be on HTML pages where buyers and search engines read it directly."] = "Google cite le PDF parmi les types de fichiers indexables, mais les données clés de capacité doivent aussi figurer sur des pages HTML, là où les acheteurs et les moteurs de recherche les lisent directement.";
   zh["Google’s product structured data documentation explains how to describe products for search, useful for standard components."] = "Google 的产品结构化数据文档说明了如何为搜索描述产品，对标准件很有用。";
   fr["Google’s product structured data documentation explains how to describe products for search, useful for standard components."] = "La documentation de Google sur les données structurées de produit explique comment décrire des produits pour la recherche, ce qui est utile pour les composants standard.";
-  zh["State tolerances you achieve routinely, not best-ever results, and list inspection equipment and certifications with scope."] = "写明你们常规能达到的公差，而不是历史最好成绩，并列出检测设备和带范围的认证。";
+  zh["State tolerances you achieve routinely, not best-ever results, and list inspection equipment and certifications with scope."] = "写明你们常规能达到的公差，而不是历史宜成绩，并列出检测设备和带范围的认证。";
   fr["State tolerances you achieve routinely, not best-ever results, and list inspection equipment and certifications with scope."] = "Indiquez les tolérances que vous atteignez couramment, pas vos meilleurs résultats, et listez vos équipements de contrôle et certifications avec leur périmètre.";
   zh["Questions overseas buyers ask precision manufacturing suppliers"] = "海外买家会问精密制造供应商的问题";
   fr["Questions overseas buyers ask precision manufacturing suppliers"] = "Les questions des acheteurs étrangers aux fournisseurs de fabrication de précision";
@@ -12316,7 +12316,7 @@
   fr["For specific processes and markets, often yes. Generic terms tend to waste budget."] = "Pour des procédés et marchés précis, souvent oui. Les termes génériques gaspillent le budget.";
   zh["Should we publish prices?"] = "应该公布价格吗？";
   fr["Should we publish prices?"] = "Devons-nous publier des prix ?";
-  zh["Usually not; parts are quoted. Publish lead times and MOQs."] = "通常不必；零件按单报价。公布交期和最小起订量。";
+  zh["Usually not; parts are quoted. Publish lead times and MOQs."] = "通常不必；零件按单报价。公布交期和起订量。";
   fr["Usually not; parts are quoted. Publish lead times and MOQs."] = "En général non ; les pièces sont chiffrées. Publiez les délais et les quantités minimales.";
   zh["Will you guarantee RFQs?"] = "你们能保证询盘量吗？";
   fr["Will you guarantee RFQs?"] = "Garantissez-vous des demandes de devis ?";
@@ -12346,7 +12346,7 @@
   fr["Brands, converters and industrial buyers abroad choose fabric suppliers on swatches, test reports and reliability. Hurfi helps Chinese mills, nonwoven makers and technical-textile producers put construction data, test results and compliance information online, so buyers can shortlist them before the first sample request."] = "Les marques, transformateurs et acheteurs industriels étrangers choisissent leurs fournisseurs de tissus sur les nuanciers, les rapports d’essai et la fiabilité. Hurfi aide les tissages, les producteurs de non-tissés et de textiles techniques chinois à publier en ligne les données de construction, les résultats d’essai et les informations de conformité, afin que les acheteurs puissent les présélectionner avant même la première demande d’échantillon.";
   zh["Textiles in 2025: China’s output and exports"] = "2025年纺织业：中国的产量与出口";
   fr["Textiles in 2025: China’s output and exports"] = "Le textile en 2025 : production et exportations de la Chine";
-  zh["China remains the largest producer of yarn, cloth and chemical fibre. The national and city figures below are from official statistical bulletins."] = "中国仍是纱、布和化学纤维的最大生产国。以下全国和城市数据来自官方统计公报。";
+  zh["China remains the largest producer of yarn, cloth and chemical fibre. The national and city figures below are from official statistical bulletins."] = "中国仍是纱、布和化学纤维的主要生产国。以下全国和城市数据来自官方统计公报。";
   fr["China remains the largest producer of yarn, cloth and chemical fibre. The national and city figures below are from official statistical bulletins."] = "La Chine reste le premier producteur mondial de fils, de tissus et de fibres chimiques. Les chiffres nationaux et municipaux ci-dessous proviennent de bulletins statistiques officiels.";
   zh["China produced 22.158 million tonnes of yarn (−0.1%), 30.67 billion metres of cloth (+0.2%) and 87.011 million tonnes of chemical fibre (+4.9%) in 2025."] = "2025年中国生产纱2215.8万吨（−0.1%）、布306.7亿米（+0.2%）和化学纤维8701.1万吨（+4.9%）。";
   fr["China produced 22.158 million tonnes of yarn (−0.1%), 30.67 billion metres of cloth (+0.2%) and 87.011 million tonnes of chemical fibre (+4.9%) in 2025."] = "En 2025, la Chine a produit 22,158 millions de tonnes de fils (−0,1 %), 30,67 milliards de mètres de tissus (+0,2 %) et 87,011 millions de tonnes de fibres chimiques (+4,9 %).";
@@ -12356,7 +12356,7 @@
   fr["Shaoxing made 26.349 billion metres of printed and dyed cloth and 3.767 million tonnes of chemical fibre."] = "Shaoxing a produit 26,349 milliards de mètres de tissus imprimés et teints et 3,767 millions de tonnes de fibres chimiques.";
   zh["Nantong made 6.501 million tonnes of chemical fibre, and Fuzhou 3.5754 million tonnes."] = "南通生产化学纤维650.1万吨，福州357.54万吨。";
   fr["Nantong made 6.501 million tonnes of chemical fibre, and Fuzhou 3.5754 million tonnes."] = "Nantong a produit 6,501 millions de tonnes de fibres chimiques et Fuzhou 3,5754 millions de tonnes.";
-  zh["In Quanzhou, textiles value added grew 19.3%, among the fastest-growing sectors in the city."] = "泉州纺织业增加值增长19.3%，是全市增长最快的行业之一。";
+  zh["In Quanzhou, textiles value added grew 19.3%, among the fastest-growing sectors in the city."] = "泉州纺织业增加值增长19.3%，是全市增长较快的行业之一。";
   fr["In Quanzhou, textiles value added grew 19.3%, among the fastest-growing sectors in the city."] = "À Quanzhou, la valeur ajoutée du textile a progressé de 19,3 %, l’un des secteurs les plus dynamiques de la ville.";
   zh["Fujian province made 2.084 billion metres of cloth (+5.7%) and 7.8863 million tonnes of chemical fibre (−4.0%)."] = "福建省生产布20.84亿米（+5.7%）和化学纤维788.63万吨（−4.0%）。";
   fr["Fujian province made 2.084 billion metres of cloth (+5.7%) and 7.8863 million tonnes of chemical fibre (−4.0%)."] = "La province du Fujian a produit 2,084 milliards de mètres de tissus (+5,7 %) et 7,8863 millions de tonnes de fibres chimiques (−4,0 %).";
@@ -12370,7 +12370,7 @@
   fr["Textile buyers compare suppliers within narrow product groups, and they search in the same terms:"] = "Les acheteurs de textile comparent les fournisseurs dans des groupes de produits très précis, et ils cherchent avec les mêmes termes :";
   zh["Woven and knitted fabrics"] = "机织与针织面料";
   fr["Woven and knitted fabrics"] = "Tissus chaîne et trame et tissus maillés";
-  zh["Composition, weight in gsm, construction, width, colour fastness and MOQ per colour."] = "成分、克重（gsm）、组织、幅宽、色牢度和每色最小起订量。";
+  zh["Composition, weight in gsm, construction, width, colour fastness and MOQ per colour."] = "成分、克重（gsm）、组织、幅宽、色牢度和每色起订量。";
   fr["Composition, weight in gsm, construction, width, colour fastness and MOQ per colour."] = "Composition, grammage en g/m², construction, laize, solidité des couleurs et quantité minimale par coloris.";
   zh["Technical and industrial textiles"] = "产业用与工业用纺织品";
   fr["Technical and industrial textiles"] = "Textiles techniques et industriels";
@@ -12390,7 +12390,7 @@
   fr["Textile machinery and finishing"] = "Machines textiles et finissage";
   zh["Dyeing, printing, finishing and embroidery machines, compared on throughput, energy and water use and service."] = "染色、印花、后整理和刺绣设备，按产能、能耗水耗和服务进行比较。";
   fr["Dyeing, printing, finishing and embroidery machines, compared on throughput, energy and water use and service."] = "Machines de teinture, d’impression, de finissage et de broderie, comparées sur le débit, la consommation d’énergie et d’eau et le service.";
-  zh["Textile compliance is product- and market-specific. These are the references that come up most often with buyers in Europe and North America."] = "纺织合规因产品和市场而异。以下是与欧美买家最常提到的参考文件。";
+  zh["Textile compliance is product- and market-specific. These are the references that come up most often with buyers in Europe and North America."] = "纺织合规因产品和市场而异。以下是与欧美买家常提到的参考文件。";
   fr["Textile compliance is product- and market-specific. These are the references that come up most often with buyers in Europe and North America."] = "La conformité textile dépend du produit et du marché. Voici les références qui reviennent le plus souvent avec les acheteurs en Europe et en Amérique du Nord.";
   zh["OEKO-TEX® STANDARD 100 certifies textiles tested for harmful substances; every thread, button and accessory is tested against a list of over 1,000 substances, with four product classes from baby articles to decoration materials."] = "OEKO-TEX® STANDARD 100 认证对纺织品进行有害物质检测；每一根线、每颗纽扣和每个附件都要对照1000多种物质的清单检测，分为从婴儿用品到装饰材料的四个产品级别。";
   fr["OEKO-TEX® STANDARD 100 certifies textiles tested for harmful substances; every thread, button and accessory is tested against a list of over 1,000 substances, with four product classes from baby articles to decoration materials."] = "L’OEKO-TEX® STANDARD 100 certifie des textiles testés contre les substances nocives ; chaque fil, bouton et accessoire est testé par rapport à une liste de plus de 1 000 substances, avec quatre classes de produits, des articles pour bébés aux matériaux de décoration.";
@@ -12414,9 +12414,9 @@
   fr["Which tests has this fabric passed?"] = "Quels essais ce tissu a-t-il passés ?";
   zh["List test standards and results per article, such as colour fastness, pilling, flame resistance or filtration efficiency."] = "按货号列出检测标准和结果，如色牢度、起球、阻燃或过滤效率。";
   fr["List test standards and results per article, such as colour fastness, pilling, flame resistance or filtration efficiency."] = "Listez les normes d’essai et les résultats par article : solidité des couleurs, boulochage, résistance aux flammes ou efficacité de filtration.";
-  zh["What is your MOQ and how fast can you sample?"] = "你们的最小起订量是多少，打样多快？";
+  zh["What is your MOQ and how fast can you sample?"] = "你们的起订量是多少，打样多快？";
   fr["What is your MOQ and how fast can you sample?"] = "Quelle est votre quantité minimale et en combien de temps pouvez-vous échantillonner ?";
-  zh["Minimum order per colour and per article, sample lead time and cost."] = "每色和每货号的最小订量、打样交期和费用。";
+  zh["Minimum order per colour and per article, sample lead time and cost."] = "每色和每货号的起订量、打样交期和费用。";
   fr["Minimum order per colour and per article, sample lead time and cost."] = "Quantité minimale par coloris et par article, délai et coût des échantillons.";
   zh["Can you prove recycled or organic content?"] = "能证明再生或有机成分吗？";
   fr["Can you prove recycled or organic content?"] = "Pouvez-vous prouver un contenu recyclé ou biologique ?";
@@ -12436,7 +12436,7 @@
   fr["Fabric sites often show beautiful photos and little data. Buyers need both. This is the order we usually work in for a mill or technical-textile maker."] = "Les sites de tissus montrent souvent de belles photos et peu de données. Les acheteurs ont besoin des deux. Voici l’ordre dans lequel nous travaillons habituellement pour un tissage ou un fabricant de textiles techniques.";
   zh["Build article pages for your main fabrics with composition, weight, width, finish and test results in text, plus a downloadable spec sheet."] = "为主要面料建立货号页面，用文字写明成分、克重、幅宽、后整理和检测结果，并提供可下载的规格表。";
   fr["Build article pages for your main fabrics with composition, weight, width, finish and test results in text, plus a downloadable spec sheet."] = "Créez des pages d’article pour vos tissus principaux avec composition, grammage, laize, finition et résultats d’essai en texte, plus une fiche technique téléchargeable.";
-  zh["Group articles by end use (apparel, workwear, home, filtration, automotive, medical) so buyers who search by application find the right range."] = "按最终用途（服装、工装、家纺、过滤、汽车、医疗）归类货号，让按应用搜索的买家找到合适的系列。";
+  zh["Group articles by end use (apparel, workwear, home, filtration, automotive, medical) so buyers who search by application find the right range."] = "按终端用途（服装、工装、家纺、过滤、汽车、医疗）归类货号，让按应用搜索的买家找到合适的系列。";
   fr["Group articles by end use (apparel, workwear, home, filtration, automotive, medical) so buyers who search by application find the right range."] = "Regroupez les articles par usage final (habillement, vêtements de travail, maison, filtration, automobile, médical) pour que les acheteurs qui cherchent par application trouvent la bonne gamme.";
   zh["Publish a compliance page that lists certificates with scope, certificate numbers and validity, linked from each article."] = "发布合规页面，列出带范围、证书编号和有效期的证书，并从每个货号页面链接过去。";
   fr["Publish a compliance page that lists certificates with scope, certificate numbers and validity, linked from each article."] = "Publiez une page de conformité listant les certificats avec leur périmètre, leur numéro et leur validité, reliée depuis chaque page d’article.";
@@ -12444,9 +12444,9 @@
   fr["Show your lab and testing capability with the tests you run in house and the external labs you use."] = "Montrez votre laboratoire et vos capacités d’essai, en indiquant les essais réalisés en interne et les laboratoires externes utilisés.";
   zh["Write pages for specification searches, such as a named finish, a test standard or a fibre blend, rather than “fabric supplier China”."] = "为规格类搜索写页面，比如某项后整理、某项检测标准或某种纤维混纺，而不是“fabric supplier China”。";
   fr["Write pages for specification searches, such as a named finish, a test standard or a fibre blend, rather than “fabric supplier China”."] = "Rédigez des pages pour les recherches de spécifications, comme une finition nommée, une norme d’essai ou un mélange de fibres, plutôt que « fabric supplier China ».";
-  zh["Offer a sample request form that captures article, colour, quantity and end use, and say how quickly you reply."] = "提供样品申请表单，收集货号、颜色、数量和最终用途，并说明回复速度。";
+  zh["Offer a sample request form that captures article, colour, quantity and end use, and say how quickly you reply."] = "提供样品申请表单，收集货号、颜色、数量和终端用途，并说明回复速度。";
   fr["Offer a sample request form that captures article, colour, quantity and end use, and say how quickly you reply."] = "Proposez un formulaire de demande d’échantillon qui recueille article, coloris, quantité et usage final, et indiquez votre délai de réponse.";
-  zh["Measure which articles and end-use pages produce sample requests, and expand those ranges online first."] = "统计哪些货号和最终用途页面带来样品申请，并优先在线上扩展这些系列。";
+  zh["Measure which articles and end-use pages produce sample requests, and expand those ranges online first."] = "统计哪些货号和终端用途页面带来样品申请，并优先在线上扩展这些系列。";
   fr["Measure which articles and end-use pages produce sample requests, and expand those ranges online first."] = "Mesurez quels articles et pages d’usage final génèrent des demandes d’échantillon, et développez d’abord ces gammes en ligne.";
   zh["Where in China textiles and technical fabrics is made"] = "中国的纺织与产业用纺织品在哪里生产";
   fr["Where in China textiles and technical fabrics is made"] = "Où se fabriquent les textiles et textiles techniques en Chine";
@@ -12464,7 +12464,7 @@
   fr["How Hurfi helps textiles and technical fabrics manufacturers"] = "Comment Hurfi aide les fabricants de textiles et de textiles techniques";
   zh["Article-based fabric sites with specification tables, compliance pages and sample-request forms."] = "以货号为基础的面料网站，配规格表、合规页面和样品申请表单。";
   fr["Article-based fabric sites with specification tables, compliance pages and sample-request forms."] = "Des sites de tissus organisés par article, avec tableaux de spécifications, pages de conformité et formulaires de demande d’échantillon.";
-  zh["SEO for fibre, finish, test-standard and end-use searches in your buyers’ languages."] = "针对买家语言中的纤维、后整理、检测标准和最终用途搜索做SEO。";
+  zh["SEO for fibre, finish, test-standard and end-use searches in your buyers’ languages."] = "针对买家语言中的纤维、后整理、检测标准和终端用途搜索做SEO。";
   fr["SEO for fibre, finish, test-standard and end-use searches in your buyers’ languages."] = "Du SEO pour les recherches de fibres, finitions, normes d’essai et usages finaux, dans les langues de vos acheteurs.";
   zh["Campaigns timed around buying seasons and trade fairs, aimed at sourcing teams and converters."] = "围绕采购季和展会安排投放，面向采购团队和加工商。";
   fr["Campaigns timed around buying seasons and trade fairs, aimed at sourcing teams and converters."] = "Des campagnes calées sur les saisons d’achat et les salons, destinées aux équipes d’achat et aux transformateurs.";
@@ -12526,7 +12526,7 @@
   fr["Questions from textiles and technical fabrics manufacturers"] = "Les questions des fabricants de textiles et de textiles techniques";
   zh["How do we stand out when our city has hundreds of mills?"] = "同城有数百家织造厂，我们如何脱颖而出？";
   fr["How do we stand out when our city has hundreds of mills?"] = "Comment nous démarquer quand notre ville compte des centaines de tissages ?";
-  zh["By publishing what is specific to you: your strongest articles, test results, finishes, sampling speed and certificates. Generic “high quality fabric” pages do not separate you from neighbours."] = "公布你们独有的内容：最强的货号、检测结果、后整理、打样速度和证书。泛泛的“高品质面料”页面无法把你和邻居区分开。";
+  zh["By publishing what is specific to you: your strongest articles, test results, finishes, sampling speed and certificates. Generic “high quality fabric” pages do not separate you from neighbours."] = "公布你们独有的内容：突出的货号、检测结果、后整理、打样速度和证书。泛泛的“高品质面料”页面无法把你和邻居区分开。";
   fr["By publishing what is specific to you: your strongest articles, test results, finishes, sampling speed and certificates. Generic “high quality fabric” pages do not separate you from neighbours."] = "En publiant ce qui vous est propre : vos meilleurs articles, vos résultats d’essai, vos finitions, votre rapidité d’échantillonnage et vos certificats. Les pages génériques « tissu de haute qualité » ne vous distinguent pas de vos voisins.";
   zh["Should every fabric article have its own page?"] = "每个面料货号都需要独立页面吗？";
   fr["Should every fabric article have its own page?"] = "Chaque article de tissu doit-il avoir sa propre page ?";
@@ -12552,9 +12552,9 @@
   fr["Is Hurfi located in Shaoxing?"] = "Hurfi est-il situé à Shaoxing ?";
   zh["No. Hurfi works from Xi’an and Bogura and supports mills anywhere in China remotely."] = "不是。Hurfi 在西安和博格拉办公，远程服务中国各地的工厂。";
   fr["No. Hurfi works from Xi’an and Bogura and supports mills anywhere in China remotely."] = "Non. Hurfi travaille depuis Xi’an et Bogura et accompagne à distance des usines partout en Chine.";
-  zh["What is the first step?"] = "第一步做什么？";
+  zh["What is the first step?"] = "首先做什么？";
   fr["What is the first step?"] = "Quelle est la première étape ?";
-  zh["A free consultation where we review your current site, best articles and target buyers, and suggest what to fix first."] = "一次免费咨询，我们查看你们现有的网站、最好的货号和目标买家，并建议先改什么。";
+  zh["A free consultation where we review your current site, best articles and target buyers, and suggest what to fix first."] = "一次免费咨询，我们查看你们现有的网站、出色的货号和目标买家，并建议先改什么。";
   fr["A free consultation where we review your current site, best articles and target buyers, and suggest what to fix first."] = "Une consultation gratuite où nous examinons votre site actuel, vos meilleurs articles et vos acheteurs cibles, et proposons ce qu’il faut corriger en premier.";
   zh["Quanzhou Statistics Bureau."] = "泉州市统计局。";
   fr["Quanzhou Statistics Bureau."] = "Bureau statistique de Quanzhou.";
@@ -12590,7 +12590,7 @@
   fr["Furniture exports were US$67.81 billion, down 5.9%, which the CNFA links to trade frictions and US tariffs."] = "Les exportations de meubles ont atteint 67,81 milliards de dollars, en baisse de 5,9 %, ce que la CNFA relie aux frictions commerciales et aux tarifs américains.";
   zh["National statistics put exports of furniture and parts at 455.9 billion yuan, down 5.6%."] = "国家统计数据显示，家具及其零件出口 4,559 亿元，下降 5.6%。";
   fr["National statistics put exports of furniture and parts at 455.9 billion yuan, down 5.6%."] = "Les statistiques nationales chiffrent les exportations de meubles et de pièces à 455,9 milliards de yuans, en baisse de 5,6 %.";
-  zh["By province, Zhejiang made the most furniture, followed by Guangdong, Fujian, Jiangsu, Hebei, Shandong and Jiangxi."] = "分省份看，浙江家具产量最高，其次是广东、福建、江苏、河北、山东和江西。";
+  zh["By province, Zhejiang made the most furniture, followed by Guangdong, Fujian, Jiangsu, Hebei, Shandong and Jiangxi."] = "分省份看，浙江家具产量居首，其次是广东、福建、江苏、河北、山东和江西。";
   fr["By province, Zhejiang made the most furniture, followed by Guangdong, Fujian, Jiangsu, Hebei, Shandong and Jiangxi."] = "Par province, le Zhejiang a produit le plus de meubles, suivi du Guangdong, du Fujian, du Jiangsu, du Hebei, du Shandong et du Jiangxi.";
   zh["In Foshan, furniture value added fell 6.7%, while furniture exports were 18.93 billion yuan, up 1.1%."] = "佛山家具增加值下降 6.7%，家具出口 189.3 亿元，增长 1.1%。";
   fr["In Foshan, furniture value added fell 6.7%, while furniture exports were 18.93 billion yuan, up 1.1%."] = "À Foshan, la valeur ajoutée du meuble a reculé de 6,7 %, tandis que les exportations de meubles atteignaient 18,93 milliards de yuans, en hausse de 1,1 %.";
@@ -12656,7 +12656,7 @@
   fr["How is it packed and how many fit a container?"] = "Comment est-ce emballé et combien d’unités tiennent dans un conteneur ?";
   zh["Packing method, carton dimensions and container loading per product."] = "包装方式、纸箱尺寸以及每种产品的装柜量。";
   fr["Packing method, carton dimensions and container loading per product."] = "La méthode d’emballage, les dimensions des cartons et le chargement par conteneur pour chaque produit.";
-  zh["What is the MOQ and lead time?"] = "最小起订量和交期是多少？";
+  zh["What is the MOQ and lead time?"] = "起订量和交期是多少？";
   fr["What is the MOQ and lead time?"] = "Quel est le MOQ et quel est le délai ?";
   zh["Per product or collection, including sampling time."] = "按产品或系列说明，包括打样时间。";
   fr["Per product or collection, including sampling time."] = "Par produit ou collection, y compris le délai d’échantillonnage.";
@@ -12758,7 +12758,7 @@
   fr["Questions from furniture and interiors manufacturers"] = "Questions des fabricants de meubles et d’intérieurs";
   zh["Should we show prices on the website?"] = "网站上应该展示价格吗？";
   fr["Should we show prices on the website?"] = "Faut-il afficher les prix sur le site ?";
-  zh["Most furniture exporters show MOQs and price bands or invite quotes. What matters is that buyers can tell quickly whether you fit their range and volume."] = "大多数家具出口商会展示最小起订量和价格区间，或引导客户询价。关键是要让买家能快速判断你是否符合他们的产品线和采购量。";
+  zh["Most furniture exporters show MOQs and price bands or invite quotes. What matters is that buyers can tell quickly whether you fit their range and volume."] = "大多数家具出口商会展示起订量和价格区间，或引导客户询价。关键是要让买家能快速判断你是否符合他们的产品线和采购量。";
   fr["Most furniture exporters show MOQs and price bands or invite quotes. What matters is that buyers can tell quickly whether you fit their range and volume."] = "La plupart des exportateurs de meubles affichent les MOQ et des fourchettes de prix, ou invitent à demander un devis. L’essentiel est que l’acheteur puisse voir rapidement si vous correspondez à sa gamme et à ses volumes.";
   zh["How do we prepare for the EU Deforestation Regulation online?"] = "如何在线上为欧盟零毁林法规做准备？";
   fr["How do we prepare for the EU Deforestation Regulation online?"] = "Comment se préparer en ligne au règlement européen sur la déforestation ?";
@@ -12790,7 +12790,7 @@
   fr["No. Hurfi’s offices are in Xi’an and Bogura. We work with furniture makers in Guangdong, Zhejiang and elsewhere remotely."] = "Non. Les bureaux de Hurfi se trouvent à Xi’an et à Bogura. Nous travaillons à distance avec des fabricants de meubles au Guangdong, au Zhejiang et ailleurs.";
   zh["How do we get started?"] = "如何开始合作？";
   fr["How do we get started?"] = "Comment commencer ?";
-  zh["Book a free consultation; we will review your current site and collections and suggest the first steps."] = "预约一次免费咨询；我们会评估你现有的网站和产品系列，并建议第一步该做什么。";
+  zh["Book a free consultation; we will review your current site and collections and suggest the first steps."] = "预约一次免费咨询；我们会评估你现有的网站和产品系列，并建议首先该做什么。";
   fr["Book a free consultation; we will review your current site and collections and suggest the first steps."] = "Réservez une consultation gratuite ; nous examinerons votre site et vos collections actuels et proposerons les premières étapes.";
   zh["China National Furniture Association (CNFA)."] = "中国家具协会（CNFA）。";
   fr["China National Furniture Association (CNFA)."] = "Association chinoise du meuble (CNFA).";
@@ -12850,7 +12850,7 @@
   fr["Aftermarket parts"] = "Pièces de rechange";
   zh["OE cross-references, fitment, packaging and distributor terms, including commercial-vehicle and trailer parts."] = "原厂件号对照、适配信息、包装和经销商条款，包括商用车和挂车部件。";
   fr["OE cross-references, fitment, packaging and distributor terms, including commercial-vehicle and trailer parts."] = "Correspondances OE, compatibilité, emballage et conditions distributeurs, y compris pièces de véhicules utilitaires et de remorques.";
-  zh["These references come up most with OEM, Tier 1 and European aftermarket buyers:"] = "以下法规与标准在整车厂、一级供应商和欧洲售后买家那里最常被提及：";
+  zh["These references come up most with OEM, Tier 1 and European aftermarket buyers:"] = "以下法规与标准在整车厂、一级供应商和欧洲售后买家那里常被提及：";
   fr["These references come up most with OEM, Tier 1 and European aftermarket buyers:"] = "Ces références reviennent le plus souvent chez les constructeurs, les fournisseurs de rang 1 et les acheteurs aftermarket européens :";
   zh["ISO/TS 16949 was created in 1999 by the International Automotive Task Force to harmonise assessment and certification systems across the automotive supply chain; IATF 16949:2016 replaced it and stays aligned with ISO 9001."] = "ISO/TS 16949 由国际汽车工作组（IATF）于 1999 年制定，用于统一汽车供应链的评估和认证体系；IATF 16949:2016 取代了它，并与 ISO 9001 保持一致。";
   fr["ISO/TS 16949 was created in 1999 by the International Automotive Task Force to harmonise assessment and certification systems across the automotive supply chain; IATF 16949:2016 replaced it and stays aligned with ISO 9001."] = "L’ISO/TS 16949 a été créée en 1999 par l’International Automotive Task Force (IATF) afin d’harmoniser les systèmes d’évaluation et de certification de la chaîne d’approvisionnement automobile ; l’IATF 16949:2016 l’a remplacée et reste alignée sur l’ISO 9001.";
@@ -13034,7 +13034,7 @@
   fr["2025年广州市国民经济和社会发展统计公报 (Guangzhou 2025 Statistical Bulletin)"] = "2025年广州市国民经济和社会发展统计公报 (bulletin statistique 2025 de Guangzhou)";
   zh["Talk to us about your automotive components products"] = "与我们聊聊你的汽车零部件产品";
   fr["Talk to us about your automotive components products"] = "Parlez-nous de vos produits de composants automobiles";
-  zh["Infographic of four figures for Automotive & Mobility Components: 34.53m vehicles made in China, 2025 (CAAM); 7.10m vehicles exported, +21.1%; 47.9% new-energy share of new-vehicle sales; 3.69m vehicles made in Anhui, first in China."] = "汽车与出行零部件四大数据图：2025 年中国汽车产量 3,453 万辆（CAAM）；汽车出口 710 万辆，+21.1%；新能源汽车占新车销量 47.9%；安徽汽车产量 369 万辆，居全国第一。";
+  zh["Infographic of four figures for Automotive & Mobility Components: 34.53m vehicles made in China, 2025 (CAAM); 7.10m vehicles exported, +21.1%; 47.9% new-energy share of new-vehicle sales; 3.69m vehicles made in Anhui, first in China."] = "汽车与出行零部件四大数据图：2025 年中国汽车产量 3,453 万辆（CAAM）；汽车出口 710 万辆，+21.1%；新能源汽车占新车销量 47.9%；安徽汽车产量 369 万辆，居全国首位。";
   fr["Infographic of four figures for Automotive & Mobility Components: 34.53m vehicles made in China, 2025 (CAAM); 7.10m vehicles exported, +21.1%; 47.9% new-energy share of new-vehicle sales; 3.69m vehicles made in Anhui, first in China."] = "Infographie de quatre chiffres pour les composants automobiles et la mobilité : 34,53 millions de véhicules produits en Chine en 2025 (CAAM) ; 7,10 millions de véhicules exportés, +21,1 % ; 47,9 % de part de véhicules à nouvelles énergies dans les ventes de véhicules neufs ; 3,69 millions de véhicules produits dans l’Anhui, premier de Chine.";
   zh["Export Websites & SEO for Foshan Manufacturers | Hurfi"] = "佛山制造商外贸网站建设与SEO | Hurfi";
   fr["Export Websites & SEO for Foshan Manufacturers | Hurfi"] = "Sites export et SEO pour les fabricants de Foshan | Hurfi";
@@ -13186,7 +13186,7 @@
   fr["Keep the PDF for download, but buyers and Google need the products as web pages with text specifications they can search."] = "Gardez le PDF en téléchargement, mais les acheteurs et Google ont besoin des produits sous forme de pages web avec des spécifications textuelles interrogeables.";
   zh["Can you show our showroom and factory on the site?"] = "可以在网站上展示我们的展厅和工厂吗？";
   fr["Can you show our showroom and factory on the site?"] = "Pouvez-vous montrer notre showroom et notre usine sur le site ?";
-  zh["Yes. Real photos and short videos of showrooms, lines and packing are among the strongest trust signals for furniture and appliance buyers."] = "可以。展厅、产线和包装的真实照片与短视频，是家具和家电买家最看重的信任信号之一。";
+  zh["Yes. Real photos and short videos of showrooms, lines and packing are among the strongest trust signals for furniture and appliance buyers."] = "可以。展厅、产线和包装的真实照片与短视频，是家具和家电买家尤其看重的信任信号之一。";
   fr["Yes. Real photos and short videos of showrooms, lines and packing are among the strongest trust signals for furniture and appliance buyers."] = "Oui. Des photos et de courtes vidéos réelles des showrooms, des lignes et de l’emballage figurent parmi les signaux de confiance les plus forts pour les acheteurs de meubles et d’électroménager.";
   zh["Which certifications should we show?"] = "应该展示哪些认证？";
   fr["Which certifications should we show?"] = "Quelles certifications faut-il afficher ?";
@@ -13200,7 +13200,7 @@
   fr["Can you guarantee more orders?"] = "Garantissez-vous plus de commandes ?";
   zh["No. We plan for more qualified inquiries and report honestly from your own accounts."] = "不保证。我们以更多合格询盘为目标，并依据你自己的账户数据如实报告。";
   fr["No. We plan for more qualified inquiries and report honestly from your own accounts."] = "Non. Nous visons davantage de demandes qualifiées et rendons compte honnêtement à partir de vos propres comptes.";
-  zh["Book a free consultation and tell us which product series and markets matter most."] = "预约免费咨询，并告诉我们哪些产品系列和市场最重要。";
+  zh["Book a free consultation and tell us which product series and markets matter most."] = "预约免费咨询，并告诉我们哪些产品系列和市场尤为重要。";
   fr["Book a free consultation and tell us which product series and markets matter most."] = "Réservez une consultation gratuite et dites-nous quelles séries de produits et quels marchés comptent le plus.";
   zh["Foshan in the China directory"] = "中国目录中的佛山";
   fr["Foshan in the China directory"] = "Foshan dans l’annuaire Chine";
@@ -13370,7 +13370,7 @@
   fr["Can you guarantee inquiries?"] = "Garantissez-vous des demandes entrantes ?";
   zh["No. We plan for qualified inquiries and report honestly from your own accounts."] = "不保证。我们以合格询盘为目标，并依据你自己的账户数据如实报告。";
   fr["No. We plan for qualified inquiries and report honestly from your own accounts."] = "Non. Nous visons des demandes qualifiées et rendons compte honnêtement à partir de vos propres comptes.";
-  zh["Book a free consultation and tell us which machines and markets matter most."] = "预约免费咨询，并告诉我们哪些机器和市场最重要。";
+  zh["Book a free consultation and tell us which machines and markets matter most."] = "预约免费咨询，并告诉我们哪些机器和市场尤为重要。";
   fr["Book a free consultation and tell us which machines and markets matter most."] = "Réservez une consultation gratuite et dites-nous quelles machines et quels marchés comptent le plus.";
   zh["Hunan province guide"] = "湖南省指南";
   fr["Hunan province guide"] = "Guide de la province du Hunan";
@@ -13406,7 +13406,7 @@
   fr["Output of new-energy vehicles rose 99.0%, integrated circuits 28.2%, industrial robots 35.4% and optoelectronic devices 66.6%."] = "La production de véhicules à énergie nouvelle a augmenté de 99,0 %, les circuits intégrés de 28,2 %, les robots industriels de 35,4 % et les dispositifs optoélectroniques de 66,6 %.";
   zh["The bulletin lists 294,898 new-energy vehicles, 54,134 industrial robot sets and 27.09 billion integrated circuits produced in 2025."] = "公报列出 2025 年生产新能源汽车 294,898 辆、工业机器人 54,134 套、集成电路 270.9 亿块。";
   fr["The bulletin lists 294,898 new-energy vehicles, 54,134 industrial robot sets and 27.09 billion integrated circuits produced in 2025."] = "Le bulletin recense pour 2025 294 898 véhicules à énergie nouvelle, 54 134 ensembles de robots industriels et 27,09 milliards de circuits intégrés produits.";
-  zh["Nanjing’s growth is in the most specification-heavy parts of manufacturing: instruments, medicines, aerospace parts, robots and chips. Buyers in these fields do not shortlist a supplier from a slogan. They look for ranges, tolerances, standards, test methods and certificates — and they expect to find them on the product page, in text they can quote."] = "南京的增长集中在制造业中最看重规格的部分：仪器、药品、航空航天零部件、机器人和芯片。这些领域的买家不会因为一句口号就把供应商列入候选。他们关注量程、公差、标准、测试方法和证书——并期待在产品页面上以可引用的文字找到这些内容。";
+  zh["Nanjing’s growth is in the most specification-heavy parts of manufacturing: instruments, medicines, aerospace parts, robots and chips. Buyers in these fields do not shortlist a supplier from a slogan. They look for ranges, tolerances, standards, test methods and certificates — and they expect to find them on the product page, in text they can quote."] = "南京的增长集中在制造业中尤其看重规格的部分：仪器、药品、航空航天零部件、机器人和芯片。这些领域的买家不会因为一句口号就把供应商列入候选。他们关注量程、公差、标准、测试方法和证书——并期待在产品页面上以可引用的文字找到这些内容。";
   fr["Nanjing’s growth is in the most specification-heavy parts of manufacturing: instruments, medicines, aerospace parts, robots and chips. Buyers in these fields do not shortlist a supplier from a slogan. They look for ranges, tolerances, standards, test methods and certificates — and they expect to find them on the product page, in text they can quote."] = "La croissance de Nanjing se situe dans les segments les plus exigeants en spécifications : instruments, médicaments, pièces aérospatiales, robots et puces. Dans ces domaines, un acheteur ne présélectionne pas un fournisseur sur un slogan. Il cherche des gammes, tolérances, normes, méthodes d’essai et certificats — et s’attend à les trouver sur la page produit, dans un texte qu’il peut citer.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Nanjing Statistics Bureau, 2025 review and Statistical Bulletin). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列官方来源（南京市统计局，2025 年述评与统计公报）。数据描述的是城市整体，并非任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Nanjing Statistics Bureau, 2025 review and Statistical Bulletin). Figures describe the city, not any Hurfi client."] = "Infographie réalisée par Hurfi à partir des sources officielles ci-dessous (Bureau des statistiques de Nanjing, revue 2025 et bulletin statistique). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -13640,7 +13640,7 @@
   fr["Which standards does this alloy or product meet?"] = "Quelles normes cet alliage ou ce produit respecte-t-il ?";
   zh["Name the standards per product and the test certificates you provide."] = "按产品列明标准以及你提供的检测证书。";
   fr["Name the standards per product and the test certificates you provide."] = "Indiquez les normes par produit et les certificats d’essai que vous fournissez.";
-  zh["What packaging and minimum quantities do you offer?"] = "你们提供什么包装和最低起订量？";
+  zh["What packaging and minimum quantities do you offer?"] = "你们提供什么包装和起订量？";
   fr["What packaging and minimum quantities do you offer?"] = "Quel emballage et quelles quantités minimales proposez-vous ?";
   zh["State pack sizes, MOQs and pallet or container loads."] = "说明包装规格、MOQ 以及托盘或集装箱装载量。";
   fr["State pack sizes, MOQs and pallet or container loads."] = "Précisez les tailles d’emballage, les MOQ et les charges par palette ou conteneur.";
@@ -13740,7 +13740,7 @@
   fr["Port cargo throughput was 300 million tonnes and container throughput 5.482 million TEU, up 1.5%."] = "Le trafic portuaire de marchandises a atteint 300 millions de tonnes et celui des conteneurs 5,482 millions d’EVP, en hausse de 1,5 %.";
   zh["Singapore, the UAE, the Cayman Islands, Hong Kong (China) and Japan were the top five sources of foreign investment actually used."] = "实际使用外资的前五大来源地是新加坡、阿联酋、开曼群岛、中国香港和日本。";
   fr["Singapore, the UAE, the Cayman Islands, Hong Kong (China) and Japan were the top five sources of foreign investment actually used."] = "Singapour, les Émirats arabes unis, les îles Caïmans, Hong Kong (Chine) et le Japon ont été les cinq premières sources d’investissements étrangers effectivement utilisés.";
-  zh["Dalian’s fastest growth is in ships and equipment — products sold through long, technical procurement processes. Buyers check certifications, classification-society approvals, references and engineering capacity long before they ask for a price. A Dalian supplier’s website is often the first place that checking happens."] = "大连增长最快的是船舶和设备——这些产品要经过漫长而技术化的采购流程。买家在询价很久之前就会核查认证、船级社认可、业绩和工程能力。大连供应商的网站往往就是这些核查的第一站。";
+  zh["Dalian’s fastest growth is in ships and equipment — products sold through long, technical procurement processes. Buyers check certifications, classification-society approvals, references and engineering capacity long before they ask for a price. A Dalian supplier’s website is often the first place that checking happens."] = "大连增长较快的是船舶和设备——这些产品要经过漫长而技术化的采购流程。买家在询价很久之前就会核查认证、船级社认可、业绩和工程能力。大连供应商的网站往往就是这些核查的首站。";
   fr["Dalian’s fastest growth is in ships and equipment — products sold through long, technical procurement processes. Buyers check certifications, classification-society approvals, references and engineering capacity long before they ask for a price. A Dalian supplier’s website is often the first place that checking happens."] = "La croissance la plus rapide de Dalian se situe dans les navires et les équipements — des produits vendus via de longs processus d’achat techniques. Les acheteurs vérifient les certifications, les approbations des sociétés de classification, les références et la capacité d’ingénierie bien avant de demander un prix. Le site d’un fournisseur de Dalian est souvent le premier endroit où ces vérifications ont lieu.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Dalian 2025 Statistical Bulletin; State Council). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列官方来源（大连市 2025 年统计公报；国务院）。数据描述的是城市整体，并非任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Dalian 2025 Statistical Bulletin; State Council). Figures describe the city, not any Hurfi client."] = "Infographie réalisée par Hurfi à partir des sources officielles ci-dessous (bulletin statistique 2025 de Dalian ; Conseil des affaires d’État). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -13876,7 +13876,7 @@
   fr["Yes. We build pages for fair visitors and help plan follow-up content."] = "Oui. Nous créons des pages pour les visiteurs de salons et aidons à planifier le contenu de suivi.";
   zh["Yes, as part of digital marketing, for specific products and markets."] = "是的，作为数字营销的一部分，针对特定产品和市场。";
   fr["Yes, as part of digital marketing, for specific products and markets."] = "Oui, dans le cadre du marketing digital, pour des produits et marchés précis.";
-  zh["Book a free consultation and tell us which products and markets matter most."] = "预约免费咨询，并告诉我们哪些产品和市场最重要。";
+  zh["Book a free consultation and tell us which products and markets matter most."] = "预约免费咨询，并告诉我们哪些产品和市场尤为重要。";
   fr["Book a free consultation and tell us which products and markets matter most."] = "Réservez une consultation gratuite et dites-nous quels produits et marchés comptent le plus.";
   zh["Dalian in the China directory"] = "中国目录中的大连";
   fr["Dalian in the China directory"] = "Dalian dans l’annuaire Chine";
@@ -13902,7 +13902,7 @@
   fr["Jinan’s 2025 statistical bulletin gives the figures below."] = "Le bulletin statistique 2025 de Jinan donne les chiffres ci-dessous.";
   zh["Value added of industry above designated size grew 6.9% in 2025: computers, communications and electronic equipment grew 37.8%, automobile manufacturing 19.8% and general-purpose equipment 7.3%; equipment manufacturing grew 16.8%."] = "2025 年规模以上工业增加值增长 6.9%：计算机、通信和其他电子设备制造业增长 37.8%，汽车制造业增长 19.8%，通用设备制造业增长 7.3%；装备制造业增长 16.8%。";
   fr["Value added of industry above designated size grew 6.9% in 2025: computers, communications and electronic equipment grew 37.8%, automobile manufacturing 19.8% and general-purpose equipment 7.3%; equipment manufacturing grew 16.8%."] = "La valeur ajoutée de l’industrie de taille supérieure a progressé de 6,9 % en 2025 : les ordinateurs, communications et équipements électroniques de 37,8 %, la fabrication automobile de 19,8 % et les équipements polyvalents de 7,3 % ; la fabrication d’équipements a crû de 16,8 %.";
-  zh["Electronics had the largest industrial revenue, 227.59 billion yuan (+39.5%), followed by automobile manufacturing at 177.82 billion yuan (+16.2%)."] = "电子产业营收规模最大，达 2,275.9 亿元（+39.5%），其次是汽车制造业 1,778.2 亿元（+16.2%）。";
+  zh["Electronics had the largest industrial revenue, 227.59 billion yuan (+39.5%), followed by automobile manufacturing at 177.82 billion yuan (+16.2%)."] = "电子产业营收规模居首，达 2,275.9 亿元（+39.5%），其次是汽车制造业 1,778.2 亿元（+16.2%）。";
   fr["Electronics had the largest industrial revenue, 227.59 billion yuan (+39.5%), followed by automobile manufacturing at 177.82 billion yuan (+16.2%)."] = "L’électronique a réalisé le plus gros chiffre d’affaires industriel, 227,59 milliards de yuans (+39,5 %), suivie de la fabrication automobile avec 177,82 milliards (+16,2 %).";
   zh["Jinan produced 298,000 trucks (+19.6%), 968,000 servers (+3.5%) and 23,000 metal-cutting machine tools (+8.9%); generator-set output rose 24.1%."] = "济南生产卡车 29.8 万辆（+19.6%）、服务器 96.8 万台（+3.5%）、金属切削机床 2.3 万台（+8.9%）；发电机组产量增长 24.1%。";
   fr["Jinan produced 298,000 trucks (+19.6%), 968,000 servers (+3.5%) and 23,000 metal-cutting machine tools (+8.9%); generator-set output rose 24.1%."] = "Jinan a produit 298 000 camions (+19,6 %), 968 000 serveurs (+3,5 %) et 23 000 machines-outils de découpe des métaux (+8,9 %) ; la production de groupes électrogènes a augmenté de 24,1 %.";
@@ -13910,7 +13910,7 @@
   fr["Goods trade was 289.80 billion yuan (+24.7%) and exports 195.71 billion yuan (+24.2%); mechanical and electrical exports rose 29% and steel products 46.4%."] = "Le commerce de marchandises a atteint 289,80 milliards de yuans (+24,7 %) et les exportations 195,71 milliards (+24,2 %) ; les exportations de produits mécaniques et électriques ont augmenté de 29 % et celles de produits sidérurgiques de 46,4 %.";
   zh["Trade with ASEAN and Latin America grew 30.6% and 30.3%, and 1,252 China–Europe Railway Express trains ran from Jinan, up 21.7%."] = "与东盟和拉美贸易分别增长 30.6% 和 30.3%，中欧班列（济南）开行 1,252 列，增长 21.7%。";
   fr["Trade with ASEAN and Latin America grew 30.6% and 30.3%, and 1,252 China–Europe Railway Express trains ran from Jinan, up 21.7%."] = "Le commerce avec l’ASEAN et l’Amérique latine a augmenté de 30,6 % et 30,3 %, et 1 252 trains China-Europe Railway Express sont partis de Jinan, en hausse de 21,7 %.";
-  zh["Jinan’s exports are growing fastest to ASEAN and Latin America, in trucks, machinery, electronics and steel. These are buyers who compare specifications and service before price. A Jinan supplier whose site answers those questions in clear English — and in Spanish where it matters — has an advantage."] = "济南出口增长最快的是面向东盟和拉美的卡车、机械、电子产品和钢铁。这些买家在比价格之前先比规格和服务。网站能用清晰英文——以及必要时用西班牙语——回答这些问题的济南供应商，会占据优势。";
+  zh["Jinan’s exports are growing fastest to ASEAN and Latin America, in trucks, machinery, electronics and steel. These are buyers who compare specifications and service before price. A Jinan supplier whose site answers those questions in clear English — and in Spanish where it matters — has an advantage."] = "济南出口增长较快的是面向东盟和拉美的卡车、机械、电子产品和钢铁。这些买家在比价格之前先比规格和服务。网站能用清晰英文——以及必要时用西班牙语——回答这些问题的济南供应商，会占据优势。";
   fr["Jinan’s exports are growing fastest to ASEAN and Latin America, in trucks, machinery, electronics and steel. These are buyers who compare specifications and service before price. A Jinan supplier whose site answers those questions in clear English — and in Spanish where it matters — has an advantage."] = "Les exportations de Jinan progressent le plus vite vers l’ASEAN et l’Amérique latine, dans les camions, machines, produits électroniques et l’acier. Ces acheteurs comparent spécifications et service avant le prix. Un fournisseur de Jinan dont le site répond en anglais clair — et en espagnol lorsque c’est utile — dispose d’un avantage.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Jinan Statistics Bureau, 2025 Statistical Bulletin). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列官方来源（济南市统计局，2025 年统计公报）。数据描述的是城市整体，并非任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Jinan Statistics Bureau, 2025 Statistical Bulletin). Figures describe the city, not any Hurfi client."] = "Infographie réalisée par Hurfi à partir des sources officielles ci-dessous (Bureau des statistiques de Jinan, bulletin statistique 2025). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -14012,7 +14012,7 @@
   fr["We set up Search Console and analytics and report from your own accounts."] = "Nous configurons Search Console et les outils d’analyse, et rendons compte depuis vos propres comptes.";
   zh["A site for truck, electronics, machinery and power-equipment buyers, with specifications and service pages."] = "面向卡车、电子、机械和电力设备买家的网站，包含规格和服务页面。";
   fr["A site for truck, electronics, machinery and power-equipment buyers, with specifications and service pages."] = "Un site pour les acheteurs de camions, d’électronique, de machines et d’équipements électriques, avec spécifications et pages de service.";
-  zh["Searches for products and standards, measured in Search Console from day one."] = "针对产品和标准的搜索，从第一天起就在 Search Console 中衡量。";
+  zh["Searches for products and standards, measured in Search Console from day one."] = "针对产品和标准的搜索，从首日起就在 Search Console 中衡量。";
   fr["Searches for products and standards, measured in Search Console from day one."] = "Des recherches sur les produits et les normes, mesurées dans Search Console dès le premier jour.";
   zh["Campaigns for chosen products in growing markets such as Latin America and ASEAN."] = "针对拉美和东盟等增长市场的选定产品推广。";
   fr["Campaigns for chosen products in growing markets such as Latin America and ASEAN."] = "Des campagnes pour des produits choisis sur des marchés en croissance comme l’Amérique latine et l’ASEAN.";
@@ -14152,9 +14152,9 @@
   fr["Can you build to our specification?"] = "Pouvez-vous fabriquer selon nos spécifications ?";
   zh["Explain OEM options and what can change in design, branding and packaging."] = "说明 OEM 选项以及设计、品牌和包装上可调整的内容。";
   fr["Explain OEM options and what can change in design, branding and packaging."] = "Expliquez les options OEM et ce qui peut changer dans la conception, la marque et l’emballage.";
-  zh["What are your MOQ and payment terms?"] = "你们的最低起订量和付款条件是什么？";
+  zh["What are your MOQ and payment terms?"] = "你们的起订量和付款条件是什么？";
   fr["What are your MOQ and payment terms?"] = "Quels sont vos MOQ et conditions de paiement ?";
-  zh["Give MOQ ranges and accepted payment terms."] = "给出 最小起订量范围和接受的付款条件。";
+  zh["Give MOQ ranges and accepted payment terms."] = "给出 起订量范围和接受的付款条件。";
   fr["Give MOQ ranges and accepted payment terms."] = "Indiquez les plages de MOQ et les conditions de paiement acceptées.";
   zh["A website, SEO and RFQ playbook for Chongqing manufacturers"] = "重庆制造商的网站、SEO 与询盘手册";
   fr["A website, SEO and RFQ playbook for Chongqing manufacturers"] = "Un guide site web, SEO et demande de devis pour les fabricants de Chongqing";
@@ -14568,7 +14568,7 @@
   fr["The ones where you already have certification, logistics and someone who can answer. We can help compare markets using search data."] = "Ceux où vous avez déjà des certifications, une logistique et une personne capable de répondre. Nous pouvons aider à comparer les marchés à l’aide des données de recherche.";
   zh["Can you promise results?"] = "你们能保证结果吗？";
   fr["Can you promise results?"] = "Pouvez-vous garantir des résultats ?";
-  zh["We promise a clear plan and honest reporting, not rankings or lead numbers. Google itself warns that no one can guarantee a #1 ranking."] = "我们承诺清晰的计划和如实的报告，而不是排名或询盘数量。Google 自己也提醒，没有人能保证排名第一。";
+  zh["We promise a clear plan and honest reporting, not rankings or lead numbers. Google itself warns that no one can guarantee a #1 ranking."] = "我们承诺清晰的计划和如实的报告，而不是排名或询盘数量。Google 自己也提醒，没有人能保证排名首位。";
   fr["We promise a clear plan and honest reporting, not rankings or lead numbers. Google itself warns that no one can guarantee a #1 ranking."] = "Nous promettons un plan clair et des rapports honnêtes, pas des classements ni des volumes de demandes. Google lui-même rappelle que personne ne peut garantir une première place.";
   zh["Book a free consultation and share your product list. We will suggest which product and application pages to build first."] = "预约免费咨询并分享你的产品清单。我们会建议先建立哪些产品和应用页面。";
   fr["Book a free consultation and share your product list. We will suggest which product and application pages to build first."] = "Réservez une consultation gratuite et partagez votre liste de produits. Nous vous suggérerons les pages produits et applications à créer en premier.";
@@ -14692,7 +14692,7 @@
   fr["Which markets is this product certified for?"] = "Pour quels marchés ce produit est-il certifié ?";
   zh["List certificates by product and market, with the certificate holder’s name and validity, on the product page itself."] = "在产品页面本身按产品和市场列出证书，注明证书持有人名称和有效期。";
   fr["List certificates by product and market, with the certificate holder’s name and validity, on the product page itself."] = "Listez les certificats par produit et par marché, avec le nom du titulaire et la validité, directement sur la page produit.";
-  zh["What are MOQ, sample and lead-time terms?"] = "最低起订量、样品和交期条件是什么？";
+  zh["What are MOQ, sample and lead-time terms?"] = "起订量、样品和交期条件是什么？";
   fr["What are MOQ, sample and lead-time terms?"] = "Quelles sont les conditions de MOQ, d’échantillon et de délai ?";
   zh["Give ranges, or say what they depend on. A buyer who must email just to learn whether you sell samples may not email."] = "给出范围，或说明取决于什么。如果买家必须发邮件才能知道你是否卖样品，他可能就不会发。";
   fr["Give ranges, or say what they depend on. A buyer who must email just to learn whether you sell samples may not email."] = "Donnez des fourchettes, ou précisez de quoi elles dépendent. Un acheteur qui doit écrire uniquement pour savoir si vous vendez des échantillons risque de ne pas écrire.";
@@ -14748,7 +14748,7 @@
   fr["Any manufacturer that sells abroad. Guangzhou’s official figures point to automotive and EV parts, batteries and chargers, electronics and displays, electrical equipment and appliances, and medical instruments, and we have sector pages for each."] = "Tout fabricant qui vend à l’étranger. Les chiffres officiels de Guangzhou pointent vers les pièces automobiles et pour véhicules électriques, les batteries et chargeurs, l’électronique et les écrans, les équipements électriques et l’électroménager, ainsi que les instruments médicaux, et nous avons une page sectorielle pour chacun.";
   zh["Can you guarantee first-page rankings on Google?"] = "你们能保证 Google 首页排名吗？";
   fr["Can you guarantee first-page rankings on Google?"] = "Pouvez-vous garantir un classement en première page de Google ?";
-  zh["No, and you should be careful of anyone who does. Google’s own guidance on hiring an SEO says that no one can guarantee a #1 ranking on Google. We agree targets with you and report progress from your own Search Console."] = "不能，而且要警惕任何作出这种保证的人。Google 自己关于聘请 SEO 的指南指出，没有人能保证 Google 排名第一。我们与你商定目标，并用你自己的 Search Console 报告进展。";
+  zh["No, and you should be careful of anyone who does. Google’s own guidance on hiring an SEO says that no one can guarantee a #1 ranking on Google. We agree targets with you and report progress from your own Search Console."] = "不能，而且要警惕任何作出这种保证的人。Google 自己关于聘请 SEO 的指南指出，没有人能保证 Google 排名首位。我们与你商定目标，并用你自己的 Search Console 报告进展。";
   fr["No, and you should be careful of anyone who does. Google’s own guidance on hiring an SEO says that no one can guarantee a #1 ranking on Google. We agree targets with you and report progress from your own Search Console."] = "Non, et méfiez-vous de quiconque le prétend. Les recommandations de Google sur le recours à un SEO indiquent que personne ne peut garantir une première place sur Google. Nous convenons d’objectifs avec vous et rendons compte des progrès depuis votre propre Search Console.";
   zh["Should our site be English only, or multilingual?"] = "我们的网站应该只用英文，还是多语言？";
   fr["Should our site be English only, or multilingual?"] = "Notre site doit-il être uniquement en anglais ou multilingue ?";
@@ -14770,7 +14770,7 @@
   fr["Can you help with LinkedIn as well?"] = "Pouvez-vous aussi aider pour LinkedIn ?";
   zh["Yes. Our social media management service covers LinkedIn company pages and posts that show real production and engineering work. See our guide to LinkedIn for factory export sales."] = "可以。我们的社交媒体管理服务涵盖 LinkedIn 公司页面和展示真实生产与工程工作的帖子。参见我们的工厂出口销售 LinkedIn 指南。";
   fr["Yes. Our social media management service covers LinkedIn company pages and posts that show real production and engineering work. See our guide to LinkedIn for factory export sales."] = "Oui. Notre service de gestion des réseaux sociaux couvre les pages d’entreprise LinkedIn et des publications montrant le vrai travail de production et d’ingénierie. Voir notre guide LinkedIn pour la vente export en usine.";
-  zh["What happens in the first consultation?"] = "第一次咨询会发生什么？";
+  zh["What happens in the first consultation?"] = "首次咨询会发生什么？";
   fr["What happens in the first consultation?"] = "Que se passe-t-il lors de la première consultation ?";
   zh["We look at your current website, the markets you sell to and the products you want to grow, and suggest where to start. The consultation is free and there is no obligation."] = "我们会查看你现有的网站、你销售的市场和你想增长的产品，并建议从哪里开始。咨询免费，没有义务。";
   fr["We look at your current website, the markets you sell to and the products you want to grow, and suggest where to start. The consultation is free and there is no obligation."] = "Nous examinons votre site actuel, les marchés sur lesquels vous vendez et les produits que vous voulez développer, et suggérons par où commencer. La consultation est gratuite et sans engagement.";
@@ -14814,7 +14814,7 @@
   fr["Goods trade was 650.18 billion yuan, up 16.8%, and exports 427.55 billion yuan, up 20.3%."] = "Le commerce de marchandises a atteint 650,18 milliards de yuans, en hausse de 16,8 %, et les exportations 427,55 milliards, en hausse de 20,3 %.";
   zh["Zhengzhou Xinzheng International Airport handled 1.033 million tonnes of cargo and mail, up 25.2%."] = "郑州新郑国际机场货邮吞吐量 103.3 万吨，增长 25.2%。";
   fr["Zhengzhou Xinzheng International Airport handled 1.033 million tonnes of cargo and mail, up 25.2%."] = "L’aéroport international de Zhengzhou Xinzheng a traité 1,033 million de tonnes de fret et de courrier, en hausse de 25,2 %.";
-  zh["Exports grew faster than the economy, and electronics, sensors, batteries and vehicles are the products growing fastest. Many of these suppliers sell components to manufacturers abroad, where purchasing teams screen suppliers online before an audit. A clear English site with specifications, quality systems and logistics options shortens that screening."] = "出口增长快于经济，电子、传感器、电池和汽车是增长最快的产品。这些供应商中许多向海外制造商供应零部件，而采购团队会在审核前先在网上筛选供应商。一个清晰的英文网站，配以规格、质量体系和物流选项，可以缩短这一筛选过程。";
+  zh["Exports grew faster than the economy, and electronics, sensors, batteries and vehicles are the products growing fastest. Many of these suppliers sell components to manufacturers abroad, where purchasing teams screen suppliers online before an audit. A clear English site with specifications, quality systems and logistics options shortens that screening."] = "出口增长快于经济，电子、传感器、电池和汽车是增长较快的产品。这些供应商中许多向海外制造商供应零部件，而采购团队会在审核前先在网上筛选供应商。一个清晰的英文网站，配以规格、质量体系和物流选项，可以缩短这一筛选过程。";
   fr["Exports grew faster than the economy, and electronics, sensors, batteries and vehicles are the products growing fastest. Many of these suppliers sell components to manufacturers abroad, where purchasing teams screen suppliers online before an audit. A clear English site with specifications, quality systems and logistics options shortens that screening."] = "Les exportations ont progressé plus vite que l’économie, et l’électronique, les capteurs, les batteries et les véhicules sont les produits qui croissent le plus vite. Beaucoup de ces fournisseurs vendent des composants à des fabricants étrangers, dont les équipes achats filtrent les fournisseurs en ligne avant un audit. Un site anglais clair, avec spécifications, systèmes qualité et options logistiques, raccourcit ce filtrage.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Zhengzhou Statistics Bureau, 2025 Statistical Bulletin; NDRC). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列官方来源（郑州市统计局，2025 年统计公报；国家发展改革委）。数据描述的是城市整体，并非任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Zhengzhou Statistics Bureau, 2025 Statistical Bulletin; NDRC). Figures describe the city, not any Hurfi client."] = "Infographie réalisée par Hurfi à partir des sources officielles ci-dessous (Bureau des statistiques de Zhengzhou, bulletin statistique 2025 ; NDRC). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -14822,7 +14822,7 @@
   fr["Zhengzhou’s main industries and what buyers compare"] = "Les principales industries de Zhengzhou et ce que comparent les acheteurs";
   zh["Electronics and sensors"] = "电子与传感器";
   fr["Electronics and sensors"] = "Électronique et capteurs";
-  zh["Component buyers search by part type and parameters and check quality systems. Searchable specifications and test data matter most."] = "元器件买家按零件类型和参数搜索，并核查质量体系。可搜索的规格和测试数据最重要。";
+  zh["Component buyers search by part type and parameters and check quality systems. Searchable specifications and test data matter most."] = "元器件买家按零件类型和参数搜索，并核查质量体系。可搜索的规格和测试数据尤为重要。";
   fr["Component buyers search by part type and parameters and check quality systems. Searchable specifications and test data matter most."] = "Les acheteurs de composants recherchent par type de composant et paramètres et vérifient les systèmes qualité. Des spécifications interrogeables et des données d’essai comptent le plus.";
   zh["Electrical machinery and equipment"] = "电气机械与设备";
   fr["Electrical machinery and equipment"] = "Machines et équipements électriques";
@@ -14876,7 +14876,7 @@
   fr["Say whether air freight is an option and from where, with typical transit ranges."] = "Indiquez si le fret aérien est possible et depuis où, avec des plages de délais habituelles.";
   zh["Which quality system do you run?"] = "你们运行什么质量体系？";
   fr["Which quality system do you run?"] = "Quel système qualité appliquez-vous ?";
-  zh["Name your certifications and describe incoming, in-process and final inspection."] = "写明你的认证，并说明来料、过程和最终检验。";
+  zh["Name your certifications and describe incoming, in-process and final inspection."] = "写明你的认证，并说明来料、过程和终检。";
   fr["Name your certifications and describe incoming, in-process and final inspection."] = "Nommez vos certifications et décrivez le contrôle à réception, en cours de fabrication et final.";
   zh["Can you provide test reports for this battery or device?"] = "能提供这种电池或设备的测试报告吗？";
   fr["Can you provide test reports for this battery or device?"] = "Pouvez-vous fournir des rapports d’essai pour cette batterie ou cet appareil ?";
@@ -14924,7 +14924,7 @@
   fr["No. Hurfi does not have an office or staff in Zhengzhou. We work with Zhengzhou manufacturers remotely by WeChat, email and video, from our offices in Xi’an and Bogura."] = "Non. Hurfi n’a ni bureau ni personnel à Zhengzhou. Nous travaillons avec les fabricants de Zhengzhou à distance par WeChat, e-mail et vidéo, depuis nos bureaux de Xi’an et de Bogura.";
   zh["We supply components to large manufacturers. Does our website matter?"] = "我们向大型制造商供应零部件。网站重要吗？";
   fr["We supply components to large manufacturers. Does our website matter?"] = "Nous fournissons des composants à de grands fabricants. Notre site compte-t-il ?";
-  zh["Yes. Purchasing and quality teams check new suppliers online before audits. Clear specifications and quality information help you pass that first screen."] = "重要。采购和质量团队会在审核前先在网上核查新供应商。清晰的规格和质量信息能帮你通过第一道筛选。";
+  zh["Yes. Purchasing and quality teams check new suppliers online before audits. Clear specifications and quality information help you pass that first screen."] = "重要。采购和质量团队会在审核前先在网上核查新供应商。清晰的规格和质量信息能帮你通过首道筛选。";
   fr["Yes. Purchasing and quality teams check new suppliers online before audits. Clear specifications and quality information help you pass that first screen."] = "Oui. Les équipes achats et qualité vérifient les nouveaux fournisseurs en ligne avant les audits. Des spécifications et des informations qualité claires vous aident à passer ce premier filtre.";
   zh["Should we mention air freight on the site?"] = "网站应该提到空运吗？";
   fr["Should we mention air freight on the site?"] = "Faut-il mentionner le fret aérien sur le site ?";
@@ -14969,7 +14969,7 @@
   zh["apparel and footwear"] = "服装与鞋类";
   zh["Apparel & Footwear Manufacturing in {city}, China"] = "中国{city}服装与鞋类制造";
   zh["B2B sourcing for apparel and footwear manufacturers, or for their representative and buying offices."] = "面向服装与鞋类制造商的 B2B 采购，或服务其代表处与采购办事处。";
-  zh["Highly automated production lines make {city} one of China's most cost-effective sources for apparel and footwear, from fabric cutting to finished retail packaging."] = "{city}拥有高度自动化的生产线，从面料裁剪到成品零售包装，是中国最具成本效益的服装与鞋类采购来源之一。";
+  zh["Highly automated production lines make {city} one of China's most cost-effective sources for apparel and footwear, from fabric cutting to finished retail packaging."] = "{city}拥有高度自动化的生产线，从面料裁剪到成品零售包装，是中国颇具成本效益的服装与鞋类采购来源之一。";
   zh["Garment manufacturing for export markets, including pattern making, sample development and bulk production."] = "面向出口市场的服装制造，包括打版、样品开发与批量生产。";
   zh["Footwear production across leather, synthetic and textile constructions, with in-line quality checks."] = "覆盖皮革、合成材料及纺织结构的鞋类生产，并配备在线质检。";
   zh["Cut-and-sew knitwear, woven apparel and sportswear produced on automated lines."] = "在自动化生产线上生产裁剪缝制针织品、梭织服装及运动服。";
@@ -15134,13 +15134,13 @@
   zh["List certificates and audits with their scope and validity. If an audit is a client’s own, say so, and never imply a certificate covers products it does not."] = "列出证书与审核项目及其范围和有效期。如果审核是客户自行进行的，请如实说明，切勿暗示某证书涵盖其并不涵盖的产品。";
   zh["REACH (EC 1907/2006) restricts chemicals of concern; the authorisation process aims to replace substances of very high concern where alternatives exist."] = "REACH (EC 1907/2006) 限制关注化学品；授权程序旨在在有替代品的情况下替代高度关注物质。";
   zh["Apparel sourcing is visual and fast. The website must show capability quickly and handle sample requests well. Our usual order:"] = "服装采购直观且节奏快。网站必须迅速展示能力，并妥善处理样品请求。我们通常的顺序是：";
-  zh["Build category pages around what you make best, with photos of real production and finished goods you are allowed to show."] = "围绕您最擅长的品类构建类别页面，配上真实生产照片以及您获准展示的成品照片。";
+  zh["Build category pages around what you make best, with photos of real production and finished goods you are allowed to show."] = "围绕您擅长的品类构建类别页面，配上真实生产照片以及您获准展示的成品照片。";
   zh["OEKO-TEX® STANDARD 100 tests every component, including threads and buttons, against more than 1,000 substances."] = "OEKO-TEX® STANDARD 100 对每一个部件（包括缝线纽扣）进行检测，覆盖 1,000 多种物质。";
   zh["By showing what you do better, such as speed, technical capability, materials or flexibility, with evidence."] = "通过展示您做得更好的地方，例如速度、技术能力、材料或灵活性，并附上证据。";
   zh["Wenzhou’s footwear exports were 26.31 billion yuan (−7.3%) and clothing exports 14.31 billion yuan (−5.5%)."] = "温州鞋类出口 263.1 亿元（−7.3%），服装出口 143.1 亿元（−5.5%）。";
   zh["Wenzhou Statistics Bureau and NBS Wenzhou Survey Team (bulletin text as reproduced by tjgb.hongheiku.com)."] = "温州市统计局与国家统计局温州调查队（公报文本转载自 tjgb.hongheiku.com）。";
   zh["Many do, alongside LinkedIn, trade fairs and agents. They also check a factory online after meeting it."] = "很多会，同时也会使用 LinkedIn、展会与代理商。他们还会在见面后上网核查工厂。";
-  zh["Compliance depends on product and market. These are the references European buyers raise most often:"] = "合规要求取决于产品和市场。以下是欧洲买家最常提到的参考法规：";
+  zh["Compliance depends on product and market. These are the references European buyers raise most often:"] = "合规要求取决于产品和市场。以下是欧洲买家常提到的参考法规：";
   zh["Category-led factory sites with capability pages, compliance information and sample-request forms."] = "以品类为导向的工厂网站，包含能力页面、合规信息与样品请求表单。";
   zh["Plan content around buying calendars and trade fairs, and track which categories bring requests."] = "围绕采购日历与展会规划内容，并跟踪哪些品类带来了询盘。";
   zh["No. Hurfi’s offices are in Xi’an and Bogura; we work with factories anywhere in China remotely."] = "不是。Hurfi 的办公室位于西安和博古拉；我们以远程方式与中国各地的工厂合作。";
@@ -15158,7 +15158,7 @@
   zh["No. We make your factory easier to find and evaluate, and report actual inquiries."] = "不是。我们让您的工厂更容易被找到和评估，并报告真实询盘。";
   zh["Only with written permission. Otherwise describe the category, market and volume."] = "仅在获得书面许可的情况下可以。否则请描述品类、市场与产量。";
   zh["Yes, as ranges. It filters out unsuitable requests and saves time for both sides."] = "可以，以区间形式公布。这样可以过滤不合适的询盘，为双方节省时间。";
-  zh["Show your strongest categories with examples, not every product you could make."] = "用示例展示您最强的品类，而不是您能生产的所有产品。";
+  zh["Show your strongest categories with examples, not every product you could make."] = "用示例展示您突出的品类，而不是您能生产的所有产品。";
   zh["SEO for garment-type, material and certification searches in buyers’ languages."] = "针对服装类型、材料与认证搜索，以买家语言进行 SEO。";
   zh["Campaigns timed to buying seasons and trade fairs, aimed at sourcing managers."] = "围绕采购旺季与展会安排推广活动，锁定采购经理。";
   zh["T-shirts, fleece and activewear: fabrics, printing, MOQ per style and colour."] = "T恤、抓绒与运动服：面料、印花、每款每色的起订量。";
@@ -15356,7 +15356,7 @@
   zh["Apparent consumption of ethylene grew 7.7%; the CPCIF says export volumes grew quickly even as total trade value fell."] = "乙烯表观消费量增长 7.7%；CPCIF 表示，尽管贸易总额下降，出口量仍快速增长。";
   zh["Many producers publish TDS openly and supply SDS on request. Either way, buyers should see that the documents exist."] = "许多生产商会公开发布 TDS，并在收到请求后提供 SDS。无论哪种方式，买家都应能看到这些文件确实存在。";
   zh["Chemical buyers search by CAS number, grade name and application, and expect documents on request. Our usual order:"] = "化学品买家按 CAS 号、牌号名称与应用进行搜索，并期望能按需获取文件。我们通常的顺序是：";
-  zh["Regulatory status is often the first filter. These references matter for European and international buyers:"] = "法规状态往往是第一道筛选条件。以下参考对欧洲及国际买家尤为重要：";
+  zh["Regulatory status is often the first filter. These references matter for European and international buyers:"] = "法规状态往往是首道筛选条件。以下参考对欧洲及国际买家尤为重要：";
   zh["High-purity materials, battery and semiconductor inputs: purity, traceability and qualification support."] = "高纯材料、电池与半导体原料：纯度、可追溯性与认证支持。";
   zh["For specific grades and applications in selected markets, often yes. Broad terms tend to waste budget."] = "针对特定市场中的具体牌号与应用，通常可以。宽泛关键词往往浪费预算。";
   zh["Grade-based product sites with technical data, document downloads, regulatory pages and RFQ forms."] = "按牌号组织的产品网站，包含技术数据、文件下载、法规页面与询价表单。";
@@ -15364,7 +15364,7 @@
   zh["Make technical and safety data sheets available per grade, and explain how COAs are issued."] = "按牌号提供技术数据表与安全数据表，并说明 COA 的出具方式。";
   zh["Publish a regulatory page that states registrations and approvals per substance and market."] = "发布法规页面，按物质与市场列明注册与批准情况。";
   zh["Use an RFQ form that asks for grade, quantity, packaging, destination and documents needed."] = "使用询价表单，收集牌号、数量、包装、目的地及所需文件。";
-  zh["Yes. CAS numbers and grade names are among the most specific searches serious buyers use."] = "可以。CAS 号与牌号名称是严肃买家最常使用的精确搜索词之一。";
+  zh["Yes. CAS numbers and grade names are among the most specific searches serious buyers use."] = "可以。CAS 号与牌号名称是严肃买家常使用的精确搜索词之一。";
   zh["Yes, from your technical documents; your chemists approve every claim before publication."] = "可以，依据您的技术文件撰写；所有表述均由您的化学师在发布前审核确认。";
   zh["A website, SEO and RFQ playbook for chemicals and specialty materials manufacturers"] = "面向化学品与特种材料生产商的网站、SEO 与询价手册";
   zh["No. We target specific searches and report results from your own Search Console."] = "不是。我们针对具体搜索词进行优化，并报告您自己 Search Console 中的数据。";
@@ -15773,7 +15773,7 @@
   zh["Infographic by Hurfi, drawn from the sources listed below (National Bureau of Statistics of China; Shaoxing and Qingdao statistics bureaus; European Commission). Figures describe the sector, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列来源（中国国家统计局；绍兴与青岛统计部门；欧盟委员会）。数据描述行业整体情况，不涉及 Hurfi 的任何客户。";
   zh["This post presents Hurfi as “not your typical business platform”; it suits a sector where products only matter as part of a connected system. It is Hurfi’s own brand work, not a client result."] = "这篇将 Hurfi 介绍为“不是典型商业平台”的文章，适合产品只有作为互联系统一部分才有价值的行业。这是 Hurfi 自身的品牌工作，并非客户案例。";
   zh["The revised EU buildings directive introduces requirements for building automation and control in non-residential buildings, and recharging points that enable smart charging."] = "修订后的欧盟建筑指令对非住宅建筑的楼宇自动化与控制提出要求，并要求设置支持智能充电的充电点。";
-  zh["Policy is pushing buildings to become more automated and efficient. Suppliers who show interoperability, security and real projects are best placed to win that work."] = "政策正推动建筑更加自动化、更高效。能够展示互操作性、安全性与真实项目的供应商最容易赢得这类业务。";
+  zh["Policy is pushing buildings to become more automated and efficient. Suppliers who show interoperability, security and real projects are best placed to win that work."] = "政策正推动建筑更加自动化、更高效。能够展示互操作性、安全性与真实项目的供应商更容易赢得这类业务。";
   zh["The revised Energy Performance of Buildings Directive must be transposed by 29 May 2026; 85% of EU buildings were built before 2000 and 75% perform poorly on energy."] = "修订后的《建筑能效指令》须在 2026 年 5 月 29 日前完成转化；欧盟 85% 的建筑建于 2000 年之前，其中 75% 的能效表现较差。";
   zh["The EU Construction Products Regulation, revised in 2024, sets declarations of performance, CE marking and a digital product passport for construction products."] = "2024 年修订的欧盟《建筑产品法规》规定了建筑产品的性能声明、CE 标志与数字产品护照。";
   zh["Electrical equipment between 50 and 1000 V AC falls under the Low Voltage Directive, and the EMC Directive covers electromagnetic compatibility."] = "交流 50 至 1000 V 的电气设备属于《低电压指令》范围，《电磁兼容指令》则涵盖电磁兼容性。";
@@ -16200,7 +16200,7 @@
   fr["Robotic order picking"] = "Préparation de commandes robotisée";
   fr["AGVs and AMRs"] = "AGV et AMR";
 
-  zh["NSF/ANSI 61 sets minimum health-effects requirements for contaminants that products and materials can impart to drinking water. Its scope covers mechanical devices such as water meters, valves and filters, pipes and fittings, and process media such as filter media and ion-exchange resins. It does not set performance requirements."] = "NSF/ANSI 61 规定了产品与材料可能向饮用水带入污染物的最低健康影响要求。其范围涵盖水表、阀门、过滤器等机械装置，管道与管件，以及滤料、离子交换树脂等过程介质。它不规定性能要求。";
+  zh["NSF/ANSI 61 sets minimum health-effects requirements for contaminants that products and materials can impart to drinking water. Its scope covers mechanical devices such as water meters, valves and filters, pipes and fittings, and process media such as filter media and ion-exchange resins. It does not set performance requirements."] = "NSF/ANSI 61 规定了产品与材料可能向饮用水带入污染物的健康影响基本要求。其范围涵盖水表、阀门、过滤器等机械装置，管道与管件，以及滤料、离子交换树脂等过程介质。它不规定性能要求。";
   zh["Infographic of four figures for Water & Wastewater Technology: 91.4% of China’s 3,641 national surface-water sections rated good in 2025; 30,354 urban wastewater treatment plants in operation in the EU; 1 Jan 2025 revised EU Urban Wastewater Treatment Directive in force; 64.05m pumps made in Taizhou, Zhejiang, in 2025."] = "水务与污水处理技术四项数据的图表：2025 年中国 3,641 个国控地表水断面中 91.4% 水质优良；欧盟在运城市污水处理厂 30,354 座；修订后的欧盟《城市污水处理指令》于 2025 年 1 月 1 日生效；2025 年浙江台州生产水泵 6,405 万台。";
   zh["Utilities, plant builders and industrial buyers abroad buy water equipment on performance data and approvals, not on catalogues. Hurfi helps Chinese pump, valve, membrane, filtration and treatment-system manufacturers show that evidence clearly in English and get found by the engineers who specify it."] = "海外水务公司、工厂建设方与工业买家采购水处理设备时看重性能数据与认证，而非产品目录。Hurfi 帮助中国水泵、阀门、膜、过滤与处理系统制造商用英语清晰呈现这些证据，并让负责选型的工程师找到他们。";
   zh["Stricter rules abroad translate into more detailed questions for suppliers: what a membrane removes, what a pump’s wetted materials are, whether components are approved for drinking water. Suppliers who publish those answers save buyers a round of emails, and get shortlisted earlier."] = "海外更严格的法规，转化为对供应商更细致的问题：膜能去除什么、泵的接液材质是什么、部件是否获准用于饮用水。公布这些答案的供应商能为买家省去一轮邮件往来，也更早进入候选名单。";
@@ -16222,7 +16222,7 @@
   zh["Of 3,641 national surface-water monitoring sections in China, 91.4% were rated good (Classes I–III) in 2025; 0.6% were rated worse than Class V."] = "2025 年中国 3,641 个国控地表水监测断面中，91.4% 水质优良（I—III 类）；0.6% 为劣 V 类。";
   zh["Write application pages for specific problems buyers search for, such as removing a named contaminant or treating a named industrial effluent."] = "针对买家搜索的具体问题撰写应用页面，例如去除某种特定污染物或处理某种工业废水。";
   zh["Enough for an engineer to shortlist you: duty ranges, materials, performance data and dimensions. Detailed designs can stay behind an RFQ."] = "足以让工程师将您列入候选：工况范围、材质、性能数据与尺寸。详细设计可留在询价之后。";
-  zh["Which approvals apply depends on the product and the country. These are the references overseas water buyers most often bring up."] = "适用哪些认证取决于产品与国家。以下是海外水务买家最常提到的参考。";
+  zh["Which approvals apply depends on the product and the country. These are the references overseas water buyers most often bring up."] = "适用哪些认证取决于产品与国家。以下是海外水务买家常提到的参考。";
   zh["We write from your engineers’ material and recognised sources, and your team approves every technical claim before publication."] = "我们依据您工程师的材料与公认来源撰写，所有技术表述在发布前均经您的团队确认。";
   zh["Packaged plants, sludge dewatering, aeration and disinfection: design basis, footprint, energy use and commissioning support."] = "一体化水厂、污泥脱水、曝气与消毒：设计依据、占地、能耗与调试支持。";
   zh["Yes, as an OEM or ODM section that explains what you make for others and how, without naming customers who have not agreed."] = "可以，作为一个 OEM 或 ODM 板块，说明您为他人生产什么、如何生产，但不提未经同意的客户名称。";
@@ -16420,7 +16420,7 @@
   fr["Pumps and dosing"] = "Pompes et dosage";
 
   zh["Jiaxing’s exports held steady in 2025 while its high-tech output grew. Many of its suppliers sell into the Shanghai and Suzhou supply chains as well as abroad, so their buyers are often engineers and purchasing teams comparing specifications. Clear, specific websites win those comparisons. Foreign investment in its manufacturing also grew strongly in 2025, so many local suppliers now serve foreign-owned plants nearby as well as buyers abroad."] = "2025 年嘉兴出口保持稳定，高新技术产出增长。当地许多供应商既供应上海与苏州供应链，也出口海外，其买家往往是比对规格的工程师与采购团队。清晰、具体的网站能赢得这类比较。2025 年当地制造业外资也大幅增长，因此许多本地供应商如今既服务附近外资工厂，也服务海外买家。";
-  zh["Jiaxing lies between Shanghai, Hangzhou and Suzhou and makes electronics, chemicals and new materials, electrical and general equipment, and textiles and fashion goods. Its port’s container traffic grew faster than any other Zhejiang coastal port in 2025. Hurfi helps Jiaxing makers turn that position into overseas buyers."] = "嘉兴位于上海、杭州与苏州之间，生产电子、化工与新材料、电气与通用设备，以及纺织与时尚产品。2025 年其港口集装箱吞吐增速在浙江沿海港口中最快。Hurfi 帮助嘉兴制造商把这一区位优势转化为海外买家。";
+  zh["Jiaxing lies between Shanghai, Hangzhou and Suzhou and makes electronics, chemicals and new materials, electrical and general equipment, and textiles and fashion goods. Its port’s container traffic grew faster than any other Zhejiang coastal port in 2025. Hurfi helps Jiaxing makers turn that position into overseas buyers."] = "嘉兴位于上海、杭州与苏州之间，生产电子、化工与新材料、电气与通用设备，以及纺织与时尚产品。2025 年其港口集装箱吞吐增速在浙江沿海港口中较快。Hurfi 帮助嘉兴制造商把这一区位优势转化为海外买家。";
   zh["Infographic of four 2025 official figures for Jiaxing: 4.255 m TEU at Jiaxing port (+14.9%); 362.0 bn yuan of exports (+0.7%); 48.2% of exports were mechanical and electrical; +13.6% high-tech manufacturing."] = "嘉兴 2025 年四项官方数据的图表：嘉兴港 425.5 万 TEU（增长 14.9%）；出口 3,620 亿元（增长 0.7%）；机电产品占出口 48.2%；高新技术制造业增长 13.6%。";
   zh["Jiaxing’s exports to Belt and Road countries grew while total exports were flat. Buyers in those markets need clear English, certifications that match their rules and realistic shipping information."] = "嘉兴对共建“一带一路”国家的出口增长，而出口总额持平。这些市场的买家需要清晰的英语、符合其法规的认证与切合实际的运输信息。";
   zh["Hurfi does not have an office or staff in Jiaxing. We work with Jiaxing manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi 在嘉兴没有办公室或员工。我们通过微信、邮件与视频通话远程服务嘉兴制造商，办公室位于西安（陕西）与博古拉（孟加拉国）。";
@@ -16454,7 +16454,7 @@
   zh["Put specifications beside each product page and say which reports are available."] = "在产品页面旁附上规格，并说明可提供哪些报告。";
   zh["Describe your engineering team, sampling and how you handle new specifications."] = "介绍您的工程团队、打样以及如何处理新规格。";
   zh["Equipment buyers compare ratings, standards, type tests and service options."] = "设备买家会比较额定值、标准、型式试验与服务选项。";
-  zh["Campaigns built around your best products and markets, reported by inquiry."] = "围绕您最优质的产品与市场开展推广，并按询盘汇报。";
+  zh["Campaigns built around your best products and markets, reported by inquiry."] = "围绕您理想质的产品与市场开展推广，并按询盘汇报。";
   zh["Private firms made 65.5% of above-designated-size industrial value added."] = "民营企业占规模以上工业增加值的 65.5%。";
   zh["Explain how you serve customers in China and abroad, with terms for each."] = "说明您如何服务中国与海外客户，并分别列出条款。";
   zh["Publish a certifications page by market and link it from product pages."] = "按市场发布认证页面，并从产品页面链接过去。";
@@ -16589,7 +16589,7 @@
   zh["Automotive supply chains add their own layer. IATF 16949 certification is commonly required of suppliers to vehicle makers, and it is checked through the chain rather than accepted at face value. In regulated categories, medical devices or radio equipment for example, the split between design responsibility and manufacturing responsibility needs to be written down before the first sample."] = "汽车供应链还有一层要求。IATF 16949 认证通常是整车厂供应商的必备条件，而且会沿供应链核查，不会只看表面。在受监管类别，例如医疗器械或无线电设备，设计责任与制造责任的分工必须在首个样品之前以书面形式确定。";
   zh["OEM is a word with two live meanings. In the dictionary sense, the OEM is the company that sells the finished equipment. In sourcing, the OEM is the factory that builds to someone else's specification and brand. Decide which one is meant, write down who owns design, tooling and compliance, check certificate scope rather than logos, and publish the process in a form that survives an NDA."] = "OEM 是一个有两个现行含义的词。在词典意义上，OEM 是销售成品设备的公司。在采购中，OEM 是按他人规格和品牌生产的工厂。先确定指的是哪一种，写明谁拥有设计、模具和合规责任，核查证书范围而不是标志，并以能经受 NDA 的形式公开流程。";
   zh["Under EU product rules, the obligations attach to the party that places the product on the market under its name or trademark. When a brand owner commissions a factory, the brand owner is normally the manufacturer in the legal sense, even though it did not make the product. The CE marking, the technical file, the declaration of conformity and the importer details follow from that role."] = "根据欧盟产品规则，义务归属于以自身名称或商标将产品投放市场的一方。当品牌所有者委托工厂生产时，品牌所有者通常就是法律意义上的制造商，即使它并未亲自制造产品。CE 标志、技术文件、符合性声明和进口商信息都随之而来。";
-  zh["Both meanings are current. When a European brand owner says it is looking for an OEM manufacturer, it usually means a factory that will build its product. When a Chinese sales manager says “we are an OEM”, it usually means “we manufacture for other brands”. The words match; the assumptions often do not. Agree on the meaning in the first call, before drawings or prices are discussed."] = "两种含义都仍在使用。当欧洲品牌所有者说在找 OEM 制造商时，通常是指按它的产品进行生产的工厂。当中国销售经理说“我们是 OEM”时，通常是指“我们为其他品牌代工”。词是对上了，假设往往没有。在讨论图纸或价格之前，先在第一通电话里统一含义。";
+  zh["Both meanings are current. When a European brand owner says it is looking for an OEM manufacturer, it usually means a factory that will build its product. When a Chinese sales manager says “we are an OEM”, it usually means “we manufacture for other brands”. The words match; the assumptions often do not. Agree on the meaning in the first call, before drawings or prices are discussed."] = "两种含义都仍在使用。当欧洲品牌所有者说在找 OEM 制造商时，通常是指按它的产品进行生产的工厂。当中国销售经理说“我们是 OEM”时，通常是指“我们为其他品牌代工”。词是对上了，假设往往没有。在讨论图纸或价格之前，先在首通电话里统一含义。";
   zh["Choose OEM when the product is the differentiator and you need control over design, tooling and intellectual property. Choose ODM when speed to market matters more than exclusivity, or when you do not have the engineering resource to specify the product yourself. OBM is a different business: you are building a brand and competing with the customers you might otherwise serve."] = "当产品就是差异化所在，且你需要控制设计、模具和知识产权时，选择 OEM。当上市速度比排他性更重要，或你没有工程资源自行规定产品时，选择 ODM。OBM 是另一门生意：你在打造品牌，并与原本可能服务的客户竞争。";
   zh["The commercial difference is design risk and exclusivity. In a strict OEM project the buyer's specification, tooling and product should not appear in another customer's catalogue. In an ODM project the factory may offer the same platform to several buyers unless exclusivity is negotiated. That is why the model has to be named in the contract, not just in the brochure."] = "商业差别在于设计风险和排他性。在严格的 OEM 项目中，买家的规格、模具和产品不应出现在其他客户的目录里。在 ODM 项目中，除非谈妥排他性，工厂可以把同一平台提供给多个买家。这就是为什么模式必须写进合同，而不只是宣传册。";
   zh["An OEM order is a transfer of a specification, not just a purchase order. The buyer supplies drawings, tolerances, materials, surface finish, packaging and the market requirements the product has to meet. The factory supplies process capability, equipment, quality control, production capacity and a feedback loop when a tolerance is expensive or impossible to hold."] = "OEM 订单是规格的转移，而不只是一张采购订单。买家提供图纸、公差、材料、表面处理、包装以及产品必须满足的市场要求。工厂提供工艺能力、设备、质量控制、产能，以及在某个公差成本过高或无法实现时的反馈机制。";
@@ -16614,7 +16614,7 @@
   zh["Check which laboratory produced them and whether it is accredited to ISO/IEC 17025. Accreditation says the lab is competent for the test; it does not say the product passed every requirement."] = "核查报告由哪家实验室出具，以及该实验室是否获得 ISO/IEC 17025 认可。认可说明实验室具备该检测能力；并不说明产品通过了全部要求。";
   zh["A factory that never pushes back on a drawing is not necessarily competent. Early questions about tolerance, material substitution or test method usually save money later."] = "从不对图纸提出异议的工厂，未必有能力。关于公差、材料替代或测试方法的早期提问，通常能在日后省钱。";
   zh["The expensive mistake is choosing ODM for a product you intend to defend with patents, or choosing OEM when nobody on your side can approve a drawing change within a week."] = "代价高昂的错误是：为一个打算用专利保护的产品选择 ODM，或在己方无人能在一周内批准图纸变更时选择 OEM。";
-  zh["Require written notification and re-approval before a sub-supplier, material or process changes. Undisclosed changes are the most common source of failed batches."] = "在分供方、材料或工艺变更之前，要求书面通知并重新批准。未披露的变更是不合格批次最常见的原因。";
+  zh["Require written notification and re-approval before a sub-supplier, material or process changes. Undisclosed changes are the most common source of failed batches."] = "在分供方、材料或工艺变更之前，要求书面通知并重新批准。未披露的变更是不合格批次常见的原因。";
   zh["Say who owns the tool, where it is kept, who pays for maintenance, and what happens if you move. Tooling that cannot be transferred is leverage against you."] = "明确谁拥有模具、存放在哪里、谁承担维护费用，以及你搬走时怎么办。无法转移的模具就是对你的一种制约。";
   zh["Most disputes start with a word both sides thought they understood. Put these on one page and attach it to the NDA or the first quotation:"] = "多数争议始于双方都以为自己理解的词。把以下内容放在一页纸上，附在 NDA 或首份报价单后：";
   zh["the factory develops the design; the buyer selects it, may change branding and packaging, and sells it under the buyer's brand."] = "工厂负责开发设计；买家选择该设计，可更改品牌和包装，并以买家品牌销售。";
@@ -16646,7 +16646,7 @@
   zh["Sample approval method and the golden sample."] = "样品批准方式和黄金样品。";
   zh["Change-control rules and notification period."] = "变更控制规则和通知期限。";
   zh["covers the evidence buyers look for, and the"] = "的指南介绍了买家关注的证据，而";
-  zh["MOQ, lead time, Incoterms and payment terms."] = "最小起订量、交期、Incoterms 和付款条件。";
+  zh["MOQ, lead time, Incoterms and payment terms."] = "起订量、交期、Incoterms 和付款条件。";
   zh["What is the difference between OEM and ODM?"] = "OEM 与 ODM 有什么区别？";
   zh["Who is legally responsible for the product"] = "谁对产品承担法律责任";
   zh["Is the OEM factory the legal manufacturer?"] = "OEM 工厂是法定制造商吗？";
@@ -16791,15 +16791,15 @@
   zh["Goods trade was 1,050.86 billion yuan (+19.5%) and exports 921.29 billion yuan (+19.4%); 22,124 firms had import or export business, 4,376 more than a year earlier."] = "货物贸易额 10,508.6 亿元（增长 19.5%），出口 9,212.9 亿元（增长 19.4%）；有进出口业务的企业 22,124 家，比上年多 4,376 家。";
   zh["Market-procurement trade — the export method used by Yiwu’s market traders — accounted for 599.17 billion yuan of exports (+27.0%), and mechanical and electrical products 356.09 billion yuan (+21.4%)."] = "市场采购贸易——义乌市场商户采用的出口方式——完成出口 5,991.7 亿元（增长 27.0%）；机电产品出口 3,560.9 亿元（增长 21.4%）。";
   zh["Yiwu China Commodity City was built in 1982 and houses 75,000 stalls on more than 5.5 million square metres, according to the provincial portal."] = "据浙江省政府门户网站，义乌中国小商品城建于 1982 年，拥有超过 550 万平方米的营业面积，设 75,000 个摊位。";
-  zh["Most Jinhua exports still pass through Yiwu’s market system, where buyers meet sellers in person. But more buyers now search before they travel, and many never travel at all. Suppliers with their own clear website — product range, MOQs, packing and compliance — can be found and checked from anywhere."] = "金华大部分出口仍经由义乌市场体系完成，买卖双方在那里当面交易。但越来越多买家先搜索再出行，许多人根本不出行。拥有清晰独立网站的供应商——展示产品范围、最小起订量、包装与合规——可以被任何地方的买家找到并核查。";
+  zh["Most Jinhua exports still pass through Yiwu’s market system, where buyers meet sellers in person. But more buyers now search before they travel, and many never travel at all. Suppliers with their own clear website — product range, MOQs, packing and compliance — can be found and checked from anywhere."] = "金华大部分出口仍经由义乌市场体系完成，买卖双方在那里当面交易。但越来越多买家先搜索再出行，许多人根本不出行。拥有清晰独立网站的供应商——展示产品范围、起订量、包装与合规——可以被任何地方的买家找到并核查。";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Jinhua 2025 Statistical Bulletin; Zhejiang government portal (Yiwu)). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下方所列官方来源（金华 2025 年统计公报；浙江省政府门户网站，义乌）。数据描述城市整体情况，不涉及 Hurfi 的任何客户。";
   zh["Jinhua’s main industries and what buyers compare"] = "金华的主要产业与买家比较的要点";
   zh["Small commodities and consumer goods"] = "小商品与消费品";
-  zh["Wholesale buyers check range, MOQs, mixed-order rules, packaging and compliance tests per product type."] = "批发买家会按产品类型核查品类范围、最小起订量、混装规则、包装与合规检测。";
+  zh["Wholesale buyers check range, MOQs, mixed-order rules, packaging and compliance tests per product type."] = "批发买家会按产品类型核查品类范围、起订量、混装规则、包装与合规检测。";
   zh["Vehicle and parts buyers check platforms, quality systems and validation. Show them per product line."] = "整车与零部件买家会核查平台、质量体系与验证。请按产品线分别展示。";
   zh["Electronics buyers want specifications, certifications and OEM options in text they can compare."] = "电子产品买家希望以可比较的文字看到规格、认证与 OEM 选项。";
   zh["Tools and hardware"] = "工具与五金";
-  zh["Tool buyers search by type, power, size and standard. Model tables and certifications per market work best."] = "工具买家按类型、功率、尺寸与标准搜索。按市场列出的型号表与认证最有效。";
+  zh["Tool buyers search by type, power, size and standard. Model tables and certifications per market work best."] = "工具买家按类型、功率、尺寸与标准搜索。按市场列出的型号表与认证很有效。";
   zh["Packaging and printing"] = "包装与印刷";
   zh["Packaging buyers check materials, sizes, printing options and food-contact compliance where relevant."] = "包装产品买家会核查材料、尺寸、印刷选项，以及适用时的食品接触合规。";
   zh["Industrial zones and districts in Jinhua"] = "金华的工业区与片区";
@@ -16820,8 +16820,8 @@
   zh["Compliance not shown."] = "未展示合规信息。";
   zh["EU and US buyers check safety and testing first."] = "欧盟与美国买家首先核查安全与检测。";
   zh["Questions overseas buyers ask Jinhua suppliers"] = "海外买家向金华供应商提出的问题";
-  zh["What is the MOQ, and can we mix items?"] = "最小起订量是多少？可以混装吗？";
-  zh["Give MOQs per item and explain mixed-container rules."] = "按单品给出最小起订量，并说明混柜规则。";
+  zh["What is the MOQ, and can we mix items?"] = "起订量是多少？可以混装吗？";
+  zh["Give MOQs per item and explain mixed-container rules."] = "按单品给出起订量，并说明混柜规则。";
   zh["Do these products meet our market’s safety rules?"] = "这些产品符合我们市场的安全法规吗？";
   zh["Name the tests and certificates you hold per product and market."] = "按产品与市场列明你持有的检测报告与证书。";
   zh["Are you a manufacturer, a market trader or both?"] = "你们是制造商、市场商户，还是两者兼具？";
@@ -16832,7 +16832,7 @@
   zh["Describe payment methods, deposits and trade terms."] = "说明付款方式、定金与贸易条款。";
   zh["A website, SEO and RFQ playbook for Jinhua manufacturers"] = "面向金华制造商的网站、SEO 与询价手册";
   zh["Show what you actually make: factory or workshop photos, own designs and capacity, separate from items you source."] = "展示你实际生产的内容：工厂或车间照片、自有设计与产能，并与外购产品区分开。";
-  zh["Organise the range into clear categories with item pages, MOQs and packaging details buyers can compare."] = "把产品范围整理成清晰分类，配单品页面、最小起订量与买家可比较的包装信息。";
+  zh["Organise the range into clear categories with item pages, MOQs and packaging details buyers can compare."] = "把产品范围整理成清晰分类，配单品页面、起订量与买家可比较的包装信息。";
   zh["Publish a compliance page listing the tests and certificates you hold per market and product type."] = "发布合规页面，按市场与产品类型列出你持有的检测报告和证书。";
   zh["Explain ordering: samples, mixed orders, consolidation, inspection and payment, in one plain page."] = "用一页简明说明下单流程：样品、混装订单、拼柜、验货与付款。";
   zh[": real detail and real photos beat long keyword lists."] = "：真实的细节与真实照片胜过冗长的关键词列表。";
@@ -16841,7 +16841,7 @@
   zh["We build category and item pages that make a broad range easy to browse."] = "我们建立分类与单品页面，让庞杂的产品范围易于浏览。";
   zh["We write English ordering, compliance and company pages with your team."] = "我们与你的团队共同撰写英文的下单、合规与公司页面。";
   zh["We report inquiries by category and country from your own accounts."] = "我们基于你自己的账户，按品类与国家报告询盘情况。";
-  zh["Category and item pages for broad ranges, with MOQs, packing and compliance, plus a clear ordering page."] = "为庞杂产品范围建立分类与单品页面，包含最小起订量、包装与合规，并配清晰的订购页面。";
+  zh["Category and item pages for broad ranges, with MOQs, packing and compliance, plus a clear ordering page."] = "为庞杂产品范围建立分类与单品页面，包含起订量、包装与合规，并配清晰的订购页面。";
   zh["Searches for product types and materials in English and in the languages of the markets you serve."] = "用英语以及你所服务市场的语言，覆盖产品类型与材料的搜索。";
   zh["Campaigns for chosen categories in chosen countries, tracked to inquiries."] = "针对选定国家与品类的推广活动，并追踪至询盘。";
   zh["Posts that show new products, packing and shipments for wholesale buyers."] = "面向批发买家的帖子，展示新品、包装与出货。";
@@ -16851,14 +16851,14 @@
   zh["We have a market stall and a marketplace store. Why do we need a website?"] = "我们既有市场摊位，也有平台店铺。为什么还需要网站？";
   zh["Because buyers who search your company name should find you directly, with your full range and terms, not only a marketplace listing."] = "因为搜索你公司名称的买家应当直接找到你，看到完整的产品范围与条款，而不只是一条平台商品页。";
   zh["Our range has thousands of items. Can a website handle that?"] = "我们的产品有成千上万种。网站能承载吗？";
-  zh["Yes, with clear categories and item templates. We start with the categories that matter most and grow from there."] = "可以，依靠清晰的分类与单品模板。我们先从最重要的品类开始，再逐步扩展。";
+  zh["Yes, with clear categories and item templates. We start with the categories that matter most and grow from there."] = "可以，依靠清晰的分类与单品模板。我们先从尤为重要的品类开始，再逐步扩展。";
   zh["For wholesale, price ranges or price tiers can help. We follow what suits your business and market."] = "对批发业务而言，价格区间或阶梯价格会有帮助。我们根据你的业务与市场情况来决定。";
   zh["We make some items and source others. Is that a problem?"] = "我们有些产品自己生产，有些外购。这有问题吗？";
   zh["No, if you are honest about it. Buyers value a supplier that says clearly what it makes and what it sources."] = "没有问题，只要你如实说明。买家看重能清楚说明自产与外购的供应商。";
   zh["Can you build pages in Spanish, Arabic or Russian?"] = "你们能制作西班牙语、阿拉伯语或俄语页面吗？";
   zh["Can social media help a Yiwu supplier?"] = "社交媒体能帮助义乌供应商吗？";
   zh["Yes. Social media management includes posts that show new products, packing and shipments."] = "可以。社交媒体管理包括展示新品、包装与出货的帖子。";
-  zh["Book a free consultation and tell us which categories and markets matter most."] = "预约一次免费咨询，并告诉我们哪些品类与市场最重要。";
+  zh["Book a free consultation and tell us which categories and markets matter most."] = "预约一次免费咨询，并告诉我们哪些品类与市场尤为重要。";
   zh["Jinhua in the China directory"] = "中国目录中的金华";
   zh["Zhejiang Provincial Government English portal (ezhejiang.gov.cn, Yiwu)."] = "浙江省政府英文门户网站（ezhejiang.gov.cn，义乌）。";
   zh["Yiwu — Small Commodities Markets"] = "义乌——小商品市场";
@@ -16976,7 +16976,7 @@
   fr["Commercial and industrial battery storage sits behind the meter at a factory, warehouse, office or campus. It stores electricity when power is cheap or plentiful and discharges it when the site needs it, whether that is during expensive tariff periods, demand spikes, solar ramp-downs or grid outages."] = "Le stockage batteries commercial et industriel se situe derrière le compteur, dans une usine, un entrepôt, un bureau ou un campus. Il stocke l’électricité lorsque le prix est bas ou l’offre abondante, et la restitue lorsque le site en a besoin : périodes tarifaires chères, pointes de puissance, baisse de production solaire ou coupure du réseau.";
   zh["Most buyers have one of four jobs in mind: cut demand charges, shift solar generation, protect critical loads, or defer a grid upgrade. Each job changes the power rating, usable energy, controls and interconnection. Write the job in one sentence before comparing any quotes."] = "多数买家有四类目标之一：削减需量电费、转移光伏发电、保护关键负荷，或推迟电网扩容。每个目标都会改变功率等级、可用能量、控制和并网方式。比较任何报价前，先用一句话写清目标。";
   fr["Most buyers have one of four jobs in mind: cut demand charges, shift solar generation, protect critical loads, or defer a grid upgrade. Each job changes the power rating, usable energy, controls and interconnection. Write the job in one sentence before comparing any quotes."] = "La plupart des acheteurs visent l’un de quatre objectifs : réduire les factures de puissance, décaler la production solaire, protéger des charges critiques ou reporter une extension du réseau. Chaque objectif modifie la puissance, l’énergie utilisable, les contrôles et le raccordement. Rédigez l’objectif en une phrase avant de comparer des devis.";
-  zh["A credible proposal starts with at least twelve months of interval data, ideally at 15-minute resolution. The buyer should also provide the current tariff and contract, maximum demand, load shape, existing solar or generators, critical loads, single-line diagram, available footprint and the grid connection limit."] = "可信的方案应从至少十二个月的间隔数据开始，最好是 15 分钟分辨率。买家还应提供当前电价和合同、最大需量、负荷形态、现有光伏或发电机、关键负荷、单线图、可用占地和电网接入上限。";
+  zh["A credible proposal starts with at least twelve months of interval data, ideally at 15-minute resolution. The buyer should also provide the current tariff and contract, maximum demand, load shape, existing solar or generators, critical loads, single-line diagram, available footprint and the grid connection limit."] = "可信的方案应从至少十二个月的间隔数据开始，宜 15 分钟分辨率。买家还应提供当前电价和合同、需量峰值、负荷形态、现有光伏或发电机、关键负荷、单线图、可用占地和电网接入上限。";
   fr["A credible proposal starts with at least twelve months of interval data, ideally at 15-minute resolution. The buyer should also provide the current tariff and contract, maximum demand, load shape, existing solar or generators, critical loads, single-line diagram, available footprint and the grid connection limit."] = "Une proposition crédible commence par au moins douze mois de données d’intervalle, idéalement à 15 minutes. L’acheteur doit aussi fournir le tarif et le contrat actuels, la puissance maximale appelée, la forme de la courbe de charge, le solaire ou les groupes existants, les charges critiques, le schéma unifilaire, l’emprise disponible et la limite de raccordement au réseau.";
   zh["A system sized from an average monthly bill will usually be wrong. Demand charges depend on power over a short interval, backup depends on critical-load energy and start-up surges, and solar shifting depends on the generation profile. Better data produces a smaller, cheaper and more useful system."] = "按月均电费估算的系统容量通常是错的。需量电费取决于短时间内的功率，备电取决于关键负荷能量和启动冲击，光伏转移取决于发电曲线。数据越好，系统越小、越便宜、越有用。";
   fr["A system sized from an average monthly bill will usually be wrong. Demand charges depend on power over a short interval, backup depends on critical-load energy and start-up surges, and solar shifting depends on the generation profile. Better data produces a smaller, cheaper and more useful system."] = "Un système dimensionné à partir d’une facture mensuelle moyenne sera généralement faux. Les factures de puissance dépendent de la puissance sur un intervalle court, le secours dépend de l’énergie des charges critiques et des pointes de démarrage, et le décalage solaire dépend du profil de production. De meilleures données donnent un système plus petit, moins cher et plus utile.";
@@ -17014,7 +17014,7 @@
   fr["Hold retention until the test reports and required authority approvals are delivered. A commissioning checklist in the contract is more useful than a promise that the system will be “fully tested”."] = "Retenez la retenue de garantie jusqu’à la remise des rapports d’essai et des autorisations requises. Une liste de contrôle de mise en service au contrat est plus utile qu’une promesse de système « entièrement testé ».";
   zh["A good RFQ lets suppliers price the same scope. It should include the site data, the job the system must do, the required availability, the connection limits and the documents the buyer will use to accept the system."] = "好的询价让供应商按同一范围报价。询价应包含现场数据、系统必须完成的任务、所需可用率、接入限制，以及买家验收系统所用的文件。";
   fr["A good RFQ lets suppliers price the same scope. It should include the site data, the job the system must do, the required availability, the connection limits and the documents the buyer will use to accept the system."] = "Une bonne demande de prix permet aux fournisseurs de chiffrer le même périmètre. Elle doit inclure les données du site, l’objectif du système, la disponibilité requise, les limites de raccordement et les documents que l’acheteur utilisera pour accepter le système.";
-  zh["Load data, tariff, maximum demand and critical-load list."] = "负荷数据、电价、最大需量和关键负荷清单。";
+  zh["Load data, tariff, maximum demand and critical-load list."] = "负荷数据、电价、需量峰值和关键负荷清单。";
   fr["Load data, tariff, maximum demand and critical-load list."] = "Données de charge, tarif, puissance maximale et liste des charges critiques.";
   zh["Single-line diagram, site layout, ambient conditions and fire-access constraints."] = "单线图、现场布局、环境条件和消防通道限制。";
   fr["Single-line diagram, site layout, ambient conditions and fire-access constraints."] = "Schéma unifilaire, plan du site, conditions ambiantes et contraintes d’accès des secours.";
@@ -17032,7 +17032,7 @@
   fr["A request for the assumptions behind the sizing, not just the price."] = "Une demande des hypothèses de dimensionnement, pas seulement du prix.";
   zh["Buyers research before they contact a supplier. Publish the system architecture, battery and power-conversion specifications, certificate scope, fire-test summary, warranty summary, commissioning process, service coverage and an RFQ data sheet in HTML rather than only in a PDF catalogue."] = "买家在联系供应商前会先做研究。请用 HTML 发布系统架构、电池与功率变换规格、证书范围、防火测试摘要、质保摘要、调试流程、服务覆盖和询价数据表，而不是只放在 PDF 目录里。";
   fr["Buyers research before they contact a supplier. Publish the system architecture, battery and power-conversion specifications, certificate scope, fire-test summary, warranty summary, commissioning process, service coverage and an RFQ data sheet in HTML rather than only in a PDF catalogue."] = "Les acheteurs se renseignent avant de contacter un fournisseur. Publiez en HTML l’architecture du système, les spécifications de batterie et de conversion de puissance, le périmètre des certificats, le résumé des essais au feu, la garantie, le processus de mise en service, la couverture service et une fiche de données pour la demande de prix, plutôt que dans un catalogue PDF seulement.";
-  zh["A clear specification table and an RFQ form that asks for interval data, tariff and site constraints shorten the first exchange. Hurfi builds these buyer-facing pages for Chinese manufacturers, with the evidence a procurement team needs before it will open a technical discussion."] = "清晰的规格表和询价表，要求提供间隔数据、电价和现场限制，可以缩短第一次沟通。Hurfi 为中国制造商制作这类面向买家的页面，提供采购团队在开启技术讨论前所需的证据。";
+  zh["A clear specification table and an RFQ form that asks for interval data, tariff and site constraints shorten the first exchange. Hurfi builds these buyer-facing pages for Chinese manufacturers, with the evidence a procurement team needs before it will open a technical discussion."] = "清晰的规格表和询价表，要求提供间隔数据、电价和现场限制，可以缩短首次沟通。Hurfi 为中国制造商制作这类面向买家的页面，提供采购团队在开启技术讨论前所需的证据。";
   fr["A clear specification table and an RFQ form that asks for interval data, tariff and site constraints shorten the first exchange. Hurfi builds these buyer-facing pages for Chinese manufacturers, with the evidence a procurement team needs before it will open a technical discussion."] = "Un tableau de spécifications clair et un formulaire de demande qui collecte les données d’intervalle, le tarif et les contraintes du site raccourcissent le premier échange. Hurfi crée ces pages destinées aux acheteurs pour des fabricants chinois, avec les preuves dont une équipe achats a besoin avant d’ouvrir une discussion technique.";
   zh["Specification pages that separate nameplate, usable energy and warranted performance."] = "规格页应区分铭牌、可用能量和保证性能。";
   fr["Specification pages that separate nameplate, usable energy and warranted performance."] = "Des pages de spécifications qui distinguent puissance nominale, énergie utilisable et performance garantie.";
@@ -17040,7 +17040,7 @@
   fr["Certificate pages that show scope, edition and product model instead of a wall of logos."] = "Des pages de certificats qui montrent le périmètre, l’édition et le modèle, au lieu d’un mur de logos.";
   zh["Commissioning and service pages that answer the buyer’s post-order questions."] = "调试和服务页应回答买家下单后的问题。";
   fr["Commissioning and service pages that answer the buyer’s post-order questions."] = "Des pages de mise en service et de service qui répondent aux questions après commande.";
-  zh["RFQ forms that collect load data, tariffs and site constraints in the first message."] = "询价表应在第一封消息中收集负荷数据、电价和现场限制。";
+  zh["RFQ forms that collect load data, tariffs and site constraints in the first message."] = "询价表应在首封消息中收集负荷数据、电价和现场限制。";
   fr["RFQ forms that collect load data, tariffs and site constraints in the first message."] = "Des formulaires de demande qui collectent dès le premier message les données de charge, les tarifs et les contraintes du site.";
   zh["What size commercial battery storage do I need?"] = "我需要多大容量的商用电池储能？";
   fr["What size commercial battery storage do I need?"] = "Quelle taille de stockage batteries commercial me faut-il ?";
@@ -17064,7 +17064,7 @@
   fr["It can, but DDP requires the seller to clear import in the buyer’s country. Check who can act as importer of record, how dangerous-goods transport is handled, and who commissions the system before accepting DDP."] = "Oui, mais le DDP oblige le vendeur à dédouaner à l’import dans le pays de l’acheteur. Vérifiez qui peut être importateur enregistré, comment le transport de marchandises dangereuses est traité et qui met le système en service avant d’accepter le DDP.";
   zh["What should an RFQ for commercial storage include?"] = "商业储能询价应包含什么？";
   fr["What should an RFQ for commercial storage include?"] = "Que doit contenir une demande de prix pour du stockage commercial ?";
-  zh["Include interval load data, the tariff, maximum demand, critical loads, the single-line diagram, site constraints, required certificates, warranty terms, commissioning scope and the delivery destination."] = "包括间隔负荷数据、电价、最大需量、关键负荷、单线图、现场限制、所需证书、质保条款、调试范围和交货地点。";
+  zh["Include interval load data, the tariff, maximum demand, critical loads, the single-line diagram, site constraints, required certificates, warranty terms, commissioning scope and the delivery destination."] = "包括间隔负荷数据、电价、需量峰值、关键负荷、单线图、现场限制、所需证书、质保条款、调试范围和交货地点。";
   fr["Include interval load data, the tariff, maximum demand, critical loads, the single-line diagram, site constraints, required certificates, warranty terms, commissioning scope and the delivery destination."] = "Les données de charge par intervalle, le tarif, la puissance maximale, les charges critiques, le schéma unifilaire, les contraintes du site, les certificats requis, la garantie, le périmètre de mise en service et la destination de livraison.";
   zh["International Energy Agency (IEA)."] = "国际能源署（IEA）。";
   fr["International Energy Agency (IEA)."] = "Agence internationale de l’énergie (AIE).";
@@ -17112,7 +17112,7 @@
   fr["What a CNC supplier should publish"] = "Ce qu’un fournisseur CNC doit publier";
   zh["A CNC quote is a set of assumptions about drawing revision, material, tolerance, finish, inspection, quantity, packaging, lead time and delivery terms. When those assumptions differ, the headline price is not a like-for-like number."] = "CNC 报价是一组假设，涉及图纸版本、材料、公差、表面处理、检验、数量、包装、交期和交货条款。假设不同，标题价格就不是同等条件的数字。";
   fr["A CNC quote is a set of assumptions about drawing revision, material, tolerance, finish, inspection, quantity, packaging, lead time and delivery terms. When those assumptions differ, the headline price is not a like-for-like number."] = "Un devis CNC est un ensemble d’hypothèses sur l’indice du plan, la matière, la tolérance, la finition, le contrôle, la quantité, l’emballage, le délai et les conditions de livraison. Lorsque ces hypothèses diffèrent, le prix affiché n’est pas comparable.";
-  zh["The lowest quote is often the one with the narrowest scope: stock material instead of certified material, general tolerances instead of inspected critical dimensions, or a lead time that starts only after the material arrives. Make the assumptions visible before comparing price."] = "最低报价往往范围最窄：用库存材料代替有证材料，用一般公差代替关键尺寸检验，或交期从材料到货后才开始。比较价格前，先让假设可见。";
+  zh["The lowest quote is often the one with the narrowest scope: stock material instead of certified material, general tolerances instead of inspected critical dimensions, or a lead time that starts only after the material arrives. Make the assumptions visible before comparing price."] = "低价报价往往范围较窄：用库存材料代替有证材料，用一般公差代替关键尺寸检验，或交期从材料到货后才开始。比较价格前，先让假设可见。";
   fr["The lowest quote is often the one with the narrowest scope: stock material instead of certified material, general tolerances instead of inspected critical dimensions, or a lead time that starts only after the material arrives. Make the assumptions visible before comparing price."] = "Le devis le plus bas est souvent celui dont le périmètre est le plus étroit : matière en stock au lieu de matière certifiée, tolérances générales au lieu du contrôle des dimensions critiques, ou délai qui ne commence qu’à l’arrivée de la matière. Rendez les hypothèses visibles avant de comparer les prix.";
   zh["Send a 3D model for geometry and a 2D drawing for tolerances, notes, material, heat treatment and finish. State the drawing revision on every document, and include the quantity, target date, delivery destination and the quality documents required."] = "发送 3D 模型确定几何形状，2D 图纸确定公差、注释、材料、热处理和表面处理。每份文件都注明图纸版本，并写明数量、目标日期、交货地点和所需质量文件。";
   fr["Send a 3D model for geometry and a 2D drawing for tolerances, notes, material, heat treatment and finish. State the drawing revision on every document, and include the quantity, target date, delivery destination and the quality documents required."] = "Envoyez un modèle 3D pour la géométrie et un plan 2D pour les tolérances, notes, matière, traitement thermique et finition. Indiquez l’indice du plan sur chaque document, avec la quantité, la date cible, la destination et les documents qualité exigés.";
@@ -17138,7 +17138,7 @@
   fr["Confirm the alloy, temper, mill certificate, heat number, surface finish and coating thickness. Ask whether the material is bought to order or pulled from stock, and require written approval before any substitution."] = "Confirmez l’alliage, l’état, le certificat de laminoir, le numéro de coulée, la finition de surface et l’épaisseur du revêtement. Demandez si la matière est achetée sur commande ou prise en stock, et exigez une approbation écrite avant toute substitution.";
   zh["For regulated products, add traceability, first-article inspection and production-part approval to the scope. A material certificate that does not match the heat number on the parts is not traceability."] = "受监管产品还要把可追溯性、首件检验和生产件批准纳入范围。材料证书与零件炉号不一致，就不算可追溯。";
   fr["For regulated products, add traceability, first-article inspection and production-part approval to the scope. A material certificate that does not match the heat number on the parts is not traceability."] = "Pour les produits réglementés, ajoutez au périmètre la traçabilité, le contrôle de la première pièce et l’approbation des pièces de production. Un certificat matière qui ne correspond pas au numéro de coulée des pièces n’est pas de la traçabilité.";
-  zh["Ask what inspection is included in the unit price: first article, in-process checks, final dimensional report, thread gauges, surface-roughness checks, material certificates and packing inspection. Agree the sampling level and who pays for third-party inspection."] = "询问单价包含哪些检验：首件、过程检查、最终尺寸报告、螺纹规、表面粗糙度检查、材料证书和包装检查。约定抽样水平，以及第三方检验由谁付费。";
+  zh["Ask what inspection is included in the unit price: first article, in-process checks, final dimensional report, thread gauges, surface-roughness checks, material certificates and packing inspection. Agree the sampling level and who pays for third-party inspection."] = "询问单价包含哪些检验：首件、过程检查、终检尺寸报告、螺纹规、表面粗糙度检查、材料证书和包装检查。约定抽样水平，以及第三方检验由谁付费。";
   fr["Ask what inspection is included in the unit price: first article, in-process checks, final dimensional report, thread gauges, surface-roughness checks, material certificates and packing inspection. Agree the sampling level and who pays for third-party inspection."] = "Demandez quels contrôles sont inclus dans le prix unitaire : première pièce, contrôles en cours, rapport dimensionnel final, jauges de filetage, contrôle de rugosité, certificats matière et contrôle de l’emballage. Convenez du niveau d’échantillonnage et de qui paie le contrôle par un tiers.";
   zh["ISO 9001:2026 is a quality management system standard, not a product certification [3]. Check the certificate’s scope and validity, then verify the actual inspection records for the order. A logo on a website is not evidence that a specific batch was measured."] = "ISO 9001:2026 是质量管理体系标准，不是产品认证 [3]。核对证书范围和有效期，再查看该订单的实际检验记录。网站上的标志不能证明某一批次经过测量。";
   fr["ISO 9001:2026 is a quality management system standard, not a product certification [3]. Check the certificate’s scope and validity, then verify the actual inspection records for the order. A logo on a website is not evidence that a specific batch was measured."] = "ISO 9001:2026 est une norme de système de management de la qualité, pas une certification produit [3]. Vérifiez le périmètre et la validité du certificat, puis les enregistrements de contrôle réels de la commande. Un logo sur un site ne prouve pas qu’un lot précis a été mesuré.";
@@ -17148,7 +17148,7 @@
   fr["Request prices at realistic quantity bands to see how the setup cost is amortized. Ask who owns custom fixtures, whether they are dedicated to the buyer, and what happens to them if production moves."] = "Demandez des prix par paliers de quantité réalistes pour voir comment le coût de mise en route est amorti. Demandez à qui appartiennent les montages sur mesure, s’ils sont dédiés à l’acheteur et ce qu’ils deviennent si la production est transférée.";
   zh["A quoted lead time can mean machining only, machining after material arrives, or delivery after drawing approval. Ask for the production lead time after drawing and first-article approval, and confirm the capacity reserved for the order."] = "报价交期可能只指加工，也可能指材料到货后加工，或图纸批准后交货。要求给出图纸和首件批准后的生产交期，并确认已为该订单预留产能。";
   fr["A quoted lead time can mean machining only, machining after material arrives, or delivery after drawing approval. Ask for the production lead time after drawing and first-article approval, and confirm the capacity reserved for the order."] = "Un délai annoncé peut signifier l’usinage seul, l’usinage après réception de la matière, ou la livraison après approbation du plan. Demandez le délai de production après approbation du plan et de la première pièce, et confirmez la capacité réservée à la commande.";
-  zh["Compare Ex Works, FOB and DAP quotes under Incoterms 2020, then add freight, insurance, duty, clearance, packaging and the cost of the buyer’s own inspection. The lowest ex-works price can be the highest landed cost."] = "按 Incoterms 2020 比较 Ex Works、FOB 和 DAP 报价，再加上运费、保险、关税、清关、包装和买家自行检验的成本。最低的出厂价可能是最高的到岸成本。";
+  zh["Compare Ex Works, FOB and DAP quotes under Incoterms 2020, then add freight, insurance, duty, clearance, packaging and the cost of the buyer’s own inspection. The lowest ex-works price can be the highest landed cost."] = "按 Incoterms 2020 比较 Ex Works、FOB 和 DAP 报价，再加上运费、保险、关税、清关、包装和买家自行检验的成本。较低的出厂价可能是更高的到岸成本。";
   fr["Compare Ex Works, FOB and DAP quotes under Incoterms 2020, then add freight, insurance, duty, clearance, packaging and the cost of the buyer’s own inspection. The lowest ex-works price can be the highest landed cost."] = "Comparez les devis Ex Works, FOB et DAP selon Incoterms 2020, puis ajoutez le fret, l’assurance, les droits, le dédouanement, l’emballage et le coût du contrôle par l’acheteur. Le prix départ usine le plus bas peut être le coût rendu le plus élevé.";
   zh["Set the weights before seeing prices: scope completeness, tolerance capability, material traceability, inspection, lead time, communication, price and payment terms. Score each quote against the same evidence and keep the assumptions beside the score."] = "看价格前先设定权重：范围完整性、公差能力、材料可追溯性、检验、交期、沟通、价格和付款条件。用同一套证据给每份报价打分，并把假设放在分数旁边。";
   fr["Set the weights before seeing prices: scope completeness, tolerance capability, material traceability, inspection, lead time, communication, price and payment terms. Score each quote against the same evidence and keep the assumptions beside the score."] = "Fixez les pondérations avant de voir les prix : exhaustivité du périmètre, capabilité de tolérance, traçabilité matière, contrôle, délai, communication, prix et conditions de paiement. Notez chaque devis sur les mêmes preuves et gardez les hypothèses à côté de la note.";
@@ -17186,7 +17186,7 @@
   fr["Suppliers make different assumptions about material, tolerance, finish, inspection, quantity, lead time and delivery terms. Compare the scope before comparing the price."] = "Les fournisseurs font des hypothèses différentes sur la matière, la tolérance, la finition, le contrôle, la quantité, le délai et les conditions de livraison. Comparez le périmètre avant le prix.";
   zh["What is a fair MOQ for CNC machining?"] = "CNC 加工的合理 MOQ 是多少？";
   fr["What is a fair MOQ for CNC machining?"] = "Quel est un MOQ raisonnable en usinage CNC ?";
-  zh["There is no universal MOQ. Setup and programming dominate small lots, so ask for the quantity break where the unit price stabilises and check whether material has a minimum order."] = "没有统一 MOQ。小批量主要受调试和编程成本影响，所以要问清单价趋于稳定时的数量台阶，并确认材料是否有最小起订量。";
+  zh["There is no universal MOQ. Setup and programming dominate small lots, so ask for the quantity break where the unit price stabilises and check whether material has a minimum order."] = "没有统一 MOQ。小批量主要受调试和编程成本影响，所以要问清单价趋于稳定时的数量台阶，并确认材料是否有起订量。";
   fr["There is no universal MOQ. Setup and programming dominate small lots, so ask for the quantity break where the unit price stabilises and check whether material has a minimum order."] = "Il n’existe pas de MOQ universel. La mise en route et la programmation dominent les petits lots ; demandez le palier où le prix unitaire se stabilise et vérifiez si la matière a un minimum de commande.";
   zh["How do I check a supplier’s tolerance capability?"] = "如何检查供应商的公差能力？";
   fr["How do I check a supplier’s tolerance capability?"] = "Comment vérifier la capabilité de tolérance d’un fournisseur ?";
@@ -17208,7 +17208,7 @@
   fr["What Incoterms 2020 do not decide"] = "Ce que les Incoterms 2020 ne décident pas";
   zh["Incoterms allocate costs, risks and tasks between seller and buyer. They do not transfer title to the goods, set payment terms, govern product liability or override mandatory law [1]. A contract that names CIF but says nothing about title leaves ownership to the sale contract, not to the trade term."] = "Incoterms 在买卖双方之间分配费用、风险和任务。它们不转移货物所有权，不规定付款条件，不处理产品责任，也不能凌驾于强制性法律之上 [1]。合同写明 CIF 却只字不提所有权，所有权仍由买卖合同决定，而不是由贸易术语决定。";
   fr["Incoterms allocate costs, risks and tasks between seller and buyer. They do not transfer title to the goods, set payment terms, govern product liability or override mandatory law [1]. A contract that names CIF but says nothing about title leaves ownership to the sale contract, not to the trade term."] = "Les Incoterms répartissent les coûts, les risques et les tâches entre vendeur et acheteur. Ils ne transfèrent pas la propriété des marchandises, ne fixent pas les conditions de paiement, ne régissent pas la responsabilité du produit et ne priment pas sur la loi impérative [1]. Un contrat qui cite CIF sans rien dire de la propriété laisse celle-ci au contrat de vente, pas au terme commercial.";
-  zh["CIF and CIP require the seller to arrange insurance, but the minimum cover is Institute Cargo Clauses (C), which is narrower than many buyers assume [1]. If the buyer needs all-risk cover, the contract has to say so and allocate the premium."] = "CIF 和 CIP 要求卖方安排保险，但最低承保范围是《协会货物条款》(C)，比许多买家以为的要窄 [1]。如果买家需要一切险，合同必须写明，并分配保费。";
+  zh["CIF and CIP require the seller to arrange insurance, but the minimum cover is Institute Cargo Clauses (C), which is narrower than many buyers assume [1]. If the buyer needs all-risk cover, the contract has to say so and allocate the premium."] = "CIF 和 CIP 要求卖方安排保险，但基本承保范围是《协会货物条款》(C)，比许多买家以为的要窄 [1]。如果买家需要一切险，合同必须写明，并分配保费。";
   fr["CIF and CIP require the seller to arrange insurance, but the minimum cover is Institute Cargo Clauses (C), which is narrower than many buyers assume [1]. If the buyer needs all-risk cover, the contract has to say so and allocate the premium."] = "CIF et CIP obligent le vendeur à organiser l’assurance, mais la couverture minimale est celle des Institute Cargo Clauses (C), plus étroite que beaucoup d’acheteurs ne le pensent [1]. Si l’acheteur veut une couverture tous risques, le contrat doit le prévoir et répartir la prime.";
   zh["FOB risk passes when the goods are on board the vessel; for containerised cargo handed to a carrier at a terminal, FCA often matches the physical handover better [1]. DDP makes the seller responsible for import clearance, which may be impossible where a non-resident cannot act as importer of record; DAP can be the workable alternative."] = "FOB 的风险在货物装上船时转移；对于在码头交给承运人的集装箱货物，FCA 往往更符合实际交接 [1]。DDP 让卖方负责进口清关，但在非居民无法担任进口记录人的地方可能不可行；DAP 可能是可行的替代方案。";
   fr["FOB risk passes when the goods are on board the vessel; for containerised cargo handed to a carrier at a terminal, FCA often matches the physical handover better [1]. DDP makes the seller responsible for import clearance, which may be impossible where a non-resident cannot act as importer of record; DAP can be the workable alternative."] = "Avec FOB, le risque passe lorsque les marchandises sont à bord du navire ; pour du fret conteneurisé remis à un transporteur au terminal, FCA correspond souvent mieux à la remise physique [1]. Avec DDP, le vendeur se charge du dédouanement à l’import, ce qui peut être impossible lorsqu’un non-résident ne peut pas être importateur enregistré ; DAP peut être l’alternative praticable.";
@@ -17340,7 +17340,7 @@
   fr["Plan language versions (for example Russian, Spanish or Arabic) only where you have customers and support."] = "Ne prévoyez de versions linguistiques (par exemple russe, espagnol ou arabe) que là où vous avez des clients et du support.";
   zh["How Hurfi helps Weifang manufacturers"] = "Hurfi 如何帮助潍坊制造商";
   fr["How Hurfi helps Weifang manufacturers"] = "Comment Hurfi aide les fabricants de Weifang";
-  zh["We structure the site around product families, service and applications, the questions buyers ask first."] = "我们围绕产品系列、服务和应用，以及买家最先提出的问题来组织网站结构。";
+  zh["We structure the site around product families, service and applications, the questions buyers ask first."] = "我们围绕产品系列、服务和应用，以及买家首先提出的问题来组织网站结构。";
   fr["We structure the site around product families, service and applications, the questions buyers ask first."] = "Nous structurons le site autour des familles de produits, du service et des applications, les questions que les acheteurs posent en premier.";
   zh["We write English technical pages with your engineers and get every claim approved."] = "我们与你们的工程师共同撰写英文技术页面，并确保每项表述都经过确认。";
   fr["We write English technical pages with your engineers and get every claim approved."] = "Nous rédigeons les pages techniques en anglais avec vos ingénieurs et faisons valider chaque affirmation.";
@@ -17430,7 +17430,7 @@
   fr["Marine buyers check classification-society approvals, delivered projects and yard capability. Give dates and scope for every reference."] = "Les acheteurs marins vérifient les approbations des sociétés de classification, les projets livrés et la capacité du chantier. Indiquez les dates et le périmètre de chaque référence.";
   zh["Textiles and garments"] = "纺织品与服装";
   fr["Textiles and garments"] = "Textiles et vêtements";
-  zh["Textile buyers compare fibre content, weights, finishes, test standards and MOQs per collection."] = "纺织买家会按系列比较纤维成分、克重、后整理、测试标准和最小起订量。";
+  zh["Textile buyers compare fibre content, weights, finishes, test standards and MOQs per collection."] = "纺织买家会按系列比较纤维成分、克重、后整理、测试标准和起订量。";
   fr["Textile buyers compare fibre content, weights, finishes, test standards and MOQs per collection."] = "Les acheteurs de textiles comparent la composition des fibres, les grammages, les finitions, les normes d’essai et les MOQ, collection par collection.";
   zh["Chemical fibre and materials"] = "化学纤维与材料";
   fr["Chemical fibre and materials"] = "Fibre chimique et matériaux";
@@ -17486,9 +17486,9 @@
   fr["What is the fibre content and test standard?"] = "Quelle est la composition de la fibre et la norme d’essai ?";
   zh["Put composition, weights and test standards on each fabric or fibre page."] = "在每个面料或纤维页面标明成分、克重和测试标准。";
   fr["Put composition, weights and test standards on each fabric or fibre page."] = "Indiquez la composition, les grammages et les normes d’essai sur chaque page de tissu ou de fibre.";
-  zh["What MOQ and lead time apply?"] = "最小起订量和交期是多少？";
+  zh["What MOQ and lead time apply?"] = "起订量和交期是多少？";
   fr["What MOQ and lead time apply?"] = "Quels MOQ et délais s’appliquent ?";
-  zh["State realistic MOQs and lead times per product family."] = "按产品系列说明现实可行的最小起订量和交期。";
+  zh["State realistic MOQs and lead times per product family."] = "按产品系列说明现实可行的起订量和交期。";
   fr["State realistic MOQs and lead times per product family."] = "Indiquez des MOQ et des délais réalistes par famille de produits.";
   zh["How do you ship from Nantong?"] = "你们如何从南通发货？";
   fr["How do you ship from Nantong?"] = "Comment expédiez-vous depuis Nantong ?";
@@ -17538,7 +17538,7 @@
   fr["Buyers and engineers research suppliers online before short-listing. A site with approvals and references supports every bid."] = "Les acheteurs et les ingénieurs recherchent les fournisseurs en ligne avant de présélectionner. Un site avec approbations et références soutient chaque appel d’offres.";
   zh["We are a textile maker. What should the site show?"] = "我们是纺织制造商。网站应该展示什么？";
   fr["We are a textile maker. What should the site show?"] = "Nous sommes un fabricant de textiles. Que doit montrer le site ?";
-  zh["Collections, fibre content, weights, finishes, test standards, MOQs and real product photos."] = "系列、纤维成分、克重、后整理、测试标准、最小起订量和真实产品照片。";
+  zh["Collections, fibre content, weights, finishes, test standards, MOQs and real product photos."] = "系列、纤维成分、克重、后整理、测试标准、起订量和真实产品照片。";
   fr["Collections, fibre content, weights, finishes, test standards, MOQs and real product photos."] = "Les collections, la composition des fibres, les grammages, les finitions, les normes d’essai, les MOQ et de vraies photos de produits.";
   zh["Can one website serve both equipment and textile buyers?"] = "一个网站能同时服务设备买家和纺织买家吗？";
   fr["Can one website serve both equipment and textile buyers?"] = "Un seul site peut-il servir à la fois les acheteurs d’équipements et de textiles ?";
@@ -17588,7 +17588,7 @@
   fr["954 Huizhou firms held China Compulsory Certification (CCC) for their products."] = "954 entreprises de Huizhou détenaient la certification chinoise obligatoire (CCC) pour leurs produits.";
   zh["Medical instruments and instrumentation grew 11.2% and advanced equipment manufacturing 15.9%."] = "医疗器械和仪器仪表增长 11.2%，先进装备制造业增长 15.9%。";
   fr["Medical instruments and instrumentation grew 11.2% and advanced equipment manufacturing 15.9%."] = "Les instruments et appareils médicaux ont progressé de 11,2 % et la fabrication d’équipements avancés de 15,9 %.";
-  zh["Huizhou’s exporters are mostly in electronics and electrical products, where buyers compare datasheets, certifications and capacity line by line. Its chemical and materials makers sell on grades and documents. In both cases the website has to do the explaining that a sales visit would otherwise do. Huizhou’s trade with Europe grew faster than its total in 2025, and European buyers are among the most demanding about documentation."] = "惠州的出口商主要集中在电子和电气产品领域，买家会逐项比较数据表、认证和产能。当地的化工和材料制造商则依靠牌号和文件完成销售。无论哪种情况，网站都必须承担原本靠拜访才能完成的解释工作。2025 年惠州对欧洲贸易增速高于整体，而欧洲买家对文件资料的要求最为严格。";
+  zh["Huizhou’s exporters are mostly in electronics and electrical products, where buyers compare datasheets, certifications and capacity line by line. Its chemical and materials makers sell on grades and documents. In both cases the website has to do the explaining that a sales visit would otherwise do. Huizhou’s trade with Europe grew faster than its total in 2025, and European buyers are among the most demanding about documentation."] = "惠州的出口商主要集中在电子和电气产品领域，买家会逐项比较数据表、认证和产能。当地的化工和材料制造商则依靠牌号和文件完成销售。无论哪种情况，网站都必须承担原本靠拜访才能完成的解释工作。2025 年惠州对欧洲贸易增速高于整体，而欧洲买家对文件资料的要求尤为严格。";
   fr["Huizhou’s exporters are mostly in electronics and electrical products, where buyers compare datasheets, certifications and capacity line by line. Its chemical and materials makers sell on grades and documents. In both cases the website has to do the explaining that a sales visit would otherwise do. Huizhou’s trade with Europe grew faster than its total in 2025, and European buyers are among the most demanding about documentation."] = "Les exportateurs de Huizhou sont surtout présents dans l’électronique et les produits électriques, où les acheteurs comparent fiches techniques, certifications et capacités ligne par ligne. Ses fabricants de produits chimiques et de matériaux vendent sur les grades et les documents. Dans les deux cas, le site doit fournir les explications qu’une visite commerciale apporterait autrement. Le commerce de Huizhou avec l’Europe a progressé plus vite que son total en 2025, et les acheteurs européens comptent parmi les plus exigeants en matière de documentation.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Huizhou Statistics Bureau, 2025 Statistical Bulletin; Huizhou Daily, citing customs statistics). Figures describe the city, not any Hurfi client."] = "Hurfi 制作的信息图，数据来自下方列出的官方来源（惠州市统计局，2025 年统计公报；《惠州日报》引用海关统计数据）。数据描述的是城市，而非 Hurfi 的任何客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Huizhou Statistics Bureau, 2025 Statistical Bulletin; Huizhou Daily, citing customs statistics). Figures describe the city, not any Hurfi client."] = "Infographie réalisée par Hurfi à partir des sources officielles ci-dessous (Bureau des statistiques de Huizhou, bulletin statistique 2025 ; Huizhou Daily, citant les statistiques douanières). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -17652,7 +17652,7 @@
   fr["List certificates by market with scope and model coverage, and keep them current."] = "Listez les certificats par marché avec leur périmètre et les modèles couverts, et tenez-les à jour.";
   zh["Can you build to our design?"] = "你们能按我们的设计生产吗？";
   fr["Can you build to our design?"] = "Pouvez-vous fabriquer selon notre conception ?";
-  zh["Explain your OEM/ODM process, minimum orders and how you protect customer designs."] = "说明你们的 OEM/ODM 流程、最低订单量以及如何保护客户设计。";
+  zh["Explain your OEM/ODM process, minimum orders and how you protect customer designs."] = "说明你们的 OEM/ODM 流程、起订量以及如何保护客户设计。";
   fr["Explain your OEM/ODM process, minimum orders and how you protect customer designs."] = "Expliquez votre processus OEM/ODM, les quantités minimales et la manière dont vous protégez les conceptions des clients.";
   zh["Give realistic capacity ranges and lead times per product family."] = "按产品系列给出真实可行的产能范围和交期。";
   fr["Give realistic capacity ranges and lead times per product family."] = "Indiquez des plages de capacité et des délais réalistes par famille de produits.";
@@ -17676,7 +17676,7 @@
   fr["where it fits the page and the facts are real."] = "lorsque cela convient à la page et que les faits sont réels.";
   zh["Show the factory, lines and test equipment with your own photos and short captions."] = "用你们自己的照片和简短说明展示工厂、生产线和检测设备。";
   fr["Show the factory, lines and test equipment with your own photos and short captions."] = "Montrez l’usine, les lignes et les équipements d’essai avec vos propres photos et de courtes légendes.";
-  zh["Track RFQs by product family and country from the first week."] = "从第一周起就按产品系列和国家跟踪询盘。";
+  zh["Track RFQs by product family and country from the first week."] = "从首周起就按产品系列和国家跟踪询盘。";
   fr["Track RFQs by product family and country from the first week."] = "Suivez les demandes par famille de produits et par pays dès la première semaine.";
   zh["How Hurfi helps Huizhou manufacturers"] = "Hurfi 如何帮助惠州制造商";
   fr["How Hurfi helps Huizhou manufacturers"] = "Comment Hurfi aide les fabricants de Huizhou";
@@ -17704,7 +17704,7 @@
   fr["Yes. Show capabilities, processes, certifications and anonymised examples without naming customers you are not allowed to name."] = "Oui. Montrez les capacités, les processus, les certifications et des exemples anonymisés sans nommer des clients que vous n’êtes pas autorisé à citer.";
   zh["Our products have hundreds of models. Where do we start?"] = "我们的产品有数百个型号。应该从哪里开始？";
   fr["Our products have hundreds of models. Where do we start?"] = "Nos produits comptent des centaines de modèles. Par où commencer ?";
-  zh["With the families that bring the most valuable inquiries. We build a clear template and add models in batches."] = "从带来最有价值询盘的产品系列开始。我们建立清晰的模板，再分批添加型号。";
+  zh["With the families that bring the most valuable inquiries. We build a clear template and add models in batches."] = "从带来很有价值询盘的产品系列开始。我们建立清晰的模板，再分批添加型号。";
   fr["With the families that bring the most valuable inquiries. We build a clear template and add models in batches."] = "Par les familles qui génèrent les demandes les plus précieuses. Nous créons un modèle clair et ajoutons les modèles par lots.";
   zh["Do we need separate pages for each certification?"] = "每种认证都需要单独页面吗？";
   fr["Do we need separate pages for each certification?"] = "Faut-il une page distincte pour chaque certification ?";
@@ -17766,7 +17766,7 @@
   fr["Shaoxing’s main industries and what buyers compare"] = "Les principales industries de Shaoxing et ce que comparent les acheteurs";
   zh["Printed and dyed fabrics"] = "印染面料";
   fr["Printed and dyed fabrics"] = "Tissus imprimés et teints";
-  zh["Fabric buyers compare composition, weight, width, finish, colourfastness and test standards, plus MOQ and sampling. Put them on every article page."] = "面料买家会比较成分、克重、幅宽、后整理、色牢度和测试标准，以及最小起订量和打样。每个产品页面都要列出这些信息。";
+  zh["Fabric buyers compare composition, weight, width, finish, colourfastness and test standards, plus MOQ and sampling. Put them on every article page."] = "面料买家会比较成分、克重、幅宽、后整理、色牢度和测试标准，以及起订量和打样。每个产品页面都要列出这些信息。";
   fr["Fabric buyers compare composition, weight, width, finish, colourfastness and test standards, plus MOQ and sampling. Put them on every article page."] = "Les acheteurs de tissus comparent la composition, le grammage, la laize, la finition, la solidité des couleurs et les normes d’essai, ainsi que le MOQ et l’échantillonnage. Indiquez-les sur chaque page d’article.";
   zh["Chemical fibre"] = "化学纤维";
   fr["Chemical fibre"] = "Fibre chimique";
@@ -17808,7 +17808,7 @@
   fr["Buyers need close-ups and true colours."] = "Les acheteurs ont besoin de gros plans et de couleurs fidèles.";
   zh["No sampling information."] = "没有打样信息。";
   fr["No sampling information."] = "Aucune information sur l’échantillonnage.";
-  zh["It is usually the buyer’s first question."] = "这通常是买家的第一个问题。";
+  zh["It is usually the buyer’s first question."] = "这通常是买家的首个问题。";
   fr["It is usually the buyer’s first question."] = "C’est généralement la première question de l’acheteur.";
   zh["Everything on one page."] = "所有内容挤在一个页面。";
   fr["Everything on one page."] = "Tout sur une seule page.";
@@ -17824,9 +17824,9 @@
   fr["What is the composition, weight and colourfastness?"] = "Quelle est la composition, le grammage et la solidité des couleurs ?";
   zh["List them on every fabric page, with the test standards used."] = "在每个面料页面列出这些信息，并注明采用的测试标准。";
   fr["List them on every fabric page, with the test standards used."] = "Indiquez-les sur chaque page de tissus, avec les normes d’essai utilisées.";
-  zh["What MOQ per colour do you accept?"] = "每种颜色能接受的最小起订量是多少？";
+  zh["What MOQ per colour do you accept?"] = "每种颜色能接受的起订量是多少？";
   fr["What MOQ per colour do you accept?"] = "Quel MOQ par couleur acceptez-vous ?";
-  zh["State MOQ per article and per colour honestly."] = "如实标明每个花型和每种颜色的最小起订量。";
+  zh["State MOQ per article and per colour honestly."] = "如实标明每个花型和每种颜色的起订量。";
   fr["State MOQ per article and per colour honestly."] = "Indiquez honnêtement le MOQ par article et par couleur.";
   zh["Which test reports and certificates do you hold?"] = "你们持有哪些测试报告和认证？";
   fr["Which test reports and certificates do you hold?"] = "Quels rapports d’essai et certificats détenez-vous ?";
@@ -17844,7 +17844,7 @@
   fr["A website, SEO and RFQ playbook for Shaoxing manufacturers"] = "Un guide site web, SEO et demande de devis pour les fabricants de Shaoxing";
   zh["Build an article catalogue in HTML: one page per fabric family with composition, weight, width, finish and tests."] = "用 HTML 建立产品目录：每个面料系列一个页面，列出成分、克重、幅宽、后整理和测试。";
   fr["Build an article catalogue in HTML: one page per fabric family with composition, weight, width, finish and tests."] = "Créez un catalogue d’articles en HTML : une page par famille de tissus avec composition, grammage, laize, finition et tests.";
-  zh["Explain sampling, MOQ and lead times on a single page linked from every article."] = "用单独页面说明打样、最小起订量和交期，并从每个产品页链接过去。";
+  zh["Explain sampling, MOQ and lead times on a single page linked from every article."] = "用单独页面说明打样、起订量和交期，并从每个产品页链接过去。";
   fr["Explain sampling, MOQ and lead times on a single page linked from every article."] = "Expliquez l’échantillonnage, le MOQ et les délais sur une seule page, reliée depuis chaque article.";
   zh["Show real fabric photos with close-ups, not stock images."] = "使用真实面料照片和特写，不要用图库图片。";
   fr["Show real fabric photos with close-ups, not stock images."] = "Montrez de vraies photos de tissus avec des gros plans, pas des images de banque d’images.";
@@ -17880,9 +17880,9 @@
   fr["Because many buyers never visit. They search, compare and request samples online — from suppliers whose pages give them the facts."] = "Parce que de nombreux acheteurs ne viennent jamais. Ils recherchent, comparent et demandent des échantillons en ligne — auprès des fournisseurs dont les pages donnent les faits.";
   zh["We have thousands of fabric articles. Can the site handle that?"] = "我们有数千种面料花型。网站能承载吗？";
   fr["We have thousands of fabric articles. Can the site handle that?"] = "Nous avons des milliers d’articles de tissus. Le site peut-il gérer cela ?";
-  zh["Yes, with a clear template and categories. We start with the families that sell best and add articles in batches."] = "可以，前提是清晰的模板和分类。我们先从销量最好的系列开始，再分批添加花型。";
+  zh["Yes, with a clear template and categories. We start with the families that sell best and add articles in batches."] = "可以，前提是清晰的模板和分类。我们先从销量出色的系列开始，再分批添加花型。";
   fr["Yes, with a clear template and categories. We start with the families that sell best and add articles in batches."] = "Oui, avec un modèle et des catégories clairs. Nous commençons par les familles qui se vendent le mieux et ajoutons les articles par lots.";
-  zh["Usually not exact prices, but MOQ, sampling and lead-time information builds confidence."] = "通常不会给出精确价格，但最小起订量、打样和交期信息能建立信心。";
+  zh["Usually not exact prices, but MOQ, sampling and lead-time information builds confidence."] = "通常不会给出精确价格，但起订量、打样和交期信息能建立信心。";
   fr["Usually not exact prices, but MOQ, sampling and lead-time information builds confidence."] = "En général, pas de prix exacts, mais les informations sur le MOQ, l’échantillonnage et les délais renforcent la confiance.";
   zh["We also make bearings and motors. Same website?"] = "我们也生产轴承和电机。用同一个网站吗？";
   fr["We also make bearings and motors. Same website?"] = "Nous fabriquons aussi des roulements et des moteurs. Le même site ?";
@@ -18000,7 +18000,7 @@
   fr["List them by market with model coverage."] = "Listez-les par marché avec les modèles couverts.";
   zh["Can you make our design or brand?"] = "能做我们的设计或品牌吗？";
   fr["Can you make our design or brand?"] = "Pouvez-vous fabriquer selon notre conception ou notre marque ?";
-  zh["Explain OEM, tooling, MOQ and design protection."] = "说明 OEM、开模、最小起订量和设计保护。";
+  zh["Explain OEM, tooling, MOQ and design protection."] = "说明 OEM、开模、起订量和设计保护。";
   fr["Explain OEM, tooling, MOQ and design protection."] = "Expliquez l’OEM, l’outillage, le MOQ et la protection des conceptions.";
   zh["Are you a factory or a trading company?"] = "你们是工厂还是贸易公司？";
   fr["Are you a factory or a trading company?"] = "Êtes-vous une usine ou une société de négoce ?";
@@ -18046,11 +18046,11 @@
   fr["To win direct buyers and to make traders’ customers trust you as the factory. Both need a clear, honest site."] = "Pour gagner des acheteurs directs et pour que les clients des négociants vous fassent confiance en tant qu’usine. Les deux ont besoin d’un site clair et honnête.";
   zh["We have hundreds of pump models. Where do we start?"] = "我们有数百个泵型号。应该从哪里开始？";
   fr["We have hundreds of pump models. Where do we start?"] = "Nous avons des centaines de modèles de pompes. Par où commencer ?";
-  zh["With your best-selling series. We build one strong template and add series in batches."] = "从最畅销的系列开始。我们建立一个有力的模板，再分批添加系列。";
+  zh["With your best-selling series. We build one strong template and add series in batches."] = "从畅销的系列开始。我们建立一个有力的模板，再分批添加系列。";
   fr["With your best-selling series. We build one strong template and add series in batches."] = "Par vos séries les plus vendues. Nous créons un modèle solide et ajoutons les séries par lots.";
   zh["Should we show that we are a factory?"] = "应该展示我们是工厂吗？";
   fr["Should we show that we are a factory?"] = "Devons-nous montrer que nous sommes une usine ?";
-  zh["Yes. Real factory photos, lines and your team are some of the strongest trust signals."] = "应该。真实工厂照片、生产线和团队是最有力的信任信号之一。";
+  zh["Yes. Real factory photos, lines and your team are some of the strongest trust signals."] = "应该。真实工厂照片、生产线和团队是很有力的信任信号之一。";
   fr["Yes. Real factory photos, lines and your team are some of the strongest trust signals."] = "Oui. De vraies photos de l’usine, des lignes et de votre équipe figurent parmi les signaux de confiance les plus forts.";
   zh["Can you handle pharmaceutical content?"] = "你们能处理药品相关内容吗？";
   fr["Can you handle pharmaceutical content?"] = "Pouvez-vous traiter des contenus pharmaceutiques ?";
@@ -18200,7 +18200,7 @@
   fr["Set up Search Console and conversion tracking first, so every later change can be measured."] = "Configurez d’abord Search Console et le suivi des conversions, afin que chaque modification ultérieure puisse être mesurée.";
   zh["How Hurfi helps Chengdu manufacturers"] = "Hurfi 如何帮助成都制造商";
   fr["How Hurfi helps Chengdu manufacturers"] = "Comment Hurfi aide les fabricants de Chengdu";
-  zh["We plan the site around product families, quality and logistics — the questions inland suppliers face first."] = "我们围绕产品系列、质量和物流来规划网站——这些是内陆供应商最先面对的问题。";
+  zh["We plan the site around product families, quality and logistics — the questions inland suppliers face first."] = "我们围绕产品系列、质量和物流来规划网站——这些是内陆供应商首先面对的问题。";
   fr["We plan the site around product families, quality and logistics — the questions inland suppliers face first."] = "Nous planifions le site autour des familles de produits, de la qualité et de la logistique — les questions auxquelles les fournisseurs de l’intérieur des terres sont d’abord confrontés.";
   zh["We write English technical pages with your engineers, who approve every claim."] = "我们与你们的工程师共同撰写英文技术页面，由他们确认每一项表述。";
   fr["We write English technical pages with your engineers, who approve every claim."] = "Nous rédigeons les pages techniques en anglais avec vos ingénieurs, qui valident chaque affirmation.";
@@ -18306,7 +18306,7 @@
   fr["Qingdao West Coast New Area, approved by the State Council in 2014, covers all of Huangdao District: about 2,096 square kilometres of land and 5,000 square kilometres of sea."] = "La nouvelle zone de la côte ouest de Qingdao, approuvée par le Conseil des affaires d’État en 2014, couvre tout le district de Huangdao : environ 2 096 kilomètres carrés de terre et 5 000 kilomètres carrés de mer.";
   zh["The approval gives it the theme of developing the marine economy, including marine science and new marine industries."] = "批复确定其主题为发展海洋经济，包括海洋科学和海洋新兴产业。";
   fr["The approval gives it the theme of developing the marine economy, including marine science and new marine industries."] = "L’approbation lui donne pour thème le développement de l’économie marine, notamment les sciences marines et les nouvelles industries marines.";
-  zh["Marine equipment, chemicals and port-linked manufacturing cluster on the West Coast. Buyers of these products check approvals and project references more than anything else."] = "海洋装备、化工和港口相关制造业集中在西海岸。这些产品的买家最看重的就是认证和项目案例。";
+  zh["Marine equipment, chemicals and port-linked manufacturing cluster on the West Coast. Buyers of these products check approvals and project references more than anything else."] = "海洋装备、化工和港口相关制造业集中在西海岸。这些产品的买家尤其看重的就是认证和项目案例。";
   fr["Marine equipment, chemicals and port-linked manufacturing cluster on the West Coast. Buyers of these products check approvals and project references more than anything else."] = "Les équipements marins, les produits chimiques et les industries liées au port se concentrent sur la côte ouest. Pour ces produits, les acheteurs vérifient avant tout les approbations et les références de projets.";
   zh["Qingdao’s port handled 740 million tonnes of cargo in 2025 (+4.1%), including 530 million tonnes of foreign-trade cargo, and 32.893 million TEU of containers (+6.5%)."] = "2025 年青岛港完成货物吞吐量 7.4 亿吨（增长 4.1%），其中外贸货物 5.3 亿吨；集装箱 3,289.3 万标箱（增长 6.5%）。";
   fr["Qingdao’s port handled 740 million tonnes of cargo in 2025 (+4.1%), including 530 million tonnes of foreign-trade cargo, and 32.893 million TEU of containers (+6.5%)."] = "Le port de Qingdao a traité 740 millions de tonnes de marchandises en 2025 (+4,1 %), dont 530 millions de tonnes de fret international, et 32,893 millions d’EVP de conteneurs (+6,5 %).";
@@ -18378,7 +18378,7 @@
   fr["Track RFQs by product line and country so you can see which markets respond."] = "Suivez les demandes de devis par ligne de produits et par pays afin de voir quels marchés répondent.";
   zh["How Hurfi helps Qingdao manufacturers"] = "Hurfi 如何帮助青岛制造商";
   fr["How Hurfi helps Qingdao manufacturers"] = "Comment Hurfi aide les fabricants de Qingdao";
-  zh["We structure the site around product lines, approvals and shipping, the three things buyers check first."] = "我们围绕产品线、认证和运输——买家最先核查的三件事——组织网站结构。";
+  zh["We structure the site around product lines, approvals and shipping, the three things buyers check first."] = "我们围绕产品线、认证和运输——买家首先核查的三件事——组织网站结构。";
   fr["We structure the site around product lines, approvals and shipping, the three things buyers check first."] = "Nous structurons le site autour des lignes de produits, des approbations et de l’expédition, les trois éléments que les acheteurs vérifient en premier.";
   zh["We write English technical and reference pages with your engineers and approve every claim with you."] = "我们与你们的工程师共同撰写英文技术页和案例页，并与你们确认每一项表述。";
   fr["We write English technical and reference pages with your engineers and approve every claim with you."] = "Nous rédigeons les pages techniques et de références en anglais avec vos ingénieurs et validons chaque affirmation avec vous.";
@@ -18444,7 +18444,7 @@
   fr["Goods trade passed 300 billion yuan for the first time, at 311.65 billion yuan (+6.1%); exports were 276.19 billion yuan (+9.6%), with mechanical and electrical products 151.12 billion yuan (+11.6%)."] = "Les échanges de marchandises ont dépassé 300 milliards de yuans pour la première fois, à 311,65 milliards (+6,1 %) ; les exportations ont atteint 276,19 milliards (+9,6 %), dont 151,12 milliards de produits mécaniques et électriques (+11,6 %).";
   zh["Footwear exports were 26.31 billion yuan (−7.3%) and clothing 14.31 billion yuan (−5.5%), while high-tech products grew 32.9%."] = "鞋类出口 263.1 亿元（下降 7.3%），服装 143.1 亿元（下降 5.5%），而高技术产品增长 32.9%。";
   fr["Footwear exports were 26.31 billion yuan (−7.3%) and clothing 14.31 billion yuan (−5.5%), while high-tech products grew 32.9%."] = "Les exportations de chaussures ont atteint 26,31 milliards de yuans (−7,3 %) et celles de vêtements 14,31 milliards (−5,5 %), tandis que les produits de haute technologie ont progressé de 32,9 %.";
-  zh["The provincial portal names five traditional industries — electrical appliances, footwear, clothing, auto and motorcycle parts, and pumps and valves — and says Wenzhou is home to 46 national production bases."] = "省政府门户网站列出五大传统产业——电器、鞋类、服装、汽车和摩托车零部件、泵和阀门——并称温州拥有 46 个国家级生产基地。";
+  zh["The provincial portal names five traditional industries — electrical appliances, footwear, clothing, auto and motorcycle parts, and pumps and valves — and says Wenzhou is home to 46 national production bases."] = "省政府门户网站列出五大传统产业——电器、鞋类、服装、汽车和摩托车零部件、泵和阀门——并称温州拥有 46 个国家生产基地。";
   fr["The provincial portal names five traditional industries — electrical appliances, footwear, clothing, auto and motorcycle parts, and pumps and valves — and says Wenzhou is home to 46 national production bases."] = "Le portail provincial cite cinq industries traditionnelles — appareillage électrique, chaussures, vêtements, pièces automobiles et de moto, pompes et robinets — et indique que Wenzhou abrite 46 bases de production nationales.";
   zh["Two trends sit side by side: electrical and mechanical exports are growing, while shoes and clothing are under pressure. Factories in both groups sell to buyers who compare many Wenzhou suppliers at once. The ones that win are the ones whose websites make specifications, certifications and order terms easy to check."] = "两种趋势并存：机电出口在增长，鞋类和服装则承压。这两类工厂都面对同时比较众多温州供应商的买家。胜出的是那些让规格、认证和订单条款易于核查的网站。";
   fr["Two trends sit side by side: electrical and mechanical exports are growing, while shoes and clothing are under pressure. Factories in both groups sell to buyers who compare many Wenzhou suppliers at once. The ones that win are the ones whose websites make specifications, certifications and order terms easy to check."] = "Deux tendances coexistent : les exportations mécaniques et électriques progressent, tandis que les chaussures et les vêtements subissent des pressions. Dans les deux groupes, les usines vendent à des acheteurs qui comparent plusieurs fournisseurs de Wenzhou à la fois. Celles qui gagnent sont celles dont le site permet de vérifier facilement les spécifications, les certifications et les conditions de commande.";
@@ -18470,9 +18470,9 @@
   fr["Brand buyers look for sampling speed, materials, compliance tests and capacity, and whether you design or only produce."] = "Les acheteurs de marques examinent la rapidité d’échantillonnage, les matériaux, les tests de conformité et les capacités, ainsi que votre rôle de concepteur ou de simple fabricant.";
   zh["Industrial zones and districts in Wenzhou"] = "温州的产业园区与区县";
   fr["Industrial zones and districts in Wenzhou"] = "Zones et districts industriels de Wenzhou";
-  zh["At the end of 2025 Wenzhou had one national high-tech zone and eight provincial-level high-tech zones."] = "截至 2025 年底，温州拥有 1 个国家级高新区和 8 个省级高新区。";
+  zh["At the end of 2025 Wenzhou had one national high-tech zone and eight provincial-level high-tech zones."] = "截至 2025 年底，温州拥有 1 个国家高新区和 8 个省级高新区。";
   fr["At the end of 2025 Wenzhou had one national high-tech zone and eight provincial-level high-tech zones."] = "À la fin de 2025, Wenzhou comptait une zone de haute technologie nationale et huit zones provinciales.";
-  zh["The provincial portal says Wenzhou is home to 46 national production bases, including the “Capital of Electric Appliances in China” and the “Capital of Shoes in China”."] = "省政府门户网站称温州拥有 46 个国家级生产基地，包括“中国电器之都”和“中国鞋都”。";
+  zh["The provincial portal says Wenzhou is home to 46 national production bases, including the “Capital of Electric Appliances in China” and the “Capital of Shoes in China”."] = "省政府门户网站称温州拥有 46 个国家生产基地，包括“中国电器之都”和“中国鞋都”。";
   fr["The provincial portal says Wenzhou is home to 46 national production bases, including the “Capital of Electric Appliances in China” and the “Capital of Shoes in China”."] = "Le portail provincial indique que Wenzhou abrite 46 bases de production nationales, dont la « capitale chinoise de l’appareillage électrique » et la « capitale chinoise de la chaussure ».";
   zh["Many Wenzhou buyers already know the city’s reputation for electrical products and shoes. What they do not know is which of thousands of suppliers is right for them. Specific, checkable product pages are the way to stand out from the base."] = "许多温州买家已经知道这座城市在电器和鞋类方面的声誉。他们不知道的是，在成千上万家供应商中哪一家适合自己。具体、可核查的产品页面，正是在这个产业基地中脱颖而出的方式。";
   fr["Many Wenzhou buyers already know the city’s reputation for electrical products and shoes. What they do not know is which of thousands of suppliers is right for them. Specific, checkable product pages are the way to stand out from the base."] = "Beaucoup d’acheteurs de Wenzhou connaissent déjà la réputation de la ville dans l’appareillage électrique et la chaussure. Ce qu’ils ignorent, c’est lequel de ces milliers de fournisseurs leur convient. Des pages produits précises et vérifiables sont le moyen de se démarquer au sein de cette base industrielle.";
@@ -18482,7 +18482,7 @@
   fr["Exports to Belt and Road countries grew 13.4%, to ASEAN 16.8% and to the Middle East 18.0%."] = "Les exportations vers les pays de la Ceinture et de la Route ont progressé de 13,4 %, vers l’ASEAN de 16,8 % et vers le Moyen-Orient de 18,0 %.";
   zh["13,820 firms had import or export business; 807 exported more than 10 million US dollars and 89 more than 50 million."] = "有进出口业务的企业 13,820 家；807 家出口额超过 1,000 万美元，89 家超过 5,000 万美元。";
   fr["13,820 firms had import or export business; 807 exported more than 10 million US dollars and 89 more than 50 million."] = "13 820 entreprises avaient une activité d’import-export ; 807 exportaient plus de 10 millions de dollars et 89 plus de 50 millions.";
-  zh["Growth is fastest in ASEAN, the Middle East and other Belt and Road markets. If those are your targets, plan pages, certifications and possibly languages for them, rather than only for Europe and North America."] = "东盟、中东和其他“一带一路”市场增长最快。如果这些是你们的目标市场，就应为它们规划页面、认证，可能还有语言版本，而不只是面向欧洲和北美。";
+  zh["Growth is fastest in ASEAN, the Middle East and other Belt and Road markets. If those are your targets, plan pages, certifications and possibly languages for them, rather than only for Europe and North America."] = "东盟、中东和其他“一带一路”市场增长较快。如果这些是你们的目标市场，就应为它们规划页面、认证，可能还有语言版本，而不只是面向欧洲和北美。";
   fr["Growth is fastest in ASEAN, the Middle East and other Belt and Road markets. If those are your targets, plan pages, certifications and possibly languages for them, rather than only for Europe and North America."] = "La croissance est la plus forte dans l’ASEAN, au Moyen-Orient et sur les autres marchés de la Ceinture et de la Route. Si ce sont vos cibles, prévoyez des pages, des certifications et éventuellement des langues pour ces marchés, et pas seulement pour l’Europe et l’Amérique du Nord.";
   zh["Challenges Wenzhou manufacturers face online"] = "温州制造商在线上常见的难题";
   fr["Challenges Wenzhou manufacturers face online"] = "Les défis en ligne des fabricants de Wenzhou";
@@ -18512,11 +18512,11 @@
   fr["List CE, UL, CB or other marks per product series, with the market each applies to."] = "Listez les marquages CE, UL, CB ou autres par série de produits, avec le marché auquel chacun s’applique.";
   zh["What is your MOQ per model or colour?"] = "每个型号或颜色的 MOQ 是多少？";
   fr["What is your MOQ per model or colour?"] = "Quel est votre MOQ par modèle ou par couleur ?";
-  zh["Give MOQ ranges and say when mixed orders are possible."] = "给出 最小起订量范围，并说明何时可以接受混合订单。";
+  zh["Give MOQ ranges and say when mixed orders are possible."] = "给出 起订量范围，并说明何时可以接受混合订单。";
   fr["Give MOQ ranges and say when mixed orders are possible."] = "Indiquez les fourchettes de quantité minimale de commande (MOQ) et précisez quand les commandes mixtes sont possibles.";
   zh["Can you put our brand on it?"] = "可以贴上我们的品牌吗？";
   fr["Can you put our brand on it?"] = "Pouvez-vous y apposer notre marque ?";
-  zh["Explain OEM labelling, packaging and any minimums for private label."] = "说明 OEM 标签、包装以及自有品牌的最低要求。";
+  zh["Explain OEM labelling, packaging and any minimums for private label."] = "说明 OEM 标签、包装以及自有品牌的基本要求。";
   fr["Explain OEM labelling, packaging and any minimums for private label."] = "Expliquez l’étiquetage OEM, l’emballage et les minimums éventuels pour la marque de distributeur.";
   zh["How do you test before shipping?"] = "发货前如何测试？";
   fr["How do you test before shipping?"] = "Comment testez-vous avant l’expédition ?";
@@ -18532,7 +18532,7 @@
   fr["Organise products by series with model tables (ratings, sizes, materials) so buyers can compare in seconds."] = "Organisez les produits par série avec des tableaux de modèles (calibres, dimensions, matériaux) pour que les acheteurs puissent comparer en quelques secondes.";
   zh["Put certificates on the product pages they cover, with the issuing body and scope written out."] = "把证书放在其覆盖的产品页面上，并写明发证机构和范围。";
   fr["Put certificates on the product pages they cover, with the issuing body and scope written out."] = "Placez les certificats sur les pages produits qu’ils couvrent, en indiquant l’organisme émetteur et le périmètre.";
-  zh["Add an OEM and private-label page that explains what can be branded, minimums and approval steps."] = "增加 OEM 和自有品牌页面，说明哪些可以贴牌、最低数量以及审批步骤。";
+  zh["Add an OEM and private-label page that explains what can be branded, minimums and approval steps."] = "增加 OEM 和自有品牌页面，说明哪些可以贴牌、起订数量以及审批步骤。";
   fr["Add an OEM and private-label page that explains what can be branded, minimums and approval steps."] = "Ajoutez une page OEM et marque de distributeur expliquant ce qui peut être personnalisé, les minimums et les étapes de validation.";
   zh["Write a short “how we test” page per product group, with photos of the actual test equipment."] = "为每个产品组写一个简短的“我们如何测试”页面，并配上实际测试设备的照片。";
   fr["Write a short “how we test” page per product group, with photos of the actual test equipment."] = "Rédigez une courte page « comment nous testons » par groupe de produits, avec des photos des équipements d’essai réels.";
@@ -18570,7 +18570,7 @@
   fr["With specifics: ratings, standards, test steps, real photos and clear order terms. Most competitor sites stay generic, so detail is a real advantage."] = "Par des informations concrètes : calibres, normes, étapes d’essai, photos réelles et conditions de commande claires. La plupart des sites concurrents restent génériques, si bien que le détail constitue un véritable avantage.";
   zh["Should we list prices?"] = "应该列出价格吗？";
   fr["Should we list prices?"] = "Faut-il afficher les prix ?";
-  zh["Usually not exact prices, but MOQ ranges, price drivers and payment terms help buyers decide whether to ask."] = "通常不必列出精确价格，但 最小起订量范围、价格影响因素和付款条件有助于买家判断是否值得询价。";
+  zh["Usually not exact prices, but MOQ ranges, price drivers and payment terms help buyers decide whether to ask."] = "通常不必列出精确价格，但 起订量范围、价格影响因素和付款条件有助于买家判断是否值得询价。";
   fr["Usually not exact prices, but MOQ ranges, price drivers and payment terms help buyers decide whether to ask."] = "En général, pas les prix exacts, mais les fourchettes de quantité minimale de commande (MOQ), les facteurs de prix et les conditions de paiement aident les acheteurs à décider s’ils doivent demander un devis.";
   zh["Can you build pages in other languages?"] = "你们能制作其他语言的页面吗？";
   fr["Can you build pages in other languages?"] = "Pouvez-vous créer des pages dans d’autres langues ?";
@@ -18590,7 +18590,7 @@
   fr["Yes. Social media management includes LinkedIn posts that show your products, tests and people."] = "Oui. La gestion des réseaux sociaux comprend des publications LinkedIn qui présentent vos produits, vos essais et vos équipes.";
   zh["Do you promise a number of inquiries?"] = "你们承诺询盘数量吗？";
   fr["Do you promise a number of inquiries?"] = "Garantissez-vous un nombre de demandes ?";
-  zh["Book a free consultation and tell us which product series matters most."] = "预约免费咨询，告诉我们哪条产品系列最重要。";
+  zh["Book a free consultation and tell us which product series matters most."] = "预约免费咨询，告诉我们哪条产品系列尤为重要。";
   fr["Book a free consultation and tell us which product series matters most."] = "Réservez une consultation gratuite et dites-nous quelle série de produits compte le plus.";
   zh["Wenzhou in the China directory"] = "中国目录中的温州";
   fr["Wenzhou in the China directory"] = "Wenzhou dans l’annuaire Chine";
@@ -18640,13 +18640,13 @@
   fr["Electronics suppliers are found by part type and parameter; HTML datasheets help engineers and search engines alike."] = "Les fournisseurs d’électronique sont trouvés par type de composant et par paramètre ; les fiches techniques HTML aident autant les ingénieurs que les moteurs de recherche.";
   zh["Industrial software and connected devices"] = "工业软件与联网设备";
   fr["Industrial software and connected devices"] = "Logiciels industriels et appareils connectés";
-  zh["Software-heavy suppliers need plain explanations of deployment, data location, integration and support — the questions IT and operations teams ask first."] = "软件比重高的供应商需要清楚解释部署、数据位置、集成和支持——这些是 IT 和运营团队最先提出的问题。";
+  zh["Software-heavy suppliers need plain explanations of deployment, data location, integration and support — the questions IT and operations teams ask first."] = "软件比重高的供应商需要清楚解释部署、数据位置、集成和支持——这些是 IT 和运营团队首先提出的问题。";
   fr["Software-heavy suppliers need plain explanations of deployment, data location, integration and support — the questions IT and operations teams ask first."] = "Les fournisseurs à forte composante logicielle doivent expliquer simplement le déploiement, l’emplacement des données, l’intégration et le support — les questions que posent d’abord les équipes informatiques et opérationnelles.";
   zh["Industrial zones and districts in Hangzhou"] = "杭州的产业园区与区县";
   fr["Industrial zones and districts in Hangzhou"] = "Zones et districts industriels de Hangzhou";
   zh["Binjiang District, which is also the Hangzhou High-tech Zone, covers 73 square kilometres; Alibaba, Geely and Hikvision are headquartered there, according to the city’s official English portal."] = "滨江区也是杭州高新区，面积 73 平方公里；据该市官方英文门户网站，阿里巴巴、吉利和海康威视总部均设于此。";
   fr["Binjiang District, which is also the Hangzhou High-tech Zone, covers 73 square kilometres; Alibaba, Geely and Hikvision are headquartered there, according to the city’s official English portal."] = "Le district de Binjiang, qui est aussi la zone de haute technologie de Hangzhou, couvre 73 kilomètres carrés ; selon le portail anglais officiel de la ville, Alibaba, Geely et Hikvision y ont leur siège.";
-  zh["Binjiang is the best-known of Hangzhou’s technology districts. Many hardware suppliers sell into the ecosystems around these companies, so their websites need to explain software, connectivity and integration as well as the hardware."] = "滨江是杭州最知名的科技城区之一。许多硬件供应商面向这些企业周边的生态体系销售，因此他们的网站除了硬件，还需要说明软件、连接和集成。";
+  zh["Binjiang is the best-known of Hangzhou’s technology districts. Many hardware suppliers sell into the ecosystems around these companies, so their websites need to explain software, connectivity and integration as well as the hardware."] = "滨江是杭州知名的科技城区之一。许多硬件供应商面向这些企业周边的生态体系销售，因此他们的网站除了硬件，还需要说明软件、连接和集成。";
   fr["Binjiang is the best-known of Hangzhou’s technology districts. Many hardware suppliers sell into the ecosystems around these companies, so their websites need to explain software, connectivity and integration as well as the hardware."] = "Binjiang est le plus connu des districts technologiques de Hangzhou. De nombreux fournisseurs de matériel vendent dans les écosystèmes qui entourent ces entreprises ; leur site doit donc expliquer le logiciel, la connectivité et l’intégration autant que le matériel.";
   zh["Xiaoshan International Airport connected 218 cities by the end of 2025, 54 of them international (six more than a year earlier), and handled 50.46 million passengers (+5.0%)."] = "截至 2025 年底，萧山国际机场通航 218 个城市，其中国际城市 54 个（比上年多 6 个），旅客吞吐量 5,046 万人次（增长 5.0%）。";
   fr["Xiaoshan International Airport connected 218 cities by the end of 2025, 54 of them international (six more than a year earlier), and handled 50.46 million passengers (+5.0%)."] = "Fin 2025, l’aéroport international de Xiaoshan desservait 218 villes, dont 54 internationales (six de plus qu’un an plus tôt), et a accueilli 50,46 millions de passagers (+5,0 %).";
@@ -18654,7 +18654,7 @@
   fr["By market, exports to Belt and Road partner countries were 320.7 billion yuan (+14.1%), about half of all goods exports."] = "Par marché, les exportations vers les pays partenaires de la Ceinture et de la Route ont atteint 320,7 milliards de yuans (+14,1 %), soit environ la moitié de toutes les exportations de marchandises.";
   zh["Private enterprises exported 498.0 billion yuan (+11.3%), 77.0% of the city’s goods exports; cross-border e-commerce exports were 152.3 billion yuan (+14.9%)."] = "民营企业出口 4,980 亿元（增长 11.3%），占全市货物出口的 77.0%；跨境电商出口 1,523 亿元（增长 14.9%）。";
   fr["Private enterprises exported 498.0 billion yuan (+11.3%), 77.0% of the city’s goods exports; cross-border e-commerce exports were 152.3 billion yuan (+14.9%)."] = "Les entreprises privées ont exporté 498,0 milliards de yuans (+11,3 %), soit 77,0 % des exportations de marchandises de la ville ; les exportations de commerce électronique transfrontalier ont atteint 152,3 milliards (+14,9 %).";
-  zh["Exports are growing fastest to Belt and Road partner markets, with the EU a large and growing destination. Typical export products follow the bulletin’s growth lines: new-energy vehicles, industrial robots, 3D printing equipment, integrated circuits and connected devices. EU buyers will look for conformity information; buyers in emerging markets often need clearer explanations of service and support."] = "对“一带一路”伙伴市场的出口增长最快，欧盟也是规模大且持续增长的目的地。典型出口产品与公报的增长方向一致：新能源汽车、工业机器人、3D 打印设备、集成电路和联网设备。欧盟买家会查看合规信息；新兴市场买家往往需要更清楚地了解服务和支持。";
+  zh["Exports are growing fastest to Belt and Road partner markets, with the EU a large and growing destination. Typical export products follow the bulletin’s growth lines: new-energy vehicles, industrial robots, 3D printing equipment, integrated circuits and connected devices. EU buyers will look for conformity information; buyers in emerging markets often need clearer explanations of service and support."] = "对“一带一路”伙伴市场的出口增长较快，欧盟也是规模大且持续增长的目的地。典型出口产品与公报的增长方向一致：新能源汽车、工业机器人、3D 打印设备、集成电路和联网设备。欧盟买家会查看合规信息；新兴市场买家往往需要更清楚地了解服务和支持。";
   fr["Exports are growing fastest to Belt and Road partner markets, with the EU a large and growing destination. Typical export products follow the bulletin’s growth lines: new-energy vehicles, industrial robots, 3D printing equipment, integrated circuits and connected devices. EU buyers will look for conformity information; buyers in emerging markets often need clearer explanations of service and support."] = "Les exportations progressent le plus vite vers les marchés partenaires de la Ceinture et de la Route, l’UE restant une destination importante et en croissance. Les produits d’exportation typiques suivent les axes de croissance du bulletin : véhicules à énergie nouvelle, robots industriels, équipements d’impression 3D, circuits intégrés et appareils connectés. Les acheteurs de l’UE rechercheront des informations de conformité ; ceux des marchés émergents ont souvent besoin d’explications plus claires sur le service et le support.";
   zh["Challenges Hangzhou manufacturers face online"] = "杭州制造商在线上常见的难题";
   fr["Challenges Hangzhou manufacturers face online"] = "Les défis en ligne des fabricants de Hangzhou";
@@ -18742,7 +18742,7 @@
   fr["Do overseas buyers care about our digital features?"] = "Les acheteurs étrangers s’intéressent-ils à nos fonctions numériques ?";
   zh["Often yes, but they need specifics: what data is collected, where it is stored, how updates work and what happens offline. Unclear answers slow down procurement."] = "通常在意，但他们需要具体信息：收集哪些数据、存放在哪里、更新如何进行、离线时怎么办。含糊的回答会拖慢采购。";
   fr["Often yes, but they need specifics: what data is collected, where it is stored, how updates work and what happens offline. Unclear answers slow down procurement."] = "Souvent oui, mais ils veulent des précisions : quelles données sont collectées, où elles sont stockées, comment fonctionnent les mises à jour et ce qui se passe hors ligne. Des réponses floues ralentissent les achats.";
-  zh["Our product changes quickly. How do we keep the site current?"] = "我们的产品变化很快。如何让网站保持最新？";
+  zh["Our product changes quickly. How do we keep the site current?"] = "我们的产品变化很快。如何让网站保持新？";
   fr["Our product changes quickly. How do we keep the site current?"] = "Notre produit évolue vite. Comment garder le site à jour ?";
   zh["Use a product structure that lets you update specifications in one place, mark discontinued models clearly and keep old URLs redirecting to the replacement."] = "采用可在一处更新规格的产品结构，清楚标记停产型号，并让旧网址重定向到替代产品。";
   fr["Use a product structure that lets you update specifications in one place, mark discontinued models clearly and keep old URLs redirecting to the replacement."] = "Utilisez une structure produits qui permet de mettre à jour les spécifications à un seul endroit, marquez clairement les modèles abandonnés et faites rediriger les anciennes URL vers le remplacement.";
@@ -18752,7 +18752,7 @@
   fr["No. Machine-translated pages often get terms wrong and miss the searches buyers make. Write the English pages properly and, if you keep a Chinese version, connect them with hreflang."] = "Non. Les pages traduites automatiquement se trompent souvent sur les termes et manquent les recherches des acheteurs. Rédigez correctement les pages anglaises et, si vous gardez une version chinoise, reliez-les avec hreflang.";
   zh["Can you guarantee rankings for “robot” or “EV” keywords?"] = "你们能保证“机器人”或“电动汽车”关键词的排名吗？";
   fr["Can you guarantee rankings for “robot” or “EV” keywords?"] = "Pouvez-vous garantir un classement sur les mots-clés « robot » ou « véhicule électrique » ?";
-  zh["No one can guarantee rankings. Broad terms are also rarely the best target. We focus on specific product and application searches where a qualified buyer is likely."] = "没有人能保证排名。宽泛词通常也不是最佳目标。我们专注于具体的产品和应用搜索，那里更可能出现合格买家。";
+  zh["No one can guarantee rankings. Broad terms are also rarely the best target. We focus on specific product and application searches where a qualified buyer is likely."] = "没有人能保证排名。宽泛词通常也不是理想目标。我们专注于具体的产品和应用搜索，那里更可能出现合格买家。";
   fr["No one can guarantee rankings. Broad terms are also rarely the best target. We focus on specific product and application searches where a qualified buyer is likely."] = "Personne ne peut garantir un classement. Les termes très larges sont d’ailleurs rarement la meilleure cible. Nous nous concentrons sur des recherches précises de produits et d’applications où un acheteur qualifié est probable.";
   zh["Do you handle LinkedIn and trade content?"] = "你们负责 LinkedIn 和行业内容吗？";
   fr["Do you handle LinkedIn and trade content?"] = "Gérez-vous LinkedIn et les contenus sectoriels ?";
@@ -18762,7 +18762,7 @@
   fr["How do you measure results?"] = "Comment mesurez-vous les résultats ?";
   zh["Search Console and analytics in your own accounts: impressions, clicks, demo requests and RFQs by page. We do not report vanity reach as success."] = "使用你们自己账户中的 Search Console 和分析工具：按页面查看展示、点击、演示请求和询盘。我们不会把虚高的触达率当作成功。";
   fr["Search Console and analytics in your own accounts: impressions, clicks, demo requests and RFQs by page. We do not report vanity reach as success."] = "Search Console et les outils d’analyse de vos propres comptes : impressions, clics, demandes de démonstration et de devis par page. Nous ne présentons pas une portée flatteuse comme un succès.";
-  zh["What should we prepare before the first call?"] = "第一次通话前我们应该准备什么？";
+  zh["What should we prepare before the first call?"] = "首次通话前我们应该准备什么？";
   fr["What should we prepare before the first call?"] = "Que devons-nous préparer avant le premier appel ?";
   zh["Your current website, product list, the markets you want and any existing English material. If you do not have these, we start from what you have."] = "现有网站、产品清单、目标市场以及任何现有英文材料。如果没有，我们就从你们现有的内容开始。";
   fr["Your current website, product list, the markets you want and any existing English material. If you do not have these, we start from what you have."] = "Votre site actuel, la liste de vos produits, les marchés visés et tout document anglais existant. Si vous ne les avez pas, nous partons de ce que vous avez.";
@@ -18780,7 +18780,7 @@
   fr["Export Websites & SEO for Ningbo Manufacturers | Hurfi"] = "Sites export et SEO pour les fabricants de Ningbo | Hurfi";
   zh["Export websites and SEO for Ningbo manufacturers"] = "为宁波制造商提供外贸网站建设与 SEO";
   fr["Export websites and SEO for Ningbo manufacturers"] = "Sites web export et SEO pour les fabricants de Ningbo";
-  zh["Ningbo sits on one of the world’s busiest ports and has more national “single champion” manufacturers than any other Chinese city. Many of them make one component very well. Hurfi helps Ningbo manufacturers show that specialism to buyers abroad, and be found when those buyers search."] = "宁波坐拥全球最繁忙的港口之一，国家级“单项冠军”制造企业数量超过中国其他城市。其中许多企业把某一个零部件做到了极致。Hurfi 帮助宁波制造商向海外买家展示这种专长，并让买家在搜索时找到他们。";
+  zh["Ningbo sits on one of the world’s busiest ports and has more national “single champion” manufacturers than any other Chinese city. Many of them make one component very well. Hurfi helps Ningbo manufacturers show that specialism to buyers abroad, and be found when those buyers search."] = "宁波坐拥全球繁忙的港口之一，国家“单项冠军”制造企业数量超过中国其他城市。其中许多企业把某一个零部件做到了极致。Hurfi 帮助宁波制造商向海外买家展示这种专长，并让买家在搜索时找到他们。";
   fr["Ningbo sits on one of the world’s busiest ports and has more national “single champion” manufacturers than any other Chinese city. Many of them make one component very well. Hurfi helps Ningbo manufacturers show that specialism to buyers abroad, and be found when those buyers search."] = "Ningbo possède l’un des ports les plus actifs au monde et compte plus de fabricants « champions nationaux » que toute autre ville chinoise. Beaucoup d’entre eux excellent dans un seul composant. Hurfi aide les fabricants de Ningbo à présenter cette spécialisation aux acheteurs étrangers et à être trouvés lorsqu’ils effectuent leurs recherches.";
   zh["Hurfi does not have an office or staff in Ningbo. We work with Ningbo manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi 在宁波没有办公室或员工。我们通过微信、电子邮件和视频通话，从西安（陕西）和博古拉（孟加拉国）的办公室远程服务宁波制造商。";
   fr["Hurfi does not have an office or staff in Ningbo. We work with Ningbo manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi n’a ni bureau ni personnel à Ningbo. Nous travaillons à distance avec les fabricants de Ningbo — WeChat, e-mail et visioconférence — depuis nos bureaux de Xi’an (Shaanxi) et de Bogura (Bangladesh).";
@@ -18792,11 +18792,11 @@
   fr["Value added of industrial enterprises above designated size grew 5.3% in 2025. Equipment manufacturing value added was 321.1 billion yuan, up 5.9%, or 62.3% of the total; high-tech manufacturing grew 11.9%."] = "La valeur ajoutée des entreprises industrielles de taille supérieure au seuil a progressé de 5,3 % en 2025. Celle de la fabrication d’équipements a atteint 321,1 milliards de yuans (+5,9 %), soit 62,3 % du total ; la fabrication de haute technologie a augmenté de 11,9 %.";
   zh["Output of electronic components rose 75.0%, industrial robots 46.4% and integrated circuits 10.6%."] = "电子元件产量增长 75.0%，工业机器人增长 46.4%，集成电路增长 10.6%。";
   fr["Output of electronic components rose 75.0%, industrial robots 46.4% and integrated circuits 10.6%."] = "La production de composants électroniques a augmenté de 75,0 %, celle de robots industriels de 46,4 % et celle de circuits intégrés de 10,6 %.";
-  zh["The bulletin counts 119 national manufacturing single-champion enterprises in Ningbo, the most of any Chinese city, and 511 specialised “little giant” firms."] = "公报显示宁波有 119 家国家级制造业单项冠军企业，数量居中国城市首位，另有 511 家专精特新“小巨人”企业。";
+  zh["The bulletin counts 119 national manufacturing single-champion enterprises in Ningbo, the most of any Chinese city, and 511 specialised “little giant” firms."] = "公报显示宁波有 119 家国家制造业单项冠军企业，数量居中国城市首位，另有 511 家专精特新“小巨人”企业。";
   fr["The bulletin counts 119 national manufacturing single-champion enterprises in Ningbo, the most of any Chinese city, and 511 specialised “little giant” firms."] = "Le bulletin recense 119 entreprises manufacturières « championnes nationales » à Ningbo, le plus grand nombre de toutes les villes chinoises, ainsi que 511 entreprises spécialisées « little giant ».";
   zh["Goods exports reached 980.8 billion yuan, up 3.7%, and mechanical and electrical products made up 58.2% of exports."] = "货物出口 9,808 亿元，增长 3.7%，机电产品占出口的 58.2%。";
   fr["Goods exports reached 980.8 billion yuan, up 3.7%, and mechanical and electrical products made up 58.2% of exports."] = "Les exportations de marchandises ont atteint 980,8 milliards de yuans (+3,7 %), et les produits mécaniques et électriques ont représenté 58,2 % des exportations.";
-  zh["Ningbo-Zhoushan Port handled 1.43 billion tonnes of cargo, first in the world for the 17th year, and 43.872 million TEU of containers, up 11.6% and third in the world."] = "宁波舟山港完成货物吞吐量 14.3 亿吨，连续 17 年位居世界第一；集装箱吞吐量 4,387.2 万标箱，增长 11.6%，位居世界第三。";
+  zh["Ningbo-Zhoushan Port handled 1.43 billion tonnes of cargo, first in the world for the 17th year, and 43.872 million TEU of containers, up 11.6% and third in the world."] = "宁波舟山港完成货物吞吐量 14.3 亿吨，连续 17 年位居世界首位；集装箱吞吐量 4,387.2 万标箱，增长 11.6%，位居世界第三。";
   fr["Ningbo-Zhoushan Port handled 1.43 billion tonnes of cargo, first in the world for the 17th year, and 43.872 million TEU of containers, up 11.6% and third in the world."] = "Le port de Ningbo-Zhoushan a traité 1,43 milliard de tonnes de marchandises, premier mondial pour la 17e année, et 43,872 millions d’EVP de conteneurs (+11,6 %), troisième mondial.";
   zh["A single-champion company leads its national market in one narrow product. That is an export story, but only if the website tells it: what exactly you make, for which applications, at what volume and quality. Ningbo’s export mix is mostly mechanical and electrical, so buyers tend to be engineers and purchasing teams comparing specifications."] = "单项冠军企业在某一细分产品的全国市场中领先。这是一个很好的出口故事，但只有当网站讲清楚你们究竟生产什么、用于哪些应用、达到什么产量和质量水平时，它才成立。宁波的出口以机电产品为主，因此买家往往是比较规格的工程师和采购团队。";
   fr["A single-champion company leads its national market in one narrow product. That is an export story, but only if the website tells it: what exactly you make, for which applications, at what volume and quality. Ningbo’s export mix is mostly mechanical and electrical, so buyers tend to be engineers and purchasing teams comparing specifications."] = "Une entreprise championne nationale domine le marché national d’un produit de niche. C’est une belle histoire d’exportation, mais seulement si le site explique précisément ce que vous fabriquez, pour quelles applications, à quel volume et avec quelle qualité. Les exportations de Ningbo sont majoritairement mécaniques et électriques ; les acheteurs sont donc souvent des ingénieurs et des équipes achats qui comparent des spécifications.";
@@ -18808,7 +18808,7 @@
   fr["Precision components and moulds"] = "Composants de précision et moules";
   zh["Component and mould suppliers win on tolerances, materials, tooling life and inspection. Show those numbers and the equipment behind them."] = "零部件和模具供应商靠公差、材料、模具寿命和检测取胜。请展示这些数字以及背后的设备。";
   fr["Component and mould suppliers win on tolerances, materials, tooling life and inspection. Show those numbers and the equipment behind them."] = "Les fournisseurs de composants et de moules gagnent sur les tolérances, les matériaux, la durée de vie des outillages et le contrôle. Montrez ces chiffres et les équipements qui les produisent.";
-  zh["Equipment is the largest part of Ningbo industry. Machine pages need specifications, video, spare-parts policy and service arrangements abroad."] = "装备制造是宁波工业中占比最大的部分。机器页面需要规格、视频、备件政策以及海外服务安排。";
+  zh["Equipment is the largest part of Ningbo industry. Machine pages need specifications, video, spare-parts policy and service arrangements abroad."] = "装备制造是宁波工业中占比居首的部分。机器页面需要规格、视频、备件政策以及海外服务安排。";
   fr["Equipment is the largest part of Ningbo industry. Machine pages need specifications, video, spare-parts policy and service arrangements abroad."] = "L’équipement constitue la plus grande partie de l’industrie de Ningbo. Les pages machines doivent présenter les spécifications, une vidéo, la politique de pièces de rechange et les modalités de service à l’étranger.";
   zh["Electrical products and appliances"] = "电器与家电";
   fr["Electrical products and appliances"] = "Appareillage électrique et électroménager";
@@ -18832,7 +18832,7 @@
   fr["Ningbo traded directly with 234 countries and regions. Trade with Belt and Road partner countries was 741.3 billion yuan (+8.8%), with the EU 251.1 billion yuan (+5.1%) and with ASEAN 216.2 billion yuan (+15.2%)."] = "Ningbo commerçait directement avec 234 pays et régions. Les échanges avec les pays partenaires de la Ceinture et de la Route ont atteint 741,3 milliards de yuans (+8,8 %), avec l’UE 251,1 milliards (+5,1 %) et avec l’ASEAN 216,2 milliards (+15,2 %).";
   zh["Private enterprises accounted for 77.9% of the city’s trade."] = "民营企业占全市贸易额的 77.9%。";
   fr["Private enterprises accounted for 77.9% of the city’s trade."] = "Les entreprises privées représentaient 77,9 % des échanges de la ville.";
-  zh["With trade partners in 234 countries and regions, Ningbo exporters sell everywhere, but the bulletin shows the EU and ASEAN as large partners and ASEAN growing fastest. Typical products include machinery, moulds, electrical products, electronic components and industrial robots. Specification pages written for engineers in both regions — metric units, standards named, export packaging explained — fit this mix."] = "宁波出口商与 234 个国家和地区的伙伴做生意，产品销往各地，但公报显示欧盟和东盟是大型伙伴，其中东盟增长最快。典型产品包括机械、模具、电器、电子元件和工业机器人。面向这两个地区工程师撰写的规格页面——使用公制单位、注明标准、解释出口包装——正适合这一结构。";
+  zh["With trade partners in 234 countries and regions, Ningbo exporters sell everywhere, but the bulletin shows the EU and ASEAN as large partners and ASEAN growing fastest. Typical products include machinery, moulds, electrical products, electronic components and industrial robots. Specification pages written for engineers in both regions — metric units, standards named, export packaging explained — fit this mix."] = "宁波出口商与 234 个国家和地区的伙伴做生意，产品销往各地，但公报显示欧盟和东盟是大型伙伴，其中东盟增长较快。典型产品包括机械、模具、电器、电子元件和工业机器人。面向这两个地区工程师撰写的规格页面——使用公制单位、注明标准、解释出口包装——正适合这一结构。";
   fr["With trade partners in 234 countries and regions, Ningbo exporters sell everywhere, but the bulletin shows the EU and ASEAN as large partners and ASEAN growing fastest. Typical products include machinery, moulds, electrical products, electronic components and industrial robots. Specification pages written for engineers in both regions — metric units, standards named, export packaging explained — fit this mix."] = "Les exportateurs de Ningbo commercent avec des partenaires dans 234 pays et régions et vendent partout, mais le bulletin montre que l’UE et l’ASEAN sont de grands partenaires, l’ASEAN progressant le plus vite. Les produits typiques comprennent les machines, les moules, l’appareillage électrique, les composants électroniques et les robots industriels. Des pages de spécifications rédigées pour les ingénieurs des deux régions — unités métriques, normes nommées, emballage export expliqué — correspondent à ce profil.";
   zh["Challenges Ningbo manufacturers face online"] = "宁波制造商在线上常见的难题";
   fr["Challenges Ningbo manufacturers face online"] = "Les défis en ligne des fabricants de Ningbo";
@@ -18878,7 +18878,7 @@
   fr["Explain how long you keep parts, drawings and tools available, and how you handle change notices."] = "Expliquez pendant combien de temps vous gardez les pièces, les plans et les outillages disponibles, et comment vous gérez les notifications de modification.";
   zh["A website, SEO and RFQ playbook for Ningbo manufacturers"] = "宁波制造商的网站、SEO 与询盘手册";
   fr["A website, SEO and RFQ playbook for Ningbo manufacturers"] = "Un guide site web, SEO et demande de devis pour les fabricants de Ningbo";
-  zh["Put your specialism in the page title and first heading of the home page, in the buyer’s words — for example “precision die-cast aluminium housings” rather than “hardware products”."] = "用买家的说法，把专长写进首页标题和第一个小标题——例如写“精密压铸铝外壳”，而不是“五金产品”。";
+  zh["Put your specialism in the page title and first heading of the home page, in the buyer’s words — for example “precision die-cast aluminium housings” rather than “hardware products”."] = "用买家的说法，把专长写进首页标题和首个小标题——例如写“精密压铸铝外壳”，而不是“五金产品”。";
   fr["Put your specialism in the page title and first heading of the home page, in the buyer’s words — for example “precision die-cast aluminium housings” rather than “hardware products”."] = "Placez votre spécialité dans le titre de la page et le premier intertitre de l’accueil, avec les mots de l’acheteur — par exemple « boîtiers en aluminium moulés de précision » plutôt que « produits de quincaillerie ».";
   zh["Build one page per product family with a specification table, materials, finishes and the industries it serves."] = "为每个产品系列建一个页面，包含规格表、材料、表面处理和所服务的行业。";
   fr["Build one page per product family with a specification table, materials, finishes and the industries it serves."] = "Créez une page par famille de produits avec un tableau de spécifications, les matériaux, les finitions et les industries servies.";
@@ -18952,7 +18952,7 @@
   fr["Ningbo Economic and Technological Development Zone (updated 27 November 2017)"] = "Zone de développement économique et technologique de Ningbo (mise à jour le 27 novembre 2017)";
   zh["Talk to us about Ningbo"] = "与我们聊聊宁波";
   fr["Talk to us about Ningbo"] = "Parlons de Ningbo";
-  zh["Infographic of four 2025 official figures for Ningbo: 62.3% of above-scale industrial value added from equipment manufacturing; 119 national single-champion manufacturers, most of any Chinese city; 43.872 m TEU at Ningbo-Zhoushan Port (+11.6%); 980.8 bn yuan goods exports (+3.7%)."] = "宁波 2025 年四项官方数据图：装备制造业占规模以上工业增加值 62.3%；国家级单项冠军企业 119 家，居中国城市首位；宁波舟山港集装箱吞吐量 4,387.2 万标箱（增长 11.6%）；货物出口 9,808 亿元（增长 3.7%）。";
+  zh["Infographic of four 2025 official figures for Ningbo: 62.3% of above-scale industrial value added from equipment manufacturing; 119 national single-champion manufacturers, most of any Chinese city; 43.872 m TEU at Ningbo-Zhoushan Port (+11.6%); 980.8 bn yuan goods exports (+3.7%)."] = "宁波 2025 年四项官方数据图：装备制造业占规模以上工业增加值 62.3%；国家单项冠军企业 119 家，居中国城市首位；宁波舟山港集装箱吞吐量 4,387.2 万标箱（增长 11.6%）；货物出口 9,808 亿元（增长 3.7%）。";
   fr["Infographic of four 2025 official figures for Ningbo: 62.3% of above-scale industrial value added from equipment manufacturing; 119 national single-champion manufacturers, most of any Chinese city; 43.872 m TEU at Ningbo-Zhoushan Port (+11.6%); 980.8 bn yuan goods exports (+3.7%)."] = "Infographie de quatre chiffres officiels 2025 pour Ningbo : 62,3 % de la valeur ajoutée industrielle de taille supérieure au seuil provenant de la fabrication d’équipements ; 119 fabricants champions nationaux, le plus grand nombre de toutes les villes chinoises ; 43,872 millions d’EVP au port de Ningbo-Zhoushan (+11,6 %) ; 980,8 milliards de yuans d’exportations de marchandises (+3,7 %).";
   zh["Export Websites & SEO for Quanzhou Manufacturers | Hurfi"] = "泉州制造商外贸网站建设与SEO | Hurfi";
   fr["Export Websites & SEO for Quanzhou Manufacturers | Hurfi"] = "Sites export et SEO pour les fabricants de Quanzhou | Hurfi";
@@ -18968,7 +18968,7 @@
   fr["Quanzhou’s 2025 statistical bulletin and the city government’s interpretation of the year’s economy give the figures below."] = "Le bulletin statistique 2025 de Quanzhou et l’analyse de l’économie de l’année par la municipalité fournissent les chiffres ci-dessous.";
   zh["Value added of industrial enterprises above designated size grew 7.0% in 2025, with manufacturing up 7.4% and light industry up 8.8%."] = "2025 年规模以上工业增加值增长 7.0%，其中制造业增长 7.4%，轻工业增长 8.8%。";
   fr["Value added of industrial enterprises above designated size grew 7.0% in 2025, with manufacturing up 7.4% and light industry up 8.8%."] = "La valeur ajoutée des entreprises industrielles de taille supérieure au seuil a progressé de 7,0 % en 2025, la fabrication de 7,4 % et l’industrie légère de 8,8 %.";
-  zh["Among the fastest-growing sectors were stationery, crafts, sports and entertainment goods (up 33.8%), general-purpose equipment (up 23.1%), textiles (up 19.3%), rubber and plastic products (up 19.3%) and paper (up 18.6%)."] = "增长最快的行业包括文教、工美、体育和娱乐用品（增长 33.8%），通用设备（增长 23.1%），纺织业（增长 19.3%），橡胶和塑料制品（增长 19.3%）以及造纸（增长 18.6%）。";
+  zh["Among the fastest-growing sectors were stationery, crafts, sports and entertainment goods (up 33.8%), general-purpose equipment (up 23.1%), textiles (up 19.3%), rubber and plastic products (up 19.3%) and paper (up 18.6%)."] = "增长较快的行业包括文教、工美、体育和娱乐用品（增长 33.8%），通用设备（增长 23.1%），纺织业（增长 19.3%），橡胶和塑料制品（增长 19.3%）以及造纸（增长 18.6%）。";
   fr["Among the fastest-growing sectors were stationery, crafts, sports and entertainment goods (up 33.8%), general-purpose equipment (up 23.1%), textiles (up 19.3%), rubber and plastic products (up 19.3%) and paper (up 18.6%)."] = "Parmi les secteurs les plus dynamiques figuraient la papeterie, l’artisanat, les articles de sport et de loisirs (+33,8 %), les équipements d’usage général (+23,1 %), les textiles (+19,3 %), le caoutchouc et les plastiques (+19,3 %) et le papier (+18,6 %).";
   zh["The government’s interpretation says that eight of Quanzhou’s nine industries at the 100-billion-yuan level grew in 2025, with machinery and equipment up 11.0%, craft products 11.4% and paper and printing 13.4%."] = "市政府的解读称，2025 年泉州九个千亿级产业中有八个实现增长，其中机械装备增长 11.0%，工艺品增长 11.4%，纸业和印刷增长 13.4%。";
   fr["The government’s interpretation says that eight of Quanzhou’s nine industries at the 100-billion-yuan level grew in 2025, with machinery and equipment up 11.0%, craft products 11.4% and paper and printing 13.4%."] = "L’analyse municipale indique que huit des neuf industries de Quanzhou au niveau des 100 milliards de yuans ont progressé en 2025, avec les machines et équipements en hausse de 11,0 %, l’artisanat de 11,4 % et le papier et l’imprimerie de 13,4 %.";
@@ -19008,7 +19008,7 @@
   fr["Ports in Quanzhou handled 115.84 million tonnes of cargo (−0.9%), including 39.34 million tonnes of foreign-trade cargo, and 2.0646 million TEU (+1.1%) in 2025."] = "Les ports de Quanzhou ont traité 115,84 millions de tonnes de marchandises (−0,9 %), dont 39,34 millions de tonnes de fret international, et 2,0646 millions d’EVP (+1,1 %) en 2025.";
   zh["Trade with Belt and Road partner countries was 165.58 billion yuan (−10.5%) and with other RCEP members 68.75 billion yuan (−19.0%) in 2025."] = "2025 年对“一带一路”伙伴国家贸易额 1,655.8 亿元（下降 10.5%），对其他 RCEP 成员贸易额 687.5 亿元（下降 19.0%）。";
   fr["Trade with Belt and Road partner countries was 165.58 billion yuan (−10.5%) and with other RCEP members 68.75 billion yuan (−19.0%) in 2025."] = "Les échanges avec les pays partenaires de la Ceinture et de la Route ont atteint 165,58 milliards de yuans (−10,5 %) et avec les autres membres du RCEP 68,75 milliards (−19,0 %) en 2025.";
-  zh["Trade with Belt and Road and RCEP partners fell in 2025, even while light-industry output grew. That combination often pushes factories to look for new buyers and markets — which is when an export website and search visibility matter most. Typical products include footwear and sportswear, textiles, sports and craft goods, plastics, paper and packaging, and machinery."] = "2025 年对“一带一路”和 RCEP 伙伴的贸易下降，但轻工业产值仍在增长。这种组合往往促使工厂寻找新买家和市场——也正是出口网站和搜索可见度最重要的时候。典型产品包括鞋类和运动服装、纺织品、体育和工艺品、塑料、纸张和包装，以及机械。";
+  zh["Trade with Belt and Road and RCEP partners fell in 2025, even while light-industry output grew. That combination often pushes factories to look for new buyers and markets — which is when an export website and search visibility matter most. Typical products include footwear and sportswear, textiles, sports and craft goods, plastics, paper and packaging, and machinery."] = "2025 年对“一带一路”和 RCEP 伙伴的贸易下降，但轻工业产值仍在增长。这种组合往往促使工厂寻找新买家和市场——也正是出口网站和搜索可见度尤为重要的时候。典型产品包括鞋类和运动服装、纺织品、体育和工艺品、塑料、纸张和包装，以及机械。";
   fr["Trade with Belt and Road and RCEP partners fell in 2025, even while light-industry output grew. That combination often pushes factories to look for new buyers and markets — which is when an export website and search visibility matter most. Typical products include footwear and sportswear, textiles, sports and craft goods, plastics, paper and packaging, and machinery."] = "Les échanges avec les partenaires de la Ceinture et de la Route et du RCEP ont reculé en 2025, même si la production de l’industrie légère progressait. Cette combinaison pousse souvent les usines à chercher de nouveaux acheteurs et marchés — c’est alors qu’un site export et une visibilité dans les recherches comptent le plus. Les produits typiques comprennent chaussures et vêtements de sport, textiles, articles de sport et artisanat, plastiques, papier et emballages, ainsi que machines.";
   zh["Challenges Quanzhou manufacturers face online"] = "泉州制造商在线上常见的难题";
   fr["Challenges Quanzhou manufacturers face online"] = "Les défis en ligne des fabricants de Quanzhou";
@@ -19056,7 +19056,7 @@
   fr["A website, SEO and RFQ playbook for Quanzhou manufacturers"] = "Un guide site web, SEO et demande de devis pour les fabricants de Quanzhou";
   zh["Decide what the website is for: OEM/ODM supply, your own brand, or both. If both, give each a clear section so brand buyers and retailers are not confused."] = "先确定网站的用途：OEM/ODM 供应、自有品牌，还是两者兼有。如果两者兼有，就各设一个清晰板块，避免品牌买家和零售商混淆。";
   fr["Decide what the website is for: OEM/ODM supply, your own brand, or both. If both, give each a clear section so brand buyers and retailers are not confused."] = "Décidez de l’objectif du site : approvisionnement OEM/ODM, marque propre, ou les deux. Si c’est les deux, donnez à chacun une section claire pour ne pas semer la confusion chez les acheteurs de marques et les distributeurs.";
-  zh["Build pages for each product category with materials, processes, MOQ ranges and sampling time."] = "为每个产品类别建立页面，包含材料、工艺、最小起订量范围和打样时间。";
+  zh["Build pages for each product category with materials, processes, MOQ ranges and sampling time."] = "为每个产品类别建立页面，包含材料、工艺、起订量范围和打样时间。";
   fr["Build pages for each product category with materials, processes, MOQ ranges and sampling time."] = "Créez des pages pour chaque catégorie de produits avec les matériaux, les procédés, les fourchettes de quantité minimale de commande (MOQ) et les délais d’échantillonnage.";
   zh["Show development capability: design team, pattern or mould making, sampling room, with photos you own."] = "展示开发能力：设计团队、制版或开模、打样室，并配上你们拥有的照片。";
   fr["Show development capability: design team, pattern or mould making, sampling room, with photos you own."] = "Montrez la capacité de développement : équipe de design, patronage ou fabrication de moules, atelier d’échantillons, avec des photos que vous possédez.";
@@ -19114,7 +19114,7 @@
   fr["Only with evidence: certificates, material documents or test reports. Vague green claims can harm trust."] = "Uniquement avec des preuves : certificats, documents sur les matériaux ou rapports d’essai. Les allégations écologiques vagues peuvent nuire à la confiance.";
   zh["Should we publish MOQ and prices?"] = "应该公布 MOQ 和价格吗？";
   fr["Should we publish MOQ and prices?"] = "Faut-il publier les MOQ et les prix ?";
-  zh["Publishing MOQ ranges helps qualify buyers. Prices usually depend on materials and quantity, so explain the drivers instead."] = "公布 最小起订量范围有助于筛选买家。价格通常取决于材料和数量，因此应解释影响因素。";
+  zh["Publishing MOQ ranges helps qualify buyers. Prices usually depend on materials and quantity, so explain the drivers instead."] = "公布 起订量范围有助于筛选买家。价格通常取决于材料和数量，因此应解释影响因素。";
   fr["Publishing MOQ ranges helps qualify buyers. Prices usually depend on materials and quantity, so explain the drivers instead."] = "Publier les fourchettes de quantité minimale de commande (MOQ) aide à qualifier les acheteurs. Les prix dépendent généralement des matériaux et des quantités ; expliquez donc les facteurs déterminants.";
   zh["Can you promise orders?"] = "你们能保证订单吗？";
   fr["Can you promise orders?"] = "Pouvez-vous garantir des commandes ?";
@@ -19136,7 +19136,7 @@
   fr["Websites & SEO for Changzhou New-Energy Manufacturers | Hurfi"] = "Sites web et SEO pour les fabricants de nouvelles énergies de Changzhou | Hurfi";
   zh["Websites and SEO for Changzhou new-energy and equipment manufacturers"] = "面向常州新能源与装备制造商的网站和 SEO";
   fr["Websites and SEO for Changzhou new-energy and equipment manufacturers"] = "Sites web et SEO pour les fabricants de nouvelles énergies et d’équipements de Changzhou";
-  zh["Changzhou has built one of China’s largest new-energy industries — batteries, EVs, solar and power equipment — alongside electronics and rail equipment. Buyers abroad check these suppliers hard on safety, certification and capacity. Hurfi helps Changzhou manufacturers answer those checks on their website."] = "常州建成了中国最大的新能源产业之一——电池、电动汽车、光伏和电力装备——同时还有电子和轨道交通装备产业。海外买家对这些供应商的安全、认证和产能审核十分严格。Hurfi 帮助常州制造商在网站上从容应对这些审核。";
+  zh["Changzhou has built one of China’s largest new-energy industries — batteries, EVs, solar and power equipment — alongside electronics and rail equipment. Buyers abroad check these suppliers hard on safety, certification and capacity. Hurfi helps Changzhou manufacturers answer those checks on their website."] = "常州建成了中国主要的新能源产业基地之一——电池、电动汽车、光伏和电力装备——同时还有电子和轨道交通装备产业。海外买家对这些供应商的安全、认证和产能审核十分严格。Hurfi 帮助常州制造商在网站上从容应对这些审核。";
   fr["Changzhou has built one of China’s largest new-energy industries — batteries, EVs, solar and power equipment — alongside electronics and rail equipment. Buyers abroad check these suppliers hard on safety, certification and capacity. Hurfi helps Changzhou manufacturers answer those checks on their website."] = "Changzhou a bâti l’une des plus grandes filières de nouvelles énergies de Chine — batteries, véhicules électriques, solaire et équipements électriques — aux côtés de l’électronique et du matériel ferroviaire. Les acheteurs à l’étranger contrôlent strictement la sécurité, la certification et la capacité de ces fournisseurs. Hurfi aide les fabricants de Changzhou à répondre à ces exigences sur leur site web.";
   zh["Hurfi does not have an office or staff in Changzhou. We work with Changzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi 在常州没有办公室或员工。我们通过微信、电子邮件和视频通话，从西安（陕西）和博格拉（孟加拉国）的办公室远程服务常州制造商。";
   fr["Hurfi does not have an office or staff in Changzhou. We work with Changzhou manufacturers remotely — WeChat, email and video calls — from our offices in Xi’an (Shaanxi) and Bogura (Bangladesh)."] = "Hurfi n’a ni bureau ni personnel à Changzhou. Nous travaillons à distance avec les fabricants de Changzhou — WeChat, e-mail et visioconférence — depuis nos bureaux de Xi’an (Shaanxi) et de Bogura (Bangladesh).";
@@ -19174,7 +19174,7 @@
   fr["Power-equipment buyers check ratings, standards, type tests and factory acceptance testing."] = "Les acheteurs d’équipements électriques vérifient les caractéristiques assignées, les normes, les essais de type et les essais de réception en usine.";
   zh["Industrial zones and districts in Changzhou"] = "常州的产业园区与区县";
   fr["Industrial zones and districts in Changzhou"] = "Zones industrielles et districts de Changzhou";
-  zh["Changzhou’s official English investment page calls the city the “New Energy Capital” and the “World Capital of Transformers”, and says its energy-storage battery industry chain is 97% complete, ranking first in China."] = "常州官方英文投资专页称该市为“新能源之都”和“世界变压器之都”，并表示其储能电池产业链完整度达 97%，居全国第一。";
+  zh["Changzhou’s official English investment page calls the city the “New Energy Capital” and the “World Capital of Transformers”, and says its energy-storage battery industry chain is 97% complete, ranking first in China."] = "常州官方英文投资专页称该市为“新能源之都”和“世界变压器之都”，并表示其储能电池产业链完整度达 97%，居全国首位。";
   fr["Changzhou’s official English investment page calls the city the “New Energy Capital” and the “World Capital of Transformers”, and says its energy-storage battery industry chain is 97% complete, ranking first in China."] = "La page officielle d’investissement en anglais de Changzhou appelle la ville la « capitale des nouvelles énergies » et la « capitale mondiale des transformateurs », et indique que sa chaîne industrielle des batteries de stockage est complète à 97 %, au premier rang en Chine.";
   zh["The same page lists focus industries by district: power and next-generation batteries in Liyang and Jintan; electric drive components, automotive electronics and chips in Wujin; and new-energy vehicles, photovoltaics and energy storage in Xinbei (Changzhou National High-Tech District)."] = "同一页面列出了各辖区的重点产业：溧阳和金坛布局动力与新一代电池；武进布局电驱部件、汽车电子和芯片；新北区（常州国家高新区）布局新能源汽车、光伏和储能。";
   fr["The same page lists focus industries by district: power and next-generation batteries in Liyang and Jintan; electric drive components, automotive electronics and chips in Wujin; and new-energy vehicles, photovoltaics and energy storage in Xinbei (Changzhou National High-Tech District)."] = "La même page liste les industries phares par district : batteries de puissance et de nouvelle génération à Liyang et Jintan ; composants d’électromobilité, électronique automobile et puces à Wujin ; véhicules à énergie nouvelle, photovoltaïque et stockage d’énergie à Xinbei (district national de haute technologie de Changzhou).";
@@ -19188,7 +19188,7 @@
   fr["General trade made up 85.6% of trade, and private enterprises’ trade grew 25.6% to a 63.7% share."] = "Le commerce général représentait 85,6 % des échanges, et le commerce des entreprises privées a progressé de 25,6 % pour atteindre une part de 63,7 %.";
   zh["Civil drone output doubled, and output of energy-storage lithium-ion batteries rose 77.4%, carbon fibre and composites 46.6%, industrial robots 25.6% and transformers 16.2%."] = "民用无人机产量翻倍，储能锂离子电池产量增长 77.4%，碳纤维及复合材料增长 46.6%，工业机器人增长 25.6%，变压器增长 16.2%。";
   fr["Civil drone output doubled, and output of energy-storage lithium-ion batteries rose 77.4%, carbon fibre and composites 46.6%, industrial robots 25.6% and transformers 16.2%."] = "La production de drones civils a doublé, et celle des batteries lithium-ion de stockage d’énergie a augmenté de 77,4 %, celle des fibres de carbone et composites de 46,6 %, des robots industriels de 25,6 % et des transformateurs de 16,2 %.";
-  zh["Exports grew 17% in 2025, driven mainly by private, general-trade exporters — companies selling their own products rather than processing for others. Typical products are batteries and storage systems, EVs and parts, PV modules, transformers and power equipment. Buyers in Europe and elsewhere check safety and grid certifications before anything else."] = "2025 年出口增长 17%，主要由自营一般贸易出口商拉动——即销售自有产品而非代工的企业。典型产品是电池和储能系统、电动汽车及零部件、光伏组件、变压器和电力设备。欧洲和其他市场的买家最先核对安全与电网认证。";
+  zh["Exports grew 17% in 2025, driven mainly by private, general-trade exporters — companies selling their own products rather than processing for others. Typical products are batteries and storage systems, EVs and parts, PV modules, transformers and power equipment. Buyers in Europe and elsewhere check safety and grid certifications before anything else."] = "2025 年出口增长 17%，主要由自营一般贸易出口商拉动——即销售自有产品而非代工的企业。典型产品是电池和储能系统、电动汽车及零部件、光伏组件、变压器和电力设备。欧洲和其他市场的买家首先核对安全与电网认证。";
   fr["Exports grew 17% in 2025, driven mainly by private, general-trade exporters — companies selling their own products rather than processing for others. Typical products are batteries and storage systems, EVs and parts, PV modules, transformers and power equipment. Buyers in Europe and elsewhere check safety and grid certifications before anything else."] = "Les exportations ont progressé de 17 % en 2025, portées principalement par des exportateurs privés en commerce général — des entreprises qui vendent leurs propres produits plutôt que de faire de la sous-traitance. Les produits typiques sont les batteries et systèmes de stockage, les véhicules électriques et leurs pièces, les modules PV, les transformateurs et les équipements électriques. Les acheteurs d’Europe et d’ailleurs vérifient d’abord les certifications de sécurité et de raccordement au réseau.";
   zh["Challenges Changzhou manufacturers face online"] = "常州制造商在线上常遇到的问题";
   fr["Challenges Changzhou manufacturers face online"] = "Les défis en ligne des fabricants de Changzhou";
@@ -19344,13 +19344,13 @@
   fr["Appliance buyers check voltage variants, certification by market, packaging and OEM terms."] = "Les acheteurs d’électroménager vérifient les variantes de tension, la certification par marché, l’emballage et les conditions OEM.";
   zh["Electrical equipment and electronics"] = "电气设备与电子";
   fr["Electrical equipment and electronics"] = "Équipements électriques et électronique";
-  zh["The fastest-growing lines need specification pages and test documents so engineers can shortlist you."] = "增长最快的品类需要规格页面和测试文件，让工程师能把你们放进候选名单。";
+  zh["The fastest-growing lines need specification pages and test documents so engineers can shortlist you."] = "增长较快的品类需要规格页面和测试文件，让工程师能把你们放进候选名单。";
   fr["The fastest-growing lines need specification pages and test documents so engineers can shortlist you."] = "Les gammes les plus dynamiques ont besoin de pages de spécifications et de documents d’essai pour que les ingénieurs vous présélectionnent.";
   zh["Furniture exporters should show materials, finishes, packaging, assembly and compliance documents."] = "家具出口商应展示材料、表面处理、包装、组装和合规文件。";
   fr["Furniture exporters should show materials, finishes, packaging, assembly and compliance documents."] = "Les exportateurs de meubles doivent présenter les matériaux, les finitions, l’emballage, l’assemblage et les documents de conformité.";
   zh["Industrial zones and districts in Zhongshan"] = "中山的产业园区与镇街";
   fr["Industrial zones and districts in Zhongshan"] = "Zones industrielles et districts de Zhongshan";
-  zh["Zhongshan’s 2025 bulletin reports results by town and district: Xiaolan had the largest GDP (609.95 billion yuan), the Torch development area 587.49 billion yuan with above-scale industrial value added up 8.9%, and Guzhen 177.8 billion yuan."] = "中山 2025 年公报按镇街报告结果：小榄 GDP 最大（6,099.5 亿元），火炬开发区 5,874.9 亿元、规模以上工业增加值增长 8.9%，古镇 1,778 亿元。";
+  zh["Zhongshan’s 2025 bulletin reports results by town and district: Xiaolan had the largest GDP (609.95 billion yuan), the Torch development area 587.49 billion yuan with above-scale industrial value added up 8.9%, and Guzhen 177.8 billion yuan."] = "中山 2025 年公报按镇街报告结果：小榄 GDP 居首（6,099.5 亿元），火炬开发区 5,874.9 亿元、规模以上工业增加值增长 8.9%，古镇 1,778 亿元。";
   fr["Zhongshan’s 2025 bulletin reports results by town and district: Xiaolan had the largest GDP (609.95 billion yuan), the Torch development area 587.49 billion yuan with above-scale industrial value added up 8.9%, and Guzhen 177.8 billion yuan."] = "Le bulletin 2025 de Zhongshan rapporte les résultats par bourg et district : Xiaolan avait le PIB le plus élevé (609,95 milliards de yuans), la zone de développement Torch 587,49 milliards de yuans avec une valeur ajoutée industrielle au-dessus du seuil en hausse de 8,9 %, et Guzhen 177,8 milliards de yuans.";
   zh["Guzhen calls itself the “Lighting Capital of China”. The 34th China (Guzhen) International Lighting Fair in March 2026 gathered more than 3,600 enterprises showing over 100,000 products, and nearly 70,000 registered buyers, including 4,500 international visitors from more than 130 countries and regions."] = "古镇自称“中国灯饰之都”。2026 年 3 月举办的第 34 届中国（古镇）国际灯饰博览会吸引了超过 3,600 家企业、逾 10 万件产品参展，注册买家近 7 万人，其中国际买家 4,500 人，来自 130 多个国家和地区。";
   fr["Guzhen calls itself the “Lighting Capital of China”. The 34th China (Guzhen) International Lighting Fair in March 2026 gathered more than 3,600 enterprises showing over 100,000 products, and nearly 70,000 registered buyers, including 4,500 international visitors from more than 130 countries and regions."] = "Guzhen se dit la « capitale chinoise de l’éclairage ». La 34e Chine (Guzhen) Foire internationale de l’éclairage, en mars 2026, a réuni plus de 3 600 entreprises présentant plus de 100 000 produits, et près de 70 000 acheteurs inscrits, dont 4 500 visiteurs internationaux venus de plus de 130 pays et régions.";
@@ -19544,7 +19544,7 @@
   fr["Tianjin held 118 exhibitions and events in 2025, including an international mining conference, an international shipping industry expo and an international helicopter expo."] = "Tianjin a accueilli 118 expositions et événements en 2025, dont une conférence minière internationale, un salon international de l’industrie du transport maritime et un salon international de l’hélicoptère.";
   zh["Exports to Belt and Road partner countries grew 13.8%; general-trade exports were 243.72 billion yuan (+2.9%) and processing-trade exports 122.93 billion yuan (+16.5%)."] = "对“一带一路”伙伴国家出口增长 13.8%；一般贸易出口 2,437.2 亿元（+2.9%），加工贸易出口 1,229.3 亿元（+16.5%）。";
   fr["Exports to Belt and Road partner countries grew 13.8%; general-trade exports were 243.72 billion yuan (+2.9%) and processing-trade exports 122.93 billion yuan (+16.5%)."] = "Les exportations vers les pays partenaires de la Ceinture et de la Route ont crû de 13,8 % ; les exportations en commerce général se sont élevées à 243,72 milliards de yuans (+2,9 %) et celles en transformation à 122,93 milliards de yuans (+16,5 %).";
-  zh["Tianjin’s exports grew fastest in medicines and processing trade, and towards Belt and Road partners. New direct routes to the US West Coast, the Black Sea and India suggest the markets port operators are targeting. Typical products include vehicles and parts, electronics, robots, optical fibre and pharmaceuticals."] = "天津出口增长最快的是医药品和加工贸易，以及对“一带一路”伙伴的市场。新增的美西、黑海和印度直达航线，显示港口运营方正在瞄准的市场。典型产品包括汽车及零部件、电子、机器人、光纤和医药品。";
+  zh["Tianjin’s exports grew fastest in medicines and processing trade, and towards Belt and Road partners. New direct routes to the US West Coast, the Black Sea and India suggest the markets port operators are targeting. Typical products include vehicles and parts, electronics, robots, optical fibre and pharmaceuticals."] = "天津出口增长较快的是医药品和加工贸易，以及对“一带一路”伙伴的市场。新增的美西、黑海和印度直达航线，显示港口运营方正在瞄准的市场。典型产品包括汽车及零部件、电子、机器人、光纤和医药品。";
   fr["Tianjin’s exports grew fastest in medicines and processing trade, and towards Belt and Road partners. New direct routes to the US West Coast, the Black Sea and India suggest the markets port operators are targeting. Typical products include vehicles and parts, electronics, robots, optical fibre and pharmaceuticals."] = "Les exportations de Tianjin ont le plus crû dans les médicaments et le commerce de transformation, et vers les partenaires de la Ceinture et de la Route. Les nouvelles lignes directes vers la côte ouest des États-Unis, la mer Noire et l’Inde suggèrent les marchés ciblés par les opérateurs portuaires. Les produits typiques incluent véhicules et pièces, électronique, robots, fibre optique et produits pharmaceutiques.";
   zh["Challenges Tianjin manufacturers face online"] = "天津制造商在线上常遇到的问题";
   fr["Challenges Tianjin manufacturers face online"] = "Les défis en ligne des fabricants de Tianjin";
@@ -19676,8 +19676,8 @@
   fr["Export websites and Google SEO for manufacturers in Xi’an"] = "Sites export et SEO Google pour les fabricants de Xi’an";
   zh["Xi’an is home to Hurfi’s China office, and to fast-growing automotive, solar, aerospace and electrical industries. Its exporters ship by sea and by rail to Europe. Hurfi helps Xi’an manufacturers present themselves to buyers abroad."] = "西安是 Hurfi 中国办公室所在地，汽车、光伏、航空航天和电气产业增长迅速。当地出口商通过海运和铁路向欧洲发货。Hurfi 帮助西安制造商向海外买家展示自己。";
   fr["Xi’an is home to Hurfi’s China office, and to fast-growing automotive, solar, aerospace and electrical industries. Its exporters ship by sea and by rail to Europe. Hurfi helps Xi’an manufacturers present themselves to buyers abroad."] = "Xi’an abrite le bureau chinois de Hurfi, ainsi que des industries automobile, solaire, aérospatiale et électrique en forte croissance. Ses exportateurs expédient par mer et par rail vers l’Europe. Hurfi aide les fabricants de Xi’an à se présenter aux acheteurs étrangers.";
-  zh["Hurfi’s China office is in Xi’an: Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University. We also work remotely with Xi’an companies by WeChat, email and video. If you would prefer to meet in person, say so when you book and we will confirm whether it is possible."] = "Hurfi 中国办公室就在西安：西北工业大学长安校区海天苑 3 号。我们也通过微信、邮件和视频远程服务西安企业。如希望当面会谈，请在预约时说明，我们会确认是否可行。";
-  fr["Hurfi’s China office is in Xi’an: Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University. We also work remotely with Xi’an companies by WeChat, email and video. If you would prefer to meet in person, say so when you book and we will confirm whether it is possible."] = "Le bureau chinois de Hurfi est à Xi’an : Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University. Nous travaillons aussi à distance avec les entreprises de Xi’an par WeChat, e-mail et visioconférence. Si vous préférez une réunion en personne, dites-le lors de votre réservation et nous confirmerons si c’est possible.";
+  zh["Hurfi’s China office is in Xi’an: Dongxiang Road, Chang’an District, Xi’an, Shaanxi 710129. We also work remotely with Xi’an companies by WeChat, email and video. If you would prefer to meet in person, say so when you book and we will confirm whether it is possible."] = "Hurfi 中国办公室就在西安：陕西省西安市长安区东祥路 710129。我们也通过微信、邮件和视频远程服务西安企业。如希望当面会谈，请在预约时说明，我们会确认是否可行。";
+  fr["Hurfi’s China office is in Xi’an: Dongxiang Road, Chang’an District, Xi’an, Shaanxi 710129. We also work remotely with Xi’an companies by WeChat, email and video. If you would prefer to meet in person, say so when you book and we will confirm whether it is possible."] = "Le bureau chinois de Hurfi est à Xi’an : Dongxiang Road, Chang’an District. Nous travaillons aussi à distance avec les entreprises de Xi’an par WeChat, e-mail et visioconférence. Si vous préférez une réunion en personne, dites-le lors de votre réservation et nous confirmerons si c’est possible.";
   zh["What Xi’an makes, according to official data"] = "官方数据中的西安产业";
   fr["What Xi’an makes, according to official data"] = "Ce que produit Xi’an, d’après les données officielles";
   zh["The figures below come from the Xi’an government’s summary of the city’s 2025 economic performance, based on statistics bureau data."] = "以下数据来自西安市政府基于统计局数据对该市 2025 年经济运行情况的综述。";
@@ -19692,7 +19692,7 @@
   fr["Exports were 349.26 billion yuan, up 25.8%; mechanical and electrical exports rose 25.6% and electric passenger-car exports 66.1%."] = "Les exportations ont atteint 349,26 milliards de yuans, en hausse de 25,8 % ; les exportations électromécaniques ont augmenté de 25,6 % et celles de voitures électriques de 66,1 %.";
   zh["China–Europe Railway Express (Xi’an) ran 6,037 trains, up 21.1%."] = "中欧班列（西安）开行 6,037 列，增长 21.1%。";
   fr["China–Europe Railway Express (Xi’an) ran 6,037 trains, up 21.1%."] = "La ligne ferroviaire Chine–Europe (Xi’an) a effectué 6 037 trains, en hausse de 21,1 %.";
-  zh["Xi’an’s exporters are newer to overseas markets than many coastal factories, and exports grew fast in 2025. Many still rely on a Chinese website or a marketplace listing. An English website built for overseas buyers, and search visibility for specific products, are often the first steps."] = "与许多沿海工厂相比，西安出口商进入海外市场更晚，2025 年出口增长很快。许多仍依赖中文网站或平台店铺。为海外买家建一个英文网站，并让具体产品有搜索可见度，往往是第一步。";
+  zh["Xi’an’s exporters are newer to overseas markets than many coastal factories, and exports grew fast in 2025. Many still rely on a Chinese website or a marketplace listing. An English website built for overseas buyers, and search visibility for specific products, are often the first steps."] = "与许多沿海工厂相比，西安出口商进入海外市场更晚，2025 年出口增长很快。许多仍依赖中文网站或平台店铺。为海外买家建一个英文网站，并让具体产品有搜索可见度，往往是首先。";
   fr["Xi’an’s exporters are newer to overseas markets than many coastal factories, and exports grew fast in 2025. Many still rely on a Chinese website or a marketplace listing. An English website built for overseas buyers, and search visibility for specific products, are often the first steps."] = "Les exportateurs de Xi’an sont plus récents sur les marchés étrangers que beaucoup d’usines côtières, et les exportations ont fortement crû en 2025. Beaucoup reposent encore sur un site chinois ou une fiche de plateforme. Un site en anglais conçu pour les acheteurs étrangers et une visibilité de recherche pour des produits précis sont souvent les premiers pas.";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Xi’an Statistics Bureau, 2025 economic performance). Figures describe the city, not any Hurfi client."] = "Hurfi 制图，数据来自下列官方来源（西安市统计局，2025 年经济运行情况）。数据描述的是城市整体，并非任何 Hurfi 客户。";
   fr["Infographic by Hurfi, drawn from the official sources listed below (Xi’an Statistics Bureau, 2025 economic performance). Figures describe the city, not any Hurfi client."] = "Infographie par Hurfi, d’après les sources officielles listées ci-dessous (bureau des statistiques de Xi’an, performance économique 2025). Les chiffres décrivent la ville, et non un client de Hurfi.";
@@ -19714,9 +19714,9 @@
   fr["Electrical and communications-equipment suppliers should publish ratings, standards and test reports."] = "Les fournisseurs d’équipements électriques et de communications doivent publier caractéristiques assignées, normes et rapports d’essai.";
   zh["Industrial zones and districts in Xi’an"] = "西安的产业园区与片区";
   fr["Industrial zones and districts in Xi’an"] = "Zones industrielles et districts de Xi’an";
-  zh["The Xi’an High-tech Industries Development Zone, established in March 1991 in the first batch of national high-tech zones, reports more than 191,000 registered enterprises and core industries including electronic information (semiconductors and software) and advanced manufacturing for new-energy vehicles."] = "西安高新技术产业开发区于 1991 年 3 月列入首批国家级高新区，注册企业超过 19.1 万家，核心产业包括电子信息（半导体和软件）和新能源汽车先进制造。";
+  zh["The Xi’an High-tech Industries Development Zone, established in March 1991 in the first batch of national high-tech zones, reports more than 191,000 registered enterprises and core industries including electronic information (semiconductors and software) and advanced manufacturing for new-energy vehicles."] = "西安高新技术产业开发区于 1991 年 3 月列入首批国家高新区，注册企业超过 19.1 万家，核心产业包括电子信息（半导体和软件）和新能源汽车先进制造。";
   fr["The Xi’an High-tech Industries Development Zone, established in March 1991 in the first batch of national high-tech zones, reports more than 191,000 registered enterprises and core industries including electronic information (semiconductors and software) and advanced manufacturing for new-energy vehicles."] = "La zone de développement des industries de haute technologie de Xi’an, créée en mars 1991 dans la première vague de zones nationales de haute technologie, recense plus de 191 000 entreprises enregistrées et des industries clés dont l’information électronique (semi-conducteurs et logiciels) et la fabrication avancée pour véhicules à énergie nouvelle.";
-  zh["The Xi’an Yanliang National Aviation Hi-Tech Industrial Base was upgraded in 2010 to the National Shaanxi Aviation Economic and Technological Development Zone, which the city describes as the only national development zone featuring aviation."] = "西安阎良国家航空高技术产业基地于 2010 年升级为陕西航空经济技术开发区，该市称其为唯一以航空为特色的国家级开发区。";
+  zh["The Xi’an Yanliang National Aviation Hi-Tech Industrial Base was upgraded in 2010 to the National Shaanxi Aviation Economic and Technological Development Zone, which the city describes as the only national development zone featuring aviation."] = "西安阎良国家航空高技术产业基地于 2010 年升级为陕西航空经济技术开发区，该市称其为以航空为特色的国家开发区。";
   fr["The Xi’an Yanliang National Aviation Hi-Tech Industrial Base was upgraded in 2010 to the National Shaanxi Aviation Economic and Technological Development Zone, which the city describes as the only national development zone featuring aviation."] = "La base industrielle nationale de haute technologie aéronautique de Yanliang à Xi’an a été reconvertie en 2010 en zone de développement économique et technologique national de l’aviation du Shaanxi, que la ville présente comme la seule zone nationale de développement dédiée à l’aviation.";
   zh["The Xi’an International Trade and Logistic Park covers 120 square kilometres and includes the Xi’an Railway Container Freight Station and the Xi’an Comprehensive Free Trade Zone."] = "西安国际港务区面积 120 平方公里，包括西安铁路集装箱中心站和西安综合保税区。";
   fr["The Xi’an International Trade and Logistic Park covers 120 square kilometres and includes the Xi’an Railway Container Freight Station and the Xi’an Comprehensive Free Trade Zone."] = "Le parc international de commerce et de logistique de Xi’an couvre 120 kilomètres carrés et comprend la gare de fret de conteneurs ferroviaires de Xi’an et la zone franche intégrée de Xi’an.";
@@ -19782,7 +19782,7 @@
   fr["Add an export page covering shipping options, documents, payment terms and contact people."] = "Ajoutez une page export couvrant les options d’expédition, les documents, les conditions de paiement et les contacts.";
   zh["as the standard: written by people who know the product, for buyers, not to fill keywords."] = "作为标准：由了解产品的人写给买家看，而不是为了堆砌关键词。";
   fr["as the standard: written by people who know the product, for buyers, not to fill keywords."] = " comme norme : un contenu écrit par des personnes qui connaissent le produit, pour les acheteurs, pas pour remplir des mots-clés.";
-  zh["Set up Search Console and analytics from day one, so you can see which searches and pages bring buyers."] = "从第一天起就设置 Search Console 和分析工具，看清哪些搜索和页面带来买家。";
+  zh["Set up Search Console and analytics from day one, so you can see which searches and pages bring buyers."] = "从首日起就设置 Search Console 和分析工具，看清哪些搜索和页面带来买家。";
   fr["Set up Search Console and analytics from day one, so you can see which searches and pages bring buyers."] = "Configurez la Search Console et l’analytique dès le premier jour, pour voir quelles recherches et pages amènent des acheteurs.";
   zh["Keep your LinkedIn company page consistent with the website, so a buyer checking both sees the same company."] = "保持领英公司主页与网站一致，买家两边对照时看到的是同一家公司。";
   fr["Keep your LinkedIn company page consistent with the website, so a buyer checking both sees the same company."] = "Gardez votre page LinkedIn cohérente avec le site, pour qu’un acheteur qui vérifie les deux voie la même entreprise.";
@@ -19796,7 +19796,7 @@
   fr["We set up search, analytics and LinkedIn so you can see results in your own accounts."] = "Nous configurons la recherche, l’analytique et LinkedIn pour que vous voyiez les résultats dans vos propres comptes.";
   zh["An English site written for overseas buyers, not a translation — products, proof, export terms and contacts."] = "为海外买家用英语写成的网站，不是翻译——包含产品、证明、出口条款和联系人。";
   fr["An English site written for overseas buyers, not a translation — products, proof, export terms and contacts."] = "Un site en anglais écrit pour les acheteurs étrangers, pas une traduction — produits, preuves, conditions export et contacts.";
-  zh["Search Console and analytics from day one, and pages for the product searches buyers abroad make."] = "第一天起就有 Search Console 和分析工具，并覆盖海外买家搜索的产品词的页面。";
+  zh["Search Console and analytics from day one, and pages for the product searches buyers abroad make."] = "首日起就有 Search Console 和分析工具，并覆盖海外买家搜索的产品词的页面。";
   fr["Search Console and analytics from day one, and pages for the product searches buyers abroad make."] = "Search Console et analytique dès le premier jour, et des pages pour les recherches produit que font les acheteurs étrangers.";
   zh["Campaigns for the products and markets you are entering, measured by inquiries in your own accounts."] = "面向你们正在进入的产品和市场的投放活动，用你们自己账户中的询盘衡量。";
   fr["Campaigns for the products and markets you are entering, measured by inquiries in your own accounts."] = "Des campagnes pour les produits et marchés que vous abordez, mesurées par les demandes dans vos propres comptes.";
@@ -19806,8 +19806,8 @@
   fr["Questions from Xi’an manufacturers"] = "Questions des fabricants de Xi’an";
   zh["Does Hurfi have an office in Xi’an?"] = "Hurfi 在西安有办公室吗？";
   fr["Does Hurfi have an office in Xi’an?"] = "Hurfi a-t-il un bureau à Xi’an ?";
-  zh["Yes. Hurfi’s China office is at Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University, Xi’an, Shaanxi. Our other office is in Bogura, Bangladesh."] = "有。Hurfi 中国办公室位于陕西省西安市西北工业大学长安校区海天苑 3 号。另一间办公室在孟加拉国博格拉。";
-  fr["Yes. Hurfi’s China office is at Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University, Xi’an, Shaanxi. Our other office is in Bogura, Bangladesh."] = "Oui. Le bureau chinois de Hurfi se trouve à Haitianyuan 3, Chang’an Campus, Northwestern Polytechnical University, Xi’an, Shaanxi. Notre autre bureau est à Bogura, au Bangladesh.";
+  zh["Yes. Hurfi’s China office is on Dongxiang Road, Chang’an District, Xi’an, Shaanxi 710129. Our other office is in Bogura, Bangladesh."] = "有。Hurfi 中国办公室位于陕西省西安市长安区东祥路 710129。另一间办公室在孟加拉国博格拉。";
+  fr["Yes. Hurfi’s China office is on Dongxiang Road, Chang’an District, Xi’an, Shaanxi 710129. Our other office is in Bogura, Bangladesh."] = "Oui. Le bureau chinois de Hurfi se trouve à Dongxiang Road, Chang’an District, Xi’an, Shaanxi 710129. Notre autre bureau est à Bogura, au Bangladesh.";
   zh["Possibly. Say so when you book, and we will confirm whether an in-person meeting is possible. Most work happens by WeChat, email and video."] = "可能可以。预约时说明需求，我们会确认是否能安排当面会谈。多数工作通过微信、邮件和视频完成。";
   fr["Possibly. Say so when you book, and we will confirm whether an in-person meeting is possible. Most work happens by WeChat, email and video."] = "Possible. Indiquez-le lors de votre réservation et nous confirmerons si une réunion en personne est possible. L’essentiel du travail se fait par WeChat, e-mail et visioconférence.";
   zh["We only have a Chinese website. Where do we start?"] = "我们只有中文网站。从哪里开始？";
@@ -19992,7 +19992,7 @@
   fr["No. Hurfi has no office or staff in Shanghai. We work with Shanghai companies remotely by WeChat, email and video, from our offices in Xi’an and Bogura."] = "Non. Hurfi n’a ni bureau ni personnel à Shanghai. Nous travaillons à distance avec les entreprises de Shanghai par WeChat, e-mail et visioconférence, depuis nos bureaux de Xi’an et de Bogura.";
   zh["We already sell to global companies. What does a better website add?"] = "我们已经在向全球性公司供货。更好的网站还能带来什么？";
   fr["We already sell to global companies. What does a better website add?"] = "Nous vendons déjà à des groupes mondiaux. Qu’apporte un meilleur site ?";
-  zh["It shortens supplier qualification for new buyers and makes you findable for new projects. Engineers often check a supplier’s site before agreeing to a first call."] = "它缩短新买家的供应商资质认定，并让你在新项目中被找到。工程师常在同意第一次通话前查看供应商的网站。";
+  zh["It shortens supplier qualification for new buyers and makes you findable for new projects. Engineers often check a supplier’s site before agreeing to a first call."] = "它缩短新买家的供应商资质认定，并让你在新项目中被找到。工程师常在同意首次通话前查看供应商的网站。";
   fr["It shortens supplier qualification for new buyers and makes you findable for new projects. Engineers often check a supplier’s site before agreeing to a first call."] = "Il raccourcit la qualification fournisseurs pour de nouveaux acheteurs et vous rend trouvable pour de nouveaux projets. Les ingénieurs vérifient souvent le site d’un fournisseur avant d’accepter un premier appel.";
   zh["How much technical detail should we publish?"] = "我们应该发布多少技术细节？";
   fr["How much technical detail should we publish?"] = "Combien de détails techniques devons-nous publier ?";
@@ -20000,7 +20000,7 @@
   fr["Enough for a buyer to decide you are worth a call: key specifications, standards and capabilities. Keep confidential data for after an NDA, and say on the page that it is available."] = "Assez pour qu’un acheteur décide que vous méritez un appel : spécifications clés, normes et capacités. Gardez les données confidentielles pour après une NDA, et dites sur la page qu’elles sont disponibles.";
   zh["Should we use a .com, a country domain or subfolders?"] = "应该用 .com、国家域名还是子目录？";
   fr["Should we use a .com, a country domain or subfolders?"] = "Faut-il utiliser un .com, un domaine pays ou des sous-dossiers ?";
-  zh["For most exporters a single .com with language or country subfolders is simplest to run. Google documents the trade-offs of each option."] = "对多数出口商而言，一个 .com 加语言或国家子目录最易运营。谷歌记录了各选项的取舍。";
+  zh["For most exporters a single .com with language or country subfolders is simplest to run. Google documents the trade-offs of each option."] = "对多数出口商而言，一个 .com 加语言或国家子目录更易运营。谷歌记录了各选项的取舍。";
   fr["For most exporters a single .com with language or country subfolders is simplest to run. Google documents the trade-offs of each option."] = "Pour la plupart des exportateurs, un seul .com avec sous-dossiers de langue ou de pays est le plus simple à gérer. Google documente les arbitrages de chaque option.";
   zh["Can you write for aerospace or semiconductor buyers?"] = "你们能面向航空航天或半导体买家写作吗？";
   fr["Can you write for aerospace or semiconductor buyers?"] = "Pouvez-vous écrire pour des acheteurs aérospatiaux ou semi-conducteurs ?";
@@ -20020,7 +20020,7 @@
   fr["No. Search results depend on competition and your current site. We set milestones, report progress monthly and change the plan when the data says so."] = "Non. Les résultats de recherche dépendent de la concurrence et de votre site actuel. Nous fixons des jalons, faisons un rapport mensuel et modifions le plan quand les données le demandent.";
   zh["How do we start working together?"] = "我们怎么开始合作？";
   fr["How do we start working together?"] = "Comment commencer à travailler ensemble ?";
-  zh["Book a free consultation. We look at your site, products and target buyers, then suggest a first scope."] = "预约免费咨询。我们会看你们的网站、产品和目标买家，然后提出第一步的范围。";
+  zh["Book a free consultation. We look at your site, products and target buyers, then suggest a first scope."] = "预约免费咨询。我们会看你们的网站、产品和目标买家，然后提出首先的范围。";
   fr["Book a free consultation. We look at your site, products and target buyers, then suggest a first scope."] = "Réservez une consultation gratuite. Nous examinons votre site, vos produits et vos acheteurs cibles, puis proposons un premier périmètre.";
   zh["Shanghai in the China directory"] = "中国目录中的上海";
   fr["Shanghai in the China directory"] = "Shanghai dans l’annuaire Chine";
@@ -20043,7 +20043,7 @@
   zh["Electronics and machinery are named as the city’s two pillar industries: 1,612 enterprises, 51.8% of the above-designated-size total, producing 61.6% of output (electronics 28.0%, machinery 33.6%)."] = "电子和机械被列为厦门两大支柱产业：共有 1,612 家企业，占规模以上企业总数的 51.8%，产出占比为 61.6%（电子 28.0%，机械 33.6%）。";
   zh["High-tech manufacturing value added grew 18.1% and made up 41.3% of the total; railway, ship, aerospace and other transport equipment grew 17.5% and pharmaceuticals 17.6%."] = "高技术制造业增加值增长 18.1%，占总量的 41.3%；铁路、船舶、航空航天及其他运输设备增长 17.5%，医药制造业增长 17.6%。";
   zh["Goods exports were 540.76 billion yuan, up 8.6%."] = "货物出口额为 5,407.6 亿元，增长 8.6%。";
-  zh["Two industries produce most of Xiamen’s output, but the fastest growth is in electrical equipment and metal products. That means many Xiamen suppliers are either new to export or entering new product lines. Their websites need to explain the new line as clearly as the old one, rather than hiding it on a generic “products” page."] = "厦门的大部分产出来自两大产业，但电气设备和金属制品增长最快。因此，许多厦门供应商刚开始出口，或正在拓展新产品线。网站应像介绍成熟产品一样清晰地说明新品类，而不要把信息藏在笼统的“产品”页面里。";
+  zh["Two industries produce most of Xiamen’s output, but the fastest growth is in electrical equipment and metal products. That means many Xiamen suppliers are either new to export or entering new product lines. Their websites need to explain the new line as clearly as the old one, rather than hiding it on a generic “products” page."] = "厦门的大部分产出来自两大产业，但电气设备和金属制品增长较快。因此，许多厦门供应商刚开始出口，或正在拓展新产品线。网站应像介绍成熟产品一样清晰地说明新品类，而不要把信息藏在笼统的“产品”页面里。";
   zh["Infographic by Hurfi, drawn from the official sources listed below (Xiamen Statistics Bureau, 2025 Statistical Bulletin). Figures describe the city, not any Hurfi client."] = "Hurfi 根据下列官方来源制作的信息图（厦门市统计局《2025 年统计公报》）。数据描述的是厦门市整体情况，并非 Hurfi 客户的数据。";
   zh["Xiamen’s main industries and what buyers compare"] = "厦门主要产业与买家的比较重点";
   zh["Electronics and component makers should publish specifications in text, the processes they run in-house and the tests each batch goes through."] = "电子产品和零部件制造商应以文字列明规格、自有工序以及每批产品经过的测试。";
@@ -20054,7 +20054,7 @@
   zh["Pharmaceuticals and medical products"] = "医药与医疗产品";
   zh["Pharma and medical suppliers must be exact about registrations, GMP status and documents per market."] = "医药和医疗产品供应商必须准确说明注册信息、GMP 状态以及各市场所需文件。";
   zh["Industrial zones and districts in Xiamen"] = "厦门的工业园区与行政区";
-  zh["Xiamen Torch Development Zone for High Technology Industries was approved in the first batch of national high-tech zones in March 1991."] = "厦门火炬高技术产业开发区于 1991 年 3 月获批，属于首批国家级高新技术产业开发区。";
+  zh["Xiamen Torch Development Zone for High Technology Industries was approved in the first batch of national high-tech zones in March 1991."] = "厦门火炬高技术产业开发区于 1991 年 3 月获批，属于首批国家高新技术产业开发区。";
   zh["The Fujian Department of Commerce lists the zone’s six pillar industries as flat-panel displays, computer and telecom equipment, electric power equipment, software and information services, microelectronics and integrated circuits, and LED."] = "福建省商务厅列出的该开发区六大支柱产业为平板显示、计算机与通信设备、电力设备、软件与信息服务、微电子与集成电路以及 LED。";
   zh["The Torch zone explains much of Xiamen’s electronics and electrical-equipment output. Suppliers in these chains sell to engineers and need specification-level pages."] = "火炬开发区的产业说明了厦门电子和电气设备产出的重要部分。这些产业链上的供应商面向工程师销售，网站需要提供规格级别的产品页面。";
   zh["Xiamen’s port handled 211 million tonnes of cargo (+0.3%) and 12.51 million TEU (+2.1%) in 2025."] = "2025 年厦门港货物吞吐量为 2.11 亿吨（增长 0.3%），集装箱吞吐量为 1,251 万标准箱（增长 2.1%）。";
@@ -20087,8 +20087,8 @@
   zh["Give every product line its own section of the site, including new ones, with a clear English name and a short description of the application."] = "为每条产品线设置独立的网站栏目，包括新产品线，并使用清晰的英文名称和简短的应用说明。";
   zh["Add a capability page per process — for example stamping, CNC, surface treatment or SMT — with equipment lists and tolerance ranges."] = "每种工艺单独制作能力页面，例如冲压、CNC、表面处理或 SMT，并列出设备和公差范围。";
   zh["Put certificates and test reports on the product pages they cover. Buyers look there first."] = "在相关产品页展示适用的证书和测试报告。买家通常会先在这里查找。";
-  zh["Write a sample-and-order page: sample policy, MOQ ranges, lead-time ranges, payment terms. It answers the questions that delay the first reply."] = "编写样品与下单页面，说明样品政策、最小起订量范围、交期范围和付款条款。这些信息能解答拖慢首次回复的问题。";
-  zh["Check that pages load quickly on a phone abroad. Google’s Web Vitals guidance sets “good” thresholds of 2.5 seconds for Largest Contentful Paint, 200 milliseconds for Interaction to Next Paint and 0.1 for Cumulative Layout Shift."] = "检查页面在海外手机上的加载速度。Google 的 Web Vitals 指南将以下指标列为“良好”阈值：最大内容绘制 2.5 秒、下一次绘制互动 200 毫秒、累积布局偏移 0.1。";
+  zh["Write a sample-and-order page: sample policy, MOQ ranges, lead-time ranges, payment terms. It answers the questions that delay the first reply."] = "编写样品与下单页面，说明样品政策、起订量范围、交期范围和付款条款。这些信息能解答拖慢首次回复的问题。";
+  zh["Check that pages load quickly on a phone abroad. Google’s Web Vitals guidance sets “good” thresholds of 2.5 seconds for Largest Contentful Paint, 200 milliseconds for Interaction to Next Paint and 0.1 for Cumulative Layout Shift."] = "检查页面在海外手机上的加载速度。Google 的 Web Vitals 指南将以下指标列为“良好”阈值：主要内容渲染 2.5 秒、下一次绘制互动 200 毫秒、累积布局偏移 0.1。";
   zh["Track RFQ form submissions and email clicks in analytics, so you can see which product pages actually produce inquiries."] = "在分析工具中追踪询盘表单提交和电子邮件点击，了解哪些产品页实际带来了询盘。";
   zh["How Hurfi helps Xiamen manufacturers"] = "Hurfi 如何帮助厦门制造商";
   zh["We plan the site around your product lines, including the new ones you want to grow."] = "我们围绕你的产品线规划网站，包括你希望发展的新品类。";
@@ -20360,6 +20360,8 @@
 
   function mount(inner) {
     if (!inner) return;
+    // Static per-language pages carry their own 中文 / EN links (scripts/site/build.mjs).
+    if (inner.querySelector(".lang-links")) return;
     var phrases = map() || {};
     var langs = available();
     var group = inner.querySelector(".lang-switch");

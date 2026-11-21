@@ -233,7 +233,7 @@ const orgSchema = {
     },
     {
       "@type": "PostalAddress",
-      streetAddress: "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University",
+      streetAddress: "Dongxiang Road, Chang'an District",
       addressLocality: "Xi'an",
       addressRegion: "Shaanxi",
       addressCountry: "CN",

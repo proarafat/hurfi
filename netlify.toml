@@ -1,9 +1,11 @@
-# Static publish. Do not run npm run build: patch-pages rewrites the live pages.
+# Chinese-first static site. Do not run npm run build: patch-pages rewrites the live pages.
 [build]
-  # Static site. The only build step refreshes the generated Chinese pages, hreflang, sitemap and
-  # i18n-run.js (scripts/hurfi-pages/zh_mirror.mjs); if it fails, the committed files are published.
-  command = "node scripts/hurfi-pages/zh_mirror.mjs || echo 'zh_mirror failed: publishing the committed files'"
-  publish = "."
+  # 1. zh_mirror.mjs refreshes the Chinese twins (zh/) from the English source pages and the dictionary.
+  # 2. scripts/site/build.mjs assembles dist/: Chinese at /, English at /en/, shared content from
+  #    scripts/site/config.mjs, hreflang, sitemap, llms.txt. If either step fails, the deploy fails and
+  #    the previous version stays live.
+  command = "node scripts/hurfi-pages/zh_mirror.mjs && node scripts/site/build.mjs"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"

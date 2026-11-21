@@ -103,7 +103,7 @@
             (child.badge
               ? '<span class="badge badge-hot" aria-label="' +
                 escapeHtml(child.badge) +
-                '"><span class="badge-hot-icon" aria-hidden="true">✦</span><span class="badge-hot-text">' +
+                '"><span class="badge-hot-text">' +
                 escapeHtml(child.badge) +
                 "</span></span>"
               : "") +
@@ -230,11 +230,11 @@
     if (!logo) {
       logo = document.createElement("a");
       logo.className = "logo";
-      logo.href = "/";
+      logo.href = window.location.pathname.indexOf("/en/") === 0 ? "/en/" : "/";
       inner.insertBefore(logo, inner.firstChild);
     }
     logo.setAttribute("aria-label", "Hurfi home");
-    logo.href = "/";
+    logo.href = window.location.pathname.indexOf("/en/") === 0 ? "/en/" : "/";
     if (!logo.querySelector("img")) logo.innerHTML = logoImg("logo-img", 168, 40);
 
     // Nav shell
@@ -486,9 +486,9 @@
 
   function renderFooter() {
     var footer = document.querySelector(".site-footer");
-    if (!footer || footer.dataset.ready === "1") return;
-    footer.dataset.ready = "1";
-    footer.innerHTML =
+    if (!footer || footer.dataset.bound === "1") return;
+    footer.dataset.bound = "1";
+    if (!footer.querySelector(".footer-card")) footer.innerHTML =
       '<div class="footer-card">' +
       '<div class="footer-top footer-top--6">' +
       '<nav aria-label="Footer">' +
@@ -528,7 +528,7 @@
       '<p class="footer-address">Colony Chokforid Road, Bogura, Bangladesh</p>' +
       '<a class="footer-phone" href="tel:+8801925026696">+8801925026696</a></div>' +
       '<div class="footer-place"><p class="footer-place-name">China</p>' +
-      '<p class="footer-address">Haitianyuan 3, Chang\'an Campus, Northwestern Polytechnical University, Xi\'an, Shaanxi</p>' +
+      '<p class="footer-address">Dongxiang Road, Chang\'an District, Xi\'an, Shaanxi 710129, China</p>' +
       '<a class="footer-phone" href="tel:+8617792239260">+86 17792239260</a></div></div>' +
       '<nav aria-label="Socials">' +
       '<p class="footer-kicker">Socials</p>' +
@@ -1588,31 +1588,25 @@
     if (wait) wait.hidden = false;
     form.setAttribute("aria-busy", "true");
 
-    var payload = {
-      _subject: "Hurfi inquiry — " + name.value.trim(),
-      _template: "table",
-      _captcha: "false",
-      _cc: "support@hurfi.com",
-      _honey: "",
-      _replyto: email.value.trim()
-    };
+    // Netlify Forms: same-origin POST, so it works in mainland China (no Google reCAPTCHA).
+    var body = new URLSearchParams();
     new FormData(form).forEach(function (value, key) {
-      if (key === "bot-field" || key === "_honey" || key.charAt(0) === "_") return;
       if (typeof value !== "string") return;
-      var trimmed = value.trim();
-      if (trimmed) payload[key] = trimmed;
+      if (key === "_honey" || (key.charAt(0) === "_" && key !== "_subject")) return;
+      body.append(key, key === "bot-field" ? value : value.trim());
     });
+    if (!body.get("form-name")) body.set("form-name", form.getAttribute("name") || "project-inquiry");
+    body.set("page", window.location.pathname);
+    var thanks = window.location.pathname.indexOf("/en/") === 0 ? "/en/thank-you/" : "/thank-you/";
 
-    fetch("https://formsubmit.co/ajax/yasir@hurfi.com", {
+    fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/json", "Accept": "application/json" },
-      body: JSON.stringify(payload)
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: body.toString()
     }).then(function (res) {
-      return res.json().then(function (data) {
-        if (!res.ok || String(data.success) !== "true") throw new Error("unconfirmed");
-        markLeadPending(form);
-        window.location.assign("/thank-you/");
-      });
+      if (!res.ok) throw new Error("unconfirmed");
+      markLeadPending(form);
+      window.location.assign(thanks);
     }).catch(function () {
       if (fail) fail.hidden = false;
       button.disabled = false;
@@ -1710,7 +1704,7 @@
   }
 
   // GA4 lead tracking. Never sends names, emails, phone numbers, WeChat IDs or message text.
-  // generate_lead fires once, on /thank-you/, only after FormSubmit confirmed success (see submitInquiry).
+  // generate_lead fires once, on the thank-you page, only after Netlify confirmed the submission (see submitInquiry).
   var LEAD_KEY = "hurfi_lead_pending";
   var LEAD_MAX_AGE_MS = 30 * 60 * 1000;
   function gaEvent(name, params) {

@@ -39,9 +39,10 @@ window.HURFI_SCHEMA = {
     },
     {
       "@type": "PostalAddress",
-      "streetAddress": "Haitianyuan 3, Chang'an Campus, Northwestern Polytechnical University",
+      "streetAddress": "Dongxiang Road, Chang'an District",
       "addressLocality": "Xi'an",
       "addressRegion": "Shaanxi",
+      "postalCode": "710129",
       "addressCountry": "CN"
     }
   ],

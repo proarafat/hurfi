@@ -1,0 +1,116 @@
+/* Shared blocks written into every page by scripts/site/build.mjs (both languages). */
+
+/* Chinese typography */
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3, html[lang="zh-CN"] h4,
+html[lang="zh-CN"] button, html[lang="zh-CN"] input, html[lang="zh-CN"] select, html[lang="zh-CN"] textarea {
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+html[lang="zh-CN"] body { line-break: strict; overflow-wrap: anywhere; }
+html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spacing: 0; font-style: normal; word-break: normal; }
+html[lang="zh-CN"] .about-hero h1, html[lang="zh-CN"] .rk-consult h2 em, html[lang="zh-CN"] .rk-hero h1 em { font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif; font-style: normal; font-weight: 800; }
+html[lang="zh-CN"] p, html[lang="zh-CN"] li { line-height: 1.75; }
+
+/* Language links in the header (中文 / EN) */
+.lang-links a {
+  display: inline-block; padding: 0.38rem 0.46rem; border-radius: 4px;
+  color: rgba(255, 255, 255, 0.78); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em; line-height: 1; text-decoration: none;
+}
+.lang-links a[aria-current="true"] { background: #006ce0; color: #fff; }
+.lang-links a:hover { color: #fff; }
+.lang-links a:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+
+/* "Hot" badge without the old icon character */
+.badge-hot-icon { display: none; }
+
+/* Icons */
+.sc-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; flex: none; border-radius: 12px; background: rgba(0, 118, 247, 0.14); border: 1px solid rgba(125, 186, 255, 0.22); color: #7dbaff; }
+.sc-icon svg { display: block; }
+
+/* Page-specific trust line */
+.hx-trust { width: min(1120px, calc(100% - 2.5rem)); margin: 1.6rem auto 0; }
+.hx-trust-card { display: flex; gap: 1rem; align-items: center; padding: 1.1rem 1.3rem; border: 1px solid rgba(125, 186, 255, 0.28); border-radius: 20px; background: linear-gradient(120deg, rgba(0, 118, 247, 0.16), rgba(16, 20, 28, 0.92) 60%); }
+.hx-trust-card p { margin: 0; color: #eef3fb; font-size: 1.04rem; line-height: 1.6; font-weight: 600; }
+.hx-trust--close .hx-trust-card { flex-wrap: wrap; }
+.hx-trust--close .hx-trust-card p { flex: 1 1 24rem; }
+.hx-trust-card .btn { border-radius: 999px; padding: 0.7rem 1.2rem; }
+
+/* Stats */
+.rk-meter-note { margin: 0.9rem auto 0; max-width: 40rem; text-align: center; color: rgba(232, 237, 245, 0.72); font-size: 0.92rem; }
+
+/* Client logos heading */
+.logos-head { text-align: center; margin: 0 auto 1rem; max-width: 46rem; }
+.logos-title { margin: 0; color: #f7f8fb; font-size: clamp(1.15rem, 2.2vw, 1.5rem); letter-spacing: -0.02em; }
+.logos-head p { margin: 0.4rem 0 0; color: rgba(232, 237, 245, 0.72); font-size: 0.95rem; }
+
+/* Pricing */
+.hx-pricing { padding-top: 3rem; }
+.hx-price-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.hx-price-card { display: flex; flex-direction: column; gap: 0.45rem; padding: 1.4rem; border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 22px; background: #10141c; }
+.hx-price-card.is-current { border-color: #3b8cff; box-shadow: 0 0 0 1px #3b8cff inset, 0 20px 50px rgba(0, 80, 200, 0.25); }
+.hx-price-card h3 { margin: 0.5rem 0 0; color: #f7f8fb; font-size: 1.12rem; }
+.hx-price { margin: 0; color: #fff; font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; }
+.hx-price-card p { margin: 0; color: rgba(232, 237, 245, 0.76); font-size: 0.93rem; line-height: 1.5; }
+.hx-price-card a { margin-top: auto; padding-top: 0.4rem; color: #7dbaff; font-weight: 700; font-size: 0.92rem; text-decoration: none; }
+.hx-price-terms { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.2rem; margin: 1.3rem 0 0; padding: 0; color: rgba(232, 237, 245, 0.84); font-size: 0.93rem; }
+.hx-price-terms li::before { content: "✓"; margin-right: 0.4rem; color: #3b8cff; font-weight: 800; }
+.hx-price-pos { margin: 0.8rem auto 0; text-align: center; color: #cfe5ff; font-weight: 700; }
+.hx-price-cta { text-align: center; margin-top: 1rem; }
+.hx-price-cta .btn, .hx-trust-card .btn { display: inline-flex; align-items: center; min-height: 44px; }
+.hx-pricing--compact .hx-price-card { padding: 1.1rem 1.2rem; }
+
+/* Comparison table */
+.hx-compare { padding-top: 3rem; }
+.hx-compare-scroll { overflow-x: auto; margin-top: 1.4rem; border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 20px; background: #10141c; }
+.hx-compare-table { width: 100%; min-width: 560px; border-collapse: collapse; color: rgba(232, 237, 245, 0.86); font-size: 0.95rem; }
+.hx-compare-table th, .hx-compare-table td { padding: 0.85rem 1rem; text-align: left; border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+.hx-compare-table thead th { color: #f7f8fb; font-weight: 800; }
+.hx-compare-table .is-us { background: rgba(0, 118, 247, 0.12); color: #fff; font-weight: 700; }
+.hx-compare-table td.is-yes::before { content: "✓ "; color: #3b8cff; font-weight: 800; }
+.hx-compare-table td.is-no { color: rgba(232, 237, 245, 0.55); }
+.hx-compare-table tbody tr:last-child th, .hx-compare-table tbody tr:last-child td { border-bottom: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Case study */
+.hx-case { padding-top: 3rem; }
+.hx-case-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 2rem; align-items: center; padding: 1.4rem; border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 26px; background: #10141c; }
+.hx-case-grid:not(:has(figure)) { grid-template-columns: 1fr; }
+.hx-case-media { margin: 0; }
+.hx-case-media img { display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); }
+.hx-case-kicker { margin: 0; color: #7dbaff; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+.brief.hx-case h2 { margin-top: 0.4rem; text-align: left; font-size: clamp(1.5rem, 2.8vw, 2.1rem); line-height: 1.15; }
+.hx-case-copy p { color: rgba(232, 237, 245, 0.82); line-height: 1.65; margin: 0.8rem 0 0; }
+.hx-case-link { color: #7dbaff; font-weight: 700; text-decoration: none; }
+.hx-case-link:hover { color: #fff; }
+
+/* Client feedback screenshots */
+.hx-feedback-grid { columns: 3 260px; column-gap: 1rem; margin-top: 1.4rem; }
+.hx-feedback-shot { break-inside: avoid; margin: 0 0 1rem; border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 16px; overflow: hidden; background: #10141c; }
+.hx-feedback-shot img { display: block; width: 100%; height: auto; }
+.hx-feedback-shot figcaption { padding: 0.6rem 0.8rem; color: rgba(232, 237, 245, 0.72); font-size: 0.86rem; }
+
+/* Contact order in the consultation block */
+.hx-contact-line { margin: 1rem 0 0.5rem; color: rgba(232, 237, 245, 0.78); font-size: 0.92rem; }
+.hx-contact-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.hx-contact-btn { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 40px; padding: 0.45rem 0.85rem; border: 1px solid rgba(125, 186, 255, 0.35); border-radius: 999px; background: rgba(0, 118, 247, 0.1); color: #e8f1ff; font: inherit; font-size: 0.9rem; font-weight: 700; text-decoration: none; cursor: pointer; }
+.hx-contact-btn:hover { background: rgba(0, 118, 247, 0.22); color: #fff; }
+.footer-link-btn { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.footer-link-btn:hover { text-decoration: underline; }
+
+/* Offices without a map */
+.about-map--static { display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+.about-map--static .about-map-meta { position: static; }
+
+@media (max-width: 960px) {
+  .hx-price-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hx-case-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .hx-price-grid { grid-template-columns: 1fr; }
+  .hx-trust-card { align-items: flex-start; }
+}
+
+/* Inside the light home/projects hero */
+.rk-hero .logos-title { color: #141c33; }
+.rk-hero .logos-head p, .rk-hero .rk-meter-note { color: #34405e; }
+html, body { overflow-x: clip; }

@@ -51,7 +51,7 @@ NAV = [('Home', '/'), ('About', '/about/'), ('Services', '/services/', SERVICES)
 def _child(c):
     badge = ''
     if len(c) > 2 and c[2] == 'Hot':
-        badge = '<span class="badge badge-hot" aria-label="Hot"><span class="badge-hot-icon" aria-hidden="true">Ã¢Å“Â¦</span><span class="badge-hot-text">Hot</span></span>'
+        badge = '<span class="badge badge-hot" aria-label="Hot"><span class="badge-hot-text">Hot</span></span>'
     return '<li><a href="%s"><span class="nav-link-text">%s</span>%s</a></li>' % (c[1], c[0].replace('&', '&amp;'), badge)
 
 def nav_ul():
