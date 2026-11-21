@@ -426,7 +426,7 @@ export const PAGES = [
 
   /* ================================================================ Shenzhen · social media */
   { slug: "social-media-management-agency-shenzhen", svc: "social-media-management", city: "shenzhen",
-    title: T("Social Media Management Agency Shenzhen | Hurfi", "深圳海外社媒代运营｜LinkedIn与Instagram | Hurfi"),
+    title: T("Social Media Management Agency Shenzhen | Hurfi", "深圳海外社媒代运营｜LinkedIn获客 | Hurfi"),
     description: T("Hurfi helps Shenzhen manufacturers and B2B companies manage social media, plan content and build brand trust. Book a free strategy call today.",
       "Hurfi 帮助深圳制造商和 B2B 企业管理社交媒体、规划内容、建立品牌信任。立即预约免费策略咨询。"),
     h1: T("Social Media Management Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳海外社媒代运营：用LinkedIn让买家先认识您的工厂"),
@@ -887,7 +887,7 @@ export const PAGES = [
 
   /* ================================================================ Guangzhou · social media */
   { slug: "social-media-management-agency-guangzhou", svc: "social-media-management", city: "guangzhou",
-    title: T("Social Media Management Agency Guangzhou | Hurfi", "广州海外社媒代运营｜LinkedIn与海外社媒 | Hurfi"),
+    title: T("Social Media Management Agency Guangzhou | Hurfi", "广州海外社媒代运营｜LinkedIn推广 | Hurfi"),
     description: T("Social media management in Guangzhou for manufacturers and exporters: content, design, Facebook, Instagram and LinkedIn. Book a free strategy call.",
       "广州社交媒体代运营，服务制造商与出口企业：内容规划与设计，以及 Facebook、Instagram 和领英运营。立即预约免费策略咨询。"),
     h1: T("Social Media Management Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州海外社媒代运营：用真实生产内容赢得海外买家关注"),
