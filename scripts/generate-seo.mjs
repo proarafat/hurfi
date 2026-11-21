@@ -246,7 +246,7 @@ const orgSchema = {
       telephone: "+8801925026696",
       contactType: "sales",
       areaServed: "BD",
-      availableLanguage: ["English", "Chinese", "French"],
+      availableLanguage: ["English", "Chinese"],
     },
     {
       "@type": "ContactPoint",

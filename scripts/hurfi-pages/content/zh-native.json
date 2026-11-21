@@ -526,7 +526,6 @@
   "Which number should I call?": "该打哪个电话？",
   "Use +86 17792239260 for the China desk. The Bogura number is +8801925026696.": "中国联络处请拨 +86 17792239260，博格拉的号码是 +8801925026696。",
   "Can I write in Chinese?": "可以用中文联系吗？",
-  "Yes. Chinese, English, or French. Shahruk is the China-side contact on WeChat and by phone.": "可以。中文、英文或法文都行。Shahruk 是中国区的联系人，可通过微信和电话联系。",
   "Is this the same as booking a call?": "这和预约咨询是一回事吗？",
   "A message is for a direct note. A strategy call is booked on the consultation page, and it is free.": "留言用于直接沟通；策略咨询需要在预约页面预约，免费。",
   "Where are the offices?": "办公室在哪里？",
@@ -573,6 +572,7 @@
   "Nothing starts until the brief is clear.": "需求明确之前，不会开始任何工作。",
   "Scope, timing, and the way we talk are agreed before the work begins.": "工作范围、时间安排和沟通方式，都会在开工前确认。",
   "Back home": "返回首页",
-  "Explore services": "了解服务"
+  "Explore services": "了解服务",
+  "Yes. Chinese or English. Shahruk is the China-side contact on WeChat and by phone.": "可以。中文或英文都行。Shahruk 是中国区的联系人，可通过微信和电话联系。"
  }
 }
