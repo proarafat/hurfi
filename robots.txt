@@ -3,6 +3,11 @@ User-agent: *
 Allow: /
 Disallow: /thank-you/
 
+# Baidu (China). The Chinese pages are at the root; the sitemap lists both languages.
+User-agent: Baiduspider
+Allow: /
+Disallow: /thank-you/
+
 # ChatGPT search and training
 User-agent: GPTBot
 Allow: /

@@ -253,7 +253,7 @@ function lookup(zh, s) {
   const core = s.trim();
   const key = core.replace(/\s+/g, " ");
   if (CTX_PROV && PLACES[key + "|" + CTX_PROV]) return PLACES[key + "|" + CTX_PROV];
-  const got = zh[core] ?? zh[key];
+  const got = (PAGE_ZH && (PAGE_ZH[core] ?? PAGE_ZH[key])) ?? zh[core] ?? zh[key];
   if (got !== undefined) return got;
   // Already Chinese (no Latin lowercase left), or a brand name: nothing to translate.
   if (/[\u4e00-\u9fff]/.test(key) && !/[a-z]{2,}/.test(key)) return key;
@@ -306,6 +306,15 @@ function headMeta(html) {
 /* ------------------------------------------------------------ main */
 
 const zh = loadDict();
+// Native Chinese for the core pages (content/zh-native.json): used before the dictionary, on those pages only.
+const NATIVE = (() => { try { return JSON.parse(fs.readFileSync(path.join(HERE, "content", "zh-native.json"), "utf8")); } catch { return { pages: [], map: {}, meta: {} }; } })();
+let PAGE_ZH = null;
+function nativeFor(url) {
+  if (!NATIVE.pages.includes(url)) return null;
+  const m = { ...NATIVE.map }, meta = NATIVE.meta[url] || {};
+  for (const k of ["title", "desc"]) if (meta[k]) m[meta[k][0]] = meta[k][1];
+  return m;
+}
 const pages = englishPages();
 // The home page and the four service pages used to have short hand-written Chinese versions (zh.json).
 // Chinese is now the default site, so they get full twins like every other page (dictionary coverage is 100%).
@@ -313,6 +322,7 @@ const HANDMADE = {};
 
 const stats = pages.map((url) => {
   const html = rd(fileOf(url));
+  PAGE_ZH = nativeFor(url);
   const c = coverage(html, zh);
   const { title, desc } = headMeta(html);
   const noindex = /<meta name="robots" content="[^"]*noindex/i.test(html);
@@ -631,6 +641,7 @@ for (const s of stats) {
   }
 
   // Chinese page.
+  PAGE_ZH = nativeFor(s.url);
   const cut = en.indexOf("</head>");
   const bodyZh = translateBody(en.slice(cut));
   let headZh = zhHead(en.slice(0, cut), s.url, zurl, bodyZh);

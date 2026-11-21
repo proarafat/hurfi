@@ -11,6 +11,12 @@
   NODE_VERSION = "20"
   GIT_LFS_ENABLED = "true"
 
+# After a production deploy: send new/changed Chinese URLs to Baidu (off until BAIDU_PUSH_TOKEN is set).
+[[plugins]]
+  package = "./netlify/plugins/baidu-push"
+  [plugins.inputs]
+    limit = 50
+
 [[redirects]]
   from = "/home"
   to = "/"

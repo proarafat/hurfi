@@ -50,7 +50,7 @@ export const SERVICES = {
   "website-development": { crumb: "Website Development", agency: T("Website development agency", "网站建设公司"), lower: T("website development", "网站建设"),
     page: T("Our website development service", "我们的网站建设服务"),
     mid: [T("Planning a new website or improving the one you have?", "准备建设新网站，或改进现有网站？"),
-      T("Book a free 30-minute strategy call. We will look at your current site, products and target markets, and tell you what we would fix first.", "预约 30 分钟免费策略咨询。我们会查看你现有的网站、产品和目标市场，并告诉你最先应该改进什么。")],
+      T("Book a free 30-minute strategy call. We will look at your current site, products and target markets, and tell you what we would fix first.", "预约 30 分钟免费策略咨询。我们会查看你现有的网站、产品和目标市场，并告诉你首先应该改进什么。")],
     guides: ["manufacturer-website-rfq-checklist", "factory-website-trust-signals", "export-website-speed-for-overseas-buyers"] },
   seo: { crumb: "SEO", agency: T("SEO agency", "谷歌 SEO 服务"), lower: T("SEO", "SEO"),
     page: T("Our Google SEO service", "我们的谷歌 SEO 服务"),
@@ -76,16 +76,15 @@ const HOSTINGER = { h3: T("Official Hostinger Agency Partner", "Hostinger 官方
 export const PAGES = [
   /* ================================================================ Shenzhen · website development */
   { slug: "website-development-agency-shenzhen", svc: "website-development", city: "shenzhen",
-    title: T("Website Development Agency Shenzhen | B2B Websites | Hurfi", "深圳网站建设公司｜制造业外贸 B2B 网站开发 | Hurfi"),
+    title: T("Website Development Agency Shenzhen | B2B Websites | Hurfi", "深圳外贸网站建设｜英文B2B独立站开发 | Hurfi"),
     description: T("Website development agency in Shenzhen for manufacturers, exporters and B2B companies: corporate, product and e-commerce websites built to win enquiries.",
       "深圳网站建设公司，服务制造商、出口企业与 B2B 公司：企业官网、产品展示网站和电商网站，专为获取海外询盘而设计。"),
-    h1: T("Website Development Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳网站建设公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Website Development Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳外贸网站建设：为制造企业打造能带来询盘的英文独立站"),
     lead: T("Hurfi builds professional B2B, corporate and manufacturing websites for Shenzhen companies: sites that present your products clearly, earn the trust of international buyers and turn visits into enquiries.",
       "Hurfi 为深圳企业建设专业的 B2B 网站、企业官网和制造业网站：清晰展示产品，赢得国际买家信任，把网站访问转化为询盘。"),
     sections: [
       { h2: T("Build a website that helps your Shenzhen business grow globally", "建设一个助力深圳企业走向全球的网站"),
-        p: [T("Shenzhen companies are known worldwide for electronics, technology and manufacturing. Strong products are only part of winning an overseas order: buyers compare several suppliers online before they write, and your website is often the first thing they check.",
-            "深圳企业以电子、科技和制造闻名全球。但拿下海外订单，好产品只是一部分：买家在联系之前会在网上比较多家供应商，而你的网站往往是他们最先查看的地方。"),
+        p: [T("Shenzhen companies are known worldwide for electronics, technology and manufacturing. Strong products are only part of winning an overseas order: buyers compare several suppliers online before they write, and your website is often the first thing they check.", "深圳企业以电子、科技和制造闻名全球。但拿下海外订单，好产品只是一部分：买家在联系之前会在网上比较多家供应商，而你的网站往往是他们首先查看的地方。"),
           T("As a website development agency for Shenzhen manufacturers, exporters and B2B companies, we plan every site around your products, your buyers and the enquiry you want them to send, from corporate websites to product-led B2B platforms.",
             "作为服务深圳制造商、出口企业和 B2B 公司的网站建设公司，我们围绕你的产品、你的买家以及你希望收到的询盘来规划每一个网站，从企业官网到以产品为核心的 B2B 平台。")] },
       { h2: T("Website development services for Shenzhen businesses", "面向深圳企业的网站建设服务"),
@@ -100,7 +99,7 @@ export const PAGES = [
             ul: [T("Product showcase pages", "产品展示页面"), T("Company profile", "公司简介"), T("Manufacturing capability pages", "制造能力页面"), T("Enquiry and RFQ forms", "询盘与询价（RFQ）表单"),
               T("Lead-capture features", "潜在客户获取功能"), T("A structure built around how buyers evaluate suppliers", "按买家评估供应商的方式搭建的结构")] },
           { h3: T("Manufacturing website development", "制造业网站开发"),
-            p: [T("Manufacturers need websites that explain products, production capability, certifications and the industries they serve, so buyers understand the business before the first conversation.", "制造商需要能讲清产品、生产能力、认证以及所服务行业的网站，让买家在第一次沟通之前就了解你的企业。")],
+            p: [T("Manufacturers need websites that explain products, production capability, certifications and the industries they serve, so buyers understand the business before the first conversation.", "制造商需要能讲清产品、生产能力、认证以及所服务行业的网站，让买家在首次沟通之前就了解你的企业。")],
             ul: [T("Product categories", "产品分类"), T("Technical specifications", "技术规格"), T("Factory information", "工厂信息"), T("Production processes", "生产工艺"), T("Industry applications", "行业应用")] },
           { h3: T("Corporate website development", "企业官网开发"),
             p: [T("A corporate website builds credibility for companies that need a professional online presence. It sets out your background, services, products, expertise and advantages in one place.", "企业官网为需要专业线上形象的公司建立可信度，把公司背景、服务、产品、专长和优势集中呈现。")] },
@@ -109,8 +108,7 @@ export const PAGES = [
             ul: [T("Shopify development", "Shopify 开发"), T("WordPress e-commerce", "WordPress 电商"), T("Product management", "产品管理"), T("Payment integration", "支付集成"), T("A simple, mobile-friendly checkout", "简洁、适配手机的结账流程")] },
         ] },
       { h2: T("Why Shenzhen businesses need professional website development", "为什么深圳企业需要专业的网站建设"),
-        p: [T("Shenzhen has one of the world’s strongest business ecosystems, with electronics companies, technology firms, manufacturers and exporters. Many already have strong products, experienced teams and real manufacturing capability, yet their websites hold them back with:",
-          "深圳拥有全球最强的商业生态之一，聚集了电子企业、科技公司、制造商和出口企业。许多企业已经拥有好产品、有经验的团队和真实的制造能力，但网站却拖了后腿：")],
+        p: [T("Shenzhen has one of the world’s strongest business ecosystems, with electronics companies, technology firms, manufacturers and exporters. Many already have strong products, experienced teams and real manufacturing capability, yet their websites hold them back with:", "深圳拥有全球突出的商业生态之一，聚集了电子企业、科技公司、制造商和出口企业。许多企业已经拥有好产品、有经验的团队和真实的制造能力，但网站却拖了后腿：")],
         ul: [T("Outdated design and structure", "设计和结构过时"), T("Poor product presentation", "产品展示薄弱"), T("Little visibility outside China", "在海外几乎没有曝光"), T("Few useful enquiries", "有效询盘很少"), T("No clear path for overseas buyers to make contact", "海外买家找不到清晰的联系路径")],
         p2: [T("A professionally developed website fixes these problems and gives buyers a reason to contact you.", "专业开发的网站能解决这些问题，并给买家一个联系你的理由。")] },
       { h2: T("Website development for Shenzhen manufacturers and exporters", "为深圳制造商和出口企业建设网站"),
@@ -192,10 +190,10 @@ export const PAGES = [
 
   /* ================================================================ Shenzhen · SEO */
   { slug: "seo-agency-shenzhen", svc: "seo", city: "shenzhen",
-    title: T("SEO Agency Shenzhen | Google SEO for Manufacturers | Hurfi", "深圳谷歌 SEO 公司｜制造业与出口企业 SEO 优化 | Hurfi"),
+    title: T("SEO Agency Shenzhen | Google SEO for Manufacturers | Hurfi", "深圳谷歌SEO优化｜制造与出口企业获客 | Hurfi"),
     description: T("Hurfi provides SEO services in Shenzhen for manufacturers, exporters and B2B companies to improve Google visibility, attract buyers and grow online.",
       "Hurfi 为深圳制造商、出口企业和 B2B 公司提供 SEO 服务，提升谷歌搜索可见度，吸引海外买家，实现线上增长。"),
-    h1: T("SEO Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳 SEO 公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("SEO Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳谷歌SEO：让海外买家搜到您的工厂"),
     lead: T("Shenzhen is home to thousands of manufacturers, technology companies and exporters serving customers worldwide. Hurfi helps them get found on Google by the buyers already searching for their products.",
       "深圳聚集了数以千计面向全球客户的制造商、科技公司和出口企业。Hurfi 帮助它们在谷歌上被正在搜索其产品的买家找到。"),
     sections: [
@@ -205,12 +203,11 @@ export const PAGES = [
           T("We work with businesses that want more than traffic. Whether you are a manufacturer, exporter, technology company or growing B2B business, we focus on reaching the right audience, improving Google visibility and creating more opportunities through organic search.",
             "我们服务的是不只想要流量的企业。无论你是制造商、出口企业、科技公司还是成长中的 B2B 企业，我们都专注于触达合适的受众、提升谷歌可见度，并通过自然搜索创造更多机会。")] },
       { h2: T("Professional SEO services for Shenzhen businesses", "面向深圳企业的专业 SEO 服务"),
-        p: [T("Search engines are often the first place buyers research suppliers and service providers. As an SEO company working with Shenzhen businesses, Hurfi covers:", "搜索引擎往往是买家调研供应商和服务商的第一站。作为服务深圳企业的 SEO 公司，Hurfi 的服务包括：")],
+        p: [T("Search engines are often the first place buyers research suppliers and service providers. As an SEO company working with Shenzhen businesses, Hurfi covers:", "搜索引擎往往是买家调研供应商和服务商的首站。作为服务深圳企业的 SEO 公司，Hurfi 的服务包括：")],
         ul: [T("Keyword research and SEO strategy", "关键词研究与 SEO 策略"), T("On-page SEO", "页面 SEO"), T("Technical SEO", "技术 SEO"), T("Local SEO", "本地 SEO"), T("International SEO", "国际 SEO"),
           T("Content optimisation", "内容优化"), T("SEO audits", "SEO 审计"), T("Competitor analysis", "竞争对手分析"), T("B2B SEO strategy", "B2B SEO 策略"), T("Website performance improvement", "网站性能优化")] },
       { h2: T("Why Shenzhen businesses need SEO", "为什么深圳企业需要 SEO"),
-        p: [T("Shenzhen has one of China’s strongest business ecosystems, especially in manufacturing, electronics, technology and international trade. Many companies already have quality products, experienced teams and strong manufacturing capability, yet still face:",
-          "深圳拥有中国最强的商业生态之一，尤其在制造、电子、科技和国际贸易领域。许多企业已经拥有优质产品、有经验的团队和强大的制造能力，却仍然面临：")],
+        p: [T("Shenzhen has one of China’s strongest business ecosystems, especially in manufacturing, electronics, technology and international trade. Many companies already have quality products, experienced teams and strong manufacturing capability, yet still face:", "深圳拥有中国突出的商业生态之一，尤其在制造、电子、科技和国际贸易领域。许多企业已经拥有优质产品、有经验的团队和强大的制造能力，却仍然面临：")],
         ul: [T("Low Google visibility", "谷歌可见度低"), T("Little organic traffic", "自然流量少"), T("An outdated website structure", "网站结构过时"), T("Content that does not match what buyers search", "内容与买家的搜索需求不匹配"), T("Difficulty reaching international buyers", "难以触达国际买家")],
         p2: [T("A planned SEO campaign improves your online presence and connects you with customers who are already searching for your products and services.", "有计划的 SEO 能改善你的线上形象，并把你与正在搜索你产品和服务的客户连接起来。")] },
       { h2: T("SEO services Shenzhen companies use to grow online", "深圳企业用于线上增长的 SEO 服务"),
@@ -304,10 +301,10 @@ export const PAGES = [
 
   /* ================================================================ Shenzhen · digital marketing */
   { slug: "digital-marketing-agency-shenzhen", svc: "digital-marketing", city: "shenzhen",
-    title: T("Digital Marketing Agency Shenzhen | Hurfi B2B Marketing", "深圳海外数字营销公司｜B2B 出口企业推广 | Hurfi"),
+    title: T("Digital Marketing Agency Shenzhen | Hurfi B2B Marketing", "深圳海外数字营销｜谷歌广告与询盘获取 | Hurfi"),
     description: T("Hurfi helps Shenzhen manufacturers and exporters reach global buyers through digital marketing, SEO and paid advertising. Book a free strategy call.",
       "Hurfi 帮助深圳制造商和出口企业通过数字营销、SEO 与付费广告触达全球买家。立即预约免费策略咨询。"),
-    h1: T("Digital Marketing Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳数字营销公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Digital Marketing Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳海外数字营销：用谷歌广告和内容获取有效询盘"),
     lead: T("Grow your international reach with digital marketing built around your business goals. Hurfi helps Shenzhen manufacturers, exporters, suppliers and B2B companies turn online discovery into business enquiries.",
       "围绕业务目标开展数字营销，扩大国际影响力。Hurfi 帮助深圳制造商、出口企业、供应商和 B2B 公司把线上曝光转化为业务询盘。"),
     sections: [
@@ -429,10 +426,10 @@ export const PAGES = [
 
   /* ================================================================ Shenzhen · social media */
   { slug: "social-media-management-agency-shenzhen", svc: "social-media-management", city: "shenzhen",
-    title: T("Social Media Management Agency Shenzhen | Hurfi", "深圳社交媒体代运营公司｜领英与海外社媒管理 | Hurfi"),
+    title: T("Social Media Management Agency Shenzhen | Hurfi", "深圳海外社媒代运营｜LinkedIn与Instagram | Hurfi"),
     description: T("Hurfi helps Shenzhen manufacturers and B2B companies manage social media, plan content and build brand trust. Book a free strategy call today.",
       "Hurfi 帮助深圳制造商和 B2B 企业管理社交媒体、规划内容、建立品牌信任。立即预约免费策略咨询。"),
-    h1: T("Social Media Management Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳社交媒体代运营：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Social Media Management Agency Shenzhen for Manufacturers, Exporters & B2B Companies", "深圳海外社媒代运营：用LinkedIn让买家先认识您的工厂"),
     lead: T("Your social media should show potential buyers what your business makes, how you work and why they should work with you. Hurfi plans and manages it around your real products and capabilities.",
       "你的社交媒体应当让潜在买家看到：你生产什么、如何运作、为什么值得合作。Hurfi 围绕你真实的产品与能力来规划和运营。"),
     sections: [
@@ -447,7 +444,7 @@ export const PAGES = [
           T("Shenzhen’s electronics, industrial equipment, robotics and export businesses talk to distributors, procurement teams, engineers and overseas buyers who research suppliers before making contact.",
             "深圳的电子、工业设备、机器人和出口企业面对的是经销商、采购团队、工程师和海外买家，他们都会在联系之前先调研供应商。")],
         sub: [
-          { h3: T("Build trust before the first enquiry", "在第一次询盘之前建立信任"), p: [T("Buyers may check your website and social profiles before replying to a sales email. An active, consistent presence helps them understand your products, team and activity.", "买家在回复销售邮件之前，可能会先查看你的网站和社交账号。活跃、一致的形象能帮助他们了解你的产品、团队和动态。")] },
+          { h3: T("Build trust before the first enquiry", "在首次询盘之前建立信任"), p: [T("Buyers may check your website and social profiles before replying to a sales email. An active, consistent presence helps them understand your products, team and activity.", "买家在回复销售邮件之前，可能会先查看你的网站和社交账号。活跃、一致的形象能帮助他们了解你的产品、团队和动态。")] },
           { h3: T("Explain complex products clearly", "把复杂产品讲清楚"), p: [T("Specifications, production processes, testing and applications can be explained in language buyers understand.", "规格、生产工艺、测试和应用，都可以用买家看得懂的语言来解释。")] },
           { h3: T("Support international business development", "支持国际业务拓展"), p: [T("A planned presence helps exporters present capabilities, share product updates and stay professional for international audiences.", "有规划的社媒形象帮助出口企业展示能力、分享产品动态，并在国际受众面前保持专业。")] },
           { h3: T("Keep your brand consistent", "保持品牌一致"), p: [T("Your website, company profiles, sales materials and posts should say the same thing: the same products, descriptions and contact details.", "你的网站、公司主页、销售资料和帖子应传达一致的信息：同样的产品、描述和联系方式。")] },
@@ -534,10 +531,10 @@ export const PAGES = [
 
   /* ================================================================ Guangzhou · website development */
   { slug: "website-development-agency-guangzhou", svc: "website-development", city: "guangzhou",
-    title: T("Website Development Agency Guangzhou | B2B Websites | Hurfi", "广州网站建设公司｜制造业外贸 B2B 网站开发 | Hurfi"),
+    title: T("Website Development Agency Guangzhou | B2B Websites | Hurfi", "广州外贸网站建设｜英文B2B独立站开发 | Hurfi"),
     description: T("Website development agency in Guangzhou for manufacturers and exporters. Build buyer-ready B2B websites with Hurfi. Book a free strategy call.",
       "广州网站建设公司，服务制造商与出口企业。与 Hurfi 一起打造面向海外买家的 B2B 网站。立即预约免费策略咨询。"),
-    h1: T("Website Development Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州网站建设公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Website Development Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州外贸网站建设：为出口工厂打造询盘型英文独立站"),
     lead: T("Your website should do more than introduce your company. It should help international buyers understand what you manufacture, evaluate your capabilities and take the next step towards an enquiry.",
       "你的网站不应只是介绍公司，而应帮助国际买家了解你生产什么、评估你的能力，并迈出询盘的下一步。"),
     sections: [
@@ -567,7 +564,7 @@ export const PAGES = [
           { h3: T("Corporate websites", "企业官网"),
             p: [T("A corporate website communicates your identity, services, capabilities and business information, with clear navigation and a structure that can grow. The content reflects your actual company, not generic claims that could describe any manufacturer.", "企业官网传达你的身份、服务、能力和业务信息，导航清晰、结构可扩展。内容体现你真实的公司，而不是放在任何制造商身上都成立的空话。")] },
           { h3: T("Custom website development", "定制网站开发"),
-            p: [T("Some businesses need more than a template: tailored page structures, custom functionality, third-party integrations and business-specific workflows. Depending on the project we work with React, Next.js, Node.js and PHP, and we choose the simplest approach that does the job.", "有些企业需要的不只是模板：定制的页面结构、定制功能、第三方集成和特定的业务流程。根据项目需要，我们使用 React、Next.js、Node.js 和 PHP，并选择能完成任务的最简方案。")] },
+            p: [T("Some businesses need more than a template: tailored page structures, custom functionality, third-party integrations and business-specific workflows. Depending on the project we work with React, Next.js, Node.js and PHP, and we choose the simplest approach that does the job.", "有些企业需要的不只是模板：定制的页面结构、定制功能、第三方集成和特定的业务流程。根据项目需要，我们使用 React、Next.js、Node.js 和 PHP，并选择能完成任务的更简方案。")] },
           { h3: T("WordPress and Shopify development", "WordPress 与 Shopify 开发"),
             p: [T("WordPress suits corporate websites, content-led sites, product catalogues and landing pages. Shopify suits businesses that sell online and manage a shop. The right platform depends on how you sell, manage products and handle enquiries.", "WordPress 适合企业官网、内容型网站、产品目录和落地页；Shopify 适合在线销售、经营网店的企业。合适的平台取决于你的销售方式、产品管理和询盘处理方式。")] },
           { h3: T("E-commerce websites", "电商网站"),
@@ -617,7 +614,7 @@ export const PAGES = [
       [T("Design and develop", "设计与开发"), T("Layout and functionality built to the approved scope.", "按批准的范围完成版式和功能开发。")],
       [T("Add and review content", "添加与审核内容"), T("Product information, specifications and company details are organised; your team reviews technical claims before publication.", "整理产品信息、规格和公司资料；技术性表述在发布前由你的团队审核。")],
       [T("Test the website", "测试网站"), T("Pages, navigation, forms, responsive layouts and technical elements are checked.", "检查页面、导航、表单、响应式版式和技术要素。")],
-      [T("Launch and review", "上线与复盘"), T("After approval the site goes live, final technical checks are done and follow-up support is agreed.", "获批后网站上线，完成最终技术检查，并约定后续支持。")],
+      [T("Launch and review", "上线与复盘"), T("After approval the site goes live, final technical checks are done and follow-up support is agreed.", "获批后网站上线，完成收尾技术检查，并约定后续支持。")],
     ] },
     areasH2: T("Website development across Guangzhou", "覆盖广州各区的网站建设"),
     areasP: T("We build websites remotely for businesses across Guangzhou’s commercial and industrial districts:", "我们远程为广州各商贸和工业区的企业建设网站："),
@@ -658,10 +655,10 @@ export const PAGES = [
 
   /* ================================================================ Guangzhou · SEO */
   { slug: "seo-agency-guangzhou", svc: "seo", city: "guangzhou",
-    title: T("SEO Agency Guangzhou | Google SEO for Exporters | Hurfi", "广州谷歌 SEO 公司｜外贸出口企业 SEO 优化 | Hurfi"),
+    title: T("SEO Agency Guangzhou | Google SEO for Exporters | Hurfi", "广州谷歌SEO优化｜外贸出口企业获客 | Hurfi"),
     description: T("SEO agency in Guangzhou for manufacturers and exporters: international and technical SEO that helps overseas buyers find you on Google. Free SEO consultation.",
       "广州 SEO 公司，服务制造商与出口企业：通过国际 SEO 与技术 SEO，让海外买家在谷歌上找到你。提供免费 SEO 咨询。"),
-    h1: T("SEO Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州 SEO 公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("SEO Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州谷歌SEO：让海外买家按参数找到您的产品"),
     lead: T("Hurfi helps Guangzhou manufacturers, exporters and B2B companies improve their organic search visibility through SEO strategy, technical optimisation and content, so the right international buyers find them.",
       "Hurfi 通过 SEO 策略、技术优化和内容建设，帮助广州制造商、出口企业和 B2B 公司提升自然搜索可见度，让合适的国际买家找到他们。"),
     sections: [
@@ -690,7 +687,7 @@ export const PAGES = [
             p: [T("Technical problems make it harder for search engines to crawl, understand and index your site. Depending on your website, we work on:", "技术问题会让搜索引擎更难抓取、理解和收录你的网站。根据网站情况，我们会处理：")],
             ul: [T("Technical audits and crawling", "技术审计与抓取"), T("Indexing and crawlability", "收录与可抓取性"), T("XML sitemaps and robots.txt", "XML 站点地图与 robots.txt"), T("Canonical URLs", "规范网址（canonical）"),
               T("Redirects and broken links", "重定向与失效链接"), T("Site architecture", "网站架构"), T("Mobile usability", "移动端可用性"), T("Core Web Vitals", "核心网页指标（Core Web Vitals）"), T("Structured data", "结构化数据"), T("Duplicate content", "重复内容")],
-            p2: [T("For large manufacturing websites with hundreds of product pages, clear structure and internal linking matter most.", "对拥有数百个产品页面的大型制造业网站来说，清晰的结构和内部链接最为关键。")] },
+            p2: [T("For large manufacturing websites with hundreds of product pages, clear structure and internal linking matter most.", "对拥有数百个产品页面的大型制造业网站来说，清晰的结构和内部链接尤为关键。")] },
           { h3: T("On-page SEO and content", "页面 SEO 与内容"),
             p: [T("Pages need useful content that answers buyers’ questions before they make contact. We optimise:", "页面需要在买家联系之前就能回答其问题的有用内容。我们会优化：")],
             ul: [T("Titles and meta descriptions", "标题与元描述"), T("H1 to H3 headings", "H1 至 H3 标题"), T("Primary and secondary keywords", "主关键词与次关键词"), T("Search intent", "搜索意图"),
@@ -732,7 +729,7 @@ export const PAGES = [
     process: { h2: T("Our SEO process", "我们的 SEO 流程"), steps: [
       [T("Website SEO audit", "网站 SEO 审计"), T("Technical condition, content, indexability, structure and existing search performance.", "技术状况、内容、可收录性、结构和现有搜索表现。")],
       [T("Competitor analysis", "竞争对手分析"), T("How relevant competitors target keywords, structure content and win visibility.", "相关竞争对手如何定位关键词、组织内容和获得曝光。")],
-      [T("Keyword research and mapping", "关键词研究与映射"), T("Keywords chosen by intent, relevance, target country and competition, each mapped to the best page.", "按搜索意图、相关性、目标国家和竞争选择关键词，并为每个关键词匹配最合适的页面。")],
+      [T("Keyword research and mapping", "关键词研究与映射"), T("Keywords chosen by intent, relevance, target country and competition, each mapped to the best page.", "按搜索意图、相关性、目标国家和竞争选择关键词，并为每个关键词匹配更合适的页面。")],
       [T("Technical and on-page optimisation", "技术与页面优化"), T("Technical issues, titles, headings, content structure and internal links.", "技术问题、标题、标题层级、内容结构和内部链接。")],
       [T("Content strategy", "内容策略"), T("Product, service, industry and resource pages that answer buyers’ questions.", "回答买家问题的产品、服务、行业和资源页面。")],
       [T("Authority and link building", "权威度与外链建设"), T("Industry publications, digital PR and appropriate link building; no bought links.", "行业媒体、数字公关和合规的外链建设；不购买外链。")],
@@ -778,10 +775,10 @@ export const PAGES = [
 
   /* ================================================================ Guangzhou · digital marketing */
   { slug: "digital-marketing-agency-guangzhou", svc: "digital-marketing", city: "guangzhou",
-    title: T("Digital Marketing Agency Guangzhou | Hurfi B2B Marketing", "广州海外数字营销公司｜B2B 出口企业推广 | Hurfi"),
+    title: T("Digital Marketing Agency Guangzhou | Hurfi B2B Marketing", "广州海外数字营销｜谷歌广告与询盘获取 | Hurfi"),
     description: T("B2B digital marketing in Guangzhou: Google Ads, SEO, social media and conversion tracking for manufacturers and exporters. Book a free strategy call.",
       "广州 B2B 数字营销：为制造商和出口企业提供谷歌广告、SEO、社交媒体和转化追踪服务。立即预约免费策略咨询。"),
-    h1: T("Digital Marketing Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州数字营销公司：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Digital Marketing Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州海外数字营销：把展会和搜索流量变成询盘"),
     lead: T("Hurfi helps Guangzhou manufacturers, exporters, trading companies and B2B businesses attract international customers, generate qualified leads and connect their marketing with real business objectives.",
       "Hurfi 帮助广州制造商、出口企业、贸易公司和 B2B 企业吸引国际客户、获取高质量询盘，并让营销与真实业务目标挂钩。"),
     sections: [
@@ -813,7 +810,7 @@ export const PAGES = [
           { h3: T("Lead generation and funnel optimisation", "获客与转化漏斗优化"),
             p: [T("Traffic is only part of the job. We plan landing pages, lead campaigns, conversion-focused page structure, contact forms, calls to action and enquiry funnels, so a buyer can go from an ad to a product page to an enquiry form.", "流量只是工作的一部分。我们规划落地页、获客活动、以转化为导向的页面结构、联系表单、行动号召和询盘漏斗，让买家可以从广告到产品页面，再到询盘表单。")] },
           { h3: T("Retargeting", "再营销"),
-            p: [T("Not every visitor is ready to enquire on the first visit. Meta retargeting and Google remarketing can bring back people who viewed your product pages, with appropriate consent, tracking and privacy compliance.", "并非每位访客都会在第一次访问时询盘。Meta 再营销和谷歌再营销可以把浏览过产品页面的人带回来，前提是获得适当同意、正确配置追踪并遵守隐私规定。")] },
+            p: [T("Not every visitor is ready to enquire on the first visit. Meta retargeting and Google remarketing can bring back people who viewed your product pages, with appropriate consent, tracking and privacy compliance.", "并非每位访客都会在首次访问时询盘。Meta 再营销和谷歌再营销可以把浏览过产品页面的人带回来，前提是获得适当同意、正确配置追踪并遵守隐私规定。")] },
           { h3: T("Email marketing setup", "邮件营销搭建"),
             p: [T("Account setup, enquiry follow-ups, welcome sequences and simple lead-nurturing flows, using contacts who have given permission and following data-protection rules.", "账户搭建、询盘跟进、欢迎邮件序列和简单的线索培育流程，只使用已获授权的联系人，并遵守数据保护规定。")] },
         ] },
@@ -890,10 +887,10 @@ export const PAGES = [
 
   /* ================================================================ Guangzhou · social media */
   { slug: "social-media-management-agency-guangzhou", svc: "social-media-management", city: "guangzhou",
-    title: T("Social Media Management Agency Guangzhou | Hurfi", "广州社交媒体代运营公司｜海外社媒与内容管理 | Hurfi"),
+    title: T("Social Media Management Agency Guangzhou | Hurfi", "广州海外社媒代运营｜LinkedIn与海外社媒 | Hurfi"),
     description: T("Social media management in Guangzhou for manufacturers and exporters: content, design, Facebook, Instagram and LinkedIn. Book a free strategy call.",
       "广州社交媒体代运营，服务制造商与出口企业：内容规划与设计，以及 Facebook、Instagram 和领英运营。立即预约免费策略咨询。"),
-    h1: T("Social Media Management Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州社交媒体代运营：服务制造商、出口企业与 B2B 公司"),
+    h1: T("Social Media Management Agency Guangzhou for Manufacturers, Exporters & B2B Companies", "广州海外社媒代运营：用真实生产内容赢得海外买家关注"),
     lead: T("Hurfi helps Guangzhou manufacturers, exporters, trading companies and B2B brands build a professional social media presence, reach potential customers and present their products to international markets.",
       "Hurfi 帮助广州制造商、出口企业、贸易公司和 B2B 品牌打造专业的社交媒体形象，触达潜在客户，并向国际市场展示产品。"),
     sections: [

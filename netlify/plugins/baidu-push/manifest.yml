@@ -1,0 +1,5 @@
+name: baidu-push
+inputs:
+  - name: limit
+    description: Most URLs sent to Baidu per deploy (Baidu has a daily quota per site).
+    default: 50

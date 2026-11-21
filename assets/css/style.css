@@ -8,8 +8,8 @@
   --bg-soft: #f3f7ff;
   --border: #e5e7eb;
   --max: 1320px;
-  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Plus Jakarta Sans Fallback", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Plus Jakarta Sans Fallback", system-ui, sans-serif;
 }
 
 * {

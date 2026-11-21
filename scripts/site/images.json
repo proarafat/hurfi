@@ -1,0 +1,349 @@
+{
+ "/assets/img/proof/web-agency.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-agency-400.webp",
+   "w": 400,
+   "h": 2148
+  },
+  {
+   "src": "/assets/img/opt/proof-web-agency-800.webp",
+   "w": 800,
+   "h": 4296
+  }
+ ],
+ "/assets/img/proof/web-tevving.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-tevving-400.webp",
+   "w": 400,
+   "h": 1651
+  },
+  {
+   "src": "/assets/img/opt/proof-web-tevving-800.webp",
+   "w": 800,
+   "h": 3302
+  }
+ ],
+ "/assets/img/proof/web-insider.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-insider-400.webp",
+   "w": 400,
+   "h": 1676
+  },
+  {
+   "src": "/assets/img/opt/proof-web-insider-800.webp",
+   "w": 800,
+   "h": 3351
+  }
+ ],
+ "/assets/img/proof/web-voltdesk.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-voltdesk-400.webp",
+   "w": 400,
+   "h": 1082
+  },
+  {
+   "src": "/assets/img/opt/proof-web-voltdesk-800.webp",
+   "w": 800,
+   "h": 2164
+  }
+ ],
+ "/assets/img/proof/web-darling.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-darling-400.webp",
+   "w": 400,
+   "h": 1021
+  },
+  {
+   "src": "/assets/img/opt/proof-web-darling-800.webp",
+   "w": 800,
+   "h": 2041
+  }
+ ],
+ "/assets/img/proof/web-gapgastro.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-gapgastro-400.webp",
+   "w": 400,
+   "h": 1454
+  },
+  {
+   "src": "/assets/img/opt/proof-web-gapgastro-800.webp",
+   "w": 800,
+   "h": 2907
+  }
+ ],
+ "/assets/img/proof/web-uhl.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-uhl-400.webp",
+   "w": 400,
+   "h": 960
+  },
+  {
+   "src": "/assets/img/opt/proof-web-uhl-800.webp",
+   "w": 800,
+   "h": 1919
+  }
+ ],
+ "/assets/img/proof/web-compara.jpg": [
+  {
+   "src": "/assets/img/opt/proof-web-compara-400.webp",
+   "w": 400,
+   "h": 717
+  },
+  {
+   "src": "/assets/img/opt/proof-web-compara-800.webp",
+   "w": 800,
+   "h": 1434
+  }
+ ],
+ "/assets/img/box-img/unlimited-revisions.jpg": [
+  {
+   "src": "/assets/img/opt/box-unlimited-revisions-600.webp",
+   "w": 600,
+   "h": 463
+  },
+  {
+   "src": "/assets/img/opt/box-unlimited-revisions-1200.webp",
+   "w": 1200,
+   "h": 925
+  }
+ ],
+ "/assets/img/box-img/hand-pick-resources.jpg": [
+  {
+   "src": "/assets/img/opt/box-hand-pick-resources-600.webp",
+   "w": 600,
+   "h": 344
+  },
+  {
+   "src": "/assets/img/opt/box-hand-pick-resources-1200.webp",
+   "w": 1200,
+   "h": 687
+  }
+ ],
+ "/assets/img/box-img/payment-plans.jpg": [
+  {
+   "src": "/assets/img/opt/box-payment-plans-600.webp",
+   "w": 600,
+   "h": 437
+  },
+  {
+   "src": "/assets/img/opt/box-payment-plans-1200.webp",
+   "w": 1200,
+   "h": 873
+  }
+ ],
+ "/assets/img/box-img/lifetime-support.jpg": [
+  {
+   "src": "/assets/img/opt/box-lifetime-support-600.webp",
+   "w": 600,
+   "h": 792
+  },
+  {
+   "src": "/assets/img/opt/box-lifetime-support-1092.webp",
+   "w": 1092,
+   "h": 1441
+  }
+ ],
+ "/assets/img/client-logo/1000260539-scaled-e1766210506692.webp": [
+  {
+   "src": "/assets/img/opt/logo-1000260539-320.webp",
+   "w": 320,
+   "h": 308
+  }
+ ],
+ "/assets/img/client-logo/C6-e1744564144568.webp": [
+  {
+   "src": "/assets/img/opt/logo-c6-320.webp",
+   "w": 320,
+   "h": 249
+  }
+ ],
+ "/assets/img/client-logo/c26e2a9e-f3b4-4f5b-b6bd-688e88abd956-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-c26e2a9e-320.webp",
+   "w": 320,
+   "h": 234
+  }
+ ],
+ "/assets/img/client-logo/D7AFAAE3-5A12-4B7A-A7C1-EE7B98189742-e1765724064322-1024x570-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-d7afaae3-320.webp",
+   "w": 320,
+   "h": 178
+  }
+ ],
+ "/assets/img/client-logo/sobersociety.png": [
+  {
+   "src": "/assets/img/opt/logo-sobersociety-320.webp",
+   "w": 320,
+   "h": 157
+  }
+ ],
+ "/assets/img/locations/sz-huaqiangbei.webp": [
+  {
+   "src": "/assets/img/opt/sz-huaqiangbei-960.webp",
+   "w": 960,
+   "h": 720
+  }
+ ],
+ "/assets/img/client-logo/gaps-gastrol.png": [
+  {
+   "src": "/assets/img/opt/logo-gaps-gastrol-320.webp",
+   "w": 320,
+   "h": 127
+  }
+ ],
+ "/assets/img/client-logo/lorbuc.png": [
+  {
+   "src": "/assets/img/opt/logo-lorbuc-320.webp",
+   "w": 320,
+   "h": 77
+  }
+ ],
+ "/assets/img/client-logo/ghorsajan.png": [
+  {
+   "src": "/assets/img/opt/logo-ghorsajan-320.webp",
+   "w": 320,
+   "h": 75
+  }
+ ],
+ "/assets/img/client-logo/wosny.webp": [
+  {
+   "src": "/assets/img/opt/logo-wosny-320.webp",
+   "w": 320,
+   "h": 192
+  }
+ ],
+ "/assets/img/client-logo/jully-apperal.webp": [
+  {
+   "src": "/assets/img/opt/logo-jully-apperal-320.webp",
+   "w": 320,
+   "h": 314
+  }
+ ],
+ "/assets/img/client-logo/218808688_1215915268927398_4145428019116087857_n-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-218808688-1215915268927398-4145428019116-300.webp",
+   "w": 300,
+   "h": 156
+  }
+ ],
+ "/assets/img/client-logo/69B6B920-7F68-454B-A2FF-363F06AA58BE-removebg-preview-e1777031474200-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-69b6b920-7f68-454b-a2ff-363f06aa58be-rem-320.webp",
+   "w": 320,
+   "h": 78
+  }
+ ],
+ "/assets/img/client-logo/6DEFF0F3-62A2-4A92-9548-B03CECF73981-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-6deff0f3-62a2-4a92-9548-b03cecf73981-rem-320.webp",
+   "w": 320,
+   "h": 213
+  }
+ ],
+ "/assets/img/client-logo/c003243b-1-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-c003243b-1-removebg-preview-320.webp",
+   "w": 320,
+   "h": 169
+  }
+ ],
+ "/assets/img/client-logo/cropped_circle_image-Edited-e1768575851754-300x243-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-cropped-circle-image-edited-e17685758517-300.webp",
+   "w": 300,
+   "h": 243
+  }
+ ],
+ "/assets/img/client-logo/FA0C16AF-B5E2-4F4D-B1E6-6E996D4D5392-1-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-fa0c16af-b5e2-4f4d-b1e6-6e996d4d5392-1-r-320.webp",
+   "w": 320,
+   "h": 334
+  }
+ ],
+ "/assets/img/client-logo/logo-idsein-1024x1024.png": [
+  {
+   "src": "/assets/img/opt/logo-logo-idsein-1024x1024-320.webp",
+   "w": 320,
+   "h": 320
+  }
+ ],
+ "/assets/img/client-logo/logoooo_resized-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-logoooo-resized-removebg-preview-320.webp",
+   "w": 320,
+   "h": 238
+  }
+ ],
+ "/assets/img/client-logo/logo_2-removebg-preview-e1765728356644.png": [
+  {
+   "src": "/assets/img/opt/logo-logo-2-removebg-preview-e1765728356644-320.webp",
+   "w": 320,
+   "h": 192
+  }
+ ],
+ "/assets/img/client-logo/lukman-hosen.svg": [
+  {
+   "src": "/assets/img/opt/logo-lukman-hosen-260.webp",
+   "w": 260,
+   "h": 80
+  }
+ ],
+ "/assets/img/client-logo/Oppein-NJ-logo.png": [
+  {
+   "src": "/assets/img/opt/logo-oppein-nj-logo-320.webp",
+   "w": 320,
+   "h": 74
+  }
+ ],
+ "/assets/img/client-logo/KaMatch-Logo-e1761303772234.webp": [
+  {
+   "src": "/assets/img/opt/logo-kamatch-logo-e1761303772234-320.webp",
+   "w": 320,
+   "h": 94
+  }
+ ],
+ "/assets/img/client-logo/cropped-avidaze-2025-2048x498.webp": [
+  {
+   "src": "/assets/img/opt/logo-cropped-avidaze-2025-2048x498-320.webp",
+   "w": 320,
+   "h": 78
+  }
+ ],
+ "/assets/img/client-logo/F3C2DE0A-487A-483F-9A3D-7B7ADAA6991E-1-removebg-preview.png": [
+  {
+   "src": "/assets/img/opt/logo-f3c2de0a-487a-483f-9a3d-7b7adaa6991e-1-r-320.webp",
+   "w": 320,
+   "h": 320
+  }
+ ],
+ "/assets/img/card-img/b2b-website.jpg": [
+  {
+   "src": "/assets/img/locations/card-b2b-website.webp",
+   "w": 1200,
+   "h": 530
+  }
+ ],
+ "/assets/img/card-img/seo.jpg": [
+  {
+   "src": "/assets/img/locations/card-seo.webp",
+   "w": 1200,
+   "h": 532
+  }
+ ],
+ "/assets/img/card-img/digital-marketing.jpg": [
+  {
+   "src": "/assets/img/locations/card-digital-marketing.webp",
+   "w": 1200,
+   "h": 530
+  }
+ ],
+ "/assets/img/card-img/social-content.jpg": [
+  {
+   "src": "/assets/img/locations/card-social-content.webp",
+   "w": 1200,
+   "h": 530
+  }
+ ]
+}

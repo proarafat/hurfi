@@ -34,3 +34,4 @@ hurfi.com-Coverage-*/
 # Build output (scripts/site/build.mjs)
 dist/
 build-report.json
+.netlify-cache/

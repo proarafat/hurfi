@@ -1,1 +1,7 @@
-{}
+{
+  "_readme": "See README.md in this folder. Each key is an image file name in this folder. An entry whose image file is not in the folder is ignored, so the example below shows nothing on the site.",
+  "example-client-message.webp": {
+    "en": "EXAMPLE: replace with a short, true description, e.g. Message from a US distributor after launch",
+    "zh": "示例：请替换为真实、简短的说明，例如“网站上线后美国经销商发来的留言”"
+  }
+}

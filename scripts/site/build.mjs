@@ -18,6 +18,8 @@ import { fileURLToPath } from "url";
 import * as C from "./config.mjs";
 import { INDUSTRY, INSIGHT, CITY_SERVICE } from "./trust-lines.mjs";
 import { LOCALES } from "./locales.mjs";
+import { applySafe, findBanned } from "./adlaw.mjs";
+import * as CSS from "./css.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..", "..");
@@ -43,9 +45,9 @@ const fileOf = (url, L) => (L.key === "zh" ? "zh" + url : url.slice(1)) + "index
 const HAS_ZH = new Set(pages.filter((u) => fs.existsSync(path.join(ROOT, fileOf(u, ZH)))));
 // noindex pages without a twin (thank-you) get a Chinese version from ZH_PAGE_TEXT below.
 const ZH_PAGE_TEXT = {
-  "/thank-you/": [["Thank You | Hurfi", "提交成功 | Hurfi"], ["Hurfi has your inquiry and will follow up.", "我们已收到您的需求，会尽快与您联系。"], ["Inquiry sent", "已提交"],
-    ["Hurfi has your inquiry.", "我们已收到您的需求。"], ["Your note is on its way. We follow up by WeChat, email, or WhatsApp, using the method you chose.", "我们会按您选择的方式，通过微信、邮件或 WhatsApp 与您联系。"],
-    ["We read the note first.", "我们会先认真阅读您的需求。"], ["The reply comes from Yasir, or from Shahruk when the work is on the China side.", "回复来自 Yasir；涉及中国本地事务时，由 Shahruk 跟进。"],
+  "/thank-you/": [["Thank You | Hurfi", "提交成功 | Hurfi"], ["Hurfi has your inquiry and will follow up.", "我们已收到您的需求，会按您选择的方式尽快联系您。"], ["Inquiry sent", "已提交"],
+    ["Hurfi has your inquiry.", "我们已收到您的需求。"], ["Your note is on its way. We follow up by WeChat, email, or WhatsApp, using the method you chose.", "您的需求已经发出。我们会按您选择的方式，通过微信、邮件或 WhatsApp 联系您。"],
+    ["We read the note first.", "我们会先认真读完您的需求。"], ["The reply comes from Yasir, or from Shahruk when the work is on the China side.", "回复来自 Yasir；涉及中国区的工作，由 Shahruk 跟进。"],
     ["Nothing starts until the brief is clear.", "需求明确之前，不会开始任何工作。"], ["Scope, timing, and the way we talk are agreed before the work begins.", "工作范围、时间安排和沟通方式，都会在开工前确认。"],
     ["Back home", "返回首页"], ["Explore services", "了解服务"]],
 };
@@ -170,14 +172,39 @@ const FEED = (() => {
   if (!fs.existsSync(FEED_DIR)) return [];
   let caps = {};
   try { caps = JSON.parse(fs.readFileSync(path.join(FEED_DIR, "captions.json"), "utf8")); } catch {}
-  return fs.readdirSync(FEED_DIR).filter((f) => /\.(webp|png|jpe?g)$/i.test(f)).sort().map((f) => ({ f, cap: caps[f] || {} }));
+  // only image files that really exist in the folder are shown; a captions.json entry without its file
+  // (like the example entry) is ignored, so the section stays hidden until a real screenshot is added
+  return fs.readdirSync(FEED_DIR).filter((f) => /\.(webp|png|jpe?g)$/i.test(f)).sort()
+    .map((f) => ({ f, cap: caps[f] || {}, size: imgSize(path.join(FEED_DIR, f)) }));
 })();
+/** width/height from a PNG, JPEG or WebP header (null if unknown) */
+function imgSize(file) {
+  try {
+    const b = fs.readFileSync(file);
+    if (b.readUInt32BE(0) === 0x89504e47) return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+    if (b.toString("ascii", 0, 4) === "RIFF" && b.toString("ascii", 8, 12) === "WEBP") {
+      const k = b.toString("ascii", 12, 16);
+      if (k === "VP8X") return { w: 1 + b.readUIntLE(24, 3), h: 1 + b.readUIntLE(27, 3) };
+      if (k === "VP8L") { const n = b.readUInt32LE(21); return { w: 1 + (n & 0x3fff), h: 1 + ((n >> 14) & 0x3fff) }; }
+      if (k === "VP8 ") return { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+    }
+    if (b[0] === 0xff && b[1] === 0xd8) {
+      for (let i = 2; i < b.length - 9;) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const m = b[i + 1], len = b.readUInt16BE(i + 2);
+        if (m >= 0xc0 && m <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(m)) return { w: b.readUInt16BE(i + 7), h: b.readUInt16BE(i + 5) };
+        i += 2 + len;
+      }
+    }
+  } catch {}
+  return null;
+}
 function feedbackBlock(L) {
   if (!FEED.length) return "";
   // captions.json: { "file.webp": { "en": "…", "zh": "…" } } — the caption is also the image's alt text
-  const figs = FEED.map(({ f, cap }) => {
+  const figs = FEED.map(({ f, cap, size }) => {
     const c = typeof cap[L.key] === "string" ? cap[L.key] : typeof cap.en === "string" ? cap.en : "";
-    return `        <figure class="hx-feedback-shot"><img src="/assets/testimonials/${f}" alt="${E(c || T(C.FEEDBACK.lead, L))}" loading="lazy" decoding="async">${c ? `<figcaption>${E(c)}</figcaption>` : ""}</figure>\n`;
+    return `        <figure class="hx-feedback-shot"><img src="/assets/testimonials/${f}" alt="${E(c || T(C.FEEDBACK.lead, L))}"${size ? ` width="${size.w}" height="${size.h}"` : ""} loading="lazy" decoding="async">${c ? `<figcaption>${E(c)}</figcaption>` : ""}</figure>\n`;
   }).join("");
   return `    <section class="brief hx-feedback" aria-labelledby="feedback-title">
       <h2 id="feedback-title">${E(T(C.FEEDBACK.title, L))}</h2>
@@ -453,6 +480,34 @@ function rewriteLd(json, L) {
   return JSON.stringify(walk(o, false)).replace(/<\//g, "<\\/");
 }
 
+/* ------------------------------------------------------------ images (WebP variants, srcset, lazy, LCP) */
+// scripts/site/images.json maps a heavy original to its WebP variants (made by the image script, ≤ 150 KB each).
+const IMG_MAP = fs.existsSync(path.join(HERE, "images.json")) ? JSON.parse(fs.readFileSync(path.join(HERE, "images.json"), "utf8")) : {};
+const IMG_SIZES = [[/\/proof\//, "(max-width: 700px) 92vw, 380px"], [/\/box-img\//, "(max-width: 700px) 92vw, 560px"], [/\/client-logo\//, "160px"], [/./, "(max-width: 960px) 92vw, 600px"]];
+function images(body) {
+  // the first hero block keeps its images eager; its main image is the LCP candidate
+  let heroStart = -1, heroEnd = -1;
+  const hm = /<(section|header) class="(?:[^"]*\s)?(rk-hero|about-hero)(?:\s[^"]*)?"[^>]*>/.exec(body);
+  if (hm) { const r = blockRange(body, /<(?:section|header) class="(?:[^"]*\s)?(?:rk-hero|about-hero)(?:\s[^"]*)?"[^>]*>/, hm[1]); if (r) [heroStart, heroEnd] = r; }
+  const mainStart = body.indexOf("<main");
+  let hasHigh = /fetchpriority="high"/.test(body);
+  return body.replace(/<img\b[^>]*>/g, (tag, off) => {
+    let t = tag;
+    const src = ((t.match(/\ssrc="([^"]+)"/) || [])[1] || "").split("?")[0];
+    const v = IMG_MAP[src];
+    if (v && v.length) {
+      t = t.replace(/\ssrc="[^"]+"/, ` src="${v[v.length - 1].src}"`);
+      if (v.length > 1 && !/\ssrcset=/.test(t)) t = t.replace(/^<img/, `<img srcset="${v.map((x) => x.src + " " + x.w + "w").join(", ")}" sizes="${IMG_SIZES.find(([re]) => re.test(src))[1]}"`);
+    }
+    const inHero = off > heroStart && off < heroEnd, inMain = mainStart >= 0 && off > mainStart;
+    if (!/\sloading=/.test(t) && inMain && !inHero) t = t.replace(/^<img/, '<img loading="lazy"');
+    if (inHero) t = t.replace(/\sloading="lazy"/, ""); // first-screen images load straight away
+    if (!/\sdecoding=/.test(t)) t = t.replace(/^<img/, '<img decoding="async"');
+    if (!hasHigh && inHero && !/client-logo|partners|hostinger|\.svg$/.test(src) && !/loading="lazy"/.test(t)) { t = t.replace(/^<img/, '<img fetchpriority="high"'); hasHigh = true; }
+    return t;
+  });
+}
+
 /* ------------------------------------------------------------ page transform */
 const BANNED = /最|第一|唯一|顶级|首选|国家级|100%/;
 function transform(html, url, L, enHtml, zhHtml) {
@@ -482,6 +537,9 @@ function transform(html, url, L, enHtml, zhHtml) {
   // JSON-LD
   h = h.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/g, (m, a, j, b) => a + rewriteLd(j, L) + b);
   if (BAIDU) h = h.replace("</head>", BAIDU + "</head>");
+  // Baidu site verification: only from config, only on the Chinese home page
+  h = h.replace(/[ \t]*<meta name="baidu-site-verification"[^>]*>\n?/g, "");
+  if (C.BAIDU_SITE_VERIFICATION && L.key === "zh" && url === "/") h = h.replace("</head>", `  <meta name="baidu-site-verification" content="${E(C.BAIDU_SITE_VERIFICATION)}">\n</head>`);
 
   let b = bodyPart;
   // links
@@ -523,7 +581,7 @@ function transform(html, url, L, enHtml, zhHtml) {
     // Squoobee case study and feedback (projects), cards on home and website development
     if (url === "/projects/") {
       m = m.replace(/(<section class="proof-band")/, caseBlock(L, false) + "$1");
-      if (FEED.length) m = m.replace(/(<section class="proof-band")/, feedbackBlock(L) + "$1");
+      if (FEED.length && !m.includes('class="brief hx-feedback"')) m = m.replace(/(<section class="proof-band")/, feedbackBlock(L) + "$1");
     }
     if (url === "/") m = m.replace(/(<section class="rk-services")/, caseBlock(L, true) + "$1");
     if (url === "/services/website-development/") m = m.replace(/(<section class="proof-band")/, caseBlock(L, true) + "$1");
@@ -551,14 +609,34 @@ function transform(html, url, L, enHtml, zhHtml) {
   });
   // CTA wording: the free consultation
   b = L.key === "zh" ? b.replace(/>(\s*)预约咨询/g, ">$1预约免费咨询") : b.replace(/>(\s*)Book a Consultation/gi, ">$1Book a free consultation");
-  return h + b;
+  // Chinese pages: a small "View this page in English" bar for visitors whose browser language is not Chinese.
+  // A link only (no redirect); closing it is remembered in localStorage when storage is available.
+  if (L.key === "zh") b = b.replace(/<\/body>/, `<script>
+  (function () {
+    var key = "hurfi-en-bar-closed";
+    try { if (localStorage.getItem(key) === "1") return; } catch (e) {}
+    var lang = (navigator.languages && navigator.languages[0]) || navigator.language || "";
+    if (!lang || /^zh\\b/i.test(lang)) return;
+    var bar = document.createElement("div");
+    bar.className = "en-bar"; bar.lang = "en"; bar.setAttribute("role", "region"); bar.setAttribute("aria-label", "Language");
+    bar.innerHTML = '<a class="en-bar-link" href="/en${url}" hreflang="en">View this page in English \\u2192</a><button class="en-bar-close" type="button" aria-label="Dismiss">\\u00d7</button>';
+    bar.querySelector("button").addEventListener("click", function () {
+      bar.parentNode.removeChild(bar);
+      try { localStorage.setItem(key, "1"); } catch (e) {}
+    });
+    document.body.appendChild(bar);
+  })();
+</script>
+</body>`);
+  return h + images(b);
 }
 
 /* ------------------------------------------------------------ build */
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 const out = (rel, s) => { const p = path.join(DIST, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, s); };
-const report = { pages: 0, zh: 0, en: 0, fallback: [], banned: {} };
+const report = { pages: 0, zh: 0, en: 0, fallback: [], rewrites: {} };
+const adlawFail = [];
 const redirects = [];
 for (const url of pages) {
   const enHtml = rd(fileOf(url, EN));
@@ -573,12 +651,12 @@ for (const url of pages) {
   out("en" + url + "index.html", transform(enHtml, url, EN, enHtml, zhHtml));
   report.en++;
   if (zhHtml) {
-    const z = transform(zhHtml, url, ZH, enHtml, zhHtml);
-    out(url.slice(1) + "index.html", z);
+    // China Advertising Law: safe rewrites, then a hard check on the rendered page (adlaw.mjs)
+    const safe = applySafe(transform(zhHtml, url, ZH, enHtml, zhHtml));
+    if (safe.n) report.rewrites[url] = safe.n;
+    for (const s of findBanned(safe.html)) adlawFail.push(`${url}  →  ${s}`);
+    out(url.slice(1) + "index.html", safe.html);
     report.zh++;
-    const text = z.slice(z.indexOf("<main"), z.indexOf("</main>")).replace(/<[^>]+>/g, " ");
-    const hits = text.match(new RegExp(BANNED.source, "g"));
-    if (hits) report.banned[url] = hits.length;
   } else { report.fallback.push(url); redirects.push(`${url}    /en${url}    302`); }
   report.pages++;
 }
@@ -588,7 +666,9 @@ for (const url of pages) {
   const zh404 = [["This page drifted off.", "页面不存在"], ["The link does not match a Hurfi page. Head home, or contact us and say what you were looking for.", "该链接没有对应的页面。请返回首页，或联系我们告诉您要找的内容。（English: <a href=\"/en/\">hurfi.com/en/</a>）"], ["Back home", "返回首页"], ["Contact Hurfi", "联系我们"]];
   let z = n; for (const [a, b] of zh404) z = z.split(a).join(b);
   const fix404 = (s) => s.replace(/<link rel="canonical"[^>]*>\n?/, "").split('href="/en/404/"').join('href="/en/"').split('href="/404/"').join('href="/"');
-  out("404.html", fix404(transform(z, "/404/", ZH, n, z)));
+  const z404 = applySafe(fix404(transform(z, "/404/", ZH, n, z))).html;
+  for (const s of findBanned(z404)) adlawFail.push(`/404.html  →  ${s}`);
+  out("404.html", z404);
   out("en/404.html", fix404(transform(n, "/404/", EN, n, z)));
 }
 // copy static files
@@ -614,7 +694,9 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
   for (const url of pages) {
     const src = rd(fileOf(url, EN));
     if (/<meta name="robots" content="[^"]*noindex/i.test(src)) continue;
-    const meta = old[SITE + url] || {}, zmeta = old[SITE + "/zh" + url] || meta;
+    // the Chinese page is the main version: same priority/changefreq as the English one, newest lastmod of the two
+    const meta = old[SITE + url] || {}, zold = old[SITE + "/zh" + url] || {};
+    const zmeta = { ...meta, lastmod: [meta.lastmod, zold.lastmod].filter(Boolean).sort().pop() };
     const hasZh = HAS_ZH.has(url);
     const alt = hasZh ? `    <xhtml:link rel="alternate" hreflang="zh-CN" href="${SITE}${url}"/>\n    <xhtml:link rel="alternate" hreflang="en" href="${SITE}/en${url}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${url}"/>\n` : "";
     const entry = (loc, m) => `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${m.lastmod || today}</lastmod>\n    <changefreq>${m.changefreq || "monthly"}</changefreq>\n    <priority>${m.priority || "0.6"}</priority>\n${alt}  </url>\n`;
@@ -630,7 +712,96 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
   const zhLines = ["/", "/about/", "/services/", "/services/website-development/", "/services/seo/", "/services/digital-marketing/", "/services/social-media-management/", "/projects/", "/industries/", "/locations/china/", "/insights/", "/contact/", "/book-consultation/"]
     .filter((u) => HAS_ZH.has(u)).map((u) => { const t = (rd(fileOf(u, ZH)).match(/<title>([^<]*)<\/title>/) || [])[1] || u; return `- [${t.replace(/&amp;/g, "&")}](${SITE}${u})`; }).join("\n");
   const price = C.PRICING.items.map((i) => `- ${i.zh.name}：${i.zh.unit}`).join("\n");
-  out("llms.txt", `# Hurfi（中文）\n\n> Hurfi 是扎根中国（西安）的出海营销团队，拥有服务150多家欧美客户的实战经验，为中国制造企业提供外贸独立站、谷歌SEO、谷歌广告与海外社媒运营。网站默认中文，英文版在 ${SITE}/en/。\n\n## 主要页面\n${zhLines}\n\n## 人民币报价（起步价）\n${price}\n\n## 联系方式\n- 微信：Yasir Arafat、Shahruk Karim Simanto（二维码见网站）\n- 电话：${C.CONTACT.phoneCN}\n- 邮箱：${C.CONTACT.email}\n- 中国办公室：${C.ADDRESS.cn.zh}\n- 孟加拉国办公室：${C.ADDRESS.bd.en}\n\n---\n\n${enTxt}`);
+  out("llms.txt", `# Hurfi（中文）\n\n> Hurfi 是扎根中国（西安）的出海营销团队，拥有服务150多家欧美客户的实战经验，为中国制造企业提供外贸独立站、谷歌SEO、谷歌广告与海外社媒运营。网站默认中文。\n\n英文版：${SITE}/en/\n\n## 主要页面\n${zhLines}\n\n## 人民币报价（起步价）\n${price}\n\n## 联系方式\n- 微信：Yasir Arafat、Shahruk Karim Simanto（二维码见网站）\n- 电话：${C.CONTACT.phoneCN}\n- 邮箱：${C.CONTACT.email}\n- 中国办公室：${C.ADDRESS.cn.zh}\n- 孟加拉国办公室：${C.ADDRESS.bd.en}\n\n---\n\n${enTxt}`);
+}
+
+/* ------------------------------------------------------------ performance pass (China speed) */
+// Runs on the finished dist/ pages: unused CSS removed, critical CSS inlined per page with the rest loaded
+// without blocking, scripts deferred, analytics after first interaction or 4 s, font preload, notes on
+// Google links in Chinese pages, unused files dropped.
+{
+  const listHtml = (d, acc = []) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) { if (e.name !== "assets") listHtml(p, acc); } else if (e.name.endsWith(".html")) acc.push(p); } return acc; };
+  const files = listHtml(DIST);
+  // unused files: the 3.6 MB dictionary source and the French runtime (no page loads them)
+  for (const f of ["assets/js/i18n.js", "assets/js/i18n-fr.js", "assets/testimonials/captions.json"]) fs.rmSync(path.join(DIST, f), { force: true });
+  for (const f of fs.readdirSync(path.join(DIST, "assets"), { recursive: true })) if (/\.md$/i.test(f)) fs.rmSync(path.join(DIST, "assets", f), { force: true });
+  // site-wide tokens: classes/ids in every page + every word in the scripts (classes JS adds at runtime)
+  const used = new Set(["html", "body"]);
+  for (const f of files) { const s = fs.readFileSync(f, "utf8"); CSS.htmlTokens(s, used); for (const m of s.matchAll(/<script(?![^>]*ld\+json)[^>]*>([\s\S]*?)<\/script>/g)) CSS.jsTokens(m[1], used); }
+  for (const f of fs.readdirSync(path.join(DIST, "assets", "js"), { recursive: true })) if (f.endsWith(".js")) CSS.jsTokens(fs.readFileSync(path.join(DIST, "assets", "js", f), "utf8"), used);
+  // purge every stylesheet the pages link (fonts.css is inlined instead)
+  const sheets = {};
+  const fontsCss = fs.readFileSync(path.join(ROOT, "assets/css/fonts.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "").trim();
+  for (const f of files) for (const m of fs.readFileSync(f, "utf8").matchAll(/<link rel="stylesheet" href="\/assets\/css\/([\w.-]+\.css)\?v=[^"]*">/g)) {
+    const name = m[1]; if (name === "fonts.css" || sheets[name]) continue;
+    const nodes = CSS.filter(CSS.parse(fs.readFileSync(path.join(ROOT, "assets/css", name), "utf8")), used);
+    const text = CSS.stringify(nodes);
+    fs.writeFileSync(path.join(DIST, "assets/css", name), text);
+    sheets[name] = { nodes, v: crypto.createHash("sha1").update(text).digest("hex").slice(0, 10), before: fs.statSync(path.join(ROOT, "assets/css", name)).size, after: Buffer.byteLength(text) };
+  }
+  const GTM = (C.GTM_ID || "GTM-TCWX44KL"), GA = (C.GA4_ID || "G-T8MMZH7KBP"), CLARITY = (C.CLARITY_ID || "yz67hx1ht5");
+  const LOADER = `<script>
+  /* Analytics load after the first interaction or 4 s after load, so they never block the first paint
+     (and pages work in mainland China, where Google is blocked). */
+  window.dataLayer = window.dataLayer || []; window.gtag = window.gtag || function () { dataLayer.push(arguments); };
+  (function () {
+    var done = false, ev = ["pointerdown", "keydown", "scroll", "touchstart", "mousemove"], opt = { once: true, passive: true };
+    function add(src) { var s = document.createElement("script"); s.async = true; s.src = src; document.head.appendChild(s); }
+    function load() {
+      if (done) return; done = true;
+      ev.forEach(function (e) { removeEventListener(e, load, opt); });
+      dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" }); add("https://www.googletagmanager.com/gtm.js?id=${GTM}");
+      gtag("js", new Date()); gtag("config", "${GA}"); add("https://www.googletagmanager.com/gtag/js?id=${GA}");
+      window.clarity = window.clarity || function () { (window.clarity.q = window.clarity.q || []).push(arguments); }; add("https://www.clarity.ms/tag/${CLARITY}");
+    }
+    ev.forEach(function (e) { addEventListener(e, load, opt); });
+    addEventListener("load", function () { setTimeout(load, 4000); });
+  })();
+</script>`;
+  const FONT_PRELOAD = '<link rel="preload" href="/assets/fonts/PlusJakartaSans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>';
+  const INTL = /(<a\b[^>]*href="https?:\/\/(?:[a-z0-9-]+\.)*(?:google\.com|youtube\.com|web\.dev|withgoogle\.com|goo\.gl|g\.co)[^"]*"[^>]*>[\s\S]*?<\/a>)(?!<span class="intl-note">)/g;
+  let critTotal = 0, notes = 0;
+  for (const f of files) {
+    let s = fs.readFileSync(f, "utf8");
+    const zh = /<html lang="zh/.test(s);
+    // analytics: replace the inline GTM / GA4 / Clarity snippets with the deferred loader
+    s = s.replace(/<!-- Google Tag Manager -->[\s\S]*?<!-- End Google Tag Manager -->\n?/, "")
+      .replace(/<!-- Google tag \(gtag\.js\) -->\n?<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=[^"]+"><\/script>\n?<script>[\s\S]*?<\/script>\n?/, "")
+      .replace(/<!-- Clarity tracking code[^>]*-->\n?<script>[\s\S]*?<\/script>\n?/, "");
+    if (!s.includes("Analytics load after the first interaction")) s = s.replace(/<meta charset="UTF-8">/i, (m) => m + "\n  " + LOADER);
+    // critical CSS for what is on screen first: tokens up to the end of the hero (or the first part of <main>)
+    const bodyAt = s.indexOf("<body"), b = s.slice(bodyAt);
+    const hm = /<(section|header) class="(?:[^"]*\s)?(rk-hero|about-hero)(?:\s[^"]*)?"[^>]*>/.exec(b);
+    let end = -1;
+    if (hm) { const r = blockRange(b, /<(?:section|header) class="(?:[^"]*\s)?(?:rk-hero|about-hero)(?:\s[^"]*)?"[^>]*>/, hm[1]); if (r) end = bodyAt + r[1]; }
+    if (end < 0) end = s.indexOf("<main") > 0 ? s.indexOf("<main") : bodyAt;
+    // plus the sections right after the hero that share the first screen (avoids layout shift when the full CSS lands)
+    end = Math.min(s.length, end + 12000);
+    const above = CSS.htmlTokens(s.slice(0, end), new Set(["html", "body"]));
+    // classes JS adds to the header and hero straight away stay in (scrolled header, nav state)
+    for (const t of ["is-scrolled", "is-ready", "nav-ready", "is-open", "is-visible", "is-in"]) above.add(t);
+    let crit = fontsCss + "\n";
+    s = s.replace(/<link rel="stylesheet" href="\/assets\/css\/fonts\.css\?v=[^"]*">\n?\s*/, "");
+    s = s.replace(/<link rel="stylesheet" href="\/assets\/css\/([\w.-]+\.css)\?v=[^"]*">/g, (m, name) => {
+      const sh = sheets[name]; if (!sh) return m;
+      crit += CSS.stringify(CSS.critical(sh.nodes, above)) + "\n";
+      const href = `/assets/css/${name}?v=${sh.v}`;
+      return `<link rel="preload" href="${href}" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="${href}"></noscript>`;
+    });
+    critTotal += Buffer.byteLength(crit);
+    s = s.replace(/(<link rel="preload" href="\/assets\/css\/)/, `<style id="critical-css">${crit.replace(/<\/style/gi, "<\\/style")}</style>\n  $1`);
+    // fonts: Chinese pages use the system Chinese fonts (no webfont download); English pages preload the main font
+    if (!zh && !s.includes("PlusJakartaSans-normal-latin.woff2\" as=\"font\"")) s = s.replace('<style id="critical-css">', FONT_PRELOAD + "\n  <style id=\"critical-css\">");
+    // scripts: defer local scripts, drop the i18n runtime on English pages, self-host the Lottie player
+    s = s.replace('src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@2.0.12/dist/lottie-player.js"', 'src="/assets/js/vendor/lottie-player-2.0.12.js"');
+    if (!zh) s = s.replace(/[ \t]*<script src="\/assets\/js\/i18n-run\.js[^"]*"[^>]*><\/script>\n?/, "");
+    s = s.replace(/<script src="(\/assets\/js\/[^"]+)"(?![^>]*\b(?:defer|async))([^>]*)>/g, '<script src="$1" defer$2>');
+    // Chinese pages: Google links need an international connection from mainland China
+    if (zh) { const a = s.indexOf("<main"), z = s.indexOf("</main>"); if (a > 0 && z > a) { const m = s.slice(a, z).replace(INTL, (x) => { notes++; return x + '<span class="intl-note">（需国际网络访问）</span>'; }); s = s.slice(0, a) + m + s.slice(z); } }
+    fs.writeFileSync(f, s);
+  }
+  const kb = (n) => Math.round(n / 1024);
+  console.log(`css: ${Object.entries(sheets).map(([n, x]) => `${n} ${kb(x.before)}→${kb(x.after)} KB`).join(", ")}; critical CSS inlined on ${files.length} pages (avg ${kb(critTotal / files.length)} KB); ${notes} Google links noted on Chinese pages`);
 }
 
 // guard: no campus/university address anywhere in the output, no banned terms in config copy
@@ -643,5 +814,6 @@ const cfgBad = cfgZh.filter((s) => BANNED.test(s));
 if (cfgBad.length) { console.error("Absolute terms in config copy:", cfgBad); process.exit(1); }
 fs.writeFileSync(path.join(ROOT, "build-report.json"), JSON.stringify(report, null, 1));
 console.log(`dist: ${report.zh} Chinese pages at /, ${report.en} English pages at /en/; ${report.fallback.length} without Chinese (302 to /en/): ${report.fallback.join(", ")}`);
-console.log(`absolute terms left in Chinese page text: ${Object.values(report.banned).reduce((a, b) => a + b, 0)} on ${Object.keys(report.banned).length} pages (details in dist/.build-report.json)`);
+console.log(`ad-law: ${Object.values(report.rewrites).reduce((a, b) => a + b, 0)} safe rewrites on ${Object.keys(report.rewrites).length} Chinese pages; ${adlawFail.length} banned term(s) left`);
+if (adlawFail.length) { console.error("China Advertising Law check failed. Fix these sentences in the source, or add a safe rewrite to scripts/site/adlaw.mjs:\n" + adlawFail.join("\n")); process.exit(1); }
 if (warn.length) console.log(warn.join("\n"));
