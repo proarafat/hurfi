@@ -322,6 +322,7 @@ const pages = englishPages();
 // zh_mirror keeps that file as it is (only English leftovers get the dictionary wording).
 const HANDMADE = {
   "/services/website-development/": "/zh/services/website-development/", // scripts/hurfi-pages/service_webdev.mjs
+  "/services/seo/": "/zh/services/seo/", // scripts/hurfi-pages/service_seo.mjs
 };
 
 const stats = pages.map((url) => {

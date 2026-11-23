@@ -597,8 +597,8 @@ ZH_OF = {'/': '/zh/', '/services/website-development/': '/zh/services/website-de
 
 def build_services(pages):
     for key, v in pages['services'].items():
-        if key == 'website-development':
-            continue  # written by scripts/hurfi-pages/service_webdev.mjs
+        if key in ('website-development', 'seo'):
+            continue  # written by scripts/hurfi-pages/service_webdev.mjs / service_seo.mjs
         reset_ids()
         rel = 'services/%s/index.html' % key
         path = '/services/%s/' % key
@@ -1366,8 +1366,8 @@ SERVICE_CITIES = ['shenzhen', 'guangzhou', 'shanghai', 'suzhou', 'hangzhou', 'ni
 
 def build_service_links(ins, cities):
     for key, guides in SERVICE_GUIDES.items():
-        if key == 'website-development':
-            continue  # links are part of scripts/hurfi-pages/service_webdev.mjs
+        if key in ('website-development', 'seo'):
+            continue  # links are part of service_webdev.mjs / service_seo.mjs
         rel = 'services/%s/index.html' % key
         s = rd(rel)
         reset_ids()

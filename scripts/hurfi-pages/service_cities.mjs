@@ -467,7 +467,7 @@ function linkBlocks() {
 ${items}      </ul>
     </section>
 `;
-    if (svc === "website-development") continue; // that page links the city pages itself (service_webdev.mjs)
+    if (svc === "website-development" || svc === "seo") continue; // those pages link the city pages themselves (service_webdev.mjs, service_seo.mjs)
     wr(rel, setBlock(rd(rel), "service-cities", body, '    <section class="brief" aria-labelledby="other-title">'));
   }
   for (const city of cities) {
