@@ -518,3 +518,27 @@ html[lang^="zh"] .wd-kicker { letter-spacing: 0.08em; }
   .wd-hero-media { container-type: inline-size; }
   .wd-hero-media .wd-slides { max-height: 80cqw; }
 }
+/* space between balanced card columns and a full-width card after them */
+.wd-cols + * { margin-top: 1.1rem; }
+/* case study: the screenshot starts at the top and stays in view while the text beside it scrolls */
+@media (min-width: 901px) {
+  .wd-case-grid { align-items: start; }
+  .wd-case-media { position: sticky; top: 110px; }
+}
+/* sticky sketch: its column must be as tall as the list beside it, so the sketch can travel with the reader */
+@media (min-width: 901px) {
+  .wd-split { align-items: stretch; }
+  .wd-split-aside { height: 100%; }
+  .wd-sticky { top: 110px; }
+}
+/* related links: three full-width rows (guides in two columns, industries, services in three) */
+.wd-related-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1rem; }
+.wd-related-col:first-child { grid-column: auto !important; }
+.wd-related-col .wd-linklist { columns: 2; column-gap: 2rem; }
+.wd-related-col .wd-linklist li { break-inside: avoid; border-top: 0; border-bottom: 1px solid var(--wd-line); padding: 0.6rem 0; }
+.wd-related-col .wd-svc-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.wd-related-col .wd-svc-list + p { margin: 0; }
+@media (max-width: 760px) {
+  .wd-related-col .wd-linklist { columns: 1; }
+  .wd-related-col .wd-svc-list { grid-template-columns: minmax(0, 1fr); }
+}
