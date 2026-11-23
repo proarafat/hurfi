@@ -587,7 +587,8 @@ function transform(html, url, L, enHtml, zhHtml) {
     if (url === "/services/website-development/") m = m.replace(/(<section class="proof-band")/, caseBlock(L, true) + "$1");
     // pricing: services hub, each service page, summary on home
     const svc = (url.match(/^\/services\/([a-z-]+)\/$/) || [])[1];
-    if (url === "/services/" || svc) m = /<section class="rk-faq/.test(m) ? m.replace(/(<section class="rk-faq)/, pricingBlock(L, svc, false) + "$1") : m + pricingBlock(L, svc, false);
+    // (a page with its own cost section, marked data-own-pricing, skips the shared pricing block)
+    if ((url === "/services/" || svc) && !m.includes("data-own-pricing")) m = /<section class="rk-faq/.test(m) ? m.replace(/(<section class="rk-faq)/, pricingBlock(L, svc, false) + "$1") : m + pricingBlock(L, svc, false);
     if (url === "/") m = m.replace(/(<section class="rk-faq)/, pricingBlock(L, null, true) + "$1");
     // the page-specific trust line
     const tr = trustFor(url, enHtml, zhHtml);

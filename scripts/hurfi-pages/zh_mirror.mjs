@@ -318,7 +318,11 @@ function nativeFor(url) {
 const pages = englishPages();
 // The home page and the four service pages used to have short hand-written Chinese versions (zh.json).
 // Chinese is now the default site, so they get full twins like every other page (dictionary coverage is 100%).
-const HANDMADE = {};
+// Pages whose Chinese twin is written by hand (whole sentences, bold keywords and inline links):
+// zh_mirror keeps that file as it is (only English leftovers get the dictionary wording).
+const HANDMADE = {
+  "/services/website-development/": "/zh/services/website-development/", // scripts/hurfi-pages/service_webdev.mjs
+};
 
 const stats = pages.map((url) => {
   const html = rd(fileOf(url));
