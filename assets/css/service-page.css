@@ -474,3 +474,47 @@ html[lang^="zh"] .wd-kicker { letter-spacing: 0.08em; }
 .wd-filler { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 0.9rem; min-height: 120px; padding: 1.3rem 1.45rem; border: 1px dashed rgba(140, 196, 255, 0.32); border-radius: var(--wd-radius); background: radial-gradient(ellipse 90% 90% at 0% 100%, rgba(0, 118, 247, 0.16), transparent 70%), rgba(255, 255, 255, 0.015); }
 .wd-filler-title { display: flex; align-items: center; gap: 0.8rem; margin: 0 !important; color: #fff !important; font-weight: 700; font-size: 1.05rem; }
 @media (max-width: 760px) { .wd-filler { display: none; } }
+
+/* ------------------------------------------------------------ wide layout + equal-height columns */
+/* wider page: sections, trust line and the consultation form share one width */
+.wd-wrap { width: min(1440px, calc(100% - 4rem)); }
+.wd-page > .hx-trust { width: min(1440px, calc(100% - 4rem)); }
+.wd-page .rk-consult { padding-left: 2rem; padding-right: 2rem; }
+.wd-page .rk-consult-card { width: min(1440px, 100%); }
+.wd-hero-copy > p:not(.wd-kicker) { max-width: 70ch; }
+@media (max-width: 640px) {
+  .wd-wrap, .wd-page > .hx-trust { width: calc(100% - 2rem); }
+  .wd-page .rk-consult { padding-left: 1rem; padding-right: 1rem; }
+}
+/* two-column sections: both sides end together; the visual side stretches instead of floating */
+@media (min-width: 901px) {
+  .wd-hero-grid { align-items: stretch; }
+  .wd-hero-media { display: flex; flex-direction: column; justify-content: center; }
+  .wd-hero-media .wd-browser { flex: 1 1 auto; display: flex; flex-direction: column; max-height: 640px; }
+  .wd-hero-media .wd-slides { flex: 1 1 auto; aspect-ratio: auto; min-height: 340px; }
+  .wd-ai-grid, .wd-why-grid { align-items: stretch; }
+  .wd-ai-grid > *, .wd-why-grid > * { display: flex; flex-direction: column; }
+  .wd-aeo .wd-answer { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
+  .wd-aeo .wd-checklist, .wd-geo .wd-checklist { flex: 1 1 auto; display: flex; flex-direction: column; }
+  .wd-checklist ul { flex: 1 1 auto; align-content: space-between; }
+  .wd-geo .wd-shot-frame { flex: 1 1 auto; display: flex; flex-direction: column; }
+  .wd-geo .wd-shot { flex: 1 1 auto; }
+  .wd-geo .wd-shot img { height: 100%; min-height: 260px; aspect-ratio: auto; }
+  .wd-ai .wd-ready-panel { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
+  .wd-ai .wd-ready-panel ul { gap: 1.2rem; }
+  .wd-why-left .wd-band { flex: 1 1 auto; }
+  .wd-qcard { display: flex; flex-direction: column; }
+  .wd-qcard .wd-qlist { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: space-between; }
+}
+/* filler as one compact row; any small remaining difference: the last card of the column grows */
+.wd-filler { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem 1rem; min-height: 0; padding: 1rem 1.2rem; }
+.wd-col > :last-child { flex-grow: 1; }
+/* screenshots: keep the top-left (titles and numbers) in view when a frame is cropped */
+.wd-card-media img, .wd-slide img, .wd-shot img { object-position: left top; }
+@media (min-width: 901px) {
+  .wd-hero-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); }
+}
+@media (min-width: 901px) {
+  .wd-hero-media { container-type: inline-size; }
+  .wd-hero-media .wd-slides { max-height: 80cqw; }
+}

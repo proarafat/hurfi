@@ -197,7 +197,7 @@ export function cols(items, n, id, contig = false, ind = "        ") {
   const c = Array.from({ length: n }, () => []);
   items.forEach((it, i) => c[best.pick[i]].push(it.html.replace(/^(\s*<\w+)/, `$1 style="order:${i}"`)));
   // a measured column that still ends clearly short gets a consultation box that fills the rest of it
-  if (usable && plan.gap >= 90) c[shortCol].push(`          <aside class="wd-filler" style="order:${items.length}">
+  if (usable && plan.gap >= 75) c[shortCol].push(`          <aside class="wd-filler" style="order:${items.length}">
             <p class="wd-filler-title">${icon("chat", "wd-ic wd-ic--tile")}${E(t({ en: "Not sure where to start?", zh: "不确定从哪里开始？" }))}</p>
             <a class="wd-btn wd-btn--primary" href="${href("/book-consultation/")}#book-form">${E(t({ en: "Book a free consultation", zh: "预约免费咨询" }))} ${icon("arrow", "wd-ic wd-ic--btn")}</a>
           </aside>
