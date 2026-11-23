@@ -28,7 +28,7 @@
 /* ------------------------------------------------------------ hero */
 .wd-hero {
   position: relative;
-  padding: clamp(5.4rem, 7vw, 6.6rem) 0 clamp(3rem, 6vw, 5rem);
+  padding: clamp(5.4rem, 7vw, 6.6rem) 0 clamp(2.2rem, 3.5vw, 3rem);
   overflow: hidden;
   background:
     radial-gradient(ellipse 50% 60% at 78% 40%, rgba(0, 118, 247, 0.28), transparent 65%),
@@ -269,7 +269,7 @@
 .wd-center-note .wd-ic { color: var(--wd-sky); }
 
 /* FAQ */
-.wd-faq-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; align-items: start; }
+.wd-faq-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.75rem; max-width: 880px; margin: 0 auto; }
 .wd-faq-item { border: 1px solid var(--wd-line); border-radius: 16px; background: var(--wd-card); transition: border-color 0.2s ease; }
 .wd-faq-item[open] { border-color: rgba(140, 196, 255, 0.3); background: linear-gradient(180deg, #111a29, var(--wd-card)); }
 .wd-faq-item summary { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1.05rem 1.2rem; color: #fff; font-weight: 700; line-height: 1.45; cursor: pointer; list-style: none; }
@@ -359,7 +359,7 @@ html[lang^="zh"] .wd-kicker { letter-spacing: 0.08em; }
 }
 
 /* ------------------------------------------------------------ SEO page blocks (AEO, GEO, AI search) */
-.wd-ai-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: start; }
+.wd-ai-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: center; }
 .wd-ai-grid--geo .wd-geo-media { position: sticky; top: 100px; }
 .wd-checklist { padding: 1.5rem 1.6rem; border: 1px solid rgba(140, 196, 255, 0.2); border-radius: 22px; background: linear-gradient(180deg, #111b2b, #0d131d); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3); }
 .wd-checklist-title { margin-bottom: 0.9rem !important; color: #fff !important; font-weight: 700; }
@@ -407,3 +407,70 @@ html[lang^="zh"] .wd-kicker { letter-spacing: 0.08em; }
 .wd-city-name::after { content: ""; position: absolute; inset: 0; border-radius: 18px; }
 .wd-city .wd-credit { z-index: 3; }
 .wd-city:focus-within { border-color: rgba(140, 196, 255, 0.5); }
+
+/* ------------------------------------------------------------ gap-free layouts */
+/* the trust line between the hero and the on-page menu */
+.wd-page > .hx-trust { margin: 0 auto 1.8rem; }
+/* masonry columns: each card is as tall as its own text, no empty boxes */
+.wd-masonry { column-gap: 1.1rem; }
+.wd-masonry--2 { columns: 2; }
+.wd-masonry--3 { columns: 3; }
+.wd-masonry > * { display: block; width: 100%; margin: 0 0 1.1rem; break-inside: avoid; -webkit-column-break-inside: avoid; }
+.wd-masonry > .wd-card:hover { transform: none; }
+.wd-masonry .wd-prob { margin-bottom: 1.1rem; }
+.wd-masonry .wd-aside-media img { aspect-ratio: 16 / 10; }
+/* feature card: photo beside the text, full width */
+.wd-card--feature { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); margin-bottom: 1.1rem; }
+.wd-card--feature .wd-card-media { position: relative; min-height: 280px; }
+.wd-card--feature .wd-card-media img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.wd-card--feature .wd-card-body { align-self: center; padding: 1.8rem 2rem; }
+.wd-card--feature h3 { font-size: 1.3rem; }
+.wd-card--feature:hover { transform: none; }
+/* why-it-matters / international SEO: photo band under the heading, beside the list */
+.wd-why-left .wd-band { margin-top: 1.6rem; min-height: 280px; }
+.wd-why-left .wd-band::after { background: linear-gradient(180deg, rgba(7, 9, 13, 0.55) 0%, rgba(7, 9, 13, 0.92) 70%); }
+.wd-why-left .wd-band-copy { max-width: none; align-self: flex-end; padding: 1.5rem 1.6rem 2.2rem; }
+.wd-why-left .wd-band { align-items: flex-end; }
+.wd-why-grid { align-items: center; }
+/* across China: text, then the city pages side by side */
+.wd-china-head { max-width: 860px; margin-bottom: 1.6rem; }
+.wd-cities-title { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 1rem !important; }
+.wd-cities-title .wd-ic { color: var(--wd-sky); }
+.wd-china .wd-cities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+.wd-china .wd-city-media img { aspect-ratio: 16 / 9; }
+@media (max-width: 1024px) {
+  .wd-masonry--3 { columns: 2; }
+}
+@media (max-width: 760px) {
+  .wd-masonry--2, .wd-masonry--3 { columns: 1; }
+  .wd-card--feature { grid-template-columns: minmax(0, 1fr); }
+  .wd-card--feature .wd-card-media { min-height: 0; }
+  .wd-card--feature .wd-card-media img { position: static; height: 210px; }
+  .wd-card--feature .wd-card-body { padding: 1.4rem; }
+  .wd-china .wd-cities { grid-template-columns: minmax(0, 1fr); }
+}
+/* balanced columns (written by the generator); on phones they dissolve into one list in reading order */
+.wd-cols { display: flex; gap: 1.1rem; align-items: flex-start; }
+.wd-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 1.1rem; }
+.wd-col > * { margin: 0 !important; }
+.wd-col > .wd-card:hover { transform: none; }
+.wd-col .wd-aside-media img { aspect-ratio: 16 / 10; }
+.wd-geo .wd-shot-frame { margin-top: 1.4rem; }
+@media (max-width: 1024px) {
+  .wd-cols--3 { flex-wrap: wrap; }
+  .wd-cols--3 > .wd-col { flex: 1 1 calc(50% - 0.6rem); }
+}
+@media (max-width: 760px) {
+  .wd-cols { flex-direction: column; align-items: stretch; }
+  .wd-col { display: contents; }
+}
+/* full-width card rows (technology options) */
+.wd-rows { display: grid; gap: 1rem; }
+.wd-card--row { padding: 1.5rem 1.8rem; }
+.wd-card--row .wd-card-side .wd-tags { margin-top: 0.9rem; }
+.wd-card--row:hover { transform: none; }
+/* consultation box that fills the end of a shorter column */
+.wd-cols { align-items: stretch; }
+.wd-filler { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 0.9rem; min-height: 120px; padding: 1.3rem 1.45rem; border: 1px dashed rgba(140, 196, 255, 0.32); border-radius: var(--wd-radius); background: radial-gradient(ellipse 90% 90% at 0% 100%, rgba(0, 118, 247, 0.16), transparent 70%), rgba(255, 255, 255, 0.015); }
+.wd-filler-title { display: flex; align-items: center; gap: 0.8rem; margin: 0 !important; color: #fff !important; font-weight: 700; font-size: 1.05rem; }
+@media (max-width: 760px) { .wd-filler { display: none; } }

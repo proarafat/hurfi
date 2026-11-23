@@ -50,21 +50,22 @@ ${checklist(X)}${callout(X.note)}          </div>
 
 function geo() {
   const X = P.GEO;
-  return sec(X.id, "wd-geo", `        <div class="wd-ai-grid wd-ai-grid--geo">
-          <div class="wd-geo-media">
-            <div class="wd-shot-frame">
-              <div class="wd-browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>AI Mode</span></div>
-              ${photo(P.SHOTS.aimode, "wd-shot", "(max-width: 900px) 92vw, 520px")}
-            </div>
-            <p class="wd-platforms-text">${md(X.platformsText)}</p>
-            <ul class="wd-tags wd-platforms">${X.platforms.map((p) => `<li>${icon("spark", "wd-ic")}${E(p)}</li>`).join("")}</ul>
-          </div>
+  // heading and screenshot on the left; the work list, platforms, reading link and note on the right
+  return sec(X.id, "wd-geo", `        <div class="wd-ai-grid">
           <div>
             <div class="wd-head wd-head--left">
               ${eyebrow()}
               <h2 id="${X.id}-title">${E(t(X.h2))}</h2>
 ${paras(X.paras, "              ")}            </div>
-${checklist(X)}            <p class="wd-more">${md(X.read)}</p>
+            <div class="wd-shot-frame">
+              <div class="wd-browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>AI Mode</span></div>
+              ${photo(P.SHOTS.aimode, "wd-shot", "(max-width: 900px) 92vw, 520px")}
+            </div>
+          </div>
+          <div>
+${checklist(X)}            <p class="wd-platforms-text">${md(X.platformsText)}</p>
+            <ul class="wd-tags wd-platforms">${X.platforms.map((p) => `<li>${icon("spark", "wd-ic")}${E(p)}</li>`).join("")}</ul>
+            <p class="wd-more">${md(X.read)}</p>
 ${callout(X.note)}          </div>
         </div>
 `);
@@ -72,21 +73,24 @@ ${callout(X.note)}          </div>
 
 function intl() {
   const W = P.INTL;
+  // the photo band sits under the heading, beside the list (both columns end together)
   return sec(W.id, "wd-why wd-intl", `        <div class="wd-why-grid">
-          <div class="wd-head wd-head--left">
-            ${eyebrow()}
-            <h2 id="${W.id}-title">${E(t(W.h2))}</h2>
-${paras(W.paras, "            ")}          </div>
+          <div class="wd-why-left">
+            <div class="wd-head wd-head--left">
+              ${eyebrow()}
+              <h2 id="${W.id}-title">${E(t(W.h2))}</h2>
+${paras(W.paras, "              ")}            </div>
+            <div class="wd-band">
+              ${photo(W.img, "wd-band-media")}
+              <div class="wd-band-copy">
+${paras(W.after, "                ")}              </div>
+            </div>
+          </div>
           <div class="wd-qcard">
             <p class="wd-qcard-title">${icon("globe", "wd-ic wd-ic--tile")}${E(t(W.listIntro))}</p>
             <ol class="wd-qlist">
 ${W.list.map((q) => `              <li>${md(q)}</li>\n`).join("")}            </ol>
           </div>
-        </div>
-        <div class="wd-band">
-          ${photo(W.img, "wd-band-media")}
-          <div class="wd-band-copy">
-${paras(W.after, "            ")}          </div>
         </div>
 `);
 }

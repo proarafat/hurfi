@@ -14,7 +14,7 @@
 import * as P from "./content/service-webdev.mjs";
 import { PRICING } from "../site/config.mjs";
 import { SITE, ORG_ID, E, t, href, md, paras, icon, photo, sec, eyebrow, head2, isZh, hero, toc, problems, cardGrid, processSteps,
-  priceBlock, china, faq, final, related, bento, breadcrumbLd, faqLd, imageAlt, writePage, written } from "./service-page-lib.mjs";
+  priceBlock, china, faq, final, related, bento, cardRows, breadcrumbLd, faqLd, imageAlt, writePage, written } from "./service-page-lib.mjs";
 
 // The price in the copy must match the single source of truth.
 const priceCfg = PRICING.items.find((i) => i.key === "website-development").price;
@@ -25,21 +25,24 @@ const HERO = { ...P.HERO, cta2: [P.HERO.cta2, "/projects/"], chips: P.HERO.chips
 
 function why() {
   const W = P.WHY;
+  // the photo band sits under the heading, beside the question list (both columns end together)
   return sec(W.id, "wd-why", `        <div class="wd-why-grid">
-          <div class="wd-head wd-head--left">
-            ${eyebrow()}
-            <h2 id="${W.id}-title">${E(t(W.h2))}</h2>
-${paras(W.paras, "            ")}          </div>
+          <div class="wd-why-left">
+            <div class="wd-head wd-head--left">
+              ${eyebrow()}
+              <h2 id="${W.id}-title">${E(t(W.h2))}</h2>
+${paras(W.paras, "              ")}            </div>
+            <div class="wd-band">
+              ${photo(W.img, "wd-band-media")}
+              <div class="wd-band-copy">
+${paras(W.after, "                ")}              </div>
+            </div>
+          </div>
           <div class="wd-qcard">
             <p class="wd-qcard-title">${icon("chat", "wd-ic wd-ic--tile")}${E(t(W.listIntro))}</p>
             <ol class="wd-qlist">
 ${W.list.map((q) => `              <li>${md(q)}</li>\n`).join("")}            </ol>
           </div>
-        </div>
-        <div class="wd-band">
-          ${photo(W.img, "wd-band-media")}
-          <div class="wd-band-copy">
-${paras(W.after, "            ")}          </div>
         </div>
 `);
 }
@@ -91,7 +94,7 @@ ${items}          </ol>
 const HOST_BADGE = () => `<a class="wd-host-badge" href="https://www.hostinger.com?REFERRALCODE=DSZYASIRA579" target="_blank" rel="sponsored noopener"><img src="/assets/img/partners/hostinger-partner-brand-dark.svg" alt="${isZh() ? "Hostinger 官方合作伙伴机构徽章" : "Official Hostinger Agency Partner badge"}" width="160" height="60" loading="lazy" decoding="async"></a>`;
 const choose = () => cardGrid({ ...P.CHOOSE, cards: P.CHOOSE.cards.map((c) => ({ ...c,
   cls: [c.hostinger ? "wd-span2 wd-card--host" : "", c.cta ? "wd-card--cta" : ""].filter(Boolean).join(" "),
-  badge: c.hostinger ? HOST_BADGE() : "", note: c.hostinger ? P.CHOOSE.referralNote : null })) }, "wd-choose", "wd-why-card");
+  badge: c.hostinger ? HOST_BADGE() : "", note: c.hostinger ? P.CHOOSE.referralNote : null })) }, "wd-choose", "wd-why-card", "wd-grid2");
 
 function caseStudy() {
   const X = P.CASE;
@@ -153,7 +156,7 @@ writePage({
       faqLd(P.FAQ),
     ];
   },
-  main: () => `${hero(HERO, P.META.crumb)}${toc(TOC)}${bento(P.SERVICES, "wd-services")}${why()}${problems(P.PROBLEMS)}${exportReady()}${cardGrid(P.TECH, "wd-tech", "wd-tech-card")}${choose()}${processSteps(P.PROCESS)}${caseStudy()}${priceBlock(P.COST)}${china(P.CHINA)}${redesign()}${faq(P.FAQ)}${final(P.FINAL)}    <div class="wd-consult" data-consult-slot></div>
+  main: () => `${hero(HERO, P.META.crumb)}${toc(TOC)}${bento(P.SERVICES, "wd-services")}${why()}${problems(P.PROBLEMS)}${exportReady()}${cardRows(P.TECH, "wd-tech")}${choose()}${processSteps(P.PROCESS)}${caseStudy()}${priceBlock(P.COST)}${china(P.CHINA)}${redesign()}${faq(P.FAQ)}${final(P.FINAL)}    <div class="wd-consult" data-consult-slot></div>
 ${related(P.RELATED)}`,
 });
 console.log(written.length ? `written: ${written.join(", ")}` : "no changes");

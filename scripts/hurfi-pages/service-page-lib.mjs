@@ -168,64 +168,109 @@ export const toc = (items) => `    <nav class="wd-toc" aria-label="${L.key === "
     </nav>
 `;
 
-/** bento grid: the first card spans two columns, a card with wide:true spans the row */
-export function bento(S, secCls) {
-  const card = (c, i) => {
-    const media = c.img ? photo(c.img, "wd-card-media") : "";
-    const cls = ["wd-card", c.img ? "wd-card--media" : "", i === 0 || c.span2 ? "wd-span2" : "", c.wide ? "wd-card--wide" : ""].filter(Boolean).join(" ");
-    if (c.wide) return `          <article class="${cls}">
-            <div class="wd-card-side">${icon(c.icon, "wd-ic wd-ic--tile")}<h3>${E(t(c.h3))}</h3></div>
-            <div class="wd-card-body">
-${paras(c.paras, "              ")}            </div>
-          </article>
-`;
-    return `          <article class="${cls}">${media}
+/** Balanced columns: items [{ html, h }] are split into n columns so the columns end as evenly as
+ *  possible (every split is tried for these small sets; each column keeps the original order). On phones
+ *  the columns dissolve (display: contents) and style order restores the original reading order. */
+// Measured splits win over the estimate: content/service-cols.json is written by the measuring tool
+// (headless Chrome on the built pages). Key: page URL + "#" + section id; value: column per item.
+const PLAN_FILE = path.join(ROOT, "scripts/hurfi-pages/content/service-cols.json");
+const PLAN = fs.existsSync(PLAN_FILE) ? JSON.parse(fs.readFileSync(PLAN_FILE, "utf8")) : {};
+export function cols(items, n, id, contig = false, ind = "        ") {
+  const key = L.url + "#" + id;
+  const plan = PLAN[key], planned = plan && plan.pick;
+  const usable = planned && planned.length === items.length && new Set(planned).size === n && Math.max(...planned) < n;
+  let best = usable ? { pick: planned } : null;
+  // otherwise: try every split of these small sets and keep the most even one (estimated heights)
+  for (let code = 0, total = n ** items.length; !usable && code < total; code++) {
+    const hs = Array(n).fill(0); let x = code;
+    const pick = items.map((it) => { const k = x % n; x = Math.floor(x / n); hs[k] += it.h; return k; });
+    if (hs.some((h) => h === 0)) continue;
+    if (contig && pick.some((k, i) => i && k < pick[i - 1])) continue; // numbered items keep their order
+    const score = Math.max(...hs) - Math.min(...hs);
+    if (!best || score < best.score) best = { score, pick };
+  }
+  // number the columns by first use, so the first card always starts the left column
+  const rank = []; best.pick.forEach((k) => { if (!rank.includes(k)) rank.push(k); });
+  const pickOf = (k) => rank.indexOf(k);
+  best = { pick: best.pick.map(pickOf) };
+  const shortCol = usable ? pickOf(plan.short) : -1;
+  const c = Array.from({ length: n }, () => []);
+  items.forEach((it, i) => c[best.pick[i]].push(it.html.replace(/^(\s*<\w+)/, `$1 style="order:${i}"`)));
+  // a measured column that still ends clearly short gets a consultation box that fills the rest of it
+  if (usable && plan.gap >= 90) c[shortCol].push(`          <aside class="wd-filler" style="order:${items.length}">
+            <p class="wd-filler-title">${icon("chat", "wd-ic wd-ic--tile")}${E(t({ en: "Not sure where to start?", zh: "不确定从哪里开始？" }))}</p>
+            <a class="wd-btn wd-btn--primary" href="${href("/book-consultation/")}#book-form">${E(t({ en: "Book a free consultation", zh: "预约免费咨询" }))} ${icon("arrow", "wd-ic wd-ic--btn")}</a>
+          </aside>
+`);
+  return `${ind}<div class="wd-cols wd-cols--${n}" data-cols="${key}"${contig ? " data-contig" : ""}>\n${c.map((x) => `${ind}  <div class="wd-col">\n${x.join("")}${ind}  </div>\n`).join("")}${ind}</div>\n`;
+}
+/** estimated rendered height (px) of a card whose text column is textW px wide, in the current language */
+export function estH(c, textW = 535) {
+  const zh = L.key === "zh";
+  const cpl = Math.max(10, Math.floor(textW / (zh ? 15.6 : 7.4))); // characters per line at ~15px
+  const lines = (x) => Math.ceil(plain(x).length / cpl);
+  const body = (c.paras || []).reduce((n, x) => n + lines(x) * (zh ? 28.5 : 27) + 13.6, 0);
+  const h3 = Math.ceil(plain(c.h3).length / Math.floor(cpl * 0.8)) * 25 + 25;
+  return 48 + 58 + h3 + body + (c.img ? 220 : 0) + (c.badge ? 10 : 0) + (c.tags ? 40 : 0) + (c.note ? 30 : 0) + (c.cta ? 64 : 0);
+}
+
+/** service cards: the first card is a full-width feature (photo beside text), the others flow in two
+ *  masonry columns (each card only as tall as its text), cards with wide:true close the block full width */
+const cardHtml = (c, cls) => `          <article class="${cls}">${c.img ? photo(c.img, "wd-card-media") : ""}
             <div class="wd-card-body">
               ${icon(c.icon, "wd-ic wd-ic--tile")}
               <h3>${E(t(c.h3))}</h3>
 ${paras(c.paras, "              ")}            </div>
           </article>
 `;
-  };
-  return sec(S.id, secCls, `${head2(S)}        <div class="wd-bento">
-${S.cards.map(card).join("")}        </div>
-`);
+export function bento(S, secCls) {
+  const [first, ...more] = S.cards;
+  const rest = more.filter((c) => !c.wide), wide = more.filter((c) => c.wide);
+  const wideHtml = wide.map((c) => `        <article class="wd-card wd-card--wide">
+          <div class="wd-card-side">${icon(c.icon, "wd-ic wd-ic--tile")}<h3>${E(t(c.h3))}</h3></div>
+          <div class="wd-card-body">
+${paras(c.paras, "            ")}          </div>
+        </article>
+`).join("");
+  return sec(S.id, secCls, `${head2(S)}${cardHtml(first, "wd-card wd-card--feature" + (first.img ? " wd-card--feature-media" : "")).replace(/^ {10}/gm, "        ")}${cols(rest.map((c) => ({ html: cardHtml(c, "wd-card" + (c.img ? " wd-card--media" : "")), h: estH(c, 535) })), 2, S.id)}${wideHtml}`);
 }
 
-/** numbered problem cards beside a sticky heading + photo */
+/** numbered problem cards (and the photo) in two masonry columns under a centred heading */
 export function problems(R) {
-  const items = R.items.map((p, i) => `          <article class="wd-prob">
+  const items = R.items.map((p, i) => ({ h: estH(p, 470) - 58, html: `          <article class="wd-prob">
             <p class="wd-prob-num" aria-hidden="true">${String(i + 1).padStart(2, "0")}</p>
             <div>
               <h3>${icon("alert", "wd-ic wd-ic--warn")}${E(t(p.h3))}</h3>
 ${paras(p.paras, "              ")}            </div>
           </article>
-`).join("");
-  return sec(R.id, "wd-problems", `        <div class="wd-split">
-          <div class="wd-split-aside">
-            <div class="wd-sticky">
-              ${eyebrow()}
-              <h2 id="${R.id}-title">${E(t(R.h2))}</h2>
-${paras(R.paras, "              ")}              ${photo(R.img, "wd-aside-media")}
-            </div>
-          </div>
-          <div class="wd-prob-list">
-${items}          </div>
-        </div>
-`);
+` }));
+  const pic = { h: 365, html: `          ${photo(R.img, "wd-aside-media")}\n` };
+  return sec(R.id, "wd-problems", `${head2(R)}${cols([pic, ...items], 2, R.id, true)}`);
 }
 
-/** cards: { icon, h3, paras, tags?, cta?:[text, path], badge?:html, note?, cls? } in a 3-column grid */
+/** cards: { icon, h3, paras, tags?, cta?:[text, path], badge?:html, note?, cls? } in masonry columns (3, or 2 with gridCls "wd-grid2") */
 export function cardGrid(X, secCls, cardCls = "", gridCls = "wd-grid3") {
-  const cards = X.cards.map((c) => `          <article class="${["wd-card", cardCls, c.cls || ""].filter(Boolean).join(" ")}">
+  const w = gridCls === "wd-grid2" ? 535 : 335;
+  const cards = X.cards.map((c) => ({ h: estH(c, w), html: `          <article class="${["wd-card", cardCls, c.cls || ""].filter(Boolean).join(" ")}">
             <div class="wd-card-body">
               ${c.badge || icon(c.icon, "wd-ic wd-ic--tile")}
               <h3>${E(t(c.h3))}</h3>
 ${paras(c.paras, "              ")}${c.tags ? `              <ul class="wd-tags">${c.tags.map((g) => `<li>${E(t(g))}</li>`).join("")}</ul>\n` : ""}${c.note ? `              <p class="wd-note">${E(t(c.note))}</p>\n` : ""}${c.cta ? `              <p><a class="wd-btn wd-btn--primary" href="${href(c.cta[1])}">${E(t(c.cta[0]))} ${icon("arrow", "wd-ic wd-ic--btn")}</a></p>\n` : ""}            </div>
           </article>
+` }));
+  return sec(X.id, secCls, `${head2(X)}${cols(cards, gridCls === "wd-grid2" ? 2 : 3, X.id)}`);
+}
+
+/** cards as full-width rows: icon + title (+ tags) on the left, the text on the right (no uneven columns) */
+export function cardRows(X, secCls) {
+  const rows = X.cards.map((c) => `          <article class="wd-card wd-card--wide wd-card--row">
+            <div class="wd-card-side">${icon(c.icon, "wd-ic wd-ic--tile")}<h3>${E(t(c.h3))}</h3>${c.tags ? `<ul class="wd-tags">${c.tags.map((g) => `<li>${E(t(g))}</li>`).join("")}</ul>` : ""}</div>
+            <div class="wd-card-body">
+${paras(c.paras, "              ")}            </div>
+          </article>
 `).join("");
-  return sec(X.id, secCls, `${head2(X)}        <div class="${gridCls}">
-${cards}        </div>
+  return sec(X.id, secCls, `${head2(X)}        <div class="wd-rows">
+${rows}        </div>
 `);
 }
 
@@ -258,17 +303,15 @@ ${paras(X.after ? [].concat(X.after) : [], "            ")}          </div>
 }
 
 export function china(X) {
-  const cards = X.cities.map((c) => `            <div class="wd-city">${photo(c.img, "wd-city-media")}<a class="wd-city-name" href="${href(c.url)}">${icon("pin", "wd-ic")}${E(t(c.name))}${icon("arrow", "wd-ic wd-ic--go")}</a></div>
+  const cards = X.cities.map((c) => `          <div class="wd-city">${photo(c.img, "wd-city-media")}<a class="wd-city-name" href="${href(c.url)}">${icon("pin", "wd-ic")}${E(t(c.name))}${icon("arrow", "wd-ic wd-ic--go")}</a></div>
 `).join("");
-  return sec(X.id, "wd-china", `        <div class="wd-china-grid">
-          <div class="wd-head wd-head--left">
-            ${eyebrow()}
-            <h2 id="${X.id}-title">${E(t(X.h2))}</h2>
-${paras(X.paras, "            ")}${paras(X.after ? [].concat(X.after) : [], "            ")}          </div>
-          <div class="wd-cities">
-            <p class="wd-cities-title">${md(X.cityIntro)}</p>
-${cards}          </div>
-        </div>
+  return sec(X.id, "wd-china", `        <div class="wd-head wd-head--left wd-china-head">
+          ${eyebrow()}
+          <h2 id="${X.id}-title">${E(t(X.h2))}</h2>
+${paras(X.paras, "          ")}${paras(X.after ? [].concat(X.after) : [], "          ")}        </div>
+        <p class="wd-cities-title">${icon("pin", "wd-ic")}${md(X.cityIntro)}</p>
+        <div class="wd-cities">
+${cards}        </div>
 `);
 }
 

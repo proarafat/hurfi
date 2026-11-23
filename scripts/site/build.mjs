@@ -547,7 +547,7 @@ function transform(html, url, L, enHtml, zhHtml) {
   // header: 中文 / EN links that keep the visitor on the same page
   const sw = `<div class="lang-switch lang-links" role="group" aria-label="${E(T(C.UI.language, L))}"><a href="${hasZh ? url : "/en" + url}" hreflang="${ZH.hreflang}" lang="${ZH.code}"${L.key === "zh" ? ' aria-current="true"' : ""}>${ZH.label}</a><a href="/en${url}" hreflang="${EN.hreflang}" lang="${EN.code}"${L.key === "en" ? ' aria-current="true"' : ""}>${EN.label}</a></div>`;
   if (/<div class="lang-switch"/.test(b)) b = replaceBlock(b, /<div class="lang-switch"[^>]*>/, "div", sw);
-  else b = b.replace(/(<nav[^>]*data-site-nav)/, sw + "$1");
+  else b = b.replace(/(<nav[^>]*data-site-nav)/, (x) => sw + x);
   b = b.replace(/<span class="badge badge-hot" aria-label="[^"]*">/g, `<span class="badge badge-hot" aria-label="${E(T(C.UI.hot, L))}">`);
   // footer (static, per language)
   b = replaceBlock(b, /<footer class="site-footer"[^>]*>/, "footer", footerBlock(L));
@@ -559,7 +559,7 @@ function transform(html, url, L, enHtml, zhHtml) {
       m = replaceBlock(m, /<ul class="rk-platforms"[^>]*>/, "ul", "");
       m = replaceBlock(m, /<ul class="rk-meter"[^>]*>/, "ul", statsBlock(L));
     }
-    if (/<div class="rk-hero-logos"/.test(m) && !m.includes("logos-head")) m = m.replace(/(<div class="rk-hero-logos")/, logosHead(L) + "$1");
+    if (/<div class="rk-hero-logos"/.test(m) && !m.includes("logos-head")) m = m.replace(/(<div class="rk-hero-logos")/, (x) => logosHead(L) + x);
     if (/<section class="rk-voice"/.test(m)) m = replaceBlock(m, /<section class="rk-voice"[^>]*>/, "section", feedbackBlock(L));
     if (/<section class="rk-cmp"/.test(m)) m = replaceBlock(m, /<section class="rk-cmp"[^>]*>/, "section", compareBlock(L));
     // contact page: cards in the language's contact order (zh: WeChat/China first; en: WhatsApp and email first)
@@ -580,28 +580,28 @@ function transform(html, url, L, enHtml, zhHtml) {
     m = replaceBlock(m, /<section class="rk-consult"[^>]*>/, "section", "");
     // Squoobee case study and feedback (projects), cards on home and website development
     if (url === "/projects/") {
-      m = m.replace(/(<section class="proof-band")/, caseBlock(L, false) + "$1");
-      if (FEED.length && !m.includes('class="brief hx-feedback"')) m = m.replace(/(<section class="proof-band")/, feedbackBlock(L) + "$1");
+      m = m.replace(/(<section class="proof-band")/, (x) => caseBlock(L, false) + x);
+      if (FEED.length && !m.includes('class="brief hx-feedback"')) m = m.replace(/(<section class="proof-band")/, (x) => feedbackBlock(L) + x);
     }
-    if (url === "/") m = m.replace(/(<section class="rk-services")/, caseBlock(L, true) + "$1");
-    if (url === "/services/website-development/") m = m.replace(/(<section class="proof-band")/, caseBlock(L, true) + "$1");
+    if (url === "/") m = m.replace(/(<section class="rk-services")/, (x) => caseBlock(L, true) + x);
+    if (url === "/services/website-development/") m = m.replace(/(<section class="proof-band")/, (x) => caseBlock(L, true) + x);
     // pricing: services hub, each service page, summary on home
     const svc = (url.match(/^\/services\/([a-z-]+)\/$/) || [])[1];
     // (a page with its own cost section, marked data-own-pricing, skips the shared pricing block)
-    if ((url === "/services/" || svc) && !m.includes("data-own-pricing")) m = /<section class="rk-faq/.test(m) ? m.replace(/(<section class="rk-faq)/, pricingBlock(L, svc, false) + "$1") : m + pricingBlock(L, svc, false);
-    if (url === "/") m = m.replace(/(<section class="rk-faq)/, pricingBlock(L, null, true) + "$1");
+    if ((url === "/services/" || svc) && !m.includes("data-own-pricing")) m = /<section class="rk-faq/.test(m) ? m.replace(/(<section class="rk-faq)/, (x) => pricingBlock(L, svc, false) + x) : m + pricingBlock(L, svc, false);
+    if (url === "/") m = m.replace(/(<section class="rk-faq)/, (x) => pricingBlock(L, null, true) + x);
     // the page-specific trust line
     const tr = trustFor(url, enHtml, zhHtml);
     if (tr) {
       const block = trustBlock(T(tr.line, L), L, tr.where === "close");
-      if (tr.where === "close") m = /<section class="brief hx-related-block"/.test(m) ? m.replace(/(    <section class="brief hx-related-block")/, block + "$1") : m + block;
-      else if (url === "/") m = m.replace(/(<section class="rk-system")/, block + "$1");
-      else if (/<nav class="hx-crumbs"/.test(m)) m = m.replace(/(<nav class="hx-crumbs"[\s\S]*?<\/nav>\n?)/, "$1" + block);
-      else if (/<\/header>/.test(m)) m = m.replace(/(<\/header>\n?)/, "$1" + block);
-      else m = m.replace(/(<main[^>]*>\n?)/, "$1" + block);
+      if (tr.where === "close") m = /<section class="brief hx-related-block"/.test(m) ? m.replace(/(    <section class="brief hx-related-block")/, (x) => block + x) : m + block;
+      else if (url === "/") m = m.replace(/(<section class="rk-system")/, (x) => block + x);
+      else if (/<nav class="hx-crumbs"/.test(m)) m = m.replace(/(<nav class="hx-crumbs"[\s\S]*?<\/nav>\n?)/, (x) => x + block);
+      else if (/<\/header>/.test(m)) m = m.replace(/(<\/header>\n?)/, (x) => x + block);
+      else m = m.replace(/(<main[^>]*>\n?)/, (x) => x + block);
     }
     // consultation form on every page except 404 / thank-you
-    if (page !== "404" && page !== "thanks") m = m.includes("data-consult-slot") ? m.replace(/(<[^>]*data-consult-slot[^>]*>)/, "$1\n" + consultBlock(L, url)) : m + consultBlock(L, url);
+    if (page !== "404" && page !== "thanks") m = m.includes("data-consult-slot") ? m.replace(/(<[^>]*data-consult-slot[^>]*>)/, (x) => x + "\n" + consultBlock(L, url)) : m + consultBlock(L, url);
     // other inquiry forms (China directory): Netlify Forms instead of formsubmit.co
     m = m.replace(/<form class="rk-consult-form" name="([^"]+)" method="POST" action="https:\/\/formsubmit\.co\/[^"]*"([^>]*)>/g,
       (x, name, rest) => `<form class="rk-consult-form" name="${name}" method="POST" action="${hrefOf("/thank-you/", L)}" data-netlify="true" netlify-honeypot="bot-field"${rest}>\n            <input type="hidden" name="page" value="${E((L.prefix || "") + url)}">`);

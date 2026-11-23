@@ -1,0 +1,132 @@
+{
+ "https://hurfi.com/zh/services/website-development/#services": {
+  "pick": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "short": 0,
+  "gap": 181
+ },
+ "https://hurfi.com/zh/services/website-development/#website-problems": {
+  "pick": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "short": 0,
+  "gap": 158
+ },
+ "https://hurfi.com/zh/services/website-development/#why-hurfi": {
+  "pick": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "short": 0,
+  "gap": 89
+ },
+ "https://hurfi.com/services/website-development/#services": {
+  "pick": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "short": 1,
+  "gap": 128
+ },
+ "https://hurfi.com/services/website-development/#website-problems": {
+  "pick": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "short": 0,
+  "gap": 112
+ },
+ "https://hurfi.com/services/website-development/#why-hurfi": {
+  "pick": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "short": 0,
+  "gap": 143
+ },
+ "https://hurfi.com/zh/services/seo/#seo-services": {
+  "pick": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "short": 1,
+  "gap": 111
+ },
+ "https://hurfi.com/zh/services/seo/#seo-problems": {
+  "pick": [
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "short": 0,
+  "gap": 126
+ },
+ "https://hurfi.com/zh/services/seo/#why-hurfi": {
+  "pick": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "short": 0,
+  "gap": 0
+ },
+ "https://hurfi.com/services/seo/#seo-services": {
+  "pick": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "short": 1,
+  "gap": 159
+ },
+ "https://hurfi.com/services/seo/#seo-problems": {
+  "pick": [
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "short": 0,
+  "gap": 140
+ },
+ "https://hurfi.com/services/seo/#why-hurfi": {
+  "pick": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "short": 0,
+  "gap": 27
+ }
+}
