@@ -59,25 +59,42 @@ module.exports = {
       }
       if (!changed.length) return show("Baidu push", `no new or changed Chinese pages (${urls.length} checked)`);
 
+      // Batches of `limit` URLs; after each batch Baidu reports the quota left today ("remain"), and further
+      // batches are sent only while quota remains (never more than it allows). Whatever does not fit today
+      // stays unrecorded and goes out on the next production deploy.
       const limit = Math.max(1, parseInt(inputs.limit, 10) || 50);
-      const batch = changed.slice(0, limit);
-      const res = await fetch(`http://data.zz.baidu.com/urls?site=${SITE}&token=${encodeURIComponent(token)}`, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain" },
-        body: batch.join("\n"),
-        signal: AbortSignal.timeout(20000),
-      });
-      const body = await res.text();
-      let data = {};
-      try { data = JSON.parse(body); } catch (e) { /* not JSON */ }
-      if (!res.ok || data.error) return show("Baidu push failed", `HTTP ${res.status}: ${data.message || body.slice(0, 200)} (nothing recorded, will retry next deploy)`);
-
-      const rejected = new Set([...(data.not_same_site || []), ...(data.not_valid || [])]);
-      for (const u of batch) if (!rejected.has(u)) sent[u] = keys[u];
-      fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
-      fs.writeFileSync(CACHE_FILE, JSON.stringify(sent));
-      await utils.cache.save(CACHE_FILE);
-      show("Baidu push", `sent ${data.success ?? "?"} of ${batch.length} URL(s); ${changed.length - batch.length} waiting for the next deploy; Baidu quota left today: ${data.remain ?? "?"}${rejected.size ? `; rejected: ${[...rejected].join(", ")}` : ""}`);
+      let pending = changed.slice(), accepted = 0, posted = 0, remain = null, batches = 0, failure = "", cap = limit;
+      const rejected = new Set();
+      while (pending.length && batches < 10 && (remain === null || remain > 0)) {
+        const batch = pending.slice(0, remain === null ? cap : Math.min(cap, remain));
+        const res = await fetch(`http://data.zz.baidu.com/urls?site=${SITE}&token=${encodeURIComponent(token)}`, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain" },
+          body: batch.join("\n"),
+          signal: AbortSignal.timeout(20000),
+        });
+        const body = await res.text();
+        let data = {};
+        try { data = JSON.parse(body); } catch (e) { /* not JSON */ }
+        batches++;
+        // quota smaller than the batch: Baidu refuses the whole batch ("over quota"); retry with half as many URLs
+        if ((!res.ok || data.error) && /over quota/i.test(String(data.message || body)) && batch.length > 1) { cap = Math.max(1, Math.floor(batch.length / 2)); continue; }
+        if (!res.ok || data.error) { failure = `HTTP ${res.status}: ${data.message || body.slice(0, 200)}`; break; }
+        for (const u of [...(data.not_same_site || []), ...(data.not_valid || [])]) rejected.add(u);
+        for (const u of batch) if (!rejected.has(u)) sent[u] = keys[u];
+        posted += batch.length;
+        accepted += Number(data.success) || 0;
+        remain = typeof data.remain === "number" ? data.remain : 0;
+        pending = pending.slice(batch.length);
+        console.log(`[baidu-push] batch ${batches}: posted ${batch.length}, accepted ${data.success ?? "?"}, quota left today ${data.remain ?? "?"}`);
+      }
+      if (posted) {
+        fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true });
+        fs.writeFileSync(CACHE_FILE, JSON.stringify(sent));
+        await utils.cache.save(CACHE_FILE);
+      }
+      const summary = `Chinese URLs new/changed: ${changed.length}; posted ${posted} in ${batches} batch(es); accepted by Baidu: ${accepted}; waiting for the next deploy: ${pending.length}; Baidu quota left today: ${remain ?? "?"}${rejected.size ? `; rejected: ${[...rejected].join(", ")}` : ""}${failure ? `; stopped: ${failure}` : ""}`;
+      show(failure && !posted ? "Baidu push failed" : "Baidu push", summary);
     } catch (e) {
       show("Baidu push error", String((e && e.message) || e));
     }
