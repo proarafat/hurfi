@@ -44,6 +44,7 @@ export const CONTACT = {
   email: "yasir@hurfi.com",
   instagram: "https://www.instagram.com/hurfi_global/",
   linkedin: "https://www.linkedin.com/company/hurfiglobal/",
+  rednote: "https://www.rednote.com/user/profile/6a630d59000000000e03b801", // 小红书
   wechat: [
     { id: "yasir-wechat", name: { en: "Yasir Arafat", zh: "Yasir Arafat" }, role: { en: "Head of Strategy & Consulting", zh: "策略与咨询负责人" }, qr: "/assets/yasirarafating-wechat.jpeg" },
     { id: "shahruk-wechat", name: { en: "Shahruk Karim Simanto", zh: "Shahruk Karim Simanto" }, role: { en: "China Client Relations Coordinator", zh: "中国客户关系协调" }, qr: "/assets/Shahruk_Karim_Simanto_wechat.jpg" },

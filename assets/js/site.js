@@ -536,6 +536,7 @@
       '<li><a href="https://wa.me/8801859890002" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>' +
       '<li><a href="https://www.instagram.com/hurfi_global/" target="_blank" rel="noopener noreferrer">Instagram</a></li>' +
       '<li><a href="https://www.linkedin.com/company/hurfiglobal/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>' +
+      '<li><a href="https://www.rednote.com/user/profile/6a630d59000000000e03b801" target="_blank" rel="noopener noreferrer">RedNote</a></li>' +
       "</ul></nav>" +
       '<nav aria-label="Legal">' +
       '<p class="footer-kicker">Legal</p>' +

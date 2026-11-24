@@ -7,3 +7,4 @@ audience: Chinese manufacturers, Chinese suppliers, Chinese exporters, and Chine
 languages: Simplified Chinese at https://hurfi.com/ (default) and English at https://hurfi.com/en/. Each page links to its other-language version with hreflang. There are no other language versions.
 linkedin: https://www.linkedin.com/company/hurfiglobal/
 instagram: https://www.instagram.com/hurfi_global/
+rednote: https://www.rednote.com/user/profile/6a630d59000000000e03b801

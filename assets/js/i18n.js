@@ -441,6 +441,7 @@
     "WhatsApp": "WhatsApp",
     "Instagram": "Instagram",
     "LinkedIn": "LinkedIn",
+    "RedNote": "小红书",
     "About Hurfi": "关于 Hurfi",
     "Hurfi is a B2B Growth & Digital Presence Partner helping Chinese manufacturers, suppliers, and B2B companies build trusted global brands online.": "Hurfi 是 B2B 增长与数字形象伙伴，帮助中国制造商、供应商和 B2B 企业在线上建立可信的全球品牌。",
     "Who We Are": "我们是谁",

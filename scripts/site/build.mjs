@@ -395,7 +395,7 @@ function footerBlock(L) {
   const contact = z
     ? wx(C.CONTACT.wechat[0]) + wx(C.CONTACT.wechat[1]) + `<li><a href="${C.CONTACT.phoneCNHref}">${C.CONTACT.phoneCN}</a></li><li><a href="mailto:${C.CONTACT.email}">${C.CONTACT.email}</a></li><li><a href="${C.CONTACT.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>`
     : `<li><a href="${C.CONTACT.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp</a></li><li><a href="mailto:${C.CONTACT.email}">${C.CONTACT.email}</a></li>` + wx(C.CONTACT.wechat[0]).replace("：", ": ") + `<li><a href="${C.CONTACT.phoneCNHref}">${C.CONTACT.phoneCN}</a></li>`;
-  const social = `<li><a href="${C.CONTACT.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="${C.CONTACT.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a></li>`;
+  const social = `<li><a href="${C.CONTACT.linkedin}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="${C.CONTACT.instagram}" target="_blank" rel="noopener noreferrer">Instagram</a></li><li><a href="${C.CONTACT.rednote}" target="_blank" rel="noopener noreferrer">${z ? "小红书" : "RedNote"}</a></li>`;
   return `<footer class="site-footer"><div class="footer-card"><div class="footer-top footer-top--6">` +
     `<nav aria-label="${E(T(FT.nav, L))}"><p class="footer-kicker">${E(T(FT.nav, L))}</p><ul class="footer-list">${list(FT.links.nav)}<li><a href="${hrefOf("/book-consultation/", L)}#book-form">${E(T(C.OFFER.button, L))}</a></li></ul></nav>` +
     `<nav aria-label="${E(T(FT.res, L))}"><p class="footer-kicker">${E(T(FT.res, L))}</p><ul class="footer-list">${list(FT.links.res)}</ul></nav>` +
@@ -735,7 +735,7 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
   const zhLines = ["/", "/about/", "/services/", "/services/website-development/", "/services/seo/", "/services/digital-marketing/", "/services/social-media-management/", "/projects/", "/industries/", "/locations/china/", "/insights/", "/contact/", "/book-consultation/"]
     .filter((u) => HAS_ZH.has(u)).map((u) => { const t = (rd(fileOf(u, ZH)).match(/<title>([^<]*)<\/title>/) || [])[1] || u; return `- [${t.replace(/&amp;/g, "&")}](${SITE}${u})`; }).join("\n");
   const price = C.PRICING.items.map((i) => `- ${i.zh.name}：${i.zh.unit}`).join("\n");
-  out("llms.txt", `# Hurfi（中文）\n\n> Hurfi 是扎根中国（西安）的出海营销团队，拥有服务150多家欧美客户的实战经验，为中国制造企业提供外贸独立站、谷歌SEO、谷歌广告与海外社媒运营。网站默认中文。\n\n英文版：${SITE}/en/\n\n## 主要页面\n${zhLines}\n\n## 人民币报价（起步价）\n${price}\n\n## 联系方式\n- 微信：Yasir Arafat、Shahruk Karim Simanto（二维码见网站）\n- 电话：${C.CONTACT.phoneCN}\n- 邮箱：${C.CONTACT.email}\n- 中国办公室：${C.ADDRESS.cn.zh}\n- 孟加拉国办公室：${C.ADDRESS.bd.en}\n\n---\n\n${enTxt}`);
+  out("llms.txt", `# Hurfi（中文）\n\n> Hurfi 是扎根中国（西安）的出海营销团队，拥有服务150多家欧美客户的实战经验，为中国制造企业提供外贸独立站、谷歌SEO、谷歌广告与海外社媒运营。网站默认中文。\n\n英文版：${SITE}/en/\n\n## 主要页面\n${zhLines}\n\n## 人民币报价（起步价）\n${price}\n\n## 联系方式\n- 微信：Yasir Arafat、Shahruk Karim Simanto（二维码见网站）\n- 电话：${C.CONTACT.phoneCN}\n- 邮箱：${C.CONTACT.email}\n- 小红书：${C.CONTACT.rednote}\n- 中国办公室：${C.ADDRESS.cn.zh}\n- 孟加拉国办公室：${C.ADDRESS.bd.en}\n\n---\n\n${enTxt}`);
 }
 
 /* ------------------------------------------------------------ performance pass (China speed) */

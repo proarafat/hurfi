@@ -28,7 +28,8 @@ window.HURFI_SCHEMA = {
   ],
   "sameAs": [
     "https://www.linkedin.com/company/hurfiglobal/",
-    "https://www.instagram.com/hurfi_global/"
+    "https://www.instagram.com/hurfi_global/",
+    "https://www.rednote.com/user/profile/6a630d59000000000e03b801"
   ],
   "address": [
     {

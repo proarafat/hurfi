@@ -150,6 +150,7 @@ Languages: every page is published in English and in Simplified Chinese. The Chi
 - China: Dongxiang Road, Chang'an District, Xi'an, Shaanxi 710129. +86 17792239260
 - LinkedIn: https://www.linkedin.com/company/hurfiglobal/
 - Instagram: https://www.instagram.com/hurfi_global/
+- RedNote (小红书): https://www.rednote.com/user/profile/6a630d59000000000e03b801
 - Languages on the site: English, Simplified Chinese, and French. Most HTML is English, with Chinese and French applied in the browser. Static Simplified Chinese pages: https://hurfi.com/zh/ and /zh/services/.
 - Book a consultation: https://hurfi.com/book-consultation/
 

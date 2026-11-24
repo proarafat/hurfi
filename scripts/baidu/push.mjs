@@ -99,13 +99,27 @@ log(`sitemap: ${urls.length} Chinese URLs; accepted earlier and unchanged: ${url
 // ---------------------------------------------------------------- send
 let posted = 0, accepted = 0, calls = 0, remain = null, failure = "", usedUp = false;
 const rejectedNow = [];
-if (!queue.length) {
+if (DRY) {
+  const cap = Math.min(queue.length, state.dailyQuota || 50);
+  if (!queue.length) log("dry run: nothing queued, a real run would make no request to Baidu");
+  else if (state.quotaUsedUpOn === today) log(`dry run: Baidu's quota for ${today} (Beijing) is used up; the next run sends up to ${cap} of ${queue.length} queued URL(s), first: ${queue.slice(0, 3).map(short).join(", ")}`);
+  else log(`dry run: would send up to ${cap} of ${queue.length} queued URL(s), first: ${queue.slice(0, 3).map(short).join(", ")}`);
+  // token check: an empty submission (no URLs, uses no quota); Baidu rejects a wrong token with 401
+  if (!TOKEN) { log("::error::dry run: BAIDU_PUSH_TOKEN is not set"); failure = "no token"; }
+  else {
+    try {
+      const res = await fetch(`${ENDPOINT}?site=${encodeURIComponent(SITE)}&token=${encodeURIComponent(TOKEN)}`, { method: "POST", headers: { "Content-Type": "text/plain" }, body: "", signal: AbortSignal.timeout(30000) });
+      const body = await res.text(); let data = {}; try { data = JSON.parse(body); } catch (e) { /* not JSON */ }
+      const msg = String(data.message || body).slice(0, 120);
+      if (res.status === 401 || /token/i.test(msg)) { log(`::error::dry run: Baidu rejected the token (HTTP ${res.status}: ${msg})`); failure = "token rejected"; }
+      else if (/site/i.test(msg) && !/empty/i.test(msg)) { log(`::error::dry run: Baidu does not accept this site for the token (HTTP ${res.status}: ${msg})`); failure = "site not verified"; }
+      else log(`dry run: token check passed, no URLs sent (Baidu's answer to an empty submission: HTTP ${res.status} "${msg}")`);
+    } catch (e) { log(`::warning::dry run: Baidu not reachable for the token check (${e.message})`); }
+  }
+} else if (!queue.length) {
   log("nothing to send: no request to Baidu");
 } else if (state.quotaUsedUpOn === today) {
   log(`Baidu's quota for ${today} (Beijing) was already used up: no request today, ${queue.length} URL(s) stay queued`);
-} else if (DRY) {
-  const cap = Math.min(queue.length, state.dailyQuota || 50);
-  log(`dry run: would send up to ${cap} of ${queue.length} queued URL(s), first: ${queue.slice(0, 3).map(short).join(", ")}`);
 } else if (!TOKEN) {
   log(`::error::BAIDU_PUSH_TOKEN is not set (GitHub: Settings → Secrets and variables → Actions). ${queue.length} URL(s) stay queued.`);
   failure = "no token";
@@ -167,5 +181,7 @@ if (material() !== before && !DRY) {
   log("state: saved");
 } else log(DRY ? "state: dry run, not saved" : "state: unchanged, not saved");
 
+// one-line result as a run annotation (visible on the run page without opening the log)
+console.log(`::notice title=Baidu push${DRY ? " (dry run)" : ""}::queued ${queue.length}, posted ${posted}, accepted ${accepted}, quota left ${remain ?? "?"}, still queued ${state.pending.length}, requests ${calls}${failure ? ", stopped: " + summary.failure : ""}`);
 if (failure) { log(`::error::Baidu push stopped: ${summary.failure}`); finish(1); }
 finish(0);
