@@ -1,0 +1,709 @@
+{
+ "version": 1,
+ "site": "https://hurfi.com",
+ "submitted": {
+  "https://hurfi.com/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/about/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/book-consultation/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/brand-guidelines/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/contact/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/digital-marketing-agency-guangzhou/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/digital-marketing-agency-shenzhen/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/industries/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/industries/aerospace-aviation-supply-chain/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  },
+  "https://hurfi.com/industries/agritech-agricultural-equipment/": {
+   "hash": null,
+   "at": "2026-11-24",
+   "source": "netlify-plugin"
+  }
+ },
+ "pending": [
+  {
+   "url": "https://hurfi.com/industries/apparel-footwear-production/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/automotive-mobility-components/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/battery-energy-storage/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/chemicals-specialty-materials/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/construction-materials-systems/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/data-centers-digital-infrastructure/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/electronics-semiconductor/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/environmental-circular-economy/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/ev-e-mobility/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/food-processing-equipment/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/furniture-interior-manufacturing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/industrial-automation-robotics/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/industrial-hvac-building-systems/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/industrial-machinery-cnc/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/industrial-safety-testing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/industrial-software-data/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/laboratory-scientific-equipment/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/logistics-warehouse-technology/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/marine-shipbuilding-supply-chain/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/medical-devices-diagnostics/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/mining-mineral-processing-equipment/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/oem-odm/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/optics-photonics/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/packaging-printing-manufacturing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/pharma-bioprocess-manufacturing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/power-grid-electrical-equipment/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/precision-manufacturing-components/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/smart-buildings-urban-infrastructure/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/solar-renewable-power/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/textiles-technical-fabrics/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/industries/water-wastewater-technology/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/ai-search-for-manufacturers/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/canton-fair-guide-for-exporters/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/certifications-page-for-export-websites/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/china-export-markets-2025/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/choosing-an-export-marketing-agency/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/cnc-machining-quote-comparison/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/commercial-energy-storage-procurement/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/export-website-speed-for-overseas-buyers/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/factory-website-trust-signals/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/google-ads-for-exporters/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/incoterms-2020-explained/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/industrial-product-page-seo/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/international-seo-checklist-for-exporters/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/linkedin-for-factory-export-sales/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/manufacturer-website-rfq-checklist/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/market-pages-for-asean-middle-east-africa/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/overseas-buyer-inquiries/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/pdf-catalogue-to-product-pages/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/shipping-logistics-page-for-exporters/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/standing-out-in-an-industrial-cluster/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/trade-show-follow-up-for-manufacturers/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/what-is-an-oem-manufacturer/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/insights/what-is-international-seo/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/anhui/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/beijing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/changsha/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/changzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/chengdu/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/chongqing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/dalian/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/dongguan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/foshan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/fujian/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/fuzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/guangdong/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/guangzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/hangzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/hefei/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/henan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/hubei/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/huizhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/hunan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/jiangsu/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/jiaxing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/jinan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/jinhua/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/kunshan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/liaoning/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/nanjing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/nantong/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/ningbo/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/qingdao/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/quanzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/shandong/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/shanghai/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/shaoxing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/shenyang/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/shenzhen/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/sichuan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/suzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/taizhou-zhejiang/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/tianjin/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/weifang/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/wenzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/wuhan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/wuhu/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/wuxi/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/xiamen/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/xian/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/yantai/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/zhejiang/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/zhengzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/zhongshan/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/locations/china/zhuhai/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/privacy-policy/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/projects/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/refund-policy/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/seo-agency-guangzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/seo-agency-shenzhen/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/services/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/services/digital-marketing/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/services/seo/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/services/social-media-management/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/services/website-development/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/social-media-management-agency-guangzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/social-media-management-agency-shenzhen/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/terms/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/website-development-agency-guangzhou/",
+   "reason": "new",
+   "since": "2026-11-24"
+  },
+  {
+   "url": "https://hurfi.com/website-development-agency-shenzhen/",
+   "reason": "new",
+   "since": "2026-11-24"
+  }
+ ],
+ "rejected": {},
+ "dailyQuota": 10,
+ "quotaUsedUpOn": "2026-11-24",
+ "runs": [
+  {
+   "date": "2026-11-24",
+   "source": "netlify-plugin (migrated)",
+   "queued": 135,
+   "posted": 10,
+   "accepted": 10,
+   "rejected": 0,
+   "remain": 0,
+   "stillQueued": 125
+  }
+ ],
+ "lastRun": {
+  "at": "2026-11-24T10:33:35Z",
+  "date": "2026-11-24",
+  "source": "netlify-plugin (migrated)",
+  "queued": 135,
+  "posted": 10,
+  "accepted": 10,
+  "rejected": 0,
+  "remain": 0,
+  "stillQueued": 125
+ }
+}
