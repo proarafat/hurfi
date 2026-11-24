@@ -699,6 +699,8 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
     old[m[1]] = { lastmod: g("lastmod"), changefreq: g("changefreq"), priority: g("priority") };
   }
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+  // sitemap-zh.xml: the Chinese pages only (for Baidu; declared in robots.txt next to sitemap.xml)
+  let zhXml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   const today = new Date().toISOString().slice(0, 10);
   for (const url of pages) {
     const src = rd(fileOf(url, EN));
@@ -710,9 +712,11 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
     const alt = hasZh ? `    <xhtml:link rel="alternate" hreflang="zh-CN" href="${SITE}${url}"/>\n    <xhtml:link rel="alternate" hreflang="en" href="${SITE}/en${url}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${url}"/>\n` : "";
     const entry = (loc, m) => `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${m.lastmod || today}</lastmod>\n    <changefreq>${m.changefreq || "monthly"}</changefreq>\n    <priority>${m.priority || "0.6"}</priority>\n${alt}  </url>\n`;
     if (hasZh) xml += entry(SITE + url, zmeta);
+    if (hasZh) zhXml += `  <url>\n    <loc>${SITE}${url}</loc>\n    <lastmod>${zmeta.lastmod || today}</lastmod>\n    <changefreq>${zmeta.changefreq || "monthly"}</changefreq>\n    <priority>${zmeta.priority || "0.6"}</priority>\n  </url>\n`;
     xml += entry(SITE + "/en" + url, meta);
   }
   out("sitemap.xml", xml + "</urlset>\n");
+  out("sitemap-zh.xml", zhXml + "</urlset>\n");
 }
 // llms.txt: Chinese first, then the English index with /en/ URLs
 {

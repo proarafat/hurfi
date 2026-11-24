@@ -57,4 +57,5 @@ Allow: /
 Disallow: /thank-you/
 
 Sitemap: https://hurfi.com/sitemap.xml
+Sitemap: https://hurfi.com/sitemap-zh.xml
 # Answer engines: https://hurfi.com/llms.txt
