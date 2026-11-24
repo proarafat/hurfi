@@ -768,7 +768,7 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
      (and pages work in mainland China, where Google is blocked). */
   window.dataLayer = window.dataLayer || []; window.gtag = window.gtag || function () { dataLayer.push(arguments); };
   (function () {
-    /* production hostname only: no pageviews from netlify.app, deploy previews or localhost */
+    /* production hostname only: no pageviews from preview, test or local copies */
     var host = location.hostname; if (host !== "hurfi.com" && host !== "www.hurfi.com") return;
     var done = false, ev = ["pointerdown", "keydown", "scroll", "touchstart", "mousemove"], opt = { once: true, passive: true };
     function add(src) { var s = document.createElement("script"); s.async = true; s.src = src; document.head.appendChild(s); }
