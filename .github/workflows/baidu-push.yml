@@ -33,20 +33,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out the push script
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           sparse-checkout: scripts/baidu
           persist-credentials: false
 
       - name: Check out the queue
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: baidu-push-state
           path: .state
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Send new, changed and waiting URLs to Baidu
         env:

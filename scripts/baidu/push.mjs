@@ -108,7 +108,7 @@ if (DRY) {
   if (!TOKEN) { log("::error::dry run: BAIDU_PUSH_TOKEN is not set"); failure = "no token"; }
   else {
     try {
-      const res = await fetch(`${ENDPOINT}?site=${encodeURIComponent(SITE)}&token=${encodeURIComponent(TOKEN)}`, { method: "POST", headers: { "Content-Type": "text/plain" }, body: "", signal: AbortSignal.timeout(30000) });
+      const res = await fetch(`${ENDPOINT}?site=${SITE}&token=${encodeURIComponent(TOKEN)}`, { method: "POST", headers: { "Content-Type": "text/plain" }, body: "", signal: AbortSignal.timeout(30000) });
       const body = await res.text(); let data = {}; try { data = JSON.parse(body); } catch (e) { /* not JSON */ }
       const msg = String(data.message || body).slice(0, 120);
       if (res.status === 401 || /token/i.test(msg)) { log(`::error::dry run: Baidu rejected the token (HTTP ${res.status}: ${msg})`); failure = "token rejected"; }
@@ -130,7 +130,7 @@ if (DRY) {
     const batch = left.slice(0, remain === null ? cap : Math.min(cap, remain));
     let res, body = "", data = {};
     try {
-      res = await fetch(`${ENDPOINT}?site=${encodeURIComponent(SITE)}&token=${encodeURIComponent(TOKEN)}`, {
+      res = await fetch(`${ENDPOINT}?site=${SITE}&token=${encodeURIComponent(TOKEN)}`, {
         method: "POST", headers: { "Content-Type": "text/plain" }, body: batch.join("\n"), signal: AbortSignal.timeout(30000),
       });
       body = await res.text();
