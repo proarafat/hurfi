@@ -16,7 +16,7 @@ export const META = {
   description: T(
     "Need a B2B SEO agency? Hurfi helps Chinese manufacturers improve Google visibility, reach overseas buyers and generate enquiries. Book a free SEO call.",
     "需要B2B SEO公司？Hurfi帮助中国制造企业提升谷歌曝光、触达海外买家并获取询盘。预约免费SEO咨询。"),
-  keywordsZh: "谷歌SEO,外贸SEO,B2B SEO,谷歌优化,外贸网站优化,国际SEO,AEO,GEO,AI搜索优化,海外获客",
+  keywordsZh: "谷歌SEO,外贸SEO,B2B SEO,国际SEO,AI搜索优化", // same as scripts/site/zh-keywords.mjs (the build uses that file)
   crumb: T("B2B SEO", "B2B外贸SEO"),
   serviceName: T("B2B SEO services", "B2B外贸SEO服务"),
 };

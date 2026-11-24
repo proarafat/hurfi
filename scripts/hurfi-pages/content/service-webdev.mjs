@@ -14,7 +14,7 @@ export const META = {
   description: T(
     "B2B website development for Chinese manufacturers and exporters: product catalogues, spec pages, RFQ forms and mobile-ready English sites. From ¥7,999.",
     "Hurfi为中国制造企业和出口企业建设外贸B2B网站：产品目录、规格参数页、询盘表单和适配手机的英文独立站，¥7,999起。"),
-  keywordsZh: "外贸网站建设,B2B网站建设,外贸独立站,工厂网站建设,企业官网建设,产品目录网站,询盘型网站,英文网站建设",
+  keywordsZh: "外贸网站建设,B2B网站建设,外贸独立站,工厂网站建设,产品目录网站", // same as scripts/site/zh-keywords.mjs (the build uses that file)
   crumb: T("B2B Website Development", "B2B外贸网站建设"),
   serviceName: T("B2B Website Development", "B2B外贸网站建设"),
 };

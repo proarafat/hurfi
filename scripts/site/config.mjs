@@ -8,7 +8,7 @@
 export const SITE = "https://hurfi.com";
 
 // Baidu Tongji (百度统计): paste the site ID to turn it on. Empty = the script is not loaded at all.
-export const BAIDU_TONGJI_ID = "";
+export const BAIDU_TONGJI_ID = "5e1db8368a36ab2ad2b2d0d609dfad52";
 
 // Baidu Search Resource Platform (ziyuan.baidu.com).
 // BAIDU_SITE_VERIFICATION: the code from 站点验证 → HTML标签验证 (the content="..." value). Empty = no tag.

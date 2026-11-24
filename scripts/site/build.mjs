@@ -19,6 +19,7 @@ import * as C from "./config.mjs";
 import { INDUSTRY, INSIGHT, CITY_SERVICE } from "./trust-lines.mjs";
 import { LOCALES } from "./locales.mjs";
 import { applySafe, findBanned } from "./adlaw.mjs";
+import { ZH_KEYWORDS } from "./zh-keywords.mjs";
 import * as CSS from "./css.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -540,6 +541,13 @@ function transform(html, url, L, enHtml, zhHtml) {
   // Baidu site verification: only from config, only on the Chinese home page
   h = h.replace(/[ \t]*<meta name="baidu-site-verification"[^>]*>\n?/g, "");
   if (C.BAIDU_SITE_VERIFICATION && L.key === "zh" && url === "/") h = h.replace("</head>", `  <meta name="baidu-site-verification" content="${E(C.BAIDU_SITE_VERIFICATION)}">\n</head>`);
+  // Chinese keywords meta (Baidu): one source, scripts/site/zh-keywords.mjs; replaces any keywords tag the page had
+  if (L.key === "zh") {
+    h = h.replace(/[ \t]*<meta name="keywords"[^>]*>\n?/g, "");
+    const kw = ZH_KEYWORDS[url];
+    if (kw && kw.length) h = h.replace(/(<meta name="description"[^>]*>\n?)/, (x) => x + `  <meta name="keywords" content="${E(kw.join(","))}">\n`);
+    else if (!noindex && url !== "/404/") console.warn(`keywords: no Chinese keywords for ${url} (add them to scripts/site/zh-keywords.mjs)`);
+  }
 
   let b = bodyPart;
   // links

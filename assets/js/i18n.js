@@ -5921,7 +5921,7 @@
 
 
   // OEM and ODM industry page, 2026-10-21.
-  zh["Marketing for OEM & ODM Manufacturers in China | Hurfi"] = "面向中国 OEM 与 ODM 制造商的营销服务 | Hurfi";
+  zh["Marketing for OEM & ODM Manufacturers in China | Hurfi"] = "中国 OEM 与 ODM 制造商营销服务 | Hurfi";
   zh["OEM & ODM"] = "OEM 与 ODM";
   zh["Websites and search for Chinese OEM and ODM manufacturers"] = "为中国 OEM 和 ODM 制造商打造网站与搜索表现";
   zh["A factory that builds for other brands sells a capability, not a catalogue. Brand owners abroad need to see what you can make, how you protect their designs and how a project runs — often without you naming a single client. Hurfi helps OEM and ODM manufacturers show that clearly in English."] = "为其他品牌代工的工厂卖的是能力，而不是产品目录。海外品牌方需要看到您能做什么、如何保护他们的设计、项目如何推进——而且往往在您不透露任何客户名称的前提下。Hurfi 帮助 OEM 和 ODM 制造商用清晰的英文把这一切呈现出来。";
@@ -10784,7 +10784,7 @@
   fr["Talk to us about Guangdong"] = "Parlons du Guangdong";
   zh["Infographic of four 2025 official figures for Guangdong: 20.9% of China’s goods trade; 59.6% of above-scale value added from equipment manufacturing; 336,300 industrial robot sets (+31.2%); 80.97 m TEU of containers (+4.5%)."] = "广东 2025 年四项官方数据图：占中国货物贸易的 20.9%；装备制造业占规模以上增加值的 59.6%；工业机器人 33.63 万套（+31.2%）；集装箱吞吐量 8097 万标箱（+4.5%）。";
   fr["Infographic of four 2025 official figures for Guangdong: 20.9% of China’s goods trade; 59.6% of above-scale value added from equipment manufacturing; 336,300 industrial robot sets (+31.2%); 80.97 m TEU of containers (+4.5%)."] = "Infographie de quatre chiffres officiels 2025 pour le Guangdong : 20,9 % du commerce de marchandises chinois ; 59,6 % de la valeur ajoutée au-dessus de la taille désignée issue de la fabrication d’équipements ; 336 300 ensembles de robots industriels (+31,2 %) ; 80,97 millions d’EVP de conteneurs (+4,5 %).";
-  zh["Incoterms 2020 Explained: EXW, FCA and DDP | Hurfi"] = "Incoterms 2020 详解：EXW、FCA 与 DDP | Hurfi";
+  zh["Incoterms 2020 Explained: EXW, FCA and DDP | Hurfi"] = "Incoterms 2020 贸易术语详解 | Hurfi";
   fr["Incoterms 2020 Explained: EXW, FCA and DDP | Hurfi"] = "Incoterms 2020 expliqués : EXW, FCA et DDP | Hurfi";
   zh["Incoterms 2020 explained for exporters"] = "写给出口企业的 Incoterms 2020 说明";
   fr["Incoterms 2020 explained for exporters"] = "Les Incoterms 2020 expliqués pour les exportateurs";
@@ -16636,7 +16636,7 @@
   zh["The checks below matter more than the label on the website."] = "以下核查比网站上的标签更重要。";
   zh["RFQ and sample-approval pages that shorten the first order."] = "缩短首单周期的询盘和样品批准页面。";
   zh["Is an OEM manufacturer the same as a contract manufacturer?"] = "OEM 制造商等同于合同制造商吗？";
-  zh["What Is an OEM Manufacturer? OEM vs ODM Explained | Hurfi"] = "什么是 OEM 制造商？OEM 与 ODM 的区别 | Hurfi";
+  zh["What Is an OEM Manufacturer? OEM vs ODM Explained | Hurfi"] = "什么是 OEM 制造商？与 ODM 的区别 | Hurfi";
   zh["covers what should be ready before an inquiry arrives."] = "则涵盖了询盘到来之前应准备好的内容。";
   zh["OEM, ODM or OBM, and which applies to this product."] = "OEM、ODM 还是 OBM，以及哪一种适用于本产品。";
   zh["Warranty, spare parts and end-of-life arrangements."] = "保修、备件和产品生命周期结束后的安排。";
