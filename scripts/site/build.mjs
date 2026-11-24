@@ -20,6 +20,7 @@ import { INDUSTRY, INSIGHT, CITY_SERVICE } from "./trust-lines.mjs";
 import { LOCALES } from "./locales.mjs";
 import { applySafe, findBanned } from "./adlaw.mjs";
 import { ZH_KEYWORDS } from "./zh-keywords.mjs";
+import { pageKey } from "./page-key.mjs";
 import * as CSS from "./css.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -453,7 +454,7 @@ const ver = (rel) => crypto.createHash("sha1").update(fs.readFileSync(path.join(
 const FONTS_CSS = `<link rel="stylesheet" href="/assets/css/fonts.css?v=${ver("assets/css/fonts.css")}">`;
 const SHARED_CSS = `<link rel="stylesheet" href="/assets/css/site-shared.css?v=${ver("assets/css/site-shared.css")}">`;
 const BAIDU = C.BAIDU_TONGJI_ID
-  ? `<script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.async=true;hm.src="https://hm.baidu.com/hm.js?${C.BAIDU_TONGJI_ID}";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>\n`
+  ? `<script>var _hmt=_hmt||[];(function(){var h=location.hostname;if(h!=="hurfi.com"&&h!=="www.hurfi.com")return;var hm=document.createElement("script");hm.async=true;hm.src="https://hm.baidu.com/hm.js?${C.BAIDU_TONGJI_ID}";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>\n`
   : "";
 
 /* ------------------------------------------------------------ JSON-LD */
@@ -687,6 +688,15 @@ for (const f of fs.readdirSync(ROOT)) {
   if (/\.(txt|svg|ico|png|webmanifest|xml)$/.test(f) && !["sitemap.xml", "llms.txt"].includes(f)) fs.copyFileSync(path.join(ROOT, f), path.join(DIST, f));
 }
 if (fs.existsSync(path.join(ROOT, "_headers"))) fs.copyFileSync(path.join(ROOT, "_headers"), path.join(DIST, "_headers"));
+// Netlify builds other than production (deploy previews, branch deploys): keep them out of search engines.
+// Netlify already sends "X-Robots-Tag: noindex" on these; this adds it on every file and a robots.txt that
+// disallows crawling. Production and local builds (no CONTEXT) are unchanged.
+const CONTEXT = process.env.CONTEXT || "";
+if (CONTEXT && CONTEXT !== "production") {
+  fs.appendFileSync(path.join(DIST, "_headers"), `\n# non-production build (${CONTEXT})\n/*\n  X-Robots-Tag: noindex, nofollow\n`);
+  fs.writeFileSync(path.join(DIST, "robots.txt"), `# non-production build (${CONTEXT}): not for search engines\nUser-agent: *\nDisallow: /\n`);
+  console.log(`context ${CONTEXT}: noindex header and disallow-all robots.txt`);
+}
 // redirects: old /zh/ URLs to the root, then the repo's own rules
 const ownRedirects = fs.existsSync(path.join(ROOT, "_redirects")) ? rd("_redirects") : "";
 out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs moved to the root.\n/zh    /    301\n/zh/*    /:splat    301\n/en    /en/    301\n# Pages without a Chinese version yet\n${redirects.join("\n")}\n\n${ownRedirects}`);
@@ -758,6 +768,8 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
      (and pages work in mainland China, where Google is blocked). */
   window.dataLayer = window.dataLayer || []; window.gtag = window.gtag || function () { dataLayer.push(arguments); };
   (function () {
+    /* production hostname only: no pageviews from netlify.app, deploy previews or localhost */
+    var host = location.hostname; if (host !== "hurfi.com" && host !== "www.hurfi.com") return;
     var done = false, ev = ["pointerdown", "keydown", "scroll", "touchstart", "mousemove"], opt = { once: true, passive: true };
     function add(src) { var s = document.createElement("script"); s.async = true; s.src = src; document.head.appendChild(s); }
     function load() {
@@ -825,6 +837,17 @@ if (bad.length) { console.error("Old campus address still in:", bad.slice(0, 10)
 const cfgZh = JSON.stringify([C.STATS, C.STATS_NOTE, C.LOGOS, C.OFFER, C.PRICING, C.COMPARE, C.CASE, C.TRUST, INDUSTRY, INSIGHT, CITY_SERVICE, F, FT], (k, v) => v).match(/[一-鿿][^"]*/g) || [];
 const cfgBad = cfgZh.filter((s) => BANNED.test(s));
 if (cfgBad.length) { console.error("Absolute terms in config copy:", cfgBad); process.exit(1); }
+// zh-pages.json: content fingerprint of every Chinese page in sitemap-zh.xml. The daily Baidu push workflow
+// (.github/workflows/baidu-push.yml) reads it from the live site to find pages whose content really changed.
+{
+  const keys = {};
+  for (const m of fs.readFileSync(path.join(DIST, "sitemap-zh.xml"), "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const p = m[1].replace(SITE, "");
+    const f = path.join(DIST, decodeURI(p), "index.html");
+    if (fs.existsSync(f)) keys[m[1]] = pageKey(fs.readFileSync(f, "utf8"));
+  }
+  out("zh-pages.json", JSON.stringify({ generated: new Date().toISOString(), pages: keys }));
+}
 fs.writeFileSync(path.join(ROOT, "build-report.json"), JSON.stringify(report, null, 1));
 console.log(`dist: ${report.zh} Chinese pages at /, ${report.en} English pages at /en/; ${report.fallback.length} without Chinese (302 to /en/): ${report.fallback.join(", ")}`);
 console.log(`ad-law: ${Object.values(report.rewrites).reduce((a, b) => a + b, 0)} safe rewrites on ${Object.keys(report.rewrites).length} Chinese pages; ${adlawFail.length} banned term(s) left`);

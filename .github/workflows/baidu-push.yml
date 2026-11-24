@@ -1,0 +1,69 @@
+# Daily Baidu link submission (百度普通收录 → API提交) straight from GitHub Actions to Baidu.
+# Nothing is built or deployed: no Netlify builds, no Netlify credits.
+#
+# - Reads the live https://hurfi.com/sitemap-zh.xml and https://hurfi.com/zh-pages.json (page fingerprints).
+# - Sends URLs still waiting from earlier days, new URLs and pages whose content changed, within Baidu's daily
+#   quota; the rest waits for the next day. Nothing to send → no request to Baidu.
+# - The queue lives in state.json on the branch baidu-push-state. Netlify builds only main, and the commit
+#   message carries [skip netlify], so saving the queue never starts a Netlify build.
+# - Token: repository secret BAIDU_PUSH_TOKEN (Settings → Secrets and variables → Actions). It is passed only
+#   as an environment variable, never printed, and GitHub masks it in logs.
+name: Baidu push
+
+on:
+  schedule:
+    - cron: "30 1 * * *" # 01:30 UTC = 09:30 Beijing time
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: read the sitemap and the queue, send nothing to Baidu, save nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # only to save the queue on the baidu-push-state branch
+
+concurrency:
+  group: baidu-push
+  cancel-in-progress: false # a second run waits for the first; never two at once
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the push script
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/baidu
+          persist-credentials: false
+
+      - name: Check out the queue
+        uses: actions/checkout@v4
+        with:
+          ref: baidu-push-state
+          path: .state
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Send new, changed and waiting URLs to Baidu
+        env:
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+        run: node scripts/baidu/push.mjs .state/state.json
+
+      - name: Save the queue
+        if: always()
+        working-directory: .state
+        run: |
+          if git diff --quiet; then echo "Queue unchanged: nothing to save."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qam "Baidu push state $(TZ=Asia/Shanghai date +%F) [skip netlify] [skip ci]"
+          for i in 1 2 3; do
+            git push -q origin HEAD:baidu-push-state && { echo "Queue saved."; exit 0; }
+            git pull -q --rebase origin baidu-push-state
+          done
+          echo "::error::Could not save the queue."; exit 1

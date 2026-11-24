@@ -14,11 +14,8 @@ export const BAIDU_TONGJI_ID = "5e1db8368a36ab2ad2b2d0d609dfad52";
 // BAIDU_SITE_VERIFICATION: the code from 站点验证 → HTML标签验证 (the content="..." value). Empty = no tag.
 // The tag goes on the Chinese home page (https://hurfi.com/).
 export const BAIDU_SITE_VERIFICATION = "codeva-xVWX79g5yR";
-// BAIDU_PUSH_TOKEN: the token from 普通收录 → API提交. When set, every production deploy sends new or
-// changed Chinese page URLs to Baidu (netlify/plugins/baidu-push). Best kept out of git: set it as the
-// Netlify environment variable BAIDU_PUSH_TOKEN instead (Site configuration → Environment variables).
-// Empty = nothing is sent.
-export const BAIDU_PUSH_TOKEN = process.env.BAIDU_PUSH_TOKEN || "";
+// Baidu link submission (普通收录 → API提交) is not part of the site build: .github/workflows/baidu-push.yml
+// sends new and changed Chinese URLs daily, with the token in the GitHub Actions secret BAIDU_PUSH_TOKEN.
 
 export const STATS = [
   { n: "300+", en: "Websites built", zh: "已交付网站" },

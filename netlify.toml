@@ -6,16 +6,17 @@
   #    the previous version stays live.
   command = "node scripts/hurfi-pages/zh_mirror.mjs && node scripts/site/build.mjs"
   publish = "dist"
+  # No build (and no build credits) for commits that change only GitHub workflows or the Baidu push script:
+  # neither is part of the published site. Exit 0 = skip. Builds always run when the previous build's commit
+  # is unknown or the same commit is built again.
+  ignore = "[ -n \"$CACHED_COMMIT_REF\" ] && [ \"$CACHED_COMMIT_REF\" != \"$COMMIT_REF\" ] && git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude).github' ':(exclude)scripts/baidu'"
 
 [build.environment]
   NODE_VERSION = "20"
   GIT_LFS_ENABLED = "true"
 
-# After a production deploy: send new/changed Chinese URLs to Baidu (off until BAIDU_PUSH_TOKEN is set).
-[[plugins]]
-  package = "./netlify/plugins/baidu-push"
-  [plugins.inputs]
-    limit = 50
+# Baidu link submission runs on GitHub Actions against the live site (.github/workflows/baidu-push.yml),
+# not as a Netlify build plugin, so it never needs a build or deploy.
 
 [[redirects]]
   from = "/home"
@@ -44,6 +45,20 @@
 
 [[redirects]]
   from = "https://www.hurfi.com/*"
+  to = "https://hurfi.com/:splat"
+  status = 301
+  force = true
+
+# The Netlify hostnames of the production site go to hurfi.com: no duplicate copy for search engines and no
+# analytics from them. (Deploy previews and deploy permalinks have their own hostnames; Netlify marks them noindex.)
+[[redirects]]
+  from = "https://hurfiglobal.netlify.app/*"
+  to = "https://hurfi.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://main--hurfiglobal.netlify.app/*"
   to = "https://hurfi.com/:splat"
   status = 301
   force = true
@@ -160,6 +175,12 @@
   for = "/sitemap-zh.xml"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/zh-pages.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    X-Robots-Tag = "noindex"
 
 [[headers]]
   for = "/robots.txt"
