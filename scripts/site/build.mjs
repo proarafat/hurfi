@@ -827,6 +827,22 @@ out("_redirects", `# Chinese-first (scripts/site/build.mjs): the old /zh/ URLs m
   }
   const kb = (n) => Math.round(n / 1024);
   console.log(`css: ${Object.entries(sheets).map(([n, x]) => `${n} ${kb(x.before)}→${kb(x.after)} KB`).join(", ")}; critical CSS inlined on ${files.length} pages (avg ${kb(critTotal / files.length)} KB); ${notes} Google links noted on Chinese pages`);
+
+  // cache busting: /assets/*.js|css?v=… gets the hash of the file actually published. These files are cached for a
+  // year (immutable) by browsers and Cloudflare, so a hand-written version that is not bumped keeps serving the old
+  // file; with the content hash every change gets a new URL and unchanged files keep theirs.
+  const vcache = {};
+  const vOf = (rel) => {
+    if (!(rel in vcache)) { const p = path.join(DIST, rel); vcache[rel] = fs.existsSync(p) ? crypto.createHash("sha1").update(fs.readFileSync(p)).digest("hex").slice(0, 10) : null; }
+    return vcache[rel];
+  };
+  let busted = 0;
+  for (const f of files) {
+    const s = fs.readFileSync(f, "utf8");
+    const t = s.replace(/((?:src|href)="\/(assets\/[^"?#]+\.(?:js|css)))(?:\?v=[^"]*)?"/g, (m, a, rel) => { const v = vOf(rel); if (!v) return m; busted++; return `${a}?v=${v}"`; });
+    if (t !== s) fs.writeFileSync(f, t);
+  }
+  console.log(`assets: ${busted} JS/CSS references versioned by content hash (${Object.values(vcache).filter(Boolean).length} files)`);
 }
 
 // guard: no campus/university address anywhere in the output, no banned terms in config copy
