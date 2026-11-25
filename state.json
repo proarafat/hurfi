@@ -3,97 +3,97 @@
  "site": "https://hurfi.com",
  "submitted": {
   "https://hurfi.com/": {
-   "hash": null,
+   "hash": "c79b9837eb70e2f4757ec1b30c2e68f8b17177f8",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/about/": {
-   "hash": null,
+   "hash": "15b51a742ca44c0d539f9a55ccf93882606468aa",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/book-consultation/": {
-   "hash": null,
+   "hash": "7780089955fe928342136edb07f47048e61b39a7",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/brand-guidelines/": {
-   "hash": null,
+   "hash": "61fb830e57320ba13ed4ff19dd217a4cb08bc41c",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/contact/": {
-   "hash": null,
+   "hash": "da1d1149c514677429e2163dd3fb40c5be9acbf7",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/digital-marketing-agency-guangzhou/": {
-   "hash": null,
+   "hash": "e239374cc54d739a0c9b375f739b64e59568ecd5",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/digital-marketing-agency-shenzhen/": {
-   "hash": null,
+   "hash": "b463e2710ca0273c8989df48ffb39c8941d03a15",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/industries/": {
-   "hash": null,
+   "hash": "37556d0bffef04969cf3ef4034c94b9ef66db753",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/industries/aerospace-aviation-supply-chain/": {
-   "hash": null,
+   "hash": "f1537efbb3f60ca31aeba6d2097f8f33f2ed48a9",
    "at": "2026-11-24",
    "source": "netlify-plugin"
   },
   "https://hurfi.com/industries/agritech-agricultural-equipment/": {
-   "hash": null,
+   "hash": "afb0dca3cf0342e6aef6bcb89c0eecf278366019",
    "at": "2026-11-24",
    "source": "netlify-plugin"
+  },
+  "https://hurfi.com/industries/apparel-footwear-production/": {
+   "hash": "a1c287ea0803b90f2df9062a4f0b0b68ad0d1d5f",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/automotive-mobility-components/": {
+   "hash": "ea77435a9efc987ce63afe067863ac4d6ccc4ecc",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/battery-energy-storage/": {
+   "hash": "c314234cbb0ffa29bbf5e5ca22662e12b83a4b53",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/chemicals-specialty-materials/": {
+   "hash": "c7c78d2bfeb9c7666722d7de65e257bdb187cea1",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/": {
+   "hash": "291070a7406c1180d8b22ac2ff1c63d7faa54932",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/construction-materials-systems/": {
+   "hash": "d3c8bb1c0794316c532a24b82b566868665b0f31",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/data-centers-digital-infrastructure/": {
+   "hash": "bf5379dc124149228448b74ac5da1e393bde2dec",
+   "at": "2026-11-25",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/electronics-semiconductor/": {
+   "hash": "d6c3f0be10bb494731c375dc36ef2b583b2e6f26",
+   "at": "2026-11-25",
+   "source": "github-actions"
   }
  },
  "pending": [
-  {
-   "url": "https://hurfi.com/industries/apparel-footwear-production/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/automotive-mobility-components/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/battery-energy-storage/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/chemicals-specialty-materials/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/commercial-cleaning-hygiene-equipment/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/construction-materials-systems/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/data-centers-digital-infrastructure/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/electronics-semiconductor/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
   {
    "url": "https://hurfi.com/industries/environmental-circular-economy/",
    "reason": "new",
@@ -681,8 +681,8 @@
   }
  ],
  "rejected": {},
- "dailyQuota": 10,
- "quotaUsedUpOn": "2026-11-24",
+ "dailyQuota": 8,
+ "quotaUsedUpOn": "2026-11-25",
  "runs": [
   {
    "date": "2026-11-24",
@@ -693,17 +693,27 @@
    "rejected": 0,
    "remain": 0,
    "stillQueued": 125
+  },
+  {
+   "date": "2026-11-25",
+   "queued": 125,
+   "posted": 8,
+   "accepted": 8,
+   "rejected": 0,
+   "remain": 0,
+   "stillQueued": 117,
+   "calls": 3
   }
  ],
  "lastRun": {
-  "at": "2026-11-24T10:33:35Z",
-  "date": "2026-11-24",
-  "source": "netlify-plugin (migrated)",
-  "queued": 135,
-  "posted": 10,
-  "accepted": 10,
+  "at": "2026-11-25T09:57:37.516Z",
+  "date": "2026-11-25",
+  "queued": 125,
+  "posted": 8,
+  "accepted": 8,
   "rejected": 0,
   "remain": 0,
-  "stillQueued": 125
+  "stillQueued": 117,
+  "calls": 3
  }
 }
