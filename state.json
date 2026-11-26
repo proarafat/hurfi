@@ -91,59 +91,59 @@
    "hash": "d6c3f0be10bb494731c375dc36ef2b583b2e6f26",
    "at": "2026-11-25",
    "source": "github-actions"
+  },
+  "https://hurfi.com/industries/environmental-circular-economy/": {
+   "hash": "d16e3f29f221d04a1db700bbe799f13a64abb9e7",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/ev-e-mobility/": {
+   "hash": "8eabb220e783a175db48a5d99dac90eb45cb1487",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/food-processing-equipment/": {
+   "hash": "e113e148a9dbdd3dfeba2f9a7c8727c3366a2f84",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/furniture-interior-manufacturing/": {
+   "hash": "e133133514adee9b646a100eac2c9f9c981eaaf0",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/industrial-automation-robotics/": {
+   "hash": "17e207e318cad358c40712dbf7c937c4d2eabb58",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/industrial-hvac-building-systems/": {
+   "hash": "c5f16beee61645f8f7b25d1b855427a694202cf6",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/industrial-machinery-cnc/": {
+   "hash": "6cc89f8d017cfca63b51fff6d9e03f1381764414",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/industrial-safety-testing/": {
+   "hash": "176236e6500f5c104ed173edc388e90b812eb20a",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/industrial-software-data/": {
+   "hash": "d7052d4a16fe00c35078d751954919638d569355",
+   "at": "2026-11-26",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/laboratory-scientific-equipment/": {
+   "hash": "c1bbacf583ba0b5afcde0339281e968190cde94a",
+   "at": "2026-11-26",
+   "source": "github-actions"
   }
  },
  "pending": [
-  {
-   "url": "https://hurfi.com/industries/environmental-circular-economy/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/ev-e-mobility/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/food-processing-equipment/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/furniture-interior-manufacturing/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/industrial-automation-robotics/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/industrial-hvac-building-systems/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/industrial-machinery-cnc/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/industrial-safety-testing/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/industrial-software-data/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/laboratory-scientific-equipment/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
   {
    "url": "https://hurfi.com/industries/logistics-warehouse-technology/",
    "reason": "new",
@@ -681,8 +681,8 @@
   }
  ],
  "rejected": {},
- "dailyQuota": 8,
- "quotaUsedUpOn": "2026-11-25",
+ "dailyQuota": 10,
+ "quotaUsedUpOn": "2026-11-26",
  "runs": [
   {
    "date": "2026-11-24",
@@ -703,17 +703,27 @@
    "remain": 0,
    "stillQueued": 117,
    "calls": 3
+  },
+  {
+   "date": "2026-11-26",
+   "queued": 117,
+   "posted": 10,
+   "accepted": 10,
+   "rejected": 0,
+   "remain": 0,
+   "stillQueued": 107,
+   "calls": 2
   }
  ],
  "lastRun": {
-  "at": "2026-11-25T09:57:37.516Z",
-  "date": "2026-11-25",
-  "queued": 125,
-  "posted": 8,
-  "accepted": 8,
+  "at": "2026-11-26T09:41:48.689Z",
+  "date": "2026-11-26",
+  "queued": 117,
+  "posted": 10,
+  "accepted": 10,
   "rejected": 0,
   "remain": 0,
-  "stillQueued": 117,
-  "calls": 3
+  "stillQueued": 107,
+  "calls": 2
  }
 }
