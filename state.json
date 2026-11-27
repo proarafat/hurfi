@@ -141,59 +141,59 @@
    "hash": "c1bbacf583ba0b5afcde0339281e968190cde94a",
    "at": "2026-11-26",
    "source": "github-actions"
+  },
+  "https://hurfi.com/industries/logistics-warehouse-technology/": {
+   "hash": "574e70ce859356cc92f895e38b8f629127e15671",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/marine-shipbuilding-supply-chain/": {
+   "hash": "3c9d57dde5afb3b37242ab8041edfd5e2fc47c0d",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/medical-devices-diagnostics/": {
+   "hash": "7b2bb45f611cba3acf82932e71b335dc599bf356",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/mining-mineral-processing-equipment/": {
+   "hash": "86c9de11a205dc04b6a5478aaaa9aa16bf48f386",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/oem-odm/": {
+   "hash": "e139306a589692eb92f34af7a77d50d45892e345",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/optics-photonics/": {
+   "hash": "275dd4cb1b8b5014198ba35ebe5c24055b6ccef0",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/packaging-printing-manufacturing/": {
+   "hash": "6247088fdeaf104a28a6f638a2759a2a051fc558",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/pharma-bioprocess-manufacturing/": {
+   "hash": "5062ab92428c263aad87acce630e51549a6d683c",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/power-grid-electrical-equipment/": {
+   "hash": "c6942f3ca238df5f08d11d9bbd2f222da997c52b",
+   "at": "2026-11-27",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/precision-manufacturing-components/": {
+   "hash": "ffb156c784e1f246b78a85ff0f6d14fc1758bb27",
+   "at": "2026-11-27",
+   "source": "github-actions"
   }
  },
  "pending": [
-  {
-   "url": "https://hurfi.com/industries/logistics-warehouse-technology/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/marine-shipbuilding-supply-chain/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/medical-devices-diagnostics/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/mining-mineral-processing-equipment/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/oem-odm/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/optics-photonics/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/packaging-printing-manufacturing/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/pharma-bioprocess-manufacturing/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/power-grid-electrical-equipment/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/precision-manufacturing-components/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
   {
    "url": "https://hurfi.com/industries/smart-buildings-urban-infrastructure/",
    "reason": "new",
@@ -682,7 +682,7 @@
  ],
  "rejected": {},
  "dailyQuota": 10,
- "quotaUsedUpOn": "2026-11-26",
+ "quotaUsedUpOn": "2026-11-27",
  "runs": [
   {
    "date": "2026-11-24",
@@ -713,17 +713,27 @@
    "remain": 0,
    "stillQueued": 107,
    "calls": 2
+  },
+  {
+   "date": "2026-11-27",
+   "queued": 107,
+   "posted": 10,
+   "accepted": 10,
+   "rejected": 0,
+   "remain": 0,
+   "stillQueued": 97,
+   "calls": 1
   }
  ],
  "lastRun": {
-  "at": "2026-11-26T09:41:48.689Z",
-  "date": "2026-11-26",
-  "queued": 117,
+  "at": "2026-11-27T09:46:56.607Z",
+  "date": "2026-11-27",
+  "queued": 107,
   "posted": 10,
   "accepted": 10,
   "rejected": 0,
   "remain": 0,
-  "stillQueued": 107,
-  "calls": 2
+  "stillQueued": 97,
+  "calls": 1
  }
 }
