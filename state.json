@@ -191,59 +191,59 @@
    "hash": "ffb156c784e1f246b78a85ff0f6d14fc1758bb27",
    "at": "2026-11-27",
    "source": "github-actions"
+  },
+  "https://hurfi.com/industries/smart-buildings-urban-infrastructure/": {
+   "hash": "e6a2d7277a3e6e89dcc9bca993b17e481ec4b58e",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/solar-renewable-power/": {
+   "hash": "5dae194bc444a508736ba855704feceb6124aec4",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/textiles-technical-fabrics/": {
+   "hash": "c27cc989845de3843825b66484347b1c1a20d93d",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/industries/water-wastewater-technology/": {
+   "hash": "d632b505660071fea532be94476f3faa44d403d5",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/": {
+   "hash": "5e6f72c371c38fa7f8ab0ed701840a5e33f89b43",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/ai-search-for-manufacturers/": {
+   "hash": "99e83ab3559d673288f511f07dca5f3a009861c0",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/canton-fair-guide-for-exporters/": {
+   "hash": "06843ad5e73f96d9bd1c6fb0c58dd4a860d38df6",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/": {
+   "hash": "634898dd98f9b46913359917e315d05075a00bac",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/certifications-page-for-export-websites/": {
+   "hash": "dc035bdaff175939290470025cfd1029eab7172f",
+   "at": "2026-11-28",
+   "source": "github-actions"
+  },
+  "https://hurfi.com/insights/china-export-markets-2025/": {
+   "hash": "42a27ff81e0722c39170974d302bab90b5992e84",
+   "at": "2026-11-28",
+   "source": "github-actions"
   }
  },
  "pending": [
-  {
-   "url": "https://hurfi.com/industries/smart-buildings-urban-infrastructure/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/solar-renewable-power/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/textiles-technical-fabrics/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/industries/water-wastewater-technology/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/ai-search-for-manufacturers/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/canton-fair-guide-for-exporters/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/ce-marking-for-chinese-manufacturers/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/certifications-page-for-export-websites/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
-  {
-   "url": "https://hurfi.com/insights/china-export-markets-2025/",
-   "reason": "new",
-   "since": "2026-11-24"
-  },
   {
    "url": "https://hurfi.com/insights/choosing-an-export-marketing-agency/",
    "reason": "new",
@@ -682,7 +682,7 @@
  ],
  "rejected": {},
  "dailyQuota": 10,
- "quotaUsedUpOn": "2026-11-27",
+ "quotaUsedUpOn": "2026-11-28",
  "runs": [
   {
    "date": "2026-11-24",
@@ -723,17 +723,27 @@
    "remain": 0,
    "stillQueued": 97,
    "calls": 1
+  },
+  {
+   "date": "2026-11-28",
+   "queued": 97,
+   "posted": 10,
+   "accepted": 10,
+   "rejected": 0,
+   "remain": 0,
+   "stillQueued": 87,
+   "calls": 1
   }
  ],
  "lastRun": {
-  "at": "2026-11-27T09:46:56.607Z",
-  "date": "2026-11-27",
-  "queued": 107,
+  "at": "2026-11-28T08:59:19.979Z",
+  "date": "2026-11-28",
+  "queued": 97,
   "posted": 10,
   "accepted": 10,
   "rejected": 0,
   "remain": 0,
-  "stillQueued": 97,
+  "stillQueued": 87,
   "calls": 1
  }
 }
